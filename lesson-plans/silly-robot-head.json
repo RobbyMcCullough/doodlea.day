@@ -1,0 +1,124 @@
+{
+  "slug": "silly-robot-head",
+  "finished": "assets/silly-robot-head-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker-doodle contact sheet generated during the June 25 Doodle.day run, then promoted from the generated-image cache after review.",
+    "notes": "Originally an alternate candidate for June 25; preserved because the subject has strong Doodle.day fit."
+  },
+  "process_strategy": "The sheet builds one centered robot head from basic rounded rectangle construction through antenna, ears, face, neck plate, buttons, marker color, and final outline punch-up.",
+  "final_elements": [
+    {
+      "name": "rounded robot head",
+      "introduced_by_step": 1,
+      "description": "A wide rounded rectangle robot head with a centered guide line."
+    },
+    {
+      "name": "spring antenna",
+      "introduced_by_step": 2,
+      "description": "A zigzag spring antenna with a round yellow ball on top."
+    },
+    {
+      "name": "side bolts",
+      "introduced_by_step": 2,
+      "description": "Small horizontal bolt shapes on each side of the head."
+    },
+    {
+      "name": "mismatched eyes",
+      "introduced_by_step": 3,
+      "description": "One round eye and one square eye with black pupils."
+    },
+    {
+      "name": "toothy grin",
+      "introduced_by_step": 3,
+      "description": "A wide curved robot smile divided into simple square teeth."
+    },
+    {
+      "name": "bottom control panel",
+      "introduced_by_step": 4,
+      "description": "A small rectangular panel under the head with three button circles."
+    },
+    {
+      "name": "blue head fill",
+      "introduced_by_step": 5,
+      "description": "Bright blue marker fill across the robot head and bottom panel."
+    },
+    {
+      "name": "yellow and red accent fills",
+      "introduced_by_step": 5,
+      "description": "Yellow fill for the antenna and side bolts plus red fill for the bottom buttons."
+    },
+    {
+      "name": "white highlight marks",
+      "introduced_by_step": 5,
+      "description": "Small white shine marks on the robot head and antenna ball."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/silly-robot-head-step-1.jpg",
+      "step_name": "Start the head shape",
+      "visible_job": "Draws the rounded rectangle robot head and center guide.",
+      "introduces": [
+        "rounded robot head"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/silly-robot-head-step-2.jpg",
+      "step_name": "Add antenna and bolts",
+      "visible_job": "Adds the zigzag antenna, top ball, and side bolt shapes.",
+      "introduces": [
+        "spring antenna",
+        "side bolts"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/silly-robot-head-step-3.jpg",
+      "step_name": "Build the robot face",
+      "visible_job": "Adds the mismatched eyes, pupils, and wide toothy grin.",
+      "introduces": [
+        "mismatched eyes",
+        "toothy grin"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/silly-robot-head-step-4.jpg",
+      "step_name": "Add the button panel",
+      "visible_job": "Adds the bottom control panel and three button circles.",
+      "introduces": [
+        "bottom control panel"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/silly-robot-head-step-5.jpg",
+      "step_name": "Fill the robot color",
+      "visible_job": "Adds blue marker fill, yellow accents, red buttons, and white highlight marks.",
+      "introduces": [
+        "blue head fill",
+        "yellow and red accent fills",
+        "white highlight marks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the robot",
+    "asset": "assets/silly-robot-head-finished-v1.jpg",
+    "visible_job": "Thickens the black outline, strengthens marker fills, and cleans already introduced highlights.",
+    "allowed_changes": [
+      "black outline thickening",
+      "marker fill strengthening",
+      "small highlight cleanup",
+      "minor edge clarification on already introduced eyes, grin, antenna, bolts, and buttons"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

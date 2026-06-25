@@ -12,7 +12,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 const lessons = [
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "004",
+    day: "005",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -65,7 +65,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -118,7 +118,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -171,7 +171,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "001",
+    day: "002",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -218,6 +218,59 @@ const lessons = [
         name: "Punch up the trophy",
         text: "Go back over the black outline, strengthen the gold and orange fills, and clean only the edges you already drew.",
         tip: "Do not add new decorations in the final pass. The sticker should stay bold and simple.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "silly-robot-head",
+    day: "001",
+    date: "Sunday, June 21",
+    isoDate: "2026-06-21",
+    subject: "a silly robot head",
+    headlineSubject: "a silly<br>robot head",
+    shortSubject: "a silly robot head",
+    lessonTitle: "Let's doodle a robot head",
+    description: "Learn how to draw a silly robot head with a rounded blue face, spring antenna, side bolts, mismatched eyes, toothy grin, bottom button panel, and bold marker color.",
+    intro: "Build a goofy robot from one rounded rectangle, then add mismatched eyes, a big grin, an antenna, and saturated marker color.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#1697c8",
+    finished: "silly-robot-head-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a silly blue robot head with mismatched eyes, toothy grin, spring antenna, yellow side bolts, and red buttons",
+    materials: ["Drawing paper", "Black marker", "Blue, yellow, and red markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the blue fill looks best when marker streaks stay visible.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start the head shape",
+        text: "Draw a wide rounded rectangle for the robot head, then add a light center guide down the middle.",
+        tip: "Round the corners generously. A boxy shape with soft corners feels friendlier than a perfect square."
+      },
+      {
+        name: "Add antenna and bolts",
+        text: "Place a zigzag spring antenna on top with a circle at the end, then add short bolt shapes on both sides.",
+        tip: "Keep the side bolts level with each other. That little alignment makes the silly face easier to read."
+      },
+      {
+        name: "Build the robot face",
+        text: "Draw one big round eye, one square eye, small pupils, and a wide curved smile with simple tooth divisions.",
+        tip: "Let the eyes mismatch on purpose. The contrast is what gives this robot its personality."
+      },
+      {
+        name: "Add the button panel",
+        text: "Attach a small rectangle under the head, then draw three round buttons across it.",
+        tip: "Keep the panel narrower than the head so it reads like a small control strip, not a second face."
+      },
+      {
+        name: "Fill the robot color",
+        text: "Fill the head and panel blue, color the antenna and side bolts yellow, and make the three buttons red.",
+        tip: "Color around the eyes and teeth carefully. Leaving those areas white keeps the expression crisp."
+      },
+      {
+        name: "Punch up the robot",
+        text: "Go back over the black outlines, strengthen the marker fills, and add small white highlight marks to the head and antenna ball.",
+        tip: "Do not add new parts at the end. The final pass should make the robot bolder, not busier.",
         image: true
       }
     ]

@@ -54,3 +54,11 @@
   `/tmp/firework-burst-doodle-steps.jpg`, Cove/Chrome desktop and mobile
   screenshots saved under `/tmp/sketcha-doodle-backfill-qa/`, and a compact QA
   sheet at `/tmp/sketcha-doodle-backfill-qa/qa-contact-sheet.jpg`.
+- Promoted the cached silly robot head contact sheet into a real backdated
+  Doodle.day lesson on June 25, 2026: `silly-robot-head`, June 21 / Day 001.
+  Existing Doodle day labels shifted forward by one, so the June 25 pizza slice
+  is now Day 005. Finished image rating: 9.1/10.
+- Robot QA used `python3 scripts/check-tutorial-readiness.py silly-robot-head`,
+  a step contact-sheet review at `/tmp/silly-robot-head-steps.jpg`, Cove/Chrome
+  desktop and mobile screenshots saved under `/tmp/doodle-robot-qa/`, and a
+  compact QA sheet at `/tmp/doodle-robot-qa/qa-contact-sheet.jpg`.
