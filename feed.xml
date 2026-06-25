@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Doodle.day Daily Doodles</title>
-    <link>https://doodle.localhost/</link>
-    <atom:link href="https://doodle.localhost/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://doodle.day/</link>
+    <atom:link href="https://doodle.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Jun 2026 19:00:00 GMT</lastBuildDate>
     <item>
       <title>How to draw hot rod marker flames</title>
-      <link>https://doodle.localhost/tutorials/hot-rod-marker-flames.html</link>
-      <guid isPermaLink="true">https://doodle.localhost/tutorials/hot-rod-marker-flames.html</guid>
+      <link>https://doodle.day/tutorials/hot-rod-marker-flames.html</link>
+      <guid isPermaLink="true">https://doodle.day/tutorials/hot-rod-marker-flames.html</guid>
       <pubDate>Wed, 24 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw hot rod-style marker flames with bold black outlines, orange fill, yellow inner flames, red edge accents, and handmade marker texture.</description>
-      <media:content url="https://doodle.localhost/assets/hot-rod-marker-flames-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodle.day/assets/hot-rod-marker-flames-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

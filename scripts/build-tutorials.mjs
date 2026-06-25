@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
-const siteUrl = "https://doodle.localhost";
+const siteUrl = (process.env.SITE_URL || "https://doodle.day").replace(/\/$/, "");
 const siteName = "Doodle.day";
 const siteSlug = "doodle";
 const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">

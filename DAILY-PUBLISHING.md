@@ -40,8 +40,9 @@ python3 scripts/check-tutorial-readiness.py {slug}
 
 8. QA `https://doodle.localhost/`, `https://doodle.localhost/library.html`, and
    `https://doodle.localhost/tutorials/{slug}.html` at desktop and mobile widths.
-9. Commit locally when checks pass. Do not push until Doodle.day has a configured
-   remote/deploy path.
+9. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
+   connected, routine daily Doodle.day lessons may push after all quality gates
+   pass.
 
 ## Stop Conditions
 

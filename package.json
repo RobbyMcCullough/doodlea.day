@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "node scripts/build-tutorials.mjs",
+    "build:production": "node scripts/build-public.mjs",
+    "check": "python3 scripts/check-tutorial-readiness.py hot-rod-marker-flames"
+  }
+}

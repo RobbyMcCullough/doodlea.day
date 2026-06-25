@@ -39,8 +39,9 @@ For daily doodle work, read these files in order:
 4. `PROCESS-IMAGE-WORKFLOW.md`
 
 Then create one marker-based doodle lesson, rebuild, run readiness checks, QA
-homepage/library/tutorial pages, and commit locally when the quality gates pass.
-Do not push Doodle.day until a real domain/repository/deploy path exists.
+homepage/library/tutorial pages, and commit when the quality gates pass. Once
+the GitHub/Cloudflare deployment path is connected, normal daily Doodle.day
+lessons may push after QA under the same standard as Sketcha.day.
 
 ## Conventions
 
@@ -64,3 +65,13 @@ page under `tutorials/`.
 
 The `lessons` array owns all public tutorials. Add new daily doodles there.
 Current local seed: Day 001, `hot-rod-marker-flames`.
+
+For production, run:
+
+```sh
+npm run build:production
+```
+
+That sets `SITE_URL=https://doodle.day`, rebuilds the site, and writes a clean
+Cloudflare Pages output folder to `dist/`. Deploy `dist/`, not the repository
+root, so drafts, process plans, scripts, and agent notes stay out of production.

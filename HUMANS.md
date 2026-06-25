@@ -9,7 +9,8 @@
 ## Project Context
 - Parent project: Daily drawing prompt/tutorial websites
 - Sister project: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Local-only status: domain not purchased/configured yet; no remote deploy path.
+- Domain: `doodle.day`
+- Local Cove URL: `https://doodle.localhost/`
 
 ## Return Notes
 - Doodle.day is a local sibling to Sketcha.day with the same generated-page
@@ -19,8 +20,11 @@
 - First local lesson is `hot-rod-marker-flames`, promoted from the Sketcha.day
   private marker-flames draft.
 - Build with `node scripts/build-tutorials.mjs`.
+- Production build with `npm run build:production`; Cloudflare Pages should
+  deploy `dist/`.
 - QA with `python3 scripts/check-tutorial-readiness.py hot-rod-marker-flames`.
 - Prefer `https://doodle.localhost/` for local Cove QA; fallback server is
   `python3 -m http.server 4174`.
 - Future automation should create one Sketcha lesson and one Doodle lesson each
-  day. Doodle commits locally only until a real repo/deploy path exists.
+  day. Once the GitHub/Cloudflare deployment path is connected, normal daily
+  Doodle lessons may push after passing the Doodle quality gates.

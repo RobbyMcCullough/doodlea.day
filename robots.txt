@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /drafts/
 
-Sitemap: https://doodle.localhost/sitemap.xml
+Sitemap: https://doodle.day/sitemap.xml
