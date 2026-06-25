@@ -6,7 +6,15 @@
     <atom:link href="https://doodle.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a smiling pizza slice doodle</title>
+      <link>https://doodle.day/tutorials/smiling-pizza-slice-doodle.html</link>
+      <guid isPermaLink="true">https://doodle.day/tutorials/smiling-pizza-slice-doodle.html</guid>
+      <pubDate>Thu, 25 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a smiling pizza slice doodle with a bold black marker outline, puffy crust, cute face, pepperoni circles, cheese stretch, and bright marker fills.</description>
+      <media:content url="https://doodle.day/assets/smiling-pizza-slice-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw hot rod marker flames</title>
       <link>https://doodle.day/tutorials/hot-rod-marker-flames.html</link>

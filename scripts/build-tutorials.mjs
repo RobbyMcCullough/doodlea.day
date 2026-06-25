@@ -11,6 +11,59 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 
 const lessons = [
   {
+    slug: "smiling-pizza-slice-doodle",
+    day: "002",
+    date: "Thursday, June 25",
+    isoDate: "2026-06-25",
+    subject: "a smiling pizza slice doodle",
+    headlineSubject: "a smiling<br>pizza slice",
+    shortSubject: "a smiling pizza slice",
+    lessonTitle: "Let's doodle a pizza slice",
+    description: "Learn how to draw a smiling pizza slice doodle with a bold black marker outline, puffy crust, cute face, pepperoni circles, cheese stretch, and bright marker fills.",
+    intro: "Turn one simple triangle into a cheerful marker doodle with thick outlines, saturated color, and a face that stays easy to draw.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f6b72f",
+    finished: "smiling-pizza-slice-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a smiling pizza slice with yellow cheese, orange crust, red pepperoni, thick black outline, and a small cheese stretch",
+    materials: ["Drawing paper", "Black marker", "Yellow, orange, and red markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the yellow fill looks better when you let marker streaks show.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start the slice shape",
+        text: "Draw a wide triangle that points down. Round the lower point slightly so the slice feels soft instead of sharp.",
+        tip: "Make the top edge wider than you think. The crust needs room to sit on it."
+      },
+      {
+        name: "Round the crust",
+        text: "Add a puffy band across the top of the triangle with a few rounded bumps along the outer edge.",
+        tip: "Keep the crust attached to the triangle. It should feel like one piece of pizza, not a cloud on top."
+      },
+      {
+        name: "Thicken the outline",
+        text: "Trace the triangle sides, lower point, and crust with a bold black marker line.",
+        tip: "Move slowly around the crust bumps. The handmade wobble is good, but the outline should stay confident."
+      },
+      {
+        name: "Add the face and toppings",
+        text: "Draw two simple eyes, a small smile, and a few round pepperoni circles around the face.",
+        tip: "Leave breathing room around the eyes. If a pepperoni touches the face, the expression gets harder to read."
+      },
+      {
+        name: "Fill the marker color",
+        text: "Add one little cheese stretch near the bottom, fill the cheese yellow, color the crust orange-brown, and fill the pepperoni red.",
+        tip: "Color with short strokes in one direction. The streaks make the doodle feel marker-made."
+      },
+      {
+        name: "Punch up the pizza doodle",
+        text: "Go back over the black outline, strengthen the yellow, orange, and red fills, and clean only the edges you already drew.",
+        tip: "Do not add more toppings at the end. The final pass is for bolder marker energy, not a new design.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "hot-rod-marker-flames",
     day: "001",
     date: "Wednesday, June 24",

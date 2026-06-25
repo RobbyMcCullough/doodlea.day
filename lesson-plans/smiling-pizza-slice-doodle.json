@@ -1,0 +1,126 @@
+{
+  "slug": "smiling-pizza-slice-doodle",
+  "status": "daily Doodle.day lesson",
+  "finished": "assets/smiling-pizza-slice-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished marker doodle artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the triangle slice, crust, face, pepperoni, cheese stretch, marker fills, and shadow stay consistent."
+  },
+  "process_strategy": "Use one six-panel marker contact sheet that builds the pizza slice from a triangle guide to a bold black outline, crust band, smiling face, toppings, cheese stretch, saturated marker fill, and final outline strength.",
+  "final_elements": [
+    {
+      "name": "triangle pizza slice",
+      "introduced_by_step": 1,
+      "description": "A wide-topped triangular pizza slice pointing downward."
+    },
+    {
+      "name": "rounded crust band",
+      "introduced_by_step": 2,
+      "description": "A puffy rounded crust along the top edge of the slice."
+    },
+    {
+      "name": "bold black marker outline",
+      "introduced_by_step": 3,
+      "description": "Thick handmade black felt-tip edges around the slice and crust."
+    },
+    {
+      "name": "smiling face",
+      "introduced_by_step": 4,
+      "description": "Two simple eyes and a small cheerful mouth on the cheese area."
+    },
+    {
+      "name": "pepperoni circles",
+      "introduced_by_step": 4,
+      "description": "A few round pepperoni marks spaced around the face."
+    },
+    {
+      "name": "cheese stretch",
+      "introduced_by_step": 5,
+      "description": "One small drooping cheese pull near the lower edge of the slice."
+    },
+    {
+      "name": "yellow cheese fill",
+      "introduced_by_step": 5,
+      "description": "Saturated yellow marker fill with visible streaks."
+    },
+    {
+      "name": "orange crust fill",
+      "introduced_by_step": 5,
+      "description": "Warm orange-brown marker fill across the crust band."
+    },
+    {
+      "name": "red pepperoni fill",
+      "introduced_by_step": 5,
+      "description": "Red marker fill inside the pepperoni circles."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/smiling-pizza-slice-doodle-step-1.jpg",
+      "step_name": "Start the slice shape",
+      "visible_job": "Sets the wide triangle pizza slice guide with a soft lower point.",
+      "introduces": [
+        "triangle pizza slice"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/smiling-pizza-slice-doodle-step-2.jpg",
+      "step_name": "Round the crust",
+      "visible_job": "Adds the puffy crust band across the top of the triangle.",
+      "introduces": [
+        "rounded crust band"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/smiling-pizza-slice-doodle-step-3.jpg",
+      "step_name": "Thicken the outline",
+      "visible_job": "Strengthens the triangle and crust with a bold black marker contour.",
+      "introduces": [
+        "bold black marker outline"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/smiling-pizza-slice-doodle-step-4.jpg",
+      "step_name": "Add the face and toppings",
+      "visible_job": "Adds the smiling face and pepperoni circles before any marker fill.",
+      "introduces": [
+        "smiling face",
+        "pepperoni circles"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/smiling-pizza-slice-doodle-step-5.jpg",
+      "step_name": "Fill the marker color",
+      "visible_job": "Adds the cheese stretch plus yellow cheese, orange crust, and red pepperoni marker fill.",
+      "introduces": [
+        "cheese stretch",
+        "yellow cheese fill",
+        "orange crust fill",
+        "red pepperoni fill"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the pizza doodle",
+    "asset": "assets/smiling-pizza-slice-doodle-finished-v1.jpg",
+    "visible_job": "Only deepens the existing black outline and marker color fills without adding new toppings, face parts, or lettering.",
+    "allowed_changes": [
+      "black marker darkening",
+      "marker fill strengthening",
+      "small existing-edge cleanup",
+      "paper and marker texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No extra toppings, arms, legs, lettering, plate, table, background props, or new face parts should appear in the final only.",
+    "The slice must keep the same triangle pose, crust placement, face placement, and topping layout in every frame.",
+    "The color step should look like marker fill, not colored pencil, watercolor, or airbrush.",
+    "The final panel must read as a handmade marker doodle, not a clean vector icon."
+  ]
+}
