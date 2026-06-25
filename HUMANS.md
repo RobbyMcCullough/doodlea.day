@@ -39,3 +39,18 @@
 - During the June 25 run, a separate robot-head draft was generated but removed
   after the pizza slice lesson was confirmed as the active Day 002 lesson. Do not
   assume robot-head assets exist in the repo.
+- Backfilled two older Doodle.day lessons on June 25, 2026: `trophy-cup-sticker`
+  as June 22 / Day 001, and `firework-burst-doodle` as June 23 / Day 002.
+  Existing day labels shifted forward by two, so hot rod flames is Day 003 and
+  the June 25 pizza slice is Day 004.
+- The backfill used a quick timely-event check: FIFA World Cup 2026 informed the
+  trophy subject, and upcoming Independence Day informed the firework burst.
+  `DAILY-PUBLISHING.md` now requires checking timely hooks before choosing a
+  daily subject, while avoiding weak trends and sister-site duplication.
+- Backfill QA used `python3 scripts/check-tutorial-readiness.py
+  trophy-cup-sticker`, `python3 scripts/check-tutorial-readiness.py
+  firework-burst-doodle`, step contact-sheet reviews at
+  `/tmp/trophy-cup-sticker-steps.jpg` and
+  `/tmp/firework-burst-doodle-steps.jpg`, Cove/Chrome desktop and mobile
+  screenshots saved under `/tmp/sketcha-doodle-backfill-qa/`, and a compact QA
+  sheet at `/tmp/sketcha-doodle-backfill-qa/qa-contact-sheet.jpg`.

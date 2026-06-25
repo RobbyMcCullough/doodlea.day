@@ -12,7 +12,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 const lessons = [
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "002",
+    day: "004",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -65,7 +65,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "001",
+    day: "003",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -112,6 +112,112 @@ const lessons = [
         name: "Punch up the doodle",
         text: "Go back over the black outline, strengthen the orange and yellow fill, and clean only the edges you already drew.",
         tip: "Do not add new flame shapes at the end. The final pass should make the marker drawing louder.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "firework-burst-doodle",
+    day: "002",
+    date: "Tuesday, June 23",
+    isoDate: "2026-06-23",
+    subject: "a firework burst doodle",
+    headlineSubject: "a firework<br>burst",
+    shortSubject: "a firework burst",
+    lessonTitle: "Let's doodle a firework burst",
+    description: "Learn how to draw a firework burst doodle with a bright center, bold black burst shapes, red and blue marker fills, small sparks, and comic-style energy.",
+    intro: "Build a patriotic firework from one center dot and repeated burst shapes, then make it pop with thick outlines and bright marker color.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#d94234",
+    finished: "firework-burst-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a red and blue firework burst with thick black outlines, yellow center, and small colorful sparks",
+    materials: ["Drawing paper", "Black marker", "Red, blue, and yellow markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the repeated burst shapes are easier if you rotate the page.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the burst guides",
+        text: "Draw a small center circle, then place light spoke guides around it like a simple starburst.",
+        tip: "Leave gaps between the spokes. Those gaps will keep the colored bursts from touching each other."
+      },
+      {
+        name: "Shape the star tips",
+        text: "Turn each guide into a long rounded diamond or kite shape, alternating tall and short bursts.",
+        tip: "Vary the lengths a little. A perfect clock shape can look stiff."
+      },
+      {
+        name: "Thicken the burst outline",
+        text: "Trace the center circle and every burst shape with a confident black marker line.",
+        tip: "Slow down at the points. Rounded tips are friendlier and easier to color than sharp spikes."
+      },
+      {
+        name: "Add little sparks",
+        text: "Scatter small dots and short dash marks around the outside of the burst.",
+        tip: "Keep the sparks away from the main shapes so the firework still has a clean silhouette."
+      },
+      {
+        name: "Fill the firework color",
+        text: "Color the center yellow, then alternate red and blue marker fill through the burst shapes and tiny sparks.",
+        tip: "Let marker streaks show inside each burst. The texture makes the doodle feel handmade."
+      },
+      {
+        name: "Punch up the firework",
+        text: "Go back over the black outline, strengthen the red, blue, and yellow fills, and add small white highlight marks inside the shapes.",
+        tip: "Do not add new burst arms at the end. This pass should only make the shapes you already drew brighter.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "trophy-cup-sticker",
+    day: "001",
+    date: "Monday, June 22",
+    isoDate: "2026-06-22",
+    subject: "a trophy cup sticker",
+    headlineSubject: "a trophy<br>cup",
+    shortSubject: "a trophy cup",
+    lessonTitle: "Let's doodle a trophy cup",
+    description: "Learn how to draw a trophy cup sticker with a rounded cup, side handles, thick black outline, gold marker fill, orange shadow, shine marks, and small confetti dots.",
+    intro: "Use one big cup shape and two loop handles to make a celebratory marker doodle that feels like a sticker.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f2b12d",
+    finished: "trophy-cup-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a gold trophy cup sticker with black outline, orange shadow, shine marks, and confetti dots",
+    materials: ["Drawing paper", "Black marker", "Yellow and orange markers", "Optional white gel pen"],
+    materialNote: "Use a broad yellow marker for the cup and a narrower black marker for tightening the outline.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the trophy",
+        text: "Draw a wide oval rim, curve the cup sides inward, then add a short stem and rectangular base underneath.",
+        tip: "Keep the cup wider than the base. That top-heavy shape is what reads as a trophy."
+      },
+      {
+        name: "Add the handles",
+        text: "Draw one loop handle on each side, attaching them near the rim and the lower cup.",
+        tip: "Make the handles almost mirror each other, but do not worry about perfect symmetry."
+      },
+      {
+        name: "Thicken the trophy outline",
+        text: "Trace the rim, cup, handles, stem, and base with a bold black marker line.",
+        tip: "Use the thick outline to simplify any wobbly construction lines."
+      },
+      {
+        name: "Add shine and confetti",
+        text: "Draw one white shine shape on the cup and scatter a few small confetti dots around the trophy.",
+        tip: "Keep the shine on one side so the cup still feels rounded."
+      },
+      {
+        name: "Fill the gold marker",
+        text: "Color the trophy yellow, then add orange marker along one side and across the base for shadow.",
+        tip: "Leave a few marker streaks and the shine shape uncolored. That keeps the cup bright."
+      },
+      {
+        name: "Punch up the trophy",
+        text: "Go back over the black outline, strengthen the gold and orange fills, and clean only the edges you already drew.",
+        tip: "Do not add new decorations in the final pass. The sticker should stay bold and simple.",
         image: true
       }
     ]

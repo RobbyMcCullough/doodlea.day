@@ -1,0 +1,118 @@
+{
+  "slug": "trophy-cup-sticker",
+  "finished": "assets/trophy-cup-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker-doodle contact sheet generated with the process-first workflow, then cropped into step frames and the finished image.",
+    "notes": "Chosen after a quick event check because the FIFA World Cup is active in June-July 2026, but it stays distinct from Sketcha's soccer ball subject."
+  },
+  "process_strategy": "A six-panel marker process builds one trophy sticker from cup and base guides to handles, shine marks, confetti, and gold marker fill before the final outline pass.",
+  "final_elements": [
+    {
+      "name": "trophy cup bowl",
+      "introduced_by_step": 1,
+      "description": "A rounded cup bowl centered as the main trophy shape."
+    },
+    {
+      "name": "small trophy base",
+      "introduced_by_step": 1,
+      "description": "A short stem and blocky base under the cup."
+    },
+    {
+      "name": "side handles",
+      "introduced_by_step": 2,
+      "description": "Two curved handles attached to the cup sides."
+    },
+    {
+      "name": "bold black outline",
+      "introduced_by_step": 3,
+      "description": "Thick handmade marker edges around the trophy and base."
+    },
+    {
+      "name": "shine marks",
+      "introduced_by_step": 4,
+      "description": "Small white highlight areas and simple sparkle marks on the cup."
+    },
+    {
+      "name": "confetti dots",
+      "introduced_by_step": 4,
+      "description": "A few tiny celebration dots around the trophy."
+    },
+    {
+      "name": "gold marker fill",
+      "introduced_by_step": 5,
+      "description": "Bright yellow-gold marker fill with visible streaks."
+    },
+    {
+      "name": "orange shadow accents",
+      "introduced_by_step": 5,
+      "description": "Orange marker accents along the lower cup and base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/trophy-cup-sticker-step-1.jpg",
+      "step_name": "Block the trophy",
+      "visible_job": "Places the cup bowl, short stem, and base guides.",
+      "introduces": [
+        "trophy cup bowl",
+        "small trophy base"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/trophy-cup-sticker-step-2.jpg",
+      "step_name": "Add the handles",
+      "visible_job": "Adds curved handles to both sides of the cup.",
+      "introduces": [
+        "side handles"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/trophy-cup-sticker-step-3.jpg",
+      "step_name": "Thicken the trophy outline",
+      "visible_job": "Traces the trophy and base with a bold black marker contour.",
+      "introduces": [
+        "bold black outline"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/trophy-cup-sticker-step-4.jpg",
+      "step_name": "Add shine and confetti",
+      "visible_job": "Adds shine marks on the cup and small confetti dots around it.",
+      "introduces": [
+        "shine marks",
+        "confetti dots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/trophy-cup-sticker-step-5.jpg",
+      "step_name": "Fill the gold marker",
+      "visible_job": "Adds gold marker fill and orange shadow accents to the existing trophy.",
+      "introduces": [
+        "gold marker fill",
+        "orange shadow accents"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the trophy",
+    "asset": "assets/trophy-cup-sticker-finished-v1.jpg",
+    "visible_job": "Only thickens existing outlines, strengthens gold/orange marker fill, and cleans existing shine and confetti marks.",
+    "allowed_changes": [
+      "thicker black marker outlines",
+      "stronger gold marker fill",
+      "small highlight cleanup",
+      "minor confetti emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No trophy handle, base, shine, confetti, or marker color should first appear in the final image.",
+    "The final must keep the same centered trophy shape, base placement, and color plan as the step frames.",
+    "The final must read as a handmade marker sticker, not a clean vector icon."
+  ]
+}

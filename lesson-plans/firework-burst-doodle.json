@@ -1,0 +1,118 @@
+{
+  "slug": "firework-burst-doodle",
+  "finished": "assets/firework-burst-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker-doodle contact sheet generated with the process-first workflow, then cropped into step frames and the finished image.",
+    "notes": "Chosen after a quick event check because Independence Day is approaching in early July 2026."
+  },
+  "process_strategy": "A six-panel marker process builds one firework burst from a center dot and radial guides to star tips, smaller spark marks, and bright marker fills before the final outline pass.",
+  "final_elements": [
+    {
+      "name": "center burst dot",
+      "introduced_by_step": 1,
+      "description": "A small center point that anchors the firework burst."
+    },
+    {
+      "name": "radial burst lines",
+      "introduced_by_step": 1,
+      "description": "Several lines radiating outward from the center."
+    },
+    {
+      "name": "star tip shapes",
+      "introduced_by_step": 2,
+      "description": "Pointed rounded starburst tips at the ends of the main rays."
+    },
+    {
+      "name": "bold black outline",
+      "introduced_by_step": 3,
+      "description": "Thick handmade marker edges around the main burst rays."
+    },
+    {
+      "name": "small spark dots",
+      "introduced_by_step": 4,
+      "description": "Tiny dots and short dash sparks surrounding the main burst."
+    },
+    {
+      "name": "red marker rays",
+      "introduced_by_step": 5,
+      "description": "Bright red marker fill on alternating burst rays."
+    },
+    {
+      "name": "blue marker rays",
+      "introduced_by_step": 5,
+      "description": "Bright blue marker fill on the remaining burst rays."
+    },
+    {
+      "name": "yellow center glow",
+      "introduced_by_step": 5,
+      "description": "A yellow marker center and small yellow spark accents."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/firework-burst-doodle-step-1.jpg",
+      "step_name": "Draw the burst guides",
+      "visible_job": "Places the center dot and the main radial burst lines.",
+      "introduces": [
+        "center burst dot",
+        "radial burst lines"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/firework-burst-doodle-step-2.jpg",
+      "step_name": "Shape the star tips",
+      "visible_job": "Turns the ray ends into rounded pointed starburst tips.",
+      "introduces": [
+        "star tip shapes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/firework-burst-doodle-step-3.jpg",
+      "step_name": "Thicken the burst outline",
+      "visible_job": "Traces the main burst with bold black marker lines.",
+      "introduces": [
+        "bold black outline"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/firework-burst-doodle-step-4.jpg",
+      "step_name": "Add little sparks",
+      "visible_job": "Adds tiny spark dots and short dash marks around the burst.",
+      "introduces": [
+        "small spark dots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/firework-burst-doodle-step-5.jpg",
+      "step_name": "Fill the firework color",
+      "visible_job": "Adds red, blue, and yellow marker fills to the already drawn burst and sparks.",
+      "introduces": [
+        "red marker rays",
+        "blue marker rays",
+        "yellow center glow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the firework",
+    "asset": "assets/firework-burst-doodle-finished-v1.jpg",
+    "visible_job": "Only strengthens existing outlines, red/blue/yellow fills, and already placed spark marks.",
+    "allowed_changes": [
+      "thicker black marker outlines",
+      "stronger marker fills",
+      "small spark emphasis",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No new burst arm, spark cluster, lettering, flag, or color choice should first appear in the final image.",
+    "The final must keep the same centered burst, ray count, spark placement, and color plan as the step frames.",
+    "The final must read as a handmade marker doodle, not a clean vector icon or poster graphic."
+  ]
+}
