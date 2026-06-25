@@ -3,6 +3,32 @@
 Doodle.day is intended to deploy as its own Cloudflare Pages project from its
 own GitHub repository.
 
+## GitHub Actions Deploy
+
+The repo includes `.github/workflows/deploy.yml`, which deploys `main` to
+Cloudflare Pages with Wrangler after running the production build.
+
+Required GitHub repository secrets:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+Cloudflare Pages project name:
+
+```text
+doodle-day
+```
+
+One-time Cloudflare setup:
+
+```sh
+npx wrangler pages project create doodle-day --production-branch=main
+npx wrangler pages domain add doodle.day --project-name=doodle-day
+```
+
+You can also create the `doodle-day` Pages project and add the `doodle.day`
+custom domain from the Cloudflare dashboard.
+
 ## Recommended Cloudflare Pages Settings
 
 - Production branch: `main`
