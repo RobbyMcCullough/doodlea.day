@@ -8,8 +8,9 @@ const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?
 const plausibleTag = `  <script defer data-domain="${plausibleDomain}" src="https://analytics.robbymccullough.com/js/script.js"></script>`;
 const siteSlug = "doodle";
 const brandWordmark = `${siteSlug}<span class="brand-accent">a</span><span class="brand-domain">.day</span>`;
-const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
+const iconLinks = `  <link rel="icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/site-icon.png">`;

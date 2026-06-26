@@ -144,3 +144,7 @@
   paper, eraser, colored pencils, marker, and marker sets; Doodlea's generator
   maps black marker to the marker icon and colored/optional markers to the
   marker-set icon.
+- Search/favicon follow-up on June 26, 2026: `scripts/build-tutorials.mjs` now
+  emits a plain `/favicon.ico` fallback plus explicit 16x16, 32x32, 48x48, 180x180
+  Apple, and 512x512 site-icon links. Google Search Console may still lag until
+  Google recrawls the home page and favicon.
