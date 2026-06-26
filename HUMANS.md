@@ -148,3 +148,7 @@
   emits a plain `/favicon.ico` fallback plus explicit 16x16, 32x32, 48x48, 180x180
   Apple, and 512x512 site-icon links. Google Search Console may still lag until
   Google recrawls the home page and favicon.
+- Newsletter follow-up on June 26, 2026: Doodlea.day now mirrors Sketcha.day's
+  manual-interest newsletter section. The disabled form remains a placeholder,
+  and the public interest link is
+  `mailto:hello@doodlea.day?subject=Doodlea.day%20daily%20email%20interest`.
