@@ -2,8 +2,8 @@
 
 ## Last Accessed
 - Date: 2026-06-26
-- Agent harness: Claude Code (Andromeda project)
-- Harness project/session name: Andromeda server / multi-site deploy
+- Agent harness: Codex
+- Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
@@ -101,6 +101,22 @@
   scheduled run should create two tutorials per sister site: one current daily
   tutorial and one honest backdated archive tutorial for Doodlea.day, plus the
   same current/backdated pair for Sketcha.day.
+- Added the cartoon coconut drink as the June 26, 2026 / Day 007 tutorial from
+  a reviewed six-panel generated marker contact sheet. Finished image rating:
+  8.7/10. The desktop headline was split across three lines after browser QA
+  caught right-edge clipping.
+- Added the watermelon wedge doodle as the June 20, 2026 / Day 001 backdated
+  archive tutorial. Existing Doodlea day labels shifted forward, so the June 26
+  coconut drink is Day 007. Finished image rating: 8.6/10.
+- June 26 QA used `python3 scripts/check-tutorial-readiness.py
+  cartoon-coconut-drink` and `python3 scripts/check-tutorial-readiness.py
+  watermelon-wedge-doodle`, reviewed step sheets at
+  `/tmp/cartoon-coconut-drink-steps.jpg` and
+  `/tmp/watermelon-wedge-doodle-steps.jpg`, and captured Cove browser QA
+  screenshots at `/tmp/doodlea-*-rerun.png` plus
+  `/tmp/doodlea-home-desktop-headline-fixed.png`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Added two Doodlea.day lessons on June 26, 2026: `cartoon-coconut-drink` as
   the current June 26 / Day 007 marker tutorial, and
   `watermelon-wedge-doodle` as an honest backdated June 20 / Day 001 archive

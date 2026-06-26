@@ -21,7 +21,7 @@ const lessons = [
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
-    headlineSubject: "a cartoon<br>coconut drink",
+    headlineSubject: "a cartoon<br>coconut<br>drink",
     shortSubject: "a cartoon coconut drink",
     lessonTitle: "Let's doodle a coconut drink",
     description: "Learn how to draw a cartoon coconut drink doodle with a round coconut body, top opening, cute face, bendy straw, tiny umbrella, thick black outline, and bright marker fills.",
