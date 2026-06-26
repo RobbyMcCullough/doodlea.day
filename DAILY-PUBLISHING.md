@@ -20,32 +20,38 @@ that did not appear in a prior process frame.
 
 ## Routine
 
-1. Do a quick source check for timely hooks before choosing the subject:
+1. Until the owner says otherwise, create two Doodlea.day tutorials per run:
+   one new current daily tutorial and one honest backdated archive tutorial.
+   Coordinate with the Sketcha.day sister track, which should also create one
+   current daily tutorial and one backdated tutorial in the same run. Keep
+   backdated lessons honest in public copy: no invented traffic, comments,
+   popularity, or fake community activity.
+2. Do a quick source check for timely hooks before choosing the subject:
    current news, major sports, holidays, seasons, cultural moments, and daily
    observances. Use a timely idea only when it naturally fits Doodlea.day's bold
    marker style, can be taught as an attainable doodle, and does not duplicate
    the sister Sketcha.day subject for the same run. Do not force a weak trend.
-2. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
+3. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
    flames", "how to draw a comic speech bubble", or "how to draw a goofy monster
    face."
-3. Back-check existing Doodlea.day lessons and avoid repeating shape/category
+4. Back-check existing Doodlea.day lessons and avoid repeating shape/category
    problems too closely.
-4. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
-5. Generate one raster process contact sheet first. No labels, arrows, numbers,
+5. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
+6. Generate one raster process contact sheet first. No labels, arrows, numbers,
    signatures, watermarks, or fake UI.
-6. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
+7. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
    use the final panel as the finished image.
-7. Rate the saved finished image. It must be at least 8/10 for readability,
+8. Rate the saved finished image. It must be at least 8/10 for readability,
    character, marker quality, tutorial fit, composition, and difficulty balance.
-8. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
+9. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
 
 ```sh
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-9. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
+10. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
-10. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
+11. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
    connected, routine daily Doodlea.day lessons may push after all quality gates
    pass.
 

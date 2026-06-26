@@ -131,3 +131,16 @@
   screenshots under `/tmp/daily-sketch-doodle-qa-final/`.
 - The temporary two-tutorial-per-site cadence remains active until the owner
   says otherwise.
+- Standing instruction added June 26, 2026: Doodlea.day and Sketcha.day should
+  stay near mirror images for style and structure. Unless the owner explicitly
+  says otherwise, apply layout, component, navigation, responsive, build-structure,
+  and interaction-pattern changes to both sibling repos.
+- Shared styling update on June 26, 2026: both sites now use the split
+  `How to draw...` headline treatment, a subject-colored underline stroke,
+  matched CTA hover movement/shadows, animated nav-link hover underlines, and a
+  fixed library-card hover rule that also applies to the final card.
+- Added generated cartoon material icons on June 26, 2026 under
+  `assets/material-icons/`. The pages use compressed WebP icons for pencil,
+  paper, eraser, colored pencils, marker, and marker sets; Doodlea's generator
+  maps black marker to the marker icon and colored/optional markers to the
+  marker-set icon.

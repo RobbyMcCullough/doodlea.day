@@ -7,6 +7,21 @@ nearly identical in structure and interaction, but the lesson style is bolder:
 thick black marker outlines, saturated color, cartoon/comic energy, and fast
 doodle subjects rather than quiet pencil sketches of objects.
 
+## Sister Site Parity
+
+Doodlea.day and Sketcha.day are sister sites. Unless the project owner explicitly
+says otherwise, any style or structure change made to this site should also be
+applied to Sketcha.day. Keep the two sites near mirror images in layout,
+components, navigation, responsive behavior, build structure, and interaction
+patterns; the main difference is editorial focus and art direction:
+Doodlea.day is doodle/marker focused, while Sketcha.day is drawing/sketch
+focused.
+
+Before finishing style or structure work, check the sibling repository at
+`/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day` and either
+apply the matching change there or clearly report why it was intentionally
+skipped.
+
 ## Local Development
 
 This local prototype is dependency-free. Use the Cove URL when available:
