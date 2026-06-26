@@ -4,7 +4,7 @@ import { join } from "node:path";
 const root = new URL("..", import.meta.url);
 const dist = new URL("../dist/", import.meta.url);
 
-process.env.SITE_URL ||= "https://doodle.day";
+process.env.SITE_URL ||= "https://doodlea.day";
 await import("./build-tutorials.mjs");
 
 await rm(dist, { force: true, recursive: true });
@@ -32,4 +32,4 @@ for (const entry of [
 }
 
 const distFiles = await readdir(dist);
-console.log(`Prepared Doodle.day production build in ${join(root.pathname, "dist")} with ${distFiles.length} top-level entries.`);
+console.log(`Prepared Doodlea.day production build in ${join(root.pathname, "dist")} with ${distFiles.length} top-level entries.`);

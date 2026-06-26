@@ -1,55 +1,64 @@
 # Deployment
 
-Doodle.day is intended to deploy as its own Cloudflare Pages project from its
-own GitHub repository.
+Doodlea.day deploys to the **Andromeda DigitalOcean droplet behind Caddy**, the
+same way as its sister site Sketcha.day and the other static sites in this fleet.
+See `~/Dropbox/AI/andromeda/AGENTS.md` for the canonical server/Caddy/DNS guide.
+
+- **Server:** `deploy@138.68.248.95` (Ubuntu, Caddy)
+- **Site path:** `/var/www/doodlea.day` — a git clone of
+  `git@github.com:RobbyMcCullough/doodlea.day.git`
+- **Served root:** the repository root (committed build output: `index.html`,
+  `library.html`, `tutorials/`, `assets/`, `feed.xml`, `sitemap.xml`, etc.).
+  Caddy serves the repo directly — there is **no** server-side build and **no**
+  `dist/` step. Run the build locally and commit the generated files.
 
 ## GitHub Actions Deploy
 
-The repo includes `.github/workflows/deploy.yml`, which deploys `main` to
-Cloudflare Pages with Wrangler after running the production build.
+`.github/workflows/deploy.yml` SSHes into the server on every push to `main` and
+runs `git pull origin main` in `/var/www/doodlea.day`.
 
 Required GitHub repository secrets:
 
-- `CLOUDFLARE_API_TOKEN`
-- `CLOUDFLARE_ACCOUNT_ID`
+- `SSH_HOST` — `138.68.248.95`
+- `SSH_USER` — `deploy`
+- `SSH_PRIVATE_KEY` — a deploy key whose public half is in the server's
+  `~/.ssh/authorized_keys`
 
-Cloudflare Pages project name:
+## Caddyfile block
 
-```text
-doodle-day
+```caddy
+doodlea.day, www.doodlea.day {
+    root * /var/www/doodlea.day
+    encode gzip zstd
+    file_server
+
+    @static {
+        path *.png *.jpg *.jpeg *.svg *.webp *.woff *.woff2 *.ico
+    }
+    header @static Cache-Control "public, max-age=31536000, immutable"
+    @dynamic {
+        not path *.png *.jpg *.jpeg *.svg *.webp *.woff *.woff2 *.ico
+    }
+    header @dynamic Cache-Control "public, max-age=600"
+}
 ```
 
-One-time Cloudflare setup:
+Caddy auto-provisions the TLS cert via Let's Encrypt once DNS points to the
+server. DNS: `@` and `www` A records → `138.68.248.95` (grey-cloud first so the
+cert can issue, then optionally orange-cloud).
+
+## Build & QA before pushing
 
 ```sh
-npx wrangler pages project create doodle-day --production-branch=main
-npx wrangler pages domain add doodle.day --project-name=doodle-day
+npm run build            # node scripts/build-tutorials.mjs — writes the public files to the repo root
+python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-You can also create the `doodle-day` Pages project and add the `doodle.day`
-custom domain from the Cloudflare dashboard.
-
-## Recommended Cloudflare Pages Settings
-
-- Production branch: `main`
-- Build command: `npm run build:production`
-- Build output directory: `dist`
-- Production domain: `doodle.day`
-
-The production build writes generated pages with `https://doodle.day` canonical,
-Open Graph, RSS, and sitemap URLs. Deploy `dist/`, not the repository root, so
-private drafts, process plans, scripts, and agent notes are not published.
+Analytics: each page carries a self-hosted Plausible tag
+(`data-domain="doodlea.day"`, `https://analytics.robbymccullough.com/js/script.js`).
+The `data-domain` follows `SITE_URL`, so the default build reports under
+`doodlea.day`.
 
 ## Local QA
 
-Cove serves the local checkout at:
-
-```text
-https://doodle.localhost/
-```
-
-Daily readiness checks should still run from the repository root:
-
-```sh
-python3 scripts/check-tutorial-readiness.py {slug}
-```
+Cove serves the local checkout at `https://doodlea.localhost/`.

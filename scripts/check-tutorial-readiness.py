@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the Doodle.day tutorial readiness checks for one lesson slug."""
+"""Run the Doodlea.day tutorial readiness checks for one lesson slug."""
 
 from __future__ import annotations
 
@@ -178,7 +178,7 @@ def main() -> int:
     parser.add_argument("slug", help="Tutorial slug to check")
     parser.add_argument(
         "--base-url",
-        default="https://doodle.localhost/",
+        default="https://doodlea.localhost/",
         help="Local site base URL for link/asset probes.",
     )
     parser.add_argument(

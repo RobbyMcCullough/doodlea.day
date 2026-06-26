@@ -1,6 +1,6 @@
 # Daily Publishing Guide
 
-This is the quality contract for Doodle.day lessons.
+This is the quality contract for Doodlea.day lessons.
 
 ## Principle
 
@@ -22,13 +22,13 @@ that did not appear in a prior process frame.
 
 1. Do a quick source check for timely hooks before choosing the subject:
    current news, major sports, holidays, seasons, cultural moments, and daily
-   observances. Use a timely idea only when it naturally fits Doodle.day's bold
+   observances. Use a timely idea only when it naturally fits Doodlea.day's bold
    marker style, can be taught as an attainable doodle, and does not duplicate
    the sister Sketcha.day subject for the same run. Do not force a weak trend.
 2. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
    flames", "how to draw a comic speech bubble", or "how to draw a goofy monster
    face."
-3. Back-check existing Doodle.day lessons and avoid repeating shape/category
+3. Back-check existing Doodlea.day lessons and avoid repeating shape/category
    problems too closely.
 4. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
 5. Generate one raster process contact sheet first. No labels, arrows, numbers,
@@ -43,10 +43,10 @@ that did not appear in a prior process frame.
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-9. QA `https://doodle.localhost/`, `https://doodle.localhost/library.html`, and
-   `https://doodle.localhost/tutorials/{slug}.html` at desktop and mobile widths.
+9. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
+   `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
 10. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
-   connected, routine daily Doodle.day lessons may push after all quality gates
+   connected, routine daily Doodlea.day lessons may push after all quality gates
    pass.
 
 ## Stop Conditions

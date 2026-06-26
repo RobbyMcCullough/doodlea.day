@@ -4,8 +4,8 @@
   "finished": "assets/hot-rod-marker-flames-finished-v1.jpg",
   "source": {
     "type": "generated-raster-contact-sheet",
-    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the first Doodle.day finished artwork.",
-    "notes": "This is the first local Doodle.day lesson, seeded from the Sketcha.day marker-flames style test."
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the first Doodlea.day finished artwork.",
+    "notes": "This is the first local Doodlea.day lesson, seeded from the Sketcha.day marker-flames style test."
   },
   "process_strategy": "Use one six-panel marker contact sheet that builds the flames from loose gesture paths to a bold black outline, nested inner flames, marker color fills, and final line/color strength.",
   "final_elements": [
@@ -109,6 +109,6 @@
     "Do not treat this as a realistic fire lesson; the target is a bold marker doodle.",
     "No extra flame tongues, stickers, lettering, cars, smoke, or background props should appear in the final only.",
     "The color step should look like marker fill, not colored pencil, watercolor, or airbrush.",
-    "Keep Doodle.day local until the domain and public publishing path exist."
+    "Keep Doodlea.day local until the domain and public publishing path exist."
   ]
 }

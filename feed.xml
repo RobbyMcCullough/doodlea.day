@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Doodle.day Daily Doodles</title>
-    <link>https://doodle.day/</link>
-    <atom:link href="https://doodle.day/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Doodlea.day Daily Doodles</title>
+    <link>https://doodlea.day/</link>
+    <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2026 19:00:00 GMT</lastBuildDate>
     <item>
       <title>How to draw a smiling pizza slice doodle</title>
-      <link>https://doodle.day/tutorials/smiling-pizza-slice-doodle.html</link>
-      <guid isPermaLink="true">https://doodle.day/tutorials/smiling-pizza-slice-doodle.html</guid>
+      <link>https://doodlea.day/tutorials/smiling-pizza-slice-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/smiling-pizza-slice-doodle.html</guid>
       <pubDate>Thu, 25 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a smiling pizza slice doodle with a bold black marker outline, puffy crust, cute face, pepperoni circles, cheese stretch, and bright marker fills.</description>
-      <media:content url="https://doodle.day/assets/smiling-pizza-slice-doodle-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodlea.day/assets/smiling-pizza-slice-doodle-finished-v1.jpg" medium="image" />
     </item>
     <item>
       <title>How to draw hot rod marker flames</title>
-      <link>https://doodle.day/tutorials/hot-rod-marker-flames.html</link>
-      <guid isPermaLink="true">https://doodle.day/tutorials/hot-rod-marker-flames.html</guid>
+      <link>https://doodlea.day/tutorials/hot-rod-marker-flames.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/hot-rod-marker-flames.html</guid>
       <pubDate>Wed, 24 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw hot rod-style marker flames with bold black outlines, orange fill, yellow inner flames, red edge accents, and handmade marker texture.</description>
-      <media:content url="https://doodle.day/assets/hot-rod-marker-flames-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodlea.day/assets/hot-rod-marker-flames-finished-v1.jpg" medium="image" />
     </item>
     <item>
       <title>How to draw a firework burst doodle</title>
-      <link>https://doodle.day/tutorials/firework-burst-doodle.html</link>
-      <guid isPermaLink="true">https://doodle.day/tutorials/firework-burst-doodle.html</guid>
+      <link>https://doodlea.day/tutorials/firework-burst-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/firework-burst-doodle.html</guid>
       <pubDate>Tue, 23 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a firework burst doodle with a bright center, bold black burst shapes, red and blue marker fills, small sparks, and comic-style energy.</description>
-      <media:content url="https://doodle.day/assets/firework-burst-doodle-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodlea.day/assets/firework-burst-doodle-finished-v1.jpg" medium="image" />
     </item>
     <item>
       <title>How to draw a trophy cup sticker</title>
-      <link>https://doodle.day/tutorials/trophy-cup-sticker.html</link>
-      <guid isPermaLink="true">https://doodle.day/tutorials/trophy-cup-sticker.html</guid>
+      <link>https://doodlea.day/tutorials/trophy-cup-sticker.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/trophy-cup-sticker.html</guid>
       <pubDate>Mon, 22 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a trophy cup sticker with a rounded cup, side handles, thick black outline, gold marker fill, orange shadow, shine marks, and small confetti dots.</description>
-      <media:content url="https://doodle.day/assets/trophy-cup-sticker-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodlea.day/assets/trophy-cup-sticker-finished-v1.jpg" medium="image" />
     </item>
     <item>
       <title>How to draw a silly robot head</title>
-      <link>https://doodle.day/tutorials/silly-robot-head.html</link>
-      <guid isPermaLink="true">https://doodle.day/tutorials/silly-robot-head.html</guid>
+      <link>https://doodlea.day/tutorials/silly-robot-head.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/silly-robot-head.html</guid>
       <pubDate>Sun, 21 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a silly robot head with a rounded blue face, spring antenna, side bolts, mismatched eyes, toothy grin, bottom button panel, and bold marker color.</description>
-      <media:content url="https://doodle.day/assets/silly-robot-head-finished-v1.jpg" medium="image" />
+      <media:content url="https://doodlea.day/assets/silly-robot-head-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

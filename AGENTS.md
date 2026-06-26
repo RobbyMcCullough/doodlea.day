@@ -2,7 +2,7 @@
 
 ## Project
 
-Doodle.day is the marker-based sister site to Sketcha.day. It should feel
+Doodlea.day is the marker-based sister site to Sketcha.day. It should feel
 nearly identical in structure and interaction, but the lesson style is bolder:
 thick black marker outlines, saturated color, cartoon/comic energy, and fast
 doodle subjects rather than quiet pencil sketches of objects.
@@ -12,7 +12,7 @@ doodle subjects rather than quiet pencil sketches of objects.
 This local prototype is dependency-free. Use the Cove URL when available:
 
 ```text
-https://doodle.localhost/
+https://doodlea.localhost/
 ```
 
 If Cove is unreachable, use the fallback server from this folder:
@@ -40,12 +40,12 @@ For daily doodle work, read these files in order:
 
 Then create one marker-based doodle lesson, rebuild, run readiness checks, QA
 homepage/library/tutorial pages, and commit when the quality gates pass. Once
-the GitHub/Cloudflare deployment path is connected, normal daily Doodle.day
+the GitHub/Cloudflare deployment path is connected, normal daily Doodlea.day
 lessons may push after QA under the same standard as Sketcha.day.
 
 ## Conventions
 
-- Keep Doodle.day visually close to Sketcha.day: same layout system, archive
+- Keep Doodlea.day visually close to Sketcha.day: same layout system, archive
   structure, generated pages, JSON-LD pattern, and QA workflow.
 - Differentiate by subject and medium: cartoon shapes, comic details, icons,
   stickers, hand lettering, expressive faces, marker fills, and thick outlines.
@@ -72,6 +72,6 @@ For production, run:
 npm run build:production
 ```
 
-That sets `SITE_URL=https://doodle.day`, rebuilds the site, and writes a clean
+That sets `SITE_URL=https://doodlea.day`, rebuilds the site, and writes a clean
 Cloudflare Pages output folder to `dist/`. Deploy `dist/`, not the repository
 root, so drafts, process plans, scripts, and agent notes stay out of production.

@@ -1,8 +1,13 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
-const siteUrl = (process.env.SITE_URL || "https://doodle.day").replace(/\/$/, "");
-const siteName = "Doodle.day";
+const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
+const siteName = "Doodlea.day";
+// Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
+// so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
+const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
+const plausibleTag = `  <script defer data-domain="${plausibleDomain}" src="https://analytics.robbymccullough.com/js/script.js"></script>`;
 const siteSlug = "doodle";
+const brandWordmark = `${siteSlug}<span class="brand-accent">a</span><span class="brand-domain">.day</span>`;
 const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -73,7 +78,7 @@ const lessons = [
     shortSubject: "hot rod marker flames",
     lessonTitle: "Let's doodle flames",
     description: "Learn how to draw hot rod-style marker flames with bold black outlines, orange fill, yellow inner flames, red edge accents, and handmade marker texture.",
-    intro: "Try a bolder Doodle.day mode: black felt-tip outlines, bright marker fill, and a simple flame shape that feels more comic panel than pencil sketch.",
+    intro: "Try a bolder Doodlea.day mode: black felt-tip outlines, bright marker fill, and a simple flame shape that feels more comic panel than pencil sketch.",
     time: 15,
     difficulty: "Easy",
     accent: "#f05a28",
@@ -394,19 +399,20 @@ ${iconLinks}
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
+${plausibleTag}
 </head>
 <body class="archive-tutorial doodle-site" style="--lesson-accent: ${lesson.accent}">
   <a class="skip-link" href="#lesson">Skip to the doodle</a>
   <header class="site-header">
     <div class="brand">
-      <img class="brand-mark" src="../assets/logo-pencil.svg" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="../index.html" aria-label="${siteName} home"><span class="brand-name">${siteSlug}<span>.day</span></span></a>
+      <img class="brand-mark" src="../assets/logo-marker-raster-v2.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="../" aria-label="${siteName} home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="../index.html">Today's doodle</a>
+      <a href="../">Today's doodle</a>
       <a href="../library.html">Doodle library</a>
-      <a href="../index.html#about">How it works</a>
+      <a href="../#about">How it works</a>
       <a class="nav-button" href="#lesson">Start doodling</a>
     </nav>
   </header>
@@ -451,9 +457,9 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="../index.html"><span class="brand-name">${siteSlug}<span>.day</span></span></a>
-    <p>Make a bold mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@doodle.day">Say hello</a></nav>
+    <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
+    <p>Make a bold mark. See what happens. Want quieter pencil lessons? Visit <a href="https://sketcha.day/">Sketcha.day</a>.</p>
+    <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     <small>© 2026 ${siteName}</small>
   </footer>
   <script src="../script.js"></script>
@@ -470,7 +476,8 @@ const homePage = (lesson) => {
       <div class="about-copy">
         <p class="kicker">One small doodle, every day</p>
         <h2>A daily marker habit for playful hands.</h2>
-        <p>Doodle.day is the louder sibling to Sketcha.day: simple shapes, bold outlines, bright marker color, and small comic-style drawing ideas you can finish in one sitting.</p>
+        <p>Doodlea.day is the louder sibling to Sketcha.day: simple shapes, bold outlines, bright marker color, and small comic-style drawing ideas you can finish in one sitting.</p>
+        <p class="sister-note">Want a calmer pencil-sketch practice? Visit <a href="https://sketcha.day/">Sketcha.day</a> for step-by-step sketch lessons.</p>
         <div class="about-points">
           <p><strong>Made for markers</strong><span>Most lessons use black outlines plus 2-3 colors.</span></p>
           <p><strong>Cartoon-first</strong><span>Expect flames, characters, lettering shapes, icons, and comic details.</span></p>
@@ -505,8 +512,8 @@ const homePage = (lesson) => {
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
-    .replaceAll("../index.html#about", "#about")
-    .replaceAll("../index.html", "index.html")
+    .replaceAll("../#about", "#about")
+    .replaceAll('href="../"', 'href="/"')
     .replaceAll("Skip to the doodle", "Skip to today's doodle")
     .replaceAll("Felt-tip marker mode", "Marker ready?")
     .replace("  </main>", `${homeOnlySections}  </main>`);
@@ -571,7 +578,7 @@ const archivePage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Doodle Tutorial Library | Marker-Based Step-by-Step Doodles | ${siteName}</title>
-  <meta name="description" content="Browse every Doodle.day tutorial. Find bold marker-based lessons for colorful cartoon, comic, and doodle drawing ideas.">
+  <meta name="description" content="Browse every Doodlea.day tutorial. Find bold marker-based lessons for colorful cartoon, comic, and doodle drawing ideas.">
   <link rel="canonical" href="${siteUrl}/library.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="The ${siteName} Doodle Tutorial Library">
@@ -587,20 +594,21 @@ ${iconLinks}
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
+${plausibleTag}
 </head>
 <body class="library-page doodle-site">
   <a class="skip-link" href="#tutorial-library">Skip to the doodle library</a>
   <header class="site-header">
     <div class="brand">
-      <img class="brand-mark" src="assets/logo-pencil.svg" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="index.html" aria-label="${siteName} home"><span class="brand-name">${siteSlug}<span>.day</span></span></a>
+      <img class="brand-mark" src="assets/logo-marker-raster-v2.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="/" aria-label="${siteName} home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="index.html">Today's doodle</a>
+      <a href="/">Today's doodle</a>
       <a href="library.html" aria-current="page">Doodle library</a>
-      <a href="index.html#about">How it works</a>
-      <a class="nav-button" href="index.html#lesson">Start doodling</a>
+      <a href="/#about">How it works</a>
+      <a class="nav-button" href="/#lesson">Start doodling</a>
     </nav>
   </header>
   <main>
@@ -629,9 +637,9 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="index.html"><span class="brand-name">${siteSlug}<span>.day</span></span></a>
-    <p>Make a bold mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="index.html#about">About</a><a href="mailto:hello@doodle.day">Say hello</a></nav>
+    <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
+    <p>Make a bold mark. See what happens. Want quieter pencil lessons? Visit <a href="https://sketcha.day/">Sketcha.day</a>.</p>
+    <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     <small>© 2026 ${siteName}</small>
   </footer>
   <script src="script.js"></script>
