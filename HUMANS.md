@@ -97,3 +97,21 @@
   `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodle.day` to
   `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`; Cove's
   `doodlea.localhost` public symlink points at the new folder.
+- Updated the daily automation guidance: until the owner says otherwise, each
+  scheduled run should create two tutorials per sister site: one current daily
+  tutorial and one honest backdated archive tutorial for Doodlea.day, plus the
+  same current/backdated pair for Sketcha.day.
+- Added two Doodlea.day lessons on June 26, 2026: `cartoon-coconut-drink` as
+  the current June 26 / Day 007 marker tutorial, and
+  `watermelon-wedge-doodle` as an honest backdated June 20 / Day 001 archive
+  tutorial. Existing Doodlea day labels shifted forward by one.
+- Finished image ratings: coconut drink 8.8/10 for strong marker texture,
+  readable face/straw/umbrella, and clear process fit; watermelon wedge 8.9/10
+  for bold sticker-like shape, bright color, and simple teachable steps.
+- June 26 QA used `python3 scripts/check-tutorial-readiness.py
+  cartoon-coconut-drink` and `python3 scripts/check-tutorial-readiness.py
+  watermelon-wedge-doodle`, reviewed `/tmp/cartoon-coconut-drink-steps.jpg` and
+  `/tmp/watermelon-wedge-doodle-steps.jpg`, and saved Cove desktop/mobile
+  screenshots under `/tmp/daily-sketch-doodle-qa-final/`.
+- The temporary two-tutorial-per-site cadence remains active until the owner
+  says otherwise.

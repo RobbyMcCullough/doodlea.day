@@ -1,0 +1,105 @@
+{
+  "slug": "cartoon-coconut-drink",
+  "finished": "assets/cartoon-coconut-drink-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel built-in image generation contact sheet saved under drafts/cartoon-coconut-drink/ and cropped into raster tutorial assets.",
+    "notes": "Current Doodlea.day lesson uses a June 26 coconut hook without claiming public activity or popularity."
+  },
+  "process_strategy": "A single six-panel marker contact sheet keeps one coconut drink centered while each frame adds the coconut body, top opening, face, straw, umbrella, marker fills, and final outline punch-up.",
+  "final_elements": [
+    {
+      "name": "round coconut body",
+      "introduced_by_step": 1,
+      "description": "A big round coconut shape with a slightly flattened base."
+    },
+    {
+      "name": "top opening and rim",
+      "introduced_by_step": 2,
+      "description": "An oval opening at the top with a dark drink rim."
+    },
+    {
+      "name": "cute face",
+      "introduced_by_step": 3,
+      "description": "Two simple eyes and a small smiling mouth on the coconut."
+    },
+    {
+      "name": "bendy straw",
+      "introduced_by_step": 4,
+      "description": "A striped bendy straw leaning out of the top opening."
+    },
+    {
+      "name": "tiny paper umbrella",
+      "introduced_by_step": 4,
+      "description": "A small triangular drink umbrella tucked behind the straw."
+    },
+    {
+      "name": "brown and tropical marker fills",
+      "introduced_by_step": 5,
+      "description": "Brown coconut fill with bright straw and umbrella color accents."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-coconut-drink-step-1.jpg",
+      "step_name": "Start the coconut",
+      "visible_job": "Blocks in the round coconut body and flattened base.",
+      "introduces": [
+        "round coconut body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-coconut-drink-step-2.jpg",
+      "step_name": "Cut the top opening",
+      "visible_job": "Adds the oval top opening and dark rim shape.",
+      "introduces": [
+        "top opening and rim"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-coconut-drink-step-3.jpg",
+      "step_name": "Add the face",
+      "visible_job": "Draws the simple eyes and small smile on the coconut.",
+      "introduces": [
+        "cute face"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-coconut-drink-step-4.jpg",
+      "step_name": "Add straw and umbrella",
+      "visible_job": "Places the bendy straw and tiny drink umbrella at the top.",
+      "introduces": [
+        "bendy straw",
+        "tiny paper umbrella"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-coconut-drink-step-5.jpg",
+      "step_name": "Fill the marker color",
+      "visible_job": "Adds brown coconut color and bright straw and umbrella fills.",
+      "introduces": [
+        "brown and tropical marker fills"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the coconut drink",
+    "asset": "assets/cartoon-coconut-drink-finished-v1.jpg",
+    "visible_job": "Only thickens the established black outlines, strengthens the marker fills, and clarifies small highlights already present.",
+    "allowed_changes": [
+      "black outline thickening",
+      "stronger marker fill",
+      "small highlight cleanup on established elements"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

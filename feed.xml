@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon coconut drink doodle</title>
+      <link>https://doodlea.day/tutorials/cartoon-coconut-drink.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-coconut-drink.html</guid>
+      <pubDate>Fri, 26 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon coconut drink doodle with a round coconut body, top opening, cute face, bendy straw, tiny umbrella, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-coconut-drink-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a smiling pizza slice doodle</title>
       <link>https://doodlea.day/tutorials/smiling-pizza-slice-doodle.html</link>
@@ -46,6 +54,14 @@
       <pubDate>Sun, 21 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a silly robot head with a rounded blue face, spring antenna, side bolts, mismatched eyes, toothy grin, bottom button panel, and bold marker color.</description>
       <media:content url="https://doodlea.day/assets/silly-robot-head-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a watermelon wedge doodle</title>
+      <link>https://doodlea.day/tutorials/watermelon-wedge-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/watermelon-wedge-doodle.html</guid>
+      <pubDate>Sat, 20 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a watermelon wedge doodle with a wide triangle slice, curved rind bands, tiny smiling face, black seed drops, thick black outline, and red-green marker fills.</description>
+      <media:content url="https://doodlea.day/assets/watermelon-wedge-doodle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

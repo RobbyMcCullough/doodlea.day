@@ -1,0 +1,99 @@
+{
+  "slug": "watermelon-wedge-doodle",
+  "finished": "assets/watermelon-wedge-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel built-in image generation contact sheet saved under drafts/watermelon-wedge-doodle/ and cropped into raster tutorial assets.",
+    "notes": "Backdated archive lesson kept honest in public copy; summer subject chosen for a bold marker shape distinct from existing flames, pizza, trophy, firework, and robot lessons."
+  },
+  "process_strategy": "A single six-panel marker contact sheet keeps one watermelon wedge in the same angle while the process adds wedge, rind bands, face, seeds, color fills, and final marker cleanup.",
+  "final_elements": [
+    {
+      "name": "watermelon wedge shape",
+      "introduced_by_step": 1,
+      "description": "A wide triangular slice with a curved bottom edge."
+    },
+    {
+      "name": "green rind bands",
+      "introduced_by_step": 2,
+      "description": "Two curved rind bands following the bottom edge of the wedge."
+    },
+    {
+      "name": "tiny smiling face",
+      "introduced_by_step": 3,
+      "description": "A small face with dot eyes and a curved smile on the fruit."
+    },
+    {
+      "name": "black seed drops",
+      "introduced_by_step": 4,
+      "description": "Small teardrop seed shapes spaced around the face."
+    },
+    {
+      "name": "red and green marker fills",
+      "introduced_by_step": 5,
+      "description": "Red fruit fill and green rind color with visible marker streaks."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/watermelon-wedge-doodle-step-1.jpg",
+      "step_name": "Start the wedge",
+      "visible_job": "Blocks in the wide triangular watermelon slice and curved bottom edge.",
+      "introduces": [
+        "watermelon wedge shape"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/watermelon-wedge-doodle-step-2.jpg",
+      "step_name": "Add the rind",
+      "visible_job": "Adds two curved rind bands along the bottom edge.",
+      "introduces": [
+        "green rind bands"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/watermelon-wedge-doodle-step-3.jpg",
+      "step_name": "Draw the face",
+      "visible_job": "Places the dot eyes and curved smile on the fruit area.",
+      "introduces": [
+        "tiny smiling face"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/watermelon-wedge-doodle-step-4.jpg",
+      "step_name": "Place the seeds",
+      "visible_job": "Adds small teardrop seed shapes around the face.",
+      "introduces": [
+        "black seed drops"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/watermelon-wedge-doodle-step-5.jpg",
+      "step_name": "Fill the marker color",
+      "visible_job": "Adds red fruit fill and green rind fill with marker texture.",
+      "introduces": [
+        "red and green marker fills"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the watermelon",
+    "asset": "assets/watermelon-wedge-doodle-finished-v1.jpg",
+    "visible_job": "Only thickens the established black outlines, strengthens the red and green marker fills, and clarifies small highlights already present.",
+    "allowed_changes": [
+      "black outline thickening",
+      "stronger marker fill",
+      "small highlight cleanup on established elements"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

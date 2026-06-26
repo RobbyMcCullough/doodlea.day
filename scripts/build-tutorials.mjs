@@ -16,8 +16,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 
 const lessons = [
   {
+    slug: "cartoon-coconut-drink",
+    day: "007",
+    date: "Friday, June 26",
+    isoDate: "2026-06-26",
+    subject: "a cartoon coconut drink doodle",
+    headlineSubject: "a cartoon<br>coconut drink",
+    shortSubject: "a cartoon coconut drink",
+    lessonTitle: "Let's doodle a coconut drink",
+    description: "Learn how to draw a cartoon coconut drink doodle with a round coconut body, top opening, cute face, bendy straw, tiny umbrella, thick black outline, and bright marker fills.",
+    intro: "Turn a round coconut into a cheerful tropical marker doodle with one face, one straw, and a small umbrella that stays easy to build.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#1aa6aa",
+    finished: "cartoon-coconut-drink-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a cartoon coconut drink with brown coconut body, smiling face, striped teal straw, tiny colorful umbrella, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Brown, teal, pink, yellow, and green markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the brown fill looks best when a little marker streaking stays visible.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start the coconut",
+        text: "Draw a big round coconut body with a slightly flattened base so it can sit firmly on the page.",
+        tip: "Keep the shape simple. The face, straw, and umbrella will bring the personality later."
+      },
+      {
+        name: "Cut the top opening",
+        text: "Add a wide oval near the top and thicken its lower edge to make the dark drink rim.",
+        tip: "Place the oval inside the coconut, not on the outside edge. That keeps the top from looking like a hat."
+      },
+      {
+        name: "Add the face",
+        text: "Draw two simple eyes and a small curved smile on the front of the coconut.",
+        tip: "Leave room above the face for the straw. A low face makes the coconut look rounder."
+      },
+      {
+        name: "Add straw and umbrella",
+        text: "Draw a striped bendy straw leaning out of the top opening, then tuck a tiny triangle umbrella behind it.",
+        tip: "Let the umbrella overlap the rim a little. That overlap makes the drink pieces feel connected."
+      },
+      {
+        name: "Fill the marker color",
+        text: "Fill the coconut brown, color the straw stripes teal, and add bright pink, yellow, and green sections to the umbrella.",
+        tip: "Color around the face slowly. Clean white eye highlights make the marker doodle feel crisp."
+      },
+      {
+        name: "Punch up the coconut drink",
+        text: "Go back over the black outlines, strengthen the brown and bright marker fills, and clean only the edges you already drew.",
+        tip: "Do not add extra fruit or background props. The final pass is for bolder marker energy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "smiling-pizza-slice-doodle",
-    day: "005",
+    day: "006",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -70,7 +123,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "004",
+    day: "005",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -123,7 +176,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "003",
+    day: "004",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -176,7 +229,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "002",
+    day: "003",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -228,8 +281,61 @@ const lessons = [
     ]
   },
   {
-    slug: "silly-robot-head",
+    slug: "watermelon-wedge-doodle",
     day: "001",
+    date: "Saturday, June 20",
+    isoDate: "2026-06-20",
+    subject: "a watermelon wedge doodle",
+    headlineSubject: "a watermelon<br>wedge",
+    shortSubject: "a watermelon wedge",
+    lessonTitle: "Let's doodle a watermelon wedge",
+    description: "Learn how to draw a watermelon wedge doodle with a wide triangle slice, curved rind bands, tiny smiling face, black seed drops, thick black outline, and red-green marker fills.",
+    intro: "Use one triangle and one curved rind to make a bright summer marker doodle with a tiny face and bold seed shapes.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#ef3f3c",
+    finished: "watermelon-wedge-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a smiling watermelon wedge with red fruit, green rind bands, black seed drops, thick black outline, and visible marker texture",
+    materials: ["Drawing paper", "Black marker", "Red, light green, and dark green markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; broad red marker fill can bleed through thin paper.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start the wedge",
+        text: "Draw a wide triangle with a curved bottom edge, like a big slice sitting upright.",
+        tip: "Make the bottom curve gentle. A too-flat edge will look like a road sign instead of fruit."
+      },
+      {
+        name: "Add the rind",
+        text: "Draw two curved bands along the bottom edge to separate the fruit, light rind, and dark outer rind.",
+        tip: "Echo the same curve three times. Matching bands make the wedge feel solid."
+      },
+      {
+        name: "Draw the face",
+        text: "Add two dot eyes and a small curved smile in the red fruit area.",
+        tip: "Keep the face below the middle so there is still room for seeds above it."
+      },
+      {
+        name: "Place the seeds",
+        text: "Scatter small teardrop seed shapes around the face, with a few high and a few low.",
+        tip: "Leave gaps between seeds. Crowding them together can hide the smile."
+      },
+      {
+        name: "Fill the marker color",
+        text: "Fill the fruit red, color the upper rind light green, and fill the outer rind dark green.",
+        tip: "Use long strokes that follow the triangle. Visible marker texture is part of the charm."
+      },
+      {
+        name: "Punch up the watermelon",
+        text: "Go back over the black outline, seeds, face, and red-green fills without adding new seeds or background props.",
+        tip: "Let the final outline be thick and confident. That is what makes the slice read as a sticker-like doodle.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "silly-robot-head",
+    day: "002",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",
