@@ -1,10 +1,26 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-25
-- Agent harness: Codex
-- Harness project/session name: Daily sketch and doodle lessons
+- Date: 2026-06-26
+- Agent harness: Claude Code (Andromeda project)
+- Harness project/session name: Andromeda server / multi-site deploy
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
+
+### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
+- Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local
+  folder was renamed doodle.day -> doodlea.day, remote is the `doodlea.day` repo).
+- Deploy is **Andromeda droplet + Caddy** (NOT Cloudflare Pages — that workflow was
+  replaced). `.github/workflows/deploy.yml` now SSHes in and `git pull`s
+  `/var/www/doodlea.day` on push to main, exactly like sketcha.day. Caddy serves the
+  repo root. See `DEPLOYMENT.md` and `~/Dropbox/AI/andromeda/AGENTS.md`.
+- GitHub secrets set: SSH_HOST/SSH_USER/SSH_PRIVATE_KEY (deploy key
+  `github-actions-doodlea.day`, authorized in the server's authorized_keys).
+- DNS: doodlea.day + www A records -> 138.68.248.95, **grey-cloud** (optional future:
+  set zone SSL to Full (strict) then orange-cloud, per andromeda proxy policy).
+- Analytics: self-hosted Plausible. Tag added to every page in
+  `scripts/build-tutorials.mjs` (`data-domain` follows SITE_URL). Site registered in
+  Plausible (site_id 13, owner mybbor@gmail.com); ingestion verified in ClickHouse.
+  One test pageview from setup may show in stats.
 
 ## Project Context
 - Parent project: Daily drawing prompt/tutorial websites
