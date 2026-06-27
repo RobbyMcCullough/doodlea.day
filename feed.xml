@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a skateboard sticker doodle</title>
+      <link>https://doodlea.day/tutorials/skateboard-sticker-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/skateboard-sticker-doodle.html</guid>
+      <pubDate>Sat, 27 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a skateboard sticker doodle with a rounded deck, trucks, wheels, cute face, star sticker, diagonal stripes, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/skateboard-sticker-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon coconut drink doodle</title>
       <link>https://doodlea.day/tutorials/cartoon-coconut-drink.html</link>
@@ -62,6 +70,14 @@
       <pubDate>Sat, 20 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a watermelon wedge doodle with a wide triangle slice, curved rind bands, tiny smiling face, black seed drops, thick black outline, and red-green marker fills.</description>
       <media:content url="https://doodlea.day/assets/watermelon-wedge-doodle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a goofy monster face</title>
+      <link>https://doodlea.day/tutorials/goofy-monster-face.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/goofy-monster-face.html</guid>
+      <pubDate>Fri, 19 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a goofy monster face with a round head, little horns, uneven eyes, toothy grin, cheek spots, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/goofy-monster-face-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

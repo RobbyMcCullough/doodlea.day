@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-26
+- Date: 2026-06-27
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -152,3 +152,17 @@
   manual-interest newsletter section. The disabled form remains a placeholder,
   and the public interest link is
   `mailto:hello@doodlea.day?subject=Doodlea.day%20daily%20email%20interest`.
+- Added the skateboard sticker doodle as the June 27, 2026 / Day 009 marker
+  tutorial from a reviewed six-panel generated contact sheet. Finished image
+  rating: 8.8/10.
+- Added the goofy monster face as the June 19, 2026 / Day 001 backdated archive
+  tutorial. Existing Doodlea day labels shifted forward by one. Finished image
+  rating: 9.0/10.
+- June 27 QA used `python3 scripts/check-tutorial-readiness.py
+  skateboard-sticker-doodle` and `python3 scripts/check-tutorial-readiness.py
+  goofy-monster-face`, reviewed step sheets at
+  `/tmp/skateboard-sticker-doodle-steps.jpg` and
+  `/tmp/goofy-monster-face-steps.jpg`, and saved Cove browser desktop/mobile
+  screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-27/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.

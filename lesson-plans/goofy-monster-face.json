@@ -1,0 +1,106 @@
+{
+  "slug": "goofy-monster-face",
+  "finished": "assets/goofy-monster-face-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel marker process contact sheet for the goofy-monster-face lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The sequence keeps one centered monster head, introducing the head, horns, eyes, mouth, teeth, spots, outline, and marker color before the final punch-up.",
+  "final_elements": [
+    {
+      "name": "round monster head",
+      "introduced_by_step": 1,
+      "description": "A round blobby head gives the monster a friendly silhouette."
+    },
+    {
+      "name": "two little horns",
+      "introduced_by_step": 2,
+      "description": "Two short rounded horns sit on top of the head."
+    },
+    {
+      "name": "uneven eyes",
+      "introduced_by_step": 3,
+      "description": "One large eye and one smaller eye make the expression goofy."
+    },
+    {
+      "name": "wide toothy mouth",
+      "introduced_by_step": 4,
+      "description": "A wide smile with simple square teeth crosses the lower face."
+    },
+    {
+      "name": "cheek spots",
+      "introduced_by_step": 5,
+      "description": "A few round cheek spots add playful monster texture."
+    },
+    {
+      "name": "bold marker color",
+      "introduced_by_step": 5,
+      "description": "Green, purple, and yellow marker fills make the face bright and doodly."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/goofy-monster-face-step-1.jpg",
+      "step_name": "Start the head",
+      "visible_job": "Draw the large rounded blobby head outline with a slightly flat lower edge.",
+      "introduces": [
+        "round monster head"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/goofy-monster-face-step-2.jpg",
+      "step_name": "Add the horns",
+      "visible_job": "Place two little rounded horns on the top of the head.",
+      "introduces": [
+        "two little horns"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/goofy-monster-face-step-3.jpg",
+      "step_name": "Make the eyes uneven",
+      "visible_job": "Add one large eye and one smaller eye to create the goofy expression.",
+      "introduces": [
+        "uneven eyes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/goofy-monster-face-step-4.jpg",
+      "step_name": "Draw the toothy grin",
+      "visible_job": "Draw a wide mouth and add simple square teeth along the smile.",
+      "introduces": [
+        "wide toothy mouth"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/goofy-monster-face-step-5.jpg",
+      "step_name": "Add spots and color",
+      "visible_job": "Add cheek spots, thicken the black outline, and fill the monster with green, purple, and yellow marker.",
+      "introduces": [
+        "cheek spots",
+        "bold marker color"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the monster face",
+    "asset": "assets/goofy-monster-face-finished-v1.jpg",
+    "visible_job": "Strengthen the existing black outline, deepen the marker fills, and add tiny highlights to already-drawn eyes and teeth.",
+    "allowed_changes": [
+      "marker outline thickening",
+      "stronger existing color fills",
+      "tiny highlight cleanup",
+      "minor marker shadow accents"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

@@ -17,8 +17,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "skateboard-sticker-doodle",
+    day: "009",
+    date: "Saturday, June 27",
+    isoDate: "2026-06-27",
+    subject: "a skateboard sticker doodle",
+    headlineSubject: "a skateboard<br>sticker",
+    shortSubject: "a skateboard sticker",
+    lessonTitle: "Let's doodle a skateboard sticker",
+    description: "Learn how to draw a skateboard sticker doodle with a rounded deck, trucks, wheels, cute face, star sticker, diagonal stripes, thick black outline, and bright marker fills.",
+    intro: "Turn one rounded deck into a cheerful sticker-style skateboard with bold marker edges, simple wheels, and a tiny face.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#16aeb2",
+    finished: "skateboard-sticker-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a cute teal skateboard sticker with wheels, trucks, face, yellow star, red stripes, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Teal, yellow, red, and gray markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the teal fill looks best when a little marker streaking stays visible.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the deck",
+        text: "Draw a long rounded skateboard deck at a slight angle, like a stretched capsule.",
+        tip: "Round both ends generously. That soft sticker shape is easier to outline with marker."
+      },
+      {
+        name: "Add trucks and wheels",
+        text: "Place one truck bar near each end, then add two small wheels on each bar.",
+        tip: "Keep the wheels simple circles or short cylinders. They only need to read clearly at small size."
+      },
+      {
+        name: "Give it a face",
+        text: "Add two oval eyes and a small curved smile in the open middle of the deck.",
+        tip: "Center the face between the trucks so it does not fight with the wheels."
+      },
+      {
+        name: "Place the stickers",
+        text: "Draw one star near the top and two diagonal stripe bands across the lower half of the deck.",
+        tip: "Let the stripes follow the deck angle. Parallel bands feel cleaner than random slashes."
+      },
+      {
+        name: "Fill the marker color",
+        text: "Thicken the black outline, fill the deck teal, color the star yellow, the stripes red, and the wheels and trucks gray.",
+        tip: "Color around the face slowly so the expression stays crisp."
+      },
+      {
+        name: "Punch up the skateboard",
+        text: "Go back over the black outline, strengthen the marker fills, and add tiny highlights only to shapes you already drew.",
+        tip: "Do not add new stickers at the end. The final pass is for bolder marker energy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-coconut-drink",
-    day: "007",
+    day: "008",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -71,7 +124,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "006",
+    day: "007",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -124,7 +177,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "005",
+    day: "006",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -177,7 +230,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "004",
+    day: "005",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -230,7 +283,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "003",
+    day: "004",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -282,8 +335,61 @@ const lessons = [
     ]
   },
   {
-    slug: "watermelon-wedge-doodle",
+    slug: "goofy-monster-face",
     day: "001",
+    date: "Friday, June 19",
+    isoDate: "2026-06-19",
+    subject: "a goofy monster face",
+    headlineSubject: "a goofy<br>monster face",
+    shortSubject: "a goofy monster face",
+    lessonTitle: "Let's doodle a goofy monster face",
+    description: "Learn how to draw a goofy monster face with a round head, little horns, uneven eyes, toothy grin, cheek spots, thick black outline, and bright marker fills.",
+    intro: "Start with one friendly blob shape, then add horns, mismatched eyes, and a big toothy grin before the marker color goes in.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#76c943",
+    finished: "goofy-monster-face-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a goofy green monster face with purple horns, uneven eyes, toothy grin, yellow cheek spots, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Green, purple, yellow, and gray markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; bright green marker often needs a second light pass.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start the head",
+        text: "Draw a round blobby head shape with a slightly flat bottom so the monster feels friendly.",
+        tip: "Keep the outline simple. The expression will make it goofy."
+      },
+      {
+        name: "Add the horns",
+        text: "Place two small rounded horns on top of the head and add a couple of curved bands inside them.",
+        tip: "Make the horns short and chunky. Long sharp horns will make the face feel scarier."
+      },
+      {
+        name: "Make the eyes uneven",
+        text: "Draw one large eye and one smaller eye, then fill the pupils with black marker.",
+        tip: "The uneven sizes are the joke. Do not try to make them perfectly symmetrical."
+      },
+      {
+        name: "Draw the toothy grin",
+        text: "Add a wide curved mouth and break the smile into a few simple square teeth.",
+        tip: "Leave white paper inside the teeth. Clean tooth shapes help the grin read fast."
+      },
+      {
+        name: "Add spots and color",
+        text: "Add round cheek spots, thicken the black outline, fill the head green, color the horns purple, and make the spots yellow.",
+        tip: "Color in one direction where you can. Visible marker streaks are part of the Doodlea look."
+      },
+      {
+        name: "Punch up the monster face",
+        text: "Go back over the black outline, deepen the green and purple fills, and add tiny highlights to the eyes and teeth.",
+        tip: "Do not add a body or background. The lesson is a face doodle, so keep the finish focused.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "watermelon-wedge-doodle",
+    day: "002",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -336,7 +442,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "002",
+    day: "003",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

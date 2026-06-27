@@ -1,0 +1,106 @@
+{
+  "slug": "skateboard-sticker-doodle",
+  "finished": "assets/skateboard-sticker-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel marker process contact sheet for the skateboard-sticker-doodle lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep one front-facing skateboard sticker pose, introducing the deck, trucks, wheels, face, sticker shapes, and marker colors before the final outline pass.",
+  "final_elements": [
+    {
+      "name": "rounded skateboard deck",
+      "introduced_by_step": 1,
+      "description": "A rounded skateboard deck forms the main sticker silhouette."
+    },
+    {
+      "name": "trucks and wheels",
+      "introduced_by_step": 2,
+      "description": "Two truck bars and four small wheels sit under the board."
+    },
+    {
+      "name": "cute face",
+      "introduced_by_step": 3,
+      "description": "Simple eyes and a smile give the board a playful expression."
+    },
+    {
+      "name": "star and stripe stickers",
+      "introduced_by_step": 4,
+      "description": "A small star and diagonal stripes decorate the board face."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 5,
+      "description": "A bold black marker outline wraps the deck, trucks, wheels, and decorations."
+    },
+    {
+      "name": "bright marker fills",
+      "introduced_by_step": 5,
+      "description": "Teal, yellow, red, and gray marker fills add saturated sticker color."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/skateboard-sticker-doodle-step-1.jpg",
+      "step_name": "Draw the deck",
+      "visible_job": "Block in the rounded skateboard deck with light marker lines.",
+      "introduces": [
+        "rounded skateboard deck"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/skateboard-sticker-doodle-step-2.jpg",
+      "step_name": "Add trucks and wheels",
+      "visible_job": "Place the two truck bars and four small wheels under the deck.",
+      "introduces": [
+        "trucks and wheels"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/skateboard-sticker-doodle-step-3.jpg",
+      "step_name": "Give it a face",
+      "visible_job": "Add the simple eyes and smile centered on the board.",
+      "introduces": [
+        "cute face"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/skateboard-sticker-doodle-step-4.jpg",
+      "step_name": "Place the stickers",
+      "visible_job": "Add the star and diagonal stripe decorations without changing the deck shape.",
+      "introduces": [
+        "star and stripe stickers"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/skateboard-sticker-doodle-step-5.jpg",
+      "step_name": "Fill the marker color",
+      "visible_job": "Thicken the black outline and add teal, yellow, red, and gray marker fills.",
+      "introduces": [
+        "thick black outline",
+        "bright marker fills"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the skateboard",
+    "asset": "assets/skateboard-sticker-doodle-finished-v1.jpg",
+    "visible_job": "Strengthen the existing black outlines, even out the marker fills, and add tiny white highlights only to existing shapes.",
+    "allowed_changes": [
+      "marker outline thickening",
+      "stronger existing color fills",
+      "tiny highlight cleanup",
+      "minor marker shadow accents"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
