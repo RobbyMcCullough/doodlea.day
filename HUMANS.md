@@ -181,3 +181,7 @@
   screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-27/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Added three private `lab.html` Doodlea.day logo color variations for review:
+  button-magenta wordmark, newsletter-green wordmark, and a hard-shadow badge
+  treatment using the button shadow language. This was intentionally not mirrored
+  to Sketcha.day because it is a Doodlea-only brand-color experiment.

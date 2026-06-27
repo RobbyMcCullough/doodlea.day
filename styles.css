@@ -1301,6 +1301,169 @@ a {
   color: var(--orange);
 }
 
+.logo-lab {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto 120px;
+}
+
+.logo-lab-intro {
+  max-width: 720px;
+  margin-bottom: 30px;
+}
+
+.logo-lab-intro h2 {
+  margin: .35rem 0 1rem;
+  font-family: var(--display);
+  font-size: clamp(3.2rem, 7vw, 5.9rem);
+  font-weight: 400;
+  line-height: .9;
+}
+
+.logo-lab-intro p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 1.03rem;
+}
+
+.logo-variant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.1rem, 2.6vw, 2rem);
+  align-items: stretch;
+}
+
+.logo-variant {
+  display: grid;
+  align-content: start;
+  gap: 1.15rem;
+  min-width: 0;
+  min-height: 258px;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 2px solid var(--ink);
+  background: var(--paper-light);
+  box-shadow: 8px 8px 0 rgba(40, 37, 31, .14);
+}
+
+.logo-variant:nth-child(1) {
+  transform: rotate(-.7deg);
+}
+
+.logo-variant:nth-child(2) {
+  transform: rotate(.6deg);
+}
+
+.logo-variant:nth-child(3) {
+  transform: rotate(-.2deg);
+}
+
+.logo-variant-label {
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  padding: .28rem .55rem;
+  border: 2px solid var(--ink);
+  background: var(--yellow);
+  font-size: .73rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  transform: rotate(-1deg);
+}
+
+.logo-sample {
+  --logo-main: var(--button-bg);
+  --logo-accent: var(--yellow);
+  --logo-domain: var(--logo-main);
+  --logo-underline: var(--logo-main);
+
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+.logo-sample .brand-mark {
+  flex: 0 0 auto;
+}
+
+.logo-sample .brand-name {
+  color: var(--logo-main);
+  font-size: clamp(2.15rem, 4.8vw, 3rem);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.logo-sample .brand-name::after {
+  right: .04em;
+  bottom: -.11em;
+  left: .06em;
+  height: .12em;
+  background: var(--logo-underline);
+  border-radius: 999px 60% 999px 55%;
+  transform: rotate(-1deg);
+}
+
+.logo-sample .brand-accent {
+  color: var(--logo-accent);
+}
+
+.logo-sample .brand-domain {
+  color: var(--logo-domain);
+}
+
+.logo-variant > p:not(.logo-variant-label) {
+  margin: .2rem 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+.button-magenta-logo {
+  --logo-main: var(--button-bg);
+}
+
+.newsletter-green-logo {
+  --logo-main: var(--green);
+}
+
+.newsletter-green-logo .logo-sample {
+  --logo-main: var(--green);
+  --logo-accent: var(--button-bg);
+  --logo-domain: var(--green);
+  --logo-underline: var(--green);
+}
+
+.shadow-badge-logo {
+  background:
+    linear-gradient(135deg, rgba(242, 184, 61, .22), transparent 45%),
+    var(--paper-light);
+}
+
+.logo-sample-badge {
+  width: fit-content;
+  max-width: calc(100% - 9px);
+  padding: .72rem 1rem .95rem .82rem;
+  border: 2px solid var(--ink);
+  background: var(--paper-light);
+  box-shadow: 7px 7px 0 var(--ink);
+  transform: rotate(-1deg);
+}
+
+.logo-sample-badge .logo-sample {
+  --logo-main: var(--button-bg);
+  --logo-accent: var(--yellow);
+  --logo-domain: var(--button-bg);
+  --logo-underline: var(--button-bg);
+}
+
+.logo-sample-badge .brand-mark {
+  width: 42px;
+  height: 42px;
+}
+
+.logo-sample-badge .brand-name {
+  font-size: clamp(2rem, 3.6vw, 2.55rem);
+}
+
 .about {
   display: grid;
   grid-template-columns: .8fr 1.2fr;
@@ -1617,6 +1780,15 @@ a {
   .lab-card:nth-child(n) {
     margin-top: 0;
   }
+
+  .logo-variant-grid {
+    grid-template-columns: 1fr;
+    max-width: 650px;
+  }
+
+  .logo-variant:nth-child(n) {
+    transform: none;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1762,6 +1934,28 @@ a {
     transform: none;
   }
 
+  .logo-lab {
+    width: min(100% - 36px, 620px);
+    margin-bottom: 95px;
+  }
+
+  .logo-lab-intro h2 {
+    font-size: clamp(3.2rem, 17vw, 5rem);
+  }
+
+  .logo-sample {
+    gap: .45rem;
+  }
+
+  .logo-sample .brand-mark {
+    width: 42px;
+    height: 42px;
+  }
+
+  .logo-sample .brand-name {
+    font-size: clamp(1.72rem, 9vw, 2.75rem);
+  }
+
   .related-library .library-grid {
     grid-template-columns: 1fr;
   }
@@ -1831,6 +2025,21 @@ a {
 
   .newsletter h2 {
     font-size: 3.1rem;
+  }
+
+  .logo-variant {
+    padding: 1.15rem;
+    box-shadow: 4px 4px 0 rgba(40, 37, 31, .14);
+  }
+
+  .logo-sample .brand-name {
+    font-size: clamp(1.56rem, 8.2vw, 2rem);
+  }
+
+  .logo-sample-badge {
+    max-width: calc(100% - 6px);
+    padding: .55rem .7rem .72rem .58rem;
+    box-shadow: 4px 4px 0 var(--ink);
   }
 }
 
