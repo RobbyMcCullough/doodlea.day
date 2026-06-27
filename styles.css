@@ -330,10 +330,28 @@ a {
   line-height: .88;
 }
 
-.hero h1 em span,
+.hero h1 em .headline-line,
 .archive-intro h1 em span,
 .lab-copy h1 em span {
   display: block;
+}
+
+.hero h1 em .headline-line {
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.hero h1 em .headline-line-tight {
+  font-size: .9em;
+}
+
+.hero h1 em .headline-line-compact {
+  font-size: .82em;
+}
+
+.hero h1 em .headline-word {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .hero h1 em {
@@ -350,15 +368,15 @@ a {
   transform: rotate(-1.5deg);
 }
 
-.hero h1 em span:last-child {
+.hero h1 em .headline-underline {
   position: relative;
 }
 
-.hero h1 em span:last-child::after {
+.hero h1 em .headline-underline::after {
   position: absolute;
-  right: .02em;
+  right: 0;
   bottom: -.08em;
-  left: .02em;
+  left: 0;
   height: 10px;
   content: "";
   background: currentColor;

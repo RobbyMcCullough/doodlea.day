@@ -51,13 +51,41 @@ python3 scripts/check-tutorial-readiness.py {slug}
 
 10. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
-11. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
+11. Rate the rendered homepage and tutorial page layout at desktop and mobile
+   widths. It must score at least 8/10 before publishing.
+12. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
    connected, routine daily Doodlea.day lessons may push after all quality gates
    pass.
+
+## Page Layout Rating Gate
+
+Before a lesson can be committed or published, rate the rendered homepage and
+tutorial page layout on a 10-point scale at desktop and mobile widths. The page
+layout must score at least 8/10. If it scores below 8, fix the layout or
+headline data before continuing.
+
+Score the layout against these criteria:
+
+- The hero heading is readable and intentional at both breakpoints.
+- No line breaks after a single letter or stranded article such as "a".
+- Manual headline lines do not wrap internally; reduce the headline line size
+  or choose a better `headlineSubject` break instead.
+- The marker underline lands under a real word, not under whitespace,
+  punctuation, or a weak connector such as "on", "in", "of", or "a".
+- The hero art, CTA, date, time, difficulty, and intro sit in a balanced
+  composition without overlap or awkward empty space.
+- The page has no horizontal overflow, clipped headline text, broken navigation,
+  missing images, or obvious mobile crowding.
+
+Reject pages with broken display type, lonely one-character lines, underlines
+that miss the intended word, image/card collisions, clipped hero art, or any
+layout that makes the lesson feel less polished than the current site standard.
 
 ## Stop Conditions
 
 Stop instead of publishing when image generation is unavailable, the contact
 sheet changes subject/pose between panels, the final introduces major elements,
 the saved final scores below 8/10, generated images do not load, JSON-LD is
-invalid, `lab.html` loses `noindex,nofollow`, or validation fails.
+invalid, `lab.html` loses `noindex,nofollow`, the rendered layout scores below
+8/10, a headline breaks after a single character, the marker underline misses
+its target word, or validation fails.

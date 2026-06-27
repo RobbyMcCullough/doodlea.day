@@ -2,6 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
 const siteName = "Doodlea.day";
+const styleVersion = "20260627-heading-fit";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
 const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
@@ -22,7 +23,7 @@ const lessons = [
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
-    headlineSubject: "a skateboard<br>sticker",
+    headlineSubject: "skateboard<br>sticker",
     shortSubject: "a skateboard sticker",
     lessonTitle: "Let's doodle a skateboard sticker",
     description: "Learn how to draw a skateboard sticker doodle with a rounded deck, trucks, wheels, cute face, star sticker, diagonal stripes, thick black outline, and bright marker fills.",
@@ -518,9 +519,26 @@ const materialIcon = (material) => {
   return "marker-icon";
 };
 const titleCase = (value) => value.replace(/\b\w/g, (character) => character.toUpperCase());
+const escapeHtml = (value) => String(value)
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&#39;");
 const headlineHtml = (value) => String(value)
   .split(/<br\s*\/?>/i)
-  .map((line) => `<span>${line.trim()}</span>`)
+  .map((line, lineIndex, lines) => {
+    const words = line.trim().split(/\s+/).filter(Boolean);
+    const letterCount = words.join("").length;
+    const sizeClass = letterCount >= 14 ? " headline-line-compact" : letterCount >= 11 ? " headline-line-tight" : "";
+    const wordHtml = words
+      .map((word, wordIndex) => {
+        const isUnderlineWord = lineIndex === lines.length - 1 && wordIndex === words.length - 1;
+        return `<span class="headline-word${isUnderlineWord ? " headline-underline" : ""}">${escapeHtml(word)}</span>`;
+      })
+      .join(" ");
+    return `<span class="headline-line${sizeClass}">${wordHtml}</span>`;
+  })
   .join(" ");
 const escapeXml = (value) => String(value)
   .replaceAll("&", "&amp;")
@@ -616,7 +634,7 @@ ${iconLinks}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=${styleVersion}">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
 ${plausibleTag}
 </head>
@@ -727,7 +745,7 @@ const homePage = (lesson) => {
 
   let html = page(lesson)
     .replace('<body class="archive-tutorial doodle-site"', '<body class="home-page archive-tutorial doodle-site"')
-    .replaceAll('href="../styles.css"', 'href="styles.css"')
+    .replaceAll(`href="../styles.css?v=${styleVersion}"`, `href="styles.css?v=${styleVersion}"`)
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
@@ -811,7 +829,7 @@ ${iconLinks}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=${styleVersion}">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
 ${plausibleTag}
 </head>

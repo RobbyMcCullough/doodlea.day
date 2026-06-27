@@ -117,6 +117,21 @@
   `/tmp/doodlea-home-desktop-headline-fixed.png`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Heading-fit follow-up on June 27, 2026: tutorial hero headings now render
+  word-level spans inside non-wrapping manual lines, with the marker underline
+  attached to the final meaningful word rather than the whole line. The
+  generator appends `?v=20260627-heading-fit` to `styles.css` so deployed pages
+  load the corrected headline CSS.
+- The skateboard sticker hero now renders as `skateboard` / `sticker` instead
+  of breaking after the letter `a`; the underline lands under `sticker`.
+- `DAILY-PUBLISHING.md` now requires a rendered page-layout rating of at least
+  8/10 before publishing. The gate specifically rejects one-character headline
+  breaks, stranded articles, bad underline placement, overflow, clipped type,
+  and awkward mobile hero composition.
+- June 27 heading QA checked every generated tutorial on Doodlea.day and
+  Sketcha.day at desktop and mobile widths: 60 page/viewport combinations, zero
+  heading failures. Screenshot examples live under
+  `/tmp/heading-fit-qa-2026-06-27/`.
 - Added two Doodlea.day lessons on June 26, 2026: `cartoon-coconut-drink` as
   the current June 26 / Day 007 marker tutorial, and
   `watermelon-wedge-doodle` as an honest backdated June 20 / Day 001 archive
