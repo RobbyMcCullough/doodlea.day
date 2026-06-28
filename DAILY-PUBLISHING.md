@@ -8,6 +8,12 @@ The tutorial must convincingly produce the finished marker doodle. The final
 image should not add major shape, color, contour, lettering, props, or rendering
 that did not appear in a prior process frame.
 
+Late-stage actions must work only on elements that are already present. A frame
+that thickens, inks, darkens, fills, colors, shades, cleans, or clarifies a
+shape may not be the first frame where that shape appears. For example, a pizza
+lesson cannot add a cheese stretch in the color step after an earlier step
+already told the reader to thicken the full outline.
+
 ## Doodle Direction
 
 - Favor cartoons, comic-style marks, icons, badges, expressive symbols, playful
@@ -37,6 +43,9 @@ that did not appear in a prior process frame.
 4. Back-check existing Doodlea.day lessons and avoid repeating shape/category
    problems too closely.
 5. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
+   Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
+   existing parts must list those parts in `requires_prior_elements`, and each
+   listed part must have an earlier `introduced_by_step`.
 6. Generate one raster process contact sheet first. No labels, arrows, numbers,
    signatures, watermarks, or fake UI.
 7. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
@@ -84,8 +93,9 @@ layout that makes the lesson feel less polished than the current site standard.
 ## Stop Conditions
 
 Stop instead of publishing when image generation is unavailable, the contact
-sheet changes subject/pose between panels, the final introduces major elements,
-the saved final scores below 8/10, generated images do not load, JSON-LD is
-invalid, `lab.html` loses `noindex,nofollow`, the rendered layout scores below
-8/10, a headline breaks after a single character, the marker underline misses
-its target word, or validation fails.
+sheet changes subject/pose between panels, a later outline/color/cleanup frame
+introduces a shape that was not visible earlier, the final introduces major
+elements, the saved final scores below 8/10, generated images do not load,
+JSON-LD is invalid, `lab.html` loses `noindex,nofollow`, the rendered layout
+scores below 8/10, a headline breaks after a single character, the marker
+underline misses its target word, or validation fails.

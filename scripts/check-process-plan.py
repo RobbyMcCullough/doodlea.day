@@ -264,6 +264,31 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                         f"frame {index} introduces {name!r}, "
                         "`final_elements` does not list that element"
                     )
+            if "requires_prior_elements" in frame:
+                try:
+                    required_prior = string_list(
+                        frame.get("requires_prior_elements"),
+                        slug,
+                        f"frames[{index}].requires_prior_elements",
+                    )
+                except ValueError as error:
+                    failures.append(str(error))
+                    required_prior = []
+                for name in required_prior:
+                    if element_names and name not in element_names:
+                        failures.append(
+                            f"frame {index} requires prior element {name!r}, "
+                            "`final_elements` does not list that element"
+                        )
+                        continue
+                    first_step = element_first_steps.get(name)
+                    if first_step is None:
+                        continue
+                    if first_step >= index:
+                        failures.append(
+                            f"frame {index} requires {name!r} to appear before this "
+                            f"frame, but it is first introduced at step {first_step}"
+                        )
             if index <= len(page.steps):
                 page_step = page.steps[index - 1]
                 if page_step["name"] != step_name:

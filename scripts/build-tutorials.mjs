@@ -137,7 +137,7 @@ const lessons = [
     time: 15,
     difficulty: "Easy",
     accent: "#f6b72f",
-    finished: "smiling-pizza-slice-doodle-finished-v1.jpg",
+    finished: "smiling-pizza-slice-doodle-finished-v2.jpg",
     finishedAlt: "Bold marker doodle of a smiling pizza slice with yellow cheese, orange crust, red pepperoni, thick black outline, and a small cheese stretch",
     materials: ["Drawing paper", "Black marker", "Yellow, orange, and red markers", "Optional white gel pen"],
     materialNote: "Use scrap paper underneath; the yellow fill looks better when you let marker streaks show.",
@@ -149,14 +149,14 @@ const lessons = [
         tip: "Make the top edge wider than you think. The crust needs room to sit on it."
       },
       {
-        name: "Round the crust",
-        text: "Add a puffy band across the top of the triangle with a few rounded bumps along the outer edge.",
-        tip: "Keep the crust attached to the triangle. It should feel like one piece of pizza, not a cloud on top."
+        name: "Round the crust and drip",
+        text: "Add a puffy band across the top of the triangle, then sketch one small cheese stretch hanging from the lower edge.",
+        tip: "Put the drip in before the marker outline. Later steps should only strengthen shapes you already planned."
       },
       {
         name: "Thicken the outline",
-        text: "Trace the triangle sides, lower point, and crust with a bold black marker line.",
-        tip: "Move slowly around the crust bumps. The handmade wobble is good, but the outline should stay confident."
+        text: "Trace the triangle sides, lower point, cheese stretch, and crust with a bold black marker line.",
+        tip: "Move slowly around the crust bumps and drip. The handmade wobble is good, but every dark line should follow an existing contour."
       },
       {
         name: "Add the face and toppings",
@@ -165,7 +165,7 @@ const lessons = [
       },
       {
         name: "Fill the marker color",
-        text: "Add one little cheese stretch near the bottom, fill the cheese yellow, color the crust orange-brown, and fill the pepperoni red.",
+        text: "Fill the cheese and cheese stretch yellow, color the crust orange-brown, and fill the pepperoni red.",
         tip: "Color with short strokes in one direction. The streaks make the doodle feel marker-made."
       },
       {

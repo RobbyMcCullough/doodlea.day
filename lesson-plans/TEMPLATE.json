@@ -12,6 +12,11 @@
       "name": "major visible element",
       "introduced_by_step": 1,
       "description": "What this element looks like in the finished sketch."
+    },
+    {
+      "name": "later refinement or color",
+      "introduced_by_step": 2,
+      "description": "A visible later change applied to an element already present."
     }
   ],
   "frames": [
@@ -21,6 +26,18 @@
       "step_name": "Visible step name",
       "visible_job": "The concrete drawing job this frame performs.",
       "introduces": [
+        "major visible element"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/example-slug-step-2.jpg",
+      "step_name": "Visible refinement step name",
+      "visible_job": "Darkens, colors, shades, cleans, or clarifies elements from an earlier frame.",
+      "introduces": [
+        "later refinement or color"
+      ],
+      "requires_prior_elements": [
         "major visible element"
       ]
     }
@@ -36,6 +53,7 @@
   },
   "rejection_checks": [
     "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
     "No adjacent frame should look unchanged at card size.",
     "The final image must keep the same pose, scale, and placement as the step frames."
   ]

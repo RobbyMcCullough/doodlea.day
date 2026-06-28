@@ -8,6 +8,9 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
 1. Start with a process plan, not a finished image.
    - Choose one subject, one pose, one crop, and one scale.
    - List the final drawing's major visible elements before generating art.
+   - For any frame that will darken, ink, fill, color, shade, clean, or clarify
+     existing parts, list those parts in `requires_prior_elements`; they must
+     first appear in an earlier frame.
    - Decide whether the subject needs 5, 6, 7, or 8 stages.
 
 2. Generate one contact sheet first.
@@ -21,6 +24,9 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
    - Reject sheets where adjacent panels are nearly identical.
    - Reject sheets where the final introduces major structure, color, markings,
      props, or perspective that was not present earlier.
+   - Reject sheets where an outline, color, fill, shading, or cleanup stage is
+     also the first appearance of the shape being outlined, colored, shaded, or
+     cleaned.
 
 4. Repair before publishing.
    - If one panel fails, regenerate or edit only that panel using the nearest
@@ -134,7 +140,10 @@ Panel 6: {final_stage}
 Constraints: every panel must be a plausible next human drawing step;
 construction lines must support the final drawing; each step must add visible
 information; the final panel must clearly result from prior panels; the subject
-must not change type, pose, scale, viewpoint, or major proportions.
+must not change type, pose, scale, viewpoint, or major proportions. Any panel
+that darkens, inks, colors, fills, shades, cleans, or clarifies an element must
+only work on elements that appeared in an earlier panel; do not introduce a new
+major contour and finish it in the same late-stage panel.
 
 Avoid: photorealism, glossy illustration style, generic decorative art,
 watercolor wash unless specifically requested, fake UI, labels, arrows,
@@ -189,6 +198,8 @@ A generated process set passes only when all of these are true:
 - Every major final element appears before the final panel.
 - The final panel adds only cleanup, line confidence, texture, restrained
   shading, or small finishing marks.
+- No late-stage outline, fill, color, shading, cleanup, or clarification panel
+  is the first appearance of the feature it modifies.
 - The sequence is usable without explanatory captions.
 - No embedded text, labels, arrows, fake UI, signatures, or watermarks appear.
 - The style matches Sketcha.day: warm paper, handmade sketch lines, clear

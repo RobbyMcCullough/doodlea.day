@@ -185,3 +185,11 @@
   button-magenta wordmark, newsletter-green wordmark, and a hard-shadow badge
   treatment using the button shadow language. This was intentionally not mirrored
   to Sketcha.day because it is a Doodlea-only brand-color experiment.
+- Recreated the `smiling-pizza-slice-doodle` lesson art as a v2 generated
+  contact sheet because the previous sequence introduced the cheese stretch too
+  late. The new step 2 introduces the cheese stretch before step 3 inks the
+  full outline, and step 5 now only fills existing shapes.
+- Added a shared process-plan guardrail: frames that darken, ink, fill, color,
+  shade, clean, or clarify existing elements may use `requires_prior_elements`,
+  and `scripts/check-process-plan.py` now fails when those elements were not
+  introduced in earlier frames.
