@@ -1,0 +1,107 @@
+{
+  "slug": "smiling-cloud-doodle",
+  "finished": "assets/smiling-cloud-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel marker process contact sheet for the smiling-cloud-doodle lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep one centered cloud doodle, introducing the cloud bumps, face, raindrops, tiny sun peek, bold outline, marker fills, and highlights before the final pass.",
+  "final_elements": [
+    {
+      "name": "puffy cloud body",
+      "introduced_by_step": 1,
+      "description": "A puffy cloud shape creates the main doodle silhouette."
+    },
+    {
+      "name": "smiling face",
+      "introduced_by_step": 2,
+      "description": "Two simple eyes and a curved smile sit on the cloud front."
+    },
+    {
+      "name": "three raindrops",
+      "introduced_by_step": 3,
+      "description": "Three rounded raindrops hang below the cloud."
+    },
+    {
+      "name": "tiny sun peek",
+      "introduced_by_step": 4,
+      "description": "A small half sun with short rays peeks from behind one cloud edge."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 5,
+      "description": "A bold black marker outline wraps the cloud, face, drops, and sun."
+    },
+    {
+      "name": "bright marker fills",
+      "introduced_by_step": 5,
+      "description": "Blue, yellow, and pink marker fills add cheerful weather-doodle color."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/smiling-cloud-doodle-step-1.jpg",
+      "step_name": "Draw the cloud bumps",
+      "visible_job": "Draw the puffy cloud outline with rounded bumps.",
+      "introduces": [
+        "puffy cloud body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/smiling-cloud-doodle-step-2.jpg",
+      "step_name": "Add the smile",
+      "visible_job": "Place the simple eyes and curved smile on the cloud front.",
+      "introduces": [
+        "smiling face"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/smiling-cloud-doodle-step-3.jpg",
+      "step_name": "Hang the raindrops",
+      "visible_job": "Draw three rounded raindrops below the cloud with even spacing.",
+      "introduces": [
+        "three raindrops"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/smiling-cloud-doodle-step-4.jpg",
+      "step_name": "Peek in the sun",
+      "visible_job": "Tuck a tiny half sun and short rays behind one side of the cloud.",
+      "introduces": [
+        "tiny sun peek"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/smiling-cloud-doodle-step-5.jpg",
+      "step_name": "Fill the weather colors",
+      "visible_job": "Thicken the black outline and add blue, yellow, and pink marker fills.",
+      "introduces": [
+        "thick black outline",
+        "bright marker fills"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Freshen the forecast",
+    "asset": "assets/smiling-cloud-doodle-finished-v1.jpg",
+    "visible_job": "Retrace existing cloud, face, raindrop, and sun edges, even out the marker fills, and add tiny highlights only to existing shapes.",
+    "allowed_changes": [
+      "marker outline thickening",
+      "stronger existing color fills",
+      "tiny highlight cleanup",
+      "minor marker shadow accents"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

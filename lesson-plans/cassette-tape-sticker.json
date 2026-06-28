@@ -1,0 +1,107 @@
+{
+  "slug": "cassette-tape-sticker",
+  "finished": "assets/cassette-tape-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel marker process contact sheet for the cassette-tape-sticker lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep one front-facing cassette sticker, introducing the rounded body, reels, label window, decorative stripes, bold outline, marker fills, and small highlights before the final pass.",
+  "final_elements": [
+    {
+      "name": "rounded cassette body",
+      "introduced_by_step": 1,
+      "description": "A rounded rectangle forms the cassette sticker silhouette."
+    },
+    {
+      "name": "center label window",
+      "introduced_by_step": 2,
+      "description": "A simple central label window connects the reel area without text."
+    },
+    {
+      "name": "two tape reels",
+      "introduced_by_step": 3,
+      "description": "Two circular reels sit evenly across the cassette body."
+    },
+    {
+      "name": "bottom stripe and screw dots",
+      "introduced_by_step": 4,
+      "description": "A bottom stripe and tiny screw dots add cassette detail."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 5,
+      "description": "A bold black marker outline wraps the cassette, reels, window, and stripe."
+    },
+    {
+      "name": "bright marker fills",
+      "introduced_by_step": 5,
+      "description": "Teal, pink, yellow, and gray marker fills make the cassette feel like a sticker."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cassette-tape-sticker-step-1.jpg",
+      "step_name": "Round the cassette body",
+      "visible_job": "Draw the rounded cassette rectangle with light marker lines.",
+      "introduces": [
+        "rounded cassette body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cassette-tape-sticker-step-2.jpg",
+      "step_name": "Frame the label window",
+      "visible_job": "Add the blank label window near the top of the cassette body.",
+      "introduces": [
+        "center label window"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cassette-tape-sticker-step-3.jpg",
+      "step_name": "Place the tape reels",
+      "visible_job": "Draw the two even tape reels and simple connector shapes below the label window.",
+      "introduces": [
+        "two tape reels"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cassette-tape-sticker-step-4.jpg",
+      "step_name": "Add stripe and screws",
+      "visible_job": "Add the bottom stripe and small screw dots without adding any text.",
+      "introduces": [
+        "bottom stripe and screw dots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cassette-tape-sticker-step-5.jpg",
+      "step_name": "Fill the retro color",
+      "visible_job": "Thicken the black outline and add teal, pink, yellow, and gray marker fills.",
+      "introduces": [
+        "thick black outline",
+        "bright marker fills"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Tune up the sticker",
+    "asset": "assets/cassette-tape-sticker-finished-v1.jpg",
+    "visible_job": "Retrace existing cassette, reel, window, and stripe edges, even out the marker fills, and add tiny highlights only to existing shapes.",
+    "allowed_changes": [
+      "marker outline thickening",
+      "stronger existing color fills",
+      "tiny highlight cleanup",
+      "minor marker shadow accents"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

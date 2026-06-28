@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cassette tape sticker doodle</title>
+      <link>https://doodlea.day/tutorials/cassette-tape-sticker.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cassette-tape-sticker.html</guid>
+      <pubDate>Sun, 28 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cassette tape sticker doodle with a rounded body, blank label window, tape reels, bottom stripe, screw dots, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cassette-tape-sticker-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a skateboard sticker doodle</title>
       <link>https://doodlea.day/tutorials/skateboard-sticker-doodle.html</link>
@@ -78,6 +86,14 @@
       <pubDate>Fri, 19 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a goofy monster face with a round head, little horns, uneven eyes, toothy grin, cheek spots, thick black outline, and bright marker fills.</description>
       <media:content url="https://doodlea.day/assets/goofy-monster-face-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a smiling cloud doodle</title>
+      <link>https://doodlea.day/tutorials/smiling-cloud-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/smiling-cloud-doodle.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a smiling cloud doodle with puffy bumps, a cute face, cheek circles, three raindrops, a tiny sun peek, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/smiling-cloud-doodle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

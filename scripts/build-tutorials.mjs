@@ -18,8 +18,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cassette-tape-sticker",
+    day: "011",
+    date: "Sunday, June 28",
+    isoDate: "2026-06-28",
+    subject: "a cassette tape sticker doodle",
+    headlineSubject: "a cassette<br>tape sticker",
+    shortSubject: "a cassette tape sticker",
+    lessonTitle: "Let's doodle a cassette tape sticker",
+    description: "Learn how to draw a cassette tape sticker doodle with a rounded body, blank label window, tape reels, bottom stripe, screw dots, thick black outline, and bright marker fills.",
+    intro: "Turn one rounded rectangle into a retro marker sticker with blank label space, two tape reels, and a chunky black outline.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#12aeb1",
+    finished: "cassette-tape-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a retro cassette tape sticker with teal body, blank label window, tape reels, red bottom stripe, screw dots, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Teal, pink, yellow, red, and gray markers", "Optional white gel pen"],
+    materialNote: "Keep the cassette label blank; the shape should read without tiny words.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Round the cassette body",
+        text: "Draw a wide rounded rectangle for the cassette sticker body.",
+        tip: "Soften the corners before you ink them. Rounded corners make the cassette feel sticker-like."
+      },
+      {
+        name: "Frame the label window",
+        text: "Add a blank rounded label window near the top of the cassette body.",
+        tip: "Skip lettering. A clean blank label keeps the doodle readable at small size."
+      },
+      {
+        name: "Place the tape reels",
+        text: "Draw two even circles below the label, then connect the middle with simple tape-window shapes.",
+        tip: "Keep the reels level with each other. The cassette looks tidier when the circles share one centerline."
+      },
+      {
+        name: "Add stripe and screws",
+        text: "Add the bottom stripe, tiny screw dots in the corners, and a few small cassette details.",
+        tip: "Use dots and short dashes only. This is a doodle, not a real cassette diagram."
+      },
+      {
+        name: "Fill the retro color",
+        text: "Thicken the black outline, fill the body teal, color the bottom stripe red, and add yellow, pink, and gray accents.",
+        tip: "Let marker streaks show inside the big teal body. They make the sticker feel hand colored."
+      },
+      {
+        name: "Tune up the sticker",
+        text: "Retrace the existing cassette, reel, window, and stripe edges, then deepen the marker fills and add tiny highlights only to shapes you already drew.",
+        tip: "Do not add words at the end. The blank label is part of the simple retro look.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "skateboard-sticker-doodle",
-    day: "009",
+    day: "010",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "008",
+    day: "009",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -125,7 +178,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "007",
+    day: "008",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -178,7 +231,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "006",
+    day: "007",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -231,7 +284,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "005",
+    day: "006",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -284,7 +337,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "004",
+    day: "005",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -337,7 +390,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "001",
+    day: "002",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -389,8 +442,61 @@ const lessons = [
     ]
   },
   {
+    slug: "smiling-cloud-doodle",
+    day: "001",
+    date: "Thursday, June 18",
+    isoDate: "2026-06-18",
+    subject: "a smiling cloud doodle",
+    headlineSubject: "a smiling<br>cloud",
+    shortSubject: "a smiling cloud",
+    lessonTitle: "Let's doodle a smiling cloud",
+    description: "Learn how to draw a smiling cloud doodle with puffy bumps, a cute face, cheek circles, three raindrops, a tiny sun peek, thick black outline, and bright marker fills.",
+    intro: "Mix rainy and sunny shapes in one cheerful marker doodle, using a puffy cloud as the anchor for every detail.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#31a6df",
+    finished: "smiling-cloud-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a smiling blue cloud with pink cheeks, three blue raindrops, a tiny yellow sun peeking out, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Blue, yellow, pink, and darker-blue markers", "Optional white gel pen"],
+    materialNote: "Use scrap paper underneath; the blue fill can stay a little streaky and handmade.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the cloud bumps",
+        text: "Draw a puffy cloud outline with a row of rounded bumps and a flatter bottom edge.",
+        tip: "Vary the bump sizes a little. The cloud looks friendlier when it is not perfectly symmetrical."
+      },
+      {
+        name: "Add the smile",
+        text: "Place two simple eyes, a curved smile, and two tiny cheek circles on the cloud front.",
+        tip: "Keep the face low enough that the top bumps still read as the main cloud shape."
+      },
+      {
+        name: "Hang the raindrops",
+        text: "Add three rounded raindrops under the cloud, spacing them evenly across the bottom.",
+        tip: "Make the middle drop a touch lower to keep the row from feeling stiff."
+      },
+      {
+        name: "Peek in the sun",
+        text: "Tuck a tiny half sun behind the upper-right cloud edge and add a few short rays.",
+        tip: "Hide part of the sun behind the cloud. That overlap makes the two weather shapes belong together."
+      },
+      {
+        name: "Fill the weather colors",
+        text: "Thicken the black outline, fill the cloud blue, the sun yellow, the cheeks pink, and the drops a darker blue.",
+        tip: "Color around the eyes and smile slowly so the expression stays crisp."
+      },
+      {
+        name: "Freshen the forecast",
+        text: "Retrace the existing cloud, face, drops, and sun, deepen the marker fills, and add tiny highlights only to shapes you already drew.",
+        tip: "Stop before adding extra lightning or stars. The three drops and little sun already carry the idea.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "watermelon-wedge-doodle",
-    day: "002",
+    day: "003",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "003",
+    day: "004",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

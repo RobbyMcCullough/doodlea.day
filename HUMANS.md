@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-27
+- Date: 2026-06-28
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -199,3 +199,17 @@
   subject, such as "Make the burst sparkle," "Polish the trophy shine," and
   "Bolt down the finish." `DAILY-PUBLISHING.md` now asks future lessons to keep
   final-step language subject-specific.
+- Added the cassette tape sticker as the June 28, 2026 / Day 011 marker tutorial
+  from a reviewed six-panel generated marker contact sheet. Finished image
+  rating: 8.8/10.
+- Added the smiling cloud doodle as the June 18, 2026 / Day 001 backdated archive
+  tutorial. Existing Doodlea day labels shifted forward by one. Finished image
+  rating: 8.7/10.
+- June 28 QA used `python3 scripts/check-tutorial-readiness.py
+  cassette-tape-sticker` and `python3 scripts/check-tutorial-readiness.py
+  smiling-cloud-doodle`, reviewed step sheets at
+  `/tmp/cassette-tape-sticker-steps.jpg` and
+  `/tmp/smiling-cloud-doodle-steps.jpg`, and saved browser QA screenshots under
+  `/tmp/daily-sketch-doodle-qa-2026-06-28/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
