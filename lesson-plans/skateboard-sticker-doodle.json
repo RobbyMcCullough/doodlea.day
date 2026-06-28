@@ -88,9 +88,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the skateboard",
+    "step_name": "Add sticker shine",
     "asset": "assets/skateboard-sticker-doodle-finished-v1.jpg",
-    "visible_job": "Strengthen the existing black outlines, even out the marker fills, and add tiny white highlights only to existing shapes.",
+    "visible_job": "Retrace the existing deck and wheel edges, even out the marker fills, and add tiny highlights only to existing shapes.",
     "allowed_changes": [
       "marker outline thickening",
       "stronger existing color fills",

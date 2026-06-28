@@ -6,7 +6,7 @@
     "description": "Six-panel marker-doodle contact sheet generated during the June 25 Doodlea.day run, then promoted from the generated-image cache after review.",
     "notes": "Originally an alternate candidate for June 25; preserved because the subject has strong Doodlea.day fit."
   },
-  "process_strategy": "The sheet builds one centered robot head from basic rounded rectangle construction through antenna, ears, face, neck plate, buttons, marker color, and final outline punch-up.",
+  "process_strategy": "The sheet builds one centered robot head from basic rounded rectangle construction through antenna, ears, face, neck plate, buttons, marker color, and final edge/highlight pass.",
   "final_elements": [
     {
       "name": "rounded robot head",
@@ -106,9 +106,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the robot",
+    "step_name": "Bolt down the finish",
     "asset": "assets/silly-robot-head-finished-v1.jpg",
-    "visible_job": "Thickens the black outline, strengthens marker fills, and cleans already introduced highlights.",
+    "visible_job": "Retraces the established head, antenna, bolts, grin, and button panel while deepening marker fills and existing highlights.",
     "allowed_changes": [
       "black outline thickening",
       "marker fill strengthening",

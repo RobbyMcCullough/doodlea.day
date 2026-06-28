@@ -63,9 +63,9 @@ const lessons = [
         tip: "Color around the face slowly so the expression stays crisp."
       },
       {
-        name: "Punch up the skateboard",
-        text: "Go back over the black outline, strengthen the marker fills, and add tiny highlights only to shapes you already drew.",
-        tip: "Do not add new stickers at the end. The final pass is for bolder marker energy.",
+        name: "Add sticker shine",
+        text: "Trace the deck and wheel edges one last time, even out the teal, red, yellow, and gray fills, and add tiny highlights only to shapes you already drew.",
+        tip: "Keep the shine small. A few crisp marks make the skateboard feel like a sticker without adding new decorations.",
         image: true
       }
     ]
@@ -116,9 +116,9 @@ const lessons = [
         tip: "Color around the face slowly. Clean white eye highlights make the marker doodle feel crisp."
       },
       {
-        name: "Punch up the coconut drink",
-        text: "Go back over the black outlines, strengthen the brown and bright marker fills, and clean only the edges you already drew.",
-        tip: "Do not add extra fruit or background props. The final pass is for bolder marker energy.",
+        name: "Brighten the vacation colors",
+        text: "Retrace the coconut rim, straw, umbrella, and face, then deepen the brown and bright marker fills only inside the shapes you already drew.",
+        tip: "Stop before adding extra fruit or beach props. The tiny umbrella already gives the drink its tropical personality.",
         image: true
       }
     ]
@@ -169,9 +169,9 @@ const lessons = [
         tip: "Color with short strokes in one direction. The streaks make the doodle feel marker-made."
       },
       {
-        name: "Punch up the pizza doodle",
-        text: "Go back over the black outline, strengthen the yellow, orange, and red fills, and clean only the edges you already drew.",
-        tip: "Do not add more toppings at the end. The final pass is for bolder marker energy, not a new design.",
+        name: "Crisp the slice edges",
+        text: "Retrace the crust, drip, face, and pepperoni edges, then deepen the yellow, orange, and red marker fills you already placed.",
+        tip: "Skip extra toppings here. This step should make the pizza look warmer and cleaner, not change the recipe.",
         image: true
       }
     ]
@@ -222,9 +222,9 @@ const lessons = [
         tip: "Color in short strokes and let a few streaks show. Marker texture makes the doodle feel handmade."
       },
       {
-        name: "Punch up the doodle",
-        text: "Go back over the black outline, strengthen the orange and yellow fill, and clean only the edges you already drew.",
-        tip: "Do not add new flame shapes at the end. The final pass should make the marker drawing louder.",
+        name: "Turn up the heat",
+        text: "Retrace the flame tips and valleys, deepen the orange and yellow fills, and sharpen the red accents you already placed.",
+        tip: "No new flame tongues here. The heat comes from stronger edges and hotter color, not more shapes.",
         image: true
       }
     ]
@@ -275,8 +275,8 @@ const lessons = [
         tip: "Let marker streaks show inside each burst. The texture makes the doodle feel handmade."
       },
       {
-        name: "Punch up the firework",
-        text: "Go back over the black outline, strengthen the red, blue, and yellow fills, and add small white highlight marks inside the shapes.",
+        name: "Make the burst sparkle",
+        text: "Strengthen the burst outlines, brighten the red, blue, and yellow fills, and add small white highlight marks inside the existing shapes.",
         tip: "Do not add new burst arms at the end. This pass should only make the shapes you already drew brighter.",
         image: true
       }
@@ -328,9 +328,9 @@ const lessons = [
         tip: "Leave a few marker streaks and the shine shape uncolored. That keeps the cup bright."
       },
       {
-        name: "Punch up the trophy",
-        text: "Go back over the black outline, strengthen the gold and orange fills, and clean only the edges you already drew.",
-        tip: "Do not add new decorations in the final pass. The sticker should stay bold and simple.",
+        name: "Polish the trophy shine",
+        text: "Tighten the cup, handle, and base outlines, deepen the gold and orange marker fills, and keep the shine shape clean.",
+        tip: "Leave the confetti count alone. The trophy should feel polished, not crowded.",
         image: true
       }
     ]
@@ -381,8 +381,8 @@ const lessons = [
         tip: "Color in one direction where you can. Visible marker streaks are part of the Doodlea look."
       },
       {
-        name: "Punch up the monster face",
-        text: "Go back over the black outline, deepen the green and purple fills, and add tiny highlights to the eyes and teeth.",
+        name: "Wake up the expression",
+        text: "Thicken the head, horn, eye, and grin lines, deepen the green and purple fills, and add tiny highlights to the eyes and teeth.",
         tip: "Do not add a body or background. The lesson is a face doodle, so keep the finish focused.",
         image: true
       }
@@ -434,8 +434,8 @@ const lessons = [
         tip: "Use long strokes that follow the triangle. Visible marker texture is part of the charm."
       },
       {
-        name: "Punch up the watermelon",
-        text: "Go back over the black outline, seeds, face, and red-green fills without adding new seeds or background props.",
+        name: "Give it sticker edges",
+        text: "Thicken the wedge outline, seeds, face, and rind bands, then smooth the red and green fills without adding new seeds or props.",
         tip: "Let the final outline be thick and confident. That is what makes the slice read as a sticker-like doodle.",
         image: true
       }
@@ -487,8 +487,8 @@ const lessons = [
         tip: "Color around the eyes and teeth carefully. Leaving those areas white keeps the expression crisp."
       },
       {
-        name: "Punch up the robot",
-        text: "Go back over the black outlines, strengthen the marker fills, and add small white highlight marks to the head and antenna ball.",
+        name: "Bolt down the finish",
+        text: "Retrace the head, antenna, bolts, grin, and button panel, deepen the marker fills, and add small white highlights to the head and antenna ball.",
         tip: "Do not add new parts at the end. The final pass should make the robot bolder, not busier.",
         image: true
       }

@@ -118,9 +118,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the pizza doodle",
+    "step_name": "Crisp the slice edges",
     "asset": "assets/smiling-pizza-slice-doodle-finished-v2.jpg",
-    "visible_job": "Only deepens the existing black outline and marker color fills without adding new toppings, face parts, cheese shapes, or lettering.",
+    "visible_job": "Retraces the existing crust, drip, face, and pepperoni edges while deepening only the placed marker fills.",
     "allowed_changes": [
       "black marker darkening",
       "marker fill strengthening",

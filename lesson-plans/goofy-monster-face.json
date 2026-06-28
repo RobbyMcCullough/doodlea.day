@@ -6,7 +6,7 @@
     "description": "Built-in image generation created a six-panel marker process contact sheet for the goofy-monster-face lesson.",
     "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
   },
-  "process_strategy": "The sequence keeps one centered monster head, introducing the head, horns, eyes, mouth, teeth, spots, outline, and marker color before the final punch-up.",
+  "process_strategy": "The sequence keeps one centered monster head, introducing the head, horns, eyes, mouth, teeth, spots, outline, and marker color before the final expression pass.",
   "final_elements": [
     {
       "name": "round monster head",
@@ -88,9 +88,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the monster face",
+    "step_name": "Wake up the expression",
     "asset": "assets/goofy-monster-face-finished-v1.jpg",
-    "visible_job": "Strengthen the existing black outline, deepen the marker fills, and add tiny highlights to already-drawn eyes and teeth.",
+    "visible_job": "Thickens existing head, horn, eye, and grin lines, deepens the marker fills, and adds tiny highlights to already-drawn eyes and teeth.",
     "allowed_changes": [
       "marker outline thickening",
       "stronger existing color fills",

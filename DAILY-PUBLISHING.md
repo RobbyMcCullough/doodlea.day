@@ -23,6 +23,13 @@ already told the reader to thicken the full outline.
 - Let marker streaks and imperfect outlines show. Avoid glossy vector-perfect
   symmetry, airbrush gradients, photorealism, and quiet pencil-sketch finishes.
 - Use color as part of the lesson, not as a decorative final-only surprise.
+- Give each lesson's final step subject-specific wording. The technique can
+  stay consistent, usually reinforcing existing black outlines, marker fills,
+  small highlights, and edge cleanup, but avoid repeating generic titles like
+  "Punch up..." or copy that starts every final step with the same phrase.
+  Make the final step feel like it belongs to that doodle: a firework can
+  sparkle, a trophy can polish, a robot can bolt down, and a monster can wake up
+  its expression.
 
 ## Routine
 

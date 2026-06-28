@@ -100,9 +100,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the firework",
+    "step_name": "Make the burst sparkle",
     "asset": "assets/firework-burst-doodle-finished-v1.jpg",
-    "visible_job": "Only strengthens existing outlines, red/blue/yellow fills, and already placed spark marks.",
+    "visible_job": "Strengthens existing burst outlines, red/blue/yellow fills, and already placed spark marks.",
     "allowed_changes": [
       "thicker black marker outlines",
       "stronger marker fills",

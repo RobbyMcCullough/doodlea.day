@@ -100,9 +100,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the trophy",
+    "step_name": "Polish the trophy shine",
     "asset": "assets/trophy-cup-sticker-finished-v1.jpg",
-    "visible_job": "Only thickens existing outlines, strengthens gold/orange marker fill, and cleans existing shine and confetti marks.",
+    "visible_job": "Tightens existing cup, handle, and base outlines, strengthens gold/orange marker fill, and cleans the existing shine shape.",
     "allowed_changes": [
       "thicker black marker outlines",
       "stronger gold marker fill",

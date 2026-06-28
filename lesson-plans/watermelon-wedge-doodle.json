@@ -82,9 +82,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the watermelon",
+    "step_name": "Give it sticker edges",
     "asset": "assets/watermelon-wedge-doodle-finished-v1.jpg",
-    "visible_job": "Only thickens the established black outlines, strengthens the red and green marker fills, and clarifies small highlights already present.",
+    "visible_job": "Thickens the established wedge outline, seeds, face, and rind bands, then smooths only the existing red and green fills.",
     "allowed_changes": [
       "black outline thickening",
       "stronger marker fill",

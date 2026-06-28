@@ -95,9 +95,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the doodle",
+    "step_name": "Turn up the heat",
     "asset": "assets/hot-rod-marker-flames-finished-v1.jpg",
-    "visible_job": "Only deepens the existing black outline and marker color fills without adding new flame tongues.",
+    "visible_job": "Retraces the existing flame tips and valleys, deepens the marker fills, and sharpens only the placed red accents.",
     "allowed_changes": [
       "black marker darkening",
       "marker fill strengthening",

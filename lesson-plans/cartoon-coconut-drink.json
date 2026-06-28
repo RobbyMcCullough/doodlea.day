@@ -6,7 +6,7 @@
     "description": "Six-panel built-in image generation contact sheet saved under drafts/cartoon-coconut-drink/ and cropped into raster tutorial assets.",
     "notes": "Current Doodlea.day lesson uses a June 26 coconut hook without claiming public activity or popularity."
   },
-  "process_strategy": "A single six-panel marker contact sheet keeps one coconut drink centered while each frame adds the coconut body, top opening, face, straw, umbrella, marker fills, and final outline punch-up.",
+  "process_strategy": "A single six-panel marker contact sheet keeps one coconut drink centered while each frame adds the coconut body, top opening, face, straw, umbrella, marker fills, and a final edge-and-color pass.",
   "final_elements": [
     {
       "name": "round coconut body",
@@ -88,9 +88,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Punch up the coconut drink",
+    "step_name": "Brighten the vacation colors",
     "asset": "assets/cartoon-coconut-drink-finished-v1.jpg",
-    "visible_job": "Only thickens the established black outlines, strengthens the marker fills, and clarifies small highlights already present.",
+    "visible_job": "Retraces the established coconut rim, straw, umbrella, and face while deepening only the existing marker fills.",
     "allowed_changes": [
       "black outline thickening",
       "stronger marker fill",

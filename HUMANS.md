@@ -193,3 +193,9 @@
   shade, clean, or clarify existing elements may use `requires_prior_elements`,
   and `scripts/check-process-plan.py` now fails when those elements were not
   introduced in earlier frames.
+- Varied the final-step wording across all active Doodlea.day lessons so the
+  tutorials no longer repeat "Punch up..." or the same "Go back over..." phrasing.
+  The final-step technique remains the same, but titles and copy now fit each
+  subject, such as "Make the burst sparkle," "Polish the trophy shine," and
+  "Bolt down the finish." `DAILY-PUBLISHING.md` now asks future lessons to keep
+  final-step language subject-specific.
