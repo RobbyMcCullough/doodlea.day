@@ -8,10 +8,10 @@
   --blue: #79a86b;
   --green: #79a86b;
   --pink: #e68aa6;
-  --brand-main: var(--orange);
+  --brand-main: var(--button-bg);
   --brand-accent: var(--yellow);
   --brand-domain: var(--brand-main);
-  --brand-underline: var(--orange);
+  --brand-underline: var(--button-bg);
   --button-bg: #ad3e60;
   --button-bg-hover: #94304f;
   --button-text: var(--paper-light);
@@ -148,7 +148,7 @@ a {
   left: 1px;
   height: 5px;
   content: "";
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 7C48 2 110 9 198 3' fill='none' stroke='%23c84f73' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 7C48 2 110 9 198 3' fill='none' stroke='%23ad3e60' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;
 }
 
 .brand-name .brand-accent {
