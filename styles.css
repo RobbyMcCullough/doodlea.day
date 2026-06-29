@@ -1525,6 +1525,87 @@ a {
   font-size: .72rem;
 }
 
+.about-page-main {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 95px 0 120px;
+}
+
+.about-page-hero {
+  display: grid;
+  grid-template-columns: minmax(260px, .72fr) 1.28fr;
+  align-items: center;
+  gap: clamp(2.5rem, 6vw, 6rem);
+}
+
+.about-portrait {
+  margin: 0;
+  padding: 14px;
+  background: var(--paper-light);
+  box-shadow: 8px 9px 0 var(--ink);
+  transform: rotate(-2.2deg);
+}
+
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about-story > p:not(.kicker) {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.75;
+}
+
+.about-credentials {
+  margin-top: clamp(4rem, 8vw, 7rem);
+  padding-top: 2rem;
+  border-top: 2px solid var(--ink);
+}
+
+.about-credentials h2 {
+  max-width: 720px;
+  margin-bottom: 1.8rem;
+  font-family: var(--display);
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-weight: 400;
+  line-height: .95;
+}
+
+.about-credential-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.about-credential-grid article {
+  padding: 20px 18px;
+  border: 2px solid var(--ink);
+  background: rgba(255, 253, 246, .66);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.about-credential-grid strong,
+.about-credential-grid span {
+  display: block;
+}
+
+.about-credential-grid strong {
+  margin-bottom: .5rem;
+  font-family: var(--display);
+  font-size: 1.32rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.about-credential-grid span {
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.5;
+}
+
 .newsletter {
   position: relative;
   width: min(980px, calc(100% - 40px));
@@ -1776,14 +1857,6 @@ a {
     gap: 3rem;
   }
 
-  .site-footer {
-    grid-template-columns: 1fr auto;
-  }
-
-  .site-footer p {
-    display: none;
-  }
-
   .archive-hero {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -2004,6 +2077,21 @@ a {
 
   .about-points {
     grid-template-columns: 1fr;
+  }
+
+  .about-page-main {
+    width: min(100% - 32px, 620px);
+    padding: 70px 0 90px;
+  }
+
+  .about-page-hero,
+  .about-credential-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-portrait {
+    max-width: 360px;
+    margin: 0 auto;
   }
 
   .newsletter {

@@ -873,7 +873,7 @@ ${plausibleTag}
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../">Today's doodle</a>
       <a href="../library.html">Doodle library</a>
-      <a href="../#about">How it works</a>
+      <a href="../about.html">About</a>
       <a href="https://sketcha.day/">Sketcha.day</a>
       <a class="nav-button" href="#lesson">Start doodling</a>
     </nav>
@@ -924,7 +924,7 @@ ${plausibleTag}
         <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 ${siteName}</small>
   </footer>
@@ -933,25 +933,124 @@ ${plausibleTag}
 </html>`;
 };
 
-const homePage = (lesson) => {
-  const homeOnlySections = `
-    <section class="about" id="about">
-      <div class="about-drawing">
-        <img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="780" height="780">
-      </div>
-      <div class="about-copy">
-        <p class="kicker">One small doodle, every day</p>
-        <h2>A daily marker habit for playful hands.</h2>
-        <p>Doodlea.day is the louder sibling to Sketcha.day: simple shapes, bold outlines, bright marker color, and small comic-style drawing ideas you can finish in one sitting.</p>
-        <p class="sister-note">Want a calmer pencil-sketch practice? Visit <a href="https://sketcha.day/">Sketcha.day</a> for step-by-step sketch lessons.</p>
-        <div class="about-points">
-          <p><strong>Made for markers</strong><span>Most lessons use black outlines plus 2-3 colors.</span></p>
-          <p><strong>Cartoon-first</strong><span>Expect flames, characters, lettering shapes, icons, and comic details.</span></p>
-          <p><strong>Fast enough to repeat</strong><span>Most doodles should fit into 10-20 minutes.</span></p>
-        </div>
+const aboutPage = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      orgNode,
+      siteNode,
+      {
+        "@type": "AboutPage",
+        "@id": `${siteUrl}/about.html#aboutpage`,
+        name: `About ${siteName}`,
+        description: "Learn who makes Doodlea.day and why the daily marker doodle lessons are designed to be playful, clear, and useful for creative practice.",
+        url: `${siteUrl}/about.html`,
+        image: `${siteUrl}/assets/doodlea-family-doodle-v1.webp`,
+        isPartOf: { "@id": `${siteUrl}/#website` },
+        publisher: { "@id": `${siteUrl}/#organization` }
+      },
+      {
+        "@type": "Person",
+        "@id": `${siteUrl}/about.html#robby`,
+        name: "Robby McCullough",
+        description: "A lifelong doodler, designer, and web builder who creates marker-friendly doodle lessons for approachable creative practice."
+      },
+      {
+        "@type": "Person",
+        "@id": `${siteUrl}/about.html#tracie`,
+        name: "Tracie",
+        description: "A mom and early childhood educator whose perspective helps keep the lessons encouraging, clear, and friendly for growing artists."
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "About", item: `${siteUrl}/about.html` }
+        ]
+      }
+    ]
+  };
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About ${siteName} | Daily Marker Doodle Practice</title>
+  <meta name="description" content="Meet the family behind Doodlea.day: lifelong doodler, designer, and web builder Robby McCullough, plus Tracie, a mom and early childhood educator.">
+  <link rel="canonical" href="${siteUrl}/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About ${siteName}">
+  <meta property="og:description" content="Daily marker doodle lessons shaped by lifelong doodling, design craft, web experience, and an early-childhood education lens.">
+  <meta property="og:url" content="${siteUrl}/about.html">
+  <meta property="og:image" content="${siteUrl}/assets/doodlea-family-doodle-v1.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f05a28">
+${iconLinks}
+  <link rel="alternate" type="application/rss+xml" title="${siteName} daily doodle feed" href="${siteUrl}/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=${styleVersion}">
+  <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
+${plausibleTag}
+</head>
+<body class="about-page doodle-site">
+  <a class="skip-link" href="#about-main">Skip to about ${siteName}</a>
+  <header class="site-header">
+    <div class="brand">
+      <img class="brand-mark" src="assets/logo-marker-raster-v2.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="/" aria-label="${siteName} home"><span class="brand-name">${brandWordmark}</span></a>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="/">Today's doodle</a>
+      <a href="library.html">Doodle library</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="https://sketcha.day/">Sketcha.day</a>
+      <a class="nav-button" href="/#lesson">Start doodling</a>
+    </nav>
+  </header>
+  <main id="about-main" class="about-page-main">
+    <section class="about-page-hero" aria-labelledby="about-title">
+      <figure class="about-portrait">
+        <img src="assets/doodlea-family-doodle-v1.webp" alt="Marker doodle portrait of Robby, Tracie, and their baby in a home kitchen" width="1024" height="1536">
+      </figure>
+      <div class="about-story">
+        <p class="kicker">The people behind the markers</p>
+        <h1 id="about-title">Daily doodle practice, made for playful hands and real life.</h1>
+        <p>Doodlea.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who likes turning blank pages into bold, friendly drawing prompts.</p>
+        <p>Tracie is a mom and early childhood educator. Her perspective helps keep the lessons inviting, clearly paced, and useful for young artists, parents, teachers, and grown-ups who just want a low-pressure creative habit.</p>
+        <p>The goal is simple: approachable marker doodles with thick outlines, bright fills, and practical steps that make drawing feel repeatable instead of intimidating.</p>
       </div>
     </section>
+    <section class="about-credentials" aria-labelledby="about-credentials-title">
+      <h2 id="about-credentials-title">Why these doodles are built this way</h2>
+      <div class="about-credential-grid">
+        <article><strong>Lifelong doodling</strong><span>Robby brings years of sketchbook habit and a love for quick, playful visual ideas.</span></article>
+        <article><strong>Design and web craft</strong><span>The lessons are made to be easy to scan, accessible without an app, and practical on a regular webpage.</span></article>
+        <article><strong>Early-childhood lens</strong><span>Tracie's background helps us value clear steps, simple shapes, and encouragement over perfect results.</span></article>
+        <article><strong>Marker-friendly rhythm</strong><span>Each doodle aims to fit into a short creative break with paper, a black marker, and a few bright colors.</span></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-bar">
+      <div class="footer-identity">
+        <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
+        <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
+      </div>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+    </div>
+    <small class="footer-copyright">© 2026 ${siteName}</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>`;
+};
 
+const homePage = (lesson) => {
+  const homeOnlySections = `
     <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
@@ -978,7 +1077,7 @@ const homePage = (lesson) => {
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
-    .replaceAll("../#about", "#about")
+    .replaceAll("../about.html", "about.html")
     .replaceAll('href="../"', 'href="/"')
     .replaceAll("Skip to the doodle", "Skip to today's doodle")
     .replaceAll("Felt-tip marker mode", "Marker ready?")
@@ -1073,7 +1172,7 @@ ${plausibleTag}
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="/">Today's doodle</a>
       <a href="library.html" aria-current="page">Doodle library</a>
-      <a href="/#about">How it works</a>
+      <a href="about.html">About</a>
       <a href="https://sketcha.day/">Sketcha.day</a>
       <a class="nav-button" href="/#lesson">Start doodling</a>
     </nav>
@@ -1109,7 +1208,7 @@ ${plausibleTag}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 ${siteName}</small>
   </footer>
@@ -1141,6 +1240,7 @@ ${archiveLessons.map((lesson) => `    <item>
 
 const sitemapUrls = [
   { loc: `${siteUrl}/`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "1.0" },
+  { loc: `${siteUrl}/about.html`, lastmod: latestLesson.isoDate, changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/library.html`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "0.8" },
   ...archiveLessons.map((lesson) => ({
     loc: lessonUrl(lesson),
@@ -1173,6 +1273,7 @@ for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
 }
 await writeFile(new URL("../index.html", import.meta.url), homePage(latestLesson));
+await writeFile(new URL("../about.html", import.meta.url), aboutPage());
 await writeFile(new URL("../library.html", import.meta.url), archivePage());
 await writeFile(new URL("../feed.xml", import.meta.url), feed());
 await writeFile(new URL("../sitemap.xml", import.meta.url), sitemap());
