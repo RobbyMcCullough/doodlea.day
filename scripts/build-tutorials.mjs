@@ -943,7 +943,7 @@ const aboutPage = () => {
         "@type": "AboutPage",
         "@id": `${siteUrl}/about.html#aboutpage`,
         name: `About ${siteName}`,
-        description: "Learn who makes Doodlea.day and why the daily marker doodle lessons are designed to be playful, clear, and useful for creative practice.",
+        description: "Learn how Doodlea.day turns quick marker prompts into playful practice for bolder lines, clearer cartoon shapes, and brighter ideas.",
         url: `${siteUrl}/about.html`,
         image: `${siteUrl}/assets/doodlea-family-doodle-v1.webp`,
         isPartOf: { "@id": `${siteUrl}/#website` },
@@ -953,13 +953,13 @@ const aboutPage = () => {
         "@type": "Person",
         "@id": `${siteUrl}/about.html#robby`,
         name: "Robby McCullough",
-        description: "A lifelong doodler, designer, and web builder who creates marker-friendly doodle lessons for approachable creative practice."
+        description: "A lifelong doodler, designer, and web builder who creates marker-friendly prompts for playful cartoon drawing practice."
       },
       {
         "@type": "Person",
         "@id": `${siteUrl}/about.html#tracie`,
         name: "Tracie",
-        description: "A mom and early childhood educator whose perspective helps keep the lessons encouraging, clear, and friendly for growing artists."
+        description: "A mom and early childhood educator whose perspective helps keep the doodles welcoming, clear, and easy to jump into."
       },
       {
         "@type": "BreadcrumbList",
@@ -977,11 +977,11 @@ const aboutPage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About ${siteName} | Daily Marker Doodle Practice</title>
-  <meta name="description" content="Meet the family behind Doodlea.day: lifelong doodler, designer, and web builder Robby McCullough, plus Tracie, a mom and early childhood educator.">
+  <meta name="description" content="Meet the family behind Doodlea.day and learn why the site focuses on quick marker prompts, cartoon shapes, bold outlines, and daily doodle practice.">
   <link rel="canonical" href="${siteUrl}/about.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="About ${siteName}">
-  <meta property="og:description" content="Daily marker doodle lessons shaped by lifelong doodling, design craft, web experience, and an early-childhood education lens.">
+  <meta property="og:description" content="A family-made marker playground for building drawing confidence through bright, repeatable doodle practice.">
   <meta property="og:url" content="${siteUrl}/about.html">
   <meta property="og:image" content="${siteUrl}/assets/doodlea-family-doodle-v1.webp">
   <meta name="twitter:card" content="summary_large_image">
@@ -1017,20 +1017,20 @@ ${plausibleTag}
         <img src="assets/doodlea-family-doodle-v1.webp" alt="Marker doodle portrait of Robby, Tracie, and their baby in a home kitchen" width="1024" height="1536">
       </figure>
       <div class="about-story">
-        <p class="kicker">The people behind the markers</p>
-        <h1 id="about-title">Daily doodle practice, made for playful hands and real life.</h1>
-        <p>Doodlea.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who likes turning blank pages into bold, friendly drawing prompts.</p>
-        <p>Tracie is a mom and early childhood educator. Her perspective helps keep the lessons inviting, clearly paced, and useful for young artists, parents, teachers, and grown-ups who just want a low-pressure creative habit.</p>
-        <p>The goal is simple: approachable marker doodles with thick outlines, bright fills, and practical steps that make drawing feel repeatable instead of intimidating.</p>
+        <p class="kicker">A small marker playground</p>
+        <h1 id="about-title">Daily doodles for bolder marks and brighter ideas.</h1>
+        <p>Doodlea.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who loves the scrappy joy of drawing in the margins. This site is for quick marker prompts that turn simple shapes into characters, stickers, badges, bursts, and comic little details.</p>
+        <p>Robby brings doodle habit, design instincts, and web craft to the lessons: readable pages, bold visual examples, and prompts that are easy to finish before they get overworked. Tracie, a mom and early childhood educator, helps keep the tone welcoming and the steps easy to jump into for kids, parents, teachers, and grown-ups who want a playful creative break.</p>
+        <p>The goal is a growing stash of doodle moves you can reuse anywhere: thicker outlines, expressive faces, bright fills, motion marks, tiny highlights, and enough confidence to make the next blank corner less blank.</p>
       </div>
     </section>
     <section class="about-credentials" aria-labelledby="about-credentials-title">
       <h2 id="about-credentials-title">Why these doodles are built this way</h2>
       <div class="about-credential-grid">
-        <article><strong>Lifelong doodling</strong><span>Robby brings years of sketchbook habit and a love for quick, playful visual ideas.</span></article>
-        <article><strong>Design and web craft</strong><span>The lessons are made to be easy to scan, accessible without an app, and practical on a regular webpage.</span></article>
-        <article><strong>Early-childhood lens</strong><span>Tracie's background helps us value clear steps, simple shapes, and encouragement over perfect results.</span></article>
-        <article><strong>Marker-friendly rhythm</strong><span>Each doodle aims to fit into a short creative break with paper, a black marker, and a few bright colors.</span></article>
+        <article><strong>Marker-first energy</strong><span>Each doodle favors confident outlines, simple silhouettes, and color choices that read fast.</span></article>
+        <article><strong>Built for quick scanning</strong><span>The lessons are made to be easy to follow on a regular webpage without needing a video, app, or long setup.</span></article>
+        <article><strong>Friendly creative breaks</strong><span>Tracie's background helps us value simple starts, playful pacing, and encouragement over perfect results.</span></article>
+        <article><strong>Reusable doodle language</strong><span>Every prompt adds a small cartoon trick: a face, burst, badge edge, color pop, shadow, or shine mark.</span></article>
       </div>
     </section>
   </main>
