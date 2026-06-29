@@ -623,6 +623,10 @@ a {
   background-image: url("assets/material-icons/markers-v1.webp");
 }
 
+.gel-pen-icon {
+  background-image: url("assets/material-icons/white-gel-pen-v1.webp");
+}
+
 .materials-note {
   margin: 18px -6px clamp(1rem, 2.5vw, 1.6rem);
   padding: 13px;

@@ -23,6 +23,11 @@ already told the reader to thicken the full outline.
 - Let marker streaks and imperfect outlines show. Avoid glossy vector-perfect
   symmetry, airbrush gradients, photorealism, and quiet pencil-sketch finishes.
 - Use color as part of the lesson, not as a decorative final-only surprise.
+- Vary the materials list to fit the actual doodle. Do not add "Optional white
+  gel pen" by default; include a white gel pen only when the steps explicitly
+  use white highlights, shine, sparkles, or crisp eye details. When a lesson
+  needs both outline and fill colors, it is fine to list "Black and colored
+  markers" instead of repeating separate black-marker and color-marker rows.
 - Give each lesson's final step subject-specific wording. The technique can
   stay consistent, usually reinforcing existing black outlines, marker fills,
   small highlights, and edge cleanup, but avoid repeating generic titles like

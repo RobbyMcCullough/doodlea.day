@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
 const siteName = "Doodlea.day";
-const styleVersion = "20260627-heading-fit";
+const styleVersion = "20260629-material-icons";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
 const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
@@ -33,8 +33,8 @@ const lessons = [
     accent: "#12aeb1",
     finished: "comic-camera-flash-doodle-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a cute teal comic camera with large lens, yellow flash burst, pink strap, face, buttons, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Teal, yellow, pink, gray, and black markers", "Optional white gel pen"],
-    materialNote: "Use the black marker for outlines first, then let bright color make the camera feel comic-style.",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, teal and pink for the camera body and strap, yellow for the flash, and the gel pen only for tiny shine marks.",
     tipLabel: "Doodle tip",
     steps: [
       {
@@ -86,7 +86,7 @@ const lessons = [
     accent: "#12aeb1",
     finished: "cassette-tape-sticker-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a retro cassette tape sticker with teal body, blank label window, tape reels, red bottom stripe, screw dots, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Teal, pink, yellow, red, and gray markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Teal, pink, yellow, red, and gray markers", "White gel pen"],
     materialNote: "Keep the cassette label blank; the shape should read without tiny words.",
     tipLabel: "Doodle tip",
     steps: [
@@ -139,7 +139,7 @@ const lessons = [
     accent: "#16aeb2",
     finished: "skateboard-sticker-doodle-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a cute teal skateboard sticker with wheels, trucks, face, yellow star, red stripes, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Teal, yellow, red, and gray markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Teal, yellow, red, and gray markers", "White gel pen"],
     materialNote: "Use scrap paper underneath; the teal fill looks best when a little marker streaking stays visible.",
     tipLabel: "Doodle tip",
     steps: [
@@ -192,7 +192,7 @@ const lessons = [
     accent: "#1aa6aa",
     finished: "cartoon-coconut-drink-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a cartoon coconut drink with brown coconut body, smiling face, striped teal straw, tiny colorful umbrella, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Brown, teal, pink, yellow, and green markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Brown, teal, pink, yellow, and green markers"],
     materialNote: "Use scrap paper underneath; the brown fill looks best when a little marker streaking stays visible.",
     tipLabel: "Doodle tip",
     steps: [
@@ -245,7 +245,7 @@ const lessons = [
     accent: "#f6b72f",
     finished: "smiling-pizza-slice-doodle-finished-v2.jpg",
     finishedAlt: "Bold marker doodle of a smiling pizza slice with yellow cheese, orange crust, red pepperoni, thick black outline, and a small cheese stretch",
-    materials: ["Drawing paper", "Black marker", "Yellow, orange, and red markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Yellow, orange, and red markers"],
     materialNote: "Use scrap paper underneath; the yellow fill looks better when you let marker streaks show.",
     tipLabel: "Doodle tip",
     steps: [
@@ -351,7 +351,7 @@ const lessons = [
     accent: "#d94234",
     finished: "firework-burst-doodle-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a red and blue firework burst with thick black outlines, yellow center, and small colorful sparks",
-    materials: ["Drawing paper", "Black marker", "Red, blue, and yellow markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Red, blue, and yellow markers", "White gel pen"],
     materialNote: "Use scrap paper underneath; the repeated burst shapes are easier if you rotate the page.",
     tipLabel: "Doodle tip",
     steps: [
@@ -404,7 +404,7 @@ const lessons = [
     accent: "#f2b12d",
     finished: "trophy-cup-sticker-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a gold trophy cup sticker with black outline, orange shadow, shine marks, and confetti dots",
-    materials: ["Drawing paper", "Black marker", "Yellow and orange markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Yellow and orange markers"],
     materialNote: "Use a broad yellow marker for the cup and a narrower black marker for tightening the outline.",
     tipLabel: "Doodle tip",
     steps: [
@@ -457,7 +457,7 @@ const lessons = [
     accent: "#76c943",
     finished: "goofy-monster-face-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a goofy green monster face with purple horns, uneven eyes, toothy grin, yellow cheek spots, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Green, purple, yellow, and gray markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Green, purple, yellow, and gray markers", "White gel pen"],
     materialNote: "Use scrap paper underneath; bright green marker often needs a second light pass.",
     tipLabel: "Doodle tip",
     steps: [
@@ -510,8 +510,8 @@ const lessons = [
     accent: "#f6b72f",
     finished: "rainbow-lightning-bolt-badge-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a rounded blue badge with a yellow lightning bolt, red orange and green rainbow bands, accent dots, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Blue, yellow, red, orange, green, and small accent markers", "Optional white gel pen"],
-    materialNote: "Choose bright marker colors and leave a little streaking visible inside each fill.",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use blue for the badge, yellow for the bolt, warm and green marker bands for the rainbow, and the gel pen only for the final tiny highlights.",
     tipLabel: "Doodle tip",
     steps: [
       {
@@ -563,7 +563,7 @@ const lessons = [
     accent: "#31a6df",
     finished: "smiling-cloud-doodle-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a smiling blue cloud with pink cheeks, three blue raindrops, a tiny yellow sun peeking out, thick black outline, and marker texture",
-    materials: ["Drawing paper", "Black marker", "Blue, yellow, pink, and darker-blue markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Blue, yellow, pink, and darker-blue markers", "White gel pen"],
     materialNote: "Use scrap paper underneath; the blue fill can stay a little streaky and handmade.",
     tipLabel: "Doodle tip",
     steps: [
@@ -616,7 +616,7 @@ const lessons = [
     accent: "#ef3f3c",
     finished: "watermelon-wedge-doodle-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a smiling watermelon wedge with red fruit, green rind bands, black seed drops, thick black outline, and visible marker texture",
-    materials: ["Drawing paper", "Black marker", "Red, light green, and dark green markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Red, light green, and dark green markers"],
     materialNote: "Use scrap paper underneath; broad red marker fill can bleed through thin paper.",
     tipLabel: "Doodle tip",
     steps: [
@@ -669,7 +669,7 @@ const lessons = [
     accent: "#1697c8",
     finished: "silly-robot-head-finished-v1.jpg",
     finishedAlt: "Bold marker doodle of a silly blue robot head with mismatched eyes, toothy grin, spring antenna, yellow side bolts, and red buttons",
-    materials: ["Drawing paper", "Black marker", "Blue, yellow, and red markers", "Optional white gel pen"],
+    materials: ["Drawing paper", "Black marker", "Blue, yellow, and red markers", "White gel pen"],
     materialNote: "Use scrap paper underneath; the blue fill looks best when marker streaks stay visible.",
     tipLabel: "Doodle tip",
     steps: [
@@ -725,10 +725,22 @@ const relatedCards = (currentSlug) => lessons
 
 const materialIcon = (material) => {
   const normalized = material.toLowerCase();
+  if (normalized.includes("gel pen")) return "gel-pen-icon";
   if (normalized.includes("paper")) return "paper-icon";
+  if (normalized.includes("colored") || normalized.includes("markers")) return "markers-icon";
   if (normalized.includes("black marker")) return "marker-icon";
-  if (normalized.includes("marker") || normalized.includes("gel pen")) return "markers-icon";
+  if (normalized.includes("marker")) return "markers-icon";
   return "marker-icon";
+};
+const materialDetail = (material) => {
+  const normalized = material.toLowerCase();
+  if (normalized.includes("paper")) return "Smooth paper helps marker lines";
+  if (normalized.includes("black and colored")) return "Outlines plus bright fills";
+  if (normalized.includes("black marker")) return "Bold outlines and small details";
+  if (normalized.includes("gel pen")) return "Tiny shine marks when needed";
+  if (normalized.includes("red marker")) return "For hot edge accents";
+  if (normalized.includes("marker")) return "Use the listed fill colors";
+  return "Whatever you already have";
 };
 const titleCase = (value) => value.replace(/\b\w/g, (character) => character.toUpperCase());
 const escapeHtml = (value) => String(value)
@@ -892,7 +904,7 @@ ${plausibleTag}
           <div class="pushpin" aria-hidden="true"></div>
           <p class="hand-note">Grab your stuff</p>
           <h3 id="materials-title">Materials</h3>
-          <ul>${lesson.materials.map((material, index) => `<li><span class="material-icon ${materialIcon(material)}" aria-hidden="true"></span><div><strong>${material}</strong><small>${index === 0 ? "Smooth paper helps marker lines" : index === 1 ? "Fine tip or felt tip" : index === 2 ? "Main flame colors" : "For edge accents"}</small></div></li>`).join("")}</ul>
+          <ul>${lesson.materials.map((material) => `<li><span class="material-icon ${materialIcon(material)}" aria-hidden="true"></span><div><strong>${material}</strong><small>${materialDetail(material)}</small></div></li>`).join("")}</ul>
           <p class="materials-note">${lesson.materialNote}</p>
         </aside>
         <ol class="steps">${steps}

@@ -227,3 +227,7 @@
   screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-29/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Refined Doodlea material cards on June 29, 2026: replaced the cropped black
+  marker icon, added `assets/material-icons/white-gel-pen-v1.webp`, mapped
+  gel-pen supplies to their own icon, and updated `DAILY-PUBLISHING.md` so
+  future lessons do not list an optional white gel pen by default.
