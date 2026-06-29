@@ -940,14 +940,14 @@ const homePage = (lesson) => {
         <img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="780" height="780">
       </div>
       <div class="about-copy">
-        <p class="kicker">One small doodle, every day</p>
-        <h2>A daily marker habit for playful hands.</h2>
-        <p>Doodlea.day turns marker doodling into a small daily art habit. Short, repeatable lessons help you get better at drawing by practicing clear shapes, bolder lines, expressive faces, bright color, and playful visual ideas one doodle at a time.</p>
+        <p class="kicker">A marker idea for today</p>
+        <h2>Get braver with bold lines and playful shapes.</h2>
+        <p>Doodlea.day is daily practice for the fast, funny side of drawing: chunky outlines, expressive faces, stickers, badges, bursts, patterns, and bright color choices. The goal is to make marks sooner, edit less, and build a visual vocabulary you can reuse anywhere.</p>
         <p class="sister-note">Want a calmer pencil-sketch practice? Visit <a href="https://sketcha.day/">Sketcha.day</a> for step-by-step sketch lessons.</p>
         <div class="about-points">
-          <p><strong>Practice that pops</strong><span>Most lessons use black outlines plus 2-3 colors in 10-20 minutes.</span></p>
-          <p><strong>Useful doodle skills</strong><span>Each prompt works on shape, line weight, expression, color, or comic energy.</span></p>
-          <p><strong>Small ideas, better marks</strong><span>Flames, characters, badges, icons, and patterns become repeatable drawing practice.</span></p>
+          <p><strong>Quick wins in marker</strong><span>Most doodles use black outlines plus 2-3 colors in 10-20 minutes.</span></p>
+          <p><strong>Cartoon muscle memory</strong><span>Practice silhouettes, line weight, expressions, motion marks, and color contrast.</span></p>
+          <p><strong>A stash of reusable ideas</strong><span>Each prompt becomes a little shape trick you can bring into cards, notes, margins, and sketchbooks.</span></p>
         </div>
       </div>
     </section>
