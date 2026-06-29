@@ -1,0 +1,119 @@
+{
+  "slug": "rainbow-lightning-bolt-badge",
+  "finished": "assets/rainbow-lightning-bolt-badge-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated marker process sheet cropped into step frames and finished art.",
+    "notes": "Honest backdated archive lesson; selected as a simple bold badge shape unlike recent food, face, vehicle, or cassette lessons."
+  },
+  "process_strategy": "The badge border, lightning bolt, rainbow bands, dots, and marker fills are introduced before the final panel so the finish only thickens and brightens existing parts.",
+  "final_elements": [
+    {
+      "name": "rounded badge outline",
+      "introduced_by_step": 1,
+      "description": "A rounded sticker badge shape."
+    },
+    {
+      "name": "central lightning bolt",
+      "introduced_by_step": 2,
+      "description": "A simple angular bolt inside the badge."
+    },
+    {
+      "name": "rainbow bands and marker colors",
+      "introduced_by_step": 3,
+      "description": "Three curved red, orange, and green rainbow bands behind the bolt."
+    },
+    {
+      "name": "small accent dots",
+      "introduced_by_step": 4,
+      "description": "Small dots around the badge interior."
+    },
+    {
+      "name": "badge and bolt marker fills",
+      "introduced_by_step": 5,
+      "description": "Yellow bolt, blue badge field, and colored dot fills."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/rainbow-lightning-bolt-badge-step-1.jpg",
+      "step_name": "Draw the badge shape",
+      "visible_job": "Draws one rounded square sticker-badge outline with broad curved corners as the container for the bolt.",
+      "introduces": [
+        "rounded badge outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/rainbow-lightning-bolt-badge-step-2.jpg",
+      "step_name": "Zap in the bolt",
+      "visible_job": "Adds the central lightning bolt inside the badge.",
+      "introduces": [
+        "central lightning bolt"
+      ],
+      "requires_prior_elements": [
+        "rounded badge outline"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/rainbow-lightning-bolt-badge-step-3.jpg",
+      "step_name": "Color the rainbow",
+      "visible_job": "Adds and colors three curved rainbow bands behind the bolt.",
+      "introduces": [
+        "rainbow bands and marker colors"
+      ],
+      "requires_prior_elements": [
+        "rounded badge outline",
+        "central lightning bolt"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/rainbow-lightning-bolt-badge-step-4.jpg",
+      "step_name": "Dot the badge",
+      "visible_job": "Adds small accent dots around the existing bolt and colored rainbow.",
+      "introduces": [
+        "small accent dots"
+      ],
+      "requires_prior_elements": [
+        "rounded badge outline",
+        "central lightning bolt",
+        "rainbow bands and marker colors"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/rainbow-lightning-bolt-badge-step-5.jpg",
+      "step_name": "Fill the badge color",
+      "visible_job": "Adds bright marker fills to the established badge, bolt, and dots, while leaving the rainbow colors already placed.",
+      "introduces": [
+        "badge and bolt marker fills"
+      ],
+      "requires_prior_elements": [
+        "rounded badge outline",
+        "central lightning bolt",
+        "rainbow bands and marker colors",
+        "small accent dots"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Charge up the badge",
+    "asset": "assets/rainbow-lightning-bolt-badge-finished-v1.jpg",
+    "visible_job": "Only retraces existing outlines, evens marker fills, and adds tiny highlights to already drawn shapes.",
+    "allowed_changes": [
+      "thicker black outlines",
+      "marker fill deepening",
+      "small highlights on existing shapes",
+      "edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No bolt, rainbow band, accent dot, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

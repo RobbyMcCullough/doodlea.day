@@ -1,0 +1,117 @@
+{
+  "slug": "comic-camera-flash-doodle",
+  "finished": "assets/comic-camera-flash-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated marker process sheet cropped into step frames and finished art.",
+    "notes": "Chosen for June 29 Camera Day as a bold marker/comic doodle, distinct from Sketcha.day subjects."
+  },
+  "process_strategy": "The camera body, lens, flash burst, face, buttons, strap, and marker fills appear before the final panel so the finish only reinforces existing ink and color.",
+  "final_elements": [
+    {
+      "name": "rounded camera body",
+      "introduced_by_step": 1,
+      "description": "A wide rounded rectangle camera body."
+    },
+    {
+      "name": "large circular lens",
+      "introduced_by_step": 2,
+      "description": "A big central lens with an inner ring."
+    },
+    {
+      "name": "comic flash burst",
+      "introduced_by_step": 3,
+      "description": "A small starburst flash popping from the upper corner."
+    },
+    {
+      "name": "cute face and top buttons",
+      "introduced_by_step": 4,
+      "description": "Simple eyes, smile, and small top button shapes."
+    },
+    {
+      "name": "strap and marker fills",
+      "introduced_by_step": 5,
+      "description": "A side strap plus teal, yellow, pink, gray, and black marker color areas."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-camera-flash-doodle-step-1.jpg",
+      "step_name": "Block the camera body",
+      "visible_job": "Draws the rounded camera body and top bump.",
+      "introduces": [
+        "rounded camera body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-camera-flash-doodle-step-2.jpg",
+      "step_name": "Pop in the lens",
+      "visible_job": "Adds the large lens circle and inner ring.",
+      "introduces": [
+        "large circular lens"
+      ],
+      "requires_prior_elements": [
+        "rounded camera body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-camera-flash-doodle-step-3.jpg",
+      "step_name": "Spark the flash",
+      "visible_job": "Adds the comic flash burst at the upper corner.",
+      "introduces": [
+        "comic flash burst"
+      ],
+      "requires_prior_elements": [
+        "rounded camera body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-camera-flash-doodle-step-4.jpg",
+      "step_name": "Add face and buttons",
+      "visible_job": "Adds eyes, smile, shutter button, and small top controls.",
+      "introduces": [
+        "cute face and top buttons"
+      ],
+      "requires_prior_elements": [
+        "rounded camera body",
+        "large circular lens"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-camera-flash-doodle-step-5.jpg",
+      "step_name": "Fill the snapshot colors",
+      "visible_job": "Adds the strap and fills the established camera, lens, face, and flash shapes with marker color.",
+      "introduces": [
+        "strap and marker fills"
+      ],
+      "requires_prior_elements": [
+        "rounded camera body",
+        "large circular lens",
+        "comic flash burst",
+        "cute face and top buttons"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Snap the final shine",
+    "asset": "assets/comic-camera-flash-doodle-finished-v1.jpg",
+    "visible_job": "Only retraces existing edges, evens marker fills, and adds small highlights to already drawn shapes.",
+    "allowed_changes": [
+      "thicker black outlines",
+      "marker fill deepening",
+      "small highlights on existing lens and flash",
+      "edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No lens, flash, face, button, strap, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

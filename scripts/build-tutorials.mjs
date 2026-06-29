@@ -18,8 +18,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "comic-camera-flash-doodle",
+    day: "013",
+    date: "Monday, June 29",
+    isoDate: "2026-06-29",
+    subject: "a comic camera flash doodle",
+    headlineSubject: "a comic camera<br>flash doodle",
+    shortSubject: "a camera flash doodle",
+    lessonTitle: "Let's doodle a camera flash",
+    description: "Learn how to draw a comic camera flash doodle with a rounded camera body, big lens, starburst flash, cute face, strap, thick black outline, and bright marker fills.",
+    intro: "Turn a simple camera shape into a cheerful marker doodle with one big lens, a pop of flash, and bold color that fits Camera Day.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#12aeb1",
+    finished: "comic-camera-flash-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a cute teal comic camera with large lens, yellow flash burst, pink strap, face, buttons, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Teal, yellow, pink, gray, and black markers", "Optional white gel pen"],
+    materialNote: "Use the black marker for outlines first, then let bright color make the camera feel comic-style.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the camera body",
+        text: "Draw a wide rounded rectangle for the camera, then add a small bump along the top edge.",
+        tip: "Round the corners more than a real camera. A soft body shape makes the doodle friendlier."
+      },
+      {
+        name: "Pop in the lens",
+        text: "Place a big circle in the middle of the body, then add a smaller circle inside it for the lens ring.",
+        tip: "Keep the lens large. It is the anchor that makes the camera read quickly."
+      },
+      {
+        name: "Spark the flash",
+        text: "Add a starburst flash shape from the upper corner, letting it overlap the camera body a little.",
+        tip: "Use uneven points on the flash. A hand-drawn burst feels livelier than a perfect star."
+      },
+      {
+        name: "Add face and buttons",
+        text: "Draw two small eyes, a tiny smile, a shutter button, and a few simple top controls.",
+        tip: "Leave clear space around the lens so the face does not crowd the main camera shape."
+      },
+      {
+        name: "Fill the snapshot colors",
+        text: "Add the side strap, then fill the body teal, the flash yellow, the strap pink, and the lens gray and black.",
+        tip: "Color with short strokes that follow each shape. Visible marker texture helps the doodle feel handmade."
+      },
+      {
+        name: "Snap the final shine",
+        text: "Retrace the existing edges, deepen the marker fills, and add tiny highlights to the lens and flash shapes you already drew.",
+        tip: "Do not add extra camera parts at the end. This pass should make the snapshot brighter, not busier.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cassette-tape-sticker",
-    day: "011",
+    day: "012",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "010",
+    day: "011",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -125,7 +178,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "009",
+    day: "010",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -178,7 +231,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "008",
+    day: "009",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -231,7 +284,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -284,7 +337,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -337,7 +390,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "005",
+    day: "006",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -390,7 +443,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "002",
+    day: "003",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -442,8 +495,61 @@ const lessons = [
     ]
   },
   {
-    slug: "smiling-cloud-doodle",
+    slug: "rainbow-lightning-bolt-badge",
     day: "001",
+    date: "Wednesday, June 17",
+    isoDate: "2026-06-17",
+    subject: "a rainbow lightning bolt badge",
+    headlineSubject: "a rainbow lightning<br>bolt badge",
+    shortSubject: "a lightning bolt badge",
+    lessonTitle: "Let's doodle a lightning bolt badge",
+    description: "Learn how to draw a rainbow lightning bolt badge with a rounded sticker shape, central bolt, rainbow bands, accent dots, thick black outline, and bright marker fills.",
+    intro: "Build a bold badge from one rounded square, then add a lightning bolt and rainbow bands for a fast marker doodle with sticker energy.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f6b72f",
+    finished: "rainbow-lightning-bolt-badge-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a rounded blue badge with a yellow lightning bolt, red orange and green rainbow bands, accent dots, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black marker", "Blue, yellow, red, orange, green, and small accent markers", "Optional white gel pen"],
+    materialNote: "Choose bright marker colors and leave a little streaking visible inside each fill.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the badge shape",
+        text: "Draw a rounded square badge, like a soft sticker tile.",
+        tip: "Round every corner before you darken the outline. A badge should feel sturdy but not stiff."
+      },
+      {
+        name: "Zap in the bolt",
+        text: "Add one angular lightning bolt down the middle of the badge.",
+        tip: "Make the bolt wide enough to color later. Tiny bolt points disappear once marker outlines get thick."
+      },
+      {
+        name: "Color the rainbow",
+        text: "Curve three rainbow bands behind the bolt, then fill them red, orange, and green.",
+        tip: "Let the bands tuck behind the bolt. That overlap keeps the badge from looking flat."
+      },
+      {
+        name: "Dot the badge",
+        text: "Add small accent dots in the open corners around the bolt and rainbow.",
+        tip: "Keep the dots away from the bolt edges so the main shape stays bold."
+      },
+      {
+        name: "Fill the badge color",
+        text: "Fill the bolt yellow, the badge field blue, and the dots with small bright marker colors.",
+        tip: "Color around the rainbow edges slowly. Clean color boundaries make the sticker shape pop."
+      },
+      {
+        name: "Charge up the badge",
+        text: "Retrace the existing outlines, deepen the blue, yellow, and rainbow fills, and add tiny highlights only to shapes you already drew.",
+        tip: "Keep the finish punchy but simple. Extra symbols would fight the bolt and rainbow.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "smiling-cloud-doodle",
+    day: "002",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "003",
+    day: "004",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "004",
+    day: "005",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

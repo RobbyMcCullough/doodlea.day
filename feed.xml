@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic camera flash doodle</title>
+      <link>https://doodlea.day/tutorials/comic-camera-flash-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-camera-flash-doodle.html</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic camera flash doodle with a rounded camera body, big lens, starburst flash, cute face, strap, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/comic-camera-flash-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cassette tape sticker doodle</title>
       <link>https://doodlea.day/tutorials/cassette-tape-sticker.html</link>
@@ -94,6 +102,14 @@
       <pubDate>Thu, 18 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a smiling cloud doodle with puffy bumps, a cute face, cheek circles, three raindrops, a tiny sun peek, thick black outline, and bright marker fills.</description>
       <media:content url="https://doodlea.day/assets/smiling-cloud-doodle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a rainbow lightning bolt badge</title>
+      <link>https://doodlea.day/tutorials/rainbow-lightning-bolt-badge.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/rainbow-lightning-bolt-badge.html</guid>
+      <pubDate>Wed, 17 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a rainbow lightning bolt badge with a rounded sticker shape, central bolt, rainbow bands, accent dots, thick black outline, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/rainbow-lightning-bolt-badge-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

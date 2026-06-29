@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-28
+- Date: 2026-06-29
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -211,5 +211,19 @@
   `/tmp/cassette-tape-sticker-steps.jpg` and
   `/tmp/smiling-cloud-doodle-steps.jpg`, and saved browser QA screenshots under
   `/tmp/daily-sketch-doodle-qa-2026-06-28/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added the comic camera flash doodle as the June 29, 2026 / Day 013 marker
+  tutorial from a reviewed six-panel generated marker contact sheet. Finished
+  image rating: 8.7/10.
+- Added the rainbow lightning bolt badge as the June 17, 2026 / Day 001
+  backdated archive tutorial. Existing Doodlea day labels shifted forward by
+  one. Finished image rating: 8.8/10.
+- June 29 QA used `python3 scripts/check-tutorial-readiness.py
+  comic-camera-flash-doodle` and `python3 scripts/check-tutorial-readiness.py
+  rainbow-lightning-bolt-badge`, reviewed step sheets at
+  `/tmp/comic-camera-flash-doodle-steps.jpg` and
+  `/tmp/rainbow-lightning-bolt-badge-steps.jpg`, and saved Cove browser QA
+  screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-29/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
