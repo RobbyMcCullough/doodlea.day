@@ -16,6 +16,7 @@
   --button-bg-hover: #94304f;
   --button-text: var(--paper-light);
   --line: rgba(40, 37, 31, .23);
+  --footer-faint: #726d64;
   --shadow: 0 15px 45px rgba(67, 54, 33, .12);
   --display: "Caveat Brush", "Comic Sans MS", cursive;
   --body: "DM Sans", sans-serif;
@@ -1625,35 +1626,57 @@ a {
 }
 
 .site-footer {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  align-items: center;
-  gap: 2.5rem;
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
   padding: 35px 0 45px;
-  border-top: 2px solid var(--ink);
 }
 
 .footer-brand .brand-name {
   font-size: 2rem;
 }
 
-.site-footer p {
+.footer-bar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 24px;
+  border-top: 2px solid var(--ink);
+}
+
+.footer-identity {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.footer-tagline {
+  max-width: 24rem;
+  margin: 0;
   color: var(--muted);
   font-family: var(--display);
-  font-size: 1.3rem;
+  font-size: 1.16rem;
+  line-height: 1.15;
 }
 
 .site-footer nav {
   display: flex;
   gap: 1.5rem;
+  justify-self: end;
 }
 
 .site-footer nav a,
-.site-footer small {
+.footer-copyright {
+  color: var(--footer-faint);
   font-size: .72rem;
   font-weight: 700;
+}
+
+.footer-copyright {
+  display: block;
+  margin-top: 24px;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -1998,7 +2021,7 @@ a {
     border-right: 2px solid var(--ink);
   }
 
-  .site-footer {
+  .footer-bar {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
@@ -2007,6 +2030,7 @@ a {
   .site-footer nav {
     flex-wrap: wrap;
     justify-content: center;
+    justify-self: center;
   }
 }
 
