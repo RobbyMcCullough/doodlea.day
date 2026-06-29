@@ -786,7 +786,7 @@ const siteNode = {
   "@id": `${siteUrl}/#website`,
   name: siteName,
   url: `${siteUrl}/`,
-  description: "One bold marker doodle prompt and practical step-by-step tutorial every day.",
+  description: "Daily marker doodle lessons that build drawing confidence through small, playful art practice.",
   publisher: { "@id": `${siteUrl}/#organization` }
 };
 
@@ -898,7 +898,7 @@ ${plausibleTag}
       <header class="section-heading">
         <p class="kicker">Felt-tip marker mode</p>
         <h2>${lesson.lessonTitle}</h2>
-        <p>Use loose curves first, then switch to confident marker outlines and bright fills.</p>
+        <p>Treat this as one playful practice round: sketch the idea loosely, simplify the shapes, then commit with confident marker outlines and bright fills.</p>
       </header>
       <div class="lesson-layout">
         <aside class="materials paper-panel" aria-labelledby="materials-title">
@@ -913,7 +913,7 @@ ${plausibleTag}
       </div>
     </article>
     <section class="library related-library" id="related" aria-labelledby="related-title">
-      <header class="section-heading library-heading"><div><p class="kicker">Keep the marker moving</p><h2 id="related-title">More daily doodles</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
+      <header class="section-heading library-heading"><div><p class="kicker">Another page of practice</p><h2 id="related-title">More daily doodles</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
       </div>
     </section>
@@ -1055,7 +1055,7 @@ const homePage = (lesson) => {
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
       <h2 id="newsletter-title">A fresh doodle in your inbox.</h2>
-      <p>Coming soon: one prompt, one marker-friendly tutorial, zero pressure. Want it first? <a href="mailto:hello@doodlea.day?subject=Doodlea.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
+      <p>Coming soon: one prompt, one marker-friendly tutorial, and a cheerful reason to doodle again tomorrow. Want it first? <a href="mailto:hello@doodlea.day?subject=Doodlea.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
       <form class="signup-form">
         <label class="sr-only" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Newsletter coming soon" disabled>
@@ -1143,11 +1143,11 @@ const archivePage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Doodle Tutorial Library | Marker-Based Step-by-Step Doodles | ${siteName}</title>
-  <meta name="description" content="Browse every Doodlea.day tutorial. Find bold marker-based lessons for colorful cartoon, comic, and doodle drawing ideas.">
+  <meta name="description" content="Browse every Doodlea.day tutorial. Find daily marker doodle lessons that help you practice shape, line weight, expression, color, and cartoon drawing.">
   <link rel="canonical" href="${siteUrl}/library.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="The ${siteName} Doodle Tutorial Library">
-  <meta property="og:description" content="A growing collection of practical, playful step-by-step marker doodle lessons.">
+  <meta property="og:description" content="A growing library of daily marker doodle lessons for building drawing confidence one bold mark at a time.">
   <meta property="og:url" content="${siteUrl}/library.html">
   <meta property="og:image" content="${lessonImageUrl(latestLesson)}">
   <meta name="twitter:card" content="summary_large_image">
@@ -1182,7 +1182,7 @@ ${plausibleTag}
       <div class="archive-intro">
         <p class="eyebrow"><span>${archiveLessons.length} tutorial</span> Marker-first and cartoon-friendly</p>
         <h1 id="archive-title" aria-label="The doodle library"><span class="headline-lead">The doodle</span> <em aria-hidden="true"><span>library</span></em></h1>
-        <p>Start anywhere. Every lesson favors bold shapes, thick outlines, bright color, and an approachable marker process.</p>
+        <p>Start anywhere. Every lesson gives you a small, finishable practice round so daily practice can build into bolder lines, clearer shapes, brighter color, and more playful drawing ideas.</p>
         <a class="nav-button hero-button" href="#tutorial-library">Choose a doodle <span aria-hidden="true">↓</span></a>
       </div>
       <div class="archive-stack" aria-hidden="true">
@@ -1193,7 +1193,7 @@ ${plausibleTag}
       <header class="section-heading library-heading">
         <div>
           <p class="kicker">Pick a page</p>
-          <h2 id="tutorial-library-title">Draw your way through the days</h2>
+          <h2 id="tutorial-library-title">Practice your way through the days</h2>
         </div>
         <p class="archive-count">Newest first · ${archiveLessons.length} lesson</p>
       </header>
@@ -1223,7 +1223,7 @@ const feed = () => `<?xml version="1.0" encoding="UTF-8"?>
     <title>${siteName} Daily Doodles</title>
     <link>${siteUrl}/</link>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>One bold marker doodle prompt and practical step-by-step tutorial every day.</description>
+    <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
     <lastBuildDate>${rssPubDate(latestLesson.isoDate)}</lastBuildDate>
 ${archiveLessons.map((lesson) => `    <item>
