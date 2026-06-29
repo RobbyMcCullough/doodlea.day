@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
 const siteName = "Doodlea.day";
-const styleVersion = "20260629-material-icons";
+const styleVersion = "20260629-material-icons-2";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
 const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
