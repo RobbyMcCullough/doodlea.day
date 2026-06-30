@@ -1,0 +1,156 @@
+{
+  "slug": "cartoon-asteroid-doodle",
+  "finished": "assets/cartoon-asteroid-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster marker contact sheet generated for the June 30, 2026 cartoon asteroid lesson.",
+    "notes": "Restored from the approved alternate contact sheet generated during the June 30 run after the owner chose it as the current lesson."
+  },
+  "process_strategy": "The sequence establishes the asteroid body, flame trail, craters, face, star puffs, and marker color before the final panel only reinforces existing ink, fill, and highlights.",
+  "final_elements": [
+    {
+      "name": "lumpy asteroid body",
+      "introduced_by_step": 1,
+      "description": "A tilted lumpy rock shape streaking diagonally across the page."
+    },
+    {
+      "name": "flame trail",
+      "introduced_by_step": 1,
+      "description": "A jagged flame trail behind the asteroid body."
+    },
+    {
+      "name": "rough lumpy rock contour",
+      "introduced_by_step": 2,
+      "description": "The uneven outside edge that turns the guide into a recognizable asteroid rock."
+    },
+    {
+      "name": "rough jagged flame contour",
+      "introduced_by_step": 2,
+      "description": "The uneven flame-tail edge wrapped around the guide lines."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 3,
+      "description": "A bold marker outline around the asteroid and flame trail."
+    },
+    {
+      "name": "crater spots",
+      "introduced_by_step": 4,
+      "description": "Three simple crater spots on the rock body."
+    },
+    {
+      "name": "smiling face",
+      "introduced_by_step": 4,
+      "description": "Two eyes and a small smiling mouth on the front of the asteroid."
+    },
+    {
+      "name": "small star puffs",
+      "introduced_by_step": 4,
+      "description": "Three small star shapes around the flying asteroid."
+    },
+    {
+      "name": "gray-brown rock fill",
+      "introduced_by_step": 5,
+      "description": "Marker fill inside the already drawn asteroid body and craters."
+    },
+    {
+      "name": "orange-yellow flame fill",
+      "introduced_by_step": 5,
+      "description": "Yellow and orange marker fill inside the already drawn flame trail."
+    },
+    {
+      "name": "small white highlights",
+      "introduced_by_step": 5,
+      "description": "Tiny highlights on existing craters, eyes, and flame shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-asteroid-doodle-step-1.jpg",
+      "step_name": "Aim the asteroid",
+      "visible_job": "Places the tilted asteroid body guide and flame guide lines.",
+      "introduces": [
+        "lumpy asteroid body",
+        "flame trail"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-asteroid-doodle-step-2.jpg",
+      "step_name": "Bump out the rock",
+      "visible_job": "Turns the guide into a lumpy asteroid and rough flame trail.",
+      "introduces": [
+        "rough lumpy rock contour",
+        "rough jagged flame contour"
+      ],
+      "requires_prior_elements": [
+        "lumpy asteroid body",
+        "flame trail"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-asteroid-doodle-step-3.jpg",
+      "step_name": "Ink the flight path",
+      "visible_job": "Darkens only the already drawn lumpy rock edge and jagged flame edge into a thick black marker outline.",
+      "introduces": [
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "rough lumpy rock contour",
+        "rough jagged flame contour"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-asteroid-doodle-step-4.jpg",
+      "step_name": "Add craters and a face",
+      "visible_job": "Adds crater spots, eyes, smile, and small star puffs.",
+      "introduces": [
+        "crater spots",
+        "smiling face",
+        "small star puffs"
+      ],
+      "requires_prior_elements": [
+        "lumpy asteroid body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-asteroid-doodle-step-5.jpg",
+      "step_name": "Fill the space colors",
+      "visible_job": "Fills the established rock and flame shapes with marker color and leaves small highlight gaps.",
+      "introduces": [
+        "gray-brown rock fill",
+        "orange-yellow flame fill",
+        "small white highlights"
+      ],
+      "requires_prior_elements": [
+        "lumpy asteroid body",
+        "flame trail",
+        "crater spots",
+        "smiling face",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Launch the final glow",
+    "asset": "assets/cartoon-asteroid-doodle-finished-v1.jpg",
+    "visible_job": "Retraces existing outlines, deepens marker fills, and clarifies highlights already placed on the craters, eyes, and flame shapes.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill deepening",
+      "crater edge cleanup",
+      "small highlight clarification",
+      "star puff clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No asteroid body, flame trail, crater, face, star puff, color area, or highlight should first appear in the final image.",
+    "No frame may ink or color a shape that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same asteroid pose, scale, and placement as the step frames."
+  ]
+}

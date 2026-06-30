@@ -231,19 +231,27 @@
   marker icon, added `assets/material-icons/white-gel-pen-v1.webp`, mapped
   gel-pen supplies to their own icon, and updated `DAILY-PUBLISHING.md` so
   future lessons do not list an optional white gel pen by default.
-- Added the comic chat bubble doodle as the June 30, 2026 / Day 015 marker
+- Promoted the cartoon asteroid doodle as the June 30, 2026 / Day 016 marker
   tutorial from a reviewed six-panel generated marker contact sheet. Finished
-  image rating: 8.7/10.
-- Added the smiling envelope sticker as the June 16, 2026 / Day 001 honest
-  backdated archive tutorial. Existing Doodlea day labels shifted forward by
-  one. Finished image rating: 8.6/10.
+  image rating: 8.9/10.
+- Moved the comic chat bubble doodle into the honest backfill sequence as
+  June 15, 2026 / Day 001 after the owner chose the asteroid/meteor as today's
+  doodle. Existing Doodlea day labels shifted forward by one.
+- The smiling envelope sticker is now the June 16, 2026 / Day 002 honest
+  backdated archive tutorial after the chat bubble moved into the June 15 slot.
+  Finished image rating: 8.6/10.
 - June 30 QA used `python3 scripts/check-tutorial-readiness.py
-  comic-chat-bubble-doodle` and `python3 scripts/check-tutorial-readiness.py
+  cartoon-asteroid-doodle`, `python3 scripts/check-tutorial-readiness.py
+  comic-chat-bubble-doodle`, and `python3 scripts/check-tutorial-readiness.py
   smiling-envelope-sticker`, reviewed step sheets at
+  `/tmp/cartoon-asteroid-doodle-steps.jpg`,
   `/tmp/comic-chat-bubble-doodle-steps.jpg` and
   `/tmp/smiling-envelope-sticker-steps.jpg`, and saved Cove browser
-  desktop/mobile screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-30/`.
+  desktop/mobile screenshots under `/tmp/doodlea-meteor-switch-qa-2026-06-30/`
+  for the switch.
 - Mobile QA caught and fixed the envelope headline by splitting it as
   `a smiling` / `envelope` / `sticker`.
+- Mobile QA also caught and fixed the asteroid headline by splitting it as
+  `a cartoon` / `asteroid` / `doodle`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.

@@ -18,10 +18,63 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "comic-chat-bubble-doodle",
-    day: "015",
+    slug: "cartoon-asteroid-doodle",
+    day: "016",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
+    subject: "a cartoon asteroid doodle",
+    headlineSubject: "a cartoon<br>asteroid<br>doodle",
+    shortSubject: "an asteroid doodle",
+    lessonTitle: "Let's doodle a cartoon asteroid",
+    description: "Learn how to draw a cartoon asteroid doodle with a lumpy rock body, flame trail, crater spots, cute face, star puffs, thick black outline, and bright marker fills.",
+    intro: "Build one lumpy space rock, trail it with comic flames, then add craters, a happy face, and bold marker color.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f28b24",
+    finished: "cartoon-asteroid-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a smiling cartoon asteroid with gray-brown cratered rock, orange and yellow flame trail, small star puffs, thick black outline, white highlights, and marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, gray-brown for the rock, yellow and orange for the flame, and the gel pen only for small shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Aim the asteroid",
+        text: "Draw a tilted oval or bean shape for the asteroid body, then sketch simple flame guide lines behind it.",
+        tip: "Set the angle first. A diagonal pose makes the asteroid feel like it is streaking across the page."
+      },
+      {
+        name: "Bump out the rock",
+        text: "Turn the oval into a lumpy rock body and wrap a rough flame trail around the guide lines.",
+        tip: "Make the bumps uneven. A perfect potato shape will feel less like a space rock."
+      },
+      {
+        name: "Ink the flight path",
+        text: "Trace the asteroid and flame trail with a thick black outline, keeping the same diagonal shape.",
+        tip: "Use one confident edge around the outside, then leave the inner flame lines a little lighter."
+      },
+      {
+        name: "Add craters and a face",
+        text: "Draw three crater spots, two eyes, a smiling mouth, and a few small star puffs around the asteroid.",
+        tip: "Place the face on the front half of the rock so the flame still reads as the tail."
+      },
+      {
+        name: "Fill the space colors",
+        text: "Fill the rock gray-brown, color the flame yellow and orange, and leave small white gaps for shine.",
+        tip: "Follow each shape with your marker strokes. Visible streaks make the doodle feel handmade."
+      },
+      {
+        name: "Launch the final glow",
+        text: "Retrace the existing outlines, deepen the rock and flame colors, and sharpen the highlights on the craters, eyes, and flame shapes you already drew.",
+        tip: "Do not add extra planets or trails at the end. This last pass should make the asteroid brighter, not busier.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "comic-chat-bubble-doodle",
+    day: "001",
+    date: "Monday, June 15",
+    isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
     headlineSubject: "a comic chat<br>bubble doodle",
     shortSubject: "a chat bubble doodle",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "001",
+    day: "002",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -125,7 +178,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "014",
+    day: "015",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -178,7 +231,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "013",
+    day: "014",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -231,7 +284,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "012",
+    day: "013",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -284,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "011",
+    day: "012",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -337,7 +390,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "010",
+    day: "011",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -390,7 +443,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "009",
+    day: "010",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -443,7 +496,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "008",
+    day: "009",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -496,7 +549,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "007",
+    day: "008",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -549,7 +602,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "004",
+    day: "005",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -602,7 +655,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "002",
+    day: "003",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -655,7 +708,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "003",
+    day: "004",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -708,7 +761,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "005",
+    day: "006",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -761,7 +814,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "006",
+    day: "007",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",
