@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-29
+- Date: 2026-06-30
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -231,3 +231,19 @@
   marker icon, added `assets/material-icons/white-gel-pen-v1.webp`, mapped
   gel-pen supplies to their own icon, and updated `DAILY-PUBLISHING.md` so
   future lessons do not list an optional white gel pen by default.
+- Added the comic chat bubble doodle as the June 30, 2026 / Day 015 marker
+  tutorial from a reviewed six-panel generated marker contact sheet. Finished
+  image rating: 8.7/10.
+- Added the smiling envelope sticker as the June 16, 2026 / Day 001 honest
+  backdated archive tutorial. Existing Doodlea day labels shifted forward by
+  one. Finished image rating: 8.6/10.
+- June 30 QA used `python3 scripts/check-tutorial-readiness.py
+  comic-chat-bubble-doodle` and `python3 scripts/check-tutorial-readiness.py
+  smiling-envelope-sticker`, reviewed step sheets at
+  `/tmp/comic-chat-bubble-doodle-steps.jpg` and
+  `/tmp/smiling-envelope-sticker-steps.jpg`, and saved Cove browser
+  desktop/mobile screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-30/`.
+- Mobile QA caught and fixed the envelope headline by splitting it as
+  `a smiling` / `envelope` / `sticker`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.

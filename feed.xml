@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic chat bubble doodle</title>
+      <link>https://doodlea.day/tutorials/comic-chat-bubble-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-chat-bubble-doodle.html</guid>
+      <pubDate>Tue, 30 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic chat bubble doodle with a rounded bubble, tail, notification heart, cute face, drop shadow, thick black outline, and teal marker fill.</description>
+      <media:content url="https://doodlea.day/assets/comic-chat-bubble-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a comic camera flash doodle</title>
       <link>https://doodlea.day/tutorials/comic-camera-flash-doodle.html</link>
@@ -110,6 +118,14 @@
       <pubDate>Wed, 17 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a rainbow lightning bolt badge with a rounded sticker shape, central bolt, rainbow bands, accent dots, thick black outline, and bright marker fills.</description>
       <media:content url="https://doodlea.day/assets/rainbow-lightning-bolt-badge-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a smiling envelope sticker</title>
+      <link>https://doodlea.day/tutorials/smiling-envelope-sticker.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/smiling-envelope-sticker.html</guid>
+      <pubDate>Tue, 16 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a smiling envelope sticker with rounded corners, folded flap lines, cute face, heart stamp, gray shadow, thick black outline, and yellow marker fill.</description>
+      <media:content url="https://doodlea.day/assets/smiling-envelope-sticker-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

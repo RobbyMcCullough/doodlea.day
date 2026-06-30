@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "comic-chat-bubble-doodle",
+    day: "015",
+    date: "Tuesday, June 30",
+    isoDate: "2026-06-30",
+    subject: "a comic chat bubble doodle",
+    headlineSubject: "a comic chat<br>bubble doodle",
+    shortSubject: "a chat bubble doodle",
+    lessonTitle: "Let's doodle a comic chat bubble",
+    description: "Learn how to draw a comic chat bubble doodle with a rounded bubble, tail, notification heart, cute face, drop shadow, thick black outline, and teal marker fill.",
+    intro: "Turn one rounded speech bubble into a bright marker sticker with a friendly face, tiny heart badge, chunky outline, and comic-style shadow.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#12aeb1",
+    finished: "comic-chat-bubble-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a teal comic chat bubble with tail, cute face, heart notification badge, gray shadow, white highlights, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use teal for the bubble, pink for the heart, gray for the shadow, and the gel pen only for tiny shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Round the bubble",
+        text: "Draw a wide rounded chat bubble with a little tail, then place a small circle badge on the upper corner.",
+        tip: "Keep the corners soft and roomy. The doodle needs space for a face and color."
+      },
+      {
+        name: "Ink the bubble edge",
+        text: "Trace the bubble, tail, and badge with a thick black marker outline.",
+        tip: "Turn the paper as you draw the corners. A confident outline is the main personality of this doodle."
+      },
+      {
+        name: "Add face and heart",
+        text: "Add two simple eyes, a small smile, and a heart inside the badge circle.",
+        tip: "Leave a little breathing room around the face so the bubble still feels like one clean shape."
+      },
+      {
+        name: "Drop in the shadow",
+        text: "Add a gray offset shadow behind the lower and right edges of the bubble.",
+        tip: "Keep the shadow tucked close to the outline. A small shadow reads more like a sticker."
+      },
+      {
+        name: "Fill the message colors",
+        text: "Fill the bubble with teal marker, color the heart pink, and add tiny white shine marks on the bubble and badge.",
+        tip: "Color in short strokes that follow the bubble shape. Visible marker streaks keep it handmade."
+      },
+      {
+        name: "Send the final pop",
+        text: "Retrace the existing outline, smooth the teal and pink fills, and sharpen the face, heart, shadow, and shine marks already on the page.",
+        tip: "Do not add extra icons at the end. This pass should make the message bolder, not busier.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "smiling-envelope-sticker",
+    day: "001",
+    date: "Tuesday, June 16",
+    isoDate: "2026-06-16",
+    subject: "a smiling envelope sticker",
+    headlineSubject: "a smiling<br>envelope<br>sticker",
+    shortSubject: "an envelope sticker",
+    lessonTitle: "Let's doodle a smiling envelope sticker",
+    description: "Learn how to draw a smiling envelope sticker with rounded corners, folded flap lines, cute face, heart stamp, gray shadow, thick black outline, and yellow marker fill.",
+    intro: "Start with one rounded rectangle, fold it into an envelope, then add a friendly face, heart stamp, sticker shadow, and warm marker color.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f3b63c",
+    finished: "smiling-envelope-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a smiling yellow envelope sticker with folded flap lines, heart stamp, cute face, gray shadow, white highlights, thick black outline, and marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use yellow for the envelope, coral or red for the heart stamp, gray for the shadow, and the gel pen only for small shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the envelope",
+        text: "Draw a wide rounded rectangle for the envelope sticker body.",
+        tip: "Round the corners more than a real envelope. Sticker shapes look friendlier when the edges are soft."
+      },
+      {
+        name: "Fold the flap",
+        text: "Add the diagonal flap lines, bring them to a soft point near the middle, and thicken the outer edge with black marker.",
+        tip: "Let the flap point sit a little below center so the face has room under it."
+      },
+      {
+        name: "Add face and stamp",
+        text: "Draw two simple eyes, a small smile, and a tiny coral heart stamp in the upper corner.",
+        tip: "Keep the stamp small. It should be a cute accent, not a second main subject."
+      },
+      {
+        name: "Set the sticker shadow",
+        text: "Add a gray offset shadow behind the lower and right edges of the envelope.",
+        tip: "Follow the same rounded rectangle shape so the shadow feels attached to the sticker."
+      },
+      {
+        name: "Fill the happy mail",
+        text: "Fill the envelope with warm yellow marker and add small white shine marks on the existing envelope and stamp shapes.",
+        tip: "Color around the eyes and smile carefully so the expression stays crisp."
+      },
+      {
+        name: "Seal the sticker finish",
+        text: "Retrace the existing outline, even the marker fill, and clarify the face, flap, heart stamp, shadow, and shine marks already in place.",
+        tip: "Skip extra letters or postage marks. The simple face and heart stamp are enough to carry the doodle.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "comic-camera-flash-doodle",
-    day: "013",
+    day: "014",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "012",
+    day: "013",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "011",
+    day: "012",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "010",
+    day: "011",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "009",
+    day: "010",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "008",
+    day: "009",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "007",
+    day: "008",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "006",
+    day: "007",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "003",
+    day: "004",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "001",
+    day: "002",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "002",
+    day: "003",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "004",
+    day: "005",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "005",
+    day: "006",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

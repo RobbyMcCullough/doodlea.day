@@ -1,0 +1,136 @@
+{
+  "slug": "comic-chat-bubble-doodle",
+  "finished": "assets/comic-chat-bubble-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster marker contact sheet generated for the June 30, 2026 comic chat bubble lesson.",
+    "notes": "The contact sheet must show the same bubble, face, heart, color plan, and marker texture through all panels."
+  },
+  "process_strategy": "The sequence establishes every bubble, face, accent, and color area before the final panel only reinforces marker edges and small highlights.",
+  "final_elements": [
+    {
+      "name": "rounded chat bubble",
+      "introduced_by_step": 1,
+      "description": "A rounded speech bubble shape with a small tail."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 2,
+      "description": "A bold marker outline around the bubble and tail."
+    },
+    {
+      "name": "cute face",
+      "introduced_by_step": 3,
+      "description": "Two eyes and a small smiling mouth inside the bubble."
+    },
+    {
+      "name": "notification badge",
+      "introduced_by_step": 1,
+      "description": "A small circular badge attached to the upper corner."
+    },
+    {
+      "name": "notification heart",
+      "introduced_by_step": 3,
+      "description": "A small heart inside the already placed badge."
+    },
+    {
+      "name": "drop shadow",
+      "introduced_by_step": 4,
+      "description": "A simple offset shadow below and beside the bubble."
+    },
+    {
+      "name": "teal and pink marker fills",
+      "introduced_by_step": 5,
+      "description": "Bright teal bubble fill with pink heart fill and visible marker streaks."
+    },
+    {
+      "name": "tiny shine marks",
+      "introduced_by_step": 5,
+      "description": "Small highlights on existing filled shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-chat-bubble-doodle-step-1.jpg",
+      "step_name": "Round the bubble",
+      "visible_job": "Places the rounded chat bubble and its tail.",
+      "introduces": [
+        "rounded chat bubble",
+        "notification badge"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-chat-bubble-doodle-step-2.jpg",
+      "step_name": "Ink the bubble edge",
+      "visible_job": "Thickens the existing bubble and tail outline with bold marker.",
+      "introduces": [
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "rounded chat bubble",
+        "notification badge"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-chat-bubble-doodle-step-3.jpg",
+      "step_name": "Add face and heart",
+      "visible_job": "Adds the cute face and small notification heart.",
+      "introduces": [
+        "cute face",
+        "notification heart"
+      ],
+      "requires_prior_elements": [
+        "notification badge"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-chat-bubble-doodle-step-4.jpg",
+      "step_name": "Drop in the shadow",
+      "visible_job": "Adds the simple offset shadow under the existing bubble.",
+      "introduces": [
+        "drop shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded chat bubble"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-chat-bubble-doodle-step-5.jpg",
+      "step_name": "Fill the message colors",
+      "visible_job": "Fills the existing bubble and heart with teal and pink marker and adds tiny shine marks.",
+      "introduces": [
+        "teal and pink marker fills",
+        "tiny shine marks"
+      ],
+      "requires_prior_elements": [
+        "rounded chat bubble",
+        "notification badge",
+        "notification heart",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Send the final pop",
+    "asset": "assets/comic-chat-bubble-doodle-finished-v1.jpg",
+    "visible_job": "Retraces existing black outlines, evens marker fills, and clarifies the already placed face, heart, shadow, and shine marks.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill deepening",
+      "face clarification",
+      "heart edge cleanup",
+      "small highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No bubble tail, face, heart, shadow, color area, or highlight should first appear in the final image.",
+    "No frame may ink or color a shape that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same bubble pose, scale, and placement as the step frames."
+  ]
+}

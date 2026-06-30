@@ -1,0 +1,132 @@
+{
+  "slug": "smiling-envelope-sticker",
+  "finished": "assets/smiling-envelope-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster marker contact sheet generated for an honest backdated June 16, 2026 envelope sticker lesson.",
+    "notes": "The contact sheet must keep one envelope sticker design and visible marker texture across the sequence."
+  },
+  "process_strategy": "The sequence builds the envelope, flap, face, stamp, shadow, and color areas before the final panel only strengthens existing marker work.",
+  "final_elements": [
+    {
+      "name": "rounded envelope body",
+      "introduced_by_step": 1,
+      "description": "A wide rounded envelope sticker body."
+    },
+    {
+      "name": "folded flap lines",
+      "introduced_by_step": 2,
+      "description": "Diagonal flap lines and a central flap point on the envelope."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 2,
+      "description": "A bold marker outline around the envelope body."
+    },
+    {
+      "name": "cute face",
+      "introduced_by_step": 3,
+      "description": "Two small eyes and a friendly smile on the envelope."
+    },
+    {
+      "name": "tiny stamp heart",
+      "introduced_by_step": 3,
+      "description": "A small coral heart stamp in the upper corner."
+    },
+    {
+      "name": "sticker shadow",
+      "introduced_by_step": 4,
+      "description": "A simple offset shadow that makes the envelope feel like a sticker."
+    },
+    {
+      "name": "yellow and coral marker fills",
+      "introduced_by_step": 5,
+      "description": "Warm yellow envelope fill with visible marker strokes."
+    },
+    {
+      "name": "tiny shine marks",
+      "introduced_by_step": 5,
+      "description": "Small highlights on existing envelope and stamp shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/smiling-envelope-sticker-step-1.jpg",
+      "step_name": "Block the envelope",
+      "visible_job": "Draws the wide rounded rectangle that becomes the envelope sticker body.",
+      "introduces": [
+        "rounded envelope body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/smiling-envelope-sticker-step-2.jpg",
+      "step_name": "Fold the flap",
+      "visible_job": "Adds diagonal flap lines and thickens the existing envelope outline.",
+      "introduces": [
+        "folded flap lines",
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "rounded envelope body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/smiling-envelope-sticker-step-3.jpg",
+      "step_name": "Add face and stamp",
+      "visible_job": "Adds the cute face and tiny heart stamp.",
+      "introduces": [
+        "cute face",
+        "tiny stamp heart"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/smiling-envelope-sticker-step-4.jpg",
+      "step_name": "Set the sticker shadow",
+      "visible_job": "Adds a simple offset sticker shadow beneath the existing envelope.",
+      "introduces": [
+        "sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded envelope body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/smiling-envelope-sticker-step-5.jpg",
+      "step_name": "Fill the happy mail",
+      "visible_job": "Colors existing envelope and stamp shapes and adds tiny shine marks.",
+      "introduces": [
+        "yellow and coral marker fills",
+        "tiny shine marks"
+      ],
+      "requires_prior_elements": [
+        "rounded envelope body",
+        "folded flap lines",
+        "tiny stamp heart",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Seal the sticker finish",
+    "asset": "assets/smiling-envelope-sticker-finished-v1.jpg",
+    "visible_job": "Retraces the existing outline, evens marker fills, and clarifies the face, stamp, shadow, and highlights already introduced.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill deepening",
+      "face clarification",
+      "stamp edge cleanup",
+      "small highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No envelope flap, face, stamp, shadow, color area, or highlight should first appear in the final image.",
+    "No frame may ink or color a shape that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same envelope pose, scale, and placement as the step frames."
+  ]
+}
