@@ -20,6 +20,12 @@ already told the reader to thicken the full outline.
   lettering forms, and bold abstract shapes.
 - Use thick black marker outlines and saturated marker fills.
 - Keep the process fast: usually 10-20 minutes and 5-7 steps.
+- Treat each tutorial as a suggested path, not a fixed design. Doodlea should
+  encourage playful changes to faces, colors, patterns, accents, expressions,
+  and small props when those changes keep the drawing clear and teachable.
+- Include creative-permission language naturally in some lesson intros, tips, or
+  closing steps. The tone should say "try it this way, then make it yours"
+  without weakening the step-by-step instruction.
 - Let marker streaks and imperfect outlines show. Avoid glossy vector-perfect
   symmetry, airbrush gradients, photorealism, and quiet pencil-sketch finishes.
 - Use color as part of the lesson, not as a decorative final-only surprise.

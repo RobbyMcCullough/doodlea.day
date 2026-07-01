@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-30
+- Date: 2026-07-01
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -115,6 +115,18 @@
   `/tmp/watermelon-wedge-doodle-steps.jpg`, and captured Cove browser QA
   screenshots at `/tmp/doodlea-*-rerun.png` plus
   `/tmp/doodlea-home-desktop-headline-fixed.png`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added creative-permission guidance to `DAILY-PUBLISHING.md` so future
+  Doodlea lessons frame the steps as a suggested path and encourage playful
+  personal choices.
+- Sprinkled that tone into five existing lessons:
+  `cartoon-asteroid-doodle`, `comic-chat-bubble-doodle`,
+  `smiling-envelope-sticker`, `smiling-pizza-slice-doodle`, and
+  `goofy-monster-face`.
+- July 1 copy QA used `python3 scripts/check-tutorial-readiness.py {slug}
+  --base-url http://localhost:4174/` for those five slugs after Cove was
+  unreachable; all passed, and `git diff --check` passed.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
 - Heading-fit follow-up on June 27, 2026: tutorial hero headings now render

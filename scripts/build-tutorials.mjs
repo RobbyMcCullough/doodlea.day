@@ -27,7 +27,7 @@ const lessons = [
     shortSubject: "an asteroid doodle",
     lessonTitle: "Let's doodle a cartoon asteroid",
     description: "Learn how to draw a cartoon asteroid doodle with a lumpy rock body, flame trail, crater spots, cute face, star puffs, thick black outline, and bright marker fills.",
-    intro: "Build one lumpy space rock, trail it with comic flames, then add craters, a happy face, and bold marker color.",
+    intro: "Build one lumpy space rock, trail it with comic flames, then add craters, a happy face, and bold marker color. The exact face, crater count, and flame shape are yours to play with.",
     time: 15,
     difficulty: "Easy",
     accent: "#f28b24",
@@ -55,7 +55,7 @@ const lessons = [
       {
         name: "Add craters and a face",
         text: "Draw three crater spots, two eyes, a smiling mouth, and a few small star puffs around the asteroid.",
-        tip: "Place the face on the front half of the rock so the flame still reads as the tail."
+        tip: "Place the face on the front half of the rock so the flame still reads as the tail. Try a grin, wink, or surprised mouth if you want a different personality."
       },
       {
         name: "Fill the space colors",
@@ -80,7 +80,7 @@ const lessons = [
     shortSubject: "a chat bubble doodle",
     lessonTitle: "Let's doodle a comic chat bubble",
     description: "Learn how to draw a comic chat bubble doodle with a rounded bubble, tail, notification heart, cute face, drop shadow, thick black outline, and teal marker fill.",
-    intro: "Turn one rounded speech bubble into a bright marker sticker with a friendly face, tiny heart badge, chunky outline, and comic-style shadow.",
+    intro: "Turn one rounded speech bubble into a bright marker sticker with a friendly face, tiny badge, chunky outline, and comic-style shadow. Use the heart idea, or swap in a star, dot, or lightning mark.",
     time: 15,
     difficulty: "Easy",
     accent: "#12aeb1",
@@ -118,7 +118,7 @@ const lessons = [
       {
         name: "Send the final pop",
         text: "Retrace the existing outline, smooth the teal and pink fills, and sharpen the face, heart, shadow, and shine marks already on the page.",
-        tip: "Do not add extra icons at the end. This pass should make the message bolder, not busier.",
+        tip: "Do not add extra icons at the end. If you want a different badge symbol, choose it earlier and then make that version bolder here.",
         image: true
       }
     ]
@@ -133,7 +133,7 @@ const lessons = [
     shortSubject: "an envelope sticker",
     lessonTitle: "Let's doodle a smiling envelope sticker",
     description: "Learn how to draw a smiling envelope sticker with rounded corners, folded flap lines, cute face, heart stamp, gray shadow, thick black outline, and yellow marker fill.",
-    intro: "Start with one rounded rectangle, fold it into an envelope, then add a friendly face, heart stamp, sticker shadow, and warm marker color.",
+    intro: "Start with one rounded rectangle, fold it into an envelope, then add a friendly face, stamp, sticker shadow, and warm marker color. The stamp and expression can change to fit your doodle.",
     time: 15,
     difficulty: "Easy",
     accent: "#f3b63c",
@@ -171,7 +171,7 @@ const lessons = [
       {
         name: "Seal the sticker finish",
         text: "Retrace the existing outline, even the marker fill, and clarify the face, flap, heart stamp, shadow, and shine marks already in place.",
-        tip: "Skip extra letters or postage marks. The simple face and heart stamp are enough to carry the doodle.",
+        tip: "Skip extra letters or postage marks. A simple face plus one small stamp shape is enough, whether yours is a heart, star, dot, or tiny flower.",
         image: true
       }
     ]
@@ -398,7 +398,7 @@ const lessons = [
     shortSubject: "a smiling pizza slice",
     lessonTitle: "Let's doodle a pizza slice",
     description: "Learn how to draw a smiling pizza slice doodle with a bold black marker outline, puffy crust, cute face, pepperoni circles, cheese stretch, and bright marker fills.",
-    intro: "Turn one simple triangle into a cheerful marker doodle with thick outlines, saturated color, and a face that stays easy to draw.",
+    intro: "Turn one simple triangle into a cheerful marker doodle with thick outlines, saturated color, and a face that stays easy to draw. Toppings are a chance to make the slice your own.",
     time: 15,
     difficulty: "Easy",
     accent: "#f6b72f",
@@ -436,7 +436,7 @@ const lessons = [
       {
         name: "Crisp the slice edges",
         text: "Retrace the crust, drip, face, and pepperoni edges, then deepen the yellow, orange, and red marker fills you already placed.",
-        tip: "Skip extra toppings here. This step should make the pizza look warmer and cleaner, not change the recipe.",
+        tip: "Skip brand-new toppings in the final pass. Choose your pepperoni, mushroom, or veggie shapes earlier, then use this step to make that recipe warmer and cleaner.",
         image: true
       }
     ]
@@ -610,7 +610,7 @@ const lessons = [
     shortSubject: "a goofy monster face",
     lessonTitle: "Let's doodle a goofy monster face",
     description: "Learn how to draw a goofy monster face with a round head, little horns, uneven eyes, toothy grin, cheek spots, thick black outline, and bright marker fills.",
-    intro: "Start with one friendly blob shape, then add horns, mismatched eyes, and a big toothy grin before the marker color goes in.",
+    intro: "Start with one friendly blob shape, then add horns, mismatched eyes, and a big toothy grin before the marker color goes in. Monster faces are especially good for playful detours.",
     time: 15,
     difficulty: "Easy",
     accent: "#76c943",
@@ -648,7 +648,7 @@ const lessons = [
       {
         name: "Wake up the expression",
         text: "Thicken the head, horn, eye, and grin lines, deepen the green and purple fills, and add tiny highlights to the eyes and teeth.",
-        tip: "Do not add a body or background. The lesson is a face doodle, so keep the finish focused.",
+        tip: "Do not add a body or background in the final pass. Change the horns, teeth, or colors if you like, but keep the finish focused on the face.",
         image: true
       }
     ]
