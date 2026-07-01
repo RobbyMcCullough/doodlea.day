@@ -29,6 +29,21 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-01 daily automation found the requested Doodlea current/backfill pair
+  already present on `main` and matching `origin/main`: `whoopee-cushion-sticker`
+  as July 1, 2026 / Day 018 and `cartoon-party-balloon-doodle` as June 14,
+  2026 / Day 001. The run validated those lessons and did not add a duplicate
+  whoopee or extra backfill subject.
+- July 1 Doodlea QA used `python3 scripts/check-tutorial-readiness.py
+  whoopee-cushion-sticker` and `python3 scripts/check-tutorial-readiness.py
+  cartoon-party-balloon-doodle`, reviewed the saved contact sheets under
+  `drafts/`, and captured Cove desktop/mobile screenshots under
+  `/tmp/doodlea-july1-*`.
+- Finished image ratings: whoopee cushion sticker 8.8/10 for bold marker
+  readability and strong joke-day fit; cartoon party balloon doodle 8.7/10 for
+  clear shapes, bright color, and a simple teachable sequence.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Doodlea.day is a local sibling to Sketcha.day with the same generated-page
   structure and visual system.
 - The difference is lesson medium and subject direction: Doodlea.day should focus
