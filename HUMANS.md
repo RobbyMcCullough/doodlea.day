@@ -117,6 +117,18 @@
   `/tmp/doodlea-home-desktop-headline-fixed.png`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Added the whoopee cushion sticker as the July 1, 2026 / Day 018 marker
+  tutorial and the cartoon party balloon doodle as the June 14, 2026 / Day 001
+  honest backdated archive tutorial. Finished image ratings: whoopee cushion
+  8.9/10, party balloons 8.7/10.
+- July 1 QA used `python3 scripts/check-tutorial-readiness.py
+  whoopee-cushion-sticker` and `python3 scripts/check-tutorial-readiness.py
+  cartoon-party-balloon-doodle`, reviewed step sheets at
+  `/tmp/whoopee-cushion-sticker-steps.jpg` and
+  `/tmp/cartoon-party-balloon-doodle-steps.jpg`, and saved Cove browser
+  desktop/mobile screenshots under `/tmp/daily-sketch-doodle-qa-2026-07-01/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Added creative-permission guidance to `DAILY-PUBLISHING.md` so future
   Doodlea lessons frame the steps as a suggested path and encourage playful
   personal choices.

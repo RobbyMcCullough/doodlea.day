@@ -1,0 +1,139 @@
+{
+  "slug": "whoopee-cushion-sticker",
+  "finished": "assets/whoopee-cushion-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster marker contact sheet generated for the July 1, 2026 whoopee cushion sticker lesson.",
+    "notes": "The contact sheet must keep one cushion pose, nozzle direction, face placement, and marker texture from construction through the finished doodle."
+  },
+  "process_strategy": "The sequence establishes the cushion body, nozzle, puff lines, face, sticker shadow, marker fill, and highlights before the final panel only reinforces existing ink, color, and shine marks.",
+  "final_elements": [
+    {
+      "name": "squashed cushion body",
+      "introduced_by_step": 1,
+      "description": "A rounded flattened cushion shape with a pinched center."
+    },
+    {
+      "name": "small side nozzle",
+      "introduced_by_step": 2,
+      "description": "A short nozzle sticking from one side of the cushion."
+    },
+    {
+      "name": "comic puff lines",
+      "introduced_by_step": 2,
+      "description": "A few curved puff marks near the nozzle."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 3,
+      "description": "A bold marker outline around the cushion body, nozzle, and puff marks."
+    },
+    {
+      "name": "goofy face",
+      "introduced_by_step": 4,
+      "description": "Two eyes and a silly smiling mouth on the cushion."
+    },
+    {
+      "name": "sticker shadow",
+      "introduced_by_step": 4,
+      "description": "A small offset shadow under the cushion."
+    },
+    {
+      "name": "red cushion fill",
+      "introduced_by_step": 5,
+      "description": "Bright red marker fill inside the already outlined cushion body and nozzle."
+    },
+    {
+      "name": "small white highlights",
+      "introduced_by_step": 5,
+      "description": "Tiny shine marks on the existing cushion body and eyes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/whoopee-cushion-sticker-step-1.jpg",
+      "step_name": "Squash the cushion",
+      "visible_job": "Places the rounded flattened cushion body and light center pinch guide.",
+      "introduces": [
+        "squashed cushion body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/whoopee-cushion-sticker-step-2.jpg",
+      "step_name": "Point the nozzle",
+      "visible_job": "Adds the side nozzle and curved comic puff lines near the already placed cushion.",
+      "introduces": [
+        "small side nozzle",
+        "comic puff lines"
+      ],
+      "requires_prior_elements": [
+        "squashed cushion body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/whoopee-cushion-sticker-step-3.jpg",
+      "step_name": "Ink the prank shape",
+      "visible_job": "Darkens only the existing cushion, nozzle, and puff edges into a thick marker outline.",
+      "introduces": [
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "squashed cushion body",
+        "small side nozzle",
+        "comic puff lines"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/whoopee-cushion-sticker-step-4.jpg",
+      "step_name": "Add the goofy face",
+      "visible_job": "Adds the goofy face and a small offset sticker shadow under the already outlined cushion.",
+      "introduces": [
+        "goofy face",
+        "sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "squashed cushion body",
+        "thick black outline"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/whoopee-cushion-sticker-step-5.jpg",
+      "step_name": "Fill the cushion red",
+      "visible_job": "Fills the established cushion and nozzle with red marker and adds tiny highlights on existing shapes.",
+      "introduces": [
+        "red cushion fill",
+        "small white highlights"
+      ],
+      "requires_prior_elements": [
+        "squashed cushion body",
+        "small side nozzle",
+        "goofy face",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Land the prank finish",
+    "asset": "assets/whoopee-cushion-sticker-finished-v1.jpg",
+    "visible_job": "Retraces existing outlines, deepens marker fills, and sharpens the face, puff marks, shadow, and highlights already on the page.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill deepening",
+      "face cleanup",
+      "puff mark clarification",
+      "shadow strengthening",
+      "small highlight sharpening"
+    ]
+  },
+  "rejection_checks": [
+    "No cushion, nozzle, puff mark, face, shadow, color fill, or highlight should first appear in the final image.",
+    "No frame may thicken, fill, or clean a shape that was not already visible.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same cushion pose, scale, and placement as the step frames."
+  ]
+}

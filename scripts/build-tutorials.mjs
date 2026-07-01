@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "whoopee-cushion-sticker",
+    day: "018",
+    date: "Wednesday, July 1",
+    isoDate: "2026-07-01",
+    subject: "a whoopee cushion sticker",
+    headlineSubject: "a whoopee<br>cushion sticker",
+    shortSubject: "a whoopee cushion",
+    lessonTitle: "Let's doodle a whoopee cushion sticker",
+    description: "Learn how to draw a whoopee cushion sticker with a squashed cushion body, side nozzle, comic puff lines, goofy face, sticker shadow, thick black outline, red marker fill, and white highlights.",
+    intro: "Build one squashed cushion, point the nozzle, add puff lines and a goofy face, then finish it with bold red marker. Keep the joke visual and text-free so the shape does the work.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e63832",
+    finished: "whoopee-cushion-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a red whoopee cushion sticker with side nozzle, comic puff lines, goofy face, gray sticker shadow, thick black outline, white highlights, and marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, red for the cushion, gray for the shadow, and the gel pen only for small shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Squash the cushion",
+        text: "Draw a rounded flattened cushion body, then mark a light pinched center guide.",
+        tip: "Make the cushion wider than it is tall. The squashed shape is what makes the doodle read quickly."
+      },
+      {
+        name: "Point the nozzle",
+        text: "Add a short nozzle sticking from one side, then draw a few curved puff lines near the opening.",
+        tip: "Keep the puff marks simple and text-free. The little cloud shape should say enough."
+      },
+      {
+        name: "Ink the prank shape",
+        text: "Trace the cushion, nozzle, and puff marks with a thick black marker outline.",
+        tip: "Ink the existing shapes only. The outline should make the cushion bolder, not change its pose."
+      },
+      {
+        name: "Add the goofy face",
+        text: "Draw two wide eyes, a silly smiling mouth, and a small offset shadow under the cushion.",
+        tip: "Let the eyes be a little uneven. A goofy sticker works better when it is not too polished."
+      },
+      {
+        name: "Fill the cushion red",
+        text: "Color the cushion and nozzle red, deepen the mouth, and leave a few small highlight gaps.",
+        tip: "Use short marker strokes that follow the cushion curve so the fill keeps a handmade texture."
+      },
+      {
+        name: "Land the prank finish",
+        text: "Retrace the existing outlines, deepen the red fill, and sharpen the face, puff marks, shadow, and highlights already on the page.",
+        tip: "Stop before adding extra symbols. The cushion, face, and puff marks are enough for the joke.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-party-balloon-doodle",
+    day: "001",
+    date: "Sunday, June 14",
+    isoDate: "2026-06-14",
+    subject: "a cartoon party balloon doodle",
+    headlineSubject: "a cartoon party<br>balloon doodle",
+    shortSubject: "a balloon doodle",
+    lessonTitle: "Let's doodle cartoon party balloons",
+    description: "Learn how to draw a cartoon party balloon doodle with a three-balloon cluster, knots, strings, happy face, confetti marks, thick black outline, bright marker fills, and white highlights.",
+    intro: "Float three simple balloons, tie the strings, add a happy face and confetti, then finish with bold marker color. Change the face or colors if you want the bunch to fit a different celebration.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e94f8b",
+    finished: "cartoon-party-balloon-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of three cartoon party balloons with pink, teal, and yellow fills, happy face, curved strings, confetti marks, thick black outline, white highlights, and marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, pink, teal, and yellow for the balloons, and the gel pen only for the brightest shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Float the balloons",
+        text: "Draw one large round balloon in the middle, then tuck two smaller balloons behind it on the sides.",
+        tip: "Overlap the side balloons a little. The cluster looks more like a bunch when the circles touch."
+      },
+      {
+        name: "Tie the strings",
+        text: "Add small knot shapes under each balloon and pull curved strings down from the knots.",
+        tip: "Let the strings wiggle instead of hanging perfectly straight. That keeps the doodle lively."
+      },
+      {
+        name: "Ink the bunch",
+        text: "Trace the balloon edges, knots, and strings with a thick black marker outline.",
+        tip: "Ink only the shapes you already drew. This step should make the bunch bolder, not redesign it."
+      },
+      {
+        name: "Add party faces",
+        text: "Put a happy face on the main balloon, then scatter a few simple dots and dash-shaped confetti marks around the bunch.",
+        tip: "Keep the confetti outside the balloons so the big colored shapes stay easy to read."
+      },
+      {
+        name: "Color the bunch",
+        text: "Fill the balloons with bright marker color and leave small highlight gaps on the rounded sides.",
+        tip: "Use different colors for the side balloons. The contrast helps the overlap stay clear."
+      },
+      {
+        name: "Pop the party finish",
+        text: "Retrace the existing outlines, deepen the balloon fills, and sharpen the face, strings, confetti, and highlights already on the page.",
+        tip: "A few confetti marks are enough. The balloons should still be the star of the doodle.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-asteroid-doodle",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "001",
+    day: "002",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "015",
+    day: "016",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "014",
+    day: "015",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "013",
+    day: "014",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "012",
+    day: "013",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "011",
+    day: "012",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "008",
+    day: "009",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "005",
+    day: "006",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "004",
+    day: "005",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "006",
+    day: "007",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "007",
+    day: "008",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

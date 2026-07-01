@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a whoopee cushion sticker</title>
+      <link>https://doodlea.day/tutorials/whoopee-cushion-sticker.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/whoopee-cushion-sticker.html</guid>
+      <pubDate>Wed, 01 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a whoopee cushion sticker with a squashed cushion body, side nozzle, comic puff lines, goofy face, sticker shadow, thick black outline, red marker fill, and white highlights.</description>
+      <media:content url="https://doodlea.day/assets/whoopee-cushion-sticker-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon asteroid doodle</title>
       <link>https://doodlea.day/tutorials/cartoon-asteroid-doodle.html</link>
@@ -134,6 +142,14 @@
       <pubDate>Mon, 15 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a comic chat bubble doodle with a rounded bubble, tail, notification heart, cute face, drop shadow, thick black outline, and teal marker fill.</description>
       <media:content url="https://doodlea.day/assets/comic-chat-bubble-doodle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon party balloon doodle</title>
+      <link>https://doodlea.day/tutorials/cartoon-party-balloon-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-party-balloon-doodle.html</guid>
+      <pubDate>Sun, 14 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon party balloon doodle with a three-balloon cluster, knots, strings, happy face, confetti marks, thick black outline, bright marker fills, and white highlights.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-party-balloon-doodle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
