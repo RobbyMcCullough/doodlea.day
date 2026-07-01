@@ -54,6 +54,16 @@
   clear shapes, bright color, and a simple teachable sequence.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- July 1, 2026 follow-up: added `scripts/check-daily-publish-slots.py` and
+  updated `AGENTS.md`/`DAILY-PUBLISHING.md` so the daily automation stops before
+  choosing subjects or generating art when the current publish date is already
+  occupied. Intentional corrections must pass the exact
+  `--allow-existing-current-slug` or `--allow-existing-backfill-slug` gate.
+- Doodlea's daily publishing contract now also requires face-bearing lessons to
+  vary expression details across recent doodles, avoiding repeated two-dot eyes
+  plus a small U-smile unless there is a clear reason.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Doodlea.day is a local sibling to Sketcha.day with the same generated-page
   structure and visual system.
 - The difference is lesson medium and subject direction: Doodlea.day should focus

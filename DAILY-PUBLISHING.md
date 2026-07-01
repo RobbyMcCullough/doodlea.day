@@ -41,6 +41,13 @@ already told the reader to thicken the full outline.
   Make the final step feel like it belongs to that doodle: a firework can
   sparkle, a trophy can polish, a robot can bolt down, and a monster can wake up
   its expression.
+- Vary character faces aggressively across recent lessons. Before accepting a
+  new face-bearing doodle, compare it against the last several face-bearing
+  lessons and change at least two visible expression features: eye shape, eye
+  size, eye spacing, pupil direction, eyebrows, cheek marks, mouth shape, teeth,
+  tongue, wink, asymmetry, or head tilt. Avoid repeatedly using the same two-dot
+  eyes plus small U-smile, especially on sticker-like objects such as chat
+  bubbles, controllers, envelopes, cameras, clouds, and food.
 
 ## Routine
 
@@ -50,37 +57,53 @@ already told the reader to thicken the full outline.
    current daily tutorial and one backdated tutorial in the same run. Keep
    backdated lessons honest in public copy: no invented traffic, comments,
    popularity, or fake community activity.
-2. Do a quick source check for timely hooks before choosing the subject:
+2. Before choosing subjects or making art, run the duplicate-slot guard:
+
+```sh
+python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
+```
+
+   If the current date is already occupied, stop. Do not validate, replace, or
+   add another same-day pair unless the owner explicitly asked for a correction.
+   For a correction, rerun the guard with the matching
+   `--allow-existing-current-slug` or `--allow-existing-backfill-slug` flag and
+   keep the work scoped to that existing slug.
+3. Do a quick source check for timely hooks before choosing the subject:
    current news, major sports, holidays, seasons, cultural moments, and daily
    observances. Use a timely idea only when it naturally fits Doodlea.day's bold
    marker style, can be taught as an attainable doodle, and does not duplicate
    the sister Sketcha.day subject for the same run. Do not force a weak trend.
-3. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
+4. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
    flames", "how to draw a comic speech bubble", or "how to draw a goofy monster
    face."
-4. Back-check existing Doodlea.day lessons and avoid repeating shape/category
+5. Back-check existing Doodlea.day lessons and avoid repeating shape/category
    problems too closely.
-5. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
+6. For face-bearing lessons, write the planned face variation into the prompt,
+   lesson copy, and process plan. If the nearby archive already uses small dot
+   eyes and a U-smile, pick a visibly different expression such as a wink,
+   tongue-out grin, toothy smile, side-eye, raised brows, mismatched eyes, or
+   cheeky smirk.
+7. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`.
-6. Generate one raster process contact sheet first. No labels, arrows, numbers,
+8. Generate one raster process contact sheet first. No labels, arrows, numbers,
    signatures, watermarks, or fake UI.
-7. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
+9. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
    use the final panel as the finished image.
-8. Rate the saved finished image. It must be at least 8/10 for readability,
+10. Rate the saved finished image. It must be at least 8/10 for readability,
    character, marker quality, tutorial fit, composition, and difficulty balance.
-9. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
+11. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
 
 ```sh
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-10. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
+12. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
-11. Rate the rendered homepage and tutorial page layout at desktop and mobile
+13. Rate the rendered homepage and tutorial page layout at desktop and mobile
    widths. It must score at least 8/10 before publishing.
-12. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
+14. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
    connected, routine daily Doodlea.day lessons may push after all quality gates
    pass.
 
@@ -116,4 +139,6 @@ introduces a shape that was not visible earlier, the final introduces major
 elements, the saved final scores below 8/10, generated images do not load,
 JSON-LD is invalid, `lab.html` loses `noindex,nofollow`, the rendered layout
 scores below 8/10, a headline breaks after a single character, the marker
-underline misses its target word, or validation fails.
+underline misses its target word, the duplicate-slot guard fails, a new face
+repeats a recent default two-dot/U-smile expression without a clear reason, or
+validation fails.

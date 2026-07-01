@@ -53,10 +53,22 @@ For daily doodle work, read these files in order:
 3. `DAILY-PUBLISHING.md`
 4. `PROCESS-IMAGE-WORKFLOW.md`
 
-Then create one marker-based doodle lesson, rebuild, run readiness checks, QA
-homepage/library/tutorial pages, and commit when the quality gates pass. Once
-the GitHub/Cloudflare deployment path is connected, normal daily Doodlea.day
-lessons may push after QA under the same standard as Sketcha.day.
+Before choosing subjects or creating art, run the duplicate-slot guard:
+
+```sh
+python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
+```
+
+If the current date is already occupied, stop instead of creating or validating
+another daily pair. For an explicit correction to an existing lesson, rerun the
+guard with the matching `--allow-existing-current-slug` or
+`--allow-existing-backfill-slug` flag and keep the correction scoped to that
+slug.
+
+Then create the planned marker-based doodle lessons, rebuild, run readiness
+checks, QA homepage/library/tutorial pages, and commit when the quality gates
+pass. Once the GitHub/Cloudflare deployment path is connected, normal daily
+Doodlea.day lessons may push after QA under the same standard as Sketcha.day.
 
 ## Conventions
 
