@@ -1033,7 +1033,7 @@ ${plausibleTag}
       <a href="../">Today's doodle</a>
       <a href="../library.html">Doodle library</a>
       <a href="../about.html">About</a>
-      <a href="https://sketcha.day/">Sketcha.day</a>
+      <a href="https://sketcha.day/">sketcha.day</a>
       <a class="nav-button" href="#lesson">Start doodling</a>
     </nav>
   </header>
@@ -1166,7 +1166,7 @@ ${plausibleTag}
       <a href="/">Today's doodle</a>
       <a href="library.html">Doodle library</a>
       <a href="about.html" aria-current="page">About</a>
-      <a href="https://sketcha.day/">Sketcha.day</a>
+      <a href="https://sketcha.day/">sketcha.day</a>
       <a class="nav-button" href="/#lesson">Start doodling</a>
     </nav>
   </header>
@@ -1332,7 +1332,7 @@ ${plausibleTag}
       <a href="/">Today's doodle</a>
       <a href="library.html" aria-current="page">Doodle library</a>
       <a href="about.html">About</a>
-      <a href="https://sketcha.day/">Sketcha.day</a>
+      <a href="https://sketcha.day/">sketcha.day</a>
       <a class="nav-button" href="/#lesson">Start doodling</a>
     </nav>
   </header>
