@@ -4,49 +4,54 @@
   "source": {
     "type": "generated-raster-contact-sheet",
     "description": "Six-panel raster marker contact sheet generated for the July 1, 2026 whoopee cushion sticker lesson.",
-    "notes": "The contact sheet must keep one cushion pose, nozzle direction, face placement, and marker texture from construction through the finished doodle."
+    "notes": "Replaced the earlier pinched-center sheet with the tongue-out, multiple-puff variation preferred by the owner."
   },
-  "process_strategy": "The sequence establishes the cushion body, nozzle, puff lines, face, sticker shadow, marker fill, and highlights before the final panel only reinforces existing ink, color, and shine marks.",
+  "process_strategy": "The sequence establishes the cushion body and nozzle first, adds the outline, then adds the face, tongue, folds, puff clouds, color, and highlights before the final panel only reinforces existing ink, color, and shine marks.",
   "final_elements": [
     {
-      "name": "squashed cushion body",
+      "name": "round cushion body",
       "introduced_by_step": 1,
-      "description": "A rounded flattened cushion shape with a pinched center."
+      "description": "A flattened round cushion body tilted slightly on the page."
     },
     {
-      "name": "small side nozzle",
-      "introduced_by_step": 2,
-      "description": "A short nozzle sticking from one side of the cushion."
+      "name": "pinched nozzle",
+      "introduced_by_step": 1,
+      "description": "A small pinched nozzle extending from one side of the cushion."
     },
     {
-      "name": "comic puff lines",
+      "name": "squashed cushion contour",
       "introduced_by_step": 2,
-      "description": "A few curved puff marks near the nozzle."
+      "description": "A lumpy, squashed outside edge that makes the cushion look soft."
     },
     {
       "name": "thick black outline",
       "introduced_by_step": 3,
-      "description": "A bold marker outline around the cushion body, nozzle, and puff marks."
+      "description": "A bold marker outline around the cushion body and nozzle."
     },
     {
-      "name": "goofy face",
+      "name": "wrinkle folds",
       "introduced_by_step": 4,
-      "description": "Two eyes and a silly smiling mouth on the cushion."
+      "description": "Short curved fold lines on the cushion surface."
     },
     {
-      "name": "sticker shadow",
+      "name": "tongue-out goofy face",
       "introduced_by_step": 4,
-      "description": "A small offset shadow under the cushion."
+      "description": "Two wide eyes, a big open smile, and a tongue on the cushion body."
     },
     {
-      "name": "red cushion fill",
-      "introduced_by_step": 5,
-      "description": "Bright red marker fill inside the already outlined cushion body and nozzle."
+      "name": "multiple puff clouds",
+      "introduced_by_step": 4,
+      "description": "Two small comic puff clouds coming from the nozzle."
     },
     {
-      "name": "small white highlights",
+      "name": "red marker fill",
       "introduced_by_step": 5,
-      "description": "Tiny shine marks on the existing cushion body and eyes."
+      "description": "Bright red marker fill inside the already drawn cushion and nozzle."
+    },
+    {
+      "name": "pink shadow and white highlights",
+      "introduced_by_step": 5,
+      "description": "Pink shadow accents and small shine marks on existing cushion, tongue, and puff shapes."
     }
   ],
   "frames": [
@@ -54,49 +59,51 @@
       "step": 1,
       "asset": "assets/whoopee-cushion-sticker-step-1.jpg",
       "step_name": "Squash the cushion",
-      "visible_job": "Places the rounded flattened cushion body and light center pinch guide.",
+      "visible_job": "Places the flattened round cushion guide and pinched nozzle guide without requiring a permanent center pinch mark.",
       "introduces": [
-        "squashed cushion body"
+        "round cushion body",
+        "pinched nozzle"
       ]
     },
     {
       "step": 2,
       "asset": "assets/whoopee-cushion-sticker-step-2.jpg",
-      "step_name": "Point the nozzle",
-      "visible_job": "Adds the side nozzle and curved comic puff lines near the already placed cushion.",
+      "step_name": "Bump the soft edge",
+      "visible_job": "Turns the guide into a lumpy squashed cushion contour and clearer open nozzle.",
       "introduces": [
-        "small side nozzle",
-        "comic puff lines"
+        "squashed cushion contour"
       ],
       "requires_prior_elements": [
-        "squashed cushion body"
+        "round cushion body",
+        "pinched nozzle"
       ]
     },
     {
       "step": 3,
       "asset": "assets/whoopee-cushion-sticker-step-3.jpg",
       "step_name": "Ink the prank shape",
-      "visible_job": "Darkens only the existing cushion, nozzle, and puff edges into a thick marker outline.",
+      "visible_job": "Thickens only the existing cushion and nozzle edges into a bold black outline.",
       "introduces": [
         "thick black outline"
       ],
       "requires_prior_elements": [
-        "squashed cushion body",
-        "small side nozzle",
-        "comic puff lines"
+        "squashed cushion contour",
+        "pinched nozzle"
       ]
     },
     {
       "step": 4,
       "asset": "assets/whoopee-cushion-sticker-step-4.jpg",
-      "step_name": "Add the goofy face",
-      "visible_job": "Adds the goofy face and a small offset sticker shadow under the already outlined cushion.",
+      "step_name": "Add face and puffs",
+      "visible_job": "Adds wrinkle folds, the tongue-out face, and multiple puff clouds around the existing nozzle.",
       "introduces": [
-        "goofy face",
-        "sticker shadow"
+        "wrinkle folds",
+        "tongue-out goofy face",
+        "multiple puff clouds"
       ],
       "requires_prior_elements": [
-        "squashed cushion body",
+        "round cushion body",
+        "pinched nozzle",
         "thick black outline"
       ]
     },
@@ -104,15 +111,17 @@
       "step": 5,
       "asset": "assets/whoopee-cushion-sticker-step-5.jpg",
       "step_name": "Fill the cushion red",
-      "visible_job": "Fills the established cushion and nozzle with red marker and adds tiny highlights on existing shapes.",
+      "visible_job": "Fills the established cushion with red marker and adds pink shadow, tongue color, puff color, and small highlights.",
       "introduces": [
-        "red cushion fill",
-        "small white highlights"
+        "red marker fill",
+        "pink shadow and white highlights"
       ],
       "requires_prior_elements": [
-        "squashed cushion body",
-        "small side nozzle",
-        "goofy face",
+        "round cushion body",
+        "pinched nozzle",
+        "wrinkle folds",
+        "tongue-out goofy face",
+        "multiple puff clouds",
         "thick black outline"
       ]
     }
@@ -120,19 +129,19 @@
   "final_step": {
     "step_name": "Land the prank finish",
     "asset": "assets/whoopee-cushion-sticker-finished-v1.jpg",
-    "visible_job": "Retraces existing outlines, deepens marker fills, and sharpens the face, puff marks, shadow, and highlights already on the page.",
+    "visible_job": "Retraces existing outlines, deepens marker fill, and clarifies the tongue, folds, puff clouds, shadows, and highlights already placed.",
     "allowed_changes": [
       "outline reinforcement",
       "marker fill deepening",
-      "face cleanup",
-      "puff mark clarification",
-      "shadow strengthening",
+      "fold clarification",
+      "face and tongue clarification",
+      "puff cloud clarification",
       "small highlight sharpening"
     ]
   },
   "rejection_checks": [
-    "No cushion, nozzle, puff mark, face, shadow, color fill, or highlight should first appear in the final image.",
-    "No frame may thicken, fill, or clean a shape that was not already visible.",
+    "No cushion body, nozzle, fold, face, tongue, puff cloud, color area, or highlight should first appear in the final image.",
+    "No frame may ink or color a shape that was not already visible earlier.",
     "No adjacent frame should look unchanged at card size.",
     "The final image must keep the same cushion pose, scale, and placement as the step frames."
   ]

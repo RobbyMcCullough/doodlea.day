@@ -29,6 +29,16 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-01 follow-up: replaced the live `whoopee-cushion-sticker` art and
+  steps with the preferred tongue-out/multiple-puff generated contact sheet,
+  removing the disappearing pinched-center instruction. Also replaced the June
+  14 backfill `cartoon-party-balloon-doodle` with
+  `retro-arcade-joystick-sticker` after the owner preferred the generated game
+  controller/joystick direction.
+- Follow-up QA used `python3 scripts/check-tutorial-readiness.py
+  whoopee-cushion-sticker` and `python3 scripts/check-tutorial-readiness.py
+  retro-arcade-joystick-sticker`, plus Cove desktop/mobile title, image, and
+  heading checks. Both passed.
 - 2026-07-01 daily automation found the requested Doodlea current/backfill pair
   already present on `main` and matching `origin/main`: `whoopee-cushion-sticker`
   as July 1, 2026 / Day 018 and `cartoon-party-balloon-doodle` as June 14,

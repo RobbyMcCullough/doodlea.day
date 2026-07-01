@@ -1,0 +1,149 @@
+{
+  "slug": "retro-arcade-joystick-sticker",
+  "finished": "assets/retro-arcade-joystick-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster marker contact sheet generated for the June 14, 2026 retro arcade joystick sticker archive lesson.",
+    "notes": "Promoted after the owner preferred this generated game-controller direction over the cartoon party balloon backfill."
+  },
+  "process_strategy": "The sequence establishes the sticker base, joystick stem, ball top, buttons, thick outline, face, star, color fills, and shadow before the final panel only reinforces existing ink, fills, and highlights.",
+  "final_elements": [
+    {
+      "name": "rounded sticker base",
+      "introduced_by_step": 1,
+      "description": "A rounded rectangle arcade base tilted slightly on the page."
+    },
+    {
+      "name": "joystick stem",
+      "introduced_by_step": 1,
+      "description": "A short stem rising from the base."
+    },
+    {
+      "name": "ball top",
+      "introduced_by_step": 2,
+      "description": "A round ball at the top of the joystick stem."
+    },
+    {
+      "name": "button circles",
+      "introduced_by_step": 2,
+      "description": "Two simple arcade buttons on the base."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 3,
+      "description": "A bold marker outline around the base, joystick, and buttons."
+    },
+    {
+      "name": "face and small star accent",
+      "introduced_by_step": 4,
+      "description": "A simple face on the base plus one small star accent."
+    },
+    {
+      "name": "teal base and red ball fill",
+      "introduced_by_step": 5,
+      "description": "Marker fill inside the already drawn base and ball top."
+    },
+    {
+      "name": "yellow buttons and gray shadow",
+      "introduced_by_step": 5,
+      "description": "Marker fill on the existing buttons plus an offset sticker shadow."
+    },
+    {
+      "name": "small white highlights",
+      "introduced_by_step": 5,
+      "description": "Small shine marks on the joystick ball, buttons, and base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/retro-arcade-joystick-sticker-step-1.jpg",
+      "step_name": "Set the arcade base",
+      "visible_job": "Places the rounded sticker base guide and joystick stem.",
+      "introduces": [
+        "rounded sticker base",
+        "joystick stem"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/retro-arcade-joystick-sticker-step-2.jpg",
+      "step_name": "Add ball and buttons",
+      "visible_job": "Adds the joystick ball and two button circles to the existing base.",
+      "introduces": [
+        "ball top",
+        "button circles"
+      ],
+      "requires_prior_elements": [
+        "rounded sticker base",
+        "joystick stem"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/retro-arcade-joystick-sticker-step-3.jpg",
+      "step_name": "Ink the controls",
+      "visible_job": "Thickens only the existing base, joystick, and button edges into a bold black outline.",
+      "introduces": [
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "rounded sticker base",
+        "joystick stem",
+        "ball top",
+        "button circles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/retro-arcade-joystick-sticker-step-4.jpg",
+      "step_name": "Give it a face",
+      "visible_job": "Adds a small face on the base and one star accent near the joystick.",
+      "introduces": [
+        "face and small star accent"
+      ],
+      "requires_prior_elements": [
+        "rounded sticker base",
+        "thick black outline"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/retro-arcade-joystick-sticker-step-5.jpg",
+      "step_name": "Fill the arcade colors",
+      "visible_job": "Fills the established base, ball, and buttons with marker color and adds an offset shadow and small highlights.",
+      "introduces": [
+        "teal base and red ball fill",
+        "yellow buttons and gray shadow",
+        "small white highlights"
+      ],
+      "requires_prior_elements": [
+        "rounded sticker base",
+        "joystick stem",
+        "ball top",
+        "button circles",
+        "face and small star accent",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Power up the sticker",
+    "asset": "assets/retro-arcade-joystick-sticker-finished-v1.jpg",
+    "visible_job": "Retraces existing outlines, deepens marker fills, and clarifies the face, star, shadow, and highlights already placed.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill deepening",
+      "face clarification",
+      "star accent clarification",
+      "shadow strengthening",
+      "small highlight sharpening"
+    ]
+  },
+  "rejection_checks": [
+    "No base, joystick stem, ball, button, face, star, color area, shadow, or highlight should first appear in the final image.",
+    "No frame may ink or color a shape that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same joystick pose, scale, and placement as the step frames."
+  ]
+}

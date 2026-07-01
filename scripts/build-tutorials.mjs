@@ -26,99 +26,99 @@ const lessons = [
     headlineSubject: "a whoopee<br>cushion sticker",
     shortSubject: "a whoopee cushion",
     lessonTitle: "Let's doodle a whoopee cushion sticker",
-    description: "Learn how to draw a whoopee cushion sticker with a squashed cushion body, side nozzle, comic puff lines, goofy face, sticker shadow, thick black outline, red marker fill, and white highlights.",
-    intro: "Build one squashed cushion, point the nozzle, add puff lines and a goofy face, then finish it with bold red marker. Keep the joke visual and text-free so the shape does the work.",
+    description: "Learn how to draw a whoopee cushion sticker with a squashed cushion body, side nozzle, multiple puff clouds, tongue-out goofy face, thick black outline, red marker fill, and white highlights.",
+    intro: "Build one squashed cushion from the outside shape first, point the nozzle, add puff clouds and a tongue-out face, then finish it with bold red marker. Keep the joke visual and text-free so the shape does the work.",
     time: 15,
     difficulty: "Easy",
     accent: "#e63832",
     finished: "whoopee-cushion-sticker-finished-v1.jpg",
-    finishedAlt: "Bold marker doodle of a red whoopee cushion sticker with side nozzle, comic puff lines, goofy face, gray sticker shadow, thick black outline, white highlights, and marker texture",
+    finishedAlt: "Bold marker doodle of a red whoopee cushion sticker with side nozzle, multiple pink puff clouds, tongue-out goofy face, pink sticker shadow, thick black outline, white highlights, and marker texture",
     materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
     materialNote: "Use black for the outline, red for the cushion, gray for the shadow, and the gel pen only for small shine marks.",
     tipLabel: "Doodle tip",
     steps: [
       {
         name: "Squash the cushion",
-        text: "Draw a rounded flattened cushion body, then mark a light pinched center guide.",
-        tip: "Make the cushion wider than it is tall. The squashed shape is what makes the doodle read quickly."
+        text: "Draw a rounded flattened cushion body and a small nozzle guide on one side, keeping any inside guide lines pale enough to ignore later.",
+        tip: "If you are drawing straight in marker, skip the inside guide marks and draw only the outside cushion shape."
       },
       {
-        name: "Point the nozzle",
-        text: "Add a short nozzle sticking from one side, then draw a few curved puff lines near the opening.",
-        tip: "Keep the puff marks simple and text-free. The little cloud shape should say enough."
+        name: "Bump the soft edge",
+        text: "Make the cushion edge a little lumpy and pinch the side nozzle into a short open tube.",
+        tip: "Keep the bumps gentle. The cushion should look soft, not spiky."
       },
       {
         name: "Ink the prank shape",
-        text: "Trace the cushion, nozzle, and puff marks with a thick black marker outline.",
+        text: "Trace the cushion body and nozzle with a thick black marker outline, following the shapes already on the page.",
         tip: "Ink the existing shapes only. The outline should make the cushion bolder, not change its pose."
       },
       {
-        name: "Add the goofy face",
-        text: "Draw two wide eyes, a silly smiling mouth, and a small offset shadow under the cushion.",
-        tip: "Let the eyes be a little uneven. A goofy sticker works better when it is not too polished."
+        name: "Add face and puffs",
+        text: "Draw two wide eyes, a big open smile, a tongue, wrinkle folds, and two small puff clouds coming from the nozzle.",
+        tip: "Keep the puff clouds separate from the face. The cushion should read as one clear shape with the joke happening off to the side."
       },
       {
         name: "Fill the cushion red",
-        text: "Color the cushion and nozzle red, deepen the mouth, and leave a few small highlight gaps.",
+        text: "Color the cushion and nozzle red, color the tongue and puff clouds pink, deepen the mouth, and leave a few highlight gaps.",
         tip: "Use short marker strokes that follow the cushion curve so the fill keeps a handmade texture."
       },
       {
         name: "Land the prank finish",
-        text: "Retrace the existing outlines, deepen the red fill, and sharpen the face, puff marks, shadow, and highlights already on the page.",
-        tip: "Stop before adding extra symbols. The cushion, face, and puff marks are enough for the joke.",
+        text: "Retrace the existing outlines, deepen the red fill, and sharpen the tongue, puff clouds, folds, shadow, and highlights already on the page.",
+        tip: "Stop before adding extra symbols. The cushion, face, tongue, and puff clouds are enough for the joke.",
         image: true
       }
     ]
   },
   {
-    slug: "cartoon-party-balloon-doodle",
+    slug: "retro-arcade-joystick-sticker",
     day: "001",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
-    subject: "a cartoon party balloon doodle",
-    headlineSubject: "a cartoon party<br>balloon doodle",
-    shortSubject: "a balloon doodle",
-    lessonTitle: "Let's doodle cartoon party balloons",
-    description: "Learn how to draw a cartoon party balloon doodle with a three-balloon cluster, knots, strings, happy face, confetti marks, thick black outline, bright marker fills, and white highlights.",
-    intro: "Float three simple balloons, tie the strings, add a happy face and confetti, then finish with bold marker color. Change the face or colors if you want the bunch to fit a different celebration.",
+    subject: "a retro arcade joystick sticker",
+    headlineSubject: "a retro arcade<br>joystick sticker",
+    shortSubject: "a retro arcade joystick",
+    lessonTitle: "Let's doodle a retro arcade joystick sticker",
+    description: "Learn how to draw a retro arcade joystick sticker with a rounded base, joystick stem, red ball top, yellow buttons, cute face, star accent, thick black outline, teal marker fill, and gray shadow.",
+    intro: "Build the controller base first, add the stick and buttons, then turn it into a bright arcade sticker with a tiny face, star, and marker color. Change the button colors if you want your own cabinet vibe.",
     time: 15,
     difficulty: "Easy",
-    accent: "#e94f8b",
-    finished: "cartoon-party-balloon-doodle-finished-v1.jpg",
-    finishedAlt: "Bold marker doodle of three cartoon party balloons with pink, teal, and yellow fills, happy face, curved strings, confetti marks, thick black outline, white highlights, and marker texture",
+    accent: "#0f9fa4",
+    finished: "retro-arcade-joystick-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a retro arcade joystick sticker with teal rounded base, red ball top, yellow buttons, cute face, star accent, thick black outline, gray shadow, white highlights, and marker texture",
     materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
-    materialNote: "Use black for the outline, pink, teal, and yellow for the balloons, and the gel pen only for the brightest shine marks.",
+    materialNote: "Use black for the outline, teal for the base, red for the joystick ball, yellow for the buttons, gray for the shadow, and the gel pen only for small shine marks.",
     tipLabel: "Doodle tip",
     steps: [
       {
-        name: "Float the balloons",
-        text: "Draw one large round balloon in the middle, then tuck two smaller balloons behind it on the sides.",
-        tip: "Overlap the side balloons a little. The cluster looks more like a bunch when the circles touch."
+        name: "Set the arcade base",
+        text: "Draw a rounded rectangle base, then place a short joystick stem near one side.",
+        tip: "Tilt the base just a little. That makes the sticker feel more playful than a flat diagram."
       },
       {
-        name: "Tie the strings",
-        text: "Add small knot shapes under each balloon and pull curved strings down from the knots.",
-        tip: "Let the strings wiggle instead of hanging perfectly straight. That keeps the doodle lively."
+        name: "Add ball and buttons",
+        text: "Add a round ball on top of the stem, then draw two button circles on the open side of the base.",
+        tip: "Leave space between the buttons. Clear gaps make the controller readable after the thick outline goes on."
       },
       {
-        name: "Ink the bunch",
-        text: "Trace the balloon edges, knots, and strings with a thick black marker outline.",
-        tip: "Ink only the shapes you already drew. This step should make the bunch bolder, not redesign it."
+        name: "Ink the controls",
+        text: "Trace the base, joystick, ball, and buttons with a thick black marker outline.",
+        tip: "Follow the shapes you already placed. This pass should make the controller bolder, not rearrange it."
       },
       {
-        name: "Add party faces",
-        text: "Put a happy face on the main balloon, then scatter a few simple dots and dash-shaped confetti marks around the bunch.",
-        tip: "Keep the confetti outside the balloons so the big colored shapes stay easy to read."
+        name: "Give it a face",
+        text: "Add two little eyes, a small smile, and one star accent on the base.",
+        tip: "Keep the face low on the base so it does not compete with the joystick ball."
       },
       {
-        name: "Color the bunch",
-        text: "Fill the balloons with bright marker color and leave small highlight gaps on the rounded sides.",
-        tip: "Use different colors for the side balloons. The contrast helps the overlap stay clear."
+        name: "Fill the arcade colors",
+        text: "Fill the base teal, the joystick ball red, and the buttons yellow, then add a gray sticker shadow and small highlight gaps.",
+        tip: "Marker streaks are fine here. They make the controller feel hand-doodled instead of printed."
       },
       {
-        name: "Pop the party finish",
-        text: "Retrace the existing outlines, deepen the balloon fills, and sharpen the face, strings, confetti, and highlights already on the page.",
-        tip: "A few confetti marks are enough. The balloons should still be the star of the doodle.",
+        name: "Power up the sticker",
+        text: "Retrace the existing outlines, deepen the marker fills, and sharpen the face, star, shadow, and highlights already on the page.",
+        tip: "Do not add a screen or logo at the end. The base, stick, buttons, and face are enough to sell the arcade idea.",
         image: true
       }
     ]
