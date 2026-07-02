@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "red-white-blue-popsicle-badge",
+    day: "001",
+    date: "Thursday, June 11",
+    isoDate: "2026-06-11",
+    subject: "a red white and blue popsicle badge",
+    headlineSubject: "a red white and blue<br>popsicle badge",
+    shortSubject: "a popsicle badge",
+    lessonTitle: "Let's doodle a red white and blue popsicle badge",
+    description: "Learn how to draw a red white and blue popsicle badge with a rounded body, wooden stick, thick black outline, horizontal bands, wavy melt edge, shine marks, marker texture, and sticker shadow.",
+    intro: "Block in the popsicle first, then add the stick, band lines, wavy melt edge, and bold marker color. Keep the middle band open as white paper so the red and blue sections stay bright.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#df3f34",
+    finished: "red-white-blue-popsicle-badge-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a red white and blue popsicle badge with thick black outline, wooden stick, shine marks, wavy blue melt edge, marker streaks, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, red and blue for the popsicle bands, tan for the stick, gray for the shadow, and the gel pen only for tiny shine marks if you do not leave white gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the popsicle",
+        text: "Draw a tall rounded popsicle body with a soft top and a flatter bottom edge.",
+        tip: "Make the body wide enough for color bands. Rounded corners are what make it feel sticker-like."
+      },
+      {
+        name: "Add stick and outline",
+        text: "Place a small centered stick under the body, then trace the outside with a thicker black marker line.",
+        tip: "Keep the stick tucked into the middle. A centered stick makes the badge feel balanced."
+      },
+      {
+        name: "Split the bands",
+        text: "Draw horizontal bands across the popsicle so the top can be red, the middle can stay white, and the bottom can turn blue.",
+        tip: "Let the band lines curve slightly with the rounded body instead of making them ruler-straight."
+      },
+      {
+        name: "Wave the melt edge",
+        text: "Add a small wavy melt edge along the lower color area and clean up the band shapes.",
+        tip: "A few soft waves are enough. Do not redraw the whole popsicle at this stage."
+      },
+      {
+        name: "Fill with marker",
+        text: "Fill the top band red and the lower section blue, leave the middle band white, add shine gaps, marker streaks, and a little sticker shadow.",
+        tip: "Let some marker texture show. It keeps the badge handmade instead of flat."
+      },
+      {
+        name: "Freeze the badge finish",
+        text: "Reinforce the existing outline, smooth the marker fills, sharpen the shine marks, and deepen the shadow already on the page.",
+        tip: "Stop before adding stars, faces, or extra props. The simple bands and wavy edge are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-paint-splat-doodle",
+    day: "002",
+    date: "Friday, June 12",
+    isoDate: "2026-06-12",
+    subject: "a cartoon paint splat doodle",
+    headlineSubject: "a cartoon paint<br>splat doodle",
+    shortSubject: "a paint splat doodle",
+    lessonTitle: "Let's doodle a cartoon paint splat",
+    description: "Learn how to draw a cartoon paint splat doodle with a central blob, uneven splat arms, small droplets, thick black outline, bright marker fill, highlights, and a sticker shadow.",
+    intro: "Start with one soft blob, pull out uneven arms, then add droplets, thick marker outline, bright fill, and shine gaps. Your splat can wobble differently as long as the droplets stay clear.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#198bd8",
+    finished: "cartoon-paint-splat-doodle-finished-v1.jpg",
+    finishedAlt: "Bold blue marker doodle of a cartoon paint splat with uneven arms, small droplets, thick black outline, white highlight gaps, marker streaks, and a soft sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, one bright marker for the fill, gray or purple for the shadow, and the gel pen only for highlight gaps if needed.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Start with a blob",
+        text: "Draw a soft rounded blob in the middle of the page as the anchor for the splat.",
+        tip: "This first shape does not need to be perfect. It just gives the splat a center."
+      },
+      {
+        name: "Pull out splat arms",
+        text: "Add uneven arms around the blob, mixing rounded bumps with a few longer stretched shapes.",
+        tip: "Rotate the page if it helps. The arms should feel random but still connect smoothly."
+      },
+      {
+        name: "Drop little dots",
+        text: "Place a few small paint droplets around the main splat, leaving space between them and the center.",
+        tip: "Use different droplet sizes so the splash feels lively instead of patterned."
+      },
+      {
+        name: "Ink the splat edge",
+        text: "Trace the splat and droplets with a thick black marker line, following only the shapes you already drew.",
+        tip: "Do not invent new arms while inking. The marker should make the existing splash bolder."
+      },
+      {
+        name: "Fill the color splash",
+        text: "Fill the splat and droplets with bright marker color, leave small shine gaps, show marker streaks, and add a soft sticker shadow.",
+        tip: "Color in the same direction across the big splat so the streaks feel intentional."
+      },
+      {
+        name: "Make the splat pop",
+        text: "Reinforce the existing outline, clean the marker fill, sharpen the highlights, and deepen the shadow already on the page.",
+        tip: "The finish should still look like the same splash from step five, just louder and cleaner.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "sunscreen-bottle-sticker",
-    day: "020",
+    day: "022",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "001",
+    day: "003",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "019",
+    day: "021",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "002",
+    day: "004",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "018",
+    day: "020",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "003",
+    day: "005",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "004",
+    day: "006",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "017",
+    day: "019",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "016",
+    day: "018",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "015",
+    day: "017",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "014",
+    day: "016",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "013",
+    day: "015",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "012",
+    day: "014",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "011",
+    day: "013",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "010",
+    day: "012",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "007",
+    day: "009",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "005",
+    day: "007",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "006",
+    day: "008",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "008",
+    day: "010",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "009",
+    day: "011",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

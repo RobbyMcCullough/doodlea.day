@@ -83,27 +83,33 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    eyes and a U-smile, pick a visibly different expression such as a wink,
    tongue-out grin, toothy smile, side-eye, raised brows, mismatched eyes, or
    cheeky smirk.
-7. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
+7. Lock the exact publish slugs before generating any image. A normal run should
+   generate art only for the approved current slug and approved backfill slug.
+   Do not create speculative contact sheets, backup subjects, or alternate
+   directions. If an image is generated and then not used, stop before any new
+   image generation and either promote it into a validated tutorial, document a
+   quality/duplicate rejection in `HUMANS.md`, or get owner direction.
+8. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`.
-8. Generate one raster process contact sheet first. No labels, arrows, numbers,
+9. Generate one raster process contact sheet first. No labels, arrows, numbers,
    signatures, watermarks, or fake UI.
-9. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
+10. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
    use the final panel as the finished image.
-10. Rate the saved finished image. It must be at least 8/10 for readability,
+11. Rate the saved finished image. It must be at least 8/10 for readability,
    character, marker quality, tutorial fit, composition, and difficulty balance.
-11. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
+12. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
 
 ```sh
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-12. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
+13. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
-13. Rate the rendered homepage and tutorial page layout at desktop and mobile
+14. Rate the rendered homepage and tutorial page layout at desktop and mobile
    widths. It must score at least 8/10 before publishing.
-14. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
+15. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
    connected, routine daily Doodlea.day lessons may push after all quality gates
    pass.
 

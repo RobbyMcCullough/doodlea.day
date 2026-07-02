@@ -1,0 +1,128 @@
+{
+  "slug": "red-white-blue-popsicle-badge",
+  "finished": "assets/red-white-blue-popsicle-badge-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated marker contact sheet saved under drafts/red-white-blue-popsicle-badge/ before cropping.",
+    "notes": "Promoted after the owner asked to turn unused generated art into backfill tutorials."
+  },
+  "process_strategy": "The contact sheet builds one centered popsicle badge from rounded construction shapes through outline, stick, color bands, shine marks, and final marker cleanup.",
+  "final_elements": [
+    {
+      "name": "rounded popsicle body",
+      "introduced_by_step": 1,
+      "description": "A tall rounded rectangle popsicle shape with softened top corners."
+    },
+    {
+      "name": "wooden stick",
+      "introduced_by_step": 2,
+      "description": "A small centered stick below the popsicle body."
+    },
+    {
+      "name": "badge outline",
+      "introduced_by_step": 2,
+      "description": "A thick black sticker-like outline around the body and stick."
+    },
+    {
+      "name": "three color bands",
+      "introduced_by_step": 3,
+      "description": "Horizontal red, white, and blue sections across the existing body."
+    },
+    {
+      "name": "wavy melt edge",
+      "introduced_by_step": 4,
+      "description": "A small wavy drip or melt edge cut into the lower color area."
+    },
+    {
+      "name": "shine and marker texture",
+      "introduced_by_step": 5,
+      "description": "Small shine marks and visible marker fill streaks inside existing shapes."
+    },
+    {
+      "name": "small sticker shadow",
+      "introduced_by_step": 5,
+      "description": "A soft colored shadow behind the badge shape."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/red-white-blue-popsicle-badge-step-1.jpg",
+      "step_name": "Block the popsicle",
+      "visible_job": "Draws the tall rounded popsicle body guide with a soft top, straight sides, and flatter bottom edge.",
+      "introduces": [
+        "rounded popsicle body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/red-white-blue-popsicle-badge-step-2.jpg",
+      "step_name": "Add stick and outline",
+      "visible_job": "Adds the centered stick and thickens the body into a badge outline.",
+      "introduces": [
+        "wooden stick",
+        "badge outline"
+      ],
+      "requires_prior_elements": [
+        "rounded popsicle body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/red-white-blue-popsicle-badge-step-3.jpg",
+      "step_name": "Split the bands",
+      "visible_job": "Divides the body into red, white, and blue horizontal bands.",
+      "introduces": [
+        "three color bands"
+      ],
+      "requires_prior_elements": [
+        "rounded popsicle body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/red-white-blue-popsicle-badge-step-4.jpg",
+      "step_name": "Wave the melt edge",
+      "visible_job": "Adds a small wavy melt edge and clarifies the band shapes.",
+      "introduces": [
+        "wavy melt edge"
+      ],
+      "requires_prior_elements": [
+        "rounded popsicle body",
+        "three color bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/red-white-blue-popsicle-badge-step-5.jpg",
+      "step_name": "Fill with marker",
+      "visible_job": "Fills existing bands with red and blue marker, leaves the white band open, adds shine marks, marker streaks, and a small sticker shadow.",
+      "introduces": [
+        "shine and marker texture",
+        "small sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "three color bands",
+        "badge outline",
+        "wavy melt edge"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Freeze the badge finish",
+    "asset": "assets/red-white-blue-popsicle-badge-finished-v1.jpg",
+    "visible_job": "Only reinforces existing black outlines, smooths marker fills, sharpens shine marks, and deepens the small badge shadow.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill smoothing",
+      "shine clarification",
+      "small shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No stick, color band, melt edge, shine mark, or shadow should first appear in the final image.",
+    "No frame may ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same popsicle angle, scale, and placement as the step frames."
+  ]
+}

@@ -12,6 +12,9 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
      existing parts, list those parts in `requires_prior_elements`; they must
      first appear in an earlier frame.
    - Decide whether the subject needs 5, 6, 7, or 8 stages.
+   - Generate only for a locked tutorial slug. Do not create speculative sheets
+     for backup subjects, alternate directions, or ideas that are not intended
+     to become the next validated lesson.
 
 2. Generate one contact sheet first.
    - Ask for all stages in one grid so the model sees the whole process as one
@@ -36,6 +39,9 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
      stage instructions.
    - If the contact sheet is promising but not publishable, crop panels only
      after the repaired sheet passes QA.
+   - If a generated sheet will not be used, do not generate another subject
+     until the unused sheet is either promoted into a tutorial, documented as a
+     quality/duplicate rejection, or explicitly set aside by the owner.
 
 5. Convert the approved sheet into lesson assets.
    - Crop non-final panels into `{slug}-step-1.jpg` through

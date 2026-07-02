@@ -29,6 +29,21 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-02 cleanup follow-up promoted two previously unused generated images
+  into Doodlea backfills: `red-white-blue-popsicle-badge` as June 11, 2026 /
+  Day 001 and `cartoon-paint-splat-doodle` as June 12, 2026 / Day 002. Existing
+  day labels shifted forward by two.
+- Updated `DAILY-PUBLISHING.md` and `PROCESS-IMAGE-WORKFLOW.md` so future runs
+  must lock exact slugs before image generation, must not generate speculative
+  backup sheets, and must resolve any unused generated sheet before generating a
+  different subject.
+- Cleanup QA used `python3 scripts/check-tutorial-readiness.py
+  red-white-blue-popsicle-badge --base-url http://localhost:4174/` and
+  `python3 scripts/check-tutorial-readiness.py cartoon-paint-splat-doodle
+  --base-url http://localhost:4174/`, plus rendered desktop/mobile browser QA
+  under `/tmp/generated-image-cleanup-qa-2026-07-02/`. Finished image ratings:
+  popsicle badge 8.5/10 for bold readable bands and simple process; paint splat
+  8.8/10 for strong marker texture, clean silhouette, and clear step sequence.
 - 2026-07-02 daily automation added two Doodlea lessons:
   `sunscreen-bottle-sticker` as July 2, 2026 / Day 020 and
   `bubble-letter-wow-doodle` as June 13, 2026 / Day 001. Existing day labels

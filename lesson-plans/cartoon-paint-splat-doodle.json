@@ -1,0 +1,131 @@
+{
+  "slug": "cartoon-paint-splat-doodle",
+  "finished": "assets/cartoon-paint-splat-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated marker contact sheet saved under drafts/cartoon-paint-splat-doodle/ before cropping.",
+    "notes": "Promoted after the owner specifically asked to backfill the unused splat drawing."
+  },
+  "process_strategy": "The contact sheet keeps one centered splat while building the blob guide, splat arms, droplets, thick outline, marker fills, and final cleanup in order.",
+  "final_elements": [
+    {
+      "name": "central blob guide",
+      "introduced_by_step": 1,
+      "description": "A rounded middle blob that anchors the splat."
+    },
+    {
+      "name": "uneven splat arms",
+      "introduced_by_step": 2,
+      "description": "Pointed and rounded splat arms spreading from the center."
+    },
+    {
+      "name": "small paint droplets",
+      "introduced_by_step": 3,
+      "description": "A few separate small droplets around the main splat."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 4,
+      "description": "A bold marker outline around the main splat and droplets."
+    },
+    {
+      "name": "bright marker fill",
+      "introduced_by_step": 5,
+      "description": "Saturated marker color filling the already outlined splat and droplets."
+    },
+    {
+      "name": "marker streaks and highlights",
+      "introduced_by_step": 5,
+      "description": "Visible marker streak texture plus a few small highlight gaps."
+    },
+    {
+      "name": "soft sticker shadow",
+      "introduced_by_step": 5,
+      "description": "A small shadow behind the splat to lift it from the page."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-paint-splat-doodle-step-1.jpg",
+      "step_name": "Start with a blob",
+      "visible_job": "Draws the central rounded blob guide that anchors the paint splat before any arms or droplets are added.",
+      "introduces": [
+        "central blob guide"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-paint-splat-doodle-step-2.jpg",
+      "step_name": "Pull out splat arms",
+      "visible_job": "Adds uneven splat arms around the central blob.",
+      "introduces": [
+        "uneven splat arms"
+      ],
+      "requires_prior_elements": [
+        "central blob guide"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-paint-splat-doodle-step-3.jpg",
+      "step_name": "Drop little dots",
+      "visible_job": "Places separate small paint droplets around the main splat.",
+      "introduces": [
+        "small paint droplets"
+      ],
+      "requires_prior_elements": [
+        "central blob guide",
+        "uneven splat arms"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-paint-splat-doodle-step-4.jpg",
+      "step_name": "Ink the splat edge",
+      "visible_job": "Thickens the existing splat and droplets with black marker.",
+      "introduces": [
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "central blob guide",
+        "uneven splat arms",
+        "small paint droplets"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-paint-splat-doodle-step-5.jpg",
+      "step_name": "Fill the color splash",
+      "visible_job": "Adds bright marker fill, streaks, highlight gaps, and a soft sticker shadow to existing shapes.",
+      "introduces": [
+        "bright marker fill",
+        "marker streaks and highlights",
+        "soft sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "central blob guide",
+        "uneven splat arms",
+        "small paint droplets",
+        "thick black outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the splat pop",
+    "asset": "assets/cartoon-paint-splat-doodle-finished-v1.jpg",
+    "visible_job": "Only reinforces the existing outline, cleans the marker fill, sharpens highlight gaps, and deepens the existing shadow.",
+    "allowed_changes": [
+      "outline reinforcement",
+      "marker fill cleanup",
+      "highlight clarification",
+      "small shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No splat arm, droplet, color fill, highlight, or shadow should first appear in the final image.",
+    "No frame may ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same splat scale, placement, and droplet arrangement as the step frames."
+  ]
+}
