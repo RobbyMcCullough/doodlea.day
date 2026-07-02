@@ -1,0 +1,135 @@
+{
+  "slug": "bubble-letter-wow-doodle",
+  "finished": "assets/bubble-letter-wow-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated for a marker bubble-letter WOW doodle sequence, then cropped into lesson assets.",
+    "notes": "Created as the June 13, 2026 honest backdated Doodlea.day archive lesson."
+  },
+  "process_strategy": "The frames keep the same WOW lettering layout while building guide letters, bubble outlines, inner counters, comic bursts, marker fills, highlights, and shadow in order.",
+  "final_elements": [
+    {
+      "name": "light WOW letter guides",
+      "introduced_by_step": 1,
+      "description": "Loose block-letter guide shapes for W, O, and W across the same baseline."
+    },
+    {
+      "name": "rounded bubble outlines",
+      "introduced_by_step": 2,
+      "description": "Puffy marker-style outlines wrapped around the three guide letters."
+    },
+    {
+      "name": "O center counter",
+      "introduced_by_step": 2,
+      "description": "The open center hole inside the round bubble-letter O."
+    },
+    {
+      "name": "thick black letter outline",
+      "introduced_by_step": 3,
+      "description": "Bold black marker contour around the already formed bubble letters."
+    },
+    {
+      "name": "comic burst marks",
+      "introduced_by_step": 4,
+      "description": "Small sparkle and action marks around the word that stay outside the letters."
+    },
+    {
+      "name": "pink and orange marker fill",
+      "introduced_by_step": 5,
+      "description": "Bright warm marker color inside the letters with visible handmade strokes."
+    },
+    {
+      "name": "white shine gaps",
+      "introduced_by_step": 5,
+      "description": "Small uncolored shine shapes left on the letter tops."
+    },
+    {
+      "name": "purple drop shadow",
+      "introduced_by_step": 5,
+      "description": "A simple offset shadow behind the word that makes the lettering pop."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/bubble-letter-wow-doodle-step-1.jpg",
+      "step_name": "Sketch the WOW",
+      "visible_job": "Adds light W O W guide letters across one baseline with enough space for bubble edges.",
+      "introduces": [
+        "light WOW letter guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/bubble-letter-wow-doodle-step-2.jpg",
+      "step_name": "Bubble the letters",
+      "visible_job": "Wraps rounded bubble outlines around the letter guides and opens the O center counter.",
+      "introduces": [
+        "rounded bubble outlines",
+        "O center counter"
+      ],
+      "requires_prior_elements": [
+        "light WOW letter guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/bubble-letter-wow-doodle-step-3.jpg",
+      "step_name": "Ink the word",
+      "visible_job": "Adds the thick black letter outline by tracing only the already placed bubble letters.",
+      "introduces": [
+        "thick black letter outline"
+      ],
+      "requires_prior_elements": [
+        "rounded bubble outlines",
+        "O center counter"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/bubble-letter-wow-doodle-step-4.jpg",
+      "step_name": "Pop the burst marks",
+      "visible_job": "Adds small comic burst marks around the existing word without changing the letters.",
+      "introduces": [
+        "comic burst marks"
+      ],
+      "requires_prior_elements": [
+        "rounded bubble outlines",
+        "thick black letter outline"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/bubble-letter-wow-doodle-step-5.jpg",
+      "step_name": "Fill the loud color",
+      "visible_job": "Adds pink and orange marker fill, white shine gaps, and a purple drop shadow.",
+      "introduces": [
+        "pink and orange marker fill",
+        "white shine gaps",
+        "purple drop shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded bubble outlines",
+        "thick black letter outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the WOW shout",
+    "asset": "assets/bubble-letter-wow-doodle-finished-v1.jpg",
+    "visible_job": "Only reinforces the existing outline and burst marks, deepens the marker fills, and sharpens the shine and shadow.",
+    "allowed_changes": [
+      "existing outline reinforcement",
+      "existing burst mark darkening",
+      "marker fill deepening",
+      "shine gap cleanup",
+      "drop shadow cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No letter shape, burst mark, color area, shine gap, or shadow should first appear in the final image.",
+    "No frame may ink, fill, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same WOW layout, scale, and placement as the step frames."
+  ]
+}

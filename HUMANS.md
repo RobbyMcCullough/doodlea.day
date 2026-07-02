@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-01
+- Date: 2026-07-02
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -29,6 +29,25 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-02 daily automation added two Doodlea lessons:
+  `sunscreen-bottle-sticker` as July 2, 2026 / Day 020 and
+  `bubble-letter-wow-doodle` as June 13, 2026 / Day 001. Existing day labels
+  shifted forward by one.
+- July 2 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-02`, `python3 scripts/check-tutorial-readiness.py
+  sunscreen-bottle-sticker --base-url http://localhost:4174/`, and
+  `python3 scripts/check-tutorial-readiness.py bubble-letter-wow-doodle
+  --base-url http://localhost:4174/`. Cove HTTPS opened for script probes but
+  the in-app browser rejected the local certificate, so rendered browser QA used
+  the existing fallback server on `http://localhost:4174/`.
+- Finished image ratings: sunscreen bottle sticker 8.8/10 for bold marker
+  readability and varied wink expression; bubble-letter WOW doodle 8.7/10 for
+  readable lettering, strong color, and teachable step progression.
+- Browser QA screenshots for July 2 live under
+  `/tmp/daily-sketch-doodle-qa-2026-07-02/`; mobile and desktop layouts passed
+  with no horizontal overflow and valid JSON-LD. The temporary
+  two-tutorial-per-site backfill cadence is still active until the owner says
+  otherwise.
 - 2026-07-01 follow-up: replaced the live `whoopee-cushion-sticker` art and
   steps with the preferred tongue-out/multiple-puff generated contact sheet,
   removing the disappearing pinched-center instruction. Also replaced the June

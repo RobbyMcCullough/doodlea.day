@@ -1,0 +1,137 @@
+{
+  "slug": "sunscreen-bottle-sticker",
+  "finished": "assets/sunscreen-bottle-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated for a bold marker sunscreen-bottle sticker sequence, then cropped into lesson assets.",
+    "notes": "Created as the July 2, 2026 current Doodlea.day lesson with a summer-weekend subject that avoids the existing firework and food lessons."
+  },
+  "process_strategy": "The frames keep one rounded sunscreen bottle pose while building the cap, label panel, wink expression, sun badge, marker fills, highlights, and shadow in order.",
+  "final_elements": [
+    {
+      "name": "rounded bottle body",
+      "introduced_by_step": 1,
+      "description": "A squat rounded sunscreen bottle silhouette tilted slightly like a sticker."
+    },
+    {
+      "name": "flip cap",
+      "introduced_by_step": 2,
+      "description": "A small cap shape attached to the bottom edge of the bottle."
+    },
+    {
+      "name": "label panel",
+      "introduced_by_step": 2,
+      "description": "A simple blank label shape on the front of the bottle with no readable text."
+    },
+    {
+      "name": "wink expression",
+      "introduced_by_step": 3,
+      "description": "One open eye, one wink eye, raised brow marks, cheek dots, and a sideways grin."
+    },
+    {
+      "name": "small sun badge",
+      "introduced_by_step": 4,
+      "description": "A tiny sun icon on the label panel made from a circle and short rays."
+    },
+    {
+      "name": "thick black outline",
+      "introduced_by_step": 4,
+      "description": "Bold marker contour around the bottle, cap, label, and face already present."
+    },
+    {
+      "name": "yellow and blue marker fill",
+      "introduced_by_step": 5,
+      "description": "Bright yellow bottle fill with blue cap and label accents."
+    },
+    {
+      "name": "white highlights and gray shadow",
+      "introduced_by_step": 5,
+      "description": "Small white highlight gaps and a gray sticker shadow under the bottle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/sunscreen-bottle-sticker-step-1.jpg",
+      "step_name": "Shape the bottle",
+      "visible_job": "Adds the rounded bottle body with a slight sticker tilt and clear empty front area.",
+      "introduces": [
+        "rounded bottle body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/sunscreen-bottle-sticker-step-2.jpg",
+      "step_name": "Add cap and label",
+      "visible_job": "Adds the flip cap and a blank label panel on the already placed bottle body.",
+      "introduces": [
+        "flip cap",
+        "label panel"
+      ],
+      "requires_prior_elements": [
+        "rounded bottle body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/sunscreen-bottle-sticker-step-3.jpg",
+      "step_name": "Give it a wink",
+      "visible_job": "Adds the asymmetrical wink expression with brows, cheek dots, and a sideways grin.",
+      "introduces": [
+        "wink expression"
+      ],
+      "requires_prior_elements": [
+        "rounded bottle body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/sunscreen-bottle-sticker-step-4.jpg",
+      "step_name": "Ink the sun badge",
+      "visible_job": "Adds the small sun badge and thickens only the bottle, cap, label, and face already visible.",
+      "introduces": [
+        "small sun badge",
+        "thick black outline"
+      ],
+      "requires_prior_elements": [
+        "rounded bottle body",
+        "flip cap",
+        "label panel",
+        "wink expression"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/sunscreen-bottle-sticker-step-5.jpg",
+      "step_name": "Fill the sunny colors",
+      "visible_job": "Adds yellow and blue marker fill, white highlight gaps, and a gray sticker shadow.",
+      "introduces": [
+        "yellow and blue marker fill",
+        "white highlights and gray shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded bottle body",
+        "flip cap",
+        "label panel",
+        "small sun badge"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Seal the sunny sticker",
+    "asset": "assets/sunscreen-bottle-sticker-finished-v1.jpg",
+    "visible_job": "Only reinforces existing outlines, deepens the marker fills, and sharpens the highlights and shadow.",
+    "allowed_changes": [
+      "existing outline reinforcement",
+      "marker fill deepening",
+      "highlight sharpening",
+      "sticker shadow cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No bottle, cap, label, face, sun badge, color area, highlight, or shadow should first appear in the final image.",
+    "No frame may ink, fill, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same bottle pose, scale, and placement as the step frames."
+  ]
+}

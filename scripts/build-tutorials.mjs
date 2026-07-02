@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "sunscreen-bottle-sticker",
+    day: "020",
+    date: "Thursday, July 2",
+    isoDate: "2026-07-02",
+    subject: "a sunscreen bottle sticker",
+    headlineSubject: "a sunscreen<br>bottle sticker",
+    shortSubject: "a sunscreen bottle",
+    lessonTitle: "Let's doodle a sunscreen bottle sticker",
+    description: "Learn how to draw a sunscreen bottle sticker with a rounded bottle body, flip cap, blank label panel, wink expression, sun badge, thick black outline, yellow marker fill, blue accents, white highlights, and gray sticker shadow.",
+    intro: "Build a rounded bottle first, add the cap and blank label, then give it a wink, a sun badge, and bright marker color. Keep the label text-free so the face and shape stay playful.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f7c933",
+    finished: "sunscreen-bottle-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a yellow sunscreen bottle sticker with blue cap, blank label panel, wink expression, cheek dots, small sun badge, white highlights, gray shadow, and thick black outline",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, yellow for the bottle, blue for the cap and label edge, gray for the sticker shadow, and the gel pen only for small shine marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Shape the bottle",
+        text: "Draw a squat rounded bottle body with a slight sticker tilt and room for a face and label.",
+        tip: "Round the bottom corners more than the top corners. That gives the bottle a soft cartoon shape."
+      },
+      {
+        name: "Add cap and label",
+        text: "Add a flip cap on top and a blank rounded label panel across the front.",
+        tip: "Keep the label empty. A simple sun symbol later will read cleaner than tiny words."
+      },
+      {
+        name: "Give it a wink",
+        text: "Draw one open eye, one wink eye, raised brows, cheek dots, and a sideways grin above the label.",
+        tip: "This expression should feel different from a basic smiley face. Push the wink and cheek dots."
+      },
+      {
+        name: "Ink the sun badge",
+        text: "Add a small sun badge on the label, then trace the bottle, cap, label, and face with thick black marker.",
+        tip: "Ink only the shapes you already placed. The outline should make the sticker bolder, not redesign it."
+      },
+      {
+        name: "Fill the sunny colors",
+        text: "Fill the bottle yellow, add blue to the cap and label edge, leave white shine gaps, and add a gray sticker shadow.",
+        tip: "Let marker strokes show. A little streakiness keeps the bottle handmade."
+      },
+      {
+        name: "Seal the sunny sticker",
+        text: "Reinforce the existing outlines, deepen the marker fills, and sharpen the highlights and shadow already on the page.",
+        tip: "Stop before adding text or extra beach props. The wink, sun badge, and bright fill do the work.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "bubble-letter-wow-doodle",
+    day: "001",
+    date: "Saturday, June 13",
+    isoDate: "2026-06-13",
+    subject: "a bubble-letter WOW doodle",
+    headlineSubject: "a bubble-letter<br>WOW doodle",
+    shortSubject: "a WOW doodle",
+    lessonTitle: "Let's doodle a bubble-letter WOW",
+    description: "Learn how to draw a bubble-letter WOW doodle with light letter guides, rounded bubble outlines, thick black marker, comic burst marks, pink and orange fill, white shine gaps, and a purple drop shadow.",
+    intro: "Start with loose letter guides, puff them into bubble letters, then add comic bursts, loud marker color, shine gaps, and a drop shadow. Keep the letters chunky and readable before you decorate.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f04f9a",
+    finished: "bubble-letter-wow-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of the word WOW in pink and orange bubble letters with thick black outline, white shine gaps, purple drop shadow, comic burst marks, and visible marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline and burst marks, pink and orange for the letters, purple for the drop shadow, and the gel pen only for shine gaps if you do not leave them white.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Sketch the WOW",
+        text: "Write a light W O W guide across one baseline, leaving extra space around every letter.",
+        tip: "The guide can be loose. You are drawing a scaffold for bubble letters, not final handwriting."
+      },
+      {
+        name: "Bubble the letters",
+        text: "Wrap rounded outlines around each letter and keep the center of the O open.",
+        tip: "Make the W corners soft and puffy. Sharp zigzags will make the word feel less bubbly."
+      },
+      {
+        name: "Ink the word",
+        text: "Trace the bubble letters with a thick black marker, following the rounded outlines already on the page.",
+        tip: "Pause around the O center so the hole stays clear after the outline gets thicker."
+      },
+      {
+        name: "Pop the burst marks",
+        text: "Add small comic burst marks around the word without touching the letter shapes.",
+        tip: "Keep the bursts outside the word. They should make the WOW louder, not harder to read."
+      },
+      {
+        name: "Fill the loud color",
+        text: "Fill the W letters pink and the O orange, leave white shine gaps, and add a purple drop shadow behind the word.",
+        tip: "Color inside the black outline first, then add the shadow so it tucks behind the letters."
+      },
+      {
+        name: "Make the WOW shout",
+        text: "Reinforce the existing outline and burst marks, deepen the marker fills, and clean up the shine gaps and drop shadow.",
+        tip: "Do not add more words. One bold WOW with a few burst marks is easier to read.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "whoopee-cushion-sticker",
-    day: "018",
+    day: "019",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "001",
+    day: "002",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "017",
+    day: "018",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "002",
+    day: "003",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "003",
+    day: "004",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "016",
+    day: "017",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "015",
+    day: "016",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "014",
+    day: "015",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "013",
+    day: "014",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "012",
+    day: "013",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "011",
+    day: "012",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "010",
+    day: "011",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "009",
+    day: "010",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "006",
+    day: "007",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "004",
+    day: "005",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "005",
+    day: "006",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "007",
+    day: "008",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "008",
+    day: "009",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

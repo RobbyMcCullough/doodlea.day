@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a sunscreen bottle sticker</title>
+      <link>https://doodlea.day/tutorials/sunscreen-bottle-sticker.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/sunscreen-bottle-sticker.html</guid>
+      <pubDate>Thu, 02 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a sunscreen bottle sticker with a rounded bottle body, flip cap, blank label panel, wink expression, sun badge, thick black outline, yellow marker fill, blue accents, white highlights, and gray sticker shadow.</description>
+      <media:content url="https://doodlea.day/assets/sunscreen-bottle-sticker-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a whoopee cushion sticker</title>
       <link>https://doodlea.day/tutorials/whoopee-cushion-sticker.html</link>
@@ -150,6 +158,14 @@
       <pubDate>Sun, 14 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a retro arcade joystick sticker with a rounded base, joystick stem, red ball top, yellow buttons, cute face, star accent, thick black outline, teal marker fill, and gray shadow.</description>
       <media:content url="https://doodlea.day/assets/retro-arcade-joystick-sticker-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a bubble-letter WOW doodle</title>
+      <link>https://doodlea.day/tutorials/bubble-letter-wow-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/bubble-letter-wow-doodle.html</guid>
+      <pubDate>Sat, 13 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a bubble-letter WOW doodle with light letter guides, rounded bubble outlines, thick black marker, comic burst marks, pink and orange fill, white shine gaps, and a purple drop shadow.</description>
+      <media:content url="https://doodlea.day/assets/bubble-letter-wow-doodle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
