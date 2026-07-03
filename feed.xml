@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic firecracker doodle</title>
+      <link>https://doodlea.day/tutorials/comic-firecracker-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-firecracker-doodle.html</guid>
+      <pubDate>Fri, 03 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic firecracker doodle with a tilted cylinder body, wrapper bands, curved fuse, spark bursts, thick black outline, red and yellow marker fills, shine gaps, and a gray sticker shadow.</description>
+      <media:content url="https://doodlea.day/assets/comic-firecracker-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a sunscreen bottle sticker</title>
       <link>https://doodlea.day/tutorials/sunscreen-bottle-sticker.html</link>
@@ -182,6 +190,14 @@
       <pubDate>Thu, 11 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a red white and blue popsicle badge with a rounded body, wooden stick, thick black outline, horizontal bands, wavy melt edge, shine marks, marker texture, and sticker shadow.</description>
       <media:content url="https://doodlea.day/assets/red-white-blue-popsicle-badge-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a beach umbrella badge</title>
+      <link>https://doodlea.day/tutorials/beach-umbrella-badge.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/beach-umbrella-badge.html</guid>
+      <pubDate>Wed, 10 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a beach umbrella badge with a rounded canopy, scalloped edge, center pole, top knob, curved panel seams, thick black outline, bright marker fills, shine gaps, and a gray sticker shadow.</description>
+      <media:content url="https://doodlea.day/assets/beach-umbrella-badge-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

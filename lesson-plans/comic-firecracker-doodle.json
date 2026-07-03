@@ -1,0 +1,123 @@
+{
+  "slug": "comic-firecracker-doodle",
+  "finished": "assets/comic-firecracker-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet showing one comic firecracker doodle from construction to finished marker drawing.",
+    "notes": "Subject, pose, and final elements were locked before image generation for the July 3, 2026 current daily lesson."
+  },
+  "process_strategy": "The firecracker body, fuse, bands, sparks, marker color, and shadow appear before the final pass, which only thickens and cleans existing work.",
+  "final_elements": [
+    {
+      "name": "tilted firecracker body",
+      "introduced_by_step": 1,
+      "description": "A short diagonal cylinder with rounded ends."
+    },
+    {
+      "name": "top cap and wrapper bands",
+      "introduced_by_step": 2,
+      "description": "Cap and band lines wrapping around the firecracker body."
+    },
+    {
+      "name": "curved fuse",
+      "introduced_by_step": 3,
+      "description": "A bent fuse coming from one end of the firecracker."
+    },
+    {
+      "name": "spark bursts",
+      "introduced_by_step": 4,
+      "description": "Small star and dot bursts around the fuse tip."
+    },
+    {
+      "name": "red and yellow marker fills",
+      "introduced_by_step": 5,
+      "description": "Bright marker color on the existing body bands, cap, and sparks."
+    },
+    {
+      "name": "gray sticker shadow",
+      "introduced_by_step": 5,
+      "description": "A small offset shadow under the already drawn firecracker."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-firecracker-doodle-step-1.jpg",
+      "step_name": "Tilt the firecracker",
+      "visible_job": "Draws the diagonal cylinder body guide with rounded end caps.",
+      "introduces": [
+        "tilted firecracker body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-firecracker-doodle-step-2.jpg",
+      "step_name": "Wrap the bands",
+      "visible_job": "Adds cap and wrapper bands around the existing body.",
+      "introduces": [
+        "top cap and wrapper bands"
+      ],
+      "requires_prior_elements": [
+        "tilted firecracker body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-firecracker-doodle-step-3.jpg",
+      "step_name": "Bend the fuse",
+      "visible_job": "Adds a curved fuse and thickens the main outside marker line.",
+      "introduces": [
+        "curved fuse"
+      ],
+      "requires_prior_elements": [
+        "tilted firecracker body",
+        "top cap and wrapper bands"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-firecracker-doodle-step-4.jpg",
+      "step_name": "Pop the sparks",
+      "visible_job": "Adds star bursts and dot sparks near the already placed fuse tip.",
+      "introduces": [
+        "spark bursts"
+      ],
+      "requires_prior_elements": [
+        "curved fuse"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-firecracker-doodle-step-5.jpg",
+      "step_name": "Fill the fuse colors",
+      "visible_job": "Adds red and yellow marker fills, white shine gaps, marker streaks, and the existing-shape sticker shadow.",
+      "introduces": [
+        "red and yellow marker fills",
+        "gray sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "tilted firecracker body",
+        "top cap and wrapper bands",
+        "curved fuse",
+        "spark bursts"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Crackle the final doodle",
+    "asset": "assets/comic-firecracker-doodle-finished-v1.jpg",
+    "visible_job": "Thickens existing outlines and sharpens the already present bands, fuse, sparks, fills, highlights, and shadow.",
+    "allowed_changes": [
+      "outline thickening",
+      "marker fill deepening",
+      "small highlight cleanup",
+      "shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

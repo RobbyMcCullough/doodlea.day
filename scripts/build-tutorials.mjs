@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "red-white-blue-popsicle-badge",
+    slug: "comic-firecracker-doodle",
+    day: "024",
+    date: "Friday, July 3",
+    isoDate: "2026-07-03",
+    subject: "a comic firecracker doodle",
+    headlineSubject: "a comic<br>firecracker doodle",
+    shortSubject: "a firecracker doodle",
+    lessonTitle: "Let's doodle a comic firecracker",
+    description: "Learn how to draw a comic firecracker doodle with a tilted cylinder body, wrapper bands, curved fuse, spark bursts, thick black outline, red and yellow marker fills, shine gaps, and a gray sticker shadow.",
+    intro: "Build the firecracker as one tilted cylinder, bend the fuse, pop in a few sparks, then add loud marker color. Keep it text-free so the simple shape and fuse do the work.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e34132",
+    finished: "comic-firecracker-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a tilted red firecracker with yellow bands, curved fuse, star sparks, white shine gaps, thick black outline, marker texture, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, red for the body, yellow for the bands and sparks, gray for the shadow, and the gel pen only for small shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Tilt the firecracker",
+        text: "Draw a short diagonal cylinder with rounded end caps, leaving room above one end for the fuse.",
+        tip: "Set the angle first. A diagonal firecracker feels more comic and less like a plain tube."
+      },
+      {
+        name: "Wrap the bands",
+        text: "Add a cap and two wrapper bands around the cylinder, curving the lines with the body.",
+        tip: "Do not add words or tiny labels. Big simple bands are easier to color and read."
+      },
+      {
+        name: "Bend the fuse",
+        text: "Draw a curved fuse from the top end, then thicken the main outside line with black marker.",
+        tip: "Let the fuse bend like a candy cane. The curve makes the spark area clear."
+      },
+      {
+        name: "Pop the sparks",
+        text: "Add a few star bursts and dot sparks near the fuse tip, keeping them close to the curve.",
+        tip: "Use two or three bursts, not a full fireworks show. The firecracker should stay the main shape."
+      },
+      {
+        name: "Fill the fuse colors",
+        text: "Fill the body red, color the bands and sparks yellow, leave white shine gaps, and add a gray sticker shadow.",
+        tip: "Color with visible marker strokes. A little streakiness makes the doodle feel handmade."
+      },
+      {
+        name: "Crackle the final doodle",
+        text: "Reinforce the existing outlines, deepen the marker fills, sharpen the highlights, and darken the shadow already on the page.",
+        tip: "Stop before adding extra rockets or text. This last pass should make the same firecracker louder.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "beach-umbrella-badge",
     day: "001",
+    date: "Wednesday, June 10",
+    isoDate: "2026-06-10",
+    subject: "a beach umbrella badge",
+    headlineSubject: "a beach<br>umbrella badge",
+    shortSubject: "a beach umbrella",
+    lessonTitle: "Let's doodle a beach umbrella badge",
+    description: "Learn how to draw a beach umbrella badge with a rounded canopy, scalloped edge, center pole, top knob, curved panel seams, thick black outline, bright marker fills, shine gaps, and a gray sticker shadow.",
+    intro: "Start with one big canopy arc, scallop the bottom, then add the pole, panel seams, and sunny marker fills. Change the panel colors if you want; keep the seams clear before coloring.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#12aeb1",
+    finished: "beach-umbrella-badge-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a beach umbrella badge with scalloped canopy, curved panel seams, turquoise coral and yellow fills, white shine gaps, center pole, thick black outline, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, turquoise, coral, and yellow for the panels, brown for the pole, gray for the shadow, and the gel pen only for shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Arc the canopy",
+        text: "Draw a broad half-circle canopy guide, tilting it slightly so it feels like a sticker badge.",
+        tip: "Make the arc wide and simple. The umbrella needs room for colored panels later."
+      },
+      {
+        name: "Scallop the edge",
+        text: "Add soft scallops along the lower edge, then begin tracing the outside with a thick black line.",
+        tip: "Keep the scallops rounded. Sharp points can make the umbrella look like a crown."
+      },
+      {
+        name: "Drop the pole",
+        text: "Add a small top knob and a simple pole dropping from the middle of the canopy.",
+        tip: "Place the pole under the knob. That alignment keeps the umbrella balanced."
+      },
+      {
+        name: "Divide the panels",
+        text: "Draw curved panel seams from the top knob down to the scalloped edge.",
+        tip: "Curve the seams instead of drawing straight spokes. The canopy will feel rounder."
+      },
+      {
+        name: "Fill the beach colors",
+        text: "Fill alternating panels with bright marker colors, leave white shine gaps, color the pole, and add a gray sticker shadow.",
+        tip: "Pick any cheerful panel order, but color inside the seams you already drew."
+      },
+      {
+        name: "Snap the umbrella badge into place",
+        text: "Reinforce the existing outlines, deepen the marker fills, sharpen the shine gaps, and darken the shadow already on the page.",
+        tip: "Stop before adding sand, waves, or faces. The canopy shape is strong enough on its own.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "red-white-blue-popsicle-badge",
+    day: "002",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "002",
+    day: "003",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "022",
+    day: "023",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "003",
+    day: "004",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "021",
+    day: "022",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "004",
+    day: "005",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "005",
+    day: "006",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "019",
+    day: "020",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "018",
+    day: "019",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "017",
+    day: "018",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "016",
+    day: "017",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "015",
+    day: "016",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "012",
+    day: "013",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "009",
+    day: "010",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "008",
+    day: "009",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1079,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "010",
+    day: "011",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1132,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "011",
+    day: "012",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

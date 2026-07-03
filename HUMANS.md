@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-02
+- Date: 2026-07-03
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -29,6 +29,22 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-03 daily automation added two Doodlea lessons:
+  `comic-firecracker-doodle` as July 3, 2026 / Day 024 and
+  `beach-umbrella-badge` as June 10, 2026 / Day 001. Existing day labels
+  shifted forward by one.
+- July 3 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-03`, `python3 scripts/check-tutorial-readiness.py
+  comic-firecracker-doodle --base-url http://localhost:4174/`, and
+  `python3 scripts/check-tutorial-readiness.py beach-umbrella-badge --base-url
+  http://localhost:4174/`. Browser screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-03/`.
+- Finished image ratings: comic firecracker doodle 8.9/10 for strong marker
+  readability, clean no-text fuse/spark sequence, and bold color; beach umbrella
+  badge 8.8/10 for clear canopy construction, bright marker panels, and a
+  simple teachable sequence.
+- The temporary two-tutorial-per-site backfill cadence is still active until
+  the owner says otherwise.
 - 2026-07-02 cleanup follow-up promoted two previously unused generated images
   into Doodlea backfills: `red-white-blue-popsicle-badge` as June 11, 2026 /
   Day 001 and `cartoon-paint-splat-doodle` as June 12, 2026 / Day 002. Existing

@@ -1,0 +1,125 @@
+{
+  "slug": "beach-umbrella-badge",
+  "finished": "assets/beach-umbrella-badge-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet showing one beach umbrella badge from construction to finished marker drawing.",
+    "notes": "Subject, pose, and final elements were locked before image generation for the June 10, 2026 honest backfill lesson."
+  },
+  "process_strategy": "The umbrella canopy, scallops, pole, panel seams, marker colors, and sticker shadow are all introduced before the final cleanup pass.",
+  "final_elements": [
+    {
+      "name": "rounded umbrella canopy",
+      "introduced_by_step": 1,
+      "description": "A broad half-circle canopy tilted slightly like a sticker badge."
+    },
+    {
+      "name": "scalloped lower edge",
+      "introduced_by_step": 2,
+      "description": "Soft scallops along the bottom of the canopy."
+    },
+    {
+      "name": "center pole and knob",
+      "introduced_by_step": 3,
+      "description": "A simple pole below the canopy and a small top knob."
+    },
+    {
+      "name": "radiating panel seams",
+      "introduced_by_step": 4,
+      "description": "Curved panel seam lines spreading from the top knob to the scallops."
+    },
+    {
+      "name": "bright marker panel colors",
+      "introduced_by_step": 5,
+      "description": "Alternating turquoise, coral, and yellow marker fills on existing canopy panels."
+    },
+    {
+      "name": "gray sticker shadow",
+      "introduced_by_step": 5,
+      "description": "A small offset shadow behind the already drawn umbrella."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/beach-umbrella-badge-step-1.jpg",
+      "step_name": "Arc the canopy",
+      "visible_job": "Draws the rounded canopy guide as one broad half-circle.",
+      "introduces": [
+        "rounded umbrella canopy"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/beach-umbrella-badge-step-2.jpg",
+      "step_name": "Scallop the edge",
+      "visible_job": "Adds the scalloped lower canopy edge and starts the thick outer line.",
+      "introduces": [
+        "scalloped lower edge"
+      ],
+      "requires_prior_elements": [
+        "rounded umbrella canopy"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/beach-umbrella-badge-step-3.jpg",
+      "step_name": "Drop the pole",
+      "visible_job": "Adds the center pole and top knob to the existing canopy.",
+      "introduces": [
+        "center pole and knob"
+      ],
+      "requires_prior_elements": [
+        "rounded umbrella canopy",
+        "scalloped lower edge"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/beach-umbrella-badge-step-4.jpg",
+      "step_name": "Divide the panels",
+      "visible_job": "Adds curved panel seams from the knob down to the scalloped edge.",
+      "introduces": [
+        "radiating panel seams"
+      ],
+      "requires_prior_elements": [
+        "rounded umbrella canopy",
+        "scalloped lower edge",
+        "center pole and knob"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/beach-umbrella-badge-step-5.jpg",
+      "step_name": "Fill the beach colors",
+      "visible_job": "Adds alternating bright marker fills, white shine gaps, marker streaks, and a gray sticker shadow to existing shapes.",
+      "introduces": [
+        "bright marker panel colors",
+        "gray sticker shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded umbrella canopy",
+        "scalloped lower edge",
+        "center pole and knob",
+        "radiating panel seams"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Snap the umbrella badge into place",
+    "asset": "assets/beach-umbrella-badge-finished-v1.jpg",
+    "visible_job": "Thickens the existing outlines and sharpens the already present panels, fills, shine gaps, pole, and shadow.",
+    "allowed_changes": [
+      "outline thickening",
+      "marker fill deepening",
+      "small highlight cleanup",
+      "shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
