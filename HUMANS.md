@@ -29,6 +29,14 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-03 unused-asset follow-up: removed stale public asset images that were
+  not referenced by lesson data, generated pages, CSS, JSON, XML, or docs:
+  `marker-flames-contact-sheet.png`, `smiling-pizza-slice-doodle-finished-v1.jpg`,
+  and inherited `logo-pencil.svg`.
+- Added `scripts/check-unused-assets.py` and wired it into
+  `scripts/check-tutorial-readiness.py`, so future daily readiness checks fail
+  if public `assets/` images are left unused. Draft contact sheets remain
+  intentionally retained under `drafts/` as reviewed process sources.
 - 2026-07-03 daily automation added two Doodlea lessons:
   `comic-firecracker-doodle` as July 3, 2026 / Day 024 and
   `beach-umbrella-badge` as June 10, 2026 / Day 001. Existing day labels

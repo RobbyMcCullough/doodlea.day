@@ -202,6 +202,7 @@ def main() -> int:
         ]),
         check_json_and_privacy(slug),
         check_cove_links(slug, base_url),
+        run(["python3", "scripts/check-unused-assets.py"]),
         run(["git", "diff", "--check"]),
     ]
     if all(checks):
