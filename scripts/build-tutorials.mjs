@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "beach-bucket-doodle",
+    day: "001",
+    date: "Monday, June 8",
+    isoDate: "2026-06-08",
+    subject: "a beach bucket doodle",
+    headlineSubject: "a beach<br>bucket doodle",
+    shortSubject: "a beach bucket",
+    lessonTitle: "Let's doodle a beach bucket",
+    description: "Learn how to draw a beach bucket doodle with a tilted bucket body, thick rim, arched handle, small shovel, stripe, sand dots, bright marker fills, shine gaps, and a gray sticker shadow.",
+    intro: "Build the bucket as a tilted cup, swing the handle over it, then tuck a little shovel beside it before adding beachy marker color. Change the bucket colors if you want; keep the rim, handle, and shovel readable.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#16aeb7",
+    finished: "beach-bucket-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a turquoise beach bucket with orange handle and stripe, yellow shovel, sand dots, white shine gaps, marker texture, thick black outline, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, turquoise for the bucket, orange for the handle and stripe, yellow for the shovel, gray for the shadow, and the gel pen only for small shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the bucket",
+        text: "Draw a tilted bucket body with a wide top ellipse, tapered sides, and a curved lower edge.",
+        tip: "Set the tilt early. A slight lean makes the bucket feel playful instead of like a plain flowerpot."
+      },
+      {
+        name: "Add rim and base",
+        text: "Wrap a thick rounded rim around the opening and clean up the bucket base.",
+        tip: "Let the rim follow the same ellipse as the opening. Matching curves make the bucket feel round."
+      },
+      {
+        name: "Swing the handle",
+        text: "Draw a tall arched handle over the bucket and add small side attachment circles.",
+        tip: "The handle should attach near the rim on both sides. Keep it open enough that it does not crowd the bucket."
+      },
+      {
+        name: "Tuck in beach details",
+        text: "Add a small shovel leaning beside the bucket, a simple stripe around the middle, sand dots, and thick black outlines.",
+        tip: "Keep the shovel smaller than the bucket. It should support the doodle, not become the main object."
+      },
+      {
+        name: "Fill the beach colors",
+        text: "Fill the bucket turquoise, the handle and stripe orange, the shovel yellow, then leave shine gaps and add a gray sand shadow.",
+        tip: "Marker streaks are fine. Color inside the shapes you already built so the doodle stays crisp."
+      },
+      {
+        name: "Pop the beach bucket",
+        text: "Reinforce the existing black outlines, deepen the marker fills, sharpen the shine gaps, and strengthen the sand shadow.",
+        tip: "Stop before adding waves or lettering. The bucket, handle, shovel, and sand dots already tell the beach story.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "parade-drum-doodle",
+    day: "002",
+    date: "Tuesday, June 9",
+    isoDate: "2026-06-09",
+    subject: "a parade drum doodle",
+    headlineSubject: "a parade<br>drum doodle",
+    shortSubject: "a parade drum",
+    lessonTitle: "Let's doodle a parade drum",
+    description: "Learn how to draw a parade drum doodle with a round drum shell, top and bottom rims, side lugs, crossed drumsticks, center star, bold marker fills, shine gaps, and a sticker shadow.",
+    intro: "Start with a simple drum cylinder, stack on the rims and lugs, then cross the sticks and drop a star on the front before coloring it like a parade badge. Keep the shapes big and graphic so the marker finish stays readable.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e2a322",
+    finished: "parade-drum-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a blue parade drum with gold rims and star, red side straps, crossed tan drumsticks, white shine gaps, thick black outline, marker texture, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, blue for the shell, gold or yellow for the rims and star, red for the straps, tan for the sticks, gray for the shadow, and the gel pen only for shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the drum body",
+        text: "Draw a short drum cylinder with a broad top ellipse, straight side edges, and a curved lower edge.",
+        tip: "Keep the drum squat and wide. A tall tube will not feel as much like a marching drum."
+      },
+      {
+        name: "Band the rims",
+        text: "Add thick top and bottom rim bands that follow the curve of the drum body.",
+        tip: "Curve the bands with the ellipse. Straight bands flatten the drum."
+      },
+      {
+        name: "Mark straps and lugs",
+        text: "Place round lugs around the rims and connect them with simple vertical straps.",
+        tip: "Use fewer, bigger lugs. Tiny dots disappear once the marker color goes in."
+      },
+      {
+        name: "Cross the sticks",
+        text: "Add two rounded drumsticks crossing over the top rim, then draw a big star badge on the front.",
+        tip: "Let the sticks sit above the top ellipse. That overlap makes them feel like real objects on the drum."
+      },
+      {
+        name: "Fill the parade colors",
+        text: "Fill the shell blue, the rims and star gold, the straps red, the sticks tan, then leave shine gaps and add a sticker shadow.",
+        tip: "Color in broad strokes. The doodle should look bold from across the room."
+      },
+      {
+        name: "Make the drum march",
+        text: "Reinforce the existing black outlines, deepen the marker colors, sharpen the highlights, and darken the sticker shadow.",
+        tip: "Stop before adding words, flags, or extra confetti. The star, sticks, and bright rims already carry the parade energy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "comic-firecracker-doodle",
-    day: "024",
+    day: "026",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "001",
+    day: "003",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "002",
+    day: "004",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "003",
+    day: "005",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "023",
+    day: "025",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "004",
+    day: "006",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "022",
+    day: "024",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "005",
+    day: "007",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "021",
+    day: "023",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "006",
+    day: "008",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "007",
+    day: "009",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "020",
+    day: "022",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "019",
+    day: "021",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "018",
+    day: "020",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "017",
+    day: "019",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "016",
+    day: "018",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "015",
+    day: "017",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "014",
+    day: "016",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "013",
+    day: "015",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "010",
+    day: "012",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1079,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "008",
+    day: "010",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1132,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "009",
+    day: "011",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1185,7 +1291,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "011",
+    day: "013",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1238,7 +1344,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "012",
+    day: "014",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",
@@ -1300,7 +1406,7 @@ const relatedCards = (currentSlug) => lessons
   .slice(0, 3)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
-      <div class="card-art"><img src="../assets/${lesson.finished}" alt=""></div>
+      <div class="card-art"><img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>
       <p>${lesson.time} min · ${lesson.difficulty}</p>
       <h3>How to draw ${lesson.shortSubject}</h3>
     </a>`)
@@ -1769,7 +1875,7 @@ ${plausibleTag}
         <a class="nav-button hero-button" href="#tutorial-library">Choose a doodle <span aria-hidden="true">↓</span></a>
       </div>
       <div class="archive-stack" aria-hidden="true">
-        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt=""></div>`).join("")}
+        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>`).join("")}
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">

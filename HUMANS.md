@@ -29,6 +29,24 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-03 owner-requested image promotion: restored two previously unused
+  cached generated contact sheets and published them as honest Doodlea archive
+  backfills, with no new image generation: `beach-bucket-doodle` as June 8,
+  2026 / Day 001 and `parade-drum-doodle` as June 9, 2026 / Day 002. Existing
+  day labels shifted forward by two, so July 3 is now Day 026.
+- The source sheets are preserved under `drafts/{slug}/`; cropped public
+  assets are `assets/{slug}-step-1.jpg` through `step-5.jpg` and
+  `assets/{slug}-finished-v1.jpg`. Finished image ratings: beach bucket doodle
+  8.7/10; parade drum doodle 8.8/10.
+- The generated card templates now use each lesson's `finishedAlt` for related
+  and archive-strip thumbnails, fixing the empty-alt issue caught during
+  browser QA. Desktop/mobile Cove QA for homepage, library, and the two new
+  pages passed with no broken images, no horizontal overflow, valid JSON-LD,
+  and no missing thumbnail alt text.
+- The temporary two-tutorial-per-site backfill cadence is still active until
+  the owner says otherwise. Future runs should treat generated but unused image
+  sheets as a stop condition: promote them, document a rejection, or get owner
+  direction before generating replacement subjects.
 - 2026-07-03 unused-asset follow-up: removed stale public asset images that were
   not referenced by lesson data, generated pages, CSS, JSON, XML, or docs:
   `marker-flames-contact-sheet.png`, `smiling-pizza-slice-doodle-finished-v1.jpg`,

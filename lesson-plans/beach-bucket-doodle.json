@@ -1,0 +1,131 @@
+{
+  "slug": "beach-bucket-doodle",
+  "finished": "assets/beach-bucket-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker process contact sheet generated in Codex image generation and saved under drafts/beach-bucket-doodle before cropping.",
+    "notes": "Promoted from a previously generated alternate sheet after owner requested these unused image tutorials be backfilled."
+  },
+  "process_strategy": "The same tilted bucket builds from blue construction lines to handle, shovel, sand, marker fills, shine gaps, and final outline cleanup.",
+  "final_elements": [
+    {
+      "name": "tilted bucket body",
+      "introduced_by_step": 1,
+      "description": "A simple tapered bucket body with a tilted top ellipse and curved base."
+    },
+    {
+      "name": "thick bucket rim",
+      "introduced_by_step": 2,
+      "description": "A rounded top rim that wraps around the bucket opening."
+    },
+    {
+      "name": "arched handle",
+      "introduced_by_step": 3,
+      "description": "A high curved handle with side attachment circles."
+    },
+    {
+      "name": "small sand shovel",
+      "introduced_by_step": 4,
+      "description": "A little shovel leaning beside the bucket with a handle and scoop."
+    },
+    {
+      "name": "bucket stripe and sand dots",
+      "introduced_by_step": 4,
+      "description": "A horizontal stripe on the bucket and small ground dots around the base."
+    },
+    {
+      "name": "bright marker fills",
+      "introduced_by_step": 5,
+      "description": "Turquoise bucket color, orange handle and stripe, yellow shovel, and gray sand shadow."
+    },
+    {
+      "name": "white shine gaps",
+      "introduced_by_step": 5,
+      "description": "Small uncolored highlight gaps on the bucket and handle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/beach-bucket-doodle-step-1.jpg",
+      "step_name": "Block the bucket",
+      "visible_job": "Places the tilted bucket body with a top ellipse, tapered sides, base curve, and center guide.",
+      "introduces": [
+        "tilted bucket body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/beach-bucket-doodle-step-2.jpg",
+      "step_name": "Add rim and base",
+      "visible_job": "Clarifies the bucket body and adds the thick rounded rim around the opening.",
+      "introduces": [
+        "thick bucket rim"
+      ],
+      "requires_prior_elements": [
+        "tilted bucket body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/beach-bucket-doodle-step-3.jpg",
+      "step_name": "Swing the handle",
+      "visible_job": "Adds the arched handle and side attachment circles to the existing bucket rim.",
+      "introduces": [
+        "arched handle"
+      ],
+      "requires_prior_elements": [
+        "tilted bucket body",
+        "thick bucket rim"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/beach-bucket-doodle-step-4.jpg",
+      "step_name": "Tuck in beach details",
+      "visible_job": "Adds the leaning shovel, bucket stripe, small sand dots, and thick black outlines.",
+      "introduces": [
+        "small sand shovel",
+        "bucket stripe and sand dots"
+      ],
+      "requires_prior_elements": [
+        "tilted bucket body",
+        "thick bucket rim",
+        "arched handle"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/beach-bucket-doodle-step-5.jpg",
+      "step_name": "Fill the beach colors",
+      "visible_job": "Adds marker fills, visible streaks, white shine gaps, and the sand shadow to existing shapes.",
+      "introduces": [
+        "bright marker fills",
+        "white shine gaps"
+      ],
+      "requires_prior_elements": [
+        "tilted bucket body",
+        "arched handle",
+        "small sand shovel",
+        "bucket stripe and sand dots"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Pop the beach bucket",
+    "asset": "assets/beach-bucket-doodle-finished-v1.jpg",
+    "visible_job": "Only reinforces existing black outlines, deepens marker fills, sharpens shine gaps, and strengthens the sand shadow.",
+    "allowed_changes": [
+      "black outline reinforcement",
+      "marker fill deepening",
+      "white shine gap sharpening",
+      "sand shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

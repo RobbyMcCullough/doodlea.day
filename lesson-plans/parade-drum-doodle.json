@@ -1,0 +1,132 @@
+{
+  "slug": "parade-drum-doodle",
+  "finished": "assets/parade-drum-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker process contact sheet generated in Codex image generation and saved under drafts/parade-drum-doodle before cropping.",
+    "notes": "Promoted from a previously generated alternate sheet after owner requested these unused image tutorials be backfilled."
+  },
+  "process_strategy": "The same drum pose builds from cylinder guides to rims, lugs, crossed sticks, center star, marker fills, and final black outline cleanup.",
+  "final_elements": [
+    {
+      "name": "round drum shell",
+      "introduced_by_step": 1,
+      "description": "A short cylindrical drum body with a broad top ellipse and curved lower edge."
+    },
+    {
+      "name": "top and bottom rims",
+      "introduced_by_step": 2,
+      "description": "Thick bands around the top and bottom of the drum shell."
+    },
+    {
+      "name": "side lugs and straps",
+      "introduced_by_step": 3,
+      "description": "Round lug buttons and vertical side straps spaced across the drum."
+    },
+    {
+      "name": "crossed drumsticks",
+      "introduced_by_step": 4,
+      "description": "Two rounded sticks crossing over the top of the drum."
+    },
+    {
+      "name": "center star badge",
+      "introduced_by_step": 4,
+      "description": "A large star placed on the front center of the drum shell."
+    },
+    {
+      "name": "parade marker colors",
+      "introduced_by_step": 5,
+      "description": "Blue shell, gold rims and star, red straps, tan sticks, and visible marker streaks."
+    },
+    {
+      "name": "sticker shadow and shine",
+      "introduced_by_step": 5,
+      "description": "Small white highlight gaps and a gray sticker-style shadow around the drum."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/parade-drum-doodle-step-1.jpg",
+      "step_name": "Block the drum body",
+      "visible_job": "Places the short drum shell cylinder using an ellipse, side edges, base curve, and center guide.",
+      "introduces": [
+        "round drum shell"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/parade-drum-doodle-step-2.jpg",
+      "step_name": "Band the rims",
+      "visible_job": "Adds thick top and bottom rim bands that follow the existing drum cylinder.",
+      "introduces": [
+        "top and bottom rims"
+      ],
+      "requires_prior_elements": [
+        "round drum shell"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/parade-drum-doodle-step-3.jpg",
+      "step_name": "Mark straps and lugs",
+      "visible_job": "Places round lugs and vertical straps across the existing drum front and sides.",
+      "introduces": [
+        "side lugs and straps"
+      ],
+      "requires_prior_elements": [
+        "round drum shell",
+        "top and bottom rims"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/parade-drum-doodle-step-4.jpg",
+      "step_name": "Cross the sticks",
+      "visible_job": "Adds two crossed drumsticks over the top rim and a center star badge on the shell.",
+      "introduces": [
+        "crossed drumsticks",
+        "center star badge"
+      ],
+      "requires_prior_elements": [
+        "round drum shell",
+        "top and bottom rims",
+        "side lugs and straps"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/parade-drum-doodle-step-5.jpg",
+      "step_name": "Fill the parade colors",
+      "visible_job": "Adds parade marker colors, visible marker texture, white shine gaps, and sticker shadow to existing shapes.",
+      "introduces": [
+        "parade marker colors",
+        "sticker shadow and shine"
+      ],
+      "requires_prior_elements": [
+        "round drum shell",
+        "top and bottom rims",
+        "side lugs and straps",
+        "crossed drumsticks",
+        "center star badge"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the drum march",
+    "asset": "assets/parade-drum-doodle-finished-v1.jpg",
+    "visible_job": "Only reinforces existing black outlines, deepens marker colors, sharpens highlights, and darkens the sticker shadow.",
+    "allowed_changes": [
+      "black outline reinforcement",
+      "marker color deepening",
+      "highlight sharpening",
+      "sticker shadow darkening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
