@@ -1,0 +1,128 @@
+{
+  "slug": "cartoon-barbecue-grill-doodle",
+  "finished": "assets/cartoon-barbecue-grill-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker process contact sheet generated for a locked Doodlea.day current lesson, then cropped into public step frames and a finished image.",
+    "notes": "Chosen for July 4 because backyard grilling is a natural seasonal hook and avoids repeating recent firecracker, firework, popsicle, beach, drum, and sticker-face lessons."
+  },
+  "process_strategy": "A six-panel process builds a rounded kettle grill from bowl and lid shapes, then adds legs, wheels, grate, smoke curls, marker fills, and final outline cleanup.",
+  "final_elements": [
+    {
+      "name": "round grill bowl and lid",
+      "introduced_by_step": 1,
+      "description": "A simple round kettle grill body with a domed lid shape."
+    },
+    {
+      "name": "short legs and wheels",
+      "introduced_by_step": 2,
+      "description": "Three short supports with two small wheels under the grill."
+    },
+    {
+      "name": "handle and vent",
+      "introduced_by_step": 3,
+      "description": "A lid handle and small vent marks on the domed top."
+    },
+    {
+      "name": "grate and flame marks",
+      "introduced_by_step": 4,
+      "description": "A simple grate line and small flame shapes inside the open front area."
+    },
+    {
+      "name": "smoke curls",
+      "introduced_by_step": 4,
+      "description": "A few curved smoke lines rising from the grill."
+    },
+    {
+      "name": "red and charcoal marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold red marker on the grill shell, dark charcoal legs and grate, orange flames, and gray smoke."
+    },
+    {
+      "name": "white shine gaps",
+      "introduced_by_step": 5,
+      "description": "Small uncolored or gel-pen shine gaps on the existing grill shell."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-barbecue-grill-doodle-step-1.jpg",
+      "step_name": "Block the kettle",
+      "visible_job": "Places the round grill bowl and domed lid guide.",
+      "introduces": [
+        "round grill bowl and lid"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-barbecue-grill-doodle-step-2.jpg",
+      "step_name": "Set legs and wheels",
+      "visible_job": "Adds short supports and small wheels under the existing grill body.",
+      "introduces": [
+        "short legs and wheels"
+      ],
+      "requires_prior_elements": [
+        "round grill bowl and lid"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-barbecue-grill-doodle-step-3.jpg",
+      "step_name": "Add handle and vent",
+      "visible_job": "Adds the lid handle, vent dots, and clearer keeper outline.",
+      "introduces": [
+        "handle and vent"
+      ],
+      "requires_prior_elements": [
+        "round grill bowl and lid"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-barbecue-grill-doodle-step-4.jpg",
+      "step_name": "Add grate and smoke",
+      "visible_job": "Adds the grate, flame shapes, and smoke curls to existing grill parts.",
+      "introduces": [
+        "grate and flame marks",
+        "smoke curls"
+      ],
+      "requires_prior_elements": [
+        "round grill bowl and lid"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-barbecue-grill-doodle-step-5.jpg",
+      "step_name": "Fill the grill colors",
+      "visible_job": "Adds red, charcoal, orange, gray, and shine accents only to shapes already present.",
+      "introduces": [
+        "red and charcoal marker fills",
+        "white shine gaps"
+      ],
+      "requires_prior_elements": [
+        "round grill bowl and lid",
+        "short legs and wheels",
+        "grate and flame marks",
+        "smoke curls"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the grill sizzle",
+    "asset": "assets/cartoon-barbecue-grill-doodle-finished-v1.jpg",
+    "visible_job": "Only thickens the existing black outlines, deepens the marker fills, sharpens shine gaps, and strengthens the sticker shadow.",
+    "allowed_changes": [
+      "thicker keeper outlines",
+      "marker fill deepening",
+      "small shine-gap cleanup",
+      "smoke and flame emphasis",
+      "gray sticker-shadow emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No new leg, wheel, handle, grate, smoke curl, flame, or color area should first appear in the final image.",
+    "The grill must keep the same rounded kettle shape, angle, and scale in every frame.",
+    "The finish must look like a handmade marker doodle, not a clean vector icon or polished poster."
+  ]
+}

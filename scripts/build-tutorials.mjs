@@ -18,8 +18,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "beach-bucket-doodle",
+    slug: "cartoon-cactus-sticker",
     day: "001",
+    date: "Sunday, June 7",
+    isoDate: "2026-06-07",
+    subject: "a cartoon cactus sticker",
+    headlineSubject: "a cartoon<br>cactus sticker",
+    shortSubject: "a cactus sticker",
+    lessonTitle: "Let's doodle a cartoon cactus sticker",
+    description: "Learn how to draw a cartoon cactus sticker with a squat flower pot, tall rounded cactus stem, side arms, spine dashes, top flower, bright marker fills, shine gaps, and a gray sticker shadow.",
+    intro: "Start with the pot, grow the cactus upward, then add arms, spines, a tiny flower, and bold marker color. This version stays face-free, but you can change the flower color or pot stripe once the cactus shape is clear.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#75b83c",
+    finished: "cartoon-cactus-sticker-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a potted cactus sticker with terracotta flower pot, green rounded cactus stem and arms, black spine dashes, pink flower, white shine gaps, thick black outline, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline and spines, green for the cactus, terracotta orange for the pot, pink for the flower, gray for the shadow, and the gel pen only for shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the pot",
+        text: "Draw a squat flower pot with a thick rim, tapered sides, and a simple base line.",
+        tip: "Keep the pot wide enough to hold the cactus. A tiny pot makes the sticker feel top-heavy."
+      },
+      {
+        name: "Grow the main stem",
+        text: "Add a tall rounded cactus stem rising from behind the pot rim.",
+        tip: "Round the top generously. The soft shape keeps the cactus friendly without needing a face."
+      },
+      {
+        name: "Add cactus arms",
+        text: "Draw two rounded side arms attached to the main stem, keeping them a little uneven.",
+        tip: "Mismatched arm heights look more handmade. Just keep both arms clearly attached to the stem."
+      },
+      {
+        name: "Dot spines and flower",
+        text: "Add short black spine dashes on the cactus, then place a small flower at the top.",
+        tip: "Use fewer, bigger spine marks. Tiny spikes can vanish once the green marker goes in."
+      },
+      {
+        name: "Fill the desert colors",
+        text: "Fill the cactus green, the pot terracotta, the flower pink, then leave shine gaps and add a gray sticker shadow.",
+        tip: "Color inside the shapes you already built. Visible marker streaks make the cactus feel hand-doodled."
+      },
+      {
+        name: "Pop the cactus sticker",
+        text: "Reinforce the existing black outlines, deepen the marker fills, sharpen the shine gaps, and strengthen the sticker shadow.",
+        tip: "Stop before adding sunglasses, eyes, or a desert scene. The pot, arms, flower, and spines are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "beach-bucket-doodle",
+    day: "002",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -125,7 +178,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "026",
+    day: "027",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -177,8 +230,61 @@ const lessons = [
     ]
   },
   {
+    slug: "cartoon-barbecue-grill-doodle",
+    day: "028",
+    date: "Saturday, July 4",
+    isoDate: "2026-07-04",
+    subject: "a cartoon barbecue grill doodle",
+    headlineSubject: "a cartoon barbecue<br>grill doodle",
+    shortSubject: "a grill doodle",
+    lessonTitle: "Let's doodle a cartoon barbecue grill",
+    description: "Learn how to draw a cartoon barbecue grill doodle with a round kettle body, domed lid, short legs, wheels, handle, vent dots, grate, flames, smoke curls, red marker fill, shine gaps, and a sticker shadow.",
+    intro: "Build the grill as one round kettle, stand it on short legs, then add the handle, grate, little flames, smoke, and bright marker color. Keep it text-free and face-free so the simple barbecue shape does the work.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e33f32",
+    finished: "cartoon-barbecue-grill-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a red kettle barbecue grill with domed lid, black handle and vent dots, short legs, two wheels, grate, orange flames, gray smoke curls, white shine gaps, thick black outline, and gray sticker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, handle, grate, legs, and wheels; red for the grill shell; orange for the flames; gray for smoke and shadow; and the gel pen only for shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the kettle",
+        text: "Draw a round grill bowl with a domed lid, using one wide circle-like shape and a band through the middle.",
+        tip: "Keep the body big and simple. The grill should read before you add any details."
+      },
+      {
+        name: "Set legs and wheels",
+        text: "Add short angled legs under the bowl, a small crossbar, and two little wheels on one side.",
+        tip: "Make the wheels bigger than tiny dots. Bold wheel shapes hold up better after marker color."
+      },
+      {
+        name: "Add handle and vent",
+        text: "Place a rounded handle on the lid, add small vent dots, and thicken the main outside outline.",
+        tip: "Put the handle on top of the dome, not floating above it. That overlap sells the kettle shape."
+      },
+      {
+        name: "Add grate and smoke",
+        text: "Draw a simple grate across the opening, tuck in small flame shapes, and curl a few smoke lines upward.",
+        tip: "Keep the smoke to two or three curves. Too many curls can crowd the grill."
+      },
+      {
+        name: "Fill the grill colors",
+        text: "Fill the shell red, the legs and grate charcoal, the flames orange, the smoke gray, then leave shine gaps and add a sticker shadow.",
+        tip: "Color in broad marker strokes. The streaks make the grill feel handmade instead of printed."
+      },
+      {
+        name: "Make the grill sizzle",
+        text: "Reinforce the existing black outlines, deepen the marker fills, sharpen the shine gaps, and strengthen the smoke, flames, and shadow already on the page.",
+        tip: "Stop before adding burgers, words, or a full backyard. The round kettle, flames, and smoke tell the barbecue story.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "beach-umbrella-badge",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "004",
+    day: "005",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "005",
+    day: "006",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "025",
+    day: "026",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "006",
+    day: "007",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "024",
+    day: "025",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "007",
+    day: "008",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "023",
+    day: "024",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "008",
+    day: "009",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "022",
+    day: "023",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "021",
+    day: "022",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "020",
+    day: "021",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "019",
+    day: "020",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "018",
+    day: "019",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "017",
+    day: "018",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1079,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "015",
+    day: "016",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1132,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "012",
+    day: "013",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1185,7 +1291,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1238,7 +1344,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "011",
+    day: "012",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1291,7 +1397,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "013",
+    day: "014",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1344,7 +1450,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "014",
+    day: "015",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

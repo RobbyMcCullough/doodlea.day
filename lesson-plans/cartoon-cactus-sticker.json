@@ -1,0 +1,129 @@
+{
+  "slug": "cartoon-cactus-sticker",
+  "finished": "assets/cartoon-cactus-sticker-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel marker process contact sheet generated for an honest Doodlea.day archive backfill, then cropped into public step frames and a finished image.",
+    "notes": "Chosen as a simple non-face marker sticker subject that differs from recent beach, firework, food, gadget, and speech-bubble lessons."
+  },
+  "process_strategy": "A six-panel process builds a potted cactus sticker from pot and cactus lobes, then adds arms, spines, flower, marker fills, shine gaps, and final outline cleanup.",
+  "final_elements": [
+    {
+      "name": "small flower pot",
+      "introduced_by_step": 1,
+      "description": "A squat trapezoid pot with a thick rim."
+    },
+    {
+      "name": "main cactus stem",
+      "introduced_by_step": 2,
+      "description": "A tall rounded cactus stem rising from the pot."
+    },
+    {
+      "name": "side cactus arms",
+      "introduced_by_step": 3,
+      "description": "Two rounded side arms attached to the main cactus."
+    },
+    {
+      "name": "spine marks",
+      "introduced_by_step": 4,
+      "description": "Short black dash spines placed on the existing cactus shapes."
+    },
+    {
+      "name": "top flower",
+      "introduced_by_step": 4,
+      "description": "A small flower on the cactus top."
+    },
+    {
+      "name": "green and terracotta marker fills",
+      "introduced_by_step": 5,
+      "description": "Bright green marker on the cactus, terracotta on the pot, pink on the flower, and gray sticker shadow."
+    },
+    {
+      "name": "white shine gaps",
+      "introduced_by_step": 5,
+      "description": "Small shine gaps on the existing marker-filled cactus and pot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-cactus-sticker-step-1.jpg",
+      "step_name": "Block the pot",
+      "visible_job": "Places the pot rim, tapered pot body, and base guide.",
+      "introduces": [
+        "small flower pot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-cactus-sticker-step-2.jpg",
+      "step_name": "Grow the main stem",
+      "visible_job": "Adds the tall rounded cactus stem rising from the pot.",
+      "introduces": [
+        "main cactus stem"
+      ],
+      "requires_prior_elements": [
+        "small flower pot"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-cactus-sticker-step-3.jpg",
+      "step_name": "Add cactus arms",
+      "visible_job": "Adds two rounded side arms attached to the main cactus.",
+      "introduces": [
+        "side cactus arms"
+      ],
+      "requires_prior_elements": [
+        "main cactus stem"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-cactus-sticker-step-4.jpg",
+      "step_name": "Dot spines and flower",
+      "visible_job": "Adds small spine dashes to existing cactus parts and a little top flower.",
+      "introduces": [
+        "spine marks",
+        "top flower"
+      ],
+      "requires_prior_elements": [
+        "main cactus stem",
+        "side cactus arms"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-cactus-sticker-step-5.jpg",
+      "step_name": "Fill the desert colors",
+      "visible_job": "Adds green, terracotta, pink, gray, and shine accents only to shapes already present.",
+      "introduces": [
+        "green and terracotta marker fills",
+        "white shine gaps"
+      ],
+      "requires_prior_elements": [
+        "small flower pot",
+        "main cactus stem",
+        "side cactus arms",
+        "top flower"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Pop the cactus sticker",
+    "asset": "assets/cartoon-cactus-sticker-finished-v1.jpg",
+    "visible_job": "Only thickens the existing black outlines, deepens the marker fills, sharpens shine gaps, and strengthens the sticker shadow.",
+    "allowed_changes": [
+      "thicker keeper outlines",
+      "marker fill deepening",
+      "small shine-gap cleanup",
+      "spine-mark emphasis",
+      "gray sticker-shadow emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No new pot, cactus arm, spine system, flower, or color area should first appear in the final image.",
+    "The cactus must keep the same pot, stem, arm placement, scale, and front-facing angle in every frame.",
+    "The finish must look like a handmade marker sticker, not a clean vector icon or polished poster."
+  ]
+}

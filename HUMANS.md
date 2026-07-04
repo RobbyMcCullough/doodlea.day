@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-03
+- Date: 2026-07-04
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -29,6 +29,23 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-04 daily automation added two Doodlea lessons:
+  `cartoon-barbecue-grill-doodle` as July 4, 2026 / Day 028 and
+  `cartoon-cactus-sticker` as June 7, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 4 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-04`, `python3 scripts/check-tutorial-readiness.py
+  cartoon-barbecue-grill-doodle`, and `python3 scripts/check-tutorial-readiness.py
+  cartoon-cactus-sticker`. The in-app browser rejected the Cove cert as
+  `ERR_CERT_DATE_INVALID`, so rendered desktop/mobile QA used the existing
+  fallback server on `http://localhost:4174/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-04/`.
+- Finished image ratings: cartoon barbecue grill doodle 8.9/10 for strong
+  marker readability, stable kettle-grill process, and clear July 4 seasonal
+  fit; cartoon cactus sticker 8.8/10 for bold face-free sticker shape, clean
+  pot/stem/arm progression, and bright marker texture.
+- The temporary two-tutorial-per-site backfill cadence is still active until
+  the owner says otherwise.
 - 2026-07-03 owner-requested image promotion: restored two previously unused
   cached generated contact sheets and published them as honest Doodlea archive
   backfills, with no new image generation: `beach-bucket-doodle` as June 8,
