@@ -3,15 +3,15 @@
   "finished": "assets/cartoon-barbecue-grill-doodle-finished-v1.jpg",
   "source": {
     "type": "generated-raster-contact-sheet",
-    "description": "Six-panel marker process contact sheet generated for a locked Doodlea.day current lesson, then cropped into public step frames and a finished image.",
-    "notes": "Chosen for July 4 because backyard grilling is a natural seasonal hook and avoids repeating recent firecracker, firework, popsicle, beach, drum, and sticker-face lessons."
+    "description": "Six-panel marker process contact sheet regenerated for an owner-requested correction, then cropped into public step frames and a finished image.",
+    "notes": "Corrected after review because the original July 4 grill looked like a lid was sitting behind the grate and flames. The replacement keeps the grill open with no lid behind the fire."
   },
-  "process_strategy": "A six-panel process builds a rounded kettle grill from bowl and lid shapes, then adds legs, wheels, grate, smoke curls, marker fills, and final outline cleanup.",
+  "process_strategy": "A six-panel process builds an open kettle grill bowl first, then adds legs, wheels, rim, grate, flames, smoke curls, marker fills, and final outline cleanup without placing a lid behind the fire.",
   "final_elements": [
     {
-      "name": "round grill bowl and lid",
+      "name": "open round grill bowl",
       "introduced_by_step": 1,
-      "description": "A simple round kettle grill body with a domed lid shape."
+      "description": "A red open kettle grill bowl with a clear top rim and no lid sitting behind the flames."
     },
     {
       "name": "short legs and wheels",
@@ -19,14 +19,14 @@
       "description": "Three short supports with two small wheels under the grill."
     },
     {
-      "name": "handle and vent",
+      "name": "top rim and side handles",
       "introduced_by_step": 3,
-      "description": "A lid handle and small vent marks on the domed top."
+      "description": "A thick rim around the open bowl plus small side handles attached to the bowl."
     },
     {
       "name": "grate and flame marks",
       "introduced_by_step": 4,
-      "description": "A simple grate line and small flame shapes inside the open front area."
+      "description": "A simple grate sitting across the open top with small flame shapes rising above it."
     },
     {
       "name": "smoke curls",
@@ -48,10 +48,10 @@
     {
       "step": 1,
       "asset": "assets/cartoon-barbecue-grill-doodle-step-1.jpg",
-      "step_name": "Block the kettle",
-      "visible_job": "Places the round grill bowl and domed lid guide.",
+      "step_name": "Block the grill bowl",
+      "visible_job": "Places the open round grill bowl guide with a clear top opening.",
       "introduces": [
-        "round grill bowl and lid"
+        "open round grill bowl"
       ]
     },
     {
@@ -63,19 +63,19 @@
         "short legs and wheels"
       ],
       "requires_prior_elements": [
-        "round grill bowl and lid"
+        "open round grill bowl"
       ]
     },
     {
       "step": 3,
       "asset": "assets/cartoon-barbecue-grill-doodle-step-3.jpg",
-      "step_name": "Add handle and vent",
-      "visible_job": "Adds the lid handle, vent dots, and clearer keeper outline.",
+      "step_name": "Add rim and handles",
+      "visible_job": "Adds a thick top rim and small side handles to the existing open bowl.",
       "introduces": [
-        "handle and vent"
+        "top rim and side handles"
       ],
       "requires_prior_elements": [
-        "round grill bowl and lid"
+        "open round grill bowl"
       ]
     },
     {
@@ -88,7 +88,8 @@
         "smoke curls"
       ],
       "requires_prior_elements": [
-        "round grill bowl and lid"
+        "open round grill bowl",
+        "top rim and side handles"
       ]
     },
     {
@@ -101,8 +102,9 @@
         "white shine gaps"
       ],
       "requires_prior_elements": [
-        "round grill bowl and lid",
+        "open round grill bowl",
         "short legs and wheels",
+        "top rim and side handles",
         "grate and flame marks",
         "smoke curls"
       ]
@@ -111,7 +113,7 @@
   "final_step": {
     "step_name": "Make the grill sizzle",
     "asset": "assets/cartoon-barbecue-grill-doodle-finished-v1.jpg",
-    "visible_job": "Only thickens the existing black outlines, deepens the marker fills, sharpens shine gaps, and strengthens the sticker shadow.",
+    "visible_job": "Only thickens the existing black outlines, deepens the marker fills, sharpens shine gaps, and strengthens the smoke, flame, and sticker shadow accents.",
     "allowed_changes": [
       "thicker keeper outlines",
       "marker fill deepening",
@@ -121,8 +123,9 @@
     ]
   },
   "rejection_checks": [
-    "No new leg, wheel, handle, grate, smoke curl, flame, or color area should first appear in the final image.",
-    "The grill must keep the same rounded kettle shape, angle, and scale in every frame.",
+    "No new leg, wheel, rim, side handle, grate, smoke curl, flame, or color area should first appear in the final image.",
+    "The grill must keep the same open bowl shape, angle, and scale in every frame.",
+    "No domed lid should sit behind the grate or flames.",
     "The finish must look like a handmade marker doodle, not a clean vector icon or polished poster."
   ]
 }

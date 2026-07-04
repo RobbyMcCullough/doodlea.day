@@ -238,21 +238,21 @@ const lessons = [
     headlineSubject: "a cartoon barbecue<br>grill doodle",
     shortSubject: "a grill doodle",
     lessonTitle: "Let's doodle a cartoon barbecue grill",
-    description: "Learn how to draw a cartoon barbecue grill doodle with a round kettle body, domed lid, short legs, wheels, handle, vent dots, grate, flames, smoke curls, red marker fill, shine gaps, and a sticker shadow.",
-    intro: "Build the grill as one round kettle, stand it on short legs, then add the handle, grate, little flames, smoke, and bright marker color. Keep it text-free and face-free so the simple barbecue shape does the work.",
+    description: "Learn how to draw a cartoon barbecue grill doodle with an open kettle bowl, thick rim, side handles, short legs, wheels, grate, flames, smoke curls, red marker fill, shine gaps, and a sticker shadow.",
+    intro: "Build the grill as an open bowl, stand it on short legs, then add the rim, grate, little flames, smoke, and bright marker color. Keep it text-free and face-free so the simple barbecue shape does the work.",
     time: 15,
     difficulty: "Easy",
     accent: "#e33f32",
     finished: "cartoon-barbecue-grill-doodle-finished-v1.jpg",
-    finishedAlt: "Bold marker doodle of a red kettle barbecue grill with domed lid, black handle and vent dots, short legs, two wheels, grate, orange flames, gray smoke curls, white shine gaps, thick black outline, and gray sticker shadow",
+    finishedAlt: "Bold marker doodle of an open red kettle barbecue grill with thick rim, side handles, short legs, two wheels, black grate, orange flames, gray smoke curls, white shine gaps, thick black outline, and gray sticker shadow",
     materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
-    materialNote: "Use black for the outline, handle, grate, legs, and wheels; red for the grill shell; orange for the flames; gray for smoke and shadow; and the gel pen only for shine gaps.",
+    materialNote: "Use black for the outline, rim, grate, legs, and wheels; red for the grill bowl; orange for the flames; gray for smoke and shadow; and the gel pen only for shine gaps.",
     tipLabel: "Doodle tip",
     steps: [
       {
-        name: "Block the kettle",
-        text: "Draw a round grill bowl with a domed lid, using one wide circle-like shape and a band through the middle.",
-        tip: "Keep the body big and simple. The grill should read before you add any details."
+        name: "Block the grill bowl",
+        text: "Draw a wide open bowl with an oval top opening and a rounded lower curve.",
+        tip: "Keep the top opening clear. This is an open grill, so do not add a lid behind the fire."
       },
       {
         name: "Set legs and wheels",
@@ -260,24 +260,24 @@ const lessons = [
         tip: "Make the wheels bigger than tiny dots. Bold wheel shapes hold up better after marker color."
       },
       {
-        name: "Add handle and vent",
-        text: "Place a rounded handle on the lid, add small vent dots, and thicken the main outside outline.",
-        tip: "Put the handle on top of the dome, not floating above it. That overlap sells the kettle shape."
+        name: "Add rim and handles",
+        text: "Thicken the top rim around the open bowl, then add small side handles attached to the left and right edges.",
+        tip: "Keep the handles on the bowl sides. The whole top should stay open for the grate and flames."
       },
       {
         name: "Add grate and smoke",
-        text: "Draw a simple grate across the opening, tuck in small flame shapes, and curl a few smoke lines upward.",
-        tip: "Keep the smoke to two or three curves. Too many curls can crowd the grill."
+        text: "Draw a simple grate across the open top, place small flame shapes above it, and curl a few smoke lines to the side.",
+        tip: "Let the flames sit on the grate, not in front of a lid. Two or three smoke curves are enough."
       },
       {
         name: "Fill the grill colors",
-        text: "Fill the shell red, the legs and grate charcoal, the flames orange, the smoke gray, then leave shine gaps and add a sticker shadow.",
+        text: "Fill the bowl red, the legs and grate charcoal, the flames orange, the smoke gray, then leave shine gaps and add a sticker shadow.",
         tip: "Color in broad marker strokes. The streaks make the grill feel handmade instead of printed."
       },
       {
         name: "Make the grill sizzle",
         text: "Reinforce the existing black outlines, deepen the marker fills, sharpen the shine gaps, and strengthen the smoke, flames, and shadow already on the page.",
-        tip: "Stop before adding burgers, words, or a full backyard. The round kettle, flames, and smoke tell the barbecue story.",
+        tip: "Stop before adding a lid, burgers, words, or a full backyard. The open bowl, grate, flames, and smoke tell the barbecue story.",
         image: true
       }
     ]

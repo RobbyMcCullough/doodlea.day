@@ -29,6 +29,19 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-04 owner-requested correction: replaced
+  `cartoon-barbecue-grill-doodle` art and copy because the original looked like
+  a domed lid was sitting behind the grate and flames. The revised lesson uses
+  an open grill bowl, top rim, side handles, grate, flames, smoke, legs, wheels,
+  and marker fill with no lid behind the fire.
+- Correction QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-04 --allow-existing-current-slug
+  cartoon-barbecue-grill-doodle`, `python3 scripts/check-tutorial-readiness.py
+  cartoon-barbecue-grill-doodle --base-url http://localhost:4174/`, reviewed
+  `/tmp/cartoon-barbecue-grill-doodle-steps.jpg`, and ran focused desktop/mobile
+  browser QA under `/tmp/bbq-doodle-fix-qa-2026-07-04/`.
+- Revised barbecue finished image rating: 9.0/10 for clear open-bowl structure,
+  correct grate/flame placement, bold marker texture, and no misleading lid.
 - 2026-07-04 daily automation added two Doodlea lessons:
   `cartoon-barbecue-grill-doodle` as July 4, 2026 / Day 028 and
   `cartoon-cactus-sticker` as June 7, 2026 / Day 001 honest archive backfill.
