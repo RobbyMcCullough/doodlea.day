@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
 const siteName = "Doodlea.day";
-const styleVersion = "20260704-polish-2";
+const styleVersion = "20260704-library-compact";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
 const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
@@ -2012,22 +2012,17 @@ ${plausibleTag}
   <main>
     <section class="archive-hero" aria-labelledby="archive-title">
       <div class="archive-intro">
-        <p class="eyebrow"><span>${archiveLessons.length} tutorial${archiveLessons.length === 1 ? "" : "s"}</span> Marker-first and cartoon-friendly</p>
-        <h1 id="archive-title" aria-label="The doodle library"><span class="headline-lead">The doodle</span> <em aria-hidden="true"><span>library</span></em></h1>
-        <p>Start anywhere. Every lesson gives you a small, finishable practice round so daily practice can build into bolder lines, clearer shapes, brighter color, and more playful drawing ideas.</p>
-        <a class="nav-button hero-button" href="#tutorial-library">Choose a doodle <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="archive-stack" aria-hidden="true">
-        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254"></div>`).join("")}
+        <p class="eyebrow"><span>${archiveLessons.length} step-by-step lesson${archiveLessons.length === 1 ? "" : "s"}</span> New marker doodles added daily</p>
+        <h1 id="archive-title">Doodle tutorial library</h1>
+        <p>Browse easy step-by-step doodle tutorials for quick marker practice. Each Doodlea.day lesson breaks cartoon objects, comic marks, expressive faces, and playful drawing ideas into approachable frames for simple shapes, bold outlines, bright color, and a finished doodle.</p>
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
       <header class="section-heading library-heading">
         <div>
-          <p class="kicker">Pick a page</p>
-          <h2 id="tutorial-library-title">Practice your way through the days</h2>
+          <p class="kicker">All tutorials</p>
+          <h2 id="tutorial-library-title">Step-by-step doodle lessons</h2>
         </div>
-        <p class="archive-count">Newest first · ${archiveLessons.length} lesson</p>
       </header>
       <div class="library-grid archive-grid">
         ${archiveLessons.map(archiveCard).join("")}

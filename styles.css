@@ -990,22 +990,18 @@ a {
 }
 
 .archive-hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(380px, .8fr);
-  align-items: center;
-  gap: clamp(3rem, 8vw, 8rem);
-  width: min(1080px, calc(100% - 40px));
-  min-height: 610px;
+  width: min(1040px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 85px 0 110px;
+  padding: 54px 0 30px;
 }
 
 .archive-intro h1 {
-  margin: .8rem 0 2rem;
+  max-width: 880px;
+  margin: .65rem 0 1.15rem;
   font-family: var(--display);
-  font-size: clamp(5rem, 9vw, 8.5rem);
+  font-size: clamp(3.65rem, 7vw, 6.25rem);
   font-weight: 400;
-  line-height: .9;
+  line-height: .92;
   letter-spacing: 0;
   text-wrap: balance;
 }
@@ -1029,59 +1025,10 @@ a {
 }
 
 .archive-intro > p:not(.eyebrow) {
-  max-width: 610px;
+  max-width: 820px;
   color: var(--muted);
-  font-size: 1.08rem;
-  line-height: 1.7;
 }
 
-.archive-stack {
-  position: relative;
-  min-height: 410px;
-}
-
-.archive-sheet {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: min(310px, 72vw);
-  padding: 18px 18px 42px;
-  background: var(--paper-light);
-  box-shadow: 10px 14px 28px rgba(48, 45, 39, .17);
-}
-
-.archive-sheet::after {
-  position: absolute;
-  right: 18px;
-  bottom: 14px;
-  color: var(--orange);
-  font-family: var(--display);
-  font-size: 1.1rem;
-  content: "daily doodle";
-}
-
-.archive-sheet:nth-child(1) {
-  z-index: 3;
-  transform: translate(-45%, -47%) rotate(3deg);
-}
-
-.archive-sheet:nth-child(2) {
-  z-index: 2;
-  transform: translate(-67%, -54%) rotate(-8deg);
-}
-
-.archive-sheet:nth-child(3) {
-  z-index: 1;
-  transform: translate(-29%, -55%) rotate(11deg);
-}
-
-.archive-sheet img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
-  object-fit: contain;
-  mix-blend-mode: multiply;
-}
 
 .archive-library {
   min-height: 620px;
@@ -1859,8 +1806,7 @@ a {
   }
 
   .archive-hero {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    padding-top: 48px;
   }
 
   .archive-grid {
@@ -1974,37 +1920,16 @@ a {
   }
 
   .archive-hero {
-    grid-template-columns: 1fr;
     width: min(100% - 36px, 620px);
-    min-height: 0;
-    padding: 60px 0 55px;
+    padding: 34px 0 14px;
   }
 
   .archive-intro h1 {
-    font-size: clamp(5rem, 22vw, 7rem);
-  }
-
-  .archive-stack {
-    width: min(100%, 340px);
-    min-height: 360px;
-    margin: 15px auto 0;
-  }
-
-  .archive-sheet {
-    width: min(270px, 66vw);
-    padding: 15px 15px 36px;
-  }
-
-  .archive-sheet:nth-child(3) {
-    transform: translate(-36%, -55%) rotate(11deg);
+    font-size: clamp(3rem, 15vw, 4.2rem);
   }
 
   .archive-library {
-    padding-top: 80px;
-  }
-
-  .archive-count {
-    margin-top: 1.5rem;
+    padding-top: 28px;
   }
 
   .archive-grid {
@@ -2187,10 +2112,11 @@ a {
   flex-direction: column;
   gap: 6px;
   padding: 16px 22px;
-  background: var(--paper-light);
+  background: var(--button-bg);
   border: 2px solid var(--ink);
   text-decoration: none;
-  color: var(--ink);
+  color: var(--button-text);
+  text-shadow: 0 1px 0 rgba(40, 37, 31, .26);
   box-shadow: 4px 4px 0 var(--ink);
   transition:
     box-shadow .16s ease,
@@ -2199,6 +2125,7 @@ a {
 
 .pagination-link:hover,
 .pagination-link:focus-visible {
+  background: var(--button-bg-hover);
   box-shadow: 2px 2px 0 var(--ink);
   transform: translate(2px, 2px);
 }
@@ -2218,7 +2145,7 @@ a {
   font-weight: 700;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--muted);
+  opacity: .78;
 }
 
 .pagination-title {
