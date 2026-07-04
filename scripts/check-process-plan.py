@@ -62,7 +62,11 @@ class StepParser(HTMLParser):
 
 
 def normalize_src(src: str) -> str:
-    return re.sub(r"^\.\./", "", src.strip())
+    # Pages serve WebP derivatives, but process plans (and the reviewed
+    # masters in assets/) stay JPG. Map a page .webp back to its .jpg master
+    # so plan/page comparisons keep working.
+    normalized = re.sub(r"^\.\./", "", src.strip())
+    return re.sub(r"\.webp$", ".jpg", normalized)
 
 
 def normalize_text(value: str) -> str:

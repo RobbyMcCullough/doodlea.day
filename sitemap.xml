@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://doodlea.day/</loc>
     <lastmod>2026-07-04</lastmod>
@@ -23,167 +23,671 @@
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-barbecue-grill-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/comic-firecracker-doodle.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-firecracker-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/sunscreen-bottle-sticker.html</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/sunscreen-bottle-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/whoopee-cushion-sticker.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/whoopee-cushion-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-asteroid-doodle.html</loc>
     <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-asteroid-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/comic-camera-flash-doodle.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-camera-flash-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cassette-tape-sticker.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cassette-tape-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/skateboard-sticker-doodle.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/skateboard-sticker-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-coconut-drink.html</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-coconut-drink-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/smiling-pizza-slice-doodle.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-finished-v2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-pizza-slice-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/hot-rod-marker-flames.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/hot-rod-marker-flames-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/firework-burst-doodle.html</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/firework-burst-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/trophy-cup-sticker.html</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/trophy-cup-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/silly-robot-head.html</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/silly-robot-head-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/watermelon-wedge-doodle.html</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/watermelon-wedge-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/goofy-monster-face.html</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/goofy-monster-face-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/smiling-cloud-doodle.html</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-cloud-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/rainbow-lightning-bolt-badge.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/rainbow-lightning-bolt-badge-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/smiling-envelope-sticker.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/smiling-envelope-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/comic-chat-bubble-doodle.html</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/comic-chat-bubble-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/retro-arcade-joystick-sticker.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/retro-arcade-joystick-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/bubble-letter-wow-doodle.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/bubble-letter-wow-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-paint-splat-doodle.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-paint-splat-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/red-white-blue-popsicle-badge.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/red-white-blue-popsicle-badge-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/beach-umbrella-badge.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-umbrella-badge-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/parade-drum-doodle.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/parade-drum-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/beach-bucket-doodle.html</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/beach-bucket-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-cactus-sticker.html</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cactus-sticker-step-5.webp</image:loc>
+    </image:image>
   </url>
 </urlset>

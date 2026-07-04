@@ -17,3 +17,14 @@ jobs:
           script: |
             cd /var/www/doodlea.day
             git pull origin main
+
+      - name: Checkout for IndexNow diff
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      # Notifies Bing/Yandex and other IndexNow engines about changed pages so
+      # daily lessons get crawled same-day. Google discovers via the sitemap.
+      - name: Submit changed pages to IndexNow
+        continue-on-error: true
+        run: python3 scripts/submit-indexnow.py --since HEAD^

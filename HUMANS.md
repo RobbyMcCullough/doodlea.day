@@ -2,9 +2,38 @@
 
 ## Last Accessed
 - Date: 2026-07-04
-- Agent harness: Codex
-- Harness project/session name: Daily sketch and doodle lessons
+- Agent harness: Claude Cowork
+- Harness project/session name: sketcha.day session (sister-site parity mirror)
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
+- Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
+
+### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
+- Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
+- New hard gates against unused generated art: `drafts/LEDGER.json` (27
+  entries, all published), `scripts/check-drafts-ledger.py` (runs inside
+  readiness), and `scripts/preflight-image-generation.py` (mandatory before
+  ANY image generation; locks the slug, blocks while unresolved art exists).
+- Images: pages serve WebP derivatives of the JPG masters
+  (`scripts/build-image-derivatives.py`, ~36MB -> ~10MB) plus 1200x630 Open
+  Graph cards at `assets/social/` (`scripts/make-social-cards.py`).
+  `check-process-plan.py` maps page `.webp` back to `.jpg` masters.
+- SEO: image-sitemap entries per lesson, prev/next daily-doodle links on
+  tutorial pages, hero preload + `fetchpriority="high"`, og:image
+  width/height/alt, IndexNow ping in `deploy.yml`
+  (`scripts/submit-indexnow.py`, key file at site root).
+- Also fixed a stretched library archive-sheet bug both sites shared
+  (`.archive-sheet img` needed `height: auto` once width/height attributes
+  were added) and updated AGENTS.md's stale Cloudflare/dist deployment note
+  to match `DEPLOYMENT.md` (Caddy serves the repo root).
+- Full readiness passed: `check-tutorial-readiness.py
+  cartoon-barbecue-grill-doodle` (fallback server QA).
+- Owner-requested polish: pagination links restyled to the ink-border/
+  hard-shadow button language, newsletter margin, and a `fitHeadlineLines()`
+  routine in `script.js` that shrinks hero headline lines that would overlap
+  the hero art (the barbecue grill page was overlapping).
+- Owner direction (2026-07-04): avoid "sticker"/"badge" framing for new
+  lessons — no sticker titles, die-cut borders, or badge frames. Recorded in
+  `AGENTS.md` and `DAILY-PUBLISHING.md`; existing sticker lessons stay.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local

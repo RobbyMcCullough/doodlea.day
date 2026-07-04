@@ -29,3 +29,26 @@ signupForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   formMessage.textContent = "The daily email list is coming soon.";
 });
+
+// Shrink manual headline lines that would otherwise overlap the hero art.
+// Lines never wrap internally by design, so scale the font down to fit the
+// heading's column instead.
+const fitHeadlineLines = () => {
+  document.querySelectorAll(".hero h1").forEach((heading) => {
+    const available = heading.getBoundingClientRect().width;
+    if (!available) return;
+    heading.querySelectorAll("em .headline-line").forEach((line) => {
+      line.style.fontSize = "";
+      // Lines are block-level with nowrap text, so the overflowing content
+      // width is scrollWidth, not the bounding-box width.
+      const width = line.scrollWidth;
+      if (width > available) {
+        const current = parseFloat(getComputedStyle(line).fontSize);
+        line.style.fontSize = `${Math.floor(current * (available / width) * 100) / 100}px`;
+      }
+    });
+  });
+};
+fitHeadlineLines();
+window.addEventListener("resize", fitHeadlineLines);
+document.fonts?.ready.then(fitHeadlineLines);

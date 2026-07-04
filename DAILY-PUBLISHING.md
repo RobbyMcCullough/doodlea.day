@@ -16,8 +16,12 @@ already told the reader to thicken the full outline.
 
 ## Doodle Direction
 
-- Favor cartoons, comic-style marks, icons, badges, expressive symbols, playful
+- Favor cartoons, comic-style marks, icons, expressive symbols, playful
   lettering forms, and bold abstract shapes.
+- Avoid "sticker" and "badge" framing (owner direction, 2026-07-04): no
+  sticker/badge lesson titles, die-cut borders, badge frames, or sticker-style
+  outlines around the subject. Existing published sticker lessons stay, but new
+  lessons should draw the subject itself.
 - Use thick black marker outlines and saturated marker fills.
 - Keep the process fast: usually 10-20 minutes and 5-7 steps.
 - Treat each tutorial as a suggested path, not a fixed design. Doodlea should
@@ -46,7 +50,7 @@ already told the reader to thicken the full outline.
   lessons and change at least two visible expression features: eye shape, eye
   size, eye spacing, pupil direction, eyebrows, cheek marks, mouth shape, teeth,
   tongue, wink, asymmetry, or head tilt. Avoid repeatedly using the same two-dot
-  eyes plus small U-smile, especially on sticker-like objects such as chat
+  eyes plus small U-smile, especially on simple objects such as chat
   bubbles, controllers, envelopes, cameras, clouds, and food.
 
 ## Routine
@@ -83,12 +87,25 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    eyes and a U-smile, pick a visibly different expression such as a wink,
    tongue-out grin, toothy smile, side-eye, raised brows, mismatched eyes, or
    cheeky smirk.
-7. Lock the exact publish slugs before generating any image. A normal run should
-   generate art only for the approved current slug and approved backfill slug.
+7. Lock the exact publish slugs before generating any image by running the
+   mandatory pre-flight gate for each approved slug:
+
+```sh
+python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD
+```
+
+   The gate fails when unresolved generated art exists in `drafts/`
+   (`drafts/LEDGER.json`), when the slug is already published, or when the
+   daily slot is taken, and it records the slug lock in the ledger. A normal
+   run generates art only for the locked current slug and locked backfill slug.
    Do not create speculative contact sheets, backup subjects, or alternate
-   directions. If an image is generated and then not used, stop before any new
-   image generation and either promote it into a validated tutorial, document a
-   quality/duplicate rejection in `HUMANS.md`, or get owner direction.
+   directions. If generated art ends up unused, resolve its ledger entry
+   before any new generation: promote it into a validated tutorial, set a
+   `rejected-quality`/`rejected-duplicate` status with a note (and mirror the
+   reasoning in `HUMANS.md`), set a `scheduled` status with a `release_date`,
+   or get owner direction. Prefer repairing a failed panel (see
+   `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
+   swap after failed art is itself a rejection that must be recorded.
 8. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
@@ -99,11 +116,20 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    use the final panel as the finished image.
 11. Rate the saved finished image. It must be at least 8/10 for readability,
    character, marker quality, tutorial fit, composition, and difficulty balance.
-12. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, and run:
+12. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, then
+   build the delivery images: `python3 scripts/build-image-derivatives.py`
+   (WebP served by pages; the JPGs stay as reviewed masters) and
+   `python3 scripts/make-social-cards.py` (1200x630 Open Graph cards). Both
+   are idempotent and also run inside the readiness check. Commit them with
+   the lesson, then run:
 
 ```sh
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
+
+   That command also validates `drafts/LEDGER.json`; after a lesson publishes,
+   its ledger entry must read `published` (the next pre-flight heals this
+   automatically when the tutorial page exists).
 
 13. QA `https://doodlea.localhost/`, `https://doodlea.localhost/library.html`, and
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.

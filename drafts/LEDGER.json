@@ -1,0 +1,86 @@
+{
+  "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
+  "entries": {
+    "beach-bucket-doodle": {
+      "status": "published"
+    },
+    "beach-umbrella-badge": {
+      "status": "published"
+    },
+    "bubble-letter-wow-doodle": {
+      "status": "published"
+    },
+    "cartoon-asteroid-doodle": {
+      "status": "published"
+    },
+    "cartoon-barbecue-grill-doodle": {
+      "status": "published"
+    },
+    "cartoon-cactus-sticker": {
+      "status": "published"
+    },
+    "cartoon-coconut-drink": {
+      "status": "published"
+    },
+    "cartoon-paint-splat-doodle": {
+      "status": "published"
+    },
+    "cassette-tape-sticker": {
+      "status": "published"
+    },
+    "comic-camera-flash-doodle": {
+      "status": "published"
+    },
+    "comic-chat-bubble-doodle": {
+      "status": "published"
+    },
+    "comic-firecracker-doodle": {
+      "status": "published"
+    },
+    "firework-burst-doodle": {
+      "status": "published"
+    },
+    "goofy-monster-face": {
+      "status": "published"
+    },
+    "parade-drum-doodle": {
+      "status": "published"
+    },
+    "rainbow-lightning-bolt-badge": {
+      "status": "published"
+    },
+    "red-white-blue-popsicle-badge": {
+      "status": "published"
+    },
+    "retro-arcade-joystick-sticker": {
+      "status": "published"
+    },
+    "silly-robot-head": {
+      "status": "published"
+    },
+    "skateboard-sticker-doodle": {
+      "status": "published"
+    },
+    "smiling-cloud-doodle": {
+      "status": "published"
+    },
+    "smiling-envelope-sticker": {
+      "status": "published"
+    },
+    "smiling-pizza-slice-doodle": {
+      "status": "published"
+    },
+    "sunscreen-bottle-sticker": {
+      "status": "published"
+    },
+    "trophy-cup-sticker": {
+      "status": "published"
+    },
+    "watermelon-wedge-doodle": {
+      "status": "published"
+    },
+    "whoopee-cushion-sticker": {
+      "status": "published"
+    }
+  }
+}

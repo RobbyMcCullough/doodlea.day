@@ -37,11 +37,30 @@ def main() -> int:
     ]
     haystack = "\n".join(path.read_text(encoding="utf-8", errors="ignore") for path in text_files)
 
+    def referenced(path: Path) -> bool:
+        relative = path.relative_to(ROOT).as_posix()
+        return relative in haystack or path.name in haystack
+
+    def sibling_names(path: Path) -> list[str]:
+        """JPG masters and their WebP derivatives count as one asset.
+
+        Pages serve the .webp derivative while the .jpg stays in assets/ as
+        the reviewed master (and og/RSS/social-card source), so a reference
+        to either format keeps both in use.
+        """
+        if path.suffix.lower() == ".webp":
+            return [path.with_suffix(ext).name for ext in (".jpg", ".jpeg", ".png")]
+        if path.suffix.lower() in {".jpg", ".jpeg", ".png"}:
+            return [path.with_suffix(".webp").name]
+        return []
+
     unused = []
     for asset in assets:
-        relative = asset.relative_to(ROOT).as_posix()
-        if relative not in haystack and asset.name not in haystack:
-            unused.append(relative)
+        if referenced(asset):
+            continue
+        if any(name in haystack for name in sibling_names(asset)):
+            continue
+        unused.append(asset.relative_to(ROOT).as_posix())
 
     if unused:
         print("FAIL unused public asset images:")

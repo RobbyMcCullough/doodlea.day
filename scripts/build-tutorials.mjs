@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
 const siteName = "Doodlea.day";
-const styleVersion = "20260629-material-icons-2";
+const styleVersion = "20260704-polish-2";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
 const plausibleDomain = process.env.PLAUSIBLE_DOMAIN || siteUrl.replace(/^https?:\/\//, "");
@@ -1512,11 +1512,33 @@ const relatedCards = (currentSlug) => lessons
   .slice(0, 3)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
-      <div class="card-art"><img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>
+      <div class="card-art"><img src="../assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254" loading="lazy"></div>
       <p>${lesson.time} min · ${lesson.difficulty}</p>
       <h3>How to draw ${lesson.shortSubject}</h3>
     </a>`)
   .join("");
+
+// Previous/next daily-lesson links (by publish date) for crawl depth and
+// session length. archiveLessons is newest-first, so index-1 is the newer
+// lesson and index+1 is the older one.
+const lessonPagination = (lesson) => {
+  const index = archiveLessons.findIndex(({ slug }) => slug === lesson.slug);
+  if (index === -1) return "";
+  const newer = index > 0 ? archiveLessons[index - 1] : null;
+  const older = index < archiveLessons.length - 1 ? archiveLessons[index + 1] : null;
+  if (!newer && !older) return "";
+  const link = (item, rel, label) => (item
+    ? `<a class="pagination-link pagination-${rel}" rel="${rel}" href="${item.slug}.html">
+          <span class="pagination-label">${label}</span>
+          <span class="pagination-title">${rel === "prev" ? '<span aria-hidden="true">&larr;</span> ' : ""}How to draw ${escapeHtml(item.shortSubject)}${rel === "next" ? ' <span aria-hidden="true">&rarr;</span>' : ""}</span>
+        </a>`
+    : '<span class="pagination-link pagination-empty" aria-hidden="true"></span>');
+  return `
+    <nav class="lesson-pagination" aria-label="Nearby daily doodles">
+        ${link(older, "prev", "Previous doodle")}
+        ${link(newer, "next", "Next doodle")}
+    </nav>`;
+};
 
 const materialIcon = (material) => {
   const normalized = material.toLowerCase();
@@ -1567,6 +1589,17 @@ const escapeXml = (value) => String(value)
   .replaceAll("'", "&apos;");
 const lessonUrl = (lesson) => `${siteUrl}/tutorials/${lesson.slug}.html`;
 const lessonImageUrl = (lesson) => `${siteUrl}/assets/${lesson.finished}`;
+// Pages serve WebP derivatives (built by scripts/build-image-derivatives.py);
+// the JPGs stay in assets/ as the reviewed masters and feed og/RSS/social cards.
+const webpName = (file) => file.replace(/\.jpe?g$/i, ".webp");
+// 1200x630 landscape Open Graph card, built by scripts/make-social-cards.py.
+const socialCardUrl = (lesson) => `${siteUrl}/assets/social/${lesson.slug}-og.jpg`;
+// Raster step frames follow the step's 1-based position in lesson.steps.
+const stepImageUrls = (lesson) => lesson.steps
+  .map((step, index) => (step.svg || step.image
+    ? null
+    : `${siteUrl}/assets/${lesson.slug}-step-${index + 1}.webp`))
+  .filter(Boolean);
 const rssPubDate = (isoDate) => new Date(`${isoDate}T12:00:00-07:00`).toUTCString();
 
 const orgNode = {
@@ -1597,7 +1630,7 @@ const page = (lesson) => {
         "@id": `${lessonUrl(lesson)}#howto`,
         name: `How to Draw ${titleSubject}`,
         description: lesson.description,
-        image: `${siteUrl}/assets/${lesson.finished}`,
+        image: [`${siteUrl}/assets/${lesson.finished}`, socialCardUrl(lesson)],
         datePublished: lesson.isoDate,
         dateModified: lesson.updated || lesson.isoDate,
         author: { "@id": `${siteUrl}/#organization` },
@@ -1623,8 +1656,8 @@ const page = (lesson) => {
             <div class="step-number">${String(index + 1).padStart(2, "0")}</div>
             <div class="step-art${step.image ? " finished-mini" : ""}">
               ${step.image
-                ? `<img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="1254" height="1254">`
-                : `<img src="../assets/${lesson.slug}-step-${index + 1}.jpg" alt="${step.name} stage for how to draw ${lesson.shortSubject}" width="627" height="627">`}
+                ? `<img src="../assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254" loading="lazy">`
+                : `<img src="../assets/${lesson.slug}-step-${index + 1}.webp" alt="${step.name} stage for how to draw ${lesson.shortSubject}" width="627" height="627" loading="lazy">`}
             </div>
             <div class="step-copy">
               <h3>${step.name}</h3>
@@ -1645,13 +1678,17 @@ const page = (lesson) => {
   <meta property="og:title" content="How to Draw ${titleSubject}, Step by Step">
   <meta property="og:description" content="${lesson.description}">
   <meta property="og:url" content="${lessonUrl(lesson)}">
-  <meta property="og:image" content="${lessonImageUrl(lesson)}">
+  <meta property="og:image" content="${socialCardUrl(lesson)}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="${lesson.finishedAlt}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="${lesson.accent}">
 ${iconLinks}
   <link rel="alternate" type="application/rss+xml" title="${siteName} daily doodle feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="../assets/${webpName(lesson.finished)}" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css?v=${styleVersion}">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
@@ -1685,7 +1722,7 @@ ${plausibleTag}
       </div>
       <figure class="hero-art">
         <div class="tape tape-top" aria-hidden="true"></div>
-        <img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="1254" height="1254">
+        <img src="../assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254" fetchpriority="high">
         <figcaption>Finished doodle <span>About ${lesson.time} minutes</span></figcaption>
       </figure>
     </section>
@@ -1706,7 +1743,7 @@ ${plausibleTag}
         <ol class="steps">${steps}
         </ol>
       </div>
-    </article>
+    </article>${lessonPagination(lesson)}
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Another page of practice</p><h2 id="related-title">More daily doodles</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
@@ -1897,7 +1934,7 @@ const archiveCard = (lesson, index) => {
   return `
         <a class="sketch-card ${cardColors[index % cardColors.length]}" href="tutorials/${lesson.slug}.html">
           <div class="card-art">
-            <img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}" loading="${index === 0 ? "eager" : "lazy"}">
+            <img src="assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254" loading="${index === 0 ? "eager" : "lazy"}">
           </div>
           <p><time datetime="${lesson.isoDate}">${lesson.date.replace(/^[^,]+, /, "")}</time> · ${lesson.time} min · ${lesson.difficulty}</p>
           <h2>How to draw ${lesson.subject}</h2>
@@ -1975,13 +2012,13 @@ ${plausibleTag}
   <main>
     <section class="archive-hero" aria-labelledby="archive-title">
       <div class="archive-intro">
-        <p class="eyebrow"><span>${archiveLessons.length} tutorial</span> Marker-first and cartoon-friendly</p>
+        <p class="eyebrow"><span>${archiveLessons.length} tutorial${archiveLessons.length === 1 ? "" : "s"}</span> Marker-first and cartoon-friendly</p>
         <h1 id="archive-title" aria-label="The doodle library"><span class="headline-lead">The doodle</span> <em aria-hidden="true"><span>library</span></em></h1>
         <p>Start anywhere. Every lesson gives you a small, finishable practice round so daily practice can build into bolder lines, clearer shapes, brighter color, and more playful drawing ideas.</p>
         <a class="nav-button hero-button" href="#tutorial-library">Choose a doodle <span aria-hidden="true">↓</span></a>
       </div>
       <div class="archive-stack" aria-hidden="true">
-        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>`).join("")}
+        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254"></div>`).join("")}
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
@@ -2039,19 +2076,28 @@ const sitemapUrls = [
   { loc: `${siteUrl}/library.html`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "0.8" },
   ...archiveLessons.map((lesson) => ({
     loc: lessonUrl(lesson),
-    lastmod: lesson.isoDate,
+    lastmod: lesson.updated || lesson.isoDate,
     changefreq: "monthly",
-    priority: "0.7"
+    priority: "0.7",
+    // Image-sitemap entries for Google Images: the finished art plus each
+    // raster step frame, exactly as served on the page.
+    images: [`${siteUrl}/assets/${webpName(lesson.finished)}`, ...stepImageUrls(lesson)]
   }))
 ];
 
+const sitemapImages = (images = []) => images
+  .map((image) => `    <image:image>
+      <image:loc>${escapeXml(image)}</image:loc>
+    </image:image>`)
+  .join("\n");
+
 const sitemap = () => `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${sitemapUrls.map((url) => `  <url>
     <loc>${escapeXml(url.loc)}</loc>
     <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
+    <priority>${url.priority}</priority>${url.images?.length ? `\n${sitemapImages(url.images)}` : ""}
   </url>`).join("\n")}
 </urlset>
 `;

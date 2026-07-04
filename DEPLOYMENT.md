@@ -24,6 +24,12 @@ Required GitHub repository secrets:
 - `SSH_PRIVATE_KEY` — a deploy key whose public half is in the server's
   `~/.ssh/authorized_keys`
 
+After the pull, the workflow submits the changed public pages to IndexNow
+(Bing/Yandex same-day crawling) via `scripts/submit-indexnow.py`. The
+ownership key file `f023b31d5eb90985c733e9c445dd2289.txt` at the repository
+root is public by design and must stay committed. This step is
+`continue-on-error` — an IndexNow hiccup never fails a deploy.
+
 ## Caddyfile block
 
 ```caddy

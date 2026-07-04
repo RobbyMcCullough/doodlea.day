@@ -192,6 +192,12 @@ def main() -> int:
 
     checks = [
         run(["node", "scripts/build-tutorials.mjs"]),
+        # Derivatives and social cards run after the build so a new lesson's
+        # tutorial page exists; both are idempotent and only write when a
+        # source JPG is newer than its output.
+        run(["python3", "scripts/build-image-derivatives.py"]),
+        run(["python3", "scripts/make-social-cards.py"]),
+        run(["python3", "scripts/check-drafts-ledger.py", "--allow-pending", slug]),
         run(["python3", "scripts/check-process-plan.py", slug]),
         run([
             "python3",
