@@ -1,9 +1,9 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-04
-- Agent harness: Claude Cowork
-- Harness project/session name: sketcha.day session (sister-site parity mirror)
+- Date: 2026-07-05
+- Agent harness: Codex
+- Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 - Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
 
@@ -58,6 +58,23 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-05 daily automation added two Doodlea lessons:
+  `graham-cracker-smore-doodle` as July 5, 2026 / Day 030 and
+  `cartoon-pool-float-doodle` as June 6, 2026 / Day 001 honest archive
+  backfill. Existing day labels shifted forward by one.
+- July 5 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-05`, `python3 scripts/check-tutorial-readiness.py
+  graham-cracker-smore-doodle`, and `python3 scripts/check-tutorial-readiness.py
+  cartoon-pool-float-doodle`. Cove/internal checks passed, but the in-app
+  browser rejected `https://doodlea.localhost/` with `ERR_CERT_DATE_INVALID`, so
+  rendered desktop/mobile QA used the existing fallback server on
+  `http://localhost:4174/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-05/`.
+- Finished image ratings: graham cracker s'more doodle 8.7/10 for bold marker
+  layer readability and chocolate introduced before color/final cleanup;
+  cartoon pool float doodle 8.8/10 for clear ring thickness, bright marker
+  texture, and no sticker/badge framing. The temporary two-tutorial-per-site
+  backfill cadence is still active until the owner says otherwise.
 - 2026-07-04 owner-requested correction: replaced
   `cartoon-barbecue-grill-doodle` art and copy because the original looked like
   a domed lid was sitting behind the grate and flames. The revised lesson uses

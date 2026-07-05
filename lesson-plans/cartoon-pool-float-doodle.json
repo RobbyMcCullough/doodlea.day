@@ -1,0 +1,135 @@
+{
+  "slug": "cartoon-pool-float-doodle",
+  "finished": "assets/cartoon-pool-float-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the June 6, 2026 archive marker-doodle lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent pool float doodle with no sticker border, badge frame, embedded labels, arrows, signatures, or fake UI."
+  },
+  "process_strategy": "The sequence builds the donut float ellipse, inner hole, thickness, stripes, water ripples, and marker fill before the final panel only thickens and clarifies existing parts.",
+  "final_elements": [
+    {
+      "name": "outer float ring",
+      "introduced_by_step": 1,
+      "description": "A big tilted donut-shaped inflatable ring."
+    },
+    {
+      "name": "inner hole ellipse",
+      "introduced_by_step": 1,
+      "description": "A centered opening that follows the same tilt as the outer ring."
+    },
+    {
+      "name": "ring thickness",
+      "introduced_by_step": 2,
+      "description": "A soft inflated side edge that gives the float volume."
+    },
+    {
+      "name": "stripe panels",
+      "introduced_by_step": 3,
+      "description": "Curved stripe sections wrapped around the ring."
+    },
+    {
+      "name": "water ripple marks",
+      "introduced_by_step": 4,
+      "description": "Small blue ripple marks around and through the float opening."
+    },
+    {
+      "name": "shine gaps",
+      "introduced_by_step": 4,
+      "description": "Small white highlight gaps on the inflated surface."
+    },
+    {
+      "name": "bright marker fill",
+      "introduced_by_step": 5,
+      "description": "Aqua, coral, and yellow marker fills on the established ring stripes and water."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pool-float-doodle-step-1.jpg",
+      "step_name": "Block the float ring",
+      "visible_job": "Draws the outer ring and inner hole ellipses.",
+      "introduces": [
+        "outer float ring",
+        "inner hole ellipse"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pool-float-doodle-step-2.jpg",
+      "step_name": "Inflate the edge",
+      "visible_job": "Adds the ring thickness and soft side edge around the float.",
+      "introduces": [
+        "ring thickness"
+      ],
+      "requires_prior_elements": [
+        "outer float ring",
+        "inner hole ellipse"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pool-float-doodle-step-3.jpg",
+      "step_name": "Wrap the stripes",
+      "visible_job": "Adds curved stripe panels around the already-drawn float ring.",
+      "introduces": [
+        "stripe panels"
+      ],
+      "requires_prior_elements": [
+        "outer float ring",
+        "inner hole ellipse",
+        "ring thickness"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pool-float-doodle-step-4.jpg",
+      "step_name": "Add ripples and shine",
+      "visible_job": "Adds water ripple marks and highlight gaps on the existing float.",
+      "introduces": [
+        "water ripple marks",
+        "shine gaps"
+      ],
+      "requires_prior_elements": [
+        "outer float ring",
+        "inner hole ellipse",
+        "ring thickness",
+        "stripe panels"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-pool-float-doodle-step-5.jpg",
+      "step_name": "Fill the pool colors",
+      "visible_job": "Adds bright marker fill to the established stripe panels and water ripples.",
+      "introduces": [
+        "bright marker fill"
+      ],
+      "requires_prior_elements": [
+        "outer float ring",
+        "inner hole ellipse",
+        "ring thickness",
+        "stripe panels",
+        "water ripple marks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the float bob",
+    "asset": "assets/cartoon-pool-float-doodle-finished-v1.jpg",
+    "visible_job": "Thickens the black outline, evens the marker fill, sharpens shine gaps, and clarifies the water ripples already present.",
+    "allowed_changes": [
+      "bold outline thickening",
+      "marker fill cleanup",
+      "shine-gap clarification",
+      "water ripple cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No ring, hole, thickness, stripe, water ripple, shine, or color choice should first appear in the final image.",
+    "No frame may ink, fill, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

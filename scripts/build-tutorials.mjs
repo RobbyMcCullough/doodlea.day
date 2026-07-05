@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "cartoon-cactus-sticker",
+    slug: "cartoon-pool-float-doodle",
     day: "001",
+    date: "Saturday, June 6",
+    isoDate: "2026-06-06",
+    subject: "a cartoon pool float doodle",
+    headlineSubject: "a cartoon<br>pool float doodle",
+    shortSubject: "a cartoon pool float doodle",
+    lessonTitle: "Let's doodle a cartoon pool float",
+    description: "Learn how to draw a cartoon pool float doodle with a tilted inflatable ring, inner hole, soft thickness, curved stripe panels, water ripples, shine gaps, bright marker fills, and thick black outlines.",
+    intro: "Build the float from two tilted ellipses, inflate the edge, then wrap stripes around the ring before adding water and marker color. You can swap the colors later; keep the hole and outer ring lined up first.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#16aeb7",
+    finished: "cartoon-pool-float-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a tilted inflatable pool float with aqua, coral, and yellow stripe panels, inner hole, thick black outlines, white shine gaps, blue water ripples, and visible marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline, aqua, coral, and yellow for the float panels, blue for water ripples, and the gel pen only for shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the float ring",
+        text: "Draw a large tilted ellipse for the outside of the float, then add a smaller matching ellipse for the hole.",
+        tip: "Match the tilt of both ellipses. The float looks inflated only if the hole follows the outer ring."
+      },
+      {
+        name: "Inflate the edge",
+        text: "Add a soft lower edge around the ring so the float feels thick and puffy.",
+        tip: "Think of the float as a rounded tube, not a flat donut. The lower edge gives it volume."
+      },
+      {
+        name: "Wrap the stripes",
+        text: "Divide the ring into curved stripe panels that follow the float's round surface.",
+        tip: "Curve each stripe across the tube. Straight cuts can make the float look like a flat target."
+      },
+      {
+        name: "Add ripples and shine",
+        text: "Draw blue water ripples around the float and through the hole, then leave a few shine gaps on the tube.",
+        tip: "Place the shine gaps on the existing panels. They should not create new stripe shapes."
+      },
+      {
+        name: "Fill the pool colors",
+        text: "Fill the stripe panels with aqua, coral, and yellow marker, then color the water ripples blue.",
+        tip: "Let marker streaks show. They help the inflated ring feel handmade and sunny."
+      },
+      {
+        name: "Make the float bob",
+        text: "Thicken the black outlines, even the marker fills, sharpen the shine gaps, and clarify the same water ripples.",
+        tip: "Stop before adding faces, words, or beach props. The ring, stripes, shine, and water are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "graham-cracker-smore-doodle",
+    day: "030",
+    date: "Sunday, July 5",
+    isoDate: "2026-07-05",
+    subject: "a graham cracker s'more doodle",
+    headlineSubject: "a graham cracker<br>s'more doodle",
+    shortSubject: "a graham cracker s'more doodle",
+    lessonTitle: "Let's doodle a graham cracker s'more",
+    description: "Learn how to draw a graham cracker s'more doodle with stacked crackers, puffy marshmallow, visible chocolate slab, cracker holes, melty edges, bold black outlines, marker fills, and shine gaps.",
+    intro: "Build the s'more as a stack first, then tuck in the marshmallow and chocolate before adding cracker dots, melty edges, and warm marker color. Keep the layers clear, then change the cracker tilt or marshmallow squish when you make another one.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#c98232",
+    finished: "graham-cracker-smore-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a graham cracker s'more with tan top and bottom crackers, puffy white marshmallow, dark chocolate layer, cracker holes, center break line, thick black outlines, shine gaps, and small gray shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline and cracker dots, tan for the crackers, dark brown for chocolate, pale gray or cream for marshmallow shadows, and the gel pen only for small shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the cracker stack",
+        text: "Draw the top and bottom graham crackers as two slightly tilted squares with a little space between them.",
+        tip: "Keep the corners simple and chunky. A square stack reads faster than a perfectly measured box."
+      },
+      {
+        name: "Squash in the marshmallow",
+        text: "Add a puffy marshmallow layer between the crackers, letting the soft edge bulge past the straight cracker sides.",
+        tip: "Round the marshmallow edge generously. That contrast against the crackers makes the s'more fun to draw."
+      },
+      {
+        name: "Slide in chocolate",
+        text: "Draw a visible chocolate slab under the marshmallow so it peeks out along the front and side.",
+        tip: "Place the chocolate before you color. That keeps the dark layer from becoming a surprise at the end."
+      },
+      {
+        name: "Dot the cracker",
+        text: "Add graham cracker holes and a center break line on the top cracker, then begin thickening the black outlines.",
+        tip: "Use a few bigger dots instead of lots of tiny specks. They will stay readable after marker fill."
+      },
+      {
+        name: "Melt and color",
+        text: "Add melty marshmallow edges, fill the crackers tan, color the chocolate dark brown, add pale marshmallow shadows, and leave shine gaps.",
+        tip: "Let the marker strokes show. Slight streaks make the s'more feel hand-doodled."
+      },
+      {
+        name: "Toast the s'more finish",
+        text: "Thicken the existing black outlines, even the marker fills, clarify the cracker holes and melty edges, and strengthen the small gray shadow.",
+        tip: "Stop before adding a campfire, plate, face, or border. The cracker, marshmallow, and chocolate layers are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-cactus-sticker",
+    day: "002",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "002",
+    day: "003",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "003",
+    day: "004",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "027",
+    day: "028",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "028",
+    day: "029",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "004",
+    day: "005",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "005",
+    day: "006",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "006",
+    day: "007",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "026",
+    day: "027",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "007",
+    day: "008",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "025",
+    day: "026",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "008",
+    day: "009",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "024",
+    day: "025",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "009",
+    day: "010",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "010",
+    day: "011",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "023",
+    day: "024",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "022",
+    day: "023",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "021",
+    day: "022",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "020",
+    day: "021",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "019",
+    day: "020",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1079,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "018",
+    day: "019",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1132,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "017",
+    day: "018",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1185,7 +1291,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "016",
+    day: "017",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1238,7 +1344,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "013",
+    day: "014",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1291,7 +1397,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "011",
+    day: "012",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1344,7 +1450,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "012",
+    day: "013",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1397,7 +1503,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "014",
+    day: "015",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1450,7 +1556,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "015",
+    day: "016",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",
