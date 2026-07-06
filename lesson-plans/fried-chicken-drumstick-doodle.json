@@ -1,0 +1,136 @@
+{
+  "slug": "fried-chicken-drumstick-doodle",
+  "finished": "assets/fried-chicken-drumstick-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the July 6, 2026 fried chicken drumstick marker-doodle lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent bold marker drumstick, no sticker or badge border, no embedded labels, arrows, numbers, signatures, or fake UI."
+  },
+  "process_strategy": "The sequence builds the bone handle, rounded chicken shape, crunchy bumps, bite-free crispy texture, small shadow, and golden marker fill before the final panel only thickens outlines and clarifies existing texture.",
+  "final_elements": [
+    {
+      "name": "bone handle",
+      "introduced_by_step": 1,
+      "description": "A small white bone handle with a rounded end."
+    },
+    {
+      "name": "rounded drumstick body",
+      "introduced_by_step": 1,
+      "description": "A plump oval chicken shape attached to the bone."
+    },
+    {
+      "name": "crunchy outer bumps",
+      "introduced_by_step": 2,
+      "description": "Uneven marker bumps around the chicken outline."
+    },
+    {
+      "name": "crispy texture marks",
+      "introduced_by_step": 3,
+      "description": "Small dots, short dashes, and squiggles on the chicken surface."
+    },
+    {
+      "name": "bone end detail",
+      "introduced_by_step": 4,
+      "description": "A small inner curve on the bone end and a line where bone meets chicken."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "A simple marker shadow under the drumstick."
+    },
+    {
+      "name": "golden marker fill",
+      "introduced_by_step": 5,
+      "description": "Bright golden-brown marker fill inside the already-drawn chicken shape."
+    },
+    {
+      "name": "darker crispy accents",
+      "introduced_by_step": 5,
+      "description": "Small darker brown accent marks on existing crispy texture."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/fried-chicken-drumstick-doodle-step-1.jpg",
+      "step_name": "Block the drumstick",
+      "visible_job": "Draws the bone handle and rounded drumstick body with loose marker construction.",
+      "introduces": [
+        "bone handle",
+        "rounded drumstick body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/fried-chicken-drumstick-doodle-step-2.jpg",
+      "step_name": "Bump the crispy edge",
+      "visible_job": "Adds uneven crunchy bumps around the already-drawn chicken outline.",
+      "introduces": [
+        "crunchy outer bumps"
+      ],
+      "requires_prior_elements": [
+        "rounded drumstick body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/fried-chicken-drumstick-doodle-step-3.jpg",
+      "step_name": "Sprinkle the crust",
+      "visible_job": "Adds crispy dots, dashes, and squiggles across the chicken surface.",
+      "introduces": [
+        "crispy texture marks"
+      ],
+      "requires_prior_elements": [
+        "rounded drumstick body",
+        "crunchy outer bumps"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/fried-chicken-drumstick-doodle-step-4.jpg",
+      "step_name": "Set bone and shadow",
+      "visible_job": "Adds bone-end detail and a simple ground shadow under the drumstick.",
+      "introduces": [
+        "bone end detail",
+        "ground shadow"
+      ],
+      "requires_prior_elements": [
+        "bone handle",
+        "rounded drumstick body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/fried-chicken-drumstick-doodle-step-5.jpg",
+      "step_name": "Color the crispy coat",
+      "visible_job": "Fills the already-drawn chicken with golden marker color and darker crispy accents.",
+      "introduces": [
+        "golden marker fill",
+        "darker crispy accents"
+      ],
+      "requires_prior_elements": [
+        "rounded drumstick body",
+        "crispy texture marks",
+        "crunchy outer bumps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Crunch up the finish",
+    "asset": "assets/fried-chicken-drumstick-doodle-finished-v1.jpg",
+    "visible_job": "Thickens the black outline, strengthens the crispy texture, evens the golden marker fill, and clarifies the bone and shadow already present.",
+    "allowed_changes": [
+      "bold outline thickening",
+      "marker fill cleanup",
+      "crispy accent clarification",
+      "bone line cleanup",
+      "small shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No bone, drumstick body, crispy edge, texture mark, shadow, or color choice should first appear in the final image.",
+    "No frame may ink, fill, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

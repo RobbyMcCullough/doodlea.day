@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "cartoon-pool-float-doodle",
+    slug: "cartoon-magnifying-glass-doodle",
     day: "001",
+    date: "Friday, June 5",
+    isoDate: "2026-06-05",
+    subject: "a cartoon magnifying glass doodle",
+    headlineSubject: "a cartoon<br>magnifying glass<br>doodle",
+    shortSubject: "a magnifying glass doodle",
+    lessonTitle: "Let's doodle a cartoon magnifying glass",
+    description: "Learn how to draw a cartoon magnifying glass doodle with a round lens, short handle, thick rim, shine streaks, search spark marks, blue marker glass, yellow handle, and bold black outlines.",
+    intro: "Build the lens and handle first, then thicken the rim, add shine, spark the search marks, and finish with bright marker fills. Try different handle colors later; keep the circle and rim clear first.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#20a7d8",
+    finished: "cartoon-magnifying-glass-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a cartoon magnifying glass with round blue lens, thick black rim, short yellow handle, curved white shine streaks, small search spark marks, gray shadow, and visible marker texture",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the rim and outline, pale blue for the lens, yellow or orange for the handle, gray for the shadow, and the gel pen only for shine streaks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block lens and handle",
+        text: "Draw a large round lens, then attach a short diagonal handle to one side.",
+        tip: "Make the lens much bigger than the handle. That size difference makes it read quickly."
+      },
+      {
+        name: "Thicken the rim",
+        text: "Add a bold ring around the lens and round off the handle end.",
+        tip: "Keep the rim even enough to see the glass, but do not worry about a perfect circle."
+      },
+      {
+        name: "Add glass shine",
+        text: "Place a few curved shine streaks inside the lens, following the round glass shape.",
+        tip: "Put the shine inside the lens you already drew. It should not create a new lens outline."
+      },
+      {
+        name: "Spark the search",
+        text: "Add tiny search spark marks near the lens, then start making the keeper outlines bolder.",
+        tip: "Use just a few spark marks. Too many will pull attention away from the magnifying glass."
+      },
+      {
+        name: "Color the glass",
+        text: "Fill the lens pale blue, color the handle yellow, and add a small gray ground shadow.",
+        tip: "Let some marker streaks show in the blue. That keeps the glass playful instead of glossy."
+      },
+      {
+        name: "Polish the magnifier",
+        text: "Thicken the black outlines, even the marker fills, clarify the shine streaks and spark marks, and strengthen the same shadow.",
+        tip: "Stop before adding words, faces, or a border. The lens, handle, shine, and color do enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "fried-chicken-drumstick-doodle",
+    day: "032",
+    date: "Monday, July 6",
+    isoDate: "2026-07-06",
+    subject: "a fried chicken drumstick doodle",
+    headlineSubject: "a fried chicken<br>drumstick doodle",
+    shortSubject: "a fried chicken drumstick doodle",
+    lessonTitle: "Let's doodle a fried chicken drumstick",
+    description: "Learn how to draw a fried chicken drumstick doodle with a rounded crust shape, short bone handle, bumpy coating, crumb dots, crackle marks, simple ground shadow, golden marker fill, and thick black outlines.",
+    intro: "Start with the big drumstick silhouette, then make the crust bumpy, add crumbs, set it on a simple shadow, and fill it with warm marker color. Change the crunch marks later, but keep the bone and coating clear.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e49a28",
+    finished: "fried-chicken-drumstick-doodle-finished-v1.jpg",
+    finishedAlt: "Bold marker doodle of a fried chicken drumstick with golden-orange crunchy coating, crumb dots, crackle marks, pale bone handle, thick black outlines, white highlight gaps, and gray ground shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outline and crumb marks, golden orange for the crust, pale cream for the bone, gray for the ground shadow, and the gel pen only for small highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the drumstick",
+        text: "Draw a rounded drumstick meat shape, then attach a short bone handle at the narrow end.",
+        tip: "Make the meat shape bigger than the bone. That clear size contrast sells the drumstick fast."
+      },
+      {
+        name: "Bump the crispy edge",
+        text: "Turn the smooth edge into a bumpy fried coating, then round off the bone end.",
+        tip: "Use uneven bumps. Perfect scallops can make the crust look like a decorative cloud."
+      },
+      {
+        name: "Sprinkle the crust",
+        text: "Add crumb dots, short crackle dashes, and small texture marks across the existing crust.",
+        tip: "Cluster a few marks and leave open spaces. Too many specks can muddy the marker fill."
+      },
+      {
+        name: "Set bone and shadow",
+        text: "Add the small bone-end detail and a simple ground shadow under the drumstick.",
+        tip: "Keep the shadow flat and light. It should ground the doodle without becoming another object."
+      },
+      {
+        name: "Color the crispy coat",
+        text: "Color the crust golden orange, fill the bone pale cream, and leave a few small highlight gaps.",
+        tip: "Let the marker strokes show through the color. The streaks make the fried coating feel handmade."
+      },
+      {
+        name: "Crunch up the finish",
+        text: "Thicken the black outlines, even the existing marker fills, clarify the crumb marks, and strengthen the same ground shadow.",
+        tip: "Stop before adding a plate, sauce cup, face, or border. The crust, bone, crumbs, and color are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-pool-float-doodle",
+    day: "002",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "030",
+    day: "031",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "a graham cracker s'more doodle",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "002",
+    day: "003",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "003",
+    day: "004",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "004",
+    day: "005",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "028",
+    day: "029",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "029",
+    day: "030",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "005",
+    day: "006",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "006",
+    day: "007",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "007",
+    day: "008",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -549,7 +655,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "027",
+    day: "028",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -602,7 +708,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "008",
+    day: "009",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -655,7 +761,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "026",
+    day: "027",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -708,7 +814,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "009",
+    day: "010",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -761,7 +867,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "025",
+    day: "026",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -814,7 +920,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "010",
+    day: "011",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -867,7 +973,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "011",
+    day: "012",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -920,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "024",
+    day: "025",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -973,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "023",
+    day: "024",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1026,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "022",
+    day: "023",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1079,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "021",
+    day: "022",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1132,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "020",
+    day: "021",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1185,7 +1291,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "019",
+    day: "020",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1238,7 +1344,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "018",
+    day: "019",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1291,7 +1397,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "017",
+    day: "018",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1344,7 +1450,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "014",
+    day: "015",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1397,7 +1503,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "012",
+    day: "013",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1450,7 +1556,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "013",
+    day: "014",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1503,7 +1609,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "015",
+    day: "016",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1556,7 +1662,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "016",
+    day: "017",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

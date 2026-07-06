@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a fried chicken drumstick doodle</title>
+      <link>https://doodlea.day/tutorials/fried-chicken-drumstick-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/fried-chicken-drumstick-doodle.html</guid>
+      <pubDate>Mon, 06 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a fried chicken drumstick doodle with a rounded crust shape, short bone handle, bumpy coating, crumb dots, crackle marks, simple ground shadow, golden marker fill, and thick black outlines.</description>
+      <media:content url="https://doodlea.day/assets/fried-chicken-drumstick-doodle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a graham cracker s&apos;more doodle</title>
       <link>https://doodlea.day/tutorials/graham-cracker-smore-doodle.html</link>
@@ -246,6 +254,14 @@
       <pubDate>Sat, 06 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon pool float doodle with a tilted inflatable ring, inner hole, soft thickness, curved stripe panels, water ripples, shine gaps, bright marker fills, and thick black outlines.</description>
       <media:content url="https://doodlea.day/assets/cartoon-pool-float-doodle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon magnifying glass doodle</title>
+      <link>https://doodlea.day/tutorials/cartoon-magnifying-glass-doodle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-magnifying-glass-doodle.html</guid>
+      <pubDate>Fri, 05 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon magnifying glass doodle with a round lens, short handle, thick rim, shine streaks, search spark marks, blue marker glass, yellow handle, and bold black outlines.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-magnifying-glass-doodle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

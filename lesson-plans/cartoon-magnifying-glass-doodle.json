@@ -1,0 +1,131 @@
+{
+  "slug": "cartoon-magnifying-glass-doodle",
+  "finished": "assets/cartoon-magnifying-glass-doodle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the June 5, 2026 honest archive backfill marker-doodle lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent marker magnifying glass doodle, no sticker or badge framing, no embedded labels, numbers, arrows, signatures, watermarks, or fake UI."
+  },
+  "process_strategy": "The sequence builds the lens circle, handle, thick rim, glass shine, small search spark marks, shadow, and marker fills before the final panel only thickens outlines and clarifies existing color.",
+  "final_elements": [
+    {
+      "name": "round lens",
+      "introduced_by_step": 1,
+      "description": "A large circular lens tilted slightly on the page."
+    },
+    {
+      "name": "short handle",
+      "introduced_by_step": 1,
+      "description": "A simple handle attached diagonally to the lens."
+    },
+    {
+      "name": "thick lens rim",
+      "introduced_by_step": 2,
+      "description": "A bold ring around the lens."
+    },
+    {
+      "name": "handle end cap",
+      "introduced_by_step": 2,
+      "description": "A rounded end on the handle."
+    },
+    {
+      "name": "glass shine streaks",
+      "introduced_by_step": 3,
+      "description": "A few curved shine marks inside the lens."
+    },
+    {
+      "name": "tiny search spark marks",
+      "introduced_by_step": 4,
+      "description": "Small simple sparkle marks near the lens, without words."
+    },
+    {
+      "name": "blue marker glass and gray shadow",
+      "introduced_by_step": 5,
+      "description": "Pale blue marker fill in the lens and a small gray ground shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-magnifying-glass-doodle-step-1.jpg",
+      "step_name": "Block lens and handle",
+      "visible_job": "Draws the round lens and short diagonal handle with simple marker construction.",
+      "introduces": [
+        "round lens",
+        "short handle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-magnifying-glass-doodle-step-2.jpg",
+      "step_name": "Thicken the rim",
+      "visible_job": "Adds the thick lens rim and rounded handle end cap.",
+      "introduces": [
+        "thick lens rim",
+        "handle end cap"
+      ],
+      "requires_prior_elements": [
+        "round lens",
+        "short handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-magnifying-glass-doodle-step-3.jpg",
+      "step_name": "Add glass shine",
+      "visible_job": "Adds curved shine streaks inside the already-drawn lens.",
+      "introduces": [
+        "glass shine streaks"
+      ],
+      "requires_prior_elements": [
+        "round lens"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-magnifying-glass-doodle-step-4.jpg",
+      "step_name": "Spark the search",
+      "visible_job": "Adds tiny search spark marks near the lens and starts bolder keeper outlines.",
+      "introduces": [
+        "tiny search spark marks"
+      ],
+      "requires_prior_elements": [
+        "round lens",
+        "thick lens rim"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-magnifying-glass-doodle-step-5.jpg",
+      "step_name": "Color the glass",
+      "visible_job": "Adds pale blue marker fill to the lens and a small gray ground shadow.",
+      "introduces": [
+        "blue marker glass and gray shadow"
+      ],
+      "requires_prior_elements": [
+        "round lens",
+        "short handle",
+        "thick lens rim",
+        "glass shine streaks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the magnifier",
+    "asset": "assets/cartoon-magnifying-glass-doodle-finished-v1.jpg",
+    "visible_job": "Thickens the existing black outlines, evens the blue marker glass fill, clarifies the shine streaks and spark marks, and strengthens the same shadow.",
+    "allowed_changes": [
+      "bold outline thickening",
+      "marker fill cleanup",
+      "shine streak clarification",
+      "spark mark cleanup",
+      "small shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No lens, handle, rim, shine, spark mark, shadow, or color choice should first appear in the final image.",
+    "No frame may ink, fill, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-05
+- Date: 2026-07-06
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-05 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,24 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-06 daily automation added two Doodlea lessons:
+  `fried-chicken-drumstick-doodle` as July 6, 2026 / Day 032 and
+  `cartoon-magnifying-glass-doodle` as June 5, 2026 / Day 001 honest archive
+  backfill. Existing day labels shifted forward by one.
+- July 6 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-06`, an explicit allowed-current/backfill slot check
+  for June 5 after the current lesson passed readiness, and
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove HTTPS
+  returned 200 to curl but the in-app browser rejected the local certificate,
+  so rendered desktop/mobile QA used the existing fallback server on
+  `http://localhost:4174/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-06/`.
+- Finished image ratings: fried chicken drumstick doodle 8.8/10 for bold
+  marker readability, crunchy texture, and no face/sticker framing; cartoon
+  magnifying glass doodle 8.6/10 for clear rim/handle construction, bright
+  marker fill, and mobile headline fit after a manual line-break fix. The
+  temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - 2026-07-05 daily automation added two Doodlea lessons:
   `graham-cracker-smore-doodle` as July 5, 2026 / Day 030 and
   `cartoon-pool-float-doodle` as June 6, 2026 / Day 001 honest archive

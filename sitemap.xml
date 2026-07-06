@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://doodlea.day/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doodlea.day/about.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://doodlea.day/library.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/fried-chicken-drumstick-doodle.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/fried-chicken-drumstick-doodle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/graham-cracker-smore-doodle.html</loc>
@@ -736,6 +760,30 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-pool-float-doodle-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cartoon-magnifying-glass-doodle.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-magnifying-glass-doodle-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>
