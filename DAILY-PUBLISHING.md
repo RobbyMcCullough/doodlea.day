@@ -22,6 +22,10 @@ already told the reader to thicken the full outline.
   sticker/badge lesson titles, die-cut borders, badge frames, or sticker-style
   outlines around the subject. Existing published sticker lessons stay, but new
   lessons should draw the subject itself.
+- Do not append "doodle" to the public lesson name, H1 search phrase, or page
+  title by default. The site and art direction already communicate Doodlea's
+  marker-doodle focus; use direct names such as "how to draw a fried chicken
+  drumstick" unless "doodle" is truly part of the subject being searched.
 - Use thick black marker outlines and saturated marker fills.
 - Keep the process fast: usually 10-20 minutes and 5-7 steps.
 - Treat each tutorial as a suggested path, not a fixed design. Doodlea should
@@ -77,9 +81,10 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    observances. Use a timely idea only when it naturally fits Doodlea.day's bold
    marker style, can be taught as an attainable doodle, and does not duplicate
    the sister Sketcha.day subject for the same run. Do not force a weak trend.
-4. Pick one specific marker doodle subject, e.g. "how to draw hot rod marker
+4. Pick one specific marker-friendly subject, e.g. "how to draw hot rod marker
    flames", "how to draw a comic speech bubble", or "how to draw a goofy monster
-   face."
+   face." Do not append "doodle" to the public search phrase just because the
+   lesson appears on Doodlea.day.
 5. Back-check existing Doodlea.day lessons and avoid repeating shape/category
    problems too closely.
 6. For face-bearing lessons, write the planned face variation into the prompt,

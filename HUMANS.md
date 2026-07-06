@@ -58,6 +58,13 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-06 follow-up: removed the default "doodle" suffix from the public
+  lesson names/search phrases for the newest lessons. `fried-chicken-drumstick-doodle`
+  now titles as "How to Draw Fried Chicken Drumstick"; `cartoon-magnifying-glass-doodle`
+  now titles as "How to Draw Magnifying Glass".
+  Updated `AGENTS.md` and `DAILY-PUBLISHING.md` so future Doodlea lessons
+  should not append "doodle" to public lesson names, H1s, or page titles unless
+  it is truly part of the searched subject. Internal slugs can remain unchanged.
 - 2026-07-06 daily automation added two Doodlea lessons:
   `fried-chicken-drumstick-doodle` as July 6, 2026 / Day 032 and
   `cartoon-magnifying-glass-doodle` as June 5, 2026 / Day 001 honest archive

@@ -90,6 +90,8 @@ standard as Sketcha.day.
   structure, generated pages, JSON-LD pattern, and QA workflow.
 - Differentiate by subject and medium: cartoon shapes, comic details, icons,
   hand lettering, expressive faces, marker fills, and thick outlines.
+- Do not append "doodle" to public lesson names, H1 search phrases, or page
+  titles by default; the site brand already supplies that context.
 - Owner direction (2026-07-04): avoid "sticker" and "badge" framing. Do not
   title lessons as stickers/badges or add die-cut borders, badge frames, or
   sticker outlines around the subject — draw the subject itself.
