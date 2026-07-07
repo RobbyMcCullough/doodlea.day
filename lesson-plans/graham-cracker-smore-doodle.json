@@ -3,10 +3,10 @@
   "finished": "assets/graham-cracker-smore-doodle-finished-v1.jpg",
   "source": {
     "type": "generated-raster-master",
-    "description": "Six-panel raster contact sheet generated for the July 5, 2026 Graham Cracker Day marker-doodle lesson, reviewed before cropping.",
-    "notes": "Prompt required one consistent marker doodle s'more, no sticker border, no embedded labels, no arrows, and no fake UI."
+    "description": "Replacement six-panel raster contact sheet generated July 6, 2026 for the July 5, 2026 Graham Cracker Day marker-doodle lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent marker doodle s'more where the chocolate appears before the marshmallow overlaps it, no sticker border, no embedded labels, no arrows, and no fake UI. The previous contact sheet is preserved as drafts/graham-cracker-smore-doodle/graham-cracker-smore-doodle-contact-sheet-replaced-2026-07-06.png."
   },
-  "process_strategy": "The sequence builds the cracker stack, marshmallow with a reserved chocolate gap, chocolate layer, cracker holes, melty edges, and marker fill before the final panel only thickens outlines and brightens existing fills.",
+  "process_strategy": "The sequence builds the cracker stack, chocolate layer, marshmallow layer, cracker holes, melty edges, and marker fill before the final panel only thickens outlines and brightens existing fills.",
   "final_elements": [
     {
       "name": "top graham cracker",
@@ -19,14 +19,14 @@
       "description": "A matching lower cracker visible beneath the filling."
     },
     {
-      "name": "marshmallow layer",
+      "name": "chocolate layer",
       "introduced_by_step": 2,
-      "description": "A puffy white marshmallow squeezed between the crackers while leaving a clean strip for chocolate."
+      "description": "A dark chocolate slab sitting on the bottom cracker and visible along the front and side."
     },
     {
-      "name": "chocolate layer",
+      "name": "marshmallow layer",
       "introduced_by_step": 3,
-      "description": "A dark chocolate strip peeking out under the marshmallow."
+      "description": "A puffy white marshmallow added above and partly in front of the chocolate without fully covering it."
     },
     {
       "name": "cracker holes and break line",
@@ -58,10 +58,10 @@
     {
       "step": 2,
       "asset": "assets/graham-cracker-smore-doodle-step-2.jpg",
-      "step_name": "Shape the marshmallow",
-      "visible_job": "Adds the puffy marshmallow layer as the upper filling while leaving a clean chocolate strip above the bottom cracker.",
+      "step_name": "Lay in chocolate",
+      "visible_job": "Adds the chocolate slab on top of the bottom cracker before the marshmallow is drawn.",
       "introduces": [
-        "marshmallow layer"
+        "chocolate layer"
       ],
       "requires_prior_elements": [
         "top graham cracker",
@@ -71,15 +71,15 @@
     {
       "step": 3,
       "asset": "assets/graham-cracker-smore-doodle-step-3.jpg",
-      "step_name": "Use the chocolate gap",
-      "visible_job": "Adds the chocolate strip in the reserved space below the marshmallow without changing the stack shape.",
+      "step_name": "Add the marshmallow",
+      "visible_job": "Adds the puffy marshmallow above and partly in front of the chocolate while keeping the chocolate visible.",
       "introduces": [
-        "chocolate layer"
+        "marshmallow layer"
       ],
       "requires_prior_elements": [
         "top graham cracker",
         "bottom graham cracker",
-        "marshmallow layer"
+        "chocolate layer"
       ]
     },
     {

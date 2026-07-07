@@ -181,12 +181,13 @@ const lessons = [
     day: "031",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
+    updated: "2026-07-06",
     subject: "a graham cracker s'more doodle",
     headlineSubject: "a graham cracker<br>s'more doodle",
     shortSubject: "a graham cracker s'more doodle",
     lessonTitle: "Let's doodle a graham cracker s'more",
     description: "Learn how to draw a graham cracker s'more doodle with stacked crackers, puffy marshmallow, visible chocolate slab, cracker holes, melty edges, bold black outlines, marker fills, and shine gaps.",
-    intro: "Build the s'more as a stack first, then leave room for the chocolate before rounding the marshmallow, adding cracker dots, melty edges, and warm marker color. Keep the layers clear, then change the cracker tilt or marshmallow squish when you make another one.",
+    intro: "Build the s'more as a stack first, place the chocolate before the marshmallow, then add cracker dots, melty edges, and warm marker color. Keep the layers clear, then change the cracker tilt or marshmallow squish when you make another one.",
     time: 15,
     difficulty: "Easy",
     accent: "#c98232",
@@ -202,14 +203,14 @@ const lessons = [
         tip: "Keep the corners simple and chunky. A square stack reads faster than a perfectly measured box."
       },
       {
-        name: "Shape the marshmallow",
-        text: "Add the puffy marshmallow as the upper filling, but leave a clean strip above the bottom cracker for chocolate.",
-        tip: "Round the marshmallow edge generously, then stop before it fills the whole gap."
+        name: "Lay in chocolate",
+        text: "Draw the chocolate slab on top of the bottom cracker, keeping it visible along the front and side.",
+        tip: "Add chocolate before the marshmallow. That way nothing has to be erased or squeezed in later."
       },
       {
-        name: "Use the chocolate gap",
-        text: "Draw the chocolate slab in the strip you saved, letting it peek out below the marshmallow and above the bottom cracker.",
-        tip: "Use the reserved space instead of trying to squeeze chocolate under a finished marshmallow."
+        name: "Add the marshmallow",
+        text: "Draw the puffy marshmallow above and partly in front of the chocolate, leaving the chocolate layer visible below it.",
+        tip: "Let the marshmallow bulge over the chocolate in spots, but do not cover the whole slab."
       },
       {
         name: "Dot the cracker",
