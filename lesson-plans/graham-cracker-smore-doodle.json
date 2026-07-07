@@ -6,7 +6,7 @@
     "description": "Six-panel raster contact sheet generated for the July 5, 2026 Graham Cracker Day marker-doodle lesson, reviewed before cropping.",
     "notes": "Prompt required one consistent marker doodle s'more, no sticker border, no embedded labels, no arrows, and no fake UI."
   },
-  "process_strategy": "The sequence builds the cracker stack, marshmallow, chocolate, cracker holes, melty edges, and marker fill before the final panel only thickens outlines and brightens existing fills.",
+  "process_strategy": "The sequence builds the cracker stack, marshmallow with a reserved chocolate gap, chocolate layer, cracker holes, melty edges, and marker fill before the final panel only thickens outlines and brightens existing fills.",
   "final_elements": [
     {
       "name": "top graham cracker",
@@ -21,7 +21,7 @@
     {
       "name": "marshmallow layer",
       "introduced_by_step": 2,
-      "description": "A puffy white marshmallow squeezed between the crackers."
+      "description": "A puffy white marshmallow squeezed between the crackers while leaving a clean strip for chocolate."
     },
     {
       "name": "chocolate layer",
@@ -58,8 +58,8 @@
     {
       "step": 2,
       "asset": "assets/graham-cracker-smore-doodle-step-2.jpg",
-      "step_name": "Squash in the marshmallow",
-      "visible_job": "Adds the puffy marshmallow layer between the two crackers.",
+      "step_name": "Shape the marshmallow",
+      "visible_job": "Adds the puffy marshmallow layer as the upper filling while leaving a clean chocolate strip above the bottom cracker.",
       "introduces": [
         "marshmallow layer"
       ],
@@ -71,8 +71,8 @@
     {
       "step": 3,
       "asset": "assets/graham-cracker-smore-doodle-step-3.jpg",
-      "step_name": "Slide in chocolate",
-      "visible_job": "Adds the chocolate strip under the marshmallow without changing the stack shape.",
+      "step_name": "Use the chocolate gap",
+      "visible_job": "Adds the chocolate strip in the reserved space below the marshmallow without changing the stack shape.",
       "introduces": [
         "chocolate layer"
       ],

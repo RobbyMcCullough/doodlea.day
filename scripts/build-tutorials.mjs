@@ -79,26 +79,26 @@ const lessons = [
     headlineSubject: "a fried chicken<br>drumstick",
     shortSubject: "a fried chicken drumstick",
     lessonTitle: "Let's draw a fried chicken drumstick",
-    description: "Learn how to draw a fried chicken drumstick with a rounded crust shape, short bone handle, bumpy coating, crumb dots, crackle marks, simple ground shadow, golden marker fill, and thick black outlines.",
-    intro: "Start with the big drumstick silhouette, then make the crust bumpy, add crumbs, set it on a simple shadow, and fill it with warm marker color. Change the crunch marks later, but keep the bone and coating clear.",
+    description: "Learn how to draw a fried chicken drumstick with a light drumstick guide, short bone handle, bumpy coating, crumb dots, crackle marks, simple paper wrapper, golden marker fill, and thick black outlines.",
+    intro: "Start with a light drumstick guide, then replace the smooth edge with a crunchy bumpy outline, add crumbs, set it on a simple paper wrapper, and fill it with warm marker color. Change the crunch marks later, but keep the bone and coating clear.",
     time: 15,
     difficulty: "Easy",
     accent: "#e49a28",
     finished: "fried-chicken-drumstick-doodle-finished-v1.jpg",
-    finishedAlt: "Bold marker doodle of a fried chicken drumstick with golden-orange crunchy coating, crumb dots, crackle marks, pale bone handle, thick black outlines, white highlight gaps, and gray ground shadow",
+    finishedAlt: "Bold marker doodle of a fried chicken drumstick with golden-orange crunchy coating, crumb dots, crackle marks, pale bone handle, thick black outlines, white highlight gaps, and gray paper wrapper",
     materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
-    materialNote: "Use black for the outline and crumb marks, golden orange for the crust, pale cream for the bone, gray for the ground shadow, and the gel pen only for small highlight gaps.",
+    materialNote: "Use black for the outline and crumb marks, golden orange for the crust, pale cream for the bone, gray for the paper wrapper, and the gel pen only for small highlight gaps.",
     tipLabel: "Doodle tip",
     steps: [
       {
         name: "Block the drumstick",
-        text: "Draw a rounded drumstick meat shape, then attach a short bone handle at the narrow end.",
-        tip: "Make the meat shape bigger than the bone. That clear size contrast sells the drumstick fast."
+        text: "Sketch a light teardrop guide for the chicken shape, then attach a short bone handle at the narrow end.",
+        tip: "Treat the first curve as a size guide, not the final crust edge. The bumpy coating comes next."
       },
       {
         name: "Bump the crispy edge",
-        text: "Turn the smooth edge into a bumpy fried coating, then round off the bone end.",
-        tip: "Use uneven bumps. Perfect scallops can make the crust look like a decorative cloud."
+        text: "Replace the smooth guide with an uneven bumpy coating, then round off the bone end.",
+        tip: "Let the bumps vary in size. Perfect scallops can make the crust look like a decorative cloud."
       },
       {
         name: "Sprinkle the crust",
@@ -106,9 +106,9 @@ const lessons = [
         tip: "Cluster a few marks and leave open spaces. Too many specks can muddy the marker fill."
       },
       {
-        name: "Set bone and shadow",
-        text: "Add the small bone-end detail and a simple ground shadow under the drumstick.",
-        tip: "Keep the shadow flat and light. It should ground the doodle without becoming another object."
+        name: "Set bone and wrapper",
+        text: "Add the small bone-end detail, then slide a simple paper wrapper shape behind the drumstick.",
+        tip: "Keep the wrapper light and flat. It should support the chicken without stealing attention."
       },
       {
         name: "Color the crispy coat",
@@ -117,7 +117,7 @@ const lessons = [
       },
       {
         name: "Crunch up the finish",
-        text: "Thicken the black outlines, even the existing marker fills, clarify the crumb marks, and strengthen the same ground shadow.",
+        text: "Thicken the bumpy black outline, even the existing marker fills, clarify the crumb marks, and strengthen the same wrapper shadows.",
         tip: "Stop before adding a plate, sauce cup, face, or border. The crust, bone, crumbs, and color are enough.",
         image: true
       }
@@ -186,7 +186,7 @@ const lessons = [
     shortSubject: "a graham cracker s'more doodle",
     lessonTitle: "Let's doodle a graham cracker s'more",
     description: "Learn how to draw a graham cracker s'more doodle with stacked crackers, puffy marshmallow, visible chocolate slab, cracker holes, melty edges, bold black outlines, marker fills, and shine gaps.",
-    intro: "Build the s'more as a stack first, then tuck in the marshmallow and chocolate before adding cracker dots, melty edges, and warm marker color. Keep the layers clear, then change the cracker tilt or marshmallow squish when you make another one.",
+    intro: "Build the s'more as a stack first, then leave room for the chocolate before rounding the marshmallow, adding cracker dots, melty edges, and warm marker color. Keep the layers clear, then change the cracker tilt or marshmallow squish when you make another one.",
     time: 15,
     difficulty: "Easy",
     accent: "#c98232",
@@ -202,14 +202,14 @@ const lessons = [
         tip: "Keep the corners simple and chunky. A square stack reads faster than a perfectly measured box."
       },
       {
-        name: "Squash in the marshmallow",
-        text: "Add a puffy marshmallow layer between the crackers, letting the soft edge bulge past the straight cracker sides.",
-        tip: "Round the marshmallow edge generously. That contrast against the crackers makes the s'more fun to draw."
+        name: "Shape the marshmallow",
+        text: "Add the puffy marshmallow as the upper filling, but leave a clean strip above the bottom cracker for chocolate.",
+        tip: "Round the marshmallow edge generously, then stop before it fills the whole gap."
       },
       {
-        name: "Slide in chocolate",
-        text: "Draw a visible chocolate slab under the marshmallow so it peeks out along the front and side.",
-        tip: "Place the chocolate before you color. That keeps the dark layer from becoming a surprise at the end."
+        name: "Use the chocolate gap",
+        text: "Draw the chocolate slab in the strip you saved, letting it peek out below the marshmallow and above the bottom cracker.",
+        tip: "Use the reserved space instead of trying to squeeze chocolate under a finished marshmallow."
       },
       {
         name: "Dot the cracker",

@@ -58,6 +58,13 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-06 content correction: updated `graham-cracker-smore-doodle` so
+  the written steps reserve a chocolate strip before adding the chocolate
+  layer, instead of asking the reader to draw chocolate under a completed
+  marshmallow. Updated `fried-chicken-drumstick-doodle` so the first curve is
+  framed as a light guide that gets replaced by the bumpy crust, and so the
+  late rectangular support is described as a paper wrapper rather than only a
+  ground shadow.
 - 2026-07-06 follow-up: removed the default "doodle" suffix from the public
   lesson names/search phrases for the newest lessons. `fried-chicken-drumstick-doodle`
   now titles as "How to Draw Fried Chicken Drumstick"; `cartoon-magnifying-glass-doodle`
