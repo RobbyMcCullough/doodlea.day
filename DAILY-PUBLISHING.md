@@ -34,6 +34,19 @@ already told the reader to thicken the full outline.
 - Include creative-permission language naturally in some lesson intros, tips, or
   closing steps. The tone should say "try it this way, then make it yours"
   without weakening the step-by-step instruction.
+- Include practical art technique in the written steps and tips, not only
+  object assembly. Each new lesson should teach at least one transferable
+  marker or drawing skill that helps the reader improve: ghosting a long curve
+  before touching the marker down, drawing a light construction pass before the
+  bold outline, rotating the page for a smoother stroke, pulling marker strokes
+  in the direction of the form, leaving intentional highlight gaps, letting wet
+  marker areas dry before a second pass, comparing negative spaces, or varying
+  pressure and line weight.
+- Technique advice must be actionable and tied to the current step. Prefer
+  specific coaching such as "ghost the swoop twice, then pull the marker in one
+  confident pass" or "fill from the edge inward so the streaks follow the
+  noodle curve" over generic encouragement like "take your time" or "add
+  details."
 - Let marker streaks and imperfect outlines show. Avoid glossy vector-perfect
   symmetry, airbrush gradients, photorealism, and quiet pencil-sketch finishes.
 - Use color as part of the lesson, not as a decorative final-only surprise.

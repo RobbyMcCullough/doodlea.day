@@ -58,6 +58,11 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
+  written lesson steps/tips to include actionable marker/drawing techniques
+  such as ghosting, light construction passes, page rotation, directional
+  marker strokes, intentional highlight gaps, drying/layering behavior,
+  negative-space checks, and line-weight control.
 - 2026-07-07 daily automation added two Doodlea lessons:
   `bowl-of-macaroni` as July 7, 2026 / Day 034 and `magic-wand-sparkle` as
   June 4, 2026 / Day 001 honest archive backfill. Existing day labels shifted
