@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-06
+- Date: 2026-07-07
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -58,6 +58,20 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-07 daily automation added two Doodlea lessons:
+  `bowl-of-macaroni` as July 7, 2026 / Day 034 and `magic-wand-sparkle` as
+  June 4, 2026 / Day 001 honest archive backfill. Existing day labels shifted
+  forward by one.
+- July 7 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-07`, preflight slug locks, contact-sheet cropping,
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs, and Cove
+  rendered desktop/mobile QA at `https://doodlea.localhost/`. Screenshots are
+  under `/tmp/daily-sketch-doodle-qa-2026-07-07/`.
+- Finished image ratings: bowl of macaroni 8.7/10 for bold marker readability,
+  clear elbow-noodle construction, and no face/sticker framing; magic wand
+  sparkle 8.5/10 for clean star/wand/sparkle progression and strong marker
+  color. The temporary two-tutorial-per-site backfill cadence is still active
+  until the owner says otherwise.
 - 2026-07-06 s'more art correction: replaced the
   `graham-cracker-smore-doodle` contact sheet and cropped step/finished art
   because the prior panel 2 -> panel 3 transition required erasing part of the

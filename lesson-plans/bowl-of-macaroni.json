@@ -1,0 +1,127 @@
+{
+  "slug": "bowl-of-macaroni",
+  "finished": "assets/bowl-of-macaroni-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the July 7, 2026 bowl of macaroni marker lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent bold marker bowl of elbow macaroni, no sticker or badge border, no embedded labels, arrows, numbers, signatures, watermarks, or fake UI."
+  },
+  "process_strategy": "The sequence builds the bowl, rim, noodle pile, individual elbows, bowl stripe, marker cheese color, and small shadows before the final panel only thickens outlines and clarifies existing color and noodle details.",
+  "final_elements": [
+    {
+      "name": "rounded bowl",
+      "introduced_by_step": 1,
+      "description": "A simple rounded bowl with a wide oval rim."
+    },
+    {
+      "name": "rim opening",
+      "introduced_by_step": 1,
+      "description": "An oval opening that holds the macaroni pile."
+    },
+    {
+      "name": "macaroni mound",
+      "introduced_by_step": 2,
+      "description": "A loose mound of noodles sitting inside the rim."
+    },
+    {
+      "name": "individual elbow noodles",
+      "introduced_by_step": 3,
+      "description": "Clear C-shaped elbow macaroni pieces across the mound."
+    },
+    {
+      "name": "bowl stripe",
+      "introduced_by_step": 4,
+      "description": "A playful colored stripe across the front of the bowl."
+    },
+    {
+      "name": "cheesy yellow fill",
+      "introduced_by_step": 5,
+      "description": "Bright yellow-orange marker fill inside the already-drawn noodles."
+    },
+    {
+      "name": "small sauce shadows",
+      "introduced_by_step": 5,
+      "description": "Darker orange accents on existing elbow noodles."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/bowl-of-macaroni-step-1.jpg",
+      "step_name": "Draw the bowl",
+      "visible_job": "Blocks in the rounded bowl and wide oval rim with loose marker construction.",
+      "introduces": [
+        "rounded bowl",
+        "rim opening"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/bowl-of-macaroni-step-2.jpg",
+      "step_name": "Pile in the noodles",
+      "visible_job": "Adds the main macaroni mound inside the existing bowl rim.",
+      "introduces": [
+        "macaroni mound"
+      ],
+      "requires_prior_elements": [
+        "rim opening"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/bowl-of-macaroni-step-3.jpg",
+      "step_name": "Shape elbow pieces",
+      "visible_job": "Separates the mound into visible C-shaped elbow noodles.",
+      "introduces": [
+        "individual elbow noodles"
+      ],
+      "requires_prior_elements": [
+        "macaroni mound"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/bowl-of-macaroni-step-4.jpg",
+      "step_name": "Stripe the bowl",
+      "visible_job": "Adds a simple marker stripe to the already-drawn bowl front and a small shadow underneath.",
+      "introduces": [
+        "bowl stripe"
+      ],
+      "requires_prior_elements": [
+        "rounded bowl"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/bowl-of-macaroni-step-5.jpg",
+      "step_name": "Color the macaroni",
+      "visible_job": "Fills the existing elbow noodles with yellow-orange marker and adds small sauce shadows.",
+      "introduces": [
+        "cheesy yellow fill",
+        "small sauce shadows"
+      ],
+      "requires_prior_elements": [
+        "individual elbow noodles",
+        "macaroni mound"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the macaroni pop",
+    "asset": "assets/bowl-of-macaroni-finished-v1.jpg",
+    "visible_job": "Thickens the bowl and noodle outlines, evens the marker fill, clarifies the bowl stripe, and reinforces the existing sauce shadows.",
+    "allowed_changes": [
+      "bold outline thickening",
+      "marker fill cleanup",
+      "noodle edge clarification",
+      "bowl stripe cleanup",
+      "small sauce-shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No bowl, rim, noodle mound, elbow noodle, stripe, color fill, or sauce shadow should first appear in the final image.",
+    "No frame may ink, fill, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

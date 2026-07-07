@@ -18,8 +18,114 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "cartoon-magnifying-glass-doodle",
+    slug: "magic-wand-sparkle",
     day: "001",
+    date: "Thursday, June 4",
+    isoDate: "2026-06-04",
+    subject: "a magic wand sparkle",
+    headlineSubject: "a magic wand<br>sparkle",
+    shortSubject: "a magic wand",
+    lessonTitle: "Let's draw a magic wand sparkle",
+    description: "Learn how to draw a magic wand sparkle with a diagonal wand, star tip, ribbon band, four-point sparkles, yellow marker fill, pink band, purple shadow, and bold black outlines.",
+    intro: "Angle the wand first, attach the star, wrap the band, pop in the sparkles, then finish with bright marker color. Try different sparkle sizes later; keep the star tip and wand angle clear first.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f2c21b",
+    finished: "magic-wand-sparkle-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a diagonal magic wand with yellow star tip, pink ribbon band, four small sparkle bursts, thick black outlines, visible marker texture, and purple shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outlines, yellow for the star and sparkles, pink for the band, purple for the shadow, and the gel pen only for tiny shine gaps if you want them.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Angle the wand",
+        text: "Draw a slim diagonal wand stick with rounded ends.",
+        tip: "Make the handle long and simple. The star needs room to sit clearly at the top."
+      },
+      {
+        name: "Add the star",
+        text: "Attach a chunky five-point star to the top of the wand.",
+        tip: "Let the bottom point overlap the handle slightly. That overlap makes the parts feel connected."
+      },
+      {
+        name: "Wrap the band",
+        text: "Add a small ribbon band near the star while keeping the wand angle the same.",
+        tip: "Curve the band around the wand instead of drawing a flat rectangle."
+      },
+      {
+        name: "Pop the sparkles",
+        text: "Place a few four-point sparkle bursts around the star tip.",
+        tip: "Use different sparkle sizes, but keep them away from the star points so the silhouette stays clean."
+      },
+      {
+        name: "Color the magic",
+        text: "Fill the star and sparkles yellow, color the band pink, and add a small purple shadow under the wand.",
+        tip: "Let marker streaks show inside the star. That texture keeps it handmade."
+      },
+      {
+        name: "Brighten the wand",
+        text: "Thicken the black outlines, even the existing marker fills, clarify the sparkle bursts and band, and reinforce the same shadow.",
+        tip: "Stop before adding words, faces, moons, or a border. The star, wand, sparkles, and color are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "bowl-of-macaroni",
+    day: "034",
+    date: "Tuesday, July 7",
+    isoDate: "2026-07-07",
+    subject: "a bowl of macaroni",
+    headlineSubject: "a bowl<br>of macaroni",
+    shortSubject: "a bowl of macaroni",
+    lessonTitle: "Let's draw a bowl of macaroni",
+    description: "Learn how to draw a bowl of macaroni with a rounded bowl, wide rim, noodle mound, C-shaped elbow pieces, teal bowl stripe, cheesy yellow-orange marker fill, sauce accents, and bold black outlines.",
+    intro: "Build the bowl first, pile in the noodles, turn the mound into elbow shapes, then add the stripe and warm marker color. Try different bowl colors later; keep the rim and macaroni pieces easy to read.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f2a51f",
+    finished: "bowl-of-macaroni-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a bowl of macaroni with C-shaped yellow-orange elbow noodles, thick black outlines, teal stripe on the bowl, orange sauce accents, and purple marker shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for outlines, yellow and orange for the macaroni, teal or another bright color for the bowl stripe, purple or gray for the shadow, and the gel pen only for small shine gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the bowl",
+        text: "Draw a wide oval rim, then curve the sides down into a rounded bowl with a small base.",
+        tip: "Make the rim wider than the base. That gives the macaroni room to pile up."
+      },
+      {
+        name: "Pile in the noodles",
+        text: "Add a loose mound of noodles inside the rim, letting the pile rise above the back edge.",
+        tip: "Think of this as one big bumpy shape first. The individual elbows come next."
+      },
+      {
+        name: "Shape elbow pieces",
+        text: "Break the mound into C-shaped elbow macaroni pieces with bold curved lines.",
+        tip: "Vary the noodle sizes a little. Repeated identical C shapes can look like a pattern instead of food."
+      },
+      {
+        name: "Stripe the bowl",
+        text: "Add a bright stripe across the bowl front, then place a small marker shadow underneath.",
+        tip: "Curve the stripe with the bowl. A flat stripe can make the bowl look like a rectangle."
+      },
+      {
+        name: "Color the macaroni",
+        text: "Fill the elbow pieces with yellow-orange marker and add a few darker sauce accents on the same noodles.",
+        tip: "Leave tiny white gaps where the marker skips. Those gaps make the noodles feel glossy without extra detail."
+      },
+      {
+        name: "Make the macaroni pop",
+        text: "Thicken the black outlines, even the marker fills, clarify the noodle edges and bowl stripe, and reinforce the existing sauce shadows.",
+        tip: "Stop before adding a face, spoon, words, or a border. The bowl, noodles, stripe, and color carry the doodle.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-magnifying-glass-doodle",
+    day: "002",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -72,7 +178,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "032",
+    day: "033",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "002",
+    day: "003",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "031",
+    day: "032",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -232,7 +338,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "003",
+    day: "004",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -285,7 +391,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "004",
+    day: "005",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -338,7 +444,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "005",
+    day: "006",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -391,7 +497,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "029",
+    day: "030",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -444,7 +550,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "030",
+    day: "031",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -497,7 +603,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "006",
+    day: "007",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -550,7 +656,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "007",
+    day: "008",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -603,7 +709,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "008",
+    day: "009",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -656,7 +762,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "028",
+    day: "029",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -709,7 +815,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "009",
+    day: "010",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -762,7 +868,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "027",
+    day: "028",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -815,7 +921,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "010",
+    day: "011",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -868,7 +974,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "026",
+    day: "027",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -921,7 +1027,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "011",
+    day: "012",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -974,7 +1080,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "012",
+    day: "013",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1027,7 +1133,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "025",
+    day: "026",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1080,7 +1186,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "024",
+    day: "025",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1133,7 +1239,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "023",
+    day: "024",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1186,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "022",
+    day: "023",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1239,7 +1345,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "021",
+    day: "022",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1292,7 +1398,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "020",
+    day: "021",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1345,7 +1451,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "019",
+    day: "020",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1398,7 +1504,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "018",
+    day: "019",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1451,7 +1557,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "015",
+    day: "016",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1504,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "013",
+    day: "014",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1557,7 +1663,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "014",
+    day: "015",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1610,7 +1716,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "016",
+    day: "017",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1663,7 +1769,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "017",
+    day: "018",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

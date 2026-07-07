@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a bowl of macaroni</title>
+      <link>https://doodlea.day/tutorials/bowl-of-macaroni.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/bowl-of-macaroni.html</guid>
+      <pubDate>Tue, 07 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a bowl of macaroni with a rounded bowl, wide rim, noodle mound, C-shaped elbow pieces, teal bowl stripe, cheesy yellow-orange marker fill, sauce accents, and bold black outlines.</description>
+      <media:content url="https://doodlea.day/assets/bowl-of-macaroni-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a fried chicken drumstick</title>
       <link>https://doodlea.day/tutorials/fried-chicken-drumstick-doodle.html</link>
@@ -262,6 +270,14 @@
       <pubDate>Fri, 05 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon magnifying glass with a round lens, short handle, thick rim, shine streaks, search spark marks, blue marker glass, yellow handle, and bold black outlines.</description>
       <media:content url="https://doodlea.day/assets/cartoon-magnifying-glass-doodle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a magic wand sparkle</title>
+      <link>https://doodlea.day/tutorials/magic-wand-sparkle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/magic-wand-sparkle.html</guid>
+      <pubDate>Thu, 04 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a magic wand sparkle with a diagonal wand, star tip, ribbon band, four-point sparkles, yellow marker fill, pink band, purple shadow, and bold black outlines.</description>
+      <media:content url="https://doodlea.day/assets/magic-wand-sparkle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

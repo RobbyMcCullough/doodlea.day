@@ -1,0 +1,124 @@
+{
+  "slug": "magic-wand-sparkle",
+  "finished": "assets/magic-wand-sparkle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the June 4, 2026 magic wand sparkle marker lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent bold marker magic wand and sparkle process, no sticker or badge border, no embedded labels, arrows, numbers, signatures, watermarks, or fake UI."
+  },
+  "process_strategy": "The sequence builds the diagonal wand, star tip, ribbon band, surrounding sparkles, marker fills, and small shadows before the final panel only thickens outlines and clarifies existing sparkle and color details.",
+  "final_elements": [
+    {
+      "name": "diagonal wand stick",
+      "introduced_by_step": 1,
+      "description": "A slim diagonal wand handle with rounded ends."
+    },
+    {
+      "name": "star tip",
+      "introduced_by_step": 2,
+      "description": "A five-point star attached to the top of the wand."
+    },
+    {
+      "name": "ribbon band",
+      "introduced_by_step": 3,
+      "description": "A small wrapped band near the star."
+    },
+    {
+      "name": "sparkle bursts",
+      "introduced_by_step": 4,
+      "description": "Small four-point sparkles around the wand tip."
+    },
+    {
+      "name": "yellow and pink marker fill",
+      "introduced_by_step": 5,
+      "description": "Bright marker color inside the already-drawn star and ribbon band."
+    },
+    {
+      "name": "small purple shadow",
+      "introduced_by_step": 5,
+      "description": "A simple marker shadow under the diagonal wand."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/magic-wand-sparkle-step-1.jpg",
+      "step_name": "Angle the wand",
+      "visible_job": "Blocks in the slim diagonal wand stick with rounded ends.",
+      "introduces": [
+        "diagonal wand stick"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/magic-wand-sparkle-step-2.jpg",
+      "step_name": "Add the star",
+      "visible_job": "Adds the star tip to the existing wand.",
+      "introduces": [
+        "star tip"
+      ],
+      "requires_prior_elements": [
+        "diagonal wand stick"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/magic-wand-sparkle-step-3.jpg",
+      "step_name": "Wrap the band",
+      "visible_job": "Adds a small ribbon band near the star without changing the wand angle.",
+      "introduces": [
+        "ribbon band"
+      ],
+      "requires_prior_elements": [
+        "diagonal wand stick",
+        "star tip"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/magic-wand-sparkle-step-4.jpg",
+      "step_name": "Pop the sparkles",
+      "visible_job": "Places small sparkle bursts around the existing star tip.",
+      "introduces": [
+        "sparkle bursts"
+      ],
+      "requires_prior_elements": [
+        "star tip"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/magic-wand-sparkle-step-5.jpg",
+      "step_name": "Color the magic",
+      "visible_job": "Fills the star and band with marker color and adds a small purple shadow under the wand.",
+      "introduces": [
+        "yellow and pink marker fill",
+        "small purple shadow"
+      ],
+      "requires_prior_elements": [
+        "diagonal wand stick",
+        "star tip",
+        "ribbon band",
+        "sparkle bursts"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Brighten the wand",
+    "asset": "assets/magic-wand-sparkle-finished-v1.jpg",
+    "visible_job": "Thickens the wand and star outlines, evens the existing marker fills, clarifies the sparkle bursts, and reinforces the same small shadow.",
+    "allowed_changes": [
+      "bold outline thickening",
+      "marker fill cleanup",
+      "sparkle clarification",
+      "ribbon band cleanup",
+      "small shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No wand, star, ribbon band, sparkle, color fill, or shadow should first appear in the final image.",
+    "No frame may ink, fill, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
