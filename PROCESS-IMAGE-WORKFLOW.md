@@ -12,12 +12,13 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
      existing parts, list those parts in `requires_prior_elements`; they must
      first appear in an earlier frame.
    - Decide whether the subject needs 5, 6, 7, or 8 stages.
-   - Generate only for a locked tutorial slug. Lock it first with the
-     mandatory gate, which fails while any unresolved generated art exists in
-     `drafts/LEDGER.json`:
+   - Generate only for a locked tutorial slug. Acquire the daily run lock first,
+     then lock the slug with the mandatory gate, which fails while any
+     unresolved generated art exists in `drafts/LEDGER.json`:
 
      ```sh
-     python3 scripts/preflight-image-generation.py --slug {slug}
+     python3 scripts/daily-publish-lock.py acquire --current-date YYYY-MM-DD
+     python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD --lock-token LOCK_TOKEN
      ```
 
      Do not create speculative sheets for backup subjects, alternate

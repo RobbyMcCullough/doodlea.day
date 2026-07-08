@@ -2,6 +2,7 @@
   "scripts": {
     "build": "node scripts/build-tutorials.mjs",
     "build:production": "node scripts/build-public.mjs",
+    "lock:daily": "python3 scripts/daily-publish-lock.py",
     "check:publish-slots": "python3 scripts/check-daily-publish-slots.py",
     "check": "python3 scripts/check-tutorial-readiness.py hot-rod-marker-flames"
   }

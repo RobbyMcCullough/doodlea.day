@@ -5,7 +5,9 @@ Enforces the generation contract from DAILY-PUBLISHING.md:
 1. No unresolved (pending) generated art may exist anywhere in drafts/.
 2. The slug must not already be published.
 3. The daily slot must be free (when --current-date is given).
-4. The slug is locked by writing a pending entry to drafts/LEDGER.json, so a
+4. The caller must own the run-level daily publishing lock when --current-date
+   is given.
+5. The slug is locked by writing a pending entry to drafts/LEDGER.json, so a
    later run can never claim the art was speculative or unaccounted for.
 
 It also prints the published-subject list for the mandatory duplicate
@@ -13,7 +15,7 @@ back-check, and auto-heals ledger entries whose tutorials now exist.
 
 Usage:
   python3 scripts/preflight-image-generation.py --slug cozy-mushroom \
-      --current-date 2026-07-05
+      --current-date 2026-07-05 --lock-token LOCK_TOKEN
 """
 
 from __future__ import annotations
@@ -60,6 +62,10 @@ def main() -> int:
         "--current-date",
         help="Run the duplicate-slot guard for this date (YYYY-MM-DD) too.",
     )
+    parser.add_argument(
+        "--lock-token",
+        help="Token from scripts/daily-publish-lock.py acquire. Required with --current-date.",
+    )
     args = parser.parse_args()
     slug = args.slug
 
@@ -89,7 +95,32 @@ def main() -> int:
         print("FAIL resolve the drafts ledger before generating new art.")
         return 1
 
-    # 3. Daily slot guard.
+    # 3. Daily run lock.
+    if args.current_date:
+        if not args.lock_token:
+            print(
+                "FAIL acquire the run-level daily publish lock first, then pass "
+                "--lock-token to preflight. Run: python3 scripts/daily-publish-lock.py "
+                f"acquire --current-date {args.current_date}"
+            )
+            return 1
+        lock = subprocess.run(
+            [
+                sys.executable,
+                str(ROOT / "scripts" / "daily-publish-lock.py"),
+                "verify",
+                "--current-date",
+                args.current_date,
+                "--token",
+                args.lock_token,
+            ],
+            cwd=ROOT,
+        )
+        if lock.returncode != 0:
+            print("FAIL the daily publish lock did not verify; stop before generating art.")
+            return 1
+
+    # 4. Daily slot guard.
     if args.current_date:
         slot = subprocess.run(
             [
@@ -104,7 +135,7 @@ def main() -> int:
             print("FAIL the daily slot guard did not pass; stop before generating art.")
             return 1
 
-    # 4. Duplicate back-check reminder: the human/agent judgment step.
+    # 5. Duplicate back-check reminder: the human/agent judgment step.
     published = sorted(page.stem for page in TUTORIALS.glob("*.html"))
     print(f"\nPublished subjects ({len(published)}) for the duplicate back-check:")
     for name in published:
@@ -114,7 +145,7 @@ def main() -> int:
         "category, or drawing problem (see DAILY-PUBLISHING.md)."
     )
 
-    # 5. Lock the slug.
+    # 6. Lock the slug.
     entry = ledger["entries"].get(slug)
     if entry is None or entry.get("status") == "pending":
         ledger["entries"][slug] = {

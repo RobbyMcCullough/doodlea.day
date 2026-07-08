@@ -58,6 +58,12 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-08 concurrency fix: added `scripts/daily-publish-lock.py`, a
+  cross-site atomic lock shared through the sibling parent folder. Future daily
+  runs must acquire it before subject selection, pass the printed token to every
+  `scripts/preflight-image-generation.py --lock-token ...` call, and release it
+  after commit/push or any stop condition. Preflight now fails before art
+  generation when the token is missing or owned by another run.
 - 2026-07-08 daily automation added two Doodlea lessons:
   `cartoon-alarm-clock` as July 8, 2026 / Day 036 and
   `cartoon-toothbrush` as June 3, 2026 / Day 001 honest archive backfill.
