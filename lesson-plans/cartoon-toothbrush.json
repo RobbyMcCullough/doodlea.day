@@ -1,0 +1,137 @@
+{
+  "slug": "cartoon-toothbrush",
+  "finished": "assets/cartoon-toothbrush-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet cropped into five step frames and one finished marker doodle.",
+    "notes": "Created for the 2026-06-03 honest Doodlea.day archive backfill."
+  },
+  "process_strategy": "One diagonal toothbrush builds from handle and head guides to bristles, grip bumps, rinse droplets, marker fills, and final outline reinforcement without adding new final-only parts.",
+  "final_elements": [
+    {
+      "name": "diagonal handle",
+      "introduced_by_step": 1,
+      "description": "A long rounded toothbrush handle angled across the page."
+    },
+    {
+      "name": "brush head",
+      "introduced_by_step": 1,
+      "description": "A small rounded rectangular head at one end."
+    },
+    {
+      "name": "neck curve",
+      "introduced_by_step": 2,
+      "description": "A slight bend between handle and head."
+    },
+    {
+      "name": "bristle blocks",
+      "introduced_by_step": 3,
+      "description": "Grouped rounded bristles sitting on the brush head."
+    },
+    {
+      "name": "grip bumps",
+      "introduced_by_step": 4,
+      "description": "Small rounded grip marks along the handle."
+    },
+    {
+      "name": "rinse droplets",
+      "introduced_by_step": 4,
+      "description": "A few small water drops near the bristles."
+    },
+    {
+      "name": "aqua and coral marker fills",
+      "introduced_by_step": 5,
+      "description": "Bright marker color on the already drawn handle, head, and bristles."
+    },
+    {
+      "name": "small gray shadow",
+      "introduced_by_step": 5,
+      "description": "A simple shadow beneath the diagonal toothbrush."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-toothbrush-step-1.jpg",
+      "step_name": "Draw the handle and head",
+      "visible_job": "Places the diagonal handle and brush head as simple rounded shapes.",
+      "introduces": [
+        "diagonal handle",
+        "brush head"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-toothbrush-step-2.jpg",
+      "step_name": "Bend the neck",
+      "visible_job": "Adds the neck curve while keeping the handle and head aligned.",
+      "introduces": [
+        "neck curve"
+      ],
+      "requires_prior_elements": [
+        "diagonal handle",
+        "brush head"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-toothbrush-step-3.jpg",
+      "step_name": "Stack the bristles",
+      "visible_job": "Adds grouped bristle blocks onto the existing brush head.",
+      "introduces": [
+        "bristle blocks"
+      ],
+      "requires_prior_elements": [
+        "brush head"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-toothbrush-step-4.jpg",
+      "step_name": "Add grip and droplets",
+      "visible_job": "Adds handle grip bumps and a few rinse droplets near the bristles.",
+      "introduces": [
+        "grip bumps",
+        "rinse droplets"
+      ],
+      "requires_prior_elements": [
+        "diagonal handle",
+        "bristle blocks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-toothbrush-step-5.jpg",
+      "step_name": "Color the toothbrush",
+      "visible_job": "Adds aqua and coral marker fills plus a small gray shadow to the existing drawing.",
+      "introduces": [
+        "aqua and coral marker fills",
+        "small gray shadow"
+      ],
+      "requires_prior_elements": [
+        "diagonal handle",
+        "brush head",
+        "bristle blocks",
+        "grip bumps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the toothbrush",
+    "asset": "assets/cartoon-toothbrush-finished-v1.jpg",
+    "visible_job": "Only thickens existing outlines, evens marker fills, clarifies bristles and droplets, and reinforces the shadow.",
+    "allowed_changes": [
+      "black outline thickening",
+      "existing marker fill evening",
+      "bristle edge clarification",
+      "droplet darkening",
+      "small shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No face, toothpaste, extra brush head, grip mark, bristle group, droplet, color area, or shadow should first appear in the final image.",
+    "The toothbrush must stay at the same diagonal angle and scale in every frame.",
+    "The final must be bold handmade marker art, not a clean vector icon.",
+    "No adjacent frame should look unchanged at card size."
+  ]
+}

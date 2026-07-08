@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon alarm clock</title>
+      <link>https://doodlea.day/tutorials/cartoon-alarm-clock.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-alarm-clock.html</guid>
+      <pubDate>Wed, 08 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon alarm clock with a round clock body, twin bells, handle, feet, clock hands, chunky tick marks, blue marker fill, yellow bells, and bold black outlines.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-alarm-clock-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a bowl of macaroni</title>
       <link>https://doodlea.day/tutorials/bowl-of-macaroni.html</link>
@@ -278,6 +286,14 @@
       <pubDate>Thu, 04 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a magic wand sparkle with a diagonal wand, star tip, ribbon band, four-point sparkles, yellow marker fill, pink band, purple shadow, and bold black outlines.</description>
       <media:content url="https://doodlea.day/assets/magic-wand-sparkle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon toothbrush</title>
+      <link>https://doodlea.day/tutorials/cartoon-toothbrush.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-toothbrush.html</guid>
+      <pubDate>Wed, 03 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon toothbrush with a long rounded handle, small brush head, curved neck, grouped bristles, grip bumps, rinse droplets, aqua and coral marker fills, and bold black outlines.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-toothbrush-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

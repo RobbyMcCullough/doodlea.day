@@ -58,6 +58,24 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-08 daily automation added two Doodlea lessons:
+  `cartoon-alarm-clock` as July 8, 2026 / Day 036 and
+  `cartoon-toothbrush` as June 3, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 8 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-08`, preflight slug lock for
+  `cartoon-alarm-clock`, contact-sheet cropping, and
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
+  rendered desktop/mobile QA passed at `https://doodlea.localhost/`; screenshots
+  are under `/tmp/daily-sketch-doodle-qa-2026-07-08/`.
+- Finished image ratings: cartoon alarm clock 8.8/10 for bold face-free clock
+  readability, clear bells/hands/ticks, marker fills, and stable process;
+  cartoon toothbrush 8.6/10 for clear handle/head/bristles, droplets, bright
+  marker color, and no face/sticker framing. A generated `soccer-cleat` draft
+  sheet was recorded as rejected-duplicate because this run already had two
+  stronger Doodlea subjects and soccer/sports-object lessons were too close to
+  nearby archive shape problems. The temporary two-tutorial-per-site backfill
+  cadence is still active until the owner says otherwise.
 - 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
   written lesson steps/tips to include actionable marker/drawing techniques
   such as ghosting, light construction passes, page rotation, directional

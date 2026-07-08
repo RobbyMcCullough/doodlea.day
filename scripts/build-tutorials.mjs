@@ -18,8 +18,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "magic-wand-sparkle",
+    slug: "cartoon-toothbrush",
     day: "001",
+    date: "Wednesday, June 3",
+    isoDate: "2026-06-03",
+    subject: "a cartoon toothbrush",
+    headlineSubject: "a cartoon<br>toothbrush",
+    shortSubject: "a toothbrush",
+    lessonTitle: "Let's draw a cartoon toothbrush",
+    description: "Learn how to draw a cartoon toothbrush with a long rounded handle, small brush head, curved neck, grouped bristles, grip bumps, rinse droplets, aqua and coral marker fills, and bold black outlines.",
+    intro: "Build the toothbrush as a simple diagonal handle and head, then stack the bristles before adding bright marker fills. Keep this version face-free and playful through shape, color, and thick outline instead.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#25bfc5",
+    finished: "cartoon-toothbrush-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a diagonal cartoon toothbrush with aqua handle, coral grip bumps and bristles, rinse droplets, thick black outlines, visible marker texture, and small gray shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the outline, aqua for the handle and head, coral for the grip and bristles, and the gel pen only if you want tiny highlight gaps on the droplets.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the handle and head",
+        text: "Draw a long rounded diagonal handle, then add a small rounded brush head at the top end.",
+        tip: "Ghost the long handle curve before using marker. A confident diagonal makes the whole doodle feel cleaner."
+      },
+      {
+        name: "Bend the neck",
+        text: "Connect the handle to the head with a slight neck curve, keeping the same diagonal angle.",
+        tip: "Rotate the page so the neck curve pulls toward your hand. Smooth marker curves are easier when your wrist is not cramped."
+      },
+      {
+        name: "Stack the bristles",
+        text: "Add grouped rounded bristle blocks on top of the brush head.",
+        tip: "Keep the bristles chunky instead of drawing many tiny hairs. Big groups read better at card size."
+      },
+      {
+        name: "Add grip and droplets",
+        text: "Place a row of rounded grip bumps along the handle, then add a few rinse droplets near the bristles.",
+        tip: "Compare the gaps between the grip bumps. Even spacing keeps the handle playful without turning messy."
+      },
+      {
+        name: "Color the toothbrush",
+        text: "Fill the handle and head with aqua, color the grip bumps and bristles coral, and add a small gray shadow.",
+        tip: "Pull marker strokes along the handle length. Directional streaks make the plastic form feel rounded."
+      },
+      {
+        name: "Finish the toothbrush",
+        text: "Thicken the black outlines, even the existing marker fills, clarify the bristles, droplets, grip bumps, and same shadow.",
+        tip: "Stop before adding a face, toothpaste tube, or border. The bright handle, bristles, and droplets already carry the idea.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "magic-wand-sparkle",
+    day: "002",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "034",
+    day: "035",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -124,8 +177,61 @@ const lessons = [
     ]
   },
   {
+    slug: "cartoon-alarm-clock",
+    day: "036",
+    date: "Wednesday, July 8",
+    isoDate: "2026-07-08",
+    subject: "a cartoon alarm clock",
+    headlineSubject: "a cartoon<br>alarm clock",
+    shortSubject: "an alarm clock",
+    lessonTitle: "Let's draw a cartoon alarm clock",
+    description: "Learn how to draw a cartoon alarm clock with a round clock body, twin bells, handle, feet, clock hands, chunky tick marks, blue marker fill, yellow bells, and bold black outlines.",
+    intro: "Start with the big circle, stack on the bells, add feet and a handle, then place the hands before filling the bright marker colors. Change the colors later if you want; keep the clock face, bells, and hands readable first.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#1e95da",
+    finished: "cartoon-alarm-clock-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a cartoon alarm clock with round blue body, yellow twin bells, curved handle, small feet, red-orange hands, chunky black tick marks, thick outlines, and purple shadow",
+    materials: ["Drawing paper", "Black and colored markers", "White gel pen"],
+    materialNote: "Use black for the outlines and tick marks, blue for the clock body, yellow for the bells, red or orange for the hands, purple for the shadow, and the gel pen only for tiny highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the clock circle",
+        text: "Draw a large round clock body, then add a smaller inner circle for the face.",
+        tip: "Ghost the circle twice before using marker. It can be handmade, but the ring should feel intentional."
+      },
+      {
+        name: "Add the bells",
+        text: "Place two rounded alarm bells on top of the clock body.",
+        tip: "Leave a little gap between each bell and the face ring so the top does not turn into one heavy blob."
+      },
+      {
+        name: "Set feet and handle",
+        text: "Add two small feet below the body and a curved handle connecting the bells.",
+        tip: "Pull the handle curve in one confident stroke. Rotating the page can make that arc smoother."
+      },
+      {
+        name: "Place hands and ticks",
+        text: "Draw two clock hands from the center, then add chunky tick marks around the face.",
+        tip: "Skip numbers for this version. A few bold ticks stay clearer than tiny lettering."
+      },
+      {
+        name: "Fill the bright parts",
+        text: "Fill the body blue, the bells yellow, the hands red-orange, and add a small purple shadow under the feet.",
+        tip: "Pull the blue marker strokes around the circle. Directional strokes make the ring feel round."
+      },
+      {
+        name: "Wake up the clock",
+        text: "Thicken the black outlines, even the marker fills, clarify the bells, hands, ticks, handle, feet, and same shadow.",
+        tip: "Stop before adding a face, words, or a border. The bells, hands, color, and chunky outline give it enough energy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "002",
+    day: "003",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "033",
+    day: "034",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "003",
+    day: "004",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "032",
+    day: "033",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -338,7 +444,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "004",
+    day: "005",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -391,7 +497,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "005",
+    day: "006",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -444,7 +550,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -497,7 +603,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "030",
+    day: "031",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -550,7 +656,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "031",
+    day: "032",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -603,7 +709,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -656,7 +762,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "008",
+    day: "009",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -709,7 +815,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "009",
+    day: "010",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -762,7 +868,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "029",
+    day: "030",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -815,7 +921,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "010",
+    day: "011",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -868,7 +974,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "028",
+    day: "029",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -921,7 +1027,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "011",
+    day: "012",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -974,7 +1080,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "027",
+    day: "028",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1027,7 +1133,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "012",
+    day: "013",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1080,7 +1186,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1133,7 +1239,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "026",
+    day: "027",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1186,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "025",
+    day: "026",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1239,7 +1345,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "024",
+    day: "025",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1292,7 +1398,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "023",
+    day: "024",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1345,7 +1451,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "022",
+    day: "023",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1398,7 +1504,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "021",
+    day: "022",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1451,7 +1557,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1504,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "019",
+    day: "020",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1557,7 +1663,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "016",
+    day: "017",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1610,7 +1716,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1663,7 +1769,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "015",
+    day: "016",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1716,7 +1822,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "017",
+    day: "018",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1769,7 +1875,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "018",
+    day: "019",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

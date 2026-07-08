@@ -1,0 +1,129 @@
+{
+  "slug": "cartoon-alarm-clock",
+  "finished": "assets/cartoon-alarm-clock-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster marker contact sheet generated for the locked July 8 Doodlea.day slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet must keep one consistent alarm clock pose with no face, text, labels, arrows, or sticker/badge border."
+  },
+  "process_strategy": "The alarm clock is built from the body circle, bells, feet, hands, tick marks, color blocks, and shadow before the final only thickens outlines and evens marker fills.",
+  "final_elements": [
+    {
+      "name": "round clock body",
+      "introduced_by_step": 1,
+      "description": "A large round clock face and outer body."
+    },
+    {
+      "name": "twin alarm bells",
+      "introduced_by_step": 2,
+      "description": "Two small rounded bells on top with a simple bridge."
+    },
+    {
+      "name": "clock feet and handle",
+      "introduced_by_step": 3,
+      "description": "Tiny feet below the body and a curved handle between the bells."
+    },
+    {
+      "name": "hands and tick marks",
+      "introduced_by_step": 4,
+      "description": "Two clock hands and a few chunky tick marks, with no numbers or words."
+    },
+    {
+      "name": "blue body fill",
+      "introduced_by_step": 5,
+      "description": "Bright blue marker fill on the clock body."
+    },
+    {
+      "name": "yellow bells and red hands",
+      "introduced_by_step": 5,
+      "description": "Yellow marker fill on the bells and red or orange marker on the hands."
+    },
+    {
+      "name": "purple ground shadow",
+      "introduced_by_step": 5,
+      "description": "A small marker shadow under the feet."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-alarm-clock-step-1.jpg",
+      "step_name": "Draw the clock circle",
+      "visible_job": "Blocks the large round clock body with a simple inner face circle.",
+      "introduces": [
+        "round clock body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-alarm-clock-step-2.jpg",
+      "step_name": "Add the bells",
+      "visible_job": "Adds twin alarm bells on top while keeping the body circle unchanged.",
+      "introduces": [
+        "twin alarm bells"
+      ],
+      "requires_prior_elements": [
+        "round clock body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-alarm-clock-step-3.jpg",
+      "step_name": "Set feet and handle",
+      "visible_job": "Adds small feet and a top handle to the existing clock body.",
+      "introduces": [
+        "clock feet and handle"
+      ],
+      "requires_prior_elements": [
+        "round clock body",
+        "twin alarm bells"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-alarm-clock-step-4.jpg",
+      "step_name": "Place hands and ticks",
+      "visible_job": "Adds the two hands and chunky tick marks inside the existing face.",
+      "introduces": [
+        "hands and tick marks"
+      ],
+      "requires_prior_elements": [
+        "round clock body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-alarm-clock-step-5.jpg",
+      "step_name": "Fill the bright parts",
+      "visible_job": "Adds blue body fill, yellow bell fill, red hands, and a purple ground shadow.",
+      "introduces": [
+        "blue body fill",
+        "yellow bells and red hands",
+        "purple ground shadow"
+      ],
+      "requires_prior_elements": [
+        "round clock body",
+        "twin alarm bells",
+        "hands and tick marks",
+        "clock feet and handle"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Wake up the clock",
+    "asset": "assets/cartoon-alarm-clock-finished-v1.jpg",
+    "visible_job": "Only thickens the existing black outlines, evens marker fills, clarifies the hands, ticks, bells, feet, and shadow.",
+    "allowed_changes": [
+      "black outline thickening",
+      "marker fill evening",
+      "small highlight gaps on existing color areas",
+      "existing shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
