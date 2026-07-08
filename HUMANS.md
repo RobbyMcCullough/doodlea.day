@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-07
+- Date: 2026-07-08
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
@@ -63,8 +63,7 @@
   `cartoon-toothbrush` as June 3, 2026 / Day 001 honest archive backfill.
   Existing day labels shifted forward by one.
 - July 8 Doodlea QA used `python3 scripts/check-daily-publish-slots.py
-  --current-date 2026-07-08`, preflight slug lock for
-  `cartoon-alarm-clock`, contact-sheet cropping, and
+  --current-date 2026-07-08`, preflight slug locks, contact-sheet cropping, and
   `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
   rendered desktop/mobile QA passed at `https://doodlea.localhost/`; screenshots
   are under `/tmp/daily-sketch-doodle-qa-2026-07-08/`.
@@ -72,10 +71,10 @@
   readability, clear bells/hands/ticks, marker fills, and stable process;
   cartoon toothbrush 8.6/10 for clear handle/head/bristles, droplets, bright
   marker color, and no face/sticker framing. A generated `soccer-cleat` draft
-  sheet was recorded as rejected-duplicate because this run already had two
-  stronger Doodlea subjects and soccer/sports-object lessons were too close to
-  nearby archive shape problems. The temporary two-tutorial-per-site backfill
-  cadence is still active until the owner says otherwise.
+  sheet was recorded as rejected-duplicate because the July 8 current slot was
+  already occupied by `cartoon-alarm-clock` before publication. The temporary
+  two-tutorial-per-site backfill cadence is still active until the owner says
+  otherwise.
 - 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
   written lesson steps/tips to include actionable marker/drawing techniques
   such as ghosting, light construction passes, page rotation, directional
