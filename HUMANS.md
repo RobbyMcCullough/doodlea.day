@@ -58,6 +58,15 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-09 owner-directed correction: rebuilt `cartoon-stapler` from a new
+  reviewed six-panel raster marker contact sheet. Step 1 is now explicitly a
+  pale, doubled construction guide and step 2 traces that same silhouette;
+  the dark staple slot introduced in step 4 remains visible in steps 5 and 6.
+  Kept the prior raw sheet as
+  `drafts/cartoon-stapler/cartoon-stapler-contact-sheet-original-2026-07-09.png`.
+  Readiness, process-plan, step-delta, Cove, and desktop/mobile QA passed;
+  the new finished image is rated 8.8/10 for marker readability, a stable
+  construction-to-finish sequence, and a clearly retained slot.
 - 2026-07-09 daily automation added two Doodlea lessons:
   `soccer-whistle` as July 9, 2026 / Day 038 and `cartoon-stapler` as June 2,
   2026 / Day 001 honest archive backfill. Existing day labels shifted forward

@@ -291,46 +291,46 @@ const lessons = [
     headlineSubject: "a cartoon<br>stapler",
     shortSubject: "a cartoon stapler",
     lessonTitle: "Let's draw a cartoon stapler",
-    description: "Learn how to draw a cartoon stapler with a rounded top shell, flat base, squared front nose, rear hinge, staple slot, tiny feet, teal and coral marker fills, purple shadow, and thick black outlines.",
-    intro: "Build the stapler from two chunky stacked shapes, square off the nose, add the hinge, slot, and tiny feet, then finish with bright marker color. This backfilled archive lesson stays honest: it is a useful drawing page, not a claim about old activity.",
+    description: "Learn how to draw a cartoon stapler from a loose construction sketch, then refine its rounded top shell, flat base, front end, rear hinge, staple slot, tiny feet, teal and coral marker fills, purple shadow, and thick black outlines.",
+    intro: "Start with a deliberately loose full-size guide, then trace that same shape into a chunky stapler. Add the hinge, slot, and tiny feet before coloring around them, so every feature survives to the finish. This backfilled archive lesson stays honest: it is a useful drawing page, not a claim about old activity.",
     time: 15,
     difficulty: "Easy",
     accent: "#15aeb2",
     finished: "cartoon-stapler-finished-v1.jpg",
     finishedAlt: "Bold marker drawing of a face-free cartoon stapler with teal rounded top shell, coral base and front nose, rear hinge, staple slot, tiny feet, thick black outlines, and purple shadow",
-    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
-    materialNote: "Use black for the final outlines, teal for the top shell, coral for the base and nose, purple for the shadow, and the gel pen only for tiny shine gaps if you want them.",
+    materials: ["Drawing paper", "Pale blue-gray marker or pencil", "Black and colored markers"],
+    materialNote: "Use a pale blue-gray tool for the loose guide, black for the keeper outlines and slot, teal for the top shell and hinge, coral for the base, and purple for the shadow.",
     tipLabel: "Doodle tip",
     steps: [
       {
-        name: "Block the stapler",
-        text: "Draw a long rounded top shell, then add a flat base underneath it at the same angle.",
-        tip: "Ghost the two long shapes first. Matching their angle makes the stapler look solid before any details appear."
+        name: "Sketch a loose full-size guide",
+        text: "With a pale tool, loosely sketch the long rounded top shell and flat base at the final angle. Add a light centerline and front/rear position marks, then leave every guide line visible.",
+        tip: "Let this first pass be doubled and rough on purpose. You are mapping the whole stapler, not committing to a new outline yet."
       },
       {
-        name: "Square the nose",
-        text: "Add the squared front nose and clarify how the top shell meets the lower base.",
-        tip: "Leave a clean gap under the top shell. That negative space is what tells the viewer the stapler can press down."
+        name: "Trace the same guide",
+        text: "Trace the same top shell and base with a thin black contour, keeping the pale guide visible underneath. Leave a clean gap between the shell and base.",
+        tip: "Follow the light marks instead of inventing a second shape. The exposed guide makes it obvious that the rough sketch is doing its job."
       },
       {
-        name: "Add the hinge",
-        text: "Place a round hinge cap at the back and clean up the rear contour.",
+        name: "Define the front and hinge",
+        text: "Refine the squared left front end, clean the top-shell contour, and place a round hinge cap at the right rear.",
         tip: "Keep the hinge chunky and simple. Tiny hardware disappears fast in a marker drawing."
       },
       {
-        name: "Place slot and feet",
-        text: "Add a dark staple slot near the front and two tiny feet under the base.",
-        tip: "Draw the slot as one short, confident rectangle. Too much detail can make the front look busy."
+        name: "Place the slot and feet",
+        text: "Add one short dark staple slot near the left front of the upper base, then add two tiny feet underneath. Keep the slot in place for every remaining step.",
+        tip: "Draw the slot as one confident rounded rectangle. Leave it unfilled later so it stays readable against the coral base."
       },
       {
-        name: "Fill the stapler colors",
-        text: "Fill the top shell teal, add coral to the base and nose, and place a small purple shadow underneath.",
-        tip: "Pull marker strokes along the stapler body. Directional streaks make the rounded top feel handmade instead of flat."
+        name: "Color around the slot",
+        text: "Fill the top shell and hinge teal, the base coral, and add a small purple shadow underneath. Color around the dark slot without covering it.",
+        tip: "Pull marker strokes along the stapler body. Stop at the slot's outline, then let the fill dry before reinforcing that tiny dark shape."
       },
       {
-        name: "Snap the stapler into shape",
-        text: "Thicken the black outlines, even the existing marker fills, clarify the nose, hinge, slot, feet, and same shadow.",
-        tip: "Stop before adding eyes, paper, words, or a border. The chunky top, base, hinge, slot, feet, and bright color carry the drawing.",
+        name: "Lock in the stapler",
+        text: "Thicken the existing black outlines, even the existing marker fills, and reinforce the same front end, hinge, staple slot, feet, and purple shadow.",
+        tip: "Do not redraw or move the slot at this stage. The chunky top, base, hinge, slot, feet, and bright color already carry the drawing.",
         image: true
       }
     ]

@@ -3,40 +3,45 @@
   "finished": "assets/cartoon-stapler-finished-v1.jpg",
   "source": {
     "type": "generated-raster-contact-sheet",
-    "description": "A six-panel raster marker contact sheet generated for the locked June 2 Doodlea.day backfill slug, then cropped into step frames and the finished master.",
-    "notes": "The sheet keeps one face-free cartoon stapler with no text, labels, arrows, sticker border, or badge frame."
+    "description": "A reviewed six-panel raster marker contact sheet regenerated for the explicit owner-directed correction to the June 2 Doodlea.day backfill lesson, then cropped into step frames and the finished master.",
+    "notes": "The sheet keeps one face-free cartoon stapler with no text, labels, arrows, sticker border, or badge frame. Panel 1 is deliberately pale, loose construction for the exact final silhouette; the staple slot remains visible from step 4 through the finished panel."
   },
-  "process_strategy": "The stapler is built from the top shell, base, hinge, staple slot, small feet, marker fills, and shadow before the final only thickens outlines and cleans existing fills.",
+  "process_strategy": "A loose pale construction drawing establishes the exact full-size stapler silhouette, then the same guide is traced and refined into the shell, base, hinge, slot, feet, marker fills, and shadow before the final only reinforces existing lines and fills.",
   "final_elements": [
     {
       "name": "top stapler shell",
       "introduced_by_step": 1,
-      "description": "A rounded wedge-shaped top shell."
+      "description": "A rounded top shell first mapped as a pale loose guide, then traced at the same silhouette."
     },
     {
       "name": "bottom base",
       "introduced_by_step": 1,
-      "description": "A flatter base underneath the top shell."
+      "description": "A flat rounded base underneath the top shell, also established in the pale guide."
+    },
+    {
+      "name": "traced keeper contour",
+      "introduced_by_step": 2,
+      "description": "A thin black trace of the exact pale construction silhouette, with the guide still visible beneath it."
     },
     {
       "name": "front nose",
-      "introduced_by_step": 2,
-      "description": "A squared front end where the staple exits."
+      "introduced_by_step": 3,
+      "description": "A squared left front end where the staple exits."
     },
     {
       "name": "rear hinge",
       "introduced_by_step": 3,
-      "description": "A small hinge shape at the back."
+      "description": "A round teal hinge cap at the right rear."
     },
     {
       "name": "staple slot and feet",
       "introduced_by_step": 4,
-      "description": "A small staple slot near the front and tiny rubber feet under the base."
+      "description": "A dark short rounded staple slot near the left front of the upper base and tiny dark feet under the base; both stay visible through the final frame."
     },
     {
       "name": "teal and coral marker fill",
       "introduced_by_step": 5,
-      "description": "Teal fill on the top shell and coral accents on the base or nose."
+      "description": "Teal fill on the top shell and hinge, plus coral fill on the base."
     },
     {
       "name": "purple ground shadow",
@@ -48,8 +53,8 @@
     {
       "step": 1,
       "asset": "assets/cartoon-stapler-step-1.jpg",
-      "step_name": "Block the stapler",
-      "visible_job": "Places the rounded top shell and flatter bottom base.",
+      "step_name": "Sketch a loose full-size guide",
+      "visible_job": "Places a deliberately pale, doubled construction guide for the final rounded top shell and flatter bottom base, plus light placement marks.",
       "introduces": [
         "top stapler shell",
         "bottom base"
@@ -58,10 +63,10 @@
     {
       "step": 2,
       "asset": "assets/cartoon-stapler-step-2.jpg",
-      "step_name": "Square the nose",
-      "visible_job": "Adds the front nose and clarifies how the top meets the base.",
+      "step_name": "Trace the same guide",
+      "visible_job": "Traces the exact construction silhouette in thin black while leaving the pale guide visible underneath and preserving the shell-to-base gap.",
       "introduces": [
-        "front nose"
+        "traced keeper contour"
       ],
       "requires_prior_elements": [
         "top stapler shell",
@@ -71,9 +76,10 @@
     {
       "step": 3,
       "asset": "assets/cartoon-stapler-step-3.jpg",
-      "step_name": "Add the hinge",
-      "visible_job": "Adds the rear hinge and cleans the back contour.",
+      "step_name": "Define the front and hinge",
+      "visible_job": "Refines the squared left front end, cleans the contour, and adds the round rear hinge.",
       "introduces": [
+        "front nose",
         "rear hinge"
       ],
       "requires_prior_elements": [
@@ -84,8 +90,8 @@
     {
       "step": 4,
       "asset": "assets/cartoon-stapler-step-4.jpg",
-      "step_name": "Place slot and feet",
-      "visible_job": "Adds the front staple slot and tiny base feet.",
+      "step_name": "Place the slot and feet",
+      "visible_job": "Adds the dark left-front staple slot and tiny base feet, which remain visibly unchanged in every later frame.",
       "introduces": [
         "staple slot and feet"
       ],
@@ -97,8 +103,8 @@
     {
       "step": 5,
       "asset": "assets/cartoon-stapler-step-5.jpg",
-      "step_name": "Fill the stapler colors",
-      "visible_job": "Adds teal and coral marker fills on existing stapler parts and a purple ground shadow.",
+      "step_name": "Color around the slot",
+      "visible_job": "Adds teal and coral marker fills on existing stapler parts and a purple ground shadow while leaving the existing dark slot readable.",
       "introduces": [
         "teal and coral marker fill",
         "purple ground shadow"
@@ -113,9 +119,9 @@
     }
   ],
   "final_step": {
-    "step_name": "Snap the stapler into shape",
+    "step_name": "Lock in the stapler",
     "asset": "assets/cartoon-stapler-finished-v1.jpg",
-    "visible_job": "Only thickens the existing black outlines, evens marker fills, clarifies the nose, hinge, slot, feet, and shadow.",
+    "visible_job": "Only thickens the existing black outlines, evens marker fills, and reinforces the same front end, hinge, dark slot, feet, and shadow without moving or covering the slot.",
     "allowed_changes": [
       "black outline thickening",
       "marker fill evening",
@@ -125,6 +131,8 @@
   },
   "rejection_checks": [
     "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "The pale construction silhouette in step 1 must match the traced black contour in step 2, so the rough sketch is visibly a guide rather than a replacement shape.",
+    "The dark staple slot introduced in step 4 must remain visible in steps 5 and the finished image.",
     "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
     "No adjacent frame should look unchanged at card size.",
     "The final image must keep the same pose, scale, and placement as the step frames."
