@@ -18,8 +18,61 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "soccer-whistle",
+    day: "038",
+    date: "Thursday, July 9",
+    isoDate: "2026-07-09",
+    subject: "a soccer whistle",
+    headlineSubject: "a soccer<br>whistle",
+    shortSubject: "a whistle",
+    lessonTitle: "Let's draw a soccer whistle",
+    description: "Learn how to draw a soccer whistle with a rounded body, short mouthpiece, pea window, rear ring loop, comic sound marks, yellow marker fill, orange accents, and thick black outlines.",
+    intro: "Build the whistle body first, then attach the mouthpiece, window, loop, and sound marks before adding bright marker color. Keep this version face-free; the energy comes from the chunky shape, sound marks, and bold fill.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f3c21e",
+    finished: "soccer-whistle-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a face-free soccer whistle with rounded yellow body, short orange mouthpiece, pea window, rear ring loop, comic sound marks, thick black outlines, and blue shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the outlines, yellow for the whistle body, orange for the mouthpiece and accents, blue or gray for the shadow, and the gel pen only for tiny highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Draw the whistle body",
+        text: "Draw a rounded whistle body tilted slightly upward.",
+        tip: "Think of the body as a soft capsule, not a perfect oval. A little handmade wobble keeps it lively."
+      },
+      {
+        name: "Add the mouthpiece",
+        text: "Attach a short rectangular mouthpiece to one side of the body.",
+        tip: "Line up the mouthpiece with the body angle. That shared tilt makes the whistle feel like one object."
+      },
+      {
+        name: "Cut the pea window",
+        text: "Add the small rounded pea window and inside edge on the whistle body.",
+        tip: "Keep the window simple and dark. One clear shape reads better than tiny mechanical detail."
+      },
+      {
+        name: "Loop and sound marks",
+        text: "Add a rear ring loop, then place a few short comic sound marks near the mouthpiece.",
+        tip: "Use short marks without letters. They add energy without turning the drawing into a sign."
+      },
+      {
+        name: "Fill the whistle color",
+        text: "Fill the body yellow, add orange accents, and place a small blue or gray shadow under the whistle.",
+        tip: "Pull the marker strokes along the rounded body. Directional streaks help the color feel like a curved surface."
+      },
+      {
+        name: "Make the whistle sharp",
+        text: "Thicken the black outlines, even the existing marker fills, clarify the window, loop, sound marks, accents, and same shadow.",
+        tip: "Stop before adding a face, scoreboard, words, or a border. The body, mouthpiece, loop, and sound marks carry the doodle.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-toothbrush",
-    day: "001",
+    day: "002",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -72,7 +125,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "002",
+    day: "003",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -125,7 +178,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "035",
+    day: "036",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -178,7 +231,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "036",
+    day: "037",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -230,8 +283,61 @@ const lessons = [
     ]
   },
   {
+    slug: "cartoon-stapler",
+    day: "001",
+    date: "Tuesday, June 2",
+    isoDate: "2026-06-02",
+    subject: "a cartoon stapler",
+    headlineSubject: "a cartoon<br>stapler",
+    shortSubject: "a stapler",
+    lessonTitle: "Let's draw a cartoon stapler",
+    description: "Learn how to draw a cartoon stapler with a rounded top shell, flat base, squared front nose, rear hinge, staple slot, tiny feet, teal and coral marker fills, purple shadow, and thick black outlines.",
+    intro: "Build the stapler from two chunky stacked shapes, square off the nose, add the hinge, slot, and tiny feet, then finish with bright marker color. This backfilled archive lesson stays honest: it is a useful drawing page, not a claim about old activity.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#15aeb2",
+    finished: "cartoon-stapler-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a face-free cartoon stapler with teal rounded top shell, coral base and front nose, rear hinge, staple slot, tiny feet, thick black outlines, and purple shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the final outlines, teal for the top shell, coral for the base and nose, purple for the shadow, and the gel pen only for tiny shine gaps if you want them.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the stapler",
+        text: "Draw a long rounded top shell, then add a flat base underneath it at the same angle.",
+        tip: "Ghost the two long shapes first. Matching their angle makes the stapler look solid before any details appear."
+      },
+      {
+        name: "Square the nose",
+        text: "Add the squared front nose and clarify how the top shell meets the lower base.",
+        tip: "Leave a clean gap under the top shell. That negative space is what tells the viewer the stapler can press down."
+      },
+      {
+        name: "Add the hinge",
+        text: "Place a round hinge cap at the back and clean up the rear contour.",
+        tip: "Keep the hinge chunky and simple. Tiny hardware disappears fast in a marker drawing."
+      },
+      {
+        name: "Place slot and feet",
+        text: "Add a dark staple slot near the front and two tiny feet under the base.",
+        tip: "Draw the slot as one short, confident rectangle. Too much detail can make the front look busy."
+      },
+      {
+        name: "Fill the stapler colors",
+        text: "Fill the top shell teal, add coral to the base and nose, and place a small purple shadow underneath.",
+        tip: "Pull marker strokes along the stapler body. Directional streaks make the rounded top feel handmade instead of flat."
+      },
+      {
+        name: "Snap the stapler into shape",
+        text: "Thicken the black outlines, even the existing marker fills, clarify the nose, hinge, slot, feet, and same shadow.",
+        tip: "Stop before adding eyes, paper, words, or a border. The chunky top, base, hinge, slot, feet, and bright color carry the drawing.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "003",
+    day: "004",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "034",
+    day: "035",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "004",
+    day: "005",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "033",
+    day: "034",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -444,7 +550,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "005",
+    day: "006",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -497,7 +603,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "006",
+    day: "007",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -550,7 +656,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "007",
+    day: "008",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -603,7 +709,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "031",
+    day: "032",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -656,7 +762,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "032",
+    day: "033",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -709,7 +815,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "008",
+    day: "009",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -762,7 +868,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "009",
+    day: "010",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -815,7 +921,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "010",
+    day: "011",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -868,7 +974,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "030",
+    day: "031",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -921,7 +1027,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "011",
+    day: "012",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -974,7 +1080,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "029",
+    day: "030",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1027,7 +1133,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "012",
+    day: "013",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1080,7 +1186,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "028",
+    day: "029",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1133,7 +1239,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "013",
+    day: "014",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1186,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "014",
+    day: "015",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1239,7 +1345,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "027",
+    day: "028",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1292,7 +1398,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "026",
+    day: "027",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1345,7 +1451,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "025",
+    day: "026",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1398,7 +1504,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "024",
+    day: "025",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1451,7 +1557,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "023",
+    day: "024",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1504,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "022",
+    day: "023",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1557,7 +1663,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "021",
+    day: "022",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1610,7 +1716,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "020",
+    day: "021",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1663,7 +1769,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "017",
+    day: "018",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1716,7 +1822,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "015",
+    day: "016",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1769,7 +1875,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "016",
+    day: "017",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1822,7 +1928,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "018",
+    day: "019",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1875,7 +1981,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "019",
+    day: "020",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

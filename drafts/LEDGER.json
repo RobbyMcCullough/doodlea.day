@@ -37,6 +37,9 @@
     "cartoon-pool-float-doodle": {
       "status": "published"
     },
+    "cartoon-stapler": {
+      "status": "published"
+    },
     "cartoon-toothbrush": {
       "status": "published"
     },
@@ -98,6 +101,9 @@
       "status": "rejected-duplicate",
       "date": "2026-07-08",
       "note": "Generated after preflight, then set aside before publication because the July 8 current slot was occupied by cartoon-alarm-clock during the same run. Draft sheet retained outside public navigation."
+    },
+    "soccer-whistle": {
+      "status": "published"
     },
     "sunscreen-bottle-sticker": {
       "status": "published"

@@ -1,0 +1,130 @@
+{
+  "slug": "soccer-whistle",
+  "finished": "assets/soccer-whistle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster marker contact sheet generated for the locked July 9 Doodlea.day current slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet must keep one face-free referee-style soccer whistle, with no text, numbers, labels, arrows, sticker border, or badge frame."
+  },
+  "process_strategy": "The whistle is built from the rounded body, mouthpiece, pea window, ring loop, motion/sound marks, color fills, and shadow before the final only thickens outlines and evens marker texture.",
+  "final_elements": [
+    {
+      "name": "rounded whistle body",
+      "introduced_by_step": 1,
+      "description": "A chunky rounded whistle body tilted slightly upward."
+    },
+    {
+      "name": "mouthpiece",
+      "introduced_by_step": 2,
+      "description": "A short rectangular mouthpiece attached to one side."
+    },
+    {
+      "name": "pea window",
+      "introduced_by_step": 3,
+      "description": "A small oval or rounded cutout on the whistle body."
+    },
+    {
+      "name": "ring loop",
+      "introduced_by_step": 4,
+      "description": "A small loop at the back of the whistle for a lanyard."
+    },
+    {
+      "name": "sound marks",
+      "introduced_by_step": 4,
+      "description": "A few short comic sound arcs near the mouthpiece with no letters."
+    },
+    {
+      "name": "yellow body fill",
+      "introduced_by_step": 5,
+      "description": "Bright yellow marker fill on the whistle body."
+    },
+    {
+      "name": "orange accents and blue shadow",
+      "introduced_by_step": 5,
+      "description": "Orange marker accents on existing parts and a small blue ground shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/soccer-whistle-step-1.jpg",
+      "step_name": "Draw the whistle body",
+      "visible_job": "Blocks the main rounded whistle body at a slight angle.",
+      "introduces": [
+        "rounded whistle body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/soccer-whistle-step-2.jpg",
+      "step_name": "Add the mouthpiece",
+      "visible_job": "Adds the short mouthpiece to the existing body.",
+      "introduces": [
+        "mouthpiece"
+      ],
+      "requires_prior_elements": [
+        "rounded whistle body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/soccer-whistle-step-3.jpg",
+      "step_name": "Cut the pea window",
+      "visible_job": "Adds the small rounded pea window and inside edge on the whistle body.",
+      "introduces": [
+        "pea window"
+      ],
+      "requires_prior_elements": [
+        "rounded whistle body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/soccer-whistle-step-4.jpg",
+      "step_name": "Loop and sound marks",
+      "visible_job": "Adds the rear ring loop and a few short sound arcs near the mouthpiece.",
+      "introduces": [
+        "ring loop",
+        "sound marks"
+      ],
+      "requires_prior_elements": [
+        "rounded whistle body",
+        "mouthpiece"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/soccer-whistle-step-5.jpg",
+      "step_name": "Fill the whistle color",
+      "visible_job": "Adds yellow body fill, orange accents on existing pieces, and a small blue shadow.",
+      "introduces": [
+        "yellow body fill",
+        "orange accents and blue shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded whistle body",
+        "mouthpiece",
+        "pea window",
+        "ring loop",
+        "sound marks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the whistle sharp",
+    "asset": "assets/soccer-whistle-finished-v1.jpg",
+    "visible_job": "Only thickens the existing black outlines, evens the marker fills, clarifies the window, loop, sound marks, accents, and shadow.",
+    "allowed_changes": [
+      "black outline thickening",
+      "marker fill evening",
+      "small highlight gaps on existing color areas",
+      "existing shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

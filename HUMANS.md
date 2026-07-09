@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-08
+- Date: 2026-07-09
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-05 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-08 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,22 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-09 daily automation added two Doodlea lessons:
+  `soccer-whistle` as July 9, 2026 / Day 038 and `cartoon-stapler` as June 2,
+  2026 / Day 001 honest archive backfill. Existing day labels shifted forward
+  by one.
+- July 9 Doodlea QA used the cross-site daily lock, duplicate-slot guard,
+  preflight slug locks, contact-sheet cropping, `node scripts/build-tutorials.mjs`,
+  and `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
+  HTTPS responded but browser QA hit the local certificate issue, so rendered
+  desktop/mobile QA used `http://localhost:4174/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-09/`.
+- Finished image ratings: soccer whistle 8.7/10 for bold face-free whistle
+  readability, mouthpiece/window/loop/sound marks, and marker texture; cartoon
+  stapler 8.6/10 for clear stacked body, hinge, staple slot, feet, bright
+  marker fill, and no sticker/badge framing. The temporary
+  two-tutorial-per-site backfill cadence is still active until the owner says
+  otherwise.
 - 2026-07-08 concurrency fix: added `scripts/daily-publish-lock.py`, a
   cross-site atomic lock shared through the sibling parent folder. Future daily
   runs must acquire it before subject selection, pass the printed token to every
@@ -81,6 +97,12 @@
   already occupied by `cartoon-alarm-clock` before publication. The temporary
   two-tutorial-per-site backfill cadence is still active until the owner says
   otherwise.
+- 2026-07-08 trend-source update: `DAILY-PUBLISHING.md` now requires the
+  Google Trends "how to draw" / United States / past day / Rising related
+  queries check when the browser is available. Use
+  `scripts/summarize-google-trends-rising.py` to normalize copied or exported
+  Trends text, keep only true drawing-intent rows, and still run duplicate,
+  sister-site fit, and preflight gates before generating art.
 - 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
   written lesson steps/tips to include actionable marker/drawing techniques
   such as ghosting, light construction passes, page rotation, directional

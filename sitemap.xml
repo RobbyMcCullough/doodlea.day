@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://doodlea.day/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doodlea.day/about.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://doodlea.day/library.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/soccer-whistle.html</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/soccer-whistle-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-alarm-clock.html</loc>
@@ -880,6 +904,30 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-toothbrush-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cartoon-stapler.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-stapler-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>

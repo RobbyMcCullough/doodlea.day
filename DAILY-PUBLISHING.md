@@ -110,6 +110,27 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    observances. Use a timely idea only when it naturally fits Doodlea.day's bold
    marker style, can be taught as an attainable doodle, and does not duplicate
    the sister Sketcha.day subject for the same run. Do not force a weak trend.
+   Include the Google Trends "how to draw" rising-query check when the browser
+   is available:
+
+```text
+https://trends.google.com/trends/explore?date=now%201-d&geo=US&q=how%20to%20draw&hl=en-US
+```
+
+   Stay on Classic Explore if prompted, use the United States / past day /
+   Related queries / Rising card, and capture the visible or exported query
+   text. To normalize it, save or pipe that text into:
+
+```sh
+python3 scripts/summarize-google-trends-rising.py /path/to/trends-text-or-export.txt
+```
+
+   Treat Trends as subject-research evidence, not as an automatic assignment.
+   Keep only true drawing-intent queries (for example, reject medical, golf, or
+   finance uses of "draw"), then still run the duplicate, sister-site fit, and
+   preflight gates before generating art. If Google Trends blocks direct API or
+   CSV access, the rendered page text is acceptable evidence for this source
+   check.
 5. Pick one specific marker-friendly subject, e.g. "how to draw hot rod marker
    flames", "how to draw a comic speech bubble", or "how to draw a goofy monster
    face." Do not append "doodle" to the public search phrase just because the

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a soccer whistle</title>
+      <link>https://doodlea.day/tutorials/soccer-whistle.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/soccer-whistle.html</guid>
+      <pubDate>Thu, 09 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a soccer whistle with a rounded body, short mouthpiece, pea window, rear ring loop, comic sound marks, yellow marker fill, orange accents, and thick black outlines.</description>
+      <media:content url="https://doodlea.day/assets/soccer-whistle-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon alarm clock</title>
       <link>https://doodlea.day/tutorials/cartoon-alarm-clock.html</link>
@@ -294,6 +302,14 @@
       <pubDate>Wed, 03 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon toothbrush with a long rounded handle, small brush head, curved neck, grouped bristles, grip bumps, rinse droplets, aqua and coral marker fills, and bold black outlines.</description>
       <media:content url="https://doodlea.day/assets/cartoon-toothbrush-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon stapler</title>
+      <link>https://doodlea.day/tutorials/cartoon-stapler.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-stapler.html</guid>
+      <pubDate>Tue, 02 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon stapler with a rounded top shell, flat base, squared front nose, rear hinge, staple slot, tiny feet, teal and coral marker fills, purple shadow, and thick black outlines.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-stapler-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

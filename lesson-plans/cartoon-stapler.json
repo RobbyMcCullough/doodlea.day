@@ -1,0 +1,132 @@
+{
+  "slug": "cartoon-stapler",
+  "finished": "assets/cartoon-stapler-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster marker contact sheet generated for the locked June 2 Doodlea.day backfill slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet keeps one face-free cartoon stapler with no text, labels, arrows, sticker border, or badge frame."
+  },
+  "process_strategy": "The stapler is built from the top shell, base, hinge, staple slot, small feet, marker fills, and shadow before the final only thickens outlines and cleans existing fills.",
+  "final_elements": [
+    {
+      "name": "top stapler shell",
+      "introduced_by_step": 1,
+      "description": "A rounded wedge-shaped top shell."
+    },
+    {
+      "name": "bottom base",
+      "introduced_by_step": 1,
+      "description": "A flatter base underneath the top shell."
+    },
+    {
+      "name": "front nose",
+      "introduced_by_step": 2,
+      "description": "A squared front end where the staple exits."
+    },
+    {
+      "name": "rear hinge",
+      "introduced_by_step": 3,
+      "description": "A small hinge shape at the back."
+    },
+    {
+      "name": "staple slot and feet",
+      "introduced_by_step": 4,
+      "description": "A small staple slot near the front and tiny rubber feet under the base."
+    },
+    {
+      "name": "teal and coral marker fill",
+      "introduced_by_step": 5,
+      "description": "Teal fill on the top shell and coral accents on the base or nose."
+    },
+    {
+      "name": "purple ground shadow",
+      "introduced_by_step": 5,
+      "description": "A small marker shadow below the stapler."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-stapler-step-1.jpg",
+      "step_name": "Block the stapler",
+      "visible_job": "Places the rounded top shell and flatter bottom base.",
+      "introduces": [
+        "top stapler shell",
+        "bottom base"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-stapler-step-2.jpg",
+      "step_name": "Square the nose",
+      "visible_job": "Adds the front nose and clarifies how the top meets the base.",
+      "introduces": [
+        "front nose"
+      ],
+      "requires_prior_elements": [
+        "top stapler shell",
+        "bottom base"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-stapler-step-3.jpg",
+      "step_name": "Add the hinge",
+      "visible_job": "Adds the rear hinge and cleans the back contour.",
+      "introduces": [
+        "rear hinge"
+      ],
+      "requires_prior_elements": [
+        "top stapler shell",
+        "bottom base"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-stapler-step-4.jpg",
+      "step_name": "Place slot and feet",
+      "visible_job": "Adds the front staple slot and tiny base feet.",
+      "introduces": [
+        "staple slot and feet"
+      ],
+      "requires_prior_elements": [
+        "front nose",
+        "bottom base"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-stapler-step-5.jpg",
+      "step_name": "Fill the stapler colors",
+      "visible_job": "Adds teal and coral marker fills on existing stapler parts and a purple ground shadow.",
+      "introduces": [
+        "teal and coral marker fill",
+        "purple ground shadow"
+      ],
+      "requires_prior_elements": [
+        "top stapler shell",
+        "bottom base",
+        "front nose",
+        "rear hinge",
+        "staple slot and feet"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Snap the stapler into shape",
+    "asset": "assets/cartoon-stapler-finished-v1.jpg",
+    "visible_job": "Only thickens the existing black outlines, evens marker fills, clarifies the nose, hinge, slot, feet, and shadow.",
+    "allowed_changes": [
+      "black outline thickening",
+      "marker fill evening",
+      "small highlight gaps on existing color areas",
+      "existing shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
