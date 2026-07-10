@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw cartoon french fries</title>
+      <link>https://doodlea.day/tutorials/cartoon-french-fries.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-french-fries.html</guid>
+      <pubDate>Fri, 10 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw cartoon french fries with a trapezoid carton, top rim, side panels, fold seams, individual fries, fry tips, small salt marks, red marker fill, yellow marker fill, highlight gaps, thick black outlines, and a soft shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-french-fries-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a soccer whistle</title>
       <link>https://doodlea.day/tutorials/soccer-whistle.html</link>
@@ -310,6 +318,14 @@
       <pubDate>Tue, 02 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon stapler from a loose construction sketch, then refine its rounded top shell, flat base, front end, rear hinge, staple slot, tiny feet, teal and coral marker fills, purple shadow, and thick black outlines.</description>
       <media:content url="https://doodlea.day/assets/cartoon-stapler-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon pencil with shavings</title>
+      <link>https://doodlea.day/tutorials/cartoon-pencil-shavings.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-pencil-shavings.html</guid>
+      <pubDate>Mon, 01 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon pencil with curled shavings using a diagonal pencil body, pointed wood cone, pink eraser, ferrule bands, graphite point, shaving curls, side stripe, wood grain, yellow marker fill, tan shavings, silver ferrule, thick black outlines, and a soft shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-pencil-shavings-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

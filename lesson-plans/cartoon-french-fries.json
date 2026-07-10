@@ -1,0 +1,115 @@
+{
+  "slug": "cartoon-french-fries",
+  "finished": "assets/cartoon-french-fries-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel generated raster marker contact sheet reviewed before cropping; final panel saved as the finished master.",
+    "notes": "Contact-sheet-first workflow, no labels, numbers, arrows, or embedded text."
+  },
+  "process_strategy": "The fry carton stays centered at one scale while carton, fries, rim, panel folds, salt marks, fill colors, and shadow appear before the final marker cleanup.",
+  "final_elements": [
+    {
+      "name": "trapezoid carton guide and fry stick guides",
+      "introduced_by_step": 1,
+      "description": "A simple fry carton shape with vertical fry stick guides rising from it."
+    },
+    {
+      "name": "bold carton and individual fry silhouettes",
+      "introduced_by_step": 2,
+      "description": "A rounded red carton outline with separate rectangular fries."
+    },
+    {
+      "name": "top rim, side panels, and fold seams",
+      "introduced_by_step": 3,
+      "description": "Carton rim and side panel divisions that make the container dimensional."
+    },
+    {
+      "name": "thicker outline, fry tips, and small salt marks",
+      "introduced_by_step": 4,
+      "description": "More confident black outline, visible fry ends, and a few tiny salt marks on existing fries."
+    },
+    {
+      "name": "red carton fill, yellow fry fill, highlight gaps, and shadow",
+      "introduced_by_step": 5,
+      "description": "Marker color applied to the already drawn carton and fries, with reserved highlights and a soft base shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-french-fries-step-1.jpg",
+      "step_name": "Block the carton and fries",
+      "visible_job": "Places the carton guide and fry stick guides.",
+      "introduces": [
+        "trapezoid carton guide and fry stick guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-french-fries-step-2.jpg",
+      "step_name": "Draw the fry silhouettes",
+      "visible_job": "Turns the guides into a clear carton and individual fries.",
+      "introduces": [
+        "bold carton and individual fry silhouettes"
+      ],
+      "requires_prior_elements": [
+        "trapezoid carton guide and fry stick guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-french-fries-step-3.jpg",
+      "step_name": "Fold the carton",
+      "visible_job": "Adds the carton rim, side panels, and fold seams.",
+      "introduces": [
+        "top rim, side panels, and fold seams"
+      ],
+      "requires_prior_elements": [
+        "bold carton and individual fry silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-french-fries-step-4.jpg",
+      "step_name": "Thicken the marker lines",
+      "visible_job": "Thickens existing contours and adds fry tips plus salt marks to existing fries.",
+      "introduces": [
+        "thicker outline, fry tips, and small salt marks"
+      ],
+      "requires_prior_elements": [
+        "bold carton and individual fry silhouettes",
+        "top rim, side panels, and fold seams"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-french-fries-step-5.jpg",
+      "step_name": "Fill the marker color",
+      "visible_job": "Adds red and yellow marker fills, highlight gaps, and a soft shadow to existing shapes.",
+      "introduces": [
+        "red carton fill, yellow fry fill, highlight gaps, and shadow"
+      ],
+      "requires_prior_elements": [
+        "bold carton and individual fry silhouettes",
+        "top rim, side panels, and fold seams",
+        "thicker outline, fry tips, and small salt marks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Crisp up the fries",
+    "asset": "assets/cartoon-french-fries-finished-v1.jpg",
+    "visible_job": "Thickens existing outlines and deepens the existing red carton, yellow fries, highlights, salt marks, and shadow.",
+    "allowed_changes": [
+      "black marker line-weight cleanup",
+      "deeper red and yellow marker passes",
+      "clarification of existing rim, folds, fry tips, salt marks, highlight gaps, and shadow"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

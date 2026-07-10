@@ -19,7 +19,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 const lessons = [
   {
     slug: "soccer-whistle",
-    day: "038",
+    day: "039",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -71,8 +71,114 @@ const lessons = [
     ]
   },
   {
+    slug: "cartoon-french-fries",
+    day: "040",
+    date: "Friday, July 10",
+    isoDate: "2026-07-10",
+    subject: "cartoon french fries",
+    headlineSubject: "cartoon<br>french<br>fries",
+    shortSubject: "french fries",
+    lessonTitle: "Let's draw cartoon french fries",
+    description: "Learn how to draw cartoon french fries with a trapezoid carton, top rim, side panels, fold seams, individual fries, fry tips, small salt marks, red marker fill, yellow marker fill, highlight gaps, thick black outlines, and a soft shadow.",
+    intro: "Build the carton first, stack the fries inside it, then add the fold lines, salt marks, and bright marker fills. This stays face-free, so the fun comes from the chunky shape, color, and confident outline.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f5c21b",
+    finished: "cartoon-french-fries-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of face-free cartoon french fries in a red trapezoid carton with top rim, side panels, fold seams, yellow fries, fry tips, salt marks, highlight gaps, thick black outlines, and soft gray shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the outlines, red for the carton, yellow for the fries, gray for the shadow, and the gel pen only if you want to sharpen the small highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Block the carton and fries",
+        text: "Draw a light trapezoid carton guide, then add several vertical fry guides rising from the top.",
+        tip: "Fan the fry guides slightly instead of making them parallel. That little spread makes the carton feel full."
+      },
+      {
+        name: "Draw the fry silhouettes",
+        text: "Turn the guides into a clear carton and separate rectangular fries with rounded ends.",
+        tip: "Vary the fry heights by a small amount. Too-even fries can look like a fence instead of food."
+      },
+      {
+        name: "Fold the carton",
+        text: "Add the top rim, side panels, and simple fold seams on the carton.",
+        tip: "Keep the rim following the same curve across the front. A steady rim makes the carton look dimensional."
+      },
+      {
+        name: "Thicken the marker lines",
+        text: "Thicken the existing black outlines, clarify the fry tips, and add a few small salt marks on the fries.",
+        tip: "Let the marker sit a second before adding tiny salt marks. Dry lines stay crisp instead of feathering."
+      },
+      {
+        name: "Fill the marker color",
+        text: "Fill the carton red, fill the fries yellow, leave small highlight gaps, and place a soft gray shadow underneath.",
+        tip: "Pull the yellow strokes along each fry. Directional marker streaks help the fries feel tall and chunky."
+      },
+      {
+        name: "Crisp up the fries",
+        text: "Thicken the black outlines and deepen the existing red carton, yellow fries, salt marks, highlight gaps, folds, and shadow.",
+        tip: "Stop before adding a face, words, or a border. The carton shape, fry stack, and marker color already do the work.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "cartoon-pencil-shavings",
+    day: "001",
+    date: "Monday, June 1",
+    isoDate: "2026-06-01",
+    subject: "a cartoon pencil with shavings",
+    headlineSubject: "a cartoon pencil<br>with shavings",
+    shortSubject: "a pencil with shavings",
+    lessonTitle: "Let's draw a cartoon pencil with shavings",
+    description: "Learn how to draw a cartoon pencil with curled shavings using a diagonal pencil body, pointed wood cone, pink eraser, ferrule bands, graphite point, shaving curls, side stripe, wood grain, yellow marker fill, tan shavings, silver ferrule, thick black outlines, and a soft shadow.",
+    intro: "Start with one diagonal pencil and a loose shaving curl, then build the point, eraser, ferrule, grain, and marker fills. This backfilled archive lesson stays honest and practical: it is a small marker drawing exercise, not a pretend launch moment.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f4c21f",
+    finished: "cartoon-pencil-shavings-finished-v1.jpg",
+    finishedAlt: "Bold marker drawing of a face-free cartoon pencil with yellow body, pointed wooden cone, black graphite point, pink eraser, silver ferrule bands, curled tan pencil shavings, side stripe, wood grain, thick black outlines, highlight gaps, and soft gray shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the outlines, yellow for the pencil body, pink for the eraser, tan for the wood and shavings, silver or gray for the ferrule, and the gel pen only for small highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      {
+        name: "Set the pencil angle",
+        text: "Draw a light diagonal pencil guide, then sketch loose curled shaving guides beside the point.",
+        tip: "Ghost the long pencil angle before drawing. A confident diagonal makes the whole doodle feel cleaner."
+      },
+      {
+        name: "Shape the pencil",
+        text: "Build the chunky pencil body, pointed wood cone, eraser end, and curled shaving silhouettes.",
+        tip: "Keep the shaving curls broad and simple. Big loops read better than tiny scraps."
+      },
+      {
+        name: "Add point and ferrule",
+        text: "Add the ferrule bands, dark graphite point, and inner curl lines inside the shavings.",
+        tip: "Curve the ferrule bands around the pencil. Slight arcs make the eraser end feel round."
+      },
+      {
+        name: "Ink the pencil details",
+        text: "Add the side stripe, wood grain, eraser edge, and thicker black marker outline.",
+        tip: "Pull the grain lines from the point outward. Directional strokes keep the wooden cone readable."
+      },
+      {
+        name: "Fill the pencil color",
+        text: "Fill the pencil yellow, eraser pink, shavings tan, ferrule gray, and add a soft shadow under the shapes.",
+        tip: "Leave one narrow highlight gap along the pencil body before the marker gets too wet. Reserved paper shines cleaner than added white."
+      },
+      {
+        name: "Sharpen the marker finish",
+        text: "Thicken the black outlines and deepen the existing pencil, eraser, ferrule, point, shavings, grain, color, highlights, and shadow.",
+        tip: "Stop before adding a face, words, or desk scene. The point, eraser, and curled shavings already make the pencil specific.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cartoon-toothbrush",
-    day: "002",
+    day: "003",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -125,7 +231,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "003",
+    day: "004",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -178,7 +284,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "036",
+    day: "037",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -231,7 +337,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "037",
+    day: "038",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -284,7 +390,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "001",
+    day: "002",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -337,7 +443,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "004",
+    day: "005",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -390,7 +496,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "035",
+    day: "036",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -443,7 +549,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "005",
+    day: "006",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -496,7 +602,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "034",
+    day: "035",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -550,7 +656,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "006",
+    day: "007",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -603,7 +709,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "007",
+    day: "008",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -656,7 +762,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "008",
+    day: "009",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -709,7 +815,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "032",
+    day: "033",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -762,7 +868,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "033",
+    day: "034",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -815,7 +921,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "009",
+    day: "010",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -868,7 +974,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "010",
+    day: "011",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -921,7 +1027,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "011",
+    day: "012",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -974,7 +1080,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "031",
+    day: "032",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1027,7 +1133,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "012",
+    day: "013",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1080,7 +1186,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "030",
+    day: "031",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1133,7 +1239,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "013",
+    day: "014",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1186,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "029",
+    day: "030",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1239,7 +1345,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "014",
+    day: "015",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1292,7 +1398,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "015",
+    day: "016",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1345,7 +1451,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "028",
+    day: "029",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1398,7 +1504,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "027",
+    day: "028",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1451,7 +1557,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "026",
+    day: "027",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1504,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "025",
+    day: "026",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1557,7 +1663,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "024",
+    day: "025",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1610,7 +1716,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "023",
+    day: "024",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1663,7 +1769,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "022",
+    day: "023",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1716,7 +1822,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "021",
+    day: "022",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1769,7 +1875,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "018",
+    day: "019",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1822,7 +1928,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "016",
+    day: "017",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1875,7 +1981,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "017",
+    day: "018",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -1928,7 +2034,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "019",
+    day: "020",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -1981,7 +2087,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "020",
+    day: "021",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

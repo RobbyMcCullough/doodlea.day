@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-09
+- Date: 2026-07-10
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-08 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-09 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,22 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-10 daily automation added two Doodlea lessons:
+  `cartoon-french-fries` as July 10, 2026 / Day 040 and
+  `cartoon-pencil-shavings` as June 1, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 10 Doodlea QA used the cross-site daily lock, duplicate-slot guard,
+  preflight slug locks, contact-sheet cropping, `node scripts/build-tutorials.mjs`,
+  and `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
+  HTTPS still hit `ERR_CERT_DATE_INVALID` in the browser, so rendered desktop/
+  mobile QA used `http://127.0.0.1:4174/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-10/`.
+- Finished image ratings: cartoon french fries 8.8/10 for bold face-free carton
+  readability, stable fry/carton process, and strong marker texture; cartoon
+  pencil with shavings 8.6/10 for clear pencil/eraser/shaving readability,
+  corrected wide-grid process cropping, and no sticker/badge framing. The
+  temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - 2026-07-09 owner-directed correction: rebuilt `cartoon-stapler` from a new
   reviewed six-panel raster marker contact sheet. Step 1 is now explicitly a
   pale, doubled construction guide and step 2 traces that same silhouette;

@@ -1,0 +1,115 @@
+{
+  "slug": "cartoon-pencil-shavings",
+  "finished": "assets/cartoon-pencil-shavings-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel generated raster marker contact sheet reviewed before cropping; final panel saved as the finished master.",
+    "notes": "Contact-sheet-first workflow, no labels, numbers, arrows, or embedded text."
+  },
+  "process_strategy": "The pencil stays diagonal with the same curled shavings while every shape, band, fill color, and shadow is established before the final cleanup.",
+  "final_elements": [
+    {
+      "name": "diagonal pencil guide and curled shaving guides",
+      "introduced_by_step": 1,
+      "description": "A long diagonal guide for the pencil with loose curl guides beside the point."
+    },
+    {
+      "name": "pencil body, point cone, eraser, and shaving silhouettes",
+      "introduced_by_step": 2,
+      "description": "A chunky pencil with a pointed wood cone, eraser end, and curled shavings."
+    },
+    {
+      "name": "ferrule bands, graphite point, and shaving curl interiors",
+      "introduced_by_step": 3,
+      "description": "Metal ferrule bands, a dark pencil point, and inner curl lines on the shavings."
+    },
+    {
+      "name": "side stripe, wood grain, eraser edge, and bold outline",
+      "introduced_by_step": 4,
+      "description": "A side stripe on the pencil, grain marks in the wood, eraser edge, and thicker marker contour."
+    },
+    {
+      "name": "yellow pencil fill, pink eraser fill, tan shavings, silver ferrule, and shadow",
+      "introduced_by_step": 5,
+      "description": "Marker color applied to the already drawn pencil, eraser, shavings, ferrule, and base shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pencil-shavings-step-1.jpg",
+      "step_name": "Set the pencil angle",
+      "visible_job": "Places the diagonal pencil guide and the curled shaving guides.",
+      "introduces": [
+        "diagonal pencil guide and curled shaving guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pencil-shavings-step-2.jpg",
+      "step_name": "Shape the pencil",
+      "visible_job": "Builds the pencil body, point cone, eraser end, and shaving silhouettes.",
+      "introduces": [
+        "pencil body, point cone, eraser, and shaving silhouettes"
+      ],
+      "requires_prior_elements": [
+        "diagonal pencil guide and curled shaving guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pencil-shavings-step-3.jpg",
+      "step_name": "Add point and ferrule",
+      "visible_job": "Adds ferrule bands, the graphite point, and inner curl lines on the shavings.",
+      "introduces": [
+        "ferrule bands, graphite point, and shaving curl interiors"
+      ],
+      "requires_prior_elements": [
+        "pencil body, point cone, eraser, and shaving silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pencil-shavings-step-4.jpg",
+      "step_name": "Ink the pencil details",
+      "visible_job": "Adds a side stripe, wood grain, eraser edge, and stronger marker outline.",
+      "introduces": [
+        "side stripe, wood grain, eraser edge, and bold outline"
+      ],
+      "requires_prior_elements": [
+        "pencil body, point cone, eraser, and shaving silhouettes",
+        "ferrule bands, graphite point, and shaving curl interiors"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-pencil-shavings-step-5.jpg",
+      "step_name": "Fill the pencil color",
+      "visible_job": "Adds yellow, pink, tan, and silver marker fills plus a soft shadow to existing shapes.",
+      "introduces": [
+        "yellow pencil fill, pink eraser fill, tan shavings, silver ferrule, and shadow"
+      ],
+      "requires_prior_elements": [
+        "pencil body, point cone, eraser, and shaving silhouettes",
+        "ferrule bands, graphite point, and shaving curl interiors",
+        "side stripe, wood grain, eraser edge, and bold outline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Sharpen the marker finish",
+    "asset": "assets/cartoon-pencil-shavings-finished-v1.jpg",
+    "visible_job": "Thickens existing outlines and deepens the existing pencil, eraser, shavings, ferrule, grain, and shadow.",
+    "allowed_changes": [
+      "black marker line-weight cleanup",
+      "deeper yellow, pink, tan, and silver marker passes",
+      "clarification of existing point, ferrule, stripe, grain, shavings, highlight gaps, and shadow"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
