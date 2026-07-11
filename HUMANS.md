@@ -58,6 +58,10 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-11 difficulty-cadence guidance: future current Doodlea lessons now
+  check the last five current lessons, prefer a different tier after two in a
+  row, and aim for at least two tiers (preferably all three) across a rolling
+  seven-current-lesson window. Subject fit remains the final authority.
 - 2026-07-11 difficulty calibration: replaced the catalog-wide default `Easy`
   metadata with 12 Easy, 23 Intermediate, and 7 Challenge lessons. The
   Challenge tier now covers the pool float, barbecue grill, bubble-letter WOW,

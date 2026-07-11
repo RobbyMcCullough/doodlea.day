@@ -33,8 +33,13 @@ already told the reader to thicken the full outline.
   with a few forgiving additions, **Intermediate** for multiple interacting
   forms, layering, expressions, repeating details, or coordinated color areas,
   and **Challenge** for perspective or ellipse control, lettering, complex
-  overlap, or several precise feature relationships. Vary the cadence naturally
-  over time, but let the subject—not an arbitrary weekly quota—set the label.
+  overlap, or several precise feature relationships. Before choosing a new
+  current lesson, check the last five current Doodlea lessons: when the last
+  two share a tier, prefer a viable subject in a different tier. Across a
+  rolling seven current lessons, include at least two tiers and aim to use all
+  three when the available subjects support them. Never inflate a simple idea
+  or force a hard one just to satisfy the pattern; the actual drawing load still
+  decides the final label.
 - Treat each tutorial as a suggested path, not a fixed design. Doodlea should
   encourage playful changes to faces, colors, patterns, accents, expressions,
   and small props when those changes keep the drawing clear and teachable.
