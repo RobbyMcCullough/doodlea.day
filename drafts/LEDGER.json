@@ -43,8 +43,18 @@
     "cartoon-pool-float-doodle": {
       "status": "published"
     },
+    "cartoon-popcorn-bucket": {
+      "status": "published",
+      "date": "2026-07-11",
+      "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
     "cartoon-stapler": {
       "status": "published"
+    },
+    "cartoon-surfboard": {
+      "status": "published",
+      "date": "2026-07-11",
+      "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
     "cartoon-toothbrush": {
       "status": "published"

@@ -1,0 +1,28 @@
+{
+  "slug": "cartoon-surfboard",
+  "finished": "assets/cartoon-surfboard-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Planned six-panel generated raster marker process sheet for the July 11, 2026 current lesson.",
+    "notes": "One upright surfboard stays centered at a slight diagonal on warm paper, with bold handmade marker texture and no face."
+  },
+  "process_strategy": "The process sets the long board silhouette and fin first, then establishes the center stripe, leash loop, black outline, small wave marks, and cyan/coral fill before the final panel only strengthens existing marks.",
+  "final_elements": [
+    { "name": "long surfboard silhouette", "introduced_by_step": 1, "description": "A tall rounded board with a pointed nose and rounded tail." },
+    { "name": "small bottom fin", "introduced_by_step": 1, "description": "A simple triangular fin below the board tail." },
+    { "name": "center stripe panel", "introduced_by_step": 2, "description": "A wide curved stripe running down the established board." },
+    { "name": "leash loop", "introduced_by_step": 3, "description": "A short curled leash loop attached near the board tail." },
+    { "name": "thick black board outline", "introduced_by_step": 3, "description": "A confident marker contour around existing board, fin, stripe, and leash shapes." },
+    { "name": "simple wave marks", "introduced_by_step": 4, "description": "A few small blue wave curves below the board." },
+    { "name": "cyan and coral marker fill", "introduced_by_step": 5, "description": "Visible cyan board fill, a coral stripe, and blue wave accents." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/cartoon-surfboard-step-1.jpg", "step_name": "Stretch the board shape", "visible_job": "Places the tall surfboard silhouette and small bottom fin with a light construction pass.", "introduces": ["long surfboard silhouette", "small bottom fin"] },
+    { "step": 2, "asset": "assets/cartoon-surfboard-step-2.jpg", "step_name": "Sweep in the stripe", "visible_job": "Adds a single curved center stripe inside the established board outline.", "introduces": ["center stripe panel"], "requires_prior_elements": ["long surfboard silhouette"] },
+    { "step": 3, "asset": "assets/cartoon-surfboard-step-3.jpg", "step_name": "Hook the leash and ink", "visible_job": "Adds the tail leash loop, then traces only existing board and stripe shapes with a thick black marker.", "introduces": ["leash loop", "thick black board outline"], "requires_prior_elements": ["long surfboard silhouette", "small bottom fin", "center stripe panel"] },
+    { "step": 4, "asset": "assets/cartoon-surfboard-step-4.jpg", "step_name": "Tuck in small waves", "visible_job": "Adds a few simple wave curves under the already inked board.", "introduces": ["simple wave marks"], "requires_prior_elements": ["long surfboard silhouette", "small bottom fin", "leash loop", "thick black board outline"] },
+    { "step": 5, "asset": "assets/cartoon-surfboard-step-5.jpg", "step_name": "Pull the bright marker color", "visible_job": "Fills the existing board cyan, stripe coral, and waves blue with visible marker streaks.", "introduces": ["cyan and coral marker fill"], "requires_prior_elements": ["long surfboard silhouette", "small bottom fin", "center stripe panel", "leash loop", "thick black board outline", "simple wave marks"] }
+  ],
+  "final_step": { "step_name": "Ride the color finish", "asset": "assets/cartoon-surfboard-finished-v1.jpg", "visible_job": "Only reinforces the existing black edge, leash loop, stripe, fin, wave marks, and already established cyan/coral/blue fills.", "allowed_changes": ["black outline reinforcement", "marker-fill deepening", "small wave cleanup", "tiny existing highlight clarification"] },
+  "rejection_checks": ["No fin, stripe, leash, wave mark, color area, or outline may first appear in the final panel.", "The surfboard must keep the same upright angle, crop, and proportions in every frame.", "The finish must remain handmade marker art, not a clean vector icon or product poster."]
+}

@@ -32,4 +32,4 @@ for (const entry of [
 }
 
 const distFiles = await readdir(dist);
-console.log(`Prepared Doodlea.day production build in ${join(root.pathname, "dist")} with ${distFiles.length} top-level entries.`);
+console.log(`Prepared doodlea.day production build in ${join(root.pathname, "dist")} with ${distFiles.length} top-level entries.`);

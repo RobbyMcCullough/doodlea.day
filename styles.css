@@ -881,28 +881,33 @@ a {
 }
 
 .sketch-card {
+  --art-hover-rotate: .2deg;
+  --card-rest-transform: none;
   position: relative;
   padding: 16px 16px 27px;
   color: var(--ink);
   background: var(--paper-light);
   box-shadow: var(--shadow);
   text-decoration: none;
-  transition:
-    box-shadow .18s ease,
-    transform .18s cubic-bezier(.2, .8, .2, 1);
+  transform: var(--card-rest-transform);
+  transition: transform .34s cubic-bezier(.22, .68, .3, 1);
   will-change: transform;
 }
 
 .sketch-card:nth-child(1) {
-  transform: rotate(-1.5deg);
+  --card-rest-transform: rotate(-1.5deg);
 }
 
 .sketch-card:nth-child(2) {
-  transform: translateY(12px) rotate(1deg);
+  --card-rest-transform: translateY(12px) rotate(1deg);
 }
 
 .sketch-card:nth-child(3) {
-  transform: rotate(-.5deg);
+  --card-rest-transform: rotate(-.5deg);
+}
+
+.sketch-card:nth-child(even) {
+  --art-hover-rotate: -.2deg;
 }
 
 .sketch-card:hover,
@@ -910,8 +915,7 @@ a {
 .archive-grid .sketch-card:hover,
 .archive-grid .sketch-card:focus-visible {
   z-index: 2;
-  box-shadow: 10px 12px 0 rgba(40, 37, 31, .18);
-  transform: translateY(-8px) rotate(0);
+  transform: translateY(-6px) rotate(0) scale(1.008);
 }
 
 .sketch-card:focus-visible {
@@ -941,6 +945,19 @@ a {
   height: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
+}
+
+.card-art img,
+.card-art svg {
+  transform-origin: center;
+  transition: transform .36s cubic-bezier(.22, .68, .3, 1);
+}
+
+.sketch-card:hover .card-art img,
+.sketch-card:hover .card-art svg,
+.sketch-card:focus-visible .card-art img,
+.sketch-card:focus-visible .card-art svg {
+  transform: translateY(-2px) scale(1.015) rotate(var(--art-hover-rotate));
 }
 
 .card-blue .card-art {
@@ -988,6 +1005,25 @@ a {
   border-bottom: 2px solid var(--ink);
   font-size: .78rem;
   font-weight: 700;
+  transition:
+    border-color .2s ease,
+    color .2s ease;
+}
+
+.card-link span {
+  display: inline-block;
+  transition: transform .28s cubic-bezier(.22, .68, .3, 1);
+}
+
+.sketch-card:hover .card-link,
+.sketch-card:focus-visible .card-link {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.sketch-card:hover .card-link span,
+.sketch-card:focus-visible .card-link span {
+  transform: translateX(3px);
 }
 
 .archive-hero {
@@ -1048,8 +1084,51 @@ a {
   grid-template-columns: repeat(4, 1fr);
 }
 
+@keyframes library-card-reveal {
+  0% {
+    opacity: 0;
+    translate: 0 8px;
+    rotate: var(--reveal-tilt);
+  }
+
+  74% {
+    opacity: 1;
+    translate: 0 -1px;
+    rotate: var(--reveal-counter-tilt);
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0 0;
+    rotate: 0deg;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .archive-grid.card-reveal-ready .sketch-card {
+    --reveal-tilt: -1deg;
+    --reveal-counter-tilt: .1deg;
+  }
+
+  .archive-grid.card-reveal-ready .sketch-card:nth-child(even) {
+    --reveal-tilt: 1deg;
+    --reveal-counter-tilt: -.1deg;
+  }
+
+  .archive-grid.card-reveal-ready .sketch-card.is-reveal-pending {
+    opacity: 0;
+    translate: 0 8px;
+    rotate: var(--reveal-tilt);
+    will-change: opacity, translate, rotate;
+  }
+
+  .archive-grid.card-reveal-ready .sketch-card.is-revealed {
+    animation: library-card-reveal .62s cubic-bezier(.22, .65, .3, 1) var(--reveal-delay, 0ms) both;
+  }
+}
+
 .archive-grid .sketch-card:nth-child(4n) {
-  transform: translateY(8px) rotate(1.4deg);
+  --card-rest-transform: translateY(8px) rotate(1.4deg);
 }
 
 .archive-grid .card-art {

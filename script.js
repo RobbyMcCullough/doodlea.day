@@ -52,3 +52,59 @@ const fitHeadlineLines = () => {
 fitHeadlineLines();
 window.addEventListener("resize", fitHeadlineLines);
 document.fonts?.ready.then(fitHeadlineLines);
+
+// Reveal library cards in small center-out batches as each row scrolls in.
+// The classes are added only when motion and IntersectionObserver are both
+// available, so the complete library stays visible in every fallback path.
+const archiveGrid = document.querySelector(".library-page .archive-grid");
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+if (archiveGrid && !prefersReducedMotion.matches && "IntersectionObserver" in window) {
+  const archiveCards = [...archiveGrid.querySelectorAll(".sketch-card")];
+  let columnCount = 1;
+  archiveGrid.classList.add("card-reveal-ready");
+  archiveCards.forEach((card) => card.classList.add("is-reveal-pending"));
+
+  const updateRevealDelays = () => {
+    columnCount = Math.max(
+      1,
+      getComputedStyle(archiveGrid).gridTemplateColumns.split(" ").filter(Boolean).length
+    );
+    const center = (columnCount - 1) / 2;
+    const centerOutOrder = Array.from({ length: columnCount }, (_, index) => index)
+      .sort((a, b) => Math.abs(a - center) - Math.abs(b - center) || a - b);
+
+    archiveCards.forEach((card, index) => {
+      const columnIndex = index % columnCount;
+      const staggerIndex = centerOutOrder.indexOf(columnIndex);
+      card.style.setProperty("--reveal-delay", `${staggerIndex * 35}ms`);
+    });
+  };
+
+  updateRevealDelays();
+  window.addEventListener("resize", updateRevealDelays);
+
+  const revealRow = (entryCard) => {
+    const cardIndex = archiveCards.indexOf(entryCard);
+    const rowStart = Math.floor(cardIndex / columnCount) * columnCount;
+    const rowCards = archiveCards.slice(rowStart, rowStart + columnCount);
+
+    rowCards.forEach((card) => {
+      if (!card.classList.contains("is-reveal-pending")) return;
+      card.classList.remove("is-reveal-pending");
+      card.classList.add("is-revealed");
+      cardObserver.unobserve(card);
+    });
+  };
+
+  const cardObserver = new IntersectionObserver((entries) => {
+    entries.filter((entry) => entry.isIntersecting).forEach((entry) => {
+      revealRow(entry.target);
+    });
+  }, {
+    rootMargin: "0px 0px 4% 0px",
+    threshold: 0.01
+  });
+
+  archiveCards.forEach((card) => cardObserver.observe(card));
+}

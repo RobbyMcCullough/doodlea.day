@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = (process.env.SITE_URL || "https://doodlea.day").replace(/\/$/, "");
-const siteName = "Doodlea.day";
+const siteName = "doodlea.day";
 const styleVersion = "20260704-library-compact";
 // Self-hosted Plausible (analytics.robbymccullough.com). data-domain follows SITE_URL
 // so a production build (SITE_URL=https://doodlea.day) reports under "doodlea.day".
@@ -18,8 +18,60 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-surfboard",
+    day: "042",
+    date: "Saturday, July 11",
+    isoDate: "2026-07-11",
+    subject: "a cartoon surfboard",
+    headlineSubject: "a cartoon<br>surfboard",
+    shortSubject: "a surfboard",
+    lessonTitle: "Let's draw a cartoon surfboard",
+    description: "Learn how to draw a cartoon surfboard with a long pointed board shape, bottom fin, curved center stripe, curled leash, thick black outline, small wave marks, cyan marker fill, coral stripe, and blue accents.",
+    intro: "Start with one long board silhouette, then ride a curved stripe down its center before adding the leash, waves, and bright marker color. Keep the lines a little wobbly if they want to be—this is a drawing you can make your own.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#13aeb7",
+    finished: "cartoon-surfboard-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a tall cyan cartoon surfboard with a coral center stripe, black outline, small fin, curled leash, and blue wave marks",
+    materials: ["Black marker", "Cyan, coral, and blue markers", "Drawing paper"],
+    steps: [
+      { name: "Stretch the board shape", text: "Use a light construction pass to draw one tall pointed-nose board and a small triangular fin at its tail.", tip: "Ghost the long outer curve twice before touching the marker down. Pull the stroke toward your wrist so the board stays smooth instead of scratchy." },
+      { name: "Sweep in the stripe", text: "Add one wide curved center stripe inside the established board shape.", tip: "Keep the stripe's edges roughly parallel to the board edges. Compare the two skinny side spaces instead of measuring every curve." },
+      { name: "Hook the leash and ink", text: "Add a short curled leash at the tail, then trace the existing board, fin, and stripe with a confident black outline.", tip: "Rotate the paper for the long curve and pull it in one steady pass. A slightly imperfect marker edge feels more alive than many tiny corrections." },
+      { name: "Tuck in small waves", text: "Draw three simple blue wave curves under the already inked surfboard.", tip: "Leave a little air between each wave hump. That negative space keeps the water marks readable at a small size." },
+      { name: "Pull the bright marker color", text: "Fill the existing board cyan, the center stripe coral, and the wave curves blue, following the board's length with your marker strokes.", tip: "Work from each outline inward and let the marker streaks show. That direction makes the board feel long and hand-drawn." },
+      { name: "Ride the color finish", text: "Reinforce the existing black edge, leash, fin, stripe, wave marks, and cyan, coral, and blue fills.", tip: "Stop before adding a face or a whole beach scene. The board, leash, and wave marks already have plenty of comic energy.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-popcorn-bucket",
+    day: "001",
+    date: "Sunday, May 31",
+    isoDate: "2026-05-31",
+    subject: "a cartoon popcorn bucket",
+    headlineSubject: "a cartoon<br>popcorn bucket",
+    shortSubject: "a popcorn bucket",
+    lessonTitle: "Let's draw a cartoon popcorn bucket",
+    description: "Learn how to draw a cartoon popcorn bucket with a tapered bucket, curved rim, rounded popcorn cloud, kernel lobes, thick black outline, vertical stripe bands, red marker stripes, yellow popcorn, and orange kernel accents.",
+    intro: "Start with a simple tapered bucket, then pile the popcorn over its rim before you ink the stripes and pull in the movie-night colors. This honest archive lesson is a fresh drawing prompt, not a pretend popularity story.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#df3936",
+    finished: "cartoon-popcorn-bucket-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a striped cartoon popcorn bucket with thick black outline, red stripes, yellow popcorn, orange kernel accents, and no face",
+    materials: ["Black marker", "Red, yellow, and orange markers", "Drawing paper"],
+    steps: [
+      { name: "Block the bucket", text: "Draw a light tapered bucket shape, then curve a shallow rim across its top.", tip: "Ghost both side edges before committing. Let them lean inward by the same amount so the bucket does not accidentally become a flowerpot." },
+      { name: "Pile up the popcorn", text: "Build a rounded popcorn cloud above the established rim with a row of varied bumpy curves.", tip: "Vary the bumps a little instead of repeating perfect half-circles. Uneven lobes make the popcorn feel softer and more hand-drawn." },
+      { name: "Divide the kernel lobes", text: "Add a few small inner curves inside the existing popcorn cloud to suggest separate kernels.", tip: "Leave generous open spaces between the inner curves. A handful of marks reads better than outlining every single kernel." },
+      { name: "Ink the stripes", text: "Trace the established bucket and popcorn with thick black marker, then draw three vertical stripe bands down the existing bucket body.", tip: "Turn the page if needed and pull each stripe in one confident stroke. Keeping the stripe edges loose but parallel gives the bucket its comic rhythm." },
+      { name: "Fill the movie-night colors", text: "Fill the existing stripe bands red, the popcorn yellow, and add tiny orange accents inside the established kernel lobes.", tip: "Fill from the outline inward and let the marker streaks follow the bucket's height. Dry each area before a second pass so the paper stays clean." },
+      { name: "Make the popcorn pop", text: "Tidy the existing outlines, stripe edges, kernel lobes, and the red, yellow, and orange marker fills.", tip: "Stop before adding a face, a soda, or tickets. The oversized popcorn cloud and bold stripes already make the doodle feel playful.", image: true }
+    ]
+  },
+  {
     slug: "soccer-whistle",
-    day: "039",
+    day: "040",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -72,7 +124,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "040",
+    day: "041",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -125,7 +177,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "001",
+    day: "002",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -178,7 +230,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -231,7 +283,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "004",
+    day: "005",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -284,7 +336,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "037",
+    day: "038",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -337,7 +389,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "038",
+    day: "039",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -390,7 +442,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -443,7 +495,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "005",
+    day: "006",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -496,7 +548,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "036",
+    day: "037",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -549,7 +601,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "006",
+    day: "007",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -602,7 +654,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "035",
+    day: "036",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -656,7 +708,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "007",
+    day: "008",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -709,7 +761,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "008",
+    day: "009",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -762,7 +814,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -815,7 +867,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "033",
+    day: "034",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -868,7 +920,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "034",
+    day: "035",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -921,7 +973,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -974,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "011",
+    day: "012",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1027,7 +1079,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "012",
+    day: "013",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1080,7 +1132,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "032",
+    day: "033",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1133,7 +1185,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "013",
+    day: "014",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1186,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "031",
+    day: "032",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1239,7 +1291,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "014",
+    day: "015",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1292,7 +1344,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "030",
+    day: "031",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1345,7 +1397,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "015",
+    day: "016",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1398,7 +1450,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1451,7 +1503,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "029",
+    day: "030",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1504,7 +1556,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "028",
+    day: "029",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1557,7 +1609,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "027",
+    day: "028",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1610,7 +1662,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "026",
+    day: "027",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1663,7 +1715,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "025",
+    day: "026",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1716,7 +1768,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "024",
+    day: "025",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1724,7 +1776,7 @@ const lessons = [
     shortSubject: "hot rod marker flames",
     lessonTitle: "Let's doodle flames",
     description: "Learn how to draw hot rod-style marker flames with bold black outlines, orange fill, yellow inner flames, red edge accents, and handmade marker texture.",
-    intro: "Try a bolder Doodlea.day mode: black felt-tip outlines, bright marker fill, and a simple flame shape that feels more comic panel than pencil sketch.",
+    intro: "Try a bolder doodlea.day mode: black felt-tip outlines, bright marker fill, and a simple flame shape that feels more comic panel than pencil sketch.",
     time: 15,
     difficulty: "Easy",
     accent: "#f05a28",
@@ -1769,7 +1821,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "023",
+    day: "024",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1822,7 +1874,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "022",
+    day: "023",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1875,7 +1927,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "019",
+    day: "020",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1928,7 +1980,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "017",
+    day: "018",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -1981,7 +2033,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "018",
+    day: "019",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2034,7 +2086,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "020",
+    day: "021",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2087,7 +2139,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "021",
+    day: "022",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",
@@ -2393,7 +2445,7 @@ ${plausibleTag}
         <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://sketcha.day/">sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 ${siteName}</small>
   </footer>
@@ -2412,7 +2464,7 @@ const aboutPage = () => {
         "@type": "AboutPage",
         "@id": `${siteUrl}/about.html#aboutpage`,
         name: `About ${siteName}`,
-        description: "Learn how Doodlea.day turns quick marker prompts into playful practice for bolder lines, clearer cartoon shapes, and brighter ideas.",
+        description: "Learn how doodlea.day turns quick marker prompts into playful practice for bolder lines, clearer cartoon shapes, and brighter ideas.",
         url: `${siteUrl}/about.html`,
         image: `${siteUrl}/assets/doodlea-family-doodle-v1.webp`,
         isPartOf: { "@id": `${siteUrl}/#website` },
@@ -2446,7 +2498,7 @@ const aboutPage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About ${siteName} | Daily Marker Doodle Practice</title>
-  <meta name="description" content="Meet the family behind Doodlea.day and learn why the site focuses on quick marker prompts, cartoon shapes, bold outlines, and daily doodle practice.">
+  <meta name="description" content="Meet the family behind doodlea.day and learn why the site focuses on quick marker prompts, cartoon shapes, bold outlines, and daily doodle practice.">
   <link rel="canonical" href="${siteUrl}/about.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="About ${siteName}">
@@ -2488,9 +2540,10 @@ ${plausibleTag}
       <div class="about-story">
         <p class="kicker">A small marker playground</p>
         <h1 id="about-title">Daily doodles for bolder marks and brighter ideas.</h1>
-        <p>Doodlea.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who loves the scrappy joy of drawing in the margins. This site is for quick marker prompts that turn simple shapes into characters, stickers, badges, bursts, and comic little details.</p>
-        <p>Robby brings doodle habit, design instincts, and web craft to the lessons: readable pages, bold visual examples, and prompts that are easy to finish before they get overworked. Tracie, a mom and early childhood educator, helps keep the tone welcoming and the steps easy to jump into for kids, parents, teachers, and grown-ups who want a playful creative break.</p>
-        <p>The goal is a growing stash of doodle moves you can reuse anywhere: thicker outlines, expressive faces, bright fills, motion marks, tiny highlights, and enough confidence to make the next blank corner less blank.</p>
+        <p>doodlea.day is made by Robby McCullough, a lifelong doodler, designer, and web guy. This site started as an experiment after he used an AI-generated drawing tutorial of a cowboy hat to make his partner, Tracie, a homemade birthday card.</p>
+        <p>This site is for marker doodles that turn simple shapes into characters, stickers, badges, bursts, and comic little details. Our sister site sketcha.day is for more detailed and pencil-forward drawing practice.</p>
+        <p>Robby brings doodle habit, design instincts, and web craft to the lessons. Tracie, a mom and early childhood educator, helps keep the tone welcoming and the steps easy to jump into for kids, parents, teachers, and grown-ups who want a playful creative break.</p>
+        <p>We hope taking a little break each day to create artwork brings your family as much joy as it's brought ours. See you tomorrow!</p>
       </div>
     </section>
     <section class="about-credentials" aria-labelledby="about-credentials-title">
@@ -2509,7 +2562,7 @@ ${plausibleTag}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://sketcha.day/">sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 ${siteName}</small>
   </footer>
@@ -2524,7 +2577,7 @@ const homePage = (lesson) => {
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
       <h2 id="newsletter-title">A fresh doodle in your inbox.</h2>
-      <p>Coming soon: one prompt, one marker-friendly tutorial, and a cheerful reason to doodle again tomorrow. Want it first? <a href="mailto:hello@doodlea.day?subject=Doodlea.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
+      <p>Coming soon: one prompt, one marker-friendly tutorial, and a cheerful reason to doodle again tomorrow. Want it first? <a href="mailto:hello@doodlea.day?subject=doodlea.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
       <form class="signup-form">
         <label class="sr-only" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Newsletter coming soon" disabled>
@@ -2612,7 +2665,7 @@ const archivePage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Doodle Tutorial Library | Marker-Based Step-by-Step Doodles | ${siteName}</title>
-  <meta name="description" content="Browse every Doodlea.day tutorial. Find daily marker doodle lessons that help you practice shape, line weight, expression, color, and cartoon drawing.">
+  <meta name="description" content="Browse every doodlea.day tutorial. Find daily marker doodle lessons that help you practice shape, line weight, expression, color, and cartoon drawing.">
   <link rel="canonical" href="${siteUrl}/library.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="The ${siteName} Doodle Tutorial Library">
@@ -2651,7 +2704,7 @@ ${plausibleTag}
       <div class="archive-intro">
         <p class="eyebrow"><span>${archiveLessons.length} step-by-step lesson${archiveLessons.length === 1 ? "" : "s"}</span> New marker doodles added daily</p>
         <h1 id="archive-title">Doodle tutorial library</h1>
-        <p>Browse easy step-by-step doodle tutorials for quick marker practice. Each Doodlea.day lesson breaks cartoon objects, comic marks, expressive faces, and playful drawing ideas into approachable frames for simple shapes, bold outlines, bright color, and a finished doodle.</p>
+        <p>Browse easy step-by-step doodle tutorials for quick marker practice. Each doodlea.day lesson breaks cartoon objects, comic marks, expressive faces, and playful drawing ideas into approachable frames for simple shapes, bold outlines, bright color, and a finished doodle.</p>
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
@@ -2672,7 +2725,7 @@ ${plausibleTag}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Bold marker practice, one daily doodle at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://sketcha.day/">Sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://sketcha.day/">sketcha.day</a><a href="mailto:hello@doodlea.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 ${siteName}</small>
   </footer>

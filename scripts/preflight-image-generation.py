@@ -66,6 +66,10 @@ def main() -> int:
         "--lock-token",
         help="Token from scripts/daily-publish-lock.py acquire. Required with --current-date.",
     )
+    parser.add_argument(
+        "--allow-existing-current-slug",
+        help="Allow the current date only when it already contains this exact validated slug.",
+    )
     args = parser.parse_args()
     slug = args.slug
 
@@ -122,15 +126,17 @@ def main() -> int:
 
     # 4. Daily slot guard.
     if args.current_date:
-        slot = subprocess.run(
-            [
-                sys.executable,
-                str(ROOT / "scripts" / "check-daily-publish-slots.py"),
-                "--current-date",
-                args.current_date,
-            ],
-            cwd=ROOT,
-        )
+        slot_command = [
+            sys.executable,
+            str(ROOT / "scripts" / "check-daily-publish-slots.py"),
+            "--current-date",
+            args.current_date,
+        ]
+        if args.allow_existing_current_slug:
+            slot_command.extend(
+                ["--allow-existing-current-slug", args.allow_existing_current_slug]
+            )
+        slot = subprocess.run(slot_command, cwd=ROOT)
         if slot.returncode != 0:
             print("FAIL the daily slot guard did not pass; stop before generating art.")
             return 1

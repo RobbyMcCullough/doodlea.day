@@ -58,6 +58,43 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-11 daily automation prepared two Doodlea lessons: current
+  `cartoon-surfboard` (July 11 / Day 042) and honest archive
+  `cartoon-popcorn-bucket` (May 31 / Day 001). Existing day labels shifted
+  forward by one for the archive insertion. Both use reviewed six-panel raster
+  marker contact sheets; final ratings: surfboard 8.8/10 (bold, legible
+  silhouette with staged leash/waves/color) and popcorn 8.6/10 (clean bucket →
+  kernels → ink/stripes → color sequence with visible marker texture).
+- The normal duplicate guard, contact-sheet crop, process-plan/delta checks,
+  image derivatives, social cards, readiness checks, Cove link checks, JSON-LD,
+  unused-assets check, and desktop/mobile no-overflow checks passed. Hero WebP
+  images were confirmed at 1254×1254 in the local browser. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- The shared preflight script now supports an exact
+  `--allow-existing-current-slug` escape hatch, forwarded to the duplicate
+  guard, so the same run can safely generate its archive lesson after its
+  validated current lesson. The matching change was mirrored in Sketcha.day.
+- No daily commit or push was made: both worktrees already include the owner's
+  uncommitted About/casing/library-review changes, and bundling them into an
+  automated live deploy would be unsafe. New lesson files are present locally
+  alongside that review work.
+- 2026-07-10 About-story refresh: replaced the generated About copy with the
+  owner's more personal version about the cowboy-hat birthday-card origin,
+  Robby and Tracie's roles, the sister-site distinction, and the family joy
+  signoff. Rebuilt the site; changes remain local pending owner review.
+- 2026-07-10 public brand-casing pass: normalized every public `doodlea.day`
+  and `sketcha.day` reference to lowercase in the generator, production-build
+  log, and static lab, then rebuilt all 40 tutorials plus homepage, library,
+  About, feed, sitemap, and robots output. A zero-uppercase audit and JSON-LD/
+  XML validation passed; internal documentation and history remain unchanged.
+- 2026-07-10 local review work: mirrored the Sketcha.day library-grid polish.
+  Owner feedback softened the reveal to an 8px rise, +/-1deg swing, 1px
+  overshoot, 620ms settle, and overlapping 35ms stagger. Hover now uses a
+  gentler 6px lift and art/arrow response with no shadow change. Reduced-motion
+  and no-JavaScript fallbacks remain intact. Changes are intentionally
+  uncommitted pending owner review. A follow-up moved resting card tilts into a
+  CSS custom property so every fourth card now receives the same hover and
+  keyboard-focus transform as its neighbors.
 - 2026-07-10 daily automation added two Doodlea lessons:
   `cartoon-french-fries` as July 10, 2026 / Day 040 and
   `cartoon-pencil-shavings` as June 1, 2026 / Day 001 honest archive backfill.

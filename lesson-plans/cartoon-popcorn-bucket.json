@@ -1,0 +1,28 @@
+{
+  "slug": "cartoon-popcorn-bucket",
+  "finished": "assets/cartoon-popcorn-bucket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Planned six-panel generated raster marker process sheet for the May 31, 2026 honest archive lesson.",
+    "notes": "One un-faced striped popcorn bucket sits centered, with all kernels and color blocks established before the final panel."
+  },
+  "process_strategy": "The sequence lays in the tapered bucket and top rim, adds the popcorn cloud and individual kernel lobes, then uses a bold black outline, stripe bands, and yellow/red marker fills before only a final cleanup pass.",
+  "final_elements": [
+    { "name": "tapered bucket body", "introduced_by_step": 1, "description": "A simple open trapezoid bucket with a narrow bottom." },
+    { "name": "top rim ellipse", "introduced_by_step": 1, "description": "A curved open rim across the top of the bucket." },
+    { "name": "popcorn cloud", "introduced_by_step": 2, "description": "A cluster of rounded kernel bumps spilling from the rim." },
+    { "name": "individual kernel lobes", "introduced_by_step": 3, "description": "A few inner kernel divisions within the existing popcorn cloud." },
+    { "name": "thick black outline", "introduced_by_step": 4, "description": "A bold marker contour around established bucket and popcorn shapes." },
+    { "name": "vertical stripe bands", "introduced_by_step": 4, "description": "Three clear vertical bands on the already drawn bucket body." },
+    { "name": "red bucket and yellow popcorn fills", "introduced_by_step": 5, "description": "Red marker stripes, a white bucket ground, and warm yellow popcorn with orange kernel accents." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/cartoon-popcorn-bucket-step-1.jpg", "step_name": "Block the bucket", "visible_job": "Lightly places the tapered bucket body and top rim ellipse.", "introduces": ["tapered bucket body", "top rim ellipse"] },
+    { "step": 2, "asset": "assets/cartoon-popcorn-bucket-step-2.jpg", "step_name": "Pile up the popcorn", "visible_job": "Adds the rounded popcorn cloud growing from the established rim.", "introduces": ["popcorn cloud"], "requires_prior_elements": ["tapered bucket body", "top rim ellipse"] },
+    { "step": 3, "asset": "assets/cartoon-popcorn-bucket-step-3.jpg", "step_name": "Divide the kernel lobes", "visible_job": "Adds a few light inner kernel lobes inside the existing popcorn cloud.", "introduces": ["individual kernel lobes"], "requires_prior_elements": ["tapered bucket body", "top rim ellipse", "popcorn cloud"] },
+    { "step": 4, "asset": "assets/cartoon-popcorn-bucket-step-4.jpg", "step_name": "Ink the stripes", "visible_job": "Thickens the established bucket and popcorn contours, then adds three unfilled vertical stripe bands to the existing bucket body.", "introduces": ["thick black outline", "vertical stripe bands"], "requires_prior_elements": ["tapered bucket body", "top rim ellipse", "popcorn cloud", "individual kernel lobes"] },
+    { "step": 5, "asset": "assets/cartoon-popcorn-bucket-step-5.jpg", "step_name": "Fill the movie-night colors", "visible_job": "Fills established bucket stripes red and popcorn yellow with orange kernel accents, leaving the bucket ground light.", "introduces": ["red bucket and yellow popcorn fills"], "requires_prior_elements": ["tapered bucket body", "top rim ellipse", "popcorn cloud", "individual kernel lobes", "thick black outline", "vertical stripe bands"] }
+  ],
+  "final_step": { "step_name": "Make the popcorn pop", "asset": "assets/cartoon-popcorn-bucket-finished-v1.jpg", "visible_job": "Only tidies existing outlines, stripes, kernel lobes, and the established red, yellow, and orange marker fills.", "allowed_changes": ["black outline reinforcement", "marker-fill deepening", "stripe-edge cleanup", "small existing kernel-highlight clarification"] },
+  "rejection_checks": ["No bucket, rim, popcorn cluster, kernel lobe, stripe, outline, or color area may first appear in the final panel.", "The bucket must keep the same centered crop and tapered proportions in every frame.", "The finish must read as handmade marker doodle art, not a clean vector snack logo."]
+}

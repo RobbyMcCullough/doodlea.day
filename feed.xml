@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Doodlea.day Daily Doodles</title>
+    <title>doodlea.day Daily Doodles</title>
     <link>https://doodlea.day/</link>
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon surfboard</title>
+      <link>https://doodlea.day/tutorials/cartoon-surfboard.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-surfboard.html</guid>
+      <pubDate>Sat, 11 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon surfboard with a long pointed board shape, bottom fin, curved center stripe, curled leash, thick black outline, small wave marks, cyan marker fill, coral stripe, and blue accents.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-surfboard-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw cartoon french fries</title>
       <link>https://doodlea.day/tutorials/cartoon-french-fries.html</link>
@@ -326,6 +334,14 @@
       <pubDate>Mon, 01 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon pencil with curled shavings using a diagonal pencil body, pointed wood cone, pink eraser, ferrule bands, graphite point, shaving curls, side stripe, wood grain, yellow marker fill, tan shavings, silver ferrule, thick black outlines, and a soft shadow.</description>
       <media:content url="https://doodlea.day/assets/cartoon-pencil-shavings-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon popcorn bucket</title>
+      <link>https://doodlea.day/tutorials/cartoon-popcorn-bucket.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-popcorn-bucket.html</guid>
+      <pubDate>Sun, 31 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon popcorn bucket with a tapered bucket, curved rim, rounded popcorn cloud, kernel lobes, thick black outline, vertical stripe bands, red marker stripes, yellow popcorn, and orange kernel accents.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-popcorn-bucket-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
