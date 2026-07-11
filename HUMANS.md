@@ -74,10 +74,9 @@
   `--allow-existing-current-slug` escape hatch, forwarded to the duplicate
   guard, so the same run can safely generate its archive lesson after its
   validated current lesson. The matching change was mirrored in Sketcha.day.
-- No daily commit or push was made: both worktrees already include the owner's
-  uncommitted About/casing/library-review changes, and bundling them into an
-  automated live deploy would be unsafe. New lesson files are present locally
-  alongside that review work.
+- Owner approved the combined local work for deployment. It was committed and
+  pushed to `main` as `5caaf56` (`Publish July 11 doodle lessons and site
+  polish`), so the site's normal production deploy should now run.
 - 2026-07-10 About-story refresh: replaced the generated About copy with the
   owner's more personal version about the cowboy-hat birthday-card origin,
   Robby and Tracie's roles, the sister-site distinction, and the family joy
