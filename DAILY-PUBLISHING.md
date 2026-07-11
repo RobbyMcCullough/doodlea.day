@@ -28,6 +28,13 @@ already told the reader to thicken the full outline.
   drumstick" unless "doodle" is truly part of the subject being searched.
 - Use thick black marker outlines and saturated marker fills.
 - Keep the process fast: usually 10-20 minutes and 5-7 steps.
+- Calibrate the public difficulty label to the actual drawing load; do not
+  default every lesson to Easy. Use **Easy** for a single dominant silhouette
+  with a few forgiving additions, **Intermediate** for multiple interacting
+  forms, layering, expressions, repeating details, or coordinated color areas,
+  and **Challenge** for perspective or ellipse control, lettering, complex
+  overlap, or several precise feature relationships. Vary the cadence naturally
+  over time, but let the subject—not an arbitrary weekly quota—set the label.
 - Treat each tutorial as a suggested path, not a fixed design. Doodlea should
   encourage playful changes to faces, colors, patterns, accents, expressions,
   and small props when those changes keep the drawing clear and teachable.

@@ -58,6 +58,14 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-11 difficulty calibration: replaced the catalog-wide default `Easy`
+  metadata with 12 Easy, 23 Intermediate, and 7 Challenge lessons. The
+  Challenge tier now covers the pool float, barbecue grill, bubble-letter WOW,
+  whoopee cushion, arcade joystick, cassette tape, and skateboard; the
+  whoopee cushion was specifically reclassified for its asymmetrical form,
+  face, puffs, wrinkles, layered color, and highlight work. The new Doodlea
+  publishing rule explains how future lessons should choose a tier rather than
+  defaulting to Easy. Rebuilt pages and verified the labels through Cove.
 - 2026-07-11 daily automation prepared two Doodlea lessons: current
   `cartoon-surfboard` (July 11 / Day 042) and honest archive
   `cartoon-popcorn-bucket` (May 31 / Day 001). Existing day labels shifted
