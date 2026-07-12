@@ -58,6 +58,14 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-12 daily automation added current `cartoon-treasure-chest` (July 12 /
+  Day 044 after archive insertion) and honest archive
+  `comic-sun-with-sunglasses` (May 30 / Day 001). Both use reviewed six-panel
+  handmade raster marker contact sheets and passed process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, asset, and diff checks.
+  Finished-image ratings: chest 8.8/10; sun 8.4/10. The sun hides the eyes
+  behind oversized shades, avoiding the repeated dot-eye/U-smile face pattern.
+  The temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-11 difficulty-cadence guidance: future current Doodlea lessons now
   check the last five current lessons, prefer a different tier after two in a
   row, and aim for at least two tiers (preferably all three) across a rolling

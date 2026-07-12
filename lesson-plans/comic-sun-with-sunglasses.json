@@ -1,0 +1,35 @@
+{
+  "slug": "comic-sun-with-sunglasses",
+  "finished": "assets/comic-sun-with-sunglasses-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel marker contact sheet cropped into five process masters and a final sun master.",
+    "notes": "Keep the same round face-free sun, sixteen alternating rays, oversized black sunglasses, short lower smile, and small teal shadow in every panel."
+  },
+  "process_strategy": "The six-frame marker sheet grows one circular summer sun into a ray pattern, oversized sunglasses, and a simple mouth before marker color; the final only reinforces established marks and fills.",
+  "final_elements": [
+    { "name": "sun circle", "introduced_by_step": 1, "description": "One large centered circular sun body." },
+    { "name": "alternating rays", "introduced_by_step": 2, "description": "Sixteen short alternating triangular and straight rays around the circle, with orange accents on the triangular rays." },
+    { "name": "sunglasses frames", "introduced_by_step": 3, "description": "Two oversized tilted black lenses linked by a bridge and arms." },
+    { "name": "lower smile", "introduced_by_step": 4, "description": "A short relaxed curved mouth below the established glasses." },
+    { "name": "yellow sun fill and teal shadow", "introduced_by_step": 5, "description": "Marker color applied to the existing sun circle and a small shadow under it." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/comic-sun-with-sunglasses-step-1.jpg", "step_name": "Draw the sun circle", "visible_job": "Place one large light circular sun body in the center.", "introduces": ["sun circle"] },
+    { "step": 2, "asset": "assets/comic-sun-with-sunglasses-step-2.jpg", "step_name": "Radiate the rays", "visible_job": "Add a balanced ring of alternating rays and orange accents around the established sun circle.", "introduces": ["alternating rays"], "requires_prior_elements": ["sun circle"] },
+    { "step": 3, "asset": "assets/comic-sun-with-sunglasses-step-3.jpg", "step_name": "Drop in the shades", "visible_job": "Draw and black-fill two oversized sunglasses lenses, bridge, and short arms across the existing circle.", "introduces": ["sunglasses frames"], "requires_prior_elements": ["sun circle"] },
+    { "step": 4, "asset": "assets/comic-sun-with-sunglasses-step-4.jpg", "step_name": "Add the small smile", "visible_job": "Place one short relaxed curved mouth below the established sunglasses.", "introduces": ["lower smile"], "requires_prior_elements": ["sun circle", "sunglasses frames"] },
+    { "step": 5, "asset": "assets/comic-sun-with-sunglasses-step-5.jpg", "step_name": "Fill the summer color", "visible_job": "Fill the existing sun circle yellow and add a small teal shadow below.", "introduces": ["yellow sun fill and teal shadow"], "requires_prior_elements": ["sun circle", "sunglasses frames", "lower smile"] }
+  ],
+  "final_step": {
+    "step_name": "Let the sun shine",
+    "asset": "assets/comic-sun-with-sunglasses-finished-v1.jpg",
+    "visible_job": "Only thicken existing outlines, tidy existing yellow, orange, teal, and black marker fills, and add tiny white highlight gaps to the established sunglasses.",
+    "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small sunglasses highlights"]
+  },
+  "rejection_checks": [
+    "Reject if the sun circle, ray count, glasses, or mouth changes between panels.",
+    "Reject if a ray, glasses part, mouth, or color is first introduced in the final panel.",
+    "Reject a default two-dot-eye face; the eyes must remain hidden by large sunglasses and the expression relies on the simple mouth."
+  ]
+}

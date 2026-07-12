@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "comic-sun-with-sunglasses",
+    day: "001",
+    date: "Saturday, May 30",
+    isoDate: "2026-05-30",
+    subject: "a comic sun with sunglasses",
+    headlineSubject: "a comic sun<br>with sunglasses",
+    shortSubject: "a comic sun",
+    lessonTitle: "Let's draw a comic sun with sunglasses",
+    description: "Learn how to draw a comic sun with sunglasses using a big round sun, alternating rays, oversized black shades, a tiny relaxed smile, yellow marker fill, orange ray accents, small white lens highlights, and a teal ground shadow.",
+    intro: "Start with one large sun circle, then radiate the rays and drop oversized shades across it before filling the yellow and orange marker color. This honest archive lesson is a fresh summer prompt, not a claim about earlier attention or activity.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#f6c817",
+    finished: "comic-sun-with-sunglasses-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a round yellow comic sun with alternating orange rays, oversized black sunglasses with white highlights, a small curved smile, and teal ground shadow",
+    materials: ["Drawing paper", "Black and colored markers", "Optional white gel pen"],
+    materialNote: "Use black for the outline and sunglasses, yellow for the sun, orange for alternating rays, teal for the shadow, and the gel pen only for the small lens highlights.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Draw the sun circle", text: "Use a light construction pass to draw one large centered sun circle.", tip: "Ghost the circle several times before committing. Let it stay a touch handmade instead of chasing a perfectly mechanical loop." },
+      { name: "Radiate the rays", text: "Add an even ring of alternating straight and triangular rays around the established circle, giving the triangular rays orange marker accents.", tip: "Work around the circle in opposite pairs. That quick habit keeps the rays feeling balanced without measuring every gap." },
+      { name: "Drop in the shades", text: "Draw and black-fill two oversized sunglasses lenses, their bridge, and short arms across the existing sun circle.", tip: "Pull each lens outline in one confident pass, then fill inward. The glasses should hide the eyes completely so the simple mouth can carry the expression." },
+      { name: "Add the small smile", text: "Place one short relaxed curved smile below the established sunglasses.", tip: "Keep the mouth small and low. Leaving lots of open yellow space stops the face from becoming crowded." },
+      { name: "Fill the summer color", text: "Fill the existing sun circle yellow and add a small teal shadow under it.", tip: "Follow the curve of the sun with your marker strokes and let a little texture show. Smooth-but-not-perfect fill feels more alive than a solid digital block." },
+      { name: "Let the sun shine", text: "Reinforce the existing outlines, tidy the yellow, orange, teal, and black fills, and add tiny white highlights to the already drawn sunglasses.", tip: "Stop before adding clouds, words, or a border. The ray pattern, shades, and small smile already make a clear comic character.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-treasure-chest",
+    day: "044",
+    date: "Sunday, July 12",
+    isoDate: "2026-07-12",
+    subject: "a cartoon treasure chest",
+    headlineSubject: "a cartoon<br>treasure chest",
+    shortSubject: "a treasure chest",
+    lessonTitle: "Let's draw a cartoon treasure chest",
+    description: "Learn how to draw a cartoon treasure chest with a chunky box base, domed lid, front plank bands, central lock plate, small hinges, squat feet, loose coins, thick black outlines, orange marker wood, gold hardware, and a blue shadow.",
+    intro: "Build one low chest box first, then round its lid and layer in the wood bands, lock, feet, and coins before pulling the bright marker color. Keep the outline a little wobbly if it wants to be—the solid shapes do the work.",
+    time: 20,
+    difficulty: "Easy-medium",
+    accent: "#ef741c",
+    finished: "cartoon-treasure-chest-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a face-free orange cartoon treasure chest with a domed lid, black outlines, gold lock and hinges, squat feet, loose coins, and a teal-blue ground shadow",
+    materials: ["Drawing paper", "Black and colored markers"],
+    materialNote: "Use black for the outline, orange for the wood, golden yellow for the hardware and coins, and teal-blue for the small ground shadow.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Block the chest base", text: "Use a light construction pass to draw one low rectangular chest box with a wider front plane.", tip: "Ghost the two long front edges before touching the marker down. Let both edges lean in the same direction so the chest does not twist." },
+      { name: "Round the lid", text: "Add a domed lid directly on top of the established box, keeping the curved end aligned with the right side plane.", tip: "Pull the dome in one smooth arc after a rehearsal stroke. A slightly uneven arc feels hand-drawn, but it should still land on both lid edges." },
+      { name: "Divide the wood", text: "Draw three loose front plank bands and a narrow lower rim across the existing chest base.", tip: "Leave the bands a little imperfect and roughly parallel. The gaps between them matter more than perfectly ruler-straight lines." },
+      { name: "Set the hardware", text: "Add a central lock plate and two small hinges right on the lid seam you already drew.", tip: "Keep the lock chunky and simple. One clear keyhole reads better than tiny mechanical marks." },
+      { name: "Add feet and color base", text: "Draw two squat feet and a few coin circles beside the existing base, then fill the established chest orange, the hardware and coins gold, and the ground shadow teal-blue.", tip: "Fill from each black edge inward and let the marker streaks follow the chest planes. Directional streaks make the big orange surfaces feel lively." },
+      { name: "Make the chest gleam", text: "Reinforce the existing black outlines, tidy the orange, gold, and blue fills, and add tiny highlights to the already drawn lock and coins.", tip: "Stop before adding a face, a pirate, words, or a border. The domed lid, lock, and scattered coins already give the chest plenty of comic energy.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-surfboard",
-    day: "042",
+    day: "043",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -45,7 +101,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "001",
+    day: "002",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -71,7 +127,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "040",
+    day: "041",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -124,7 +180,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "041",
+    day: "042",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -177,7 +233,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "002",
+    day: "003",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -230,7 +286,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "004",
+    day: "005",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -283,7 +339,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "005",
+    day: "006",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -336,7 +392,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "038",
+    day: "039",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -389,7 +445,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "039",
+    day: "040",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -442,7 +498,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "003",
+    day: "004",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -495,7 +551,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "006",
+    day: "007",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -548,7 +604,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "037",
+    day: "038",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -601,7 +657,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "007",
+    day: "008",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -654,7 +710,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "036",
+    day: "037",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -708,7 +764,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "008",
+    day: "009",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -761,7 +817,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "009",
+    day: "010",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -814,7 +870,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "010",
+    day: "011",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -867,7 +923,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "034",
+    day: "035",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -920,7 +976,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "035",
+    day: "036",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -973,7 +1029,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "011",
+    day: "012",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1026,7 +1082,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "012",
+    day: "013",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1079,7 +1135,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "013",
+    day: "014",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1132,7 +1188,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "033",
+    day: "034",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1185,7 +1241,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "014",
+    day: "015",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1238,7 +1294,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "032",
+    day: "033",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1291,7 +1347,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "015",
+    day: "016",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1344,7 +1400,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "031",
+    day: "032",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1397,7 +1453,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "016",
+    day: "017",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1450,7 +1506,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "017",
+    day: "018",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1503,7 +1559,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "030",
+    day: "031",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1556,7 +1612,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "029",
+    day: "030",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1609,7 +1665,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "028",
+    day: "029",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1662,7 +1718,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "027",
+    day: "028",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1715,7 +1771,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "026",
+    day: "027",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1768,7 +1824,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "025",
+    day: "026",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1821,7 +1877,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "024",
+    day: "025",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1874,7 +1930,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "023",
+    day: "024",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -1927,7 +1983,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "020",
+    day: "021",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -1980,7 +2036,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "018",
+    day: "019",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2033,7 +2089,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "019",
+    day: "020",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2086,7 +2142,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "021",
+    day: "022",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2139,7 +2195,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "022",
+    day: "023",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon treasure chest</title>
+      <link>https://doodlea.day/tutorials/cartoon-treasure-chest.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-treasure-chest.html</guid>
+      <pubDate>Sun, 12 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon treasure chest with a chunky box base, domed lid, front plank bands, central lock plate, small hinges, squat feet, loose coins, thick black outlines, orange marker wood, gold hardware, and a blue shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-treasure-chest-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon surfboard</title>
       <link>https://doodlea.day/tutorials/cartoon-surfboard.html</link>
@@ -342,6 +350,14 @@
       <pubDate>Sun, 31 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon popcorn bucket with a tapered bucket, curved rim, rounded popcorn cloud, kernel lobes, thick black outline, vertical stripe bands, red marker stripes, yellow popcorn, and orange kernel accents.</description>
       <media:content url="https://doodlea.day/assets/cartoon-popcorn-bucket-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a comic sun with sunglasses</title>
+      <link>https://doodlea.day/tutorials/comic-sun-with-sunglasses.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-sun-with-sunglasses.html</guid>
+      <pubDate>Sat, 30 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic sun with sunglasses using a big round sun, alternating rays, oversized black shades, a tiny relaxed smile, yellow marker fill, orange ray accents, small white lens highlights, and a teal ground shadow.</description>
+      <media:content url="https://doodlea.day/assets/comic-sun-with-sunglasses-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

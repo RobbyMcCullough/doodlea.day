@@ -59,6 +59,11 @@
     "cartoon-toothbrush": {
       "status": "published"
     },
+    "cartoon-treasure-chest": {
+      "status": "published",
+      "date": "2026-07-12",
+      "note": "Reviewed six-panel marker chest process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
     "cassette-tape-sticker": {
       "status": "published"
     },
@@ -70,6 +75,11 @@
     },
     "comic-firecracker-doodle": {
       "status": "published"
+    },
+    "comic-sun-with-sunglasses": {
+      "status": "published",
+      "date": "2026-07-12",
+      "note": "Reviewed six-panel sunglasses-sun process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
     },
     "firework-burst-doodle": {
       "status": "published"

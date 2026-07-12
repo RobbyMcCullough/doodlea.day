@@ -1,0 +1,36 @@
+{
+  "slug": "cartoon-treasure-chest",
+  "finished": "assets/cartoon-treasure-chest-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel marker contact sheet cropped into five process masters and a final treasure-chest master.",
+    "notes": "Keep the same face-free three-quarter chest, domed lid, plank bands, central lock plate, feet, and loose coin cluster in each panel."
+  },
+  "process_strategy": "One handmade marker sheet builds a face-free chest from its low box through the domed lid, bands, lock, and already-established coin cluster, leaving only outline confidence and bright fill cleanup for the final.",
+  "final_elements": [
+    { "name": "chest base", "introduced_by_step": 1, "description": "A low three-quarter rectangular box with a slightly wider front edge." },
+    { "name": "domed lid", "introduced_by_step": 2, "description": "A rounded lid sitting directly on the established chest base." },
+    { "name": "front plank bands", "introduced_by_step": 3, "description": "Three loose vertical front bands and a thin lower rim." },
+    { "name": "lock plate and side hinges", "introduced_by_step": 4, "description": "A central rounded lock plate with two small hinges at the lid seam." },
+    { "name": "feet and coin cluster", "introduced_by_step": 5, "description": "Two squat corner feet and a few round coin shapes already peeking beside the base." },
+    { "name": "orange wood, gold hardware, and blue shadow", "introduced_by_step": 5, "description": "Marker fill laid over existing chest, hardware, coin, and ground shapes." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/cartoon-treasure-chest-step-1.jpg", "step_name": "Block the chest base", "visible_job": "Draw a light low box with a wide front plane.", "introduces": ["chest base"] },
+    { "step": 2, "asset": "assets/cartoon-treasure-chest-step-2.jpg", "step_name": "Round the lid", "visible_job": "Add a domed lid directly on top of the established base.", "introduces": ["domed lid"], "requires_prior_elements": ["chest base"] },
+    { "step": 3, "asset": "assets/cartoon-treasure-chest-step-3.jpg", "step_name": "Divide the wood", "visible_job": "Add three front plank bands and a narrow lower rim to the existing base.", "introduces": ["front plank bands"], "requires_prior_elements": ["chest base"] },
+    { "step": 4, "asset": "assets/cartoon-treasure-chest-step-4.jpg", "step_name": "Set the hardware", "visible_job": "Place the central lock plate and two small lid hinges on already established seams.", "introduces": ["lock plate and side hinges"], "requires_prior_elements": ["chest base", "domed lid"] },
+    { "step": 5, "asset": "assets/cartoon-treasure-chest-step-5.jpg", "step_name": "Add feet and color base", "visible_job": "Add the chest feet and a few coin circles, then fill the established shapes with orange wood, gold hardware, and a small blue ground shadow.", "introduces": ["feet and coin cluster", "orange wood, gold hardware, and blue shadow"], "requires_prior_elements": ["chest base", "lock plate and side hinges"] }
+  ],
+  "final_step": {
+    "step_name": "Make the chest gleam",
+    "asset": "assets/cartoon-treasure-chest-finished-v1.jpg",
+    "visible_job": "Only strengthen existing black outlines, clean existing orange, gold, and blue marker fills, and add small highlights to already-present hardware and coins.",
+    "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small hardware highlights"]
+  },
+  "rejection_checks": [
+    "Reject if the chest perspective, lid, bands, lock, or coin cluster changes between panels.",
+    "Reject if color appears on a chest part or coin that was not already visible in an earlier panel.",
+    "Reject clean vector-icon edges, polished poster rendering, words, labels, faces, or decorative borders."
+  ]
+}
