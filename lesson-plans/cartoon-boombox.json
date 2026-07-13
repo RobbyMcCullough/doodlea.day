@@ -1,0 +1,36 @@
+{
+  "slug": "cartoon-boombox",
+  "finished": "assets/cartoon-boombox-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel handmade marker contact sheet cropped into five cumulative process masters and one final boombox master.",
+    "notes": "Keep the same face-free front-facing boombox, squat rectangular body, handle, two speaker circles, center cassette window, button row, antenna, magenta-and-cyan fill, and blue ground shadow in every panel."
+  },
+  "process_strategy": "One contact sheet grows a front-facing face-free boombox from a light box through its handle, speakers, cassette window, controls, antenna, and already-established marker fills; the last panel only strengthens outlines and tidies color.",
+  "final_elements": [
+    { "name": "boombox body", "introduced_by_step": 1, "description": "A squat front-facing rectangular radio body with softly rounded corners." },
+    { "name": "top handle", "introduced_by_step": 2, "description": "A thick arch handle attached to the established top edge." },
+    { "name": "speaker circles", "introduced_by_step": 3, "description": "Two large matching circular speakers spaced across the front panel." },
+    { "name": "cassette window and control row", "introduced_by_step": 4, "description": "A small central cassette window and a row of simple round controls between the speakers." },
+    { "name": "antenna and blue ground shadow", "introduced_by_step": 5, "description": "A short angled antenna and a loose blue shadow underneath the already outlined radio." },
+    { "name": "magenta and cyan marker fill", "introduced_by_step": 5, "description": "Magenta body panels and cyan speaker and control accents applied to existing shapes." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/cartoon-boombox-step-1.jpg", "step_name": "Block the radio body", "visible_job": "Draw a light squat rectangular radio body with soft corners and a centered front panel.", "introduces": ["boombox body"] },
+    { "step": 2, "asset": "assets/cartoon-boombox-step-2.jpg", "step_name": "Arch the handle", "visible_job": "Attach a thick top handle directly to the established body.", "introduces": ["top handle"], "requires_prior_elements": ["boombox body"] },
+    { "step": 3, "asset": "assets/cartoon-boombox-step-3.jpg", "step_name": "Set the speakers", "visible_job": "Add two large matching speaker circles inside the established front panel.", "introduces": ["speaker circles"], "requires_prior_elements": ["boombox body"] },
+    { "step": 4, "asset": "assets/cartoon-boombox-step-4.jpg", "step_name": "Add the controls", "visible_job": "Place the cassette window and simple control row in the existing open center area.", "introduces": ["cassette window and control row"], "requires_prior_elements": ["boombox body", "speaker circles"] },
+    { "step": 5, "asset": "assets/cartoon-boombox-step-5.jpg", "step_name": "Ink and fill the beat", "visible_job": "Add the antenna and blue shadow, then ink the existing radio shapes and fill the established panels magenta and cyan.", "introduces": ["antenna and blue ground shadow", "magenta and cyan marker fill"], "requires_prior_elements": ["boombox body", "top handle", "speaker circles", "cassette window and control row"] }
+  ],
+  "final_step": {
+    "step_name": "Make the boombox boom",
+    "asset": "assets/cartoon-boombox-finished-v1.jpg",
+    "visible_job": "Only strengthen existing black outlines, tidy the already-present magenta, cyan, and blue fills, and add tiny highlights to existing controls and speakers.",
+    "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small speaker and control highlights"]
+  },
+  "rejection_checks": [
+    "Reject if the body, handle, speaker placement, cassette window, controls, or antenna changes between panels.",
+    "Reject if a panel inks, colors, or shades a feature that was not already visible in an earlier panel.",
+    "Reject clean vector-icon edges, polished poster rendering, words, labels, faces, decorative borders, or speaker logos."
+  ]
+}

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon boombox</title>
+      <link>https://doodlea.day/tutorials/cartoon-boombox.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-boombox.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon boombox with a squat rounded radio body, arch handle, matching speaker circles, cassette window, simple controls, short antenna, thick black outlines, magenta marker panels, cyan accents, and a blue ground shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-boombox-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon treasure chest</title>
       <link>https://doodlea.day/tutorials/cartoon-treasure-chest.html</link>
@@ -358,6 +366,14 @@
       <pubDate>Sat, 30 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a comic sun with sunglasses using a big round sun, alternating rays, oversized black shades, a tiny relaxed smile, yellow marker fill, orange ray accents, small white lens highlights, and a teal ground shadow.</description>
       <media:content url="https://doodlea.day/assets/comic-sun-with-sunglasses-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon superhero mask</title>
+      <link>https://doodlea.day/tutorials/cartoon-superhero-mask.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-superhero-mask.html</guid>
+      <pubDate>Fri, 29 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon superhero mask with symmetry guides, a swept brow silhouette, matching almond eye openings, pointed corners, a center nose dip, ribbon tails, bold black outlines, purple marker fill, cyan accents, and small white highlights.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-superhero-mask-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

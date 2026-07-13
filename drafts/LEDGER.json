@@ -22,6 +22,11 @@
     "cartoon-barbecue-grill-doodle": {
       "status": "published"
     },
+    "cartoon-boombox": {
+      "status": "published",
+      "date": "2026-07-13",
+      "note": "Reviewed six-panel marker boombox process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
     "cartoon-cactus-sticker": {
       "status": "published"
     },
@@ -50,6 +55,11 @@
     },
     "cartoon-stapler": {
       "status": "published"
+    },
+    "cartoon-superhero-mask": {
+      "status": "published",
+      "date": "2026-07-13",
+      "note": "Reviewed six-panel superhero-mask process promoted after final-panel guide cleanup, cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
     },
     "cartoon-surfboard": {
       "status": "published",

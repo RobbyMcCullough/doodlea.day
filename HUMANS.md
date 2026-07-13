@@ -58,6 +58,23 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-13 daily follow-up completed the Doodlea pair: current
+  `cartoon-boombox` (July 13 / Day 046) and honest archive
+  `cartoon-superhero-mask` (May 29 / Day 001). Both use reviewed six-panel
+  handmade raster marker contact sheets, cropped JPG masters, WebP delivery
+  images, social cards, and explicit process plans. Finished-image ratings:
+  boombox 8.7/10 for its clear front-facing silhouette, marker texture, and
+  cumulative handle/speaker/cassette/control process; superhero mask 8.7/10
+  for its readable swept shape, balanced eye openings, energetic color, and
+  clean guide-removal finish.
+- July 13 Doodlea QA passed both readiness commands, process-plan and frame-
+  delta checks, derivatives, social cards, draft ledger, JSON-LD, internal
+  links/assets, unused-assets audit, and `git diff --check`. The corrected
+  browser bundle at `26.707.62119` restored rendered QA: homepage, library,
+  boombox, and superhero-mask layouts score 9/10 at 1440x1000 and 390x844,
+  with intentional headline wraps, correct underline placement, complete hero
+  art, and no horizontal overflow. The temporary two-tutorial-per-site
+  backfill cadence remains active.
 - 2026-07-12 daily automation added current `cartoon-treasure-chest` (July 12 /
   Day 044 after archive insertion) and honest archive
   `comic-sun-with-sunglasses` (May 30 / Day 001). Both use reviewed six-panel

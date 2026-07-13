@@ -1,0 +1,35 @@
+{
+  "slug": "cartoon-superhero-mask",
+  "finished": "assets/cartoon-superhero-mask-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel handmade marker contact sheet cropped into five cumulative process masters and one final superhero-mask master.",
+    "notes": "Keep the same face-free front-facing mask, swept brow silhouette, center nose dip, two eye openings, side tie ribbons, purple fill, and cyan accents in every panel."
+  },
+  "process_strategy": "One contact sheet builds a face-free superhero mask from light symmetry guides through its outer contour, eye openings, and tie ribbons before inking and coloring only established shapes; the final panel only strengthens lines and highlights.",
+  "final_elements": [
+    { "name": "symmetry guides", "introduced_by_step": 1, "description": "A light horizontal eye axis, vertical center line, and two shallow guide arcs establishing the mask's width and tilt." },
+    { "name": "outer mask silhouette", "introduced_by_step": 2, "description": "A swept upper brow contour, pointed outer corners, rounded cheek edges, and a small center nose dip." },
+    { "name": "eye openings", "introduced_by_step": 3, "description": "Two matching almond-shaped eye openings positioned on the established eye axis." },
+    { "name": "side tie ribbons and crease marks", "introduced_by_step": 4, "description": "Short ribbon tails at both outer corners plus two small contour creases above the eyes." },
+    { "name": "purple fill and cyan accents", "introduced_by_step": 5, "description": "Purple marker across the established mask with cyan accents around the existing eye openings and tie tips." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/cartoon-superhero-mask-step-1.jpg", "step_name": "Set the mask guides", "visible_job": "Draw a light horizontal eye axis, vertical center line, and shallow upper and lower guide arcs.", "introduces": ["symmetry guides"] },
+    { "step": 2, "asset": "assets/cartoon-superhero-mask-step-2.jpg", "step_name": "Sweep the mask shape", "visible_job": "Use the guides to draw the full outer mask silhouette with pointed corners and a center nose dip.", "introduces": ["outer mask silhouette"], "requires_prior_elements": ["symmetry guides"] },
+    { "step": 3, "asset": "assets/cartoon-superhero-mask-step-3.jpg", "step_name": "Open the eye shapes", "visible_job": "Add two matching almond-shaped eye openings along the established eye axis.", "introduces": ["eye openings"], "requires_prior_elements": ["symmetry guides", "outer mask silhouette"] },
+    { "step": 4, "asset": "assets/cartoon-superhero-mask-step-4.jpg", "step_name": "Tie on the ribbon tails", "visible_job": "Attach short ribbon tails to both outer corners and add two small brow crease marks.", "introduces": ["side tie ribbons and crease marks"], "requires_prior_elements": ["outer mask silhouette", "eye openings"] },
+    { "step": 5, "asset": "assets/cartoon-superhero-mask-step-5.jpg", "step_name": "Ink the secret colors", "visible_job": "Trace the established mask, openings, ribbons, and creases in black, then fill the existing mask purple and its eye rims and tie tips cyan.", "introduces": ["purple fill and cyan accents"], "requires_prior_elements": ["outer mask silhouette", "eye openings", "side tie ribbons and crease marks"] }
+  ],
+  "final_step": {
+    "step_name": "Power up the mask",
+    "asset": "assets/cartoon-superhero-mask-finished-v1.jpg",
+    "visible_job": "Only erase the remaining light construction guides, strengthen existing black contours, tidy the purple and cyan marker fills, and add tiny white highlights to already-colored areas.",
+    "allowed_changes": ["construction guide cleanup", "keeper outline thickening", "marker fill cleanup", "small white highlights"]
+  },
+  "rejection_checks": [
+    "Reject if the mask width, brow sweep, nose dip, eye spacing, or ribbon placement changes between panels.",
+    "Reject if an outline or color pass is the first appearance of a mask contour, eye opening, ribbon, or crease.",
+    "Reject clean vector-icon edges, polished poster rendering, eyes, a face, words, logos, sticker outlines, badge frames, labels, or decorative borders."
+  ]
+}
