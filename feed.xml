@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon rocket ship</title>
+      <link>https://doodlea.day/tutorials/cartoon-rocket-ship.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-rocket-ship.html</guid>
+      <pubDate>Tue, 14 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon rocket ship with a tall rounded body, pointed nose cone, matching side fins, round porthole, lower band, layered flame, tiny stars, thick black outlines, red and cyan marker fills, and yellow-purple flame color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-rocket-ship-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon boombox</title>
       <link>https://doodlea.day/tutorials/cartoon-boombox.html</link>
@@ -374,6 +382,14 @@
       <pubDate>Fri, 29 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon superhero mask with symmetry guides, a swept brow silhouette, matching almond eye openings, pointed corners, a center nose dip, ribbon tails, bold black outlines, purple marker fill, cyan accents, and small white highlights.</description>
       <media:content url="https://doodlea.day/assets/cartoon-superhero-mask-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon roller skate</title>
+      <link>https://doodlea.day/tutorials/cartoon-roller-skate.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-roller-skate.html</guid>
+      <pubDate>Thu, 28 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon roller skate with a chunky high-top boot, separate sole, four quad wheels, simple trucks, eyelets, crisscross laces, thick black outlines, pink and teal marker fills, yellow and purple wheels, and a small ground shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-roller-skate-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-rocket-ship",
+    day: "048",
+    date: "Tuesday, July 14",
+    isoDate: "2026-07-14",
+    subject: "a cartoon rocket ship",
+    headlineSubject: "a cartoon<br>rocket ship",
+    shortSubject: "a rocket ship",
+    lessonTitle: "Let's draw a cartoon rocket ship",
+    description: "Learn how to draw a cartoon rocket ship with a tall rounded body, pointed nose cone, matching side fins, round porthole, lower band, layered flame, tiny stars, thick black outlines, red and cyan marker fills, and yellow-purple flame color.",
+    intro: "Start with one tall body guide, then layer in the nose, fins, window, and flame before you pull the bright marker color. A rocket is a great place to practice drawing a long smooth curve in one pass instead of correcting it with lots of tiny strokes.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#e53a32",
+    finished: "cartoon-rocket-ship-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a face-free upright cartoon rocket ship with a red body, cyan fins and porthole, yellow and purple layered flame, tiny star marks, and thick black outlines",
+    materials: ["Drawing paper", "Black marker", "Red, cyan, yellow, and purple markers", "Optional white gel pen"],
+    materialNote: "Use black for the confident outline, red and cyan for the rocket, yellow and purple for the flame, and a white gel pen only for the small existing highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Set the flight guide", text: "Draw a light tall rounded body guide with a vertical center axis.", tip: "Ghost the two long side curves first, then pull each one from top to bottom in a single relaxed pass. Matching the empty space on both sides of the axis keeps the body steady." },
+      { name: "Shape nose and fins", text: "Add a pointed nose cone at the top and two matching triangular fins at the lower sides of the established body.", tip: "Place both fin tips lightly before connecting them. Comparing their height is faster than trying to copy one fin stroke-for-stroke." },
+      { name: "Drop in the window", text: "Draw a round porthole near the upper body and a simple band around the lower body.", tip: "Mark the porthole center before looping the circle. Rotating the paper can make a confident circle much easier than scratching around it." },
+      { name: "Launch the flame", text: "Attach a layered flame below the existing body and add two small star marks beside the rocket.", tip: "Build the flame as nested points that all start at the same base. Keep the stars small so they support the rocket instead of taking over." },
+      { name: "Fill the rocket color", text: "Trace the established rocket, window, fins, flame, and stars in black, then fill the body red, the fins and window cyan, and the flame yellow with a purple center.", tip: "Fill from each black edge inward and let the marker strokes follow the long body. The slight streak texture is part of the handmade look." },
+      { name: "Give the rocket lift", text: "Strengthen the existing black contours, tidy the red, cyan, yellow, and purple fills, and add tiny white highlights to the already colored rocket parts.", tip: "Stop before adding another rocket, a planet, words, or a face. The pointed nose, porthole, fins, and flame already make the subject read instantly.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-roller-skate",
+    day: "001",
+    date: "Thursday, May 28",
+    isoDate: "2026-05-28",
+    subject: "a cartoon roller skate",
+    headlineSubject: "a cartoon<br>roller skate",
+    shortSubject: "a roller skate",
+    lessonTitle: "Let's draw a cartoon roller skate",
+    description: "Learn how to draw a cartoon roller skate with a chunky high-top boot, separate sole, four quad wheels, simple trucks, eyelets, crisscross laces, thick black outlines, pink and teal marker fills, yellow and purple wheels, and a small ground shadow.",
+    intro: "Build one side-view boot first, then set it on a sole and wheels before threading in the laces and bright marker color. This honest archive lesson is a fresh practice prompt, not a claim about past attention or activity.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#f04499",
+    finished: "cartoon-roller-skate-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a face-free side-view pink cartoon roller skate with teal sole, four yellow and purple quad wheels, crisscross laces, a purple ground shadow, and thick black outlines",
+    materials: ["Drawing paper", "Black marker", "Pink, teal, yellow, and purple markers", "Optional white gel pen"],
+    materialNote: "Use black for the outline, pink for the boot, teal for the sole, yellow and purple for the wheels, and a white gel pen only for small existing highlight gaps.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Block the boot", text: "Draw a light side-view boot guide with a long toe pointing right and a raised ankle at the back.", tip: "Ghost the long top curve twice before touching the marker down. A single confident sweep will look better than trying to sand the curve smooth with little marks." },
+      { name: "Build the high-top", text: "Add the chunky ankle-high boot and a separate sole, then pull a faint short ground line beneath the established shape.", tip: "Keep the sole flatter than the boot. Comparing the slim gap between those two edges is an easy way to keep the skate from looking squashed." },
+      { name: "Roll in the wheels", text: "Attach four small wheels on simple trucks under the established sole.", tip: "Lightly mark all four wheel centers before drawing the circles. Even spacing matters more than making every wheel exactly the same size." },
+      { name: "Lace the boot", text: "Add a short row of eyelets and crisscross laces along the existing front opening.", tip: "Draw the eyelets first, then connect every other one with relaxed diagonal crossings. Let the laces overlap a little instead of turning them into a rigid ladder." },
+      { name: "Color the skate", text: "Trace the established skate in black, then fill the boot pink, sole teal, wheels yellow and purple, and the existing ground line purple.", tip: "Fill the boot with long strokes that follow its curve. Leaving a little marker streak texture makes the color feel lively and handmade." },
+      { name: "Make it roll", text: "Strengthen the existing black contours and laces, tidy the pink, teal, yellow, and purple fills, and add tiny white highlights to the already colored boot and wheels.", tip: "Stop before adding a face, a border, or more skates. The high-top, four wheels, and laces already make this one unmistakable.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-boombox",
-    day: "046",
+    day: "047",
     date: "Monday, July 13",
     isoDate: "2026-07-13",
     subject: "a cartoon boombox",
@@ -47,7 +103,7 @@ const lessons = [
   },
   {
     slug: "cartoon-superhero-mask",
-    day: "001",
+    day: "002",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a cartoon superhero mask",
@@ -75,7 +131,7 @@ const lessons = [
   },
   {
     slug: "comic-sun-with-sunglasses",
-    day: "002",
+    day: "003",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a comic sun with sunglasses",
@@ -103,7 +159,7 @@ const lessons = [
   },
   {
     slug: "cartoon-treasure-chest",
-    day: "045",
+    day: "046",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a cartoon treasure chest",
@@ -131,7 +187,7 @@ const lessons = [
   },
   {
     slug: "cartoon-surfboard",
-    day: "044",
+    day: "045",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -157,7 +213,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "003",
+    day: "004",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -183,7 +239,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "042",
+    day: "043",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -236,7 +292,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "043",
+    day: "044",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -289,7 +345,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "004",
+    day: "005",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -342,7 +398,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "006",
+    day: "007",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -395,7 +451,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "007",
+    day: "008",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -448,7 +504,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "040",
+    day: "041",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -501,7 +557,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "041",
+    day: "042",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -554,7 +610,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "005",
+    day: "006",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -607,7 +663,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "008",
+    day: "009",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -660,7 +716,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "039",
+    day: "040",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -713,7 +769,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "009",
+    day: "010",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -766,7 +822,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "038",
+    day: "039",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -820,7 +876,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "010",
+    day: "011",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -873,7 +929,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "011",
+    day: "012",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -926,7 +982,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "012",
+    day: "013",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -979,7 +1035,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "036",
+    day: "037",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -1032,7 +1088,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "037",
+    day: "038",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -1085,7 +1141,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "013",
+    day: "014",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1138,7 +1194,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "014",
+    day: "015",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1191,7 +1247,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "015",
+    day: "016",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1244,7 +1300,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "035",
+    day: "036",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1297,7 +1353,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "016",
+    day: "017",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1350,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "034",
+    day: "035",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1403,7 +1459,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "017",
+    day: "018",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1456,7 +1512,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "033",
+    day: "034",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1509,7 +1565,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "018",
+    day: "019",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1562,7 +1618,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "019",
+    day: "020",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1615,7 +1671,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "032",
+    day: "033",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1668,7 +1724,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "031",
+    day: "032",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1721,7 +1777,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "030",
+    day: "031",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1774,7 +1830,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "029",
+    day: "030",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1827,7 +1883,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "028",
+    day: "029",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1880,7 +1936,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "027",
+    day: "028",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1933,7 +1989,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "026",
+    day: "027",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -1986,7 +2042,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "025",
+    day: "026",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -2039,7 +2095,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "022",
+    day: "023",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -2092,7 +2148,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "020",
+    day: "021",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2145,7 +2201,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "021",
+    day: "022",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2198,7 +2254,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "023",
+    day: "024",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2251,7 +2307,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "024",
+    day: "025",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

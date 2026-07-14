@@ -1,0 +1,22 @@
+{
+  "slug": "cartoon-rocket-ship",
+  "finished": "assets/cartoon-rocket-ship-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel marker process contact sheet.", "notes": "One face-free upright rocket on textured drawing paper."},
+  "process_strategy": "The contact sheet keeps one upright rocket while building the body guide, nose and fins, window, flame, black outline, marker fills, and final clarity pass.",
+  "final_elements": [
+    {"name": "upright rocket body guide", "introduced_by_step": 1, "description": "A tall rounded body with a center axis."},
+    {"name": "nose cone and side fins", "introduced_by_step": 2, "description": "A pointed nose and two matching triangular fins."},
+    {"name": "round window and lower band", "introduced_by_step": 3, "description": "A porthole and simple horizontal body band."},
+    {"name": "flame plume and small stars", "introduced_by_step": 4, "description": "A layered flame below the rocket with two small orbiting star marks."},
+    {"name": "red, cyan, yellow, and purple marker color", "introduced_by_step": 5, "description": "Saturated fills on existing body parts and simple shadow."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/cartoon-rocket-ship-step-1.jpg", "step_name": "Set the flight guide", "visible_job": "Places the tall rounded rocket guide and center axis.", "introduces": ["upright rocket body guide"]},
+    {"step": 2, "asset": "assets/cartoon-rocket-ship-step-2.jpg", "step_name": "Shape nose and fins", "visible_job": "Adds the nose cone and matching side fins to the guide.", "introduces": ["nose cone and side fins"], "requires_prior_elements": ["upright rocket body guide"]},
+    {"step": 3, "asset": "assets/cartoon-rocket-ship-step-3.jpg", "step_name": "Drop in the window", "visible_job": "Adds the porthole and lower band on the established body.", "introduces": ["round window and lower band"], "requires_prior_elements": ["upright rocket body guide", "nose cone and side fins"]},
+    {"step": 4, "asset": "assets/cartoon-rocket-ship-step-4.jpg", "step_name": "Launch the flame", "visible_job": "Adds a layered flame and small star marks around the existing rocket.", "introduces": ["flame plume and small stars"], "requires_prior_elements": ["upright rocket body guide", "nose cone and side fins", "round window and lower band"]},
+    {"step": 5, "asset": "assets/cartoon-rocket-ship-step-5.jpg", "step_name": "Fill the rocket color", "visible_job": "Thickens existing outlines and fills the rocket and flame with marker color.", "introduces": ["red, cyan, yellow, and purple marker color"], "requires_prior_elements": ["upright rocket body guide", "nose cone and side fins", "round window and lower band", "flame plume and small stars"]}
+  ],
+  "final_step": {"step_name": "Give the rocket lift", "asset": "assets/cartoon-rocket-ship-finished-v1.jpg", "visible_job": "Only strengthens established contours, fills, stars, and flame.", "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small highlight gaps"]},
+  "rejection_checks": ["No fin, window, band, flame, star, color, or highlight may first appear in the final image.", "The rocket must retain one upright pose, scale, and placement in every frame.", "No late panel may turn the marker drawing into a glossy vector icon or add a face, logo, or extra prop."]
+}

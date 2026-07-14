@@ -53,6 +53,12 @@
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
+    "cartoon-rocket-ship": {
+      "status": "published"
+    },
+    "cartoon-roller-skate": {
+      "status": "published"
+    },
     "cartoon-stapler": {
       "status": "published"
     },

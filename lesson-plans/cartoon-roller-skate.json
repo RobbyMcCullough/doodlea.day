@@ -1,0 +1,22 @@
+{
+  "slug": "cartoon-roller-skate",
+  "finished": "assets/cartoon-roller-skate-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel marker process contact sheet.", "notes": "One side-view quad roller skate on textured drawing paper."},
+  "process_strategy": "The contact sheet develops one side-view skate through boot guide, high-top boot, sole and wheels, laces, black outline, marker fills, then a final finish pass.",
+  "final_elements": [
+    {"name": "side-view boot guide", "introduced_by_step": 1, "description": "A long ankle-high boot silhouette with a toe guide."},
+    {"name": "high-top boot, sole, and faint ground line", "introduced_by_step": 2, "description": "A chunky boot with a raised ankle, separate sole, and a light baseline shadow."},
+    {"name": "quad wheels and trucks", "introduced_by_step": 3, "description": "Four small wheels joined by simple trucks below the sole."},
+    {"name": "eyelets and crisscross laces", "introduced_by_step": 4, "description": "A short ladder of eyelets and clear lace crossings."},
+    {"name": "pink, teal, yellow, and purple marker fill", "introduced_by_step": 5, "description": "Bright color on the existing boot, wheels, laces, and ground line."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/cartoon-roller-skate-step-1.jpg", "step_name": "Block the boot", "visible_job": "Places the side-view boot guide and toe direction.", "introduces": ["side-view boot guide"]},
+    {"step": 2, "asset": "assets/cartoon-roller-skate-step-2.jpg", "step_name": "Build the high-top", "visible_job": "Adds the ankle rise, sole, and a faint ground line to the existing boot guide.", "introduces": ["high-top boot, sole, and faint ground line"], "requires_prior_elements": ["side-view boot guide"]},
+    {"step": 3, "asset": "assets/cartoon-roller-skate-step-3.jpg", "step_name": "Roll in the wheels", "visible_job": "Adds four wheels and simple trucks beneath the sole.", "introduces": ["quad wheels and trucks"], "requires_prior_elements": ["side-view boot guide", "high-top boot, sole, and faint ground line"]},
+    {"step": 4, "asset": "assets/cartoon-roller-skate-step-4.jpg", "step_name": "Lace the boot", "visible_job": "Adds eyelets and crisscross laces along the established front.", "introduces": ["eyelets and crisscross laces"], "requires_prior_elements": ["side-view boot guide", "high-top boot, sole, and faint ground line"]},
+    {"step": 5, "asset": "assets/cartoon-roller-skate-step-5.jpg", "step_name": "Color the skate", "visible_job": "Thickens established contours and adds saturated marker fills to the established skate and ground line.", "introduces": ["pink, teal, yellow, and purple marker fill"], "requires_prior_elements": ["side-view boot guide", "high-top boot, sole, and faint ground line", "quad wheels and trucks", "eyelets and crisscross laces"]}
+  ],
+  "final_step": {"step_name": "Make it roll", "asset": "assets/cartoon-roller-skate-finished-v1.jpg", "visible_job": "Only strengthens existing outlines, laces, colors, and shadow.", "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small highlight gaps"]},
+  "rejection_checks": ["No boot part, wheel, truck, lace, color, or highlight may first appear in the final image.", "The skate must retain one side-view pose and wheel spacing across all frames.", "No late frame may turn the handmade marker skate into a glossy icon or add a face, border, or unrelated prop."]
+}

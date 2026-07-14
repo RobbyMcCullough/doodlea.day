@@ -58,6 +58,17 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-14 daily automation added current `cartoon-rocket-ship` (July 14 /
+  Day 048) and honest archive `cartoon-roller-skate` (May 28 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  Finished-image ratings: rocket ship 8.8/10 for its immediate silhouette,
+  cumulative porthole/fins/flame construction, and vivid marker texture;
+  roller skate 8.7/10 for the clear high-top/wheel/lace sequence, balanced
+  bright color, and playful but attainable marker finish. Readiness,
+  process-plan, frame-delta, derivative, social-card, JSON-LD, link, unused-
+  asset, and diff checks passed. The temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-13 daily follow-up completed the Doodlea pair: current
   `cartoon-boombox` (July 13 / Day 046) and honest archive
   `cartoon-superhero-mask` (May 29 / Day 001). Both use reviewed six-panel
