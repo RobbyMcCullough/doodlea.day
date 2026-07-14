@@ -58,6 +58,9 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-14 publishing guidance now requires the 1Password SSH agent for
+  every GitHub push; the exact export-plus-push routine lives in `AGENTS.md`
+  and `DAILY-PUBLISHING.md` and should be used after QA/commit.
 - 2026-07-14 daily automation added current `cartoon-rocket-ship` (July 14 /
   Day 048) and honest archive `cartoon-roller-skate` (May 28 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped

@@ -203,9 +203,22 @@ python3 scripts/check-tutorial-readiness.py {slug}
    `https://doodlea.localhost/tutorials/{slug}.html` at desktop and mobile widths.
 15. Rate the rendered homepage and tutorial page layout at desktop and mobile
    widths. It must score at least 8/10 before publishing.
-16. Commit when checks pass. Once the GitHub/Cloudflare deployment path is
-   connected, routine daily Doodlea.day lessons may push after all quality gates
-   pass.
+16. Commit when checks pass. Routine daily Doodlea.day lessons may push after
+    all quality gates pass, using the 1Password SSH-agent routine below.
+
+### GitHub Push Routine (1Password)
+
+Run this after the commit and all QA gates pass. It must run in an interactive
+terminal so the owner can approve the normal 1Password authorization prompt:
+
+```sh
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+git push origin main
+```
+
+Then verify `git status --short --branch` reports a clean
+`main...origin/main`. Do not fall back to a plain `git push` after a public-key
+failure, because that commonly selects the empty system SSH agent.
 
 ## Page Layout Rating Gate
 
