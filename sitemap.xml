@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://doodlea.day/</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doodlea.day/about.html</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://doodlea.day/library.html</loc>
-    <lastmod>2026-07-14</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cartoon-cow-face.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-cow-face-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-rocket-ship.html</loc>
@@ -1168,6 +1192,30 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-roller-skate-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cartoon-claw-hammer.html</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-claw-hammer-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>

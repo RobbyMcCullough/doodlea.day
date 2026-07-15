@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-cow-face",
+    day: "050",
+    date: "Wednesday, July 15",
+    isoDate: "2026-07-15",
+    subject: "a cartoon cow face",
+    headlineSubject: "a cartoon<br>cow face",
+    shortSubject: "a cow face",
+    lessonTitle: "Let's draw a cartoon cow face",
+    description: "Learn how to draw a cartoon cow face with wide ears, short horns, a big pink muzzle, half-lidded side-looking eyes, one raised brow, a crooked one-tooth grin, irregular black patches, thick outlines, and bright marker fills.",
+    intro: "Start with one broad head guide, then add the ears, horns, and muzzle before aiming the eyes sideways and pulling a crooked grin. This cheeky expression is a good reminder that changing eye direction, eyebrow height, and mouth shape can give a simple cartoon a whole personality.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#f04f93",
+    finished: "cartoon-cow-face-finished-v1.jpg",
+    finishedAlt: "Handmade marker doodle of a front-facing cartoon cow face with half-lidded teal eyes looking sideways, one raised brow, a crooked one-tooth grin, pink muzzle and ears, golden horns, black patches, and thick outlines",
+    materials: ["Drawing paper", "Black marker", "Pink, golden-yellow, and teal markers"],
+    materialNote: "Use black for the confident contours and patches, pink for the muzzle and ear interiors, golden yellow for the horns, and teal for the side-looking irises.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Block the cow head", text: "Draw a light broad head that narrows slightly toward the bottom, then place a vertical center guide.", tip: "Ghost both side curves before touching down. Compare the empty space on either side of the center guide instead of trying to make the outline mechanically perfect." },
+      { name: "Add ears, horns, and muzzle", text: "Attach two wide ears and two short horns near the top, then place one large oval muzzle across the lower half of the established head.", tip: "Mark the ear tips and horn tips first. Those four landmarks help the face feel balanced while still leaving room for a little handmade asymmetry." },
+      { name: "Aim the cheeky expression", text: "Add half-lidded almond eyes looking to one side, lift one eyebrow, place two nostrils, and curve a crooked open grin around one square tooth.", tip: "Draw the eyelids before the irises so both pupils can point the same way. Let the raised brow and off-center tooth exaggerate the sideways attitude." },
+      { name: "Place tuft and patches", text: "Add a small forehead tuft and several irregular cow patches around the existing face.", tip: "Keep every patch a different shape and leave breathing room around the eyes and grin. You can move the spots around on your own cow without changing the lesson structure." },
+      { name: "Ink and color the cow", text: "Trace the established face with thick black marker, fill the patches black, muzzle and ears pink, horns golden yellow, and irises teal.", tip: "Let each fill dry before reinforcing a nearby black edge. Pull the pink strokes across the muzzle in the same direction so the visible marker texture feels intentional." },
+      { name: "Milk the expression", text: "Strengthen the existing outlines, sharpen the sideways eyes and raised brow, and tidy the established black, pink, golden-yellow, and teal fills.", tip: "Stop before adding a bell, body, barn, border, or words. The half-lidded side-eye, raised brow, and one-tooth grin already make this cow unmistakably yours.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-claw-hammer",
+    day: "001",
+    date: "Wednesday, May 27",
+    isoDate: "2026-05-27",
+    subject: "a cartoon claw hammer",
+    headlineSubject: "a cartoon<br>claw hammer",
+    shortSubject: "a claw hammer",
+    lessonTitle: "Let's draw a cartoon claw hammer",
+    description: "Learn how to draw a cartoon claw hammer with a diagonal handle, chunky striking face, curved split claw, wrapped grip bands, small comic impact marks, thick black outlines, and bright cyan, orange, magenta, and yellow marker fills.",
+    intro: "Set one strong diagonal, then build the hammer head and handle before cutting in the claw, wrapping the grip, and pulling bright marker color. This honest archive lesson is a fresh tool-drawing prompt, not a claim about past attention or activity.",
+    time: 15,
+    difficulty: "Intermediate",
+    accent: "#20b9db",
+    finished: "cartoon-claw-hammer-finished-v1.jpg",
+    finishedAlt: "Handmade face-free marker doodle of a diagonal cartoon claw hammer with a cyan head, curved split claw, orange handle, magenta wrapped grip, yellow impact marks, and thick black outlines",
+    materials: ["Drawing paper", "Black marker", "Cyan, orange, magenta, and yellow markers"],
+    materialNote: "Use black for the confident contours, cyan for the metal head, orange for the handle, magenta for the wrapped grip, and yellow for the small impact marks.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Set the hammer angle", text: "Draw a light diagonal axis for the handle and place a simple block guide across its upper end for the head.", tip: "Ghost the long diagonal twice before touching down. One clear direction gives the whole hammer more energy than a nearly vertical handle." },
+      { name: "Build head and handle", text: "Shape the striking face, neck, chunky head, and long handle around the established guide, leaving the back of the head blunt for now.", tip: "Draw the handle as two long parallel edges, then compare the gap between them from top to bottom. A slight taper is fine, but avoid pinching the middle." },
+      { name: "Cut in the claw", text: "Extend the back of the existing head into a curved two-prong claw with one clear center notch.", tip: "Pull the outer claw curve first, then echo it inside and open the notch at the tip. The empty notch shape is what makes the tool read as a claw hammer." },
+      { name: "Wrap the grip", text: "Add several grip bands near the handle base and three small comic impact marks beside the striking face.", tip: "Rotate the page so the grip bands cross the handle cleanly. Keep the impact marks small and point them away from the hammer face like a tiny burst." },
+      { name: "Ink and color the hammer", text: "Trace the established hammer in black, then fill the head cyan, handle orange, grip magenta, and impact marks yellow.", tip: "Fill the long handle from edge to edge in parallel strokes. Let a little marker streak texture show instead of layering until the orange looks digitally flat." },
+      { name: "Nail the finish", text: "Strengthen the existing contours, clarify the claw notch and grip bands, and tidy the cyan, orange, magenta, and yellow fills.", tip: "Stop before adding a nail, board, hand, face, words, or border. The claw, striking face, wrapped grip, and impact marks already make the tool pop.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-rocket-ship",
-    day: "048",
+    day: "049",
     date: "Tuesday, July 14",
     isoDate: "2026-07-14",
     subject: "a cartoon rocket ship",
@@ -47,7 +103,7 @@ const lessons = [
   },
   {
     slug: "cartoon-roller-skate",
-    day: "001",
+    day: "002",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a cartoon roller skate",
@@ -75,7 +131,7 @@ const lessons = [
   },
   {
     slug: "cartoon-boombox",
-    day: "047",
+    day: "048",
     date: "Monday, July 13",
     isoDate: "2026-07-13",
     subject: "a cartoon boombox",
@@ -103,7 +159,7 @@ const lessons = [
   },
   {
     slug: "cartoon-superhero-mask",
-    day: "002",
+    day: "003",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a cartoon superhero mask",
@@ -131,7 +187,7 @@ const lessons = [
   },
   {
     slug: "comic-sun-with-sunglasses",
-    day: "003",
+    day: "004",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a comic sun with sunglasses",
@@ -159,7 +215,7 @@ const lessons = [
   },
   {
     slug: "cartoon-treasure-chest",
-    day: "046",
+    day: "047",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a cartoon treasure chest",
@@ -187,7 +243,7 @@ const lessons = [
   },
   {
     slug: "cartoon-surfboard",
-    day: "045",
+    day: "046",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -213,7 +269,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "004",
+    day: "005",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -239,7 +295,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "043",
+    day: "044",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -292,7 +348,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "044",
+    day: "045",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -345,7 +401,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "005",
+    day: "006",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -398,7 +454,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -451,7 +507,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "008",
+    day: "009",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -504,7 +560,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "041",
+    day: "042",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -557,7 +613,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "042",
+    day: "043",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -610,7 +666,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -663,7 +719,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "009",
+    day: "010",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -716,7 +772,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "040",
+    day: "041",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -769,7 +825,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "010",
+    day: "011",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -822,7 +878,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "039",
+    day: "040",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -876,7 +932,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "011",
+    day: "012",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -929,7 +985,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "012",
+    day: "013",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -982,7 +1038,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -1035,7 +1091,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "037",
+    day: "038",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -1088,7 +1144,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "038",
+    day: "039",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -1141,7 +1197,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1194,7 +1250,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "015",
+    day: "016",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1247,7 +1303,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "016",
+    day: "017",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1300,7 +1356,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "036",
+    day: "037",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1353,7 +1409,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "017",
+    day: "018",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1406,7 +1462,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "035",
+    day: "036",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1459,7 +1515,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "018",
+    day: "019",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1512,7 +1568,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "034",
+    day: "035",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1565,7 +1621,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "019",
+    day: "020",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1618,7 +1674,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1671,7 +1727,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "033",
+    day: "034",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1724,7 +1780,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "032",
+    day: "033",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1777,7 +1833,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "031",
+    day: "032",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1830,7 +1886,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "030",
+    day: "031",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1883,7 +1939,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "029",
+    day: "030",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1936,7 +1992,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "028",
+    day: "029",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -1989,7 +2045,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "027",
+    day: "028",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -2042,7 +2098,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "026",
+    day: "027",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -2095,7 +2151,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "023",
+    day: "024",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -2148,7 +2204,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "021",
+    day: "022",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2201,7 +2257,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "022",
+    day: "023",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2254,7 +2310,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "024",
+    day: "025",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2307,7 +2363,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "025",
+    day: "026",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

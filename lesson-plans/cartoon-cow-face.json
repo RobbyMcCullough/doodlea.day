@@ -1,0 +1,22 @@
+{
+  "slug": "cartoon-cow-face",
+  "finished": "assets/cartoon-cow-face-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel marker process contact sheet.", "notes": "One consistent front-facing cow head with a deliberately varied side-eye expression."},
+  "process_strategy": "The contact sheet builds one cow face from a broad head guide through the ears, horns, muzzle, expression, patches, thick outline, marker fills, and final clarity pass.",
+  "final_elements": [
+    {"name": "broad cow head guide", "introduced_by_step": 1, "description": "A wide tapered head with a vertical center guide."},
+    {"name": "ears, short horns, and oval muzzle", "introduced_by_step": 2, "description": "Wide ears, small horns, and a large lower muzzle."},
+    {"name": "half-lidded side-looking eyes, raised brow, nostrils, and crooked toothy grin", "introduced_by_step": 3, "description": "A visibly asymmetrical cheeky expression unlike dot eyes and a U-smile."},
+    {"name": "forehead tuft and cow patches", "introduced_by_step": 4, "description": "A small hair tuft and several irregular patches on the existing head."},
+    {"name": "black, pink, golden yellow, and teal marker color", "introduced_by_step": 5, "description": "Bold fills on the established patches, muzzle, horns, ears, and eyes."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/cartoon-cow-face-step-1.jpg", "step_name": "Block the cow head", "visible_job": "Places the broad tapered head and center guide.", "introduces": ["broad cow head guide"]},
+    {"step": 2, "asset": "assets/cartoon-cow-face-step-2.jpg", "step_name": "Add ears, horns, and muzzle", "visible_job": "Adds the wide ears, short horns, and oval muzzle to the guide.", "introduces": ["ears, short horns, and oval muzzle"], "requires_prior_elements": ["broad cow head guide"]},
+    {"step": 3, "asset": "assets/cartoon-cow-face-step-3.jpg", "step_name": "Aim the cheeky expression", "visible_job": "Adds half-lidded eyes looking sideways, one raised brow, nostrils, and a crooked toothy grin.", "introduces": ["half-lidded side-looking eyes, raised brow, nostrils, and crooked toothy grin"], "requires_prior_elements": ["broad cow head guide", "ears, short horns, and oval muzzle"]},
+    {"step": 4, "asset": "assets/cartoon-cow-face-step-4.jpg", "step_name": "Place tuft and patches", "visible_job": "Adds the forehead tuft and irregular cow patches on established shapes.", "introduces": ["forehead tuft and cow patches"], "requires_prior_elements": ["broad cow head guide", "ears, short horns, and oval muzzle", "half-lidded side-looking eyes, raised brow, nostrils, and crooked toothy grin"]},
+    {"step": 5, "asset": "assets/cartoon-cow-face-step-5.jpg", "step_name": "Ink and color the cow", "visible_job": "Thickens the established outlines and fills the existing patches and features with marker color.", "introduces": ["black, pink, golden yellow, and teal marker color"], "requires_prior_elements": ["broad cow head guide", "ears, short horns, and oval muzzle", "half-lidded side-looking eyes, raised brow, nostrils, and crooked toothy grin", "forehead tuft and cow patches"]}
+  ],
+  "final_step": {"step_name": "Milk the expression", "asset": "assets/cartoon-cow-face-finished-v1.jpg", "visible_job": "Only strengthens established contours, expression, patches, and marker fills.", "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small highlight gaps"]},
+  "rejection_checks": ["No ear, horn, muzzle, eye, brow, grin, tooth, tuft, patch, color, or highlight may first appear in the final image.", "The cow must retain one front-facing pose, scale, and expression across every frame.", "Reject a two-dot-eye and small U-smile face, glossy vector treatment, sticker border, badge frame, text, or bell prop."]
+}

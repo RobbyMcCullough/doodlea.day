@@ -30,7 +30,13 @@
     "cartoon-cactus-sticker": {
       "status": "published"
     },
+    "cartoon-claw-hammer": {
+      "status": "published"
+    },
     "cartoon-coconut-drink": {
+      "status": "published"
+    },
+    "cartoon-cow-face": {
       "status": "published"
     },
     "cartoon-french-fries": {
@@ -91,6 +97,10 @@
     },
     "comic-firecracker-doodle": {
       "status": "published"
+    },
+    "comic-megaphone": {
+      "status": "rejected-duplicate",
+      "note": "Rejected before image generation because the July 13 cartoon boombox made the audio-device category too recent; no megaphone art was generated."
     },
     "comic-sun-with-sunglasses": {
       "status": "published",

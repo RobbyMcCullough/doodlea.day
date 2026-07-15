@@ -1,0 +1,22 @@
+{
+  "slug": "cartoon-claw-hammer",
+  "finished": "assets/cartoon-claw-hammer-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel marker process contact sheet.", "notes": "One consistent face-free claw hammer on textured drawing paper."},
+  "process_strategy": "The contact sheet keeps one diagonal hammer while building the handle axis, head and handle silhouette, split claw, wrapped grip, comic impact marks, thick outline, marker fills, and final clarity pass.",
+  "final_elements": [
+    {"name": "diagonal handle axis and head box guide", "introduced_by_step": 1, "description": "A long diagonal handle line with a block guide for the metal head."},
+    {"name": "hammer face, neck, head, and handle silhouette", "introduced_by_step": 2, "description": "A chunky hammer head and straight wooden handle."},
+    {"name": "curved split claw and center notch", "introduced_by_step": 3, "description": "A clearly curved two-prong claw opposite the striking face."},
+    {"name": "wrapped grip bands and small comic impact marks", "introduced_by_step": 4, "description": "Several grip bands near the handle base and three small burst marks beside the head."},
+    {"name": "cyan, orange, magenta, and yellow marker color", "introduced_by_step": 5, "description": "Bold fills on the established head, handle, grip, and impact marks."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/cartoon-claw-hammer-step-1.jpg", "step_name": "Set the hammer angle", "visible_job": "Places the diagonal handle axis and head box guide.", "introduces": ["diagonal handle axis and head box guide"]},
+    {"step": 2, "asset": "assets/cartoon-claw-hammer-step-2.jpg", "step_name": "Build head and handle", "visible_job": "Adds the hammer face, neck, head, and handle silhouette around the guide.", "introduces": ["hammer face, neck, head, and handle silhouette"], "requires_prior_elements": ["diagonal handle axis and head box guide"]},
+    {"step": 3, "asset": "assets/cartoon-claw-hammer-step-3.jpg", "step_name": "Cut in the claw", "visible_job": "Adds the curved split claw and center notch to the existing head.", "introduces": ["curved split claw and center notch"], "requires_prior_elements": ["diagonal handle axis and head box guide", "hammer face, neck, head, and handle silhouette"]},
+    {"step": 4, "asset": "assets/cartoon-claw-hammer-step-4.jpg", "step_name": "Wrap the grip", "visible_job": "Adds grip bands and small comic impact marks around established shapes.", "introduces": ["wrapped grip bands and small comic impact marks"], "requires_prior_elements": ["hammer face, neck, head, and handle silhouette", "curved split claw and center notch"]},
+    {"step": 5, "asset": "assets/cartoon-claw-hammer-step-5.jpg", "step_name": "Ink and color the hammer", "visible_job": "Thickens all established contours and fills the existing parts with marker color.", "introduces": ["cyan, orange, magenta, and yellow marker color"], "requires_prior_elements": ["hammer face, neck, head, and handle silhouette", "curved split claw and center notch", "wrapped grip bands and small comic impact marks"]}
+  ],
+  "final_step": {"step_name": "Nail the finish", "asset": "assets/cartoon-claw-hammer-finished-v1.jpg", "visible_job": "Only strengthens established outlines, claw notch, grip bands, impact marks, and marker fills.", "allowed_changes": ["keeper outline thickening", "marker fill cleanup", "small highlight gaps"]},
+  "rejection_checks": ["No face, neck, claw, notch, grip band, impact mark, color, or highlight may first appear in the final image.", "The hammer must retain one diagonal pose, scale, and silhouette in every frame.", "No late panel may add a nail, board, hand, face, text, sticker border, badge frame, or vector-style gloss."]
+}

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon cow face</title>
+      <link>https://doodlea.day/tutorials/cartoon-cow-face.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-cow-face.html</guid>
+      <pubDate>Wed, 15 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon cow face with wide ears, short horns, a big pink muzzle, half-lidded side-looking eyes, one raised brow, a crooked one-tooth grin, irregular black patches, thick outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-cow-face-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon rocket ship</title>
       <link>https://doodlea.day/tutorials/cartoon-rocket-ship.html</link>
@@ -390,6 +398,14 @@
       <pubDate>Thu, 28 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon roller skate with a chunky high-top boot, separate sole, four quad wheels, simple trucks, eyelets, crisscross laces, thick black outlines, pink and teal marker fills, yellow and purple wheels, and a small ground shadow.</description>
       <media:content url="https://doodlea.day/assets/cartoon-roller-skate-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon claw hammer</title>
+      <link>https://doodlea.day/tutorials/cartoon-claw-hammer.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-claw-hammer.html</guid>
+      <pubDate>Wed, 27 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon claw hammer with a diagonal handle, chunky striking face, curved split claw, wrapped grip bands, small comic impact marks, thick black outlines, and bright cyan, orange, magenta, and yellow marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-claw-hammer-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

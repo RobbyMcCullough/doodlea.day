@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-10
+- Date: 2026-07-15
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-09 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-14 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,21 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-15 daily automation added current `cartoon-cow-face` (July 15 /
+  Day 050) and honest archive `cartoon-claw-hammer` (May 27 / Day 001). Both
+  use reviewed six-panel handmade raster marker contact sheets, cropped JPG
+  masters, WebP derivatives, social cards, and explicit process plans.
+  Finished-image ratings: cow face 8.9/10 for its immediate readability,
+  half-lidded side-eye/raised-brow/one-tooth expression, and lively marker
+  texture; claw hammer 8.8/10 for its strong diagonal silhouette, staged
+  claw/grip construction, bright fills, and face-free finish.
+- The initially locked `comic-megaphone` archive candidate was marked
+  `rejected-duplicate` before image generation because the July 13 boombox
+  made the audio-device category too recent; no megaphone art was generated.
+  July 15 readiness and Cove desktop/mobile QA passed for both published
+  lessons, including ledger, process, image, schema, link, privacy, day-order,
+  and diff checks; layouts rated 9/10 with no overflow or clipped headings.
+  The temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-14 publishing guidance now requires the 1Password SSH agent for
   every GitHub push; the exact export-plus-push routine lives in `AGENTS.md`
   and `DAILY-PUBLISHING.md` and should be used after QA/commit.
