@@ -8,6 +8,11 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
 1. Start with a process plan, not a finished image.
    - Choose one subject, one pose, one crop, and one scale.
    - List the final drawing's major visible elements before generating art.
+   - Make an occlusion map before assigning panels: note which regions remain
+     visible in the finish and which will be covered by a later element. Reserve
+     the footprint of any covering element early, and do not render finished
+     detail underneath it. Pale construction may be erased; detailed lines
+     should not be drawn only to disappear in a later frame.
    - For any frame that will darken, ink, fill, color, shade, clean, or clarify
      existing parts, list those parts in `requires_prior_elements`; they must
      first appear in an earlier frame.
@@ -162,6 +167,12 @@ Panel 5: {secondary_details_stage}
 Panel 6: {final_stage}
 {optional_extra_panels}
 
+Occlusion and line-economy contract: {name each final element that covers part
+of another form; state the footprint that must be reserved before drawing the
+surrounding structure; list the hidden detail that must never be rendered; and
+require every dark pre-final line to remain visible in the finished panel unless
+it is explicitly a pale erasable construction guide}.
+
 Constraints: every panel must be a plausible next human drawing step;
 construction lines must support the final drawing; each step must add visible
 information; the final panel must clearly result from prior panels; the subject
@@ -225,6 +236,9 @@ A generated process set passes only when all of these are true:
   shading, or small finishing marks.
 - No late-stage outline, fill, color, shading, cleanup, or clarification panel
   is the first appearance of the feature it modifies.
+- No panel spends finished linework on detail that a later element permanently
+  covers. Covering shapes have their footprints reserved early, and only the
+  surrounding structure that survives in the finish is rendered.
 - The sequence is usable without explanatory captions.
 - No embedded text, labels, arrows, fake UI, signatures, or watermarks appear.
 - The style matches Sketcha.day: warm paper, handmade sketch lines, clear

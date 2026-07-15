@@ -58,6 +58,12 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-15 mirrored Sketcha.day's new generic occlusion-and-line-economy
+  guardrail into `DAILY-PUBLISHING.md` and `PROCESS-IMAGE-WORKFLOW.md`. Future
+  marker contact-sheet prompts should reserve the footprint of an element that
+  will cover another form, omit finished detail beneath it, and require dark
+  pre-final lines to remain visible in the finished panel. No Doodlea lesson
+  data or artwork changed.
 - 2026-07-15 daily automation added current `cartoon-cow-face` (July 15 /
   Day 050) and honest archive `cartoon-claw-hammer` (May 27 / Day 001). Both
   use reviewed six-panel handmade raster marker contact sheets, cropped JPG

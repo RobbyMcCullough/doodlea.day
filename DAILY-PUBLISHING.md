@@ -8,6 +8,12 @@ The tutorial must convincingly produce the finished marker doodle. The final
 image should not add major shape, color, contour, lettering, props, or rendering
 that did not appear in a prior process frame.
 
+The sequence must also respect occlusion and drawing economy. Do not ask the
+reader to finish panels, seams, texture, character parts, or other detail that a
+later element immediately and permanently covers. Reserve the covering
+element's footprint in an early construction frame, then draw only the
+surrounding detail that remains visible in the finished image.
+
 Late-stage actions must work only on elements that are already present. A frame
 that thickens, inks, darkens, fills, colors, shades, cleans, or clarifies a
 shape may not be the first frame where that shape appears. For example, a pizza
