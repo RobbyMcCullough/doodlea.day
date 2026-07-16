@@ -59,6 +59,11 @@
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
+    "cartoon-rattlesnake": {
+      "status": "published",
+      "date": "2026-07-16",
+      "note": "Approved six-panel marker contact sheet was cropped and wired into the July 16 tutorial after process and image review."
+    },
     "cartoon-rocket-ship": {
       "status": "published"
     },
@@ -85,6 +90,11 @@
       "status": "published",
       "date": "2026-07-12",
       "note": "Reviewed six-panel marker chest process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
+    "cartoon-yo-yo-in-motion": {
+      "status": "published",
+      "date": "2026-07-16",
+      "note": "Approved six-panel marker contact sheet was cropped and wired into the honest May 26 archive tutorial after process and image review."
     },
     "cassette-tape-sticker": {
       "status": "published"

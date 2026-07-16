@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-rattlesnake",
+  "finished": "assets/cartoon-rattlesnake-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel marker process contact sheet.",
+    "notes": "One consistent coiled rattlesnake rises from two overlapping coils on warm paper. Its deliberately varied face uses one wide oval eye, one narrow squint, paired inward brows, slit pupils, and a forked tongue with no U-smile."
+  },
+  "process_strategy": "The contact sheet locks the two-coil footprint and rising S-curve first, develops the thick neck, head, tail, and rattle around those overlaps, adds belly bands, back diamonds, and a non-default alert expression, then inks and colors only established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "two-coil footprint and rising neck gesture",
+      "introduced_by_step": 1,
+      "description": "Two light overlapping ellipses form the grounded coils while a tall S-curve fixes the raised neck and head direction."
+    },
+    {
+      "name": "thick raised neck, rounded wedge head, visible coils, and tail",
+      "introduced_by_step": 2,
+      "description": "A chunky neck and broad cheeked head rise from two clearly overlapped body coils, ending in one short exposed tail."
+    },
+    {
+      "name": "segmented rattle and overlap breaks",
+      "introduced_by_step": 3,
+      "description": "Four stacked rattle segments attach to the established tail while clean line breaks show which coil passes in front."
+    },
+    {
+      "name": "mismatched alert eyes, inward brows, forked tongue, belly bands, and back diamonds",
+      "introduced_by_step": 4,
+      "description": "One wide oval eye and one narrow squint carry slit pupils beneath inward brows; a forked tongue replaces a smile, and simple band and diamond guides decorate existing body shapes."
+    },
+    {
+      "name": "thick black outline with orange, teal, yellow, and dark marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold black marker reinforces established contours while warm orange fills the body, pale yellow fills the belly and rattle, teal fills existing diamonds, and deep brown accents the pupils and pattern edges."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-rattlesnake-step-1.jpg",
+      "step_name": "Map the coils and rise",
+      "visible_job": "Places two light overlapping coil ellipses and one tall S-curve for the raised neck and head.",
+      "introduces": [
+        "two-coil footprint and rising neck gesture"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-rattlesnake-step-2.jpg",
+      "step_name": "Build the snake silhouette",
+      "visible_job": "Wraps a thick neck around the S-curve, adds the broad head, traces only visible coil sections, and sets the short tail.",
+      "introduces": [
+        "thick raised neck, rounded wedge head, visible coils, and tail"
+      ],
+      "requires_prior_elements": [
+        "two-coil footprint and rising neck gesture"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-rattlesnake-step-3.jpg",
+      "step_name": "Stack the rattle",
+      "visible_job": "Adds four simple rattle segments to the existing tail and clarifies the established front-over-back coil breaks.",
+      "introduces": [
+        "segmented rattle and overlap breaks"
+      ],
+      "requires_prior_elements": [
+        "thick raised neck, rounded wedge head, visible coils, and tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-rattlesnake-step-4.jpg",
+      "step_name": "Aim the alert expression",
+      "visible_job": "Adds mismatched alert eyes, inward brows, slit pupils, a forked tongue, belly bands, and large back diamonds on established shapes.",
+      "introduces": [
+        "mismatched alert eyes, inward brows, forked tongue, belly bands, and back diamonds"
+      ],
+      "requires_prior_elements": [
+        "thick raised neck, rounded wedge head, visible coils, and tail",
+        "segmented rattle and overlap breaks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-rattlesnake-step-5.jpg",
+      "step_name": "Ink and color the coils",
+      "visible_job": "Thickens established contours and fills the existing body, belly, rattle, eye, and diamond shapes with visible marker texture.",
+      "introduces": [
+        "thick black outline with orange, teal, yellow, and dark marker fills"
+      ],
+      "requires_prior_elements": [
+        "thick raised neck, rounded wedge head, visible coils, and tail",
+        "segmented rattle and overlap breaks",
+        "mismatched alert eyes, inward brows, forked tongue, belly bands, and back diamonds"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Rattle the finish",
+    "asset": "assets/cartoon-rattlesnake-finished-v1.jpg",
+    "visible_job": "Only strengthens established outlines, coil overlaps, expression, rattle segments, patterns, and marker fills.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No coil, head contour, tail, rattle segment, eye, brow, pupil, tongue, belly band, diamond, outline, or color area may first appear in the final panel.",
+    "The snake must retain one raised pose, coil overlap order, scale, and crop across every frame.",
+    "Hidden coil sections must remain omitted rather than being fully detailed and later covered.",
+    "Reject two matching dot eyes with a small U-smile; the approved expression requires visibly mismatched eyes, slit pupils, inward brows, and a forked tongue with no smile.",
+    "Reject glossy vector icon art, airbrushed poster rendering, sticker outlines, badge frames, text, labels, desert scenery, or extra animals."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "cartoon-yo-yo-in-motion",
+  "finished": "assets/cartoon-yo-yo-in-motion-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel marker process contact sheet.",
+    "notes": "One face-free yo-yo hangs at a slight three-quarter angle beneath a looping string. All body rings, string paths, panel shapes, motion marks, and color areas are established before the final panel."
+  },
+  "process_strategy": "The contact sheet fixes one two-disc yo-yo envelope and central axle, adds the looping string from that axle, develops simple inset rings and rim panels, introduces directional motion arcs, then inks and colors only established shapes before a final cleanup pass.",
+  "final_elements": [
+    {
+      "name": "two-disc yo-yo envelope and axle guide",
+      "introduced_by_step": 1,
+      "description": "Two light offset round discs form a chunky three-quarter yo-yo with a small centered axle gap."
+    },
+    {
+      "name": "rounded yo-yo silhouette and center groove",
+      "introduced_by_step": 2,
+      "description": "A bold readable toy silhouette with two softly rounded rims and a clear narrow groove between them."
+    },
+    {
+      "name": "looping string and top finger loop",
+      "introduced_by_step": 3,
+      "description": "One cord emerges from the established axle, sweeps upward in a loose S-shaped loop, and ends in a small open finger loop with no hand."
+    },
+    {
+      "name": "inset rings, alternating rim panels, and motion arcs",
+      "introduced_by_step": 4,
+      "description": "Simple nested rings and chunky alternating panels decorate the existing discs while three curved motion arcs reinforce the downward swing."
+    },
+    {
+      "name": "thick black outline with magenta, cyan, and yellow marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold marker reinforces the established toy and string, with saturated magenta and cyan rim panels, a yellow center, and visible handmade fill streaks."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-yo-yo-in-motion-step-1.jpg",
+      "step_name": "Block the yo-yo discs",
+      "visible_job": "Places two light offset round disc guides and one centered axle gap at a slight three-quarter angle.",
+      "introduces": [
+        "two-disc yo-yo envelope and axle guide"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-yo-yo-in-motion-step-2.jpg",
+      "step_name": "Shape the toy",
+      "visible_job": "Builds the rounded two-disc silhouette and clear center groove around the established guides.",
+      "introduces": [
+        "rounded yo-yo silhouette and center groove"
+      ],
+      "requires_prior_elements": [
+        "two-disc yo-yo envelope and axle guide"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-yo-yo-in-motion-step-3.jpg",
+      "step_name": "Loop the string",
+      "visible_job": "Runs one cord from the established axle into a loose upward S-curve and finishes with a small open finger loop.",
+      "introduces": [
+        "looping string and top finger loop"
+      ],
+      "requires_prior_elements": [
+        "rounded yo-yo silhouette and center groove"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-yo-yo-in-motion-step-4.jpg",
+      "step_name": "Add rings and motion",
+      "visible_job": "Adds inset rings and alternating rim panels to the existing discs, then places three curved motion arcs beside the existing swing path.",
+      "introduces": [
+        "inset rings, alternating rim panels, and motion arcs"
+      ],
+      "requires_prior_elements": [
+        "rounded yo-yo silhouette and center groove",
+        "looping string and top finger loop"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-yo-yo-in-motion-step-5.jpg",
+      "step_name": "Ink and color the spin",
+      "visible_job": "Thickens established contours and fills the existing rim panels and center with magenta, cyan, and yellow marker.",
+      "introduces": [
+        "thick black outline with magenta, cyan, and yellow marker fills"
+      ],
+      "requires_prior_elements": [
+        "rounded yo-yo silhouette and center groove",
+        "looping string and top finger loop",
+        "inset rings, alternating rim panels, and motion arcs"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Wind up the finish",
+    "asset": "assets/cartoon-yo-yo-in-motion-finished-v1.jpg",
+    "visible_job": "Only strengthens established outlines, string curves, rim panels, motion arcs, and marker fills.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established discs"
+    ]
+  },
+  "rejection_checks": [
+    "No disc, axle, center groove, string segment, finger loop, ring, rim panel, motion arc, outline, or color area may first appear in the final panel.",
+    "The yo-yo must retain one angle, disc spacing, string path, scale, and crop across all six panels.",
+    "The string must connect visibly to the established center axle and remain a single continuous cord.",
+    "Reject a face, hand, lettering, sticker border, badge frame, glossy vector icon treatment, fake 3D render, or extra toys."
+  ]
+}

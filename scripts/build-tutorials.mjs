@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-rattlesnake",
+    day: "052",
+    date: "Thursday, July 16",
+    isoDate: "2026-07-16",
+    subject: "a cartoon rattlesnake",
+    headlineSubject: "a cartoon<br>rattlesnake",
+    shortSubject: "a rattlesnake",
+    lessonTitle: "Let's draw a cartoon rattlesnake",
+    description: "Learn how to draw a cartoon rattlesnake with two overlapping coils, a raised S-curved neck, four rattle segments, mismatched alert eyes, slit pupils, a forked tongue, bold patterns, and bright marker fills.",
+    intro: "Start with two grounded coils and one rising S-curve, then build the rattle, alert expression, belly bands, and back diamonds before adding bright marker color. The overlap order makes this a useful challenge: you have to decide which body section sits in front and leave the hidden parts alone.",
+    time: 20,
+    difficulty: "Challenge",
+    accent: "#f28c28",
+    finished: "cartoon-rattlesnake-finished-v1.jpg",
+    finishedAlt: "Handmade marker drawing of a coiled orange cartoon rattlesnake with a raised S-curved neck, four yellow rattle segments, teal diamond markings, pale yellow belly bands, one wide eye, one squinting eye, slit pupils, inward brows, a forked tongue, and thick black outlines",
+    materials: ["Drawing paper", "Black marker", "Orange, yellow, teal, and brown markers"],
+    materialNote: "Use black for the confident outlines, orange for the body, yellow for the belly and rattle, teal for the established diamonds, and brown for the slit pupils and tongue.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Map the coils and rise", text: "Draw two light overlapping coil ellipses, then lift one tall S-curve from their center into a simple head-wedge guide.", tip: "Ghost the S-curve twice before touching down. Keep the two coil ellipses broad and low so the raised neck has room to feel tall." },
+      { name: "Build the snake silhouette", text: "Wrap a thick neck around the S-curve, shape the broad rounded head, trace only the visible coil sections, and set a short tail at the back.", tip: "Choose the front coil once and break the lines behind it. Do not finish body sections that the front loop permanently hides." },
+      { name: "Stack the rattle", text: "Attach four rounded rattle segments to the established tail and clarify the same front-over-back coil breaks.", tip: "Draw the largest rattle segment nearest the tail and taper the stack toward the tip. Compare each open gap before darkening the outlines." },
+      { name: "Aim the alert expression", text: "Add one wide oval eye, one narrow squint, inward brows, slit pupils, and a forked tongue with no smile, then place belly bands and large diamonds on the existing body.", tip: "Set the unequal eye shapes first, then aim both slit pupils forward. The mismatched eyes, angled brows, and tongue carry the attitude without a familiar U-smile." },
+      { name: "Ink and color the coils", text: "Trace the established contours in thick black marker, then fill the body orange, belly and rattle yellow, diamonds teal, and eye accents brown.", tip: "Let each color dry before reinforcing a nearby black edge. Pull marker strokes along the coils so the visible streaks turn with the body." },
+      { name: "Rattle the finish", text: "Strengthen the existing outlines, coil overlaps, expression, rattle segments, patterns, and orange, yellow, teal, and brown fills.", tip: "Check that the forked tongue stays open, the front coil reads first, and exactly four rattle segments remain visible. Stop before adding sand, rocks, cactus, words, or a border.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-yo-yo-in-motion",
+    day: "001",
+    date: "Tuesday, May 26",
+    isoDate: "2026-05-26",
+    subject: "a cartoon yo-yo in motion",
+    headlineSubject: "a cartoon yo-yo<br>in motion",
+    shortSubject: "a yo-yo in motion",
+    lessonTitle: "Let's draw a cartoon yo-yo in motion",
+    description: "Learn how to draw a cartoon yo-yo in motion with two offset discs, a center groove and axle, one looping string, a finger loop, inset rings, three motion arcs, thick black outlines, and bright marker fills.",
+    intro: "Build the chunky two-disc toy first, then connect one continuous looping string before you add the rim panels, motion arcs, and bright color. This honest archive lesson is a fresh toy-drawing prompt, not a claim about past attention, comments, or popularity.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#ef3f8f",
+    finished: "cartoon-yo-yo-in-motion-finished-v1.jpg",
+    finishedAlt: "Handmade face-free marker drawing of a three-quarter cartoon yo-yo with two offset discs, a narrow center groove and axle, one black looping string with an open finger loop, three curved motion arcs, alternating magenta and cyan rim panels, a yellow center ring, and thick outlines",
+    materials: ["Drawing paper", "Black marker", "Magenta, cyan, and yellow markers"],
+    materialNote: "Use black for the toy, string, and motion contours, magenta and cyan for the alternating rim panels, and yellow for the established center ring.",
+    tipLabel: "Doodle tip",
+    steps: [
+      { name: "Block the yo-yo discs", text: "Draw two light offset round disc guides at a slight three-quarter angle and mark one small centered axle gap between them.", tip: "Ghost both round shapes before touching down. Compare the overlap between the discs rather than trying to make either circle mechanically perfect." },
+      { name: "Shape the toy", text: "Build the rounded two-disc silhouette and clear center groove around the guides, keeping the small axle visible.", tip: "Pull each outer arc in one relaxed pass, then rotate the page for the second disc. Keep the center groove narrow enough to read as a gap, not a third disc." },
+      { name: "Loop the string", text: "Run one continuous cord from the established axle into a loose upward S-curve and finish it with a small open finger loop.", tip: "Ghost the full string path before drawing it. Follow the cord from the axle to the loop with your eye once to catch accidental breaks or tangles." },
+      { name: "Add rings and motion", text: "Place inset rings and chunky alternating panels around the existing rims, then add exactly three curved motion arcs beside the lower swing path.", tip: "Space the rim panels by comparing their negative spaces. Let all three motion arcs echo the same curve so they point in one clear direction." },
+      { name: "Ink and color the spin", text: "Trace the established toy, string, rings, panels, and motion arcs in thick black, then fill the rim panels magenta and cyan and the center ring yellow.", tip: "Let the colors dry before reinforcing nearby black edges. Pull the marker around each rim so the visible streaks follow the toy's round form." },
+      { name: "Wind up the finish", text: "Strengthen the existing outlines, string curves, inset rings, three motion arcs, and magenta, cyan, and yellow fills.", tip: "Check that the string still connects cleanly to the axle and the drawing remains face-free. Stop before adding a hand, words, a second toy, or a border.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-cow-face",
-    day: "050",
+    day: "051",
     date: "Wednesday, July 15",
     isoDate: "2026-07-15",
     subject: "a cartoon cow face",
@@ -47,7 +103,7 @@ const lessons = [
   },
   {
     slug: "cartoon-claw-hammer",
-    day: "001",
+    day: "002",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a cartoon claw hammer",
@@ -75,7 +131,7 @@ const lessons = [
   },
   {
     slug: "cartoon-rocket-ship",
-    day: "049",
+    day: "050",
     date: "Tuesday, July 14",
     isoDate: "2026-07-14",
     subject: "a cartoon rocket ship",
@@ -103,7 +159,7 @@ const lessons = [
   },
   {
     slug: "cartoon-roller-skate",
-    day: "002",
+    day: "003",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a cartoon roller skate",
@@ -131,7 +187,7 @@ const lessons = [
   },
   {
     slug: "cartoon-boombox",
-    day: "048",
+    day: "049",
     date: "Monday, July 13",
     isoDate: "2026-07-13",
     subject: "a cartoon boombox",
@@ -159,7 +215,7 @@ const lessons = [
   },
   {
     slug: "cartoon-superhero-mask",
-    day: "003",
+    day: "004",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a cartoon superhero mask",
@@ -187,7 +243,7 @@ const lessons = [
   },
   {
     slug: "comic-sun-with-sunglasses",
-    day: "004",
+    day: "005",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a comic sun with sunglasses",
@@ -215,7 +271,7 @@ const lessons = [
   },
   {
     slug: "cartoon-treasure-chest",
-    day: "047",
+    day: "048",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a cartoon treasure chest",
@@ -243,7 +299,7 @@ const lessons = [
   },
   {
     slug: "cartoon-surfboard",
-    day: "046",
+    day: "047",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -269,7 +325,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "005",
+    day: "006",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -295,7 +351,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "044",
+    day: "045",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -348,7 +404,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "045",
+    day: "046",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -401,7 +457,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "006",
+    day: "007",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -454,7 +510,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "008",
+    day: "009",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -507,7 +563,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "009",
+    day: "010",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -560,7 +616,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "042",
+    day: "043",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -613,7 +669,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "043",
+    day: "044",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -666,7 +722,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "007",
+    day: "008",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -719,7 +775,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "010",
+    day: "011",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -772,7 +828,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "041",
+    day: "042",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -825,7 +881,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "011",
+    day: "012",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -878,7 +934,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "040",
+    day: "041",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -932,7 +988,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "012",
+    day: "013",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -985,7 +1041,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "013",
+    day: "014",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -1038,7 +1094,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "014",
+    day: "015",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -1091,7 +1147,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "038",
+    day: "039",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -1144,7 +1200,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "039",
+    day: "040",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -1197,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "015",
+    day: "016",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1250,7 +1306,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "016",
+    day: "017",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1303,7 +1359,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "017",
+    day: "018",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1356,7 +1412,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "037",
+    day: "038",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1409,7 +1465,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "018",
+    day: "019",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1462,7 +1518,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "036",
+    day: "037",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1515,7 +1571,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "019",
+    day: "020",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1568,7 +1624,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "035",
+    day: "036",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1621,7 +1677,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "020",
+    day: "021",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -1674,7 +1730,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "021",
+    day: "022",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -1727,7 +1783,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "034",
+    day: "035",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -1780,7 +1836,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "033",
+    day: "034",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -1833,7 +1889,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "032",
+    day: "033",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -1886,7 +1942,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "031",
+    day: "032",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -1939,7 +1995,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "030",
+    day: "031",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -1992,7 +2048,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "029",
+    day: "030",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -2045,7 +2101,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "028",
+    day: "029",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -2098,7 +2154,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "027",
+    day: "028",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -2151,7 +2207,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "024",
+    day: "025",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -2204,7 +2260,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "022",
+    day: "023",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2257,7 +2313,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "023",
+    day: "024",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2310,7 +2366,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "025",
+    day: "026",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2363,7 +2419,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "026",
+    day: "027",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

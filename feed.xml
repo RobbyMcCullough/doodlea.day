@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon rattlesnake</title>
+      <link>https://doodlea.day/tutorials/cartoon-rattlesnake.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-rattlesnake.html</guid>
+      <pubDate>Thu, 16 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon rattlesnake with two overlapping coils, a raised S-curved neck, four rattle segments, mismatched alert eyes, slit pupils, a forked tongue, bold patterns, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-rattlesnake-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon cow face</title>
       <link>https://doodlea.day/tutorials/cartoon-cow-face.html</link>
@@ -406,6 +414,14 @@
       <pubDate>Wed, 27 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon claw hammer with a diagonal handle, chunky striking face, curved split claw, wrapped grip bands, small comic impact marks, thick black outlines, and bright cyan, orange, magenta, and yellow marker fills.</description>
       <media:content url="https://doodlea.day/assets/cartoon-claw-hammer-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon yo-yo in motion</title>
+      <link>https://doodlea.day/tutorials/cartoon-yo-yo-in-motion.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-yo-yo-in-motion.html</guid>
+      <pubDate>Tue, 26 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon yo-yo in motion with two offset discs, a center groove and axle, one looping string, a finger loop, inset rings, three motion arcs, thick black outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-yo-yo-in-motion-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

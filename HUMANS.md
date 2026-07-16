@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-15
+- Date: 2026-07-16
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-14 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-15 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,22 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-16 daily automation added current `cartoon-rattlesnake` (July 16 /
+  Day 052) and honest archive `cartoon-yo-yo-in-motion` (May 26 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  Finished-image ratings: rattlesnake 9.2/10 for its immediate coiled
+  silhouette, bold marker texture, varied mischievous expression, and clean
+  rattle/overlap progression; yo-yo 9.0/10 for its continuous string path,
+  vivid marker fills, readable motion arcs, stable axle construction, and
+  face-free finish.
+- July 16 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove's certificate was invalid in the rendered
+  browser, so desktop/mobile QA used the documented localhost fallback; the
+  homepage, library, and both tutorials had no broken images, horizontal
+  overflow, clipped headings, or invalid JSON-LD. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-15 mirrored Sketcha.day's new generic occlusion-and-line-economy
   guardrail into `DAILY-PUBLISHING.md` and `PROCESS-IMAGE-WORKFLOW.md`. Future
   marker contact-sheet prompts should reserve the footprint of an element that
