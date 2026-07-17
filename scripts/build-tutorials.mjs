@@ -60,16 +60,16 @@ const lessons = [
     difficulty: "Intermediate",
     accent: "#7437c9",
     finished: "comic-tornado-swirl-finished-v1.jpg",
-    finishedAlt: "Handmade face-free marker drawing of a tapered comic tornado with four wrapped purple, cyan, and blue wind bands, two tan dust puffs, six flying debris strokes, thick black outlines, and white gaps between the bands",
-    materials: ["Drawing paper", "Black marker", "Purple, cyan, blue, and tan markers"],
-    materialNote: "Use black for the confident funnel, band, dust, and debris contours; alternate purple, cyan, and blue across the wind bands, then add tan to the two established dust puffs.",
+    finishedAlt: "Handmade face-free marker drawing of a tapered comic tornado with three purple wind bands and one cyan wind band, two tan dust puffs, six flying debris strokes, thick black outlines, and white gaps between the bands",
+    materials: ["Drawing paper", "Black marker", "Purple, cyan, and tan markers"],
+    materialNote: "Use black for the confident funnel, band, dust, and debris contours; color the bands purple, cyan, purple, and purple from top to bottom, then add tan to the two established dust puffs.",
     tipLabel: "Doodle tip",
     steps: [
       { name: "Spin the funnel guide", text: "Draw one light tapered corkscrew gesture that opens wide at the top and narrows into a small oval ground footprint.", tip: "Ghost the whole spiral before touching down. Let each turn shrink gradually so the funnel feels continuous instead of stacked from separate rings." },
       { name: "Shape the tornado cone", text: "Wrap two energetic outer curves around the guide to build a wide curled top, narrow base, and grounded tip.", tip: "Draw each side from top to bottom in one relaxed pass. Compare the white space on both sides of the spiral so the cone stays balanced but still handmade." },
       { name: "Wrap the wind bands", text: "Add four curved wind bands across the existing cone, breaking the rear lines wherever the front arcs overlap.", tip: "Place the band crossings before darkening their edges. Clean line breaks make the bands turn around the funnel without drawing hidden sections underneath them." },
       { name: "Kick up dust and debris", text: "Add two rounded dust puffs around the established base and six short debris strokes beside the existing bands.", tip: "Keep the dust low and aim the six little debris marks along the tornado's spin. Count them once before moving on so the final frames stay consistent." },
-      { name: "Ink and color the spin", text: "Thicken the established funnel, bands, dust, and debris, then fill the wind bands purple, cyan, and blue and the dust puffs tan.", tip: "Leave white gaps between the colored bands and pull your marker strokes around the funnel. The visible streaks should reinforce the circular motion." },
+      { name: "Ink and color the spin", text: "Thicken the established funnel, bands, dust, and debris, then fill the bands purple, cyan, purple, and purple from top to bottom and the dust puffs tan.", tip: "Leave white gaps between the colored bands and pull your marker strokes around the funnel. The visible streaks should reinforce the circular motion." },
       { name: "Whirl the finish", text: "Strengthen the existing outlines, overlap breaks, marker fills, dust edges, and six debris strokes.", tip: "Check for four wrapped bands, two dust puffs, and six debris marks, then stop. A face, words, landscape, border, or extra weather symbol would only compete with the motion.", image: true }
     ]
   },

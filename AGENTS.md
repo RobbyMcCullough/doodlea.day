@@ -90,9 +90,12 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
 It fails when unresolved generated art exists anywhere in `drafts/`
 (see `drafts/LEDGER.json`), when the slug is already published, or when the
 daily slot is taken, and it also fails if the run-level daily publishing lock is
-missing or owned by another process. Every draft folder must carry a ledger
-status; resolve pending art (promote it, record a rejection, or get owner
-direction) before generating a different subject. `scripts/check-drafts-ledger.py`
+missing or owned by another process. An explicit published-lesson correction is
+the sole exception: pass the matching current or backfill date and exact
+`--allow-existing-*-slug` flag so the duplicate-slot guard can verify that same
+slug before preflight locks it. Every draft folder must carry a ledger status;
+resolve pending art (promote it, record a rejection, or get owner direction)
+before generating a different subject. `scripts/check-drafts-ledger.py`
 validates the ledger and runs inside the readiness check.
 
 Then create the planned marker-based doodle lessons, rebuild, run readiness

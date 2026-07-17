@@ -29,9 +29,9 @@
       "description": "Two rounded dust puffs cluster around the base while six small angled debris marks orbit the existing wind bands."
     },
     {
-      "name": "thick black outline with purple, cyan, blue, and tan marker fills",
+      "name": "thick black outline with purple, cyan, and tan marker fills",
       "introduced_by_step": 5,
-      "description": "Bold black marker reinforces the existing funnel and band shapes; purple, cyan, and blue alternate across the wind bands while tan fills the dust puffs."
+      "description": "Bold black marker reinforces the existing funnel and band shapes; purple, cyan, purple, and purple fill the four wind bands from top to bottom while tan fills the dust puffs."
     }
   ],
   "frames": [
@@ -86,9 +86,9 @@
       "step": 5,
       "asset": "assets/comic-tornado-swirl-step-5.jpg",
       "step_name": "Ink and color the spin",
-      "visible_job": "Thickens the established funnel, bands, dust, and debris, then fills those existing shapes with streaky purple, cyan, blue, and tan marker.",
+      "visible_job": "Thickens the established funnel, bands, dust, and debris, then fills those existing shapes with streaky purple, cyan, and tan marker.",
       "introduces": [
-        "thick black outline with purple, cyan, blue, and tan marker fills"
+        "thick black outline with purple, cyan, and tan marker fills"
       ],
       "requires_prior_elements": [
         "wide-top narrow-base tornado silhouette",

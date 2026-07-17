@@ -170,8 +170,12 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    The gate fails when unresolved generated art exists in `drafts/`
    (`drafts/LEDGER.json`), when the slug is already published, or when the
    daily slot is taken, or when the run-level daily publishing lock is missing
-   or owned by another process. It records the slug lock in the ledger. A normal
-   run generates art only for the locked current slug and locked backfill slug.
+   or owned by another process. For an explicit correction to a published
+   lesson, pass the matching current or backfill date and exact
+   `--allow-existing-*-slug` flag; the gate must verify that same occupied slot
+   before it can lock the correction slug. It records the slug lock in the
+   ledger. A normal run generates art only for the locked current slug and
+   locked backfill slug.
    Do not create speculative contact sheets, backup subjects, or alternate
    directions. If generated art ends up unused, resolve its ledger entry
    before any new generation: promote it into a validated tutorial, set a

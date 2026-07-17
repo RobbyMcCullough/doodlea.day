@@ -4,7 +4,8 @@
 Enforces the generation contract from DAILY-PUBLISHING.md:
 1. No unresolved (pending) generated art may exist anywhere in drafts/.
 2. The slug must not already be published, unless the owner explicitly directs
-   a correction and the occupied current slot matches that exact slug.
+   a correction and the occupied current or backfill slot matches that exact
+   slug.
 3. The daily slot must be free (when --current-date is given).
 4. The caller must own the run-level daily publishing lock when --current-date
    is given.
@@ -64,12 +65,20 @@ def main() -> int:
         help="Run the duplicate-slot guard for this date (YYYY-MM-DD) too.",
     )
     parser.add_argument(
+        "--backfill-date",
+        help="Validate this archive date too (YYYY-MM-DD).",
+    )
+    parser.add_argument(
         "--lock-token",
         help="Token from scripts/daily-publish-lock.py acquire. Required with --current-date.",
     )
     parser.add_argument(
         "--allow-existing-current-slug",
         help="Allow the current date only when it already contains this exact validated slug.",
+    )
+    parser.add_argument(
+        "--allow-existing-backfill-slug",
+        help="Allow the backfill date only when it already contains this exact validated slug.",
     )
     args = parser.parse_args()
     slug = args.slug
@@ -79,14 +88,19 @@ def main() -> int:
         save(ledger)
 
     # 1. Slug must not already be published unless this is an exact owner-
-    # directed current-slot correction. The slot guard below still verifies
-    # that the supplied date is occupied by this slug and no other.
+    # directed current- or backfill-slot correction. The slot guard below still
+    # verifies that the supplied date is occupied by this slug and no other.
     tutorial_exists = (TUTORIALS / f"{slug}.html").exists()
-    correction_mode = bool(
-        tutorial_exists
-        and args.current_date
-        and args.allow_existing_current_slug == slug
+    correction_scope = (
+        "current-slot"
+        if args.current_date and args.allow_existing_current_slug == slug
+        else "backfill-slot"
+        if args.current_date
+        and args.backfill_date
+        and args.allow_existing_backfill_slug == slug
+        else None
     )
+    correction_mode = bool(tutorial_exists and correction_scope)
     if tutorial_exists and not correction_mode:
         print(
             f"FAIL tutorials/{slug}.html already exists. Corrections must be "
@@ -141,9 +155,15 @@ def main() -> int:
             "--current-date",
             args.current_date,
         ]
+        if args.backfill_date:
+            slot_command.extend(["--backfill-date", args.backfill_date])
         if args.allow_existing_current_slug:
             slot_command.extend(
                 ["--allow-existing-current-slug", args.allow_existing_current_slug]
+            )
+        if args.allow_existing_backfill_slug:
+            slot_command.extend(
+                ["--allow-existing-backfill-slug", args.allow_existing_backfill_slug]
             )
         slot = subprocess.run(slot_command, cwd=ROOT)
         if slot.returncode != 0:
@@ -167,7 +187,7 @@ def main() -> int:
             "status": "pending",
             "date": date.today().isoformat(),
             "note": (
-                "Published slug locked for an explicit current-slot correction; "
+                f"Published slug locked for an explicit {correction_scope} correction; "
                 "resolve before any new subject."
                 if correction_mode
                 else "Slug locked for image generation by preflight; resolve before any new subject."
