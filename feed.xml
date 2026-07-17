@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon thumbs-up hand</title>
+      <link>https://doodlea.day/tutorials/cartoon-thumbs-up-hand.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-thumbs-up-hand.html</guid>
+      <pubDate>Fri, 17 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon thumbs-up hand with one raised thumb, four folded fingers, clear overlap lines, a simple cuff, comic emphasis rays, thick black outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-thumbs-up-hand-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon rattlesnake</title>
       <link>https://doodlea.day/tutorials/cartoon-rattlesnake.html</link>
@@ -422,6 +430,14 @@
       <pubDate>Tue, 26 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon yo-yo in motion with two offset discs, a center groove and axle, one looping string, a finger loop, inset rings, three motion arcs, thick black outlines, and bright marker fills.</description>
       <media:content url="https://doodlea.day/assets/cartoon-yo-yo-in-motion-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a comic tornado swirl</title>
+      <link>https://doodlea.day/tutorials/comic-tornado-swirl.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-tornado-swirl.html</guid>
+      <pubDate>Mon, 25 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic tornado swirl with a tapered funnel, four wrapped wind bands, clear front-and-back overlaps, two dust puffs, six debris strokes, thick black outlines, and saturated marker fills.</description>
+      <media:content url="https://doodlea.day/assets/comic-tornado-swirl-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

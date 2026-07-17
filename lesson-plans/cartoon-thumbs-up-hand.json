@@ -1,0 +1,115 @@
+{
+  "slug": "cartoon-thumbs-up-hand",
+  "finished": "assets/cartoon-thumbs-up-hand-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel marker process contact sheet.",
+    "notes": "One consistent upright cartoon thumbs-up hand on warm paper, drawn as the hand itself with no sticker border, badge frame, face, lettering, or extra prop."
+  },
+  "process_strategy": "The contact sheet locks one palm, wrist, raised thumb, and four light folded-finger guides first, wraps the unified hand silhouette around them, clarifies only the visible front-over-back divisions, adds the cuff and small emphasis rays, then inks and colors established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "upright wrist, palm, thumb axis, and four folded-finger guides",
+      "introduced_by_step": 1,
+      "description": "Light construction blocks fix the vertical wrist, rounded palm, tall thumb direction, and four stacked rounded guides inside one compact folded-finger envelope."
+    },
+    {
+      "name": "raised-thumb hand silhouette with visible folded fingers",
+      "introduced_by_step": 2,
+      "description": "A chunky outer contour joins the wrist, palm, raised thumb, thumb web, and the visible outside edges of four folded fingers."
+    },
+    {
+      "name": "clarified finger divisions, thumbnail, knuckle folds, and palm crease",
+      "introduced_by_step": 3,
+      "description": "Dark short lines clarify the established finger guides, define one thumbnail, and add restrained crease marks."
+    },
+    {
+      "name": "shirt cuff and comic emphasis rays",
+      "introduced_by_step": 4,
+      "description": "A simple cuff wraps the established wrist while three short rays sit beside the raised thumb."
+    },
+    {
+      "name": "thick black outline with golden-yellow, orange, and teal marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold black marker reinforces the existing hand, finger, cuff, and ray shapes; golden yellow fills the hand, orange accents the shadow edges, and teal fills the cuff."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-thumbs-up-hand-step-1.jpg",
+      "step_name": "Block the hand gesture",
+      "visible_job": "Places the light wrist, palm, raised-thumb axis, and four stacked rounded finger guides inside one compact envelope at a fixed scale.",
+      "introduces": [
+        "upright wrist, palm, thumb axis, and four folded-finger guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-thumbs-up-hand-step-2.jpg",
+      "step_name": "Shape the thumbs-up silhouette",
+      "visible_job": "Wraps one chunky contour around the guides, drawing only the visible palm, thumb, wrist, and outside folded-finger edges.",
+      "introduces": [
+        "raised-thumb hand silhouette with visible folded fingers"
+      ],
+      "requires_prior_elements": [
+        "upright wrist, palm, thumb axis, and four folded-finger guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-thumbs-up-hand-step-3.jpg",
+      "step_name": "Separate the fingers",
+      "visible_job": "Clarifies the four light finger divisions, then adds the thumbnail, two knuckle folds, and one palm crease inside the established silhouette.",
+      "introduces": [
+        "clarified finger divisions, thumbnail, knuckle folds, and palm crease"
+      ],
+      "requires_prior_elements": [
+        "raised-thumb hand silhouette with visible folded fingers"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-thumbs-up-hand-step-4.jpg",
+      "step_name": "Add cuff and emphasis",
+      "visible_job": "Wraps a simple cuff around the established wrist and adds three short comic rays beside the existing thumb.",
+      "introduces": [
+        "shirt cuff and comic emphasis rays"
+      ],
+      "requires_prior_elements": [
+        "raised-thumb hand silhouette with visible folded fingers"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-thumbs-up-hand-step-5.jpg",
+      "step_name": "Ink and color the gesture",
+      "visible_job": "Thickens every established contour and fills the existing hand, cuff, and ray shapes with visible marker texture.",
+      "introduces": [
+        "thick black outline with golden-yellow, orange, and teal marker fills"
+      ],
+      "requires_prior_elements": [
+        "raised-thumb hand silhouette with visible folded fingers",
+        "clarified finger divisions, thumbnail, knuckle folds, and palm crease",
+        "shirt cuff and comic emphasis rays"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Give the gesture a boost",
+    "asset": "assets/cartoon-thumbs-up-hand-finished-v1.jpg",
+    "visible_job": "Only strengthens established outlines, crease marks, marker fills, cuff edges, and emphasis rays.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No thumb, finger contour, nail, crease, cuff, ray, outline, or color area may first appear in the final panel.",
+    "The hand must retain one upright pose, palm angle, finger overlap order, scale, and crop across every frame.",
+    "Do not finish palm detail beneath the folded-finger mass; only visible crease marks may be drawn.",
+    "Reject extra fingers, missing fingers, broken joints, face features, text, labels, sticker outlines, badge frames, or extra props.",
+    "Reject glossy vector icon art, airbrushed rendering, smooth digital gradients, or mechanically perfect symmetry."
+  ]
+}

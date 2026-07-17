@@ -83,6 +83,11 @@
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
+    "cartoon-thumbs-up-hand": {
+      "status": "published",
+      "date": "2026-07-17",
+      "note": "Published from the reviewed July 17 six-panel marker contact sheet."
+    },
     "cartoon-toothbrush": {
       "status": "published"
     },
@@ -116,6 +121,11 @@
       "status": "published",
       "date": "2026-07-12",
       "note": "Reviewed six-panel sunglasses-sun process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
+    "comic-tornado-swirl": {
+      "status": "published",
+      "date": "2026-07-17",
+      "note": "Reviewed six-panel tornado process promoted as the May 25 archive lesson after crop, continuity, face-free art, process-plan, delivery-image, and page checks."
     },
     "firework-burst-doodle": {
       "status": "published"

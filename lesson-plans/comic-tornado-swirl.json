@@ -1,0 +1,117 @@
+{
+  "slug": "comic-tornado-swirl",
+  "finished": "assets/comic-tornado-swirl-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel marker process contact sheet.",
+    "notes": "One consistent face-free cartoon tornado on warm paper, drawn as the swirling weather effect itself with no sticker border, badge frame, text, landscape, or character."
+  },
+  "process_strategy": "The contact sheet fixes one tapered spiral gesture and ground footprint, builds a simple funnel silhouette, wraps front-and-back wind bands around that same cone, adds dust puffs and tiny debris marks, then inks and colors only established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "tapered spiral gesture and ground footprint",
+      "introduced_by_step": 1,
+      "description": "A light vertical corkscrew axis widens toward the top and ends in a small oval dust footprint."
+    },
+    {
+      "name": "wide-top narrow-base tornado silhouette",
+      "introduced_by_step": 2,
+      "description": "Two energetic outer curves wrap the guide into one readable funnel with a curled top lip and narrow grounded tip."
+    },
+    {
+      "name": "four wrapped wind bands with front-and-back breaks",
+      "introduced_by_step": 3,
+      "description": "Four chunky curved bands cross the established funnel, using line breaks to show which arcs pass in front and which turn behind."
+    },
+    {
+      "name": "two dust puffs and six tiny debris strokes",
+      "introduced_by_step": 4,
+      "description": "Two rounded dust puffs cluster around the base while six small angled debris marks orbit the existing wind bands."
+    },
+    {
+      "name": "thick black outline with purple, cyan, blue, and tan marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold black marker reinforces the existing funnel and band shapes; purple, cyan, and blue alternate across the wind bands while tan fills the dust puffs."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-tornado-swirl-step-1.jpg",
+      "step_name": "Spin the funnel guide",
+      "visible_job": "Places one light tapered corkscrew gesture and a small oval ground footprint at a fixed scale.",
+      "introduces": [
+        "tapered spiral gesture and ground footprint"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-tornado-swirl-step-2.jpg",
+      "step_name": "Shape the tornado cone",
+      "visible_job": "Wraps two energetic outer curves around the guide to create the wide top, curled lip, narrow base, and grounded tip.",
+      "introduces": [
+        "wide-top narrow-base tornado silhouette"
+      ],
+      "requires_prior_elements": [
+        "tapered spiral gesture and ground footprint"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-tornado-swirl-step-3.jpg",
+      "step_name": "Wrap the wind bands",
+      "visible_job": "Adds four curved wind bands across the existing cone and breaks their rear lines where the front arcs overlap.",
+      "introduces": [
+        "four wrapped wind bands with front-and-back breaks"
+      ],
+      "requires_prior_elements": [
+        "wide-top narrow-base tornado silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-tornado-swirl-step-4.jpg",
+      "step_name": "Kick up dust and debris",
+      "visible_job": "Adds two rounded dust puffs around the established base and six tiny debris strokes beside the existing bands.",
+      "introduces": [
+        "two dust puffs and six tiny debris strokes"
+      ],
+      "requires_prior_elements": [
+        "tapered spiral gesture and ground footprint",
+        "wide-top narrow-base tornado silhouette",
+        "four wrapped wind bands with front-and-back breaks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-tornado-swirl-step-5.jpg",
+      "step_name": "Ink and color the spin",
+      "visible_job": "Thickens the established funnel, bands, dust, and debris, then fills those existing shapes with streaky purple, cyan, blue, and tan marker.",
+      "introduces": [
+        "thick black outline with purple, cyan, blue, and tan marker fills"
+      ],
+      "requires_prior_elements": [
+        "wide-top narrow-base tornado silhouette",
+        "four wrapped wind bands with front-and-back breaks",
+        "two dust puffs and six tiny debris strokes"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Whirl the finish",
+    "asset": "assets/comic-tornado-swirl-finished-v1.jpg",
+    "visible_job": "Only strengthens established outlines, overlap breaks, marker fills, dust edges, and debris strokes.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established bands"
+    ]
+  },
+  "rejection_checks": [
+    "No funnel edge, wind band, overlap break, dust puff, debris stroke, outline, or color area may first appear in the final panel.",
+    "The tornado must retain one upright pose, taper, band order, scale, and crop across every frame.",
+    "Rear band lines must remain broken behind front arcs rather than being fully detailed and later covered.",
+    "Reject a face, eyes, mouth, text, labels, houses, vehicles, landscape scenery, sticker outlines, badge frames, or extra weather symbols.",
+    "Reject glossy vector icon art, smooth digital gradients, airbrushed clouds, photorealistic destruction, or mechanically perfect bands."
+  ]
+}

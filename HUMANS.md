@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-16
+- Date: 2026-07-17
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-15 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-16 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,21 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-17 daily automation added current `cartoon-thumbs-up-hand` (July 17 /
+  Day 054) and honest archive `comic-tornado-swirl` (May 25 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  Finished-image ratings: thumbs-up 9.3/10 for its exact five-digit gesture,
+  clear overlaps, saturated fills, and face-free finish; tornado 9.1/10 for
+  its readable wrapped bands, energetic marker texture, and persistent dust
+  and debris progression.
+- July 17 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Direct Cove desktop/mobile QA passed for the
+  homepage, library, and both tutorials with no horizontal overflow or clipped
+  headings; deliberate scrolling loaded all 11 images on each new lesson with
+  zero failures. The temporary two-tutorial-per-site backfill cadence remains
+  active.
 - 2026-07-16 daily automation added current `cartoon-rattlesnake` (July 16 /
   Day 052) and honest archive `cartoon-yo-yo-in-motion` (May 26 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped
