@@ -58,6 +58,17 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-17 owner-directed `cartoon-thumbs-up-hand` continuity correction:
+  restored the fourth folded finger in step 2 and carried the thumbnail from
+  step 4 through the ink/color frame in step 5. The original contact sheet is
+  retained privately as `cartoon-thumbs-up-hand-contact-sheet-v1.png`; the
+  canonical sheet and only the two affected public step masters/WebPs were
+  replaced, leaving the approved finished art unchanged. Full readiness and
+  direct Cove desktop/mobile QA passed.
+- Fixed `preflight-image-generation.py` so its advertised exact-slug
+  `--allow-existing-current-slug` path now works for an owner-directed
+  published-lesson correction only when the current date, existing slug, and
+  held daily lock all match. Mirrored the same guard fix to Sketcha.day.
 - 2026-07-17 daily automation added current `cartoon-thumbs-up-hand` (July 17 /
   Day 054) and honest archive `comic-tornado-swirl` (May 25 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped

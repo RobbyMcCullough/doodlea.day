@@ -3,7 +3,8 @@
 
 Enforces the generation contract from DAILY-PUBLISHING.md:
 1. No unresolved (pending) generated art may exist anywhere in drafts/.
-2. The slug must not already be published.
+2. The slug must not already be published, unless the owner explicitly directs
+   a correction and the occupied current slot matches that exact slug.
 3. The daily slot must be free (when --current-date is given).
 4. The caller must own the run-level daily publishing lock when --current-date
    is given.
@@ -77,8 +78,16 @@ def main() -> int:
     if heal_published(ledger):
         save(ledger)
 
-    # 1. Slug must not already be published.
-    if (TUTORIALS / f"{slug}.html").exists():
+    # 1. Slug must not already be published unless this is an exact owner-
+    # directed current-slot correction. The slot guard below still verifies
+    # that the supplied date is occupied by this slug and no other.
+    tutorial_exists = (TUTORIALS / f"{slug}.html").exists()
+    correction_mode = bool(
+        tutorial_exists
+        and args.current_date
+        and args.allow_existing_current_slug == slug
+    )
+    if tutorial_exists and not correction_mode:
         print(
             f"FAIL tutorials/{slug}.html already exists. Corrections must be "
             "explicitly owner-directed; do not regenerate published art."
@@ -153,11 +162,16 @@ def main() -> int:
 
     # 6. Lock the slug.
     entry = ledger["entries"].get(slug)
-    if entry is None or entry.get("status") == "pending":
+    if correction_mode or entry is None or entry.get("status") == "pending":
         ledger["entries"][slug] = {
             "status": "pending",
             "date": date.today().isoformat(),
-            "note": "Slug locked for image generation by preflight; resolve before any new subject.",
+            "note": (
+                "Published slug locked for an explicit current-slot correction; "
+                "resolve before any new subject."
+                if correction_mode
+                else "Slug locked for image generation by preflight; resolve before any new subject."
+            ),
         }
         save(ledger)
         print(f"\nOK locked slug {slug!r} as pending in drafts/LEDGER.json.")
