@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-cowboy-hat",
+  "finished": "assets/cartoon-cowboy-hat-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free cowboy hat on warm paper, drawn as the hat itself with no head, person, lettering, sticker outline, badge frame, or extra western prop."
+  },
+  "process_strategy": "The sequence locks one tilted brim sweep and crown axis, wraps a single hat silhouette around them, clarifies the crown dents and brim overlap, adds an established band and buckle, then inks and colors every existing shape before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "tilted brim sweep, crown axis, and crown envelope",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one wide rising brim, a centered crown axis, and a tall tapered crown envelope in a lively three-quarter view."
+    },
+    {
+      "name": "cowboy-hat silhouette with curled brim and tapered crown",
+      "introduced_by_step": 2,
+      "description": "A chunky contour shapes the front brim, two upturned sides, and tall crown without changing the original tilt."
+    },
+    {
+      "name": "center dent, two side pinches, brim overlap, and underside edge",
+      "introduced_by_step": 3,
+      "description": "Curved internal lines clarify the crown's center dent, paired side pinches, and the visible underside of the near brim."
+    },
+    {
+      "name": "hatband, square buckle, and short stitch accents",
+      "introduced_by_step": 4,
+      "description": "A simple band wraps the existing crown base with one square buckle and a few short handmade stitch marks."
+    },
+    {
+      "name": "thick black outline with golden-orange, raspberry, and teal marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold black marker reinforces every established contour; golden orange fills the crown, raspberry deepens the brim underside, and teal fills the band."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-cowboy-hat-step-1.jpg",
+      "step_name": "Sweep the hat gesture",
+      "visible_job": "Places a light tilted brim sweep, centered crown axis, and tall tapered crown envelope at one fixed scale.",
+      "introduces": [
+        "tilted brim sweep, crown axis, and crown envelope"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-cowboy-hat-step-2.jpg",
+      "step_name": "Shape the western silhouette",
+      "visible_job": "Wraps one bold readable contour around the guides to form the wide brim, curled sides, and tapered crown.",
+      "introduces": [
+        "cowboy-hat silhouette with curled brim and tapered crown"
+      ],
+      "requires_prior_elements": [
+        "tilted brim sweep, crown axis, and crown envelope"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-cowboy-hat-step-3.jpg",
+      "step_name": "Pinch the crown and brim",
+      "visible_job": "Adds the center dent, two side pinches, front brim overlap, and visible underside edge inside the established hat.",
+      "introduces": [
+        "center dent, two side pinches, brim overlap, and underside edge"
+      ],
+      "requires_prior_elements": [
+        "cowboy-hat silhouette with curled brim and tapered crown"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-cowboy-hat-step-4.jpg",
+      "step_name": "Wrap the hatband",
+      "visible_job": "Adds a simple hatband, one square buckle, and short stitch accents around the established crown base.",
+      "introduces": [
+        "hatband, square buckle, and short stitch accents"
+      ],
+      "requires_prior_elements": [
+        "cowboy-hat silhouette with curled brim and tapered crown",
+        "center dent, two side pinches, brim overlap, and underside edge"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-cowboy-hat-step-5.jpg",
+      "step_name": "Ink and color the hat",
+      "visible_job": "Thickens every established contour and fills the existing crown, brim underside, band, and buckle with visible marker texture.",
+      "introduces": [
+        "thick black outline with golden-orange, raspberry, and teal marker fills"
+      ],
+      "requires_prior_elements": [
+        "cowboy-hat silhouette with curled brim and tapered crown",
+        "center dent, two side pinches, brim overlap, and underside edge",
+        "hatband, square buckle, and short stitch accents"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Tip the hat to the finish",
+    "asset": "assets/cartoon-cowboy-hat-finished-v1.jpg",
+    "visible_job": "Only strengthens the established brim, crown dents, band, buckle, stitch marks, marker fills, and small highlight gaps.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No brim section, crown contour, dent, pinch, band, buckle, stitch, outline, or color area may first appear in the final panel.",
+    "The hat must retain one three-quarter tilt, crown height, brim curl, scale, and crop across every frame.",
+    "Do not draw finished crown detail beneath the opaque hatband; only visible structure should survive around it.",
+    "Reject faces, heads, people, text, labels, cattle, boots, ropes, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, airbrushed rendering, smooth digital gradients, or mechanically perfect symmetry."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "bowling-ball-and-pins",
+  "finished": "assets/bowling-ball-and-pins-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free bowling ball rolling toward three pins on warm paper, with no lettering, logos, lane signage, sticker outline, badge frame, or crowd scene."
+  },
+  "process_strategy": "The sequence locks one large rolling ball and three pin axes, wraps their silhouettes while preserving the overlap order, adds finger holes and neck bands, introduces motion arcs and a compact impact burst behind the pins, then inks and colors every existing shape before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "rolling ball circle, three pin axes, and overlap envelopes",
+      "introduced_by_step": 1,
+      "description": "Light construction places one ball and three staggered pin guides, keeping a small paper gap beside the ball while reserving the rear-pin overlaps behind the front-center pin."
+    },
+    {
+      "name": "bowling-ball silhouette and three bowling-pin silhouettes",
+      "introduced_by_step": 2,
+      "description": "A round ball and three bottle-shaped pins become readable while the rear pin edges stop cleanly behind the front forms."
+    },
+    {
+      "name": "three finger holes, pin neck bands, and pin separation lines",
+      "introduced_by_step": 3,
+      "description": "Three angled finger holes establish the rolling ball orientation while paired neck bands and overlap breaks separate the pins."
+    },
+    {
+      "name": "curved motion arcs, small impact burst, and lane baseline",
+      "introduced_by_step": 4,
+      "description": "Two curved motion arcs trail the ball, a compact burst sits behind the pins, and one shallow baseline grounds the action."
+    },
+    {
+      "name": "thick black outline with purple, cyan, raspberry, yellow, and white marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold black marker reinforces every established shape; purple fills the ball, cyan accents the holes, raspberry colors the pin bands, and yellow fills the impact burst while pin bodies keep warm paper-white texture."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/bowling-ball-and-pins-step-1.jpg",
+      "step_name": "Set the strike path",
+      "visible_job": "Places a light rolling-ball circle, three staggered pin axes, and overlap envelopes at one fixed scale.",
+      "introduces": [
+        "rolling ball circle, three pin axes, and overlap envelopes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/bowling-ball-and-pins-step-2.jpg",
+      "step_name": "Shape the ball and pins",
+      "visible_job": "Wraps the guides with one round ball and three readable pin silhouettes, preserving the planned front-to-back overlaps.",
+      "introduces": [
+        "bowling-ball silhouette and three bowling-pin silhouettes"
+      ],
+      "requires_prior_elements": [
+        "rolling ball circle, three pin axes, and overlap envelopes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/bowling-ball-and-pins-step-3.jpg",
+      "step_name": "Add holes and pin bands",
+      "visible_job": "Adds three angled finger holes, paired pin neck bands, and short separation lines to the established forms.",
+      "introduces": [
+        "three finger holes, pin neck bands, and pin separation lines"
+      ],
+      "requires_prior_elements": [
+        "bowling-ball silhouette and three bowling-pin silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/bowling-ball-and-pins-step-4.jpg",
+      "step_name": "Show the strike motion",
+      "visible_job": "Adds two curved motion arcs, a compact impact burst behind the pins, and one shallow lane baseline without changing the equipment silhouettes.",
+      "introduces": [
+        "curved motion arcs, small impact burst, and lane baseline"
+      ],
+      "requires_prior_elements": [
+        "bowling-ball silhouette and three bowling-pin silhouettes",
+        "three finger holes, pin neck bands, and pin separation lines"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/bowling-ball-and-pins-step-5.jpg",
+      "step_name": "Ink and color the strike",
+      "visible_job": "Thickens every established contour and fills the ball, holes, pin bands, impact burst, and lane accents with visible marker texture.",
+      "introduces": [
+        "thick black outline with purple, cyan, raspberry, yellow, and white marker fills"
+      ],
+      "requires_prior_elements": [
+        "bowling-ball silhouette and three bowling-pin silhouettes",
+        "three finger holes, pin neck bands, and pin separation lines",
+        "curved motion arcs, small impact burst, and lane baseline"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Roll in the final strike",
+    "asset": "assets/bowling-ball-and-pins-finished-v1.jpg",
+    "visible_job": "Only strengthens the established ball, pin overlaps, finger holes, neck bands, motion arcs, impact burst, baseline, marker fills, and highlight gaps.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No ball, pin, finger hole, neck band, separation line, motion arc, impact burst, baseline, outline, or color area may first appear in the final panel.",
+    "The ball and exactly three pins must retain one overlap order, scale, crop, and action angle across every frame.",
+    "Do not finish rear-pin edges hidden behind the front-center pin; keep all three heads, necks, outer sides, and bases clearly countable.",
+    "Reject faces, text, logos, scores, extra pins, bowling shoes, crowds, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, airbrushed poster rendering, smooth digital gradients, or mechanically perfect symmetry."
+  ]
+}

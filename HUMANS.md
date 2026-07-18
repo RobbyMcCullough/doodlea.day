@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-17
+- Date: 2026-07-18
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-16 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-17 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,23 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-18 daily automation added current `cartoon-cowboy-hat` (July 18 /
+  Day 056) and honest archive `bowling-ball-and-pins` (May 24 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans. The
+  rejected two-pin bowling sheet remains private for auditability.
+  Finished-image ratings: cowboy hat 9.5/10 for its bold silhouette, excellent
+  brim/crown continuity, vivid marker texture, and clean face-free composition;
+  bowling 9.4/10 for its exact three-pin continuity, crisp action layout, bold
+  fill texture, and simple readable color roles.
+- July 18 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove's certificate was invalid in the rendered
+  browser, so desktop/mobile QA used the documented localhost fallback; the
+  homepage, library, and both tutorials had no broken images, horizontal
+  overflow, missing alt text, clipped layouts, invalid JSON-LD, or public lab
+  links. Deliberate mobile scrolling loaded all 57 library images. The
+  temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-17 owner-directed `comic-tornado-swirl` continuity correction:
   replaced only the finished frame so the white tornado body and the four
   established wind bands retain step 5's purple, cyan, purple, and purple

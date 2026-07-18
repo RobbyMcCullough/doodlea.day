@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cowboy hat</title>
+      <link>https://doodlea.day/tutorials/cartoon-cowboy-hat.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-cowboy-hat.html</guid>
+      <pubDate>Sat, 18 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cowboy hat with a tilted wide brim, curled sides, tapered crown, center dent, side pinches, visible underside, simple hatband and buckle, thick black marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-cowboy-hat-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon thumbs-up hand</title>
       <link>https://doodlea.day/tutorials/cartoon-thumbs-up-hand.html</link>
@@ -438,6 +446,14 @@
       <pubDate>Mon, 25 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a comic tornado swirl with a tapered funnel, four wrapped wind bands, clear front-and-back overlaps, two dust puffs, six debris strokes, thick black outlines, and saturated marker fills.</description>
       <media:content url="https://doodlea.day/assets/comic-tornado-swirl-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a bowling ball and pins</title>
+      <link>https://doodlea.day/tutorials/bowling-ball-and-pins.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/bowling-ball-and-pins.html</guid>
+      <pubDate>Sun, 24 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a bowling ball and three pins with a clear triangular cluster, three finger holes, paired neck bands, motion arcs, a compact impact burst, thick black marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/bowling-ball-and-pins-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
