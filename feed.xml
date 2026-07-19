@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an ice-cream truck</title>
+      <link>https://doodlea.day/tutorials/cartoon-ice-cream-truck.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-ice-cream-truck.html</guid>
+      <pubDate>Sun, 19 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon ice-cream truck with a boxy body, sloped cab, two wheels, open serving window, striped awning, shelf, cone symbol, motion marks, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-ice-cream-truck-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cowboy hat</title>
       <link>https://doodlea.day/tutorials/cartoon-cowboy-hat.html</link>
@@ -454,6 +462,14 @@
       <pubDate>Sun, 24 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a bowling ball and three pins with a clear triangular cluster, three finger holes, paired neck bands, motion arcs, a compact impact burst, thick black marker outlines, and bright handmade color.</description>
       <media:content url="https://doodlea.day/assets/bowling-ball-and-pins-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw an angel halo with wings</title>
+      <link>https://doodlea.day/tutorials/angel-halo-with-wings.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/angel-halo-with-wings.html</guid>
+      <pubDate>Sat, 23 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an angel halo with wings using a tilted oval ring, two balanced wing shapes, three feather layers per wing, sparkle bursts, motion marks, thick black outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/angel-halo-with-wings-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

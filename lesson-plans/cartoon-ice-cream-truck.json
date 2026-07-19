@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-ice-cream-truck",
+  "finished": "assets/cartoon-ice-cream-truck-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free ice-cream truck in a simple three-quarter side view on warm paper, with no words, prices, logos, people, brand mascots, sticker outline, badge frame, or street scene."
+  },
+  "process_strategy": "The sequence locks one boxy truck, cab angle, wheel centers, and serving-window footprint, wraps the vehicle silhouette, adds the cab and service features without drawing hidden siding, introduces a small cone symbol and motion accents, then inks and colors every established shape before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "truck box, cab wedge, two wheel circles, serving-window reserve, and ground axis",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes a compact three-quarter truck, two aligned wheels, the cab angle, and a large blank service-window footprint in the cargo side."
+    },
+    {
+      "name": "ice-cream-truck silhouette with cab, cargo body, wheel arches, two tires, and bumpers",
+      "introduced_by_step": 2,
+      "description": "A chunky outer contour turns the guides into a readable small truck while keeping the two wheels aligned."
+    },
+    {
+      "name": "windshield, side window, headlight, serving window, striped awning, and serving shelf",
+      "introduced_by_step": 3,
+      "description": "The cab glazing, light, large open service window, awning, and shelf establish the truck's function without lettering."
+    },
+    {
+      "name": "small cone symbol, door seam and handle, hubcaps, body stripes, motion arcs, and road shadow",
+      "introduced_by_step": 4,
+      "description": "A simple no-text cone symbol and a few vehicle details, stripes, motion arcs, and a shallow road shadow add playful specificity."
+    },
+    {
+      "name": "thick black outline with turquoise, raspberry, yellow, orange, and pale blue marker fills",
+      "introduced_by_step": 5,
+      "description": "Bold marker reinforces all established forms while bright fills separate the truck body, awning, wheels, cone symbol, windows, and motion accents."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-ice-cream-truck-step-1.jpg",
+      "step_name": "Park the truck guides",
+      "visible_job": "Places the boxy cargo body, cab wedge, two wheel circles, serving-window reserve, and ground axis at one fixed scale.",
+      "introduces": [
+        "truck box, cab wedge, two wheel circles, serving-window reserve, and ground axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-ice-cream-truck-step-2.jpg",
+      "step_name": "Shape the rolling silhouette",
+      "visible_job": "Wraps the guides with the cab, cargo body, wheel arches, two tires, and simple front and rear bumpers.",
+      "introduces": [
+        "ice-cream-truck silhouette with cab, cargo body, wheel arches, two tires, and bumpers"
+      ],
+      "requires_prior_elements": [
+        "truck box, cab wedge, two wheel circles, serving-window reserve, and ground axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-ice-cream-truck-step-3.jpg",
+      "step_name": "Open the serving side",
+      "visible_job": "Adds the windshield, side window, headlight, large serving window, striped awning, and shelf inside the reserved footprints.",
+      "introduces": [
+        "windshield, side window, headlight, serving window, striped awning, and serving shelf"
+      ],
+      "requires_prior_elements": [
+        "truck box, cab wedge, two wheel circles, serving-window reserve, and ground axis",
+        "ice-cream-truck silhouette with cab, cargo body, wheel arches, two tires, and bumpers"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-ice-cream-truck-step-4.jpg",
+      "step_name": "Add the playful truck details",
+      "visible_job": "Adds a small no-text cone symbol, door seam and handle, hubcaps, body stripes, two motion arcs, and a shallow road shadow.",
+      "introduces": [
+        "small cone symbol, door seam and handle, hubcaps, body stripes, motion arcs, and road shadow"
+      ],
+      "requires_prior_elements": [
+        "ice-cream-truck silhouette with cab, cargo body, wheel arches, two tires, and bumpers",
+        "windshield, side window, headlight, serving window, striped awning, and serving shelf"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-ice-cream-truck-step-5.jpg",
+      "step_name": "Ink and color the ice-cream truck",
+      "visible_job": "Thickens every established contour and fills the truck, awning, windows, cone symbol, wheels, stripes, and motion accents with visible marker texture.",
+      "introduces": [
+        "thick black outline with turquoise, raspberry, yellow, orange, and pale blue marker fills"
+      ],
+      "requires_prior_elements": [
+        "ice-cream-truck silhouette with cab, cargo body, wheel arches, two tires, and bumpers",
+        "windshield, side window, headlight, serving window, striped awning, and serving shelf",
+        "small cone symbol, door seam and handle, hubcaps, body stripes, motion arcs, and road shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Serve up the final truck",
+    "asset": "assets/cartoon-ice-cream-truck-finished-v1.jpg",
+    "visible_job": "Only strengthens the established truck contours, service features, wheels, symbol, stripes, motion arcs, marker fills, highlight gaps, and road shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established glass, metal, and painted shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No body plane, cab, wheel, bumper, window, awning, shelf, headlight, cone symbol, door detail, stripe, motion arc, color area, or shadow may first appear in the final panel.",
+    "The truck must retain one three-quarter side view, wheel spacing, service-window placement, scale, and crop across every frame.",
+    "Reserve the service-window footprint from step one; do not finish hidden siding or stripes beneath the open window and awning.",
+    "Reject text, prices, logos, brand characters, faces, people, extra vehicles, street scenes, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, airbrushed poster rendering, smooth digital gradients, or mechanically perfect geometry."
+  ]
+}

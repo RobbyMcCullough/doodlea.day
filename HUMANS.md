@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-18
+- Date: 2026-07-19
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-17 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-18 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,29 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-19 daily automation added current `cartoon-ice-cream-truck`
+  (July 19 / Day 058) and honest archive `angel-halo-with-wings` (May 23 /
+  Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. Finished-image ratings: truck 9.5/10 for its bold face-free vehicle
+  silhouette, reserved service-window logic, excellent wheel/detail continuity,
+  and lively marker fill; halo 9.3/10 for its instant symbol readability, exact
+  three-feather/three-sparkle continuity, handmade marker energy, and attainable
+  composition.
+- July 19 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove served the build but its certificate was
+  expired in the rendered browser, so desktop/mobile QA used the documented
+  localhost fallback; the homepage, library, and both tutorials had no broken
+  loaded images, horizontal overflow, missing alt text, invalid JSON-LD, or
+  public lab links. The temporary two-tutorial-per-site backfill cadence remains
+  active.
+- July 19 is committed locally and `main` is one commit ahead of `origin/main`.
+  The required 1Password socket listed the GitHub key, but the push stopped at
+  `sign_and_send_pubkey: ... communication with agent failed`. Do not create
+  another July 19 pair: unlock/authorize 1Password and push the existing commit
+  through the required socket. The shared daily lock was released after the
+  stop condition.
 - 2026-07-18 daily automation added current `cartoon-cowboy-hat` (July 18 /
   Day 056) and honest archive `bowling-ball-and-pins` (May 24 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped

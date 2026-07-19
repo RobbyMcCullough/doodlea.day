@@ -1,0 +1,116 @@
+{
+  "slug": "angel-halo-with-wings",
+  "finished": "assets/angel-halo-with-wings-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free angel halo with a matching pair of small wings on warm paper, drawn as the symbol itself with no head, person, text, religious figure, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "The sequence locks one tilted halo ellipse and two wing axes, wraps the halo ring and wing silhouettes, adds all feather layers and the halo interior, introduces a few sparkle accents, then inks and colors every established shape before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "tilted halo ellipse, inner ellipse guide, two wing axes, and wing envelopes",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one floating oval halo with a consistent inner opening and two balanced outward-sweeping wing shapes."
+    },
+    {
+      "name": "thick halo ring and paired rounded wing silhouettes",
+      "introduced_by_step": 2,
+      "description": "A chunky ring and two readable wings follow the original guides without becoming a badge or enclosing border."
+    },
+    {
+      "name": "three feather layers on each wing and clarified inner halo opening",
+      "introduced_by_step": 3,
+      "description": "Three broad feather tiers on each wing and a clean inner ellipse establish the full symbol structure."
+    },
+    {
+      "name": "three small sparkle bursts, short motion ticks, and soft floating shadow",
+      "introduced_by_step": 4,
+      "description": "Three compact sparkles, a few short lift marks, and one shallow shadow add energy without enclosing the symbol."
+    },
+    {
+      "name": "thick black outline with golden-yellow, pale blue, lavender, and raspberry marker accents",
+      "introduced_by_step": 5,
+      "description": "Bold marker reinforces all established shapes while warm yellow colors the halo and cool marker accents shade the wings, sparkles, and shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/angel-halo-with-wings-step-1.jpg",
+      "step_name": "Float the halo guides",
+      "visible_job": "Places one tilted outer halo ellipse, its inner ellipse guide, two wing axes, and matching wing envelopes at one fixed scale.",
+      "introduces": [
+        "tilted halo ellipse, inner ellipse guide, two wing axes, and wing envelopes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/angel-halo-with-wings-step-2.jpg",
+      "step_name": "Shape the halo and wings",
+      "visible_job": "Wraps the guides with one thick halo ring and two rounded outward-sweeping wing silhouettes.",
+      "introduces": [
+        "thick halo ring and paired rounded wing silhouettes"
+      ],
+      "requires_prior_elements": [
+        "tilted halo ellipse, inner ellipse guide, two wing axes, and wing envelopes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/angel-halo-with-wings-step-3.jpg",
+      "step_name": "Layer the wing feathers",
+      "visible_job": "Adds three broad feather layers to each established wing and clarifies the existing inner halo opening.",
+      "introduces": [
+        "three feather layers on each wing and clarified inner halo opening"
+      ],
+      "requires_prior_elements": [
+        "thick halo ring and paired rounded wing silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/angel-halo-with-wings-step-4.jpg",
+      "step_name": "Add the floating sparkle",
+      "visible_job": "Adds three small sparkle bursts, a few short motion ticks, and a soft floating shadow around the established halo and wings.",
+      "introduces": [
+        "three small sparkle bursts, short motion ticks, and soft floating shadow"
+      ],
+      "requires_prior_elements": [
+        "thick halo ring and paired rounded wing silhouettes",
+        "three feather layers on each wing and clarified inner halo opening"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/angel-halo-with-wings-step-5.jpg",
+      "step_name": "Ink and color the angel symbol",
+      "visible_job": "Thickens every established contour and fills the halo, wing shadows, sparkles, motion ticks, and floating shadow with visible marker texture.",
+      "introduces": [
+        "thick black outline with golden-yellow, pale blue, lavender, and raspberry marker accents"
+      ],
+      "requires_prior_elements": [
+        "thick halo ring and paired rounded wing silhouettes",
+        "three feather layers on each wing and clarified inner halo opening",
+        "three small sparkle bursts, short motion ticks, and soft floating shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the halo glow",
+    "asset": "assets/angel-halo-with-wings-finished-v1.jpg",
+    "visible_job": "Only strengthens the established halo, feather layers, sparkles, motion ticks, marker fills, highlight gaps, and floating shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established halo and feather shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No halo contour, inner opening, wing, feather layer, sparkle, motion tick, color area, or shadow may first appear in the final panel.",
+    "The halo and wings must retain one tilt, spacing, feather count, scale, and crop across every frame.",
+    "Both wings must remain clearly paired but handmade rather than mechanically mirrored.",
+    "Reject heads, faces, people, religious figures, text, clouds around the symbol, enclosing outlines, sticker edges, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, airbrushed gradients, smooth digital symmetry, or polished poster rendering."
+  ]
+}

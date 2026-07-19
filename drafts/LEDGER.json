@@ -1,6 +1,11 @@
 {
   "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
   "entries": {
+    "angel-halo-with-wings": {
+      "status": "published",
+      "date": "2026-07-19",
+      "note": "Reviewed six-panel halo-and-wings process promoted after crop, feather-count, frame-delta, delivery-image, and visual checks."
+    },
     "beach-bucket-doodle": {
       "status": "published"
     },
@@ -47,6 +52,11 @@
     },
     "cartoon-french-fries": {
       "status": "published"
+    },
+    "cartoon-ice-cream-truck": {
+      "status": "published",
+      "date": "2026-07-19",
+      "note": "Reviewed six-panel ice-cream-truck process promoted after crop, service-window continuity, frame-delta, delivery-image, and visual checks."
     },
     "cartoon-magnifying-glass-doodle": {
       "status": "published"
