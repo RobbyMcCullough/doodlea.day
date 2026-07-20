@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-jellyfish",
+  "finished": "assets/cartoon-jellyfish-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free jellyfish floating upright on warm paper, with no eyeballs, smile, teeth, tongue, ocean scene, fish, coral, text, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "The sequence locks one rounded bell, scalloped skirt line, exactly five tentacle paths, and two bubble positions; wraps a clear jellyfish silhouette around the guides; thickens the tentacles and adds an inner bell band and spots; clarifies the two bubbles and adds highlight arcs; then inks and colors every established form before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "rounded bell guide, center axis, scalloped skirt line, five tentacle paths, and two bubble positions",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one upright jellyfish with a broad dome, wavy lower edge, five flowing tentacle routes, and two small bubble reserves."
+    },
+    {
+      "name": "jellyfish silhouette with rounded bell, five scallops, and exactly five flowing tentacles",
+      "introduced_by_step": 2,
+      "description": "A bold outer contour turns the guides into a readable face-free jellyfish while keeping each tentacle distinct."
+    },
+    {
+      "name": "inner bell band, three oval spots, tentacle thickness, and overlap breaks",
+      "introduced_by_step": 3,
+      "description": "A wavy inner band, exactly three simple spots, and clarified tentacle edges add structure without a character face."
+    },
+    {
+      "name": "bubble highlight dots and curved bell and tentacle highlight gaps",
+      "introduced_by_step": 4,
+      "description": "Small highlight dots inside the two established bubbles and curved paper-white highlights on the bell and tentacles add a floating rhythm while leaving the silhouette open."
+    },
+    {
+      "name": "thick black outline with raspberry, turquoise, violet, yellow, and pale blue marker fills",
+      "introduced_by_step": 5,
+      "description": "Visible marker texture separates the bell, inner band, five tentacles, spots, bubbles, and highlights without smooth digital gradients."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-jellyfish-step-1.jpg",
+      "step_name": "Float the jellyfish guides",
+      "visible_job": "Places the rounded bell, center axis, scalloped skirt line, exactly five tentacle paths, and two bubble positions at one fixed scale.",
+      "introduces": [
+        "rounded bell guide, center axis, scalloped skirt line, five tentacle paths, and two bubble positions"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-jellyfish-step-2.jpg",
+      "step_name": "Shape the floating silhouette",
+      "visible_job": "Wraps the guides with the rounded bell, five scallops, and exactly five flowing tentacles while preserving the same upright pose.",
+      "introduces": [
+        "jellyfish silhouette with rounded bell, five scallops, and exactly five flowing tentacles"
+      ],
+      "requires_prior_elements": [
+        "rounded bell guide, center axis, scalloped skirt line, five tentacle paths, and two bubble positions"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-jellyfish-step-3.jpg",
+      "step_name": "Build the bell pattern",
+      "visible_job": "Adds the wavy inner bell band, exactly three oval spots, tentacle thickness, and clean overlap breaks to the established silhouette.",
+      "introduces": [
+        "inner bell band, three oval spots, tentacle thickness, and overlap breaks"
+      ],
+      "requires_prior_elements": [
+        "jellyfish silhouette with rounded bell, five scallops, and exactly five flowing tentacles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-jellyfish-step-4.jpg",
+      "step_name": "Add bubbles and highlights",
+      "visible_job": "Clarifies the two established bubbles with small highlight dots and adds curved highlight gaps across the completed bell and tentacles.",
+      "introduces": [
+        "bubble highlight dots and curved bell and tentacle highlight gaps"
+      ],
+      "requires_prior_elements": [
+        "jellyfish silhouette with rounded bell, five scallops, and exactly five flowing tentacles",
+        "inner bell band, three oval spots, tentacle thickness, and overlap breaks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-jellyfish-step-5.jpg",
+      "step_name": "Ink and color the jellyfish",
+      "visible_job": "Thickens every established contour and fills the bell raspberry and turquoise, the tentacles violet and yellow, the spots turquoise, and the two bubbles pale blue with visible marker texture.",
+      "introduces": [
+        "thick black outline with raspberry, turquoise, violet, yellow, and pale blue marker fills"
+      ],
+      "requires_prior_elements": [
+        "jellyfish silhouette with rounded bell, five scallops, and exactly five flowing tentacles",
+        "inner bell band, three oval spots, tentacle thickness, and overlap breaks",
+        "bubble highlight dots and curved bell and tentacle highlight gaps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the jellyfish glow",
+    "asset": "assets/cartoon-jellyfish-finished-v1.jpg",
+    "visible_job": "Only strengthens the established bell, scallops, five tentacles, inner band, spots, two bubbles, highlights, marker fills, and overlap breaks.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight-gap clarification on established colored shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No bell contour, scallop, tentacle, inner band, spot, bubble rim, bubble highlight, body highlight, color area, or overlap break may first appear in the final panel.",
+    "The jellyfish must retain one upright pose, bell width, exactly five tentacles, tentacle flow, scale, and crop across every frame.",
+    "Keep the jellyfish face-free: no eyes, pupils, brows, cheeks, smile, teeth, tongue, or character expression.",
+    "Reject fish, coral, seaweed, waves, ocean scenery, lettering, sticker outlines, badge frames, logos, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, airbrushed translucency, poster lighting, or mechanically perfect curves."
+  ]
+}

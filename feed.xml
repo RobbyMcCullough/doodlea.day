@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a chess knight</title>
+      <link>https://doodlea.day/tutorials/cartoon-chess-knight.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-chess-knight.html</guid>
+      <pubDate>Mon, 20 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon chess knight with a blocky horse-head profile, arched neck, wide pedestal, carved mane blocks, base bands, spark accents, thick black outlines, and bright felt-tip marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-chess-knight-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an ice-cream truck</title>
       <link>https://doodlea.day/tutorials/cartoon-ice-cream-truck.html</link>
@@ -470,6 +478,14 @@
       <pubDate>Sat, 23 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw an angel halo with wings using a tilted oval ring, two balanced wing shapes, three feather layers per wing, sparkle bursts, motion marks, thick black outlines, and bright marker fills.</description>
       <media:content url="https://doodlea.day/assets/angel-halo-with-wings-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a jellyfish</title>
+      <link>https://doodlea.day/tutorials/cartoon-jellyfish.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-jellyfish.html</guid>
+      <pubDate>Fri, 22 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon jellyfish with a rounded bell, five scallops, five closed ribbon tentacles, a wavy inner band, three spots, two bubbles, thick black outlines, and bright felt-tip marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-jellyfish-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

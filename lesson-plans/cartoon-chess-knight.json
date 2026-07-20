@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-chess-knight",
+  "finished": "assets/cartoon-chess-knight-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel felt-tip marker process contact sheet.",
+    "notes": "One consistent face-free chess knight in a bold profile on warm paper, with no lettering, board, other pieces, hands, crown, sticker outline, badge frame, logo, or decorative border."
+  },
+  "process_strategy": "The sequence locks one horse-head arc, muzzle wedge, neck sweep, and stacked pedestal; wraps a chunky chess-piece silhouette around the guides; adds the carved mane, ear, base bands, and abstract facial notches without a cartoon expression; introduces motion accents and shadow; then inks and colors every established shape before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "horse-head arc, muzzle wedge, neck sweep, center axis, and stacked pedestal guides",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one upright profile with a curved head and neck above a centered chess-piece base."
+    },
+    {
+      "name": "chess-knight silhouette with pointed ear, blocky muzzle, arched neck, and wide pedestal",
+      "introduced_by_step": 2,
+      "description": "A chunky continuous contour turns the guides into an immediately readable knight chess piece."
+    },
+    {
+      "name": "carved mane notch, three mane blocks, brow cut, nostril groove, inner neck contour, and two base bands",
+      "introduced_by_step": 3,
+      "description": "Three chunky mane blocks, simple carved marks, and pedestal bands give the piece structure without adding eyeballs, a smile, or a character face."
+    },
+    {
+      "name": "short mane hatch marks, two spark accents, and oval ground shadow",
+      "introduced_by_step": 4,
+      "description": "Short hatch marks across the three established mane blocks, two small energy sparks, and a shallow shadow add playful rhythm around the silhouette."
+    },
+    {
+      "name": "thick black outline with turquoise, raspberry, yellow, and violet marker fills",
+      "introduced_by_step": 5,
+      "description": "Visible felt-tip texture separates the knight body, mane, base bands, accents, and shadow while keeping handmade edges."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-chess-knight-step-1.jpg",
+      "step_name": "Set the knight guides",
+      "visible_job": "Places the horse-head arc, muzzle wedge, neck sweep, center axis, and stacked pedestal at one fixed scale.",
+      "introduces": [
+        "horse-head arc, muzzle wedge, neck sweep, center axis, and stacked pedestal guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-chess-knight-step-2.jpg",
+      "step_name": "Shape the chess-piece silhouette",
+      "visible_job": "Wraps the guides with the pointed ear, blocky muzzle, arched neck, and wide pedestal in one bold profile.",
+      "introduces": [
+        "chess-knight silhouette with pointed ear, blocky muzzle, arched neck, and wide pedestal"
+      ],
+      "requires_prior_elements": [
+        "horse-head arc, muzzle wedge, neck sweep, center axis, and stacked pedestal guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-chess-knight-step-3.jpg",
+      "step_name": "Carve the knight details",
+      "visible_job": "Adds the mane notch, three chunky mane blocks, brow cut, nostril groove, inner neck contour, and two base bands without turning the piece into a smiling character.",
+      "introduces": [
+        "carved mane notch, three mane blocks, brow cut, nostril groove, inner neck contour, and two base bands"
+      ],
+      "requires_prior_elements": [
+        "chess-knight silhouette with pointed ear, blocky muzzle, arched neck, and wide pedestal"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-chess-knight-step-4.jpg",
+      "step_name": "Add mane rhythm and sparks",
+      "visible_job": "Adds short hatch marks across the three established mane blocks, two small spark accents, and an oval ground shadow around the completed knight form.",
+      "introduces": [
+        "short mane hatch marks, two spark accents, and oval ground shadow"
+      ],
+      "requires_prior_elements": [
+        "chess-knight silhouette with pointed ear, blocky muzzle, arched neck, and wide pedestal",
+        "carved mane notch, three mane blocks, brow cut, nostril groove, inner neck contour, and two base bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-chess-knight-step-5.jpg",
+      "step_name": "Ink and color the knight",
+      "visible_job": "Thickens every established contour and fills the body, mane, base bands, sparks, and shadow with directional marker strokes and visible highlight gaps.",
+      "introduces": [
+        "thick black outline with turquoise, raspberry, yellow, and violet marker fills"
+      ],
+      "requires_prior_elements": [
+        "chess-knight silhouette with pointed ear, blocky muzzle, arched neck, and wide pedestal",
+        "carved mane notch, three mane blocks, brow cut, nostril groove, inner neck contour, and two base bands",
+        "short mane hatch marks, two spark accents, and oval ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the knight game-ready",
+    "asset": "assets/cartoon-chess-knight-finished-v1.jpg",
+    "visible_job": "Only strengthens the established knight contours, carved details, mane blocks and hatch marks, pedestal bands, sparks, marker fills, highlight gaps, and ground shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight gaps on established colored shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No head contour, muzzle, ear, neck, pedestal, carved mark, mane block, hatch mark, base band, spark, color area, or shadow may first appear in the final panel.",
+    "The knight must retain one bold profile, head angle, neck curve, base width, scale, and crop across every frame.",
+    "Keep the chess piece face-free: no eyeball, pupil, smile, teeth, tongue, cheek marks, or cartoon expression.",
+    "Reject lettering, chessboards, other pieces, hands, crowns, logos, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, poster lighting, mechanically perfect symmetry, or clean 3D-rendered plastic."
+  ]
+}
