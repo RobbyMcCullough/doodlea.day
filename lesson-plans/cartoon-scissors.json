@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-scissors",
+  "finished": "assets/cartoon-scissors-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade marker process contact sheet.",
+    "notes": "One consistent face-free open pair of scissors angled diagonally on warm off-white paper; the approved generated sheet uses four small snip sparks and raspberry handles with yellow reserved for the sparks; no hand, paper, cutout, lettering, logo, sticker outline, badge frame, decorative border, or extra tool."
+  },
+  "process_strategy": "The sequence locks one circular pivot, two crossing blade axes, two handle-loop footprints, and an open diagonal pose; wraps those guides with the complete scissors silhouette; adds the inner loops, blade edges, pivot screw, grip bands, four snip sparks, motion marks, and shadow; then inks and colors only those established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "circular pivot, two crossing blade axes, two handle-loop footprints, and open diagonal pose",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one open pair of scissors with the handle at lower left and blade tips spreading toward upper right."
+    },
+    {
+      "name": "scissors silhouette with two blades, two rounded handle loops, and central pivot hub",
+      "introduced_by_step": 2,
+      "description": "A bold outer contour turns the guides into a readable pair of open scissors at one locked angle."
+    },
+    {
+      "name": "two inner handle openings, blade center bevels, round pivot screw, and two grip bands",
+      "introduced_by_step": 3,
+      "description": "The functional inner openings and hardware complete the tool without a character face."
+    },
+    {
+      "name": "four snip sparks, two short motion marks, white blade highlights, and violet ground shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly four small sparks, two motion ticks, planned highlights, and one shadow add comic action around the established scissors."
+    },
+    {
+      "name": "thick black outline with raspberry, yellow, turquoise, cool-gray, and violet marker fills",
+      "introduced_by_step": 5,
+      "description": "Visible felt-tip texture separates the handles, grip bands, blades, pivot, accents, and shadow while preserving paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-scissors-step-1.jpg",
+      "step_name": "Set the scissors guides",
+      "visible_job": "Places the circular pivot, two crossing blade axes, two rounded handle-loop footprints, and the open diagonal pose at one fixed scale.",
+      "introduces": [
+        "circular pivot, two crossing blade axes, two handle-loop footprints, and open diagonal pose"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-scissors-step-2.jpg",
+      "step_name": "Shape the open scissors",
+      "visible_job": "Wraps the guides with two long blades, two rounded handle loops, and one central pivot hub while preserving the same open angle.",
+      "introduces": [
+        "scissors silhouette with two blades, two rounded handle loops, and central pivot hub"
+      ],
+      "requires_prior_elements": [
+        "circular pivot, two crossing blade axes, two handle-loop footprints, and open diagonal pose"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-scissors-step-3.jpg",
+      "step_name": "Build the loops and blades",
+      "visible_job": "Adds both inner handle openings, the two blade-center bevels, the round pivot screw, and two grip bands inside the completed silhouette.",
+      "introduces": [
+        "two inner handle openings, blade center bevels, round pivot screw, and two grip bands"
+      ],
+      "requires_prior_elements": [
+        "scissors silhouette with two blades, two rounded handle loops, and central pivot hub"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-scissors-step-4.jpg",
+      "step_name": "Add the snipping action",
+      "visible_job": "Adds exactly four small snip sparks, two short motion marks, narrow blade-highlight gaps, and one violet ground-shadow shape around the established tool.",
+      "introduces": [
+        "four snip sparks, two short motion marks, white blade highlights, and violet ground shadow"
+      ],
+      "requires_prior_elements": [
+        "scissors silhouette with two blades, two rounded handle loops, and central pivot hub",
+        "two inner handle openings, blade center bevels, round pivot screw, and two grip bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-scissors-step-5.jpg",
+      "step_name": "Ink and color the scissors",
+      "visible_job": "Thickens every established contour and fills the handles, grip bands, blades, pivot, sparks, motion marks, and shadow with directional marker strokes.",
+      "introduces": [
+        "thick black outline with raspberry, yellow, turquoise, cool-gray, and violet marker fills"
+      ],
+      "requires_prior_elements": [
+        "scissors silhouette with two blades, two rounded handle loops, and central pivot hub",
+        "two inner handle openings, blade center bevels, round pivot screw, and two grip bands",
+        "four snip sparks, two short motion marks, white blade highlights, and violet ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Sharpen the comic finish",
+    "asset": "assets/cartoon-scissors-finished-v1.jpg",
+    "visible_job": "Only strengthens the established scissors silhouette, handle openings, blade bevels, pivot, grip bands, four sparks, two motion marks, marker fills, highlights, and shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight clarification on established blades and handles"
+    ]
+  },
+  "rejection_checks": [
+    "No blade, handle loop, opening, pivot, bevel, grip band, spark, motion mark, color area, highlight, or shadow may first appear in the final panel.",
+    "The scissors must retain one open diagonal pose, blade angle, handle size, pivot position, scale, and crop across every frame.",
+    "Keep the tool face-free: no eyes, pupils, brows, mouth, teeth, tongue, or cheek marks.",
+    "Reject hands, paper, cutouts, lettering, logos, extra tools, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, mechanically perfect geometry, poster lighting, or clean 3D-rendered plastic and metal."
+  ]
+}

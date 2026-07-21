@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-20
+- Date: 2026-07-21
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-19 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-20 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,25 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-21 daily automation added current `cartoon-scissors` (July 21 /
+  Day 062) and honest archive `cartoon-camping-tent` (May 21 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  The scissors plan records the approved sheet's four-spark accent pattern;
+  the tent plan records two outer guy-line stakes plus one front-corner base
+  peg, with grass and shadow introduced before the main color pass.
+  Finished-image ratings: scissors 9.4/10 for their bold face-free silhouette,
+  stable pivot and blade geometry, visible marker streaks, and lively motion;
+  camping tent 9.5/10 for its clear three-quarter form, reserved doorway,
+  saturated handmade color, readable supports, and attainable finish.
+- July 21 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no broken images after deliberate lazy-load scrolling, missing alt text,
+  horizontal overflow, clipped H1s, invalid JSON-LD, or public lab links.
+  Rendered layouts rated 9.3/10. The temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-20 daily automation added current `cartoon-chess-knight` (July 20 /
   Day 060) and honest archive `cartoon-jellyfish` (May 22 / Day 001). Both use
   reviewed six-panel handmade raster marker contact sheets, cropped JPG

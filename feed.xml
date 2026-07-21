@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a pair of scissors</title>
+      <link>https://doodlea.day/tutorials/cartoon-scissors.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-scissors.html</guid>
+      <pubDate>Tue, 21 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw cartoon scissors with two open blades, rounded handle loops, a pivot screw, grip bands, blade bevels, snip sparks, motion marks, thick black outlines, and bright felt-tip marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-scissors-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a chess knight</title>
       <link>https://doodlea.day/tutorials/cartoon-chess-knight.html</link>
@@ -486,6 +494,14 @@
       <pubDate>Fri, 22 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon jellyfish with a rounded bell, five scallops, five closed ribbon tentacles, a wavy inner band, three spots, two bubbles, thick black outlines, and bright felt-tip marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-jellyfish-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a camping tent</title>
+      <link>https://doodlea.day/tutorials/cartoon-camping-tent.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-camping-tent.html</guid>
+      <pubDate>Thu, 21 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon camping tent with an A-frame front, sloping roof, open doorway, rolled flap edges, roof seam, zipper, guy lines, stakes, grass tufts, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-camping-tent-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

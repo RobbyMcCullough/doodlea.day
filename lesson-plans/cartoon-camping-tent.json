@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-camping-tent",
+  "finished": "assets/cartoon-camping-tent-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade marker process contact sheet.",
+    "notes": "One consistent face-free three-quarter camping tent with an open front flap on warm off-white paper. The approved generated sheet uses two guy-line stakes plus one front-corner base peg, a raspberry roof and side wall, yellow front panel, and turquoise flap and hem accents. No camper, person, animal, campfire, trees, mountains, moon, stars, lettering, logo, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "The sequence locks one front triangle, center ridge, visible side plane, ground line, doorway reserve, and two guy-line stake positions; wraps those guides with the full A-frame tent silhouette; opens the doorway and adds rolled flap edges, roof seam, zipper line, two guy lines, two outer stakes, one front-corner base peg, grass tufts, and shadow; then inks and colors only those established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "front triangle, center ridge, visible side plane, ground line, doorway reserve, and two guy-line stake positions",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one compact three-quarter A-frame tent with a reserved triangular entrance."
+    },
+    {
+      "name": "camping-tent silhouette with triangular front, sloping roof, visible side wall, lower hem, and rear corner",
+      "introduced_by_step": 2,
+      "description": "A bold outer contour turns the guides into a readable tent while keeping the doorway footprint blank."
+    },
+    {
+      "name": "dark open doorway, two rolled flap edges with ties, roof-panel seam, and front zipper line",
+      "introduced_by_step": 3,
+      "description": "The reserved entrance becomes an open doorway with simple flap construction and a clear roof seam."
+    },
+    {
+      "name": "two guy lines, two outer stakes, one front-corner base peg, three green grass tufts, and pale lavender ground shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly two support lines with outer stakes, one additional front-corner base peg, three small green tufts, and one pale lavender shadow complete the campsite footprint without adding scenery."
+    },
+    {
+      "name": "thick black outline with raspberry, yellow, turquoise, and dark-violet marker fills plus paper highlight gaps",
+      "introduced_by_step": 5,
+      "description": "Visible felt-tip texture separates the roof, side wall, doorway, and flap edges while preserving narrow paper highlights and the earlier grass and shadow accents."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-camping-tent-step-1.jpg",
+      "step_name": "Pitch the tent guides",
+      "visible_job": "Places the front triangle, center ridge, visible side plane, ground line, doorway reserve, and two guy-line stake positions at one fixed scale and angle.",
+      "introduces": [
+        "front triangle, center ridge, visible side plane, ground line, doorway reserve, and two guy-line stake positions"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-camping-tent-step-2.jpg",
+      "step_name": "Shape the A-frame tent",
+      "visible_job": "Wraps the guides with the triangular front, sloping roof, visible side wall, lower hem, and rear corner while leaving the doorway reserve blank.",
+      "introduces": [
+        "camping-tent silhouette with triangular front, sloping roof, visible side wall, lower hem, and rear corner"
+      ],
+      "requires_prior_elements": [
+        "front triangle, center ridge, visible side plane, ground line, doorway reserve, and two guy-line stake positions"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-camping-tent-step-3.jpg",
+      "step_name": "Open the tent doorway",
+      "visible_job": "Adds the dark open doorway, two rolled flap edges with ties, roof-panel seam, and front zipper line inside the reserved entrance area.",
+      "introduces": [
+        "dark open doorway, two rolled flap edges with ties, roof-panel seam, and front zipper line"
+      ],
+      "requires_prior_elements": [
+        "camping-tent silhouette with triangular front, sloping roof, visible side wall, lower hem, and rear corner"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-camping-tent-step-4.jpg",
+      "step_name": "Stake down the campsite",
+      "visible_job": "Adds exactly two guy lines with two outer stakes, one front-corner base peg, three small green grass tufts, and one pale lavender ground-shadow shape around the completed tent.",
+      "introduces": [
+        "two guy lines, two outer stakes, one front-corner base peg, three green grass tufts, and pale lavender ground shadow"
+      ],
+      "requires_prior_elements": [
+        "camping-tent silhouette with triangular front, sloping roof, visible side wall, lower hem, and rear corner",
+        "dark open doorway, two rolled flap edges with ties, roof-panel seam, and front zipper line"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-camping-tent-step-5.jpg",
+      "step_name": "Ink and color the tent",
+      "visible_job": "Thickens every established contour and fills the roof, side wall, doorway, flap edges, grass, stakes, and shadow with directional marker strokes.",
+      "introduces": [
+        "thick black outline with raspberry, yellow, turquoise, and dark-violet marker fills plus paper highlight gaps"
+      ],
+      "requires_prior_elements": [
+        "camping-tent silhouette with triangular front, sloping roof, visible side wall, lower hem, and rear corner",
+        "dark open doorway, two rolled flap edges with ties, roof-panel seam, and front zipper line",
+        "two guy lines, two outer stakes, one front-corner base peg, three green grass tufts, and pale lavender ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Brighten the campsite finish",
+    "asset": "assets/cartoon-camping-tent-finished-v1.jpg",
+    "visible_job": "Only strengthens the established tent silhouette, doorway, flap edges, seam, zipper, two guy lines, two outer stakes, one base peg, three grass tufts, marker fills, highlights, and shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight clarification on established roof and flap shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No front triangle, roof, side wall, hem, doorway, flap edge, tie, seam, zipper, guy line, stake, grass tuft, color area, highlight, or shadow may first appear in the final panel.",
+    "The tent must retain one three-quarter pose, ridge angle, doorway size, side-plane width, stake spacing, scale, and crop across every frame.",
+    "Reserve the doorway footprint from step one; do not draw finished front-panel detail underneath the dark opening or rolled flap edges.",
+    "Keep the tent face-free and reject campers, hands, animals, campfires, trees, mountains, moon, stars, lettering, logos, extra gear, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, poster lighting, mechanically perfect geometry, or clean 3D-rendered fabric."
+  ]
+}
