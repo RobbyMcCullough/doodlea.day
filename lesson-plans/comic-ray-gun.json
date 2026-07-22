@@ -1,0 +1,116 @@
+{
+  "slug": "comic-ray-gun",
+  "finished": "assets/comic-ray-gun-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade marker process contact sheet.",
+    "notes": "One consistent face-free retro comic ray gun angled from lower left to upper right on warm off-white paper, with a barrel, flared muzzle, grip, trigger guard, knobs, action rays, and sparks; no hand, character, target, lettering, logo, sticker outline, badge frame, decorative border, realistic firearm styling, or extra weapon."
+  },
+  "process_strategy": "The sequence locks one barrel axis, body block, flared-muzzle ellipses, grip wedge, trigger-guard reserve, two knob footprints, and action-ray zone; wraps those guides with the complete ray-gun silhouette; adds the trigger, panel seams, coils, knobs, muzzle rings, action rays, sparks, highlights, and shadow; then inks and colors only those established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "barrel axis, body block, flared-muzzle ellipses, grip wedge, trigger-guard reserve, two knob footprints, and action-ray zone",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one chunky retro ray gun on a diagonal, including reserved spaces for its controls and comic energy marks."
+    },
+    {
+      "name": "retro ray-gun silhouette with barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap",
+      "introduced_by_step": 2,
+      "description": "A bold outer contour turns the guides into a clearly fictional space-age prop at one locked angle."
+    },
+    {
+      "name": "curved trigger, two control knobs, three body seams, two barrel coils, and double muzzle rings",
+      "introduced_by_step": 3,
+      "description": "Specific interior hardware gives the fictional tool structure without realistic firearm detail."
+    },
+    {
+      "name": "two tapered action rays, three small sparks, white highlight gaps, and violet ground shadow",
+      "introduced_by_step": 4,
+      "description": "A compact burst, three sparks, planned highlights, and one shadow create comic motion without words or a scene."
+    },
+    {
+      "name": "thick black outline with cyan, raspberry, yellow, cool-gray, and violet marker fills",
+      "introduced_by_step": 5,
+      "description": "Visible felt-tip texture separates the established body, barrel, muzzle, grip, controls, action marks, and shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-ray-gun-step-1.jpg",
+      "step_name": "Set the ray-gun guides",
+      "visible_job": "Places the barrel axis, body block, flared-muzzle ellipses, grip wedge, trigger-guard reserve, two knob footprints, and action-ray zone at one fixed scale.",
+      "introduces": [
+        "barrel axis, body block, flared-muzzle ellipses, grip wedge, trigger-guard reserve, two knob footprints, and action-ray zone"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-ray-gun-step-2.jpg",
+      "step_name": "Shape the space-age prop",
+      "visible_job": "Wraps the guides with the barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap while preserving the diagonal pose.",
+      "introduces": [
+        "retro ray-gun silhouette with barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap"
+      ],
+      "requires_prior_elements": [
+        "barrel axis, body block, flared-muzzle ellipses, grip wedge, trigger-guard reserve, two knob footprints, and action-ray zone"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-ray-gun-step-3.jpg",
+      "step_name": "Build the comic hardware",
+      "visible_job": "Adds the curved trigger, two control knobs, three body seams, two barrel coils, and double muzzle rings inside the completed silhouette.",
+      "introduces": [
+        "curved trigger, two control knobs, three body seams, two barrel coils, and double muzzle rings"
+      ],
+      "requires_prior_elements": [
+        "retro ray-gun silhouette with barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-ray-gun-step-4.jpg",
+      "step_name": "Add the comic energy",
+      "visible_job": "Adds two tapered action rays, exactly three small sparks, narrow highlight gaps, and one violet ground-shadow shape around the established prop.",
+      "introduces": [
+        "two tapered action rays, three small sparks, white highlight gaps, and violet ground shadow"
+      ],
+      "requires_prior_elements": [
+        "retro ray-gun silhouette with barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap",
+        "curved trigger, two control knobs, three body seams, two barrel coils, and double muzzle rings"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-ray-gun-step-5.jpg",
+      "step_name": "Ink and color the ray gun",
+      "visible_job": "Thickens every established contour and fills the body, barrel, muzzle, grip, controls, action rays, sparks, and shadow with directional marker strokes.",
+      "introduces": [
+        "thick black outline with cyan, raspberry, yellow, cool-gray, and violet marker fills"
+      ],
+      "requires_prior_elements": [
+        "retro ray-gun silhouette with barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap",
+        "curved trigger, two control knobs, three body seams, two barrel coils, and double muzzle rings",
+        "two tapered action rays, three small sparks, white highlight gaps, and violet ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Charge the comic finish",
+    "asset": "assets/comic-ray-gun-finished-v1.jpg",
+    "visible_job": "Only strengthens the established silhouette, trigger, controls, seams, coils, muzzle rings, two action rays, three sparks, marker fills, highlights, and shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight clarification on established body and muzzle shapes"
+    ]
+  },
+  "rejection_checks": [
+    "No barrel, muzzle, body, grip, trigger guard, trigger, knob, seam, coil, ring, action ray, spark, color area, highlight, or shadow may first appear in the final panel.",
+    "The ray gun must retain one diagonal pose, barrel angle, body proportion, grip position, muzzle size, scale, and crop across every frame.",
+    "Keep the prop face-free and clearly fictional; reject realistic firearm anatomy, hands, characters, targets, or scenes.",
+    "Reject lettering, logos, extra weapons, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, mechanically perfect geometry, poster lighting, or clean 3D-rendered plastic and metal."
+  ]
+}

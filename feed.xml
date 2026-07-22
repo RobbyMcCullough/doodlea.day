@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic ray gun</title>
+      <link>https://doodlea.day/tutorials/comic-ray-gun.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-ray-gun.html</guid>
+      <pubDate>Wed, 22 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a retro comic ray gun with a chunky rounded body, long barrel, flared muzzle, angled grip, trigger guard, control knobs, coils, action rays, sparks, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/comic-ray-gun-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a pair of scissors</title>
       <link>https://doodlea.day/tutorials/cartoon-scissors.html</link>
@@ -502,6 +510,14 @@
       <pubDate>Thu, 21 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon camping tent with an A-frame front, sloping roof, open doorway, rolled flap edges, roof seam, zipper, guy lines, stakes, grass tufts, thick black outlines, and bright marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-camping-tent-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a fire hydrant</title>
+      <link>https://doodlea.day/tutorials/cartoon-fire-hydrant.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-fire-hydrant.html</guid>
+      <pubDate>Wed, 20 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a fire hydrant with a domed cap, cylindrical body, two ringed side nozzles, wide base flange, four visible bolts, three water drops, thick black outlines, and bright felt-tip marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-fire-hydrant-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

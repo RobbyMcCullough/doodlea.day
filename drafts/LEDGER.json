@@ -56,6 +56,11 @@
     "cartoon-cowboy-hat": {
       "status": "published"
     },
+    "cartoon-fire-hydrant": {
+      "status": "published",
+      "date": "2026-07-22",
+      "note": "Approved contact sheet cropped and published as the honest 2026-05-20 archive lesson."
+    },
     "cartoon-french-fries": {
       "status": "published"
     },
@@ -144,6 +149,11 @@
     "comic-megaphone": {
       "status": "rejected-duplicate",
       "note": "Rejected before image generation because the July 13 cartoon boombox made the audio-device category too recent; no megaphone art was generated."
+    },
+    "comic-ray-gun": {
+      "status": "published",
+      "date": "2026-07-22",
+      "note": "Published from the reviewed July 22 six-panel marker contact sheet."
     },
     "comic-sun-with-sunglasses": {
       "status": "published",

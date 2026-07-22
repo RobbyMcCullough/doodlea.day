@@ -1,0 +1,116 @@
+{
+  "slug": "cartoon-fire-hydrant",
+  "finished": "assets/cartoon-fire-hydrant-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade marker process contact sheet.",
+    "notes": "One consistent face-free front-facing fire hydrant on warm off-white paper, with a domed cap, cylindrical body, two side nozzles, wide base flange, four visible bolts, three water drops, highlights, and shadow; no street, curb, hose, dog, character, lettering, logo, sticker outline, badge frame, decorative border, or second hydrant."
+  },
+  "process_strategy": "The sequence locks one center axis, domed-cap ellipse, cylindrical body, two side-nozzle footprints, base flange, four bolt positions, three-drop zone, and shadow reserve; wraps them with the complete hydrant silhouette; adds the caps, seams, bolts, drops, highlights, and shadow; then inks and colors only those established shapes before final cleanup.",
+  "final_elements": [
+    {
+      "name": "center axis, domed-cap ellipse, cylindrical body guide, two side-nozzle footprints, base flange, four bolt positions, three-drop zone, and shadow reserve",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one upright front-facing hydrant and reserves the cap, nozzle, bolt, water-drop, and shadow placements."
+    },
+    {
+      "name": "fire-hydrant silhouette with domed top, cylindrical body, two side nozzles, neck band, and wide base flange",
+      "introduced_by_step": 2,
+      "description": "A bold outer contour turns the guides into a readable hydrant while preserving the two nozzle and bolt footprints."
+    },
+    {
+      "name": "top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible base bolts",
+      "introduced_by_step": 3,
+      "description": "Specific functional details complete the hydrant without adding a character face."
+    },
+    {
+      "name": "exactly three water drops, narrow white highlight gaps, and violet ground shadow",
+      "introduced_by_step": 4,
+      "description": "Three small drops, planned paper highlights, and one shadow add playful context without a street scene."
+    },
+    {
+      "name": "thick black outline with fire-engine red, yellow, turquoise, cool-gray, and violet marker fills",
+      "introduced_by_step": 5,
+      "description": "Visible felt-tip texture separates the established body, cap, nozzles, bolts, drops, highlight gaps, and shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-fire-hydrant-step-1.jpg",
+      "step_name": "Stack the hydrant guides",
+      "visible_job": "Places the center axis, domed-cap ellipse, cylindrical body, two side-nozzle footprints, base flange, exactly four bolt positions, three-drop zone, and shadow reserve at one fixed scale.",
+      "introduces": [
+        "center axis, domed-cap ellipse, cylindrical body guide, two side-nozzle footprints, base flange, four bolt positions, three-drop zone, and shadow reserve"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-fire-hydrant-step-2.jpg",
+      "step_name": "Shape the sturdy hydrant",
+      "visible_job": "Wraps the guides with the domed top, cylindrical body, two side nozzles, neck band, and wide base flange while preserving the same front view.",
+      "introduces": [
+        "fire-hydrant silhouette with domed top, cylindrical body, two side nozzles, neck band, and wide base flange"
+      ],
+      "requires_prior_elements": [
+        "center axis, domed-cap ellipse, cylindrical body guide, two side-nozzle footprints, base flange, four bolt positions, three-drop zone, and shadow reserve"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-fire-hydrant-step-3.jpg",
+      "step_name": "Build the caps and bolts",
+      "visible_job": "Adds the top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible bolts along the established base flange.",
+      "introduces": [
+        "top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible base bolts"
+      ],
+      "requires_prior_elements": [
+        "fire-hydrant silhouette with domed top, cylindrical body, two side nozzles, neck band, and wide base flange"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-fire-hydrant-step-4.jpg",
+      "step_name": "Add the water accents",
+      "visible_job": "Adds exactly three small water drops beside one nozzle, narrow planned white highlight gaps, and one violet ground-shadow shape beneath the established hydrant.",
+      "introduces": [
+        "exactly three water drops, narrow white highlight gaps, and violet ground shadow"
+      ],
+      "requires_prior_elements": [
+        "fire-hydrant silhouette with domed top, cylindrical body, two side nozzles, neck band, and wide base flange",
+        "top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible base bolts"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-fire-hydrant-step-5.jpg",
+      "step_name": "Ink and color the hydrant",
+      "visible_job": "Thickens every established contour and fills the body red, cap and nozzle faces yellow, water drops turquoise, hardware cool gray, and shadow violet.",
+      "introduces": [
+        "thick black outline with fire-engine red, yellow, turquoise, cool-gray, and violet marker fills"
+      ],
+      "requires_prior_elements": [
+        "fire-hydrant silhouette with domed top, cylindrical body, two side nozzles, neck band, and wide base flange",
+        "top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible base bolts",
+        "exactly three water drops, narrow white highlight gaps, and violet ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Turn up the hydrant finish",
+    "asset": "assets/cartoon-fire-hydrant-finished-v1.jpg",
+    "visible_job": "Only strengthens the established hydrant silhouette, cap seams, two nozzles, four bolts, three drops, marker fills, highlight gaps, and shadow.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "marker fill deepening",
+      "small highlight clarification on established cap, body, and nozzles"
+    ]
+  },
+  "rejection_checks": [
+    "No cap, body, nozzle, band, flange, seam, bolt, water drop, color area, highlight, or shadow may first appear in the final panel.",
+    "The hydrant must retain one front view, center axis, cap width, body height, nozzle placement, base width, scale, and crop across every frame.",
+    "Keep the hydrant face-free: no eyes, pupils, brows, mouth, teeth, tongue, or cheek marks.",
+    "Reject streets, curbs, hoses, dogs, characters, lettering, logos, extra hydrants, sticker outlines, badge frames, or decorative borders.",
+    "Reject glossy vector icon art, smooth digital gradients, mechanically perfect geometry, poster lighting, or clean 3D-rendered metal."
+  ]
+}

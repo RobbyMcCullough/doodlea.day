@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "comic-ray-gun",
+    day: "064",
+    date: "Wednesday, July 22",
+    isoDate: "2026-07-22",
+    subject: "a comic ray gun",
+    headlineSubject: "a comic<br>ray gun",
+    shortSubject: "a comic ray gun",
+    lessonTitle: "Let's draw a comic ray gun",
+    description: "Learn how to draw a retro comic ray gun with a chunky rounded body, long barrel, flared muzzle, angled grip, trigger guard, control knobs, coils, action rays, sparks, thick black outlines, and bright marker color.",
+    intro: "Aim one barrel axis through a chunky body, build a clearly fictional space-age silhouette around it, then add the controls, coils, energy marks, and bright marker fills. The useful skill is keeping several ellipses on one shared barrel axis so the muzzle looks lively without drifting out of alignment.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#18aaa9",
+    finished: "comic-ray-gun-finished-v1.jpg",
+    finishedAlt: "Handmade face-free marker drawing of one clearly fictional retro comic ray gun angled from lower left to upper right with a cyan rounded body, yellow barrel, raspberry flared muzzle and grip, gray rear cap, trigger guard and curved trigger, two yellow control knobs, three body seams, two barrel coils, two yellow action rays, three yellow sparks, white highlight gaps, thick imperfect black outlines, and violet ground shadow",
+    materials: ["Pencil and eraser", "Drawing paper", "Black and colored markers"],
+    materialNote: "Use pencil for the barrel axis, rounded body, muzzle ellipses, grip, trigger guard, and control placement, then outline with black marker and fill the established shapes with cyan, raspberry, yellow, cool gray, and violet.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Set the ray-gun guides", text: "Draw one light diagonal barrel axis, place the rounded body block and flared-muzzle ellipses on it, then add the grip wedge, trigger-guard reserve, rear cap, and two knob footprints.", tip: "Ghost the full barrel axis before touching down and keep every muzzle ellipse centered on it. Reserve the trigger and knob spaces so you do not ink body seams that those parts will cover." },
+      { name: "Shape the space-age prop", text: "Wrap the guides with the long barrel, flared muzzle, rounded body, angled grip, trigger guard, and rear cap while preserving the same diagonal pose.", tip: "Rotate the page for the barrel edges and pull them in confident passes. Compare the open trigger-guard space with the grip width so the lower half stays readable." },
+      { name: "Build the comic hardware", text: "Add the curved trigger, exactly two control knobs, three body seams, exactly two barrel coils, and double muzzle rings inside the completed silhouette.", tip: "Repeat the two coils as related loops around the shared barrel axis, then count the two knobs before moving on. Let the hardware stay a little uneven so it feels drawn by hand." },
+      { name: "Add the comic energy", text: "Draw exactly two tapered action rays from the muzzle, exactly three small sparks, narrow white highlight gaps, and one violet ground-shadow shape around the established prop.", tip: "Vary the three spark sizes and aim the two rays along the same outward burst. Leave the highlights as clean paper gaps now instead of trying to paint white over wet marker later." },
+      { name: "Ink and color the ray gun", text: "Thicken every established contour and fill the body cyan, the barrel and accents yellow, the muzzle and grip raspberry, the hardware cool gray, and the shadow violet.", tip: "Pull marker strokes along the barrel and around the body curve so the streaks reinforce the form. Let each color area dry before strengthening the nearby black edges." },
+      { name: "Charge the comic finish", text: "Strengthen the keeper outlines and clarify the established trigger, two knobs, three seams, two coils, two rays, three sparks, marker fills, highlights, and shadow.", tip: "Count two knobs, two coils, two action rays, and three sparks, then stop. A face, hand, target, sound-effect word, extra prop, sticker edge, or badge frame would crowd the clean retro silhouette.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-fire-hydrant",
+    day: "001",
+    date: "Wednesday, May 20",
+    isoDate: "2026-05-20",
+    subject: "a fire hydrant",
+    headlineSubject: "a fire<br>hydrant",
+    shortSubject: "a fire hydrant",
+    lessonTitle: "Let's draw a fire hydrant",
+    description: "Learn how to draw a fire hydrant with a domed cap, cylindrical body, two ringed side nozzles, wide base flange, four visible bolts, three water drops, thick black outlines, and bright felt-tip marker color.",
+    intro: "Stack a domed cap, sturdy cylinder, and wide base on one center axis, then build the paired nozzles and bolt rhythm before adding bright marker color. This honest archive lesson is a fresh shape-and-hardware exercise, not a claim about earlier visitors, comments, activity, or popularity.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#ef3d32",
+    finished: "cartoon-fire-hydrant-finished-v1.jpg",
+    finishedAlt: "Handmade face-free marker drawing of one front-facing fire hydrant with a fire-engine-red domed cap and cylindrical body, yellow neck band and wide base flange, two cool-gray ringed side nozzles, central body seam, exactly four visible gray base bolts, exactly three turquoise water drops, thick imperfect black outlines, white highlight gaps, and a violet ground shadow",
+    materials: ["Pencil and eraser", "Drawing paper", "Black and colored markers"],
+    materialNote: "Use pencil for the center axis, cap, body, nozzle, flange, bolt, drop, and shadow construction, then outline with black marker and fill only the established shapes with red, yellow, turquoise, cool gray, and violet.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Stack the hydrant guides", text: "Draw one light center axis, stack a domed-cap ellipse over a cylindrical body and wide base flange, then reserve two side-nozzle footprints, exactly four bolt positions, a three-drop zone, and one shadow shape.", tip: "Ghost the top and base ellipses before touching down. Compare the paper on both sides of the body and keep the nozzle, bolt, drop, and shadow reserves pale." },
+      { name: "Shape the sturdy hydrant", text: "Wrap the guides with the domed top, cylindrical body, two side nozzles, neck band, and wide base flange while preserving the same front view.", tip: "Turn the page for the long body edges and pull them in confident passes. Keep the cap and base ellipses related so the hydrant feels planted instead of top-heavy." },
+      { name: "Build the caps and bolts", text: "Add the top-cap seam, two ringed nozzle caps, central body seam, and exactly four visible bolts along the established base flange.", tip: "Repeat the nozzle rings as related shapes without forcing perfect symmetry. Count four base bolts before darkening their hexagonal edges." },
+      { name: "Add the water accents", text: "Draw exactly three small water drops beside one nozzle, preserve narrow white highlight gaps, and fill the planned violet ground-shadow shape beneath the established hydrant.", tip: "Vary the three drops slightly but keep them clear of the nozzle edge. Leave the highlight gaps as clean paper now instead of trying to paint white over marker later." },
+      { name: "Ink and color the hydrant", text: "Thicken every established contour and fill the body red, cap band and base yellow, water drops turquoise, hardware cool gray, and shadow violet.", tip: "Pull red strokes vertically down the body and curve them around the dome. Let the bright areas dry before reinforcing the nearby black seams and rings." },
+      { name: "Turn up the hydrant finish", text: "Strengthen the keeper outlines and clarify the established silhouette, cap seams, two nozzles, four bolts, three drops, marker fills, highlight gaps, and shadow.", tip: "Count two nozzles, four visible bolts, and three water drops, then stop. A face, hose, dog, street, lettering, second hydrant, sticker edge, or badge frame would crowd the sturdy single-subject design.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-scissors",
-    day: "062",
+    day: "063",
     date: "Tuesday, July 21",
     isoDate: "2026-07-21",
     subject: "a pair of scissors",
@@ -47,7 +103,7 @@ const lessons = [
   },
   {
     slug: "cartoon-camping-tent",
-    day: "001",
+    day: "002",
     date: "Thursday, May 21",
     isoDate: "2026-05-21",
     subject: "a camping tent",
@@ -75,7 +131,7 @@ const lessons = [
   },
   {
     slug: "cartoon-chess-knight",
-    day: "061",
+    day: "062",
     date: "Monday, July 20",
     isoDate: "2026-07-20",
     subject: "a chess knight",
@@ -103,7 +159,7 @@ const lessons = [
   },
   {
     slug: "cartoon-jellyfish",
-    day: "002",
+    day: "003",
     date: "Friday, May 22",
     isoDate: "2026-05-22",
     subject: "a jellyfish",
@@ -131,7 +187,7 @@ const lessons = [
   },
   {
     slug: "cartoon-ice-cream-truck",
-    day: "060",
+    day: "061",
     date: "Sunday, July 19",
     isoDate: "2026-07-19",
     subject: "an ice-cream truck",
@@ -159,7 +215,7 @@ const lessons = [
   },
   {
     slug: "angel-halo-with-wings",
-    day: "003",
+    day: "004",
     date: "Saturday, May 23",
     isoDate: "2026-05-23",
     subject: "an angel halo with wings",
@@ -187,7 +243,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cowboy-hat",
-    day: "059",
+    day: "060",
     date: "Saturday, July 18",
     isoDate: "2026-07-18",
     subject: "a cowboy hat",
@@ -215,7 +271,7 @@ const lessons = [
   },
   {
     slug: "bowling-ball-and-pins",
-    day: "004",
+    day: "005",
     date: "Sunday, May 24",
     isoDate: "2026-05-24",
     subject: "a bowling ball and pins",
@@ -243,7 +299,7 @@ const lessons = [
   },
   {
     slug: "cartoon-thumbs-up-hand",
-    day: "058",
+    day: "059",
     date: "Friday, July 17",
     isoDate: "2026-07-17",
     subject: "a cartoon thumbs-up hand",
@@ -271,7 +327,7 @@ const lessons = [
   },
   {
     slug: "comic-tornado-swirl",
-    day: "005",
+    day: "006",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "a comic tornado swirl",
@@ -299,7 +355,7 @@ const lessons = [
   },
   {
     slug: "cartoon-rattlesnake",
-    day: "057",
+    day: "058",
     date: "Thursday, July 16",
     isoDate: "2026-07-16",
     subject: "a cartoon rattlesnake",
@@ -327,7 +383,7 @@ const lessons = [
   },
   {
     slug: "cartoon-yo-yo-in-motion",
-    day: "006",
+    day: "007",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a cartoon yo-yo in motion",
@@ -355,7 +411,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cow-face",
-    day: "056",
+    day: "057",
     date: "Wednesday, July 15",
     isoDate: "2026-07-15",
     subject: "a cartoon cow face",
@@ -383,7 +439,7 @@ const lessons = [
   },
   {
     slug: "cartoon-claw-hammer",
-    day: "007",
+    day: "008",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a cartoon claw hammer",
@@ -411,7 +467,7 @@ const lessons = [
   },
   {
     slug: "cartoon-rocket-ship",
-    day: "055",
+    day: "056",
     date: "Tuesday, July 14",
     isoDate: "2026-07-14",
     subject: "a cartoon rocket ship",
@@ -439,7 +495,7 @@ const lessons = [
   },
   {
     slug: "cartoon-roller-skate",
-    day: "008",
+    day: "009",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a cartoon roller skate",
@@ -467,7 +523,7 @@ const lessons = [
   },
   {
     slug: "cartoon-boombox",
-    day: "054",
+    day: "055",
     date: "Monday, July 13",
     isoDate: "2026-07-13",
     subject: "a cartoon boombox",
@@ -495,7 +551,7 @@ const lessons = [
   },
   {
     slug: "cartoon-superhero-mask",
-    day: "009",
+    day: "010",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a cartoon superhero mask",
@@ -523,7 +579,7 @@ const lessons = [
   },
   {
     slug: "comic-sun-with-sunglasses",
-    day: "010",
+    day: "011",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a comic sun with sunglasses",
@@ -551,7 +607,7 @@ const lessons = [
   },
   {
     slug: "cartoon-treasure-chest",
-    day: "053",
+    day: "054",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a cartoon treasure chest",
@@ -579,7 +635,7 @@ const lessons = [
   },
   {
     slug: "cartoon-surfboard",
-    day: "052",
+    day: "053",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -605,7 +661,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "011",
+    day: "012",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -631,7 +687,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "050",
+    day: "051",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -684,7 +740,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "051",
+    day: "052",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -737,7 +793,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "012",
+    day: "013",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -790,7 +846,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -843,7 +899,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "015",
+    day: "016",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -896,7 +952,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "048",
+    day: "049",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -949,7 +1005,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "049",
+    day: "050",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -1002,7 +1058,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -1055,7 +1111,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "016",
+    day: "017",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -1108,7 +1164,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "047",
+    day: "048",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -1161,7 +1217,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "017",
+    day: "018",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -1214,7 +1270,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "046",
+    day: "047",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -1268,7 +1324,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "018",
+    day: "019",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -1321,7 +1377,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "019",
+    day: "020",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -1374,7 +1430,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -1427,7 +1483,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "044",
+    day: "045",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -1480,7 +1536,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "045",
+    day: "046",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -1533,7 +1589,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "021",
+    day: "022",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1586,7 +1642,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "022",
+    day: "023",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1639,7 +1695,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "023",
+    day: "024",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1692,7 +1748,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "043",
+    day: "044",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1745,7 +1801,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "024",
+    day: "025",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1798,7 +1854,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "042",
+    day: "043",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1851,7 +1907,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "025",
+    day: "026",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -1904,7 +1960,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "041",
+    day: "042",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -1957,7 +2013,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "026",
+    day: "027",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -2010,7 +2066,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "027",
+    day: "028",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -2063,7 +2119,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "040",
+    day: "041",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -2116,7 +2172,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "039",
+    day: "040",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -2169,7 +2225,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "038",
+    day: "039",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -2222,7 +2278,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "037",
+    day: "038",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -2275,7 +2331,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "036",
+    day: "037",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -2328,7 +2384,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "035",
+    day: "036",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -2381,7 +2437,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "034",
+    day: "035",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -2434,7 +2490,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "033",
+    day: "034",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -2487,7 +2543,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "030",
+    day: "031",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -2540,7 +2596,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "028",
+    day: "029",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2593,7 +2649,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "029",
+    day: "030",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2646,7 +2702,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "031",
+    day: "032",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2699,7 +2755,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "032",
+    day: "033",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

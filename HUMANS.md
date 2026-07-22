@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-21
+- Date: 2026-07-22
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-20 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-21 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,26 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-22 daily automation added current `comic-ray-gun` (July 22 /
+  Day 064) and honest archive `cartoon-fire-hydrant` (May 20 / Day 001).
+  Both use reviewed six-panel handmade raster marker contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  The ray gun preserves one fictional silhouette with two coils, two rays, and
+  three sparks; the face-free hydrant preserves two nozzles, four visible base
+  bolts, and three drops from construction through color. Finished-image
+  ratings: ray gun 9.5/10 for its bold diagonal silhouette, lively hardware,
+  visible marker texture, and stable comic-energy sequence; hydrant 9.4/10 for
+  its sturdy readability, exact detail counts, saturated handmade fill, and
+  attainable finish.
+- July 22 readiness passed for both lessons, including the localhost fallback
+  rerun: ledger, process-plan, frame-delta, derivative, social-card, JSON-LD,
+  internal-link, unused-asset, day-sequence, lab-privacy, and diff checks. Cove
+  passed the automated URL checks, but its expired local certificate blocked
+  the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844 used the
+  documented localhost fallback. The homepage, library, and both tutorials had
+  no broken loaded lesson images, horizontal overflow, invalid JSON-LD, or
+  public lab links; all new lesson art has specific alt text. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-21 daily automation added current `cartoon-scissors` (July 21 /
   Day 062) and honest archive `cartoon-camping-tent` (May 21 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped
