@@ -81,6 +81,12 @@
   `sign_and_send_pubkey: ... communication with agent failed`. The reviewed
   lesson commit remains local; authorize 1Password and retry through the same
   socket, without switching agents or transports.
+- Deployment follow-up completed at 2026-07-23 09:54 PDT after 1Password was
+  authorized. Lesson commit `7d308b6` and continuity commit `02d0edf` pushed
+  through the required socket; DigitalOcean workflow `30027029006` passed,
+  including IndexNow. Both live tutorials return HTTP 200, the homepage
+  features `badminton-shuttlecock-in-motion`, both finished WebP checksums
+  match the reviewed local files, and clean local `main` matches `origin/main`.
 - 2026-07-22 daily automation added current `comic-ray-gun` (July 22 /
   Day 064) and honest archive `cartoon-fire-hydrant` (May 20 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped
