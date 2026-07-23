@@ -1,0 +1,127 @@
+{
+  "slug": "badminton-shuttlecock-in-motion",
+  "finished": "assets/badminton-shuttlecock-in-motion-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one face-free badminton shuttlecock in motion from pale construction to a bold marker finish.",
+    "notes": "The same diagonal pose, cork cap, six feather vanes, one binding band, six root spokes, two speed arcs, and small shadow must persist after introduction."
+  },
+  "process_strategy": "Build one diagonal cork-and-cone construction, divide the skirt into exactly six broad feathers before inking, then add the binding band, root spokes, motion, saturated marker color, and final line weight without changing the silhouette.",
+  "final_elements": [
+    {
+      "name": "rounded cork cap and diagonal center axis",
+      "introduced_by_step": 1,
+      "description": "A rounded cork nose at the lower left attached to a center axis rising toward the upper right."
+    },
+    {
+      "name": "flared conical feather skirt",
+      "introduced_by_step": 2,
+      "description": "One open flared cone defining the full shuttlecock silhouette."
+    },
+    {
+      "name": "exactly six broad feather vanes and shafts",
+      "introduced_by_step": 3,
+      "description": "Six separated stylized feathers that share the same cork end and flared outer rim."
+    },
+    {
+      "name": "one binding band, six root spokes, and six feather-tip notches",
+      "introduced_by_step": 4,
+      "description": "One curved binding band, six short root spokes above the cork, and one small notch at each established feather tip."
+    },
+    {
+      "name": "two speed arcs and small oval shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly two curved motion strokes behind the skirt and one small oval shadow below the cork."
+    },
+    {
+      "name": "coral cork, cyan feather, and yellow band fills",
+      "introduced_by_step": 5,
+      "description": "Visible directional marker fills with narrow paper highlight gaps inside already-established shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/badminton-shuttlecock-in-motion-step-1.jpg",
+      "step_name": "Aim the cork and center line",
+      "visible_job": "Places the rounded cork cap at the lower left and one pale diagonal center axis for the flight direction.",
+      "introduces": [
+        "rounded cork cap and diagonal center axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/badminton-shuttlecock-in-motion-step-2.jpg",
+      "step_name": "Open the feather skirt",
+      "visible_job": "Adds one flared conical skirt around the center axis and connects it cleanly to the existing cork cap.",
+      "introduces": [
+        "flared conical feather skirt"
+      ],
+      "requires_prior_elements": [
+        "rounded cork cap and diagonal center axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/badminton-shuttlecock-in-motion-step-3.jpg",
+      "step_name": "Divide six feather vanes",
+      "visible_job": "Divides the established skirt into exactly six broad feather vanes with six related center shafts.",
+      "introduces": [
+        "exactly six broad feather vanes and shafts"
+      ],
+      "requires_prior_elements": [
+        "flared conical feather skirt"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/badminton-shuttlecock-in-motion-step-4.jpg",
+      "step_name": "Bind the feathers and show flight",
+      "visible_job": "Adds one curved binding band, six short root spokes, six small tip notches, exactly two speed arcs, and one small oval shadow to the established shuttlecock.",
+      "introduces": [
+        "one binding band, six root spokes, and six feather-tip notches",
+        "two speed arcs and small oval shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded cork cap and diagonal center axis",
+        "flared conical feather skirt",
+        "exactly six broad feather vanes and shafts"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/badminton-shuttlecock-in-motion-step-5.jpg",
+      "step_name": "Ink and fill the flight colors",
+      "visible_job": "Thickens the existing black contours and adds coral, cyan, and yellow marker fills with directional streaks and paper highlights.",
+      "introduces": [
+        "coral cork, cyan feather, and yellow band fills"
+      ],
+      "requires_prior_elements": [
+        "rounded cork cap and diagonal center axis",
+        "flared conical feather skirt",
+        "exactly six broad feather vanes and shafts",
+        "one binding band, six root spokes, and six feather-tip notches",
+        "two speed arcs and small oval shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Snap the shuttlecock into focus",
+    "asset": "assets/badminton-shuttlecock-in-motion-finished-v1.jpg",
+    "visible_job": "Reinforces existing black lines, evens the established marker fills, and sharpens the six feathers, binding band, root spokes, two speed arcs, and shadow without adding new structure.",
+    "allowed_changes": [
+      "keeper-outline thickening",
+      "second-pass marker fill inside existing color areas",
+      "small highlight cleanup inside established forms",
+      "slight deepening of the existing oval shadow"
+    ]
+  },
+  "rejection_checks": [
+    "Exactly six feather vanes must remain visible from step 3 through the final.",
+    "The cork, skirt, feather count, binding band, six root spokes, two speed arcs, and shadow may not drift or disappear.",
+    "No face, lettering, sticker border, badge frame, racket, hand, net, or extra sports prop may appear.",
+    "Color must appear before the finished panel and stay inside existing shapes.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final must show handmade marker streaks rather than vector-clean fills."
+  ]
+}

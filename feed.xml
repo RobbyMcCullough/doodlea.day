@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a badminton shuttlecock in motion</title>
+      <link>https://doodlea.day/tutorials/badminton-shuttlecock-in-motion.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/badminton-shuttlecock-in-motion.html</guid>
+      <pubDate>Thu, 23 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a badminton shuttlecock in motion with a rounded cork, flared skirt, six broad feathers, root spokes, a binding band, notched tips, speed arcs, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/badminton-shuttlecock-in-motion-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a comic ray gun</title>
       <link>https://doodlea.day/tutorials/comic-ray-gun.html</link>
@@ -518,6 +526,14 @@
       <pubDate>Wed, 20 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a fire hydrant with a domed cap, cylindrical body, two ringed side nozzles, wide base flange, four visible bolts, three water drops, thick black outlines, and bright felt-tip marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-fire-hydrant-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a harmonica</title>
+      <link>https://doodlea.day/tutorials/cartoon-harmonica.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-harmonica.html</guid>
+      <pubDate>Tue, 19 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a harmonica with a rounded three-quarter body, layered cover plates, two end caps, eight mouth holes, two screws, two cover seams, three sound arcs, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-harmonica-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

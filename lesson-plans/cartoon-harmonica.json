@@ -1,0 +1,128 @@
+{
+  "slug": "cartoon-harmonica",
+  "finished": "assets/cartoon-harmonica-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one face-free harmonica from pale box construction to a bold marker finish.",
+    "notes": "The same three-quarter view, rounded body, eight mouth holes, two end caps, two screws, three sound arcs, and shadow must persist after introduction."
+  },
+  "process_strategy": "Build one low rounded box, reserve both end caps, divide the mouth edge into exactly eight holes before inking, then add hardware, sound, saturated marker fill, and final line weight without changing the perspective.",
+  "final_elements": [
+    {
+      "name": "low rounded harmonica body and center axis",
+      "introduced_by_step": 1,
+      "description": "A long low box with rounded corners tilted gently from lower left toward upper right."
+    },
+    {
+      "name": "top and bottom cover plates with two end caps",
+      "introduced_by_step": 2,
+      "description": "Two layered cover-plate bands and one compact cap at each end of the body."
+    },
+    {
+      "name": "exactly eight rectangular mouth holes",
+      "introduced_by_step": 3,
+      "description": "Eight evenly spaced dark openings along the near mouth edge."
+    },
+    {
+      "name": "two round screws and two cover seams",
+      "introduced_by_step": 4,
+      "description": "One screw near each end plus two short seams across the established top cover plate."
+    },
+    {
+      "name": "three sound arcs and oval shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly three curved sound strokes above one end and one shallow oval shadow below the instrument."
+    },
+    {
+      "name": "raspberry, cyan, yellow, and cool-gray marker fills",
+      "introduced_by_step": 5,
+      "description": "Directional saturated fills with narrow white paper highlight gaps inside established shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-harmonica-step-1.jpg",
+      "step_name": "Block the low music box",
+      "visible_job": "Uses a center axis and pale rounded box to set the harmonica's long three-quarter body and reserves the two end-cap footprints.",
+      "introduces": [
+        "low rounded harmonica body and center axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-harmonica-step-2.jpg",
+      "step_name": "Layer the covers and end caps",
+      "visible_job": "Adds the top and bottom cover plates plus one compact end cap at each end of the established body.",
+      "introduces": [
+        "top and bottom cover plates with two end caps"
+      ],
+      "requires_prior_elements": [
+        "low rounded harmonica body and center axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-harmonica-step-3.jpg",
+      "step_name": "Divide eight mouth holes",
+      "visible_job": "Places exactly eight rectangular openings in one even row along the near edge between the two established end caps.",
+      "introduces": [
+        "exactly eight rectangular mouth holes"
+      ],
+      "requires_prior_elements": [
+        "low rounded harmonica body and center axis",
+        "top and bottom cover plates with two end caps"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-harmonica-step-4.jpg",
+      "step_name": "Add hardware and a bright note",
+      "visible_job": "Adds two round screws, two short cover seams, exactly three sound arcs, and one shallow oval shadow to the established instrument.",
+      "introduces": [
+        "two round screws and two cover seams",
+        "three sound arcs and oval shadow"
+      ],
+      "requires_prior_elements": [
+        "low rounded harmonica body and center axis",
+        "top and bottom cover plates with two end caps",
+        "exactly eight rectangular mouth holes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-harmonica-step-5.jpg",
+      "step_name": "Ink and color the harmonica",
+      "visible_job": "Thickens the existing black contours and fills the established cover, mouth, cap, hole, screw, sound, and shadow shapes with bright streaked marker color.",
+      "introduces": [
+        "raspberry, cyan, yellow, and cool-gray marker fills"
+      ],
+      "requires_prior_elements": [
+        "low rounded harmonica body and center axis",
+        "top and bottom cover plates with two end caps",
+        "exactly eight rectangular mouth holes",
+        "two round screws and two cover seams",
+        "three sound arcs and oval shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Play up the bold finish",
+    "asset": "assets/cartoon-harmonica-finished-v1.jpg",
+    "visible_job": "Reinforces existing black lines, evens the established marker fills, and sharpens the eight holes, two caps, screws, seams, sound arcs, highlights, and shadow without adding new structure.",
+    "allowed_changes": [
+      "keeper-outline thickening",
+      "second-pass marker fill inside existing color areas",
+      "small highlight cleanup inside established forms",
+      "slight deepening of the existing oval shadow"
+    ]
+  },
+  "rejection_checks": [
+    "Exactly eight mouth holes must remain visible from step 3 through the final.",
+    "Both end caps, two screws, two seams, three sound arcs, and the shadow may not drift or disappear.",
+    "No face, letters, musical notes, hands, microphone, sticker border, badge frame, or extra instrument may appear.",
+    "Color must appear before the finished panel and stay inside existing shapes.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final must show handmade marker streaks rather than vector-clean fills."
+  ]
+}

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-22
+- Date: 2026-07-23
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-21 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-22 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,25 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-23 daily automation added current `badminton-shuttlecock-in-motion`
+  (July 23 / Day 066) and honest archive `cartoon-harmonica` (May 19 /
+  Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The face-free shuttlecock preserves exactly six cyan feathers, six
+  root spokes, one binding band, two speed arcs, and one oval shadow; the
+  face-free harmonica preserves exactly eight mouth holes, two end caps, two
+  screws, two cover seams, three sound arcs, and one violet shadow.
+  Finished-image ratings: shuttlecock 9.4/10 for its strong six-feather fan,
+  lively diagonal, bright handmade marker texture, and exact cumulative count;
+  harmonica 9.5/10 for its instant readability, eight-hole rhythm, coherent
+  perspective, saturated fills, and unusually clean process continuity.
+- July 23 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no broken visible lesson images, horizontal overflow, clipped H1s, invalid
+  JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-22 daily automation added current `comic-ray-gun` (July 22 /
   Day 064) and honest archive `cartoon-fire-hydrant` (May 20 / Day 001).
   Both use reviewed six-panel handmade raster marker contact sheets, cropped
