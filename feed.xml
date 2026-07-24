@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon dragon head</title>
+      <link>https://doodlea.day/tutorials/cartoon-dragon-head.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-dragon-head.html</guid>
+      <pubDate>Fri, 24 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon dragon head in side profile with two swept horns, a narrow eye and heavy brow, a flared nostril, an open three-fang grin, one pointed ear, three cheek spikes, four neck plates, thick black outlines, and earthy marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-dragon-head-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a badminton shuttlecock in motion</title>
       <link>https://doodlea.day/tutorials/badminton-shuttlecock-in-motion.html</link>
@@ -534,6 +542,14 @@
       <pubDate>Tue, 19 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a harmonica with a rounded three-quarter body, layered cover plates, two end caps, eight mouth holes, two screws, two cover seams, three sound arcs, thick black outlines, and bright marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-harmonica-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a soft pretzel</title>
+      <link>https://doodlea.day/tutorials/cartoon-pretzel.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-pretzel.html</guid>
+      <pubDate>Mon, 18 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a soft pretzel with one continuous dough rope, two upper openings, one lower opening, a clear over-under crossing, two bake creases, eight coarse salt grains, a shallow shadow, thick black outlines, and natural marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-pretzel-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

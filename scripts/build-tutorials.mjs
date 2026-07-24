@@ -18,8 +18,64 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-dragon-head",
+    day: "068",
+    date: "Friday, July 24",
+    isoDate: "2026-07-24",
+    subject: "a cartoon dragon head",
+    headlineSubject: "a cartoon<br>dragon head",
+    shortSubject: "a dragon head",
+    lessonTitle: "Let's draw a cartoon dragon head",
+    description: "Learn how to draw a cartoon dragon head in side profile with two swept horns, a narrow eye and heavy brow, a flared nostril, an open three-fang grin, one pointed ear, three cheek spikes, four neck plates, thick black outlines, and earthy marker color.",
+    intro: "Build one bold dragon around a head oval, muzzle wedge, neck sweep, and two horn axes, then aim a sly side-eye before adding spikes, plates, and earthy marker fills. The useful challenge is keeping the long muzzle and horn angles related while the one-eyed profile stays expressive instead of slipping into a default cute face.",
+    time: 20,
+    difficulty: "Challenge",
+    accent: "#b85538",
+    finished: "cartoon-dragon-head-finished-v1.jpg",
+    finishedAlt: "Handmade marker drawing of one right-facing cartoon dragon head with terracotta skin, exactly two swept warm-cream horns with black segment lines, one pointed ear with moss-green inner shape, exactly one narrow almond eye and forward pupil beneath one heavy slanted brow, one flared nostril, an asymmetrical open black grin with exactly three cream fangs, exactly three cheek spikes, exactly four moss-green neck plates, thick imperfect black outlines, visible marker streaks, and warm paper gaps",
+    materials: ["Pencil and eraser", "Drawing paper", "Black and earthy colored markers"],
+    materialNote: "Use pencil for the head, muzzle, jaw, neck, two horns, expression, ear, three spikes, four plates, and mouth, then outline with black marker and fill the established shapes with terracotta, moss green, and warm cream.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the dragon profile", text: "Place one pale head oval, a long right-facing muzzle wedge, a curved neck sweep, an eye line, and exactly two swept-back horn axes.", tip: "Ghost the muzzle edge and neck curve before touching down. Compare the open wedge between the horn axes and keep both horn-base footprints free of skull detail that would later be covered." },
+      { name: "Build the horned silhouette", text: "Wrap the guides with the outer head, muzzle, open lower jaw, curved neck, and exactly two complete horn contours in the same profile.", tip: "Rotate the page for the long jaw edge and pull it in one confident pass. Stop hidden skull lines at the horn bases instead of drawing through them." },
+      { name: "Aim the sly dragon expression", text: "Add one narrow almond eye and forward pupil under a heavy slanted brow, one flared nostril, and an asymmetrical open side grin with exactly three fangs.", tip: "Tilt the brow against the eye rather than mirroring it, then leave uneven mouth corners. That combination of eye, brow, nostril, and three-fang grin creates a sly expression without dot eyes or a U-smile." },
+      { name: "Add spikes and neck armor", text: "Add one pointed ear behind the jaw hinge, exactly three cheek spikes, exactly four broad neck plates, and one simple tongue-free inner-mouth shape.", tip: "Mark all three spike tips and four plate breaks lightly before inking. Compare their negative spaces so the repeating shapes feel lively rather than mechanically even." },
+      { name: "Ink the earthy dragon colors", text: "Thicken every established keeper line, fill the skin terracotta, the four plates and inner ear moss green, both horns and all three fangs warm cream, and the eye and mouth black.", tip: "Pull terracotta strokes along the muzzle and neck curves, then let them dry before reinforcing black edges. Leave small paper gaps in the fills instead of adding glossy white highlights later." },
+      { name: "Wake up the dragon finish", text: "Strengthen the keeper outlines and clarify the established two horns, sly eye and brow, nostril, three-fang grin, ear, three cheek spikes, four neck plates, earthy fills, and marker streaks.", tip: "Count two horns, three fangs, three cheek spikes, and four plates, then stop. You can change the earthy colors or spike sizes in your own version, but wings, flames, a full body, a sticker edge, or a badge frame would make a different lesson.", image: true }
+    ]
+  },
+  {
+    slug: "cartoon-pretzel",
+    day: "001",
+    date: "Monday, May 18",
+    isoDate: "2026-05-18",
+    subject: "a soft pretzel",
+    headlineSubject: "a soft<br>pretzel",
+    shortSubject: "a soft pretzel",
+    lessonTitle: "Let's draw a soft pretzel",
+    description: "Learn how to draw a soft pretzel with one continuous dough rope, two upper openings, one lower opening, a clear over-under crossing, two bake creases, eight coarse salt grains, a shallow shadow, thick black outlines, and natural marker color.",
+    intro: "Map one classic pretzel from a broad belly curve, two loop guides, and a single center crossing, then turn that route into a thick continuous dough rope before adding salt and toasted color. This honest archive lesson is a newly made overlap exercise, not a claim about earlier visitors, comments, activity, or popularity.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#a96025",
+    finished: "cartoon-pretzel-finished-v1.jpg",
+    finishedAlt: "Handmade face-free marker drawing of one classic soft pretzel centered front-on with one continuous toasted-caramel dough rope, exactly two upper openings and one lower opening, a clear central over-under crossing, two tapered arms, exactly two dark-umber bake creases on the lower belly, exactly eight irregular warm-cream salt grains, thick imperfect black outlines, visible natural-brown marker streaks and paper gaps, and one small broken black-gray oval shadow",
+    materials: ["Pencil and eraser", "Drawing paper", "Black and natural-brown colored markers"],
+    materialNote: "Use pencil for the belly curve, two loops, central crossing, continuous dough rope, three openings, bake creases, eight salt grains, and shadow, then outline with black marker and fill with toasted caramel, dark umber, and warm cream.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the belly and two loops", text: "Place one pale broad belly curve, exactly two upper loop ovals, and one central crossing map for the continuous pretzel path.", tip: "Ghost both loop ovals before touching down and compare the two heart-shaped gaps above the crossing. Keep the center pale so the over-under order can still be adjusted." },
+      { name: "Wrap one thick dough rope", text: "Build one continuous rounded dough band around the guides, preserving exactly two upper openings and one lower opening.", tip: "Keep the rope thickness close to the width of your fingertip throughout. Squint and compare all three openings instead of tracing the outer edge alone." },
+      { name: "Set the over-under knot", text: "Clarify the central over-under line breaks, taper the two upper arms where they land on the belly, and add exactly two shallow bake creases to the lower arc.", tip: "Choose the arm that passes on top, darken only its visible edges, and stop the hidden arm cleanly underneath. Two crisp line breaks explain the knot better than extra contour lines." },
+      { name: "Scatter salt and ground the shape", text: "Add exactly eight irregular salt shapes across the established dough and one small broken oval shadow beneath the pretzel.", tip: "Place the first four salt grains far apart, then use the remaining four to balance empty areas. Vary their angles and sizes so they feel sprinkled rather than stamped." },
+      { name: "Ink the toasted pretzel colors", text: "Thicken all established keeper lines, fill the dough toasted caramel, add dark-umber baked edges and overlap accents, color all eight salt grains warm cream, and fill the shadow black-gray.", tip: "Pull marker strokes around the loop direction instead of straight across the dough. Leave a few paper gaps in the brown fill and let it dry before reinforcing the black edge." },
+      { name: "Toast the bold finish", text: "Strengthen the keeper outlines and clarify the established continuous rope, three openings, knot breaks, two bake creases, eight salt grains, natural marker fills, paper gaps, and shadow.", tip: "Count two upper openings, one lower opening, two creases, and eight salt grains, then stop. You can vary the salt placement or brown tones, but a face, plate, mustard, dipping sauce, sticker edge, or badge frame would make a different lesson.", image: true }
+    ]
+  },
+  {
     slug: "badminton-shuttlecock-in-motion",
-    day: "066",
+    day: "067",
     date: "Thursday, July 23",
     isoDate: "2026-07-23",
     subject: "a badminton shuttlecock in motion",
@@ -47,7 +103,7 @@ const lessons = [
   },
   {
     slug: "cartoon-harmonica",
-    day: "001",
+    day: "002",
     date: "Tuesday, May 19",
     isoDate: "2026-05-19",
     subject: "a harmonica",
@@ -75,7 +131,7 @@ const lessons = [
   },
   {
     slug: "comic-ray-gun",
-    day: "065",
+    day: "066",
     date: "Wednesday, July 22",
     isoDate: "2026-07-22",
     subject: "a comic ray gun",
@@ -103,7 +159,7 @@ const lessons = [
   },
   {
     slug: "cartoon-fire-hydrant",
-    day: "002",
+    day: "003",
     date: "Wednesday, May 20",
     isoDate: "2026-05-20",
     subject: "a fire hydrant",
@@ -131,7 +187,7 @@ const lessons = [
   },
   {
     slug: "cartoon-scissors",
-    day: "064",
+    day: "065",
     date: "Tuesday, July 21",
     isoDate: "2026-07-21",
     subject: "a pair of scissors",
@@ -159,7 +215,7 @@ const lessons = [
   },
   {
     slug: "cartoon-camping-tent",
-    day: "003",
+    day: "004",
     date: "Thursday, May 21",
     isoDate: "2026-05-21",
     subject: "a camping tent",
@@ -187,7 +243,7 @@ const lessons = [
   },
   {
     slug: "cartoon-chess-knight",
-    day: "063",
+    day: "064",
     date: "Monday, July 20",
     isoDate: "2026-07-20",
     subject: "a chess knight",
@@ -215,7 +271,7 @@ const lessons = [
   },
   {
     slug: "cartoon-jellyfish",
-    day: "004",
+    day: "005",
     date: "Friday, May 22",
     isoDate: "2026-05-22",
     subject: "a jellyfish",
@@ -243,7 +299,7 @@ const lessons = [
   },
   {
     slug: "cartoon-ice-cream-truck",
-    day: "062",
+    day: "063",
     date: "Sunday, July 19",
     isoDate: "2026-07-19",
     subject: "an ice-cream truck",
@@ -271,7 +327,7 @@ const lessons = [
   },
   {
     slug: "angel-halo-with-wings",
-    day: "005",
+    day: "006",
     date: "Saturday, May 23",
     isoDate: "2026-05-23",
     subject: "an angel halo with wings",
@@ -299,7 +355,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cowboy-hat",
-    day: "061",
+    day: "062",
     date: "Saturday, July 18",
     isoDate: "2026-07-18",
     subject: "a cowboy hat",
@@ -327,7 +383,7 @@ const lessons = [
   },
   {
     slug: "bowling-ball-and-pins",
-    day: "006",
+    day: "007",
     date: "Sunday, May 24",
     isoDate: "2026-05-24",
     subject: "a bowling ball and pins",
@@ -355,7 +411,7 @@ const lessons = [
   },
   {
     slug: "cartoon-thumbs-up-hand",
-    day: "060",
+    day: "061",
     date: "Friday, July 17",
     isoDate: "2026-07-17",
     subject: "a cartoon thumbs-up hand",
@@ -383,7 +439,7 @@ const lessons = [
   },
   {
     slug: "comic-tornado-swirl",
-    day: "007",
+    day: "008",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "a comic tornado swirl",
@@ -411,7 +467,7 @@ const lessons = [
   },
   {
     slug: "cartoon-rattlesnake",
-    day: "059",
+    day: "060",
     date: "Thursday, July 16",
     isoDate: "2026-07-16",
     subject: "a cartoon rattlesnake",
@@ -439,7 +495,7 @@ const lessons = [
   },
   {
     slug: "cartoon-yo-yo-in-motion",
-    day: "008",
+    day: "009",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a cartoon yo-yo in motion",
@@ -467,7 +523,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cow-face",
-    day: "058",
+    day: "059",
     date: "Wednesday, July 15",
     isoDate: "2026-07-15",
     subject: "a cartoon cow face",
@@ -495,7 +551,7 @@ const lessons = [
   },
   {
     slug: "cartoon-claw-hammer",
-    day: "009",
+    day: "010",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a cartoon claw hammer",
@@ -523,7 +579,7 @@ const lessons = [
   },
   {
     slug: "cartoon-rocket-ship",
-    day: "057",
+    day: "058",
     date: "Tuesday, July 14",
     isoDate: "2026-07-14",
     subject: "a cartoon rocket ship",
@@ -551,7 +607,7 @@ const lessons = [
   },
   {
     slug: "cartoon-roller-skate",
-    day: "010",
+    day: "011",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a cartoon roller skate",
@@ -579,7 +635,7 @@ const lessons = [
   },
   {
     slug: "cartoon-boombox",
-    day: "056",
+    day: "057",
     date: "Monday, July 13",
     isoDate: "2026-07-13",
     subject: "a cartoon boombox",
@@ -607,7 +663,7 @@ const lessons = [
   },
   {
     slug: "cartoon-superhero-mask",
-    day: "011",
+    day: "012",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a cartoon superhero mask",
@@ -635,7 +691,7 @@ const lessons = [
   },
   {
     slug: "comic-sun-with-sunglasses",
-    day: "012",
+    day: "013",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a comic sun with sunglasses",
@@ -663,7 +719,7 @@ const lessons = [
   },
   {
     slug: "cartoon-treasure-chest",
-    day: "055",
+    day: "056",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a cartoon treasure chest",
@@ -691,7 +747,7 @@ const lessons = [
   },
   {
     slug: "cartoon-surfboard",
-    day: "054",
+    day: "055",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a cartoon surfboard",
@@ -717,7 +773,7 @@ const lessons = [
   },
   {
     slug: "cartoon-popcorn-bucket",
-    day: "013",
+    day: "014",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a cartoon popcorn bucket",
@@ -743,7 +799,7 @@ const lessons = [
   },
   {
     slug: "soccer-whistle",
-    day: "052",
+    day: "053",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a soccer whistle",
@@ -796,7 +852,7 @@ const lessons = [
   },
   {
     slug: "cartoon-french-fries",
-    day: "053",
+    day: "054",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "cartoon french fries",
@@ -849,7 +905,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pencil-shavings",
-    day: "014",
+    day: "015",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a cartoon pencil with shavings",
@@ -902,7 +958,7 @@ const lessons = [
   },
   {
     slug: "cartoon-toothbrush",
-    day: "016",
+    day: "017",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a cartoon toothbrush",
@@ -955,7 +1011,7 @@ const lessons = [
   },
   {
     slug: "magic-wand-sparkle",
-    day: "017",
+    day: "018",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a magic wand sparkle",
@@ -1008,7 +1064,7 @@ const lessons = [
   },
   {
     slug: "bowl-of-macaroni",
-    day: "050",
+    day: "051",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a bowl of macaroni",
@@ -1061,7 +1117,7 @@ const lessons = [
   },
   {
     slug: "cartoon-alarm-clock",
-    day: "051",
+    day: "052",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cartoon alarm clock",
@@ -1114,7 +1170,7 @@ const lessons = [
   },
   {
     slug: "cartoon-stapler",
-    day: "015",
+    day: "016",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a cartoon stapler",
@@ -1167,7 +1223,7 @@ const lessons = [
   },
   {
     slug: "cartoon-magnifying-glass-doodle",
-    day: "018",
+    day: "019",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a cartoon magnifying glass",
@@ -1220,7 +1276,7 @@ const lessons = [
   },
   {
     slug: "fried-chicken-drumstick-doodle",
-    day: "049",
+    day: "050",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "a fried chicken drumstick",
@@ -1273,7 +1329,7 @@ const lessons = [
   },
   {
     slug: "cartoon-pool-float-doodle",
-    day: "019",
+    day: "020",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a cartoon pool float doodle",
@@ -1326,7 +1382,7 @@ const lessons = [
   },
   {
     slug: "graham-cracker-smore-doodle",
-    day: "048",
+    day: "049",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     updated: "2026-07-06",
@@ -1380,7 +1436,7 @@ const lessons = [
   },
   {
     slug: "cartoon-cactus-sticker",
-    day: "020",
+    day: "021",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a cartoon cactus sticker",
@@ -1433,7 +1489,7 @@ const lessons = [
   },
   {
     slug: "beach-bucket-doodle",
-    day: "021",
+    day: "022",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a beach bucket doodle",
@@ -1486,7 +1542,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-doodle",
-    day: "022",
+    day: "023",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a parade drum doodle",
@@ -1539,7 +1595,7 @@ const lessons = [
   },
   {
     slug: "comic-firecracker-doodle",
-    day: "046",
+    day: "047",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a comic firecracker doodle",
@@ -1592,7 +1648,7 @@ const lessons = [
   },
   {
     slug: "cartoon-barbecue-grill-doodle",
-    day: "047",
+    day: "048",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a cartoon barbecue grill doodle",
@@ -1645,7 +1701,7 @@ const lessons = [
   },
   {
     slug: "beach-umbrella-badge",
-    day: "023",
+    day: "024",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a beach umbrella badge",
@@ -1698,7 +1754,7 @@ const lessons = [
   },
   {
     slug: "red-white-blue-popsicle-badge",
-    day: "024",
+    day: "025",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a red white and blue popsicle badge",
@@ -1751,7 +1807,7 @@ const lessons = [
   },
   {
     slug: "cartoon-paint-splat-doodle",
-    day: "025",
+    day: "026",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cartoon paint splat doodle",
@@ -1804,7 +1860,7 @@ const lessons = [
   },
   {
     slug: "sunscreen-bottle-sticker",
-    day: "045",
+    day: "046",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a sunscreen bottle sticker",
@@ -1857,7 +1913,7 @@ const lessons = [
   },
   {
     slug: "bubble-letter-wow-doodle",
-    day: "026",
+    day: "027",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a bubble-letter WOW doodle",
@@ -1910,7 +1966,7 @@ const lessons = [
   },
   {
     slug: "whoopee-cushion-sticker",
-    day: "044",
+    day: "045",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a whoopee cushion sticker",
@@ -1963,7 +2019,7 @@ const lessons = [
   },
   {
     slug: "retro-arcade-joystick-sticker",
-    day: "027",
+    day: "028",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a retro arcade joystick sticker",
@@ -2016,7 +2072,7 @@ const lessons = [
   },
   {
     slug: "cartoon-asteroid-doodle",
-    day: "043",
+    day: "044",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a cartoon asteroid doodle",
@@ -2069,7 +2125,7 @@ const lessons = [
   },
   {
     slug: "comic-chat-bubble-doodle",
-    day: "028",
+    day: "029",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a comic chat bubble doodle",
@@ -2122,7 +2178,7 @@ const lessons = [
   },
   {
     slug: "smiling-envelope-sticker",
-    day: "029",
+    day: "030",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a smiling envelope sticker",
@@ -2175,7 +2231,7 @@ const lessons = [
   },
   {
     slug: "comic-camera-flash-doodle",
-    day: "042",
+    day: "043",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a comic camera flash doodle",
@@ -2228,7 +2284,7 @@ const lessons = [
   },
   {
     slug: "cassette-tape-sticker",
-    day: "041",
+    day: "042",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a cassette tape sticker doodle",
@@ -2281,7 +2337,7 @@ const lessons = [
   },
   {
     slug: "skateboard-sticker-doodle",
-    day: "040",
+    day: "041",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a skateboard sticker doodle",
@@ -2334,7 +2390,7 @@ const lessons = [
   },
   {
     slug: "cartoon-coconut-drink",
-    day: "039",
+    day: "040",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a cartoon coconut drink doodle",
@@ -2387,7 +2443,7 @@ const lessons = [
   },
   {
     slug: "smiling-pizza-slice-doodle",
-    day: "038",
+    day: "039",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a smiling pizza slice doodle",
@@ -2440,7 +2496,7 @@ const lessons = [
   },
   {
     slug: "hot-rod-marker-flames",
-    day: "037",
+    day: "038",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "hot rod marker flames",
@@ -2493,7 +2549,7 @@ const lessons = [
   },
   {
     slug: "firework-burst-doodle",
-    day: "036",
+    day: "037",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a firework burst doodle",
@@ -2546,7 +2602,7 @@ const lessons = [
   },
   {
     slug: "trophy-cup-sticker",
-    day: "035",
+    day: "036",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
@@ -2599,7 +2655,7 @@ const lessons = [
   },
   {
     slug: "goofy-monster-face",
-    day: "032",
+    day: "033",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a goofy monster face",
@@ -2652,7 +2708,7 @@ const lessons = [
   },
   {
     slug: "rainbow-lightning-bolt-badge",
-    day: "030",
+    day: "031",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a rainbow lightning bolt badge",
@@ -2705,7 +2761,7 @@ const lessons = [
   },
   {
     slug: "smiling-cloud-doodle",
-    day: "031",
+    day: "032",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a smiling cloud doodle",
@@ -2758,7 +2814,7 @@ const lessons = [
   },
   {
     slug: "watermelon-wedge-doodle",
-    day: "033",
+    day: "034",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a watermelon wedge doodle",
@@ -2811,7 +2867,7 @@ const lessons = [
   },
   {
     slug: "silly-robot-head",
-    day: "034",
+    day: "035",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a silly robot head",

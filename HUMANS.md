@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-23
+- Date: 2026-07-24
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-22 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-23 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,30 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-24 daily automation added current `cartoon-dragon-head` (July 24 /
+  Day 068) and honest archive `cartoon-pretzel` (May 18 / Day 001). Both use
+  reviewed six-panel handmade raster marker contact sheets, cropped JPG
+  masters, WebP derivatives, social cards, and explicit process plans. The
+  approved dragon sheet repairs the first generation's rear-horn color drift
+  and preserves two cream horns, a sly eye and brow, one flared nostril, and
+  exactly three fangs. The face-free pretzel preserves one continuous
+  over-under dough rope and exactly eight salt grains. Finished-image ratings:
+  dragon 9.5/10 for its readable profile, non-default expression, earthy
+  handmade marker texture, and strong tutorial continuity; pretzel 9.2/10 for
+  its instant readability, stable knot construction, natural palette, and
+  simple teachable finish.
+- July 24 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove's expired certificate blocked
+  the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844 used the
+  documented localhost fallback. Homepage, library, and tutorial checks found
+  no horizontal overflow, broken loaded lesson images, missing alt text,
+  invalid JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- The required 1Password-backed push stopped at `sign_and_send_pubkey: ...
+  communication with agent failed`. The reviewed lesson commit remains local;
+  authorize 1Password and retry through the same socket without switching
+  agents or transports.
 - 2026-07-23 daily automation added current `badminton-shuttlecock-in-motion`
   (July 23 / Day 066) and honest archive `cartoon-harmonica` (May 19 /
   Day 001). Both use reviewed six-panel handmade raster marker contact sheets,

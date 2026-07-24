@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-pretzel",
+  "finished": "assets/cartoon-pretzel-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade raster marker contact sheet showing one consistent face-free soft pretzel from pale loop construction to a bold natural-color marker finish.",
+    "notes": "The archive palette lane is natural/observational: toasted caramel, dark umber, warm cream, and black only—no cyan, raspberry, bright yellow, violet shadow, glossy white highlights, sticker border, or badge frame. The same continuous rope path, two upper openings, one lower opening, overlap order, eight salt grains, and crop must persist."
+  },
+  "process_strategy": "Map the pretzel as a broad belly curve, two upper loop guides, and a central crossing, turn that map into one continuous thick dough rope with explicit over-under breaks, add the salt and small ground cues, then ink and color only established forms before the final cleanup.",
+  "final_elements": [
+    {
+      "name": "belly curve, two loop guides, and center crossing map",
+      "introduced_by_step": 1,
+      "description": "One broad lower U-shaped belly, exactly two upper loop ovals, and one pale X-like crossing that fixes the classic pretzel route."
+    },
+    {
+      "name": "continuous thick pretzel rope and three openings",
+      "introduced_by_step": 2,
+      "description": "One unbroken rounded dough band surrounding exactly two upper openings and one lower opening."
+    },
+    {
+      "name": "over-under knot breaks, tapered arms, and two bake creases",
+      "introduced_by_step": 3,
+      "description": "Clear line breaks at the central crossing, two tapered upper arms that land on the belly, and two shallow bake creases on the lower arc."
+    },
+    {
+      "name": "eight salt grains and shallow oval shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly eight irregular warm-cream salt shapes spaced across the dough and one small broken oval shadow beneath it."
+    },
+    {
+      "name": "thick black outline with caramel, umber, and cream marker fills",
+      "introduced_by_step": 5,
+      "description": "Handmade black keeper lines, toasted-caramel dough, dark-umber baked edges and overlap accents, warm-cream salt, and visible marker streaks with paper gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pretzel-step-1.jpg",
+      "step_name": "Map the belly and two loops",
+      "visible_job": "Places one pale broad belly curve, exactly two upper loop ovals, and one central crossing map for the continuous pretzel path.",
+      "introduces": [
+        "belly curve, two loop guides, and center crossing map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pretzel-step-2.jpg",
+      "step_name": "Wrap one thick dough rope",
+      "visible_job": "Builds one continuous rounded dough band around the guides, preserving exactly two upper openings and one lower opening.",
+      "introduces": [
+        "continuous thick pretzel rope and three openings"
+      ],
+      "requires_prior_elements": [
+        "belly curve, two loop guides, and center crossing map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pretzel-step-3.jpg",
+      "step_name": "Set the over-under knot",
+      "visible_job": "Clarifies the central over-under line breaks, tapers the two upper arms where they land on the belly, and adds two shallow bake creases to the existing lower arc.",
+      "introduces": [
+        "over-under knot breaks, tapered arms, and two bake creases"
+      ],
+      "requires_prior_elements": [
+        "continuous thick pretzel rope and three openings"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pretzel-step-4.jpg",
+      "step_name": "Scatter salt and ground the shape",
+      "visible_job": "Adds exactly eight irregular salt shapes across the established dough and one small broken oval shadow beneath the pretzel.",
+      "introduces": [
+        "eight salt grains and shallow oval shadow"
+      ],
+      "requires_prior_elements": [
+        "continuous thick pretzel rope and three openings",
+        "over-under knot breaks, tapered arms, and two bake creases"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-pretzel-step-5.jpg",
+      "step_name": "Ink the toasted pretzel colors",
+      "visible_job": "Thickens all established keeper lines and fills the dough toasted caramel, its baked edges and overlap accents dark umber, the eight salt grains warm cream, and the shadow black-gray.",
+      "introduces": [
+        "thick black outline with caramel, umber, and cream marker fills"
+      ],
+      "requires_prior_elements": [
+        "continuous thick pretzel rope and three openings",
+        "over-under knot breaks, tapered arms, and two bake creases",
+        "eight salt grains and shallow oval shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Toast the bold finish",
+    "asset": "assets/cartoon-pretzel-finished-v1.jpg",
+    "visible_job": "Only strengthens the established black outline, crossing breaks, bake creases, eight salt shapes, natural marker fills, and shallow shadow while preserving visible streaks and paper gaps.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "toasted-caramel and dark-umber fill deepening inside established dough shapes",
+      "small dark accents at established overlaps and shadow",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The pretzel must remain one face-free continuous dough rope with the same route, scale, crop, and overlap order in every panel.",
+    "Exactly two upper openings, one lower opening, two bake creases, and eight salt grains must persist after their introduction.",
+    "Every contour, crossing break, crease, salt shape, shadow, and color area must appear before the final panel.",
+    "Reject a face, plate, dipping sauce, mustard line, text, sticker border, badge frame, decorative burst, or extra food prop.",
+    "Reject cyan, raspberry, bright yellow, violet shadows, glossy white shine, gradients, clean vector icon art, or polished poster rendering."
+  ]
+}

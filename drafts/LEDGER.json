@@ -59,6 +59,9 @@
     "cartoon-cowboy-hat": {
       "status": "published"
     },
+    "cartoon-dragon-head": {
+      "status": "published"
+    },
     "cartoon-fire-hydrant": {
       "status": "published",
       "date": "2026-07-22",
@@ -94,6 +97,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "cartoon-pretzel": {
+      "status": "published",
+      "date": "2026-05-18",
+      "note": "Published from the reviewed July 24 six-panel marker contact sheet as an honest archive lesson."
     },
     "cartoon-rattlesnake": {
       "status": "published",

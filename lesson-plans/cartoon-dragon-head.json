@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-dragon-head",
+  "finished": "assets/cartoon-dragon-head-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel handmade raster marker contact sheet showing one consistent right-facing cartoon dragon head from pale construction to a bold earthy-marker finish.",
+    "notes": "The current palette lane is earthy/retro: terracotta, moss green, warm cream, and black only—no cyan, raspberry, bright yellow, violet shadow, glossy white highlights, sticker border, or badge frame. The expression uses one narrow almond eye, a heavy slanted brow ridge, a flared nostril, and an asymmetrical open side grin with exactly three fangs. The original v1 sheet is retained privately because its final panel changed the rear horn from cream to terracotta; the approved repair keeps both horns cream."
+  },
+  "process_strategy": "Lock the head oval, muzzle wedge, neck sweep, and two horn axes first, build the same side-profile silhouette around them, add the non-default expression and exact spike/plate counts, then ink and color only established shapes before the finishing panel.",
+  "final_elements": [
+    {
+      "name": "head oval, muzzle wedge, neck sweep, and two horn axes",
+      "introduced_by_step": 1,
+      "description": "A right-facing head-and-neck construction with one long muzzle wedge and exactly two swept-back horn guides."
+    },
+    {
+      "name": "outer head, muzzle, jaw, neck, and two horns",
+      "introduced_by_step": 2,
+      "description": "One chunky dragon profile with an open lower jaw, curved neck, and exactly two swept horns anchored to the skull."
+    },
+    {
+      "name": "narrow eye, slanted brow, flared nostril, side grin, and three fangs",
+      "introduced_by_step": 3,
+      "description": "One narrow almond eye with forward pupil beneath a heavy angled brow, one flared nostril, and an asymmetrical open grin containing exactly three cream fangs."
+    },
+    {
+      "name": "pointed ear, three cheek spikes, four neck plates, and inner mouth",
+      "introduced_by_step": 4,
+      "description": "One pointed ear behind the jaw hinge, exactly three cheek spikes, exactly four broad plates down the neck, and a simple tongue-free inner mouth shape."
+    },
+    {
+      "name": "thick black outline with terracotta, moss, and cream marker fills",
+      "introduced_by_step": 5,
+      "description": "Handmade black keeper lines, terracotta skin, moss-green neck plates and inner ear, warm-cream horns and fangs, and visible marker streaks with paper gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-dragon-head-step-1.jpg",
+      "step_name": "Map the dragon profile",
+      "visible_job": "Places one pale head oval, long right-facing muzzle wedge, curved neck sweep, eye line, and exactly two swept-back horn axes.",
+      "introduces": [
+        "head oval, muzzle wedge, neck sweep, and two horn axes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-dragon-head-step-2.jpg",
+      "step_name": "Build the horned silhouette",
+      "visible_job": "Wraps the guides with the outer head, muzzle, open lower jaw, curved neck, and exactly two complete horn contours while preserving the same profile.",
+      "introduces": [
+        "outer head, muzzle, jaw, neck, and two horns"
+      ],
+      "requires_prior_elements": [
+        "head oval, muzzle wedge, neck sweep, and two horn axes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-dragon-head-step-3.jpg",
+      "step_name": "Aim the sly dragon expression",
+      "visible_job": "Adds one narrow almond eye and forward pupil under a heavy slanted brow, one flared nostril, and an asymmetrical open side grin with exactly three fangs.",
+      "introduces": [
+        "narrow eye, slanted brow, flared nostril, side grin, and three fangs"
+      ],
+      "requires_prior_elements": [
+        "outer head, muzzle, jaw, neck, and two horns"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-dragon-head-step-4.jpg",
+      "step_name": "Add spikes and neck armor",
+      "visible_job": "Adds one pointed ear, exactly three cheek spikes, exactly four broad neck plates, and the simple inner mouth shape on the established head.",
+      "introduces": [
+        "pointed ear, three cheek spikes, four neck plates, and inner mouth"
+      ],
+      "requires_prior_elements": [
+        "outer head, muzzle, jaw, neck, and two horns",
+        "narrow eye, slanted brow, flared nostril, side grin, and three fangs"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-dragon-head-step-5.jpg",
+      "step_name": "Ink the earthy dragon colors",
+      "visible_job": "Thickens every established keeper line and fills the existing skin, plates, ear, horns, fangs, eye, and mouth with terracotta, moss green, warm cream, and black marker texture.",
+      "introduces": [
+        "thick black outline with terracotta, moss, and cream marker fills"
+      ],
+      "requires_prior_elements": [
+        "outer head, muzzle, jaw, neck, and two horns",
+        "narrow eye, slanted brow, flared nostril, side grin, and three fangs",
+        "pointed ear, three cheek spikes, four neck plates, and inner mouth"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Wake up the dragon finish",
+    "asset": "assets/cartoon-dragon-head-finished-v1.jpg",
+    "visible_job": "Only strengthens the established black outline, sly expression, spike and plate separations, and earthy marker fills while preserving visible streaks and paper gaps.",
+    "allowed_changes": [
+      "keeper outline thickening",
+      "terracotta, moss-green, and warm-cream fill deepening inside established shapes",
+      "small black shadow accents inside the established mouth and overlaps",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The dragon must remain one right-facing head with the same profile, horn angles, neck crop, and scale in every panel.",
+    "Exactly two horns, three fangs, three cheek spikes, and four neck plates must persist after their introduction.",
+    "Reject a default two-dot-eye and U-smile face; the approved expression requires one narrow eye with a forward pupil, a heavy slanted brow, a flared nostril, and an asymmetrical open side grin.",
+    "Every contour, facial feature, spike, plate, mouth shape, and color area must appear before the final panel.",
+    "Reject cyan, raspberry, bright yellow, violet shadows, glossy white shine, gradients, sticker borders, badge frames, clean vector icon art, text, labels, wings, flames, full body, or scenery."
+  ]
+}
