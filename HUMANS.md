@@ -82,6 +82,12 @@
   communication with agent failed`. The reviewed lesson commit remains local;
   authorize 1Password and retry through the same socket without switching
   agents or transports.
+- Deployment follow-up completed at 2026-07-24 10:18 PDT after 1Password was
+  authorized. Lesson commit `19cc95b` pushed through the required socket;
+  DigitalOcean workflow `30112398400` passed, including IndexNow. Both live
+  tutorials return HTTP 200, the homepage features `cartoon-dragon-head`, both
+  finished WebP checksums match the reviewed local files, and clean local
+  `main` matches `origin/main`.
 - 2026-07-23 daily automation added current `badminton-shuttlecock-in-motion`
   (July 23 / Day 066) and honest archive `cartoon-harmonica` (May 19 /
   Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
