@@ -1,0 +1,124 @@
+{
+  "slug": "cartoon-ladybug-in-flight",
+  "finished": "assets/cartoon-ladybug-in-flight-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent face-free ladybug taking off, progressing from pale pencil construction to thick felt-tip outlines and natural red, black, cream, and mustard marker color.",
+    "notes": "The process must keep one diagonal top-down pose with two red wing cases, two pale flight wings, exactly six legs, two antennae, and seven spots. No eyes, mouth, sticker outline, badge frame, text, or final-only feature is allowed."
+  },
+  "process_strategy": "Lock the ladybug on one diagonal body axis, establish the spread wing-case and flight-wing silhouette before adding counts and accents, then ink and color only already visible shapes so the final remains a cumulative marker drawing.",
+  "final_elements": [
+    {
+      "name": "diagonal head, thorax, abdomen, and spread-wing guides",
+      "introduced_by_step": 1,
+      "description": "One face-free ladybug construction on a diagonal axis with a small head, thorax, abdomen, two parted wing-case lobes, and two pale flight-wing envelopes."
+    },
+    {
+      "name": "six leg axes and two antenna routes",
+      "introduced_by_step": 1,
+      "description": "Exactly six bent leg guides and two short curved antenna routes attached to the body construction."
+    },
+    {
+      "name": "complete taking-off silhouette",
+      "introduced_by_step": 2,
+      "description": "The head, thorax, two spread wing cases, two visible flight wings, six bent legs, and two antennae wrapped around the guides."
+    },
+    {
+      "name": "seven wing-case spots and flight-wing veins",
+      "introduced_by_step": 3,
+      "description": "Exactly seven uneven circular spots across the two red wing cases plus a few simple vein lines inside the pale flight wings."
+    },
+    {
+      "name": "two takeoff arcs and one shallow shadow",
+      "introduced_by_step": 4,
+      "description": "Two curved mustard action arcs behind the ladybug and one broken warm-gray oval shadow beneath it."
+    },
+    {
+      "name": "thick black outline and natural marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, brick-red wing cases, black head and spots, cream flight wings, mustard action arcs, warm-gray shadow, visible marker streaks, and paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-ladybug-in-flight-step-1.jpg",
+      "step_name": "Aim the takeoff guides",
+      "visible_job": "Places the diagonal body axis, head, thorax, abdomen, two spread wing-case envelopes, two flight-wing envelopes, six leg axes, and two antenna routes.",
+      "introduces": [
+        "diagonal head, thorax, abdomen, and spread-wing guides",
+        "six leg axes and two antenna routes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-ladybug-in-flight-step-2.jpg",
+      "step_name": "Shape the flying ladybug",
+      "visible_job": "Wraps the guides with the face-free head, thorax, two spread wing cases, two pale flight wings, six bent legs, and two curved antennae.",
+      "introduces": [
+        "complete taking-off silhouette"
+      ],
+      "requires_prior_elements": [
+        "diagonal head, thorax, abdomen, and spread-wing guides",
+        "six leg axes and two antenna routes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-ladybug-in-flight-step-3.jpg",
+      "step_name": "Dot the wing cases",
+      "visible_job": "Adds exactly seven uneven spots across the two established wing cases and simple vein lines inside the two existing flight wings.",
+      "introduces": [
+        "seven wing-case spots and flight-wing veins"
+      ],
+      "requires_prior_elements": [
+        "complete taking-off silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-ladybug-in-flight-step-4.jpg",
+      "step_name": "Add the takeoff motion",
+      "visible_job": "Adds two curved action arcs behind the ladybug and one shallow broken shadow beneath the established flying silhouette, then clarifies the existing leg joints and overlaps.",
+      "introduces": [
+        "two takeoff arcs and one shallow shadow"
+      ],
+      "requires_prior_elements": [
+        "complete taking-off silhouette",
+        "seven wing-case spots and flight-wing veins"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-ladybug-in-flight-step-5.jpg",
+      "step_name": "Ink and color the ladybug",
+      "visible_job": "Thickens every established contour and fills the wing cases brick red, head and spots black, flight wings cream, action arcs mustard, and shadow warm gray while leaving paper streaks.",
+      "introduces": [
+        "thick black outline and natural marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete taking-off silhouette",
+        "seven wing-case spots and flight-wing veins",
+        "two takeoff arcs and one shallow shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Lift off with the final lines",
+    "asset": "assets/cartoon-ladybug-in-flight-finished-v1.jpg",
+    "visible_job": "Only strengthens the established thick outlines, wing and leg overlaps, seven spots, flight-wing veins, natural marker fills, paper highlights, action arcs, and shadow.",
+    "allowed_changes": [
+      "keeper outline strengthening",
+      "marker-fill evening inside existing shapes",
+      "small overlap clarifications",
+      "restrained paper highlight cleanup",
+      "minor shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "The same face-free ladybug, diagonal angle, scale, wing positions, and body proportions must persist in all six panels.",
+    "Exactly two wing cases, two flight wings, six legs, two antennae, and seven spots must appear before the final panel and persist through the finish.",
+    "No eyes, mouth, smile, sticker outline, badge frame, text, extra insect, or scenery may appear in any panel.",
+    "The finish must show handmade marker streaks and imperfect outlines rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

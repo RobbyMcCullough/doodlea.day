@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-toaster-popping-toast",
+  "finished": "assets/cartoon-toaster-popping-toast-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent face-free retro toaster with two toast slices popping upward, progressing from pale pencil construction to thick felt-tip outlines and a restrained mustard, toast-brown, paprika, and charcoal palette.",
+    "notes": "The process must keep one stable three-quarter view with a rounded toaster housing, two reserved toast footprints, one slot, one lever, two controls, three visible feet, three action rays, and one shadow. No eyes, mouth, lettering, sticker edge, badge frame, labels, or final-only feature is allowed."
+  },
+  "process_strategy": "Reserve both toast-slice footprints above the slot in the first frame, build the toaster around those overlaps, add hardware and popping motion before color, then ink and fill only already established shapes so the final remains a cumulative marker drawing.",
+  "final_elements": [
+    {
+      "name": "three-quarter toaster guides and two toast reserves",
+      "introduced_by_step": 1,
+      "description": "One low rounded toaster-box construction with a top plane and slot axis, plus exactly two overlapping toast-slice footprints reserved above the slot."
+    },
+    {
+      "name": "complete toaster and toast silhouette",
+      "introduced_by_step": 2,
+      "description": "The rounded toaster housing, top slot, exactly two popping toast slices, and three visible small feet wrapped around the guides."
+    },
+    {
+      "name": "lever and two front controls",
+      "introduced_by_step": 3,
+      "description": "One side lever with a paprika-red handle, one round browning dial, one small rectangular cancel button, a top-slot lip, and simple toaster seams."
+    },
+    {
+      "name": "toast crusts, three popping rays, and one shadow",
+      "introduced_by_step": 4,
+      "description": "Dark toast crusts and a few crumb marks on both slices, exactly three short action rays above them, and one broken charcoal-gray oval shadow beneath the toaster."
+    },
+    {
+      "name": "thick black outline and restrained marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, muted mustard toaster housing, toast-brown bread, paprika lever handle, charcoal controls and shadow, visible marker streaks, and paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-toaster-popping-toast-step-1.jpg",
+      "step_name": "Block the toaster and toast",
+      "visible_job": "Places the rounded three-quarter toaster box, top-plane and slot axes, exactly two toast-slice footprints, a lever reserve, two control reserves, three visible foot positions, and a shallow shadow guide.",
+      "introduces": [
+        "three-quarter toaster guides and two toast reserves"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-toaster-popping-toast-step-2.jpg",
+      "step_name": "Shape the breakfast silhouette",
+      "visible_job": "Wraps the guides with the rounded toaster housing, top slot, exactly two popping toast slices, and three visible small feet while preserving the same three-quarter view.",
+      "introduces": [
+        "complete toaster and toast silhouette"
+      ],
+      "requires_prior_elements": [
+        "three-quarter toaster guides and two toast reserves"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-toaster-popping-toast-step-3.jpg",
+      "step_name": "Add the toaster controls",
+      "visible_job": "Adds one side lever, one round browning dial, one small rectangular cancel button, the top-slot lip, and simple housing seams to the established silhouette.",
+      "introduces": [
+        "lever and two front controls"
+      ],
+      "requires_prior_elements": [
+        "complete toaster and toast silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-toaster-popping-toast-step-4.jpg",
+      "step_name": "Toast the bread and show the pop",
+      "visible_job": "Adds crusts and a few crumb marks to both toast slices, exactly three short popping rays above them, and one broken oval shadow beneath the established toaster.",
+      "introduces": [
+        "toast crusts, three popping rays, and one shadow"
+      ],
+      "requires_prior_elements": [
+        "complete toaster and toast silhouette",
+        "lever and two front controls"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-toaster-popping-toast-step-5.jpg",
+      "step_name": "Ink the warm breakfast colors",
+      "visible_job": "Thickens every established contour and fills the toaster muted mustard, both slices toast brown, the lever handle paprika, the controls charcoal, and the shadow warm gray while leaving paper streaks.",
+      "introduces": [
+        "thick black outline and restrained marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete toaster and toast silhouette",
+        "lever and two front controls",
+        "toast crusts, three popping rays, and one shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Pop the final lines into focus",
+    "asset": "assets/cartoon-toaster-popping-toast-finished-v1.jpg",
+    "visible_job": "Only strengthens the established thick outlines, toast overlaps, slot lip, lever, two controls, crusts, crumb marks, three popping rays, restrained marker fills, paper highlights, and shadow.",
+    "allowed_changes": [
+      "keeper outline strengthening",
+      "marker-fill evening inside existing shapes",
+      "small overlap clarifications",
+      "restrained paper highlight cleanup",
+      "minor shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "The same face-free toaster, three-quarter angle, scale, toast positions, and proportions must persist in all six panels.",
+    "Exactly two toast slices, three visible feet, one lever, one round dial, one rectangular button, three popping rays, and one shadow must appear before the final panel and persist through the finish.",
+    "No eyes, mouth, face, lettering, plate, butter, extra food, sticker outline, badge frame, text, or scenery may appear in any panel.",
+    "The finish must show handmade marker streaks and imperfect outlines rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

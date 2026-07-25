@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-24
+- Date: 2026-07-25
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-23 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-24 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,30 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-25 daily automation added current `cartoon-ladybug-in-flight`
+  (July 25 / Day 070) and honest archive `cartoon-toaster-popping-toast`
+  (May 17 / Day 001). Both use reviewed six-panel handmade raster marker
+  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
+  explicit process plans. The approved face-free ladybug sheet repairs and
+  privately preserves two rejected extra-spot variants, then keeps exactly
+  seven wing-case spots from the spot frame onward; the toaster keeps two
+  toast slices, one lever, two controls, three visible feet, three popping
+  rays, and a restrained mustard/toast/paprika/charcoal palette. Finished
+  image ratings: ladybug 9.4/10 for its lively airborne silhouette, natural
+  marker texture, exact counts, and clear overlaps; toaster 9.6/10 for its
+  unusually legible three-quarter construction, disciplined warm palette,
+  tactile finish, and excellent cumulative process.
+- July 25 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no horizontal overflow, clipped H1s, broken visible images, invalid JSON-LD,
+  console errors, or public lab links. The temporary two-tutorial-per-site
+  backfill cadence remains active.
+- The reviewed July 25 lesson commit is local only. Its required
+  1Password-backed push stopped at `sign_and_send_pubkey: ... communication
+  with agent failed`; authorize 1Password and retry through the same socket
+  without switching agents or transports.
 - 2026-07-24 daily automation added current `cartoon-dragon-head` (July 24 /
   Day 068) and honest archive `cartoon-pretzel` (May 18 / Day 001). Both use
   reviewed six-panel handmade raster marker contact sheets, cropped JPG

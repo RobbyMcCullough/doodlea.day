@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon ladybug in flight</title>
+      <link>https://doodlea.day/tutorials/cartoon-ladybug-in-flight.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-ladybug-in-flight.html</guid>
+      <pubDate>Sat, 25 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon ladybug in flight with two spread wing cases, two pale flight wings, six bent legs, two antennae, seven spots, wing veins, takeoff arcs, thick black outlines, and natural marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-ladybug-in-flight-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon dragon head</title>
       <link>https://doodlea.day/tutorials/cartoon-dragon-head.html</link>
@@ -550,6 +558,14 @@
       <pubDate>Mon, 18 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a soft pretzel with one continuous dough rope, two upper openings, one lower opening, a clear over-under crossing, two bake creases, eight coarse salt grains, a shallow shadow, thick black outlines, and natural marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-pretzel-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a toaster popping toast</title>
+      <link>https://doodlea.day/tutorials/cartoon-toaster-popping-toast.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-toaster-popping-toast.html</guid>
+      <pubDate>Sun, 17 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a retro toaster popping toast with a rounded three-quarter body, two toast slices, a top slot, side lever, browning dial, cancel button, popping rays, thick black outlines, and warm marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-toaster-popping-toast-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
