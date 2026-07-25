@@ -78,10 +78,12 @@
   no horizontal overflow, clipped H1s, broken visible images, invalid JSON-LD,
   console errors, or public lab links. The temporary two-tutorial-per-site
   backfill cadence remains active.
-- The reviewed July 25 lesson commit is local only. Its required
-  1Password-backed push stopped at `sign_and_send_pubkey: ... communication
-  with agent failed`; authorize 1Password and retry through the same socket
-  without switching agents or transports.
+- Deployment follow-up completed at 2026-07-25 11:23 PDT after 1Password was
+  authorized. Lesson commit `7ac231c` pushed through the required socket;
+  DigitalOcean workflow `30169471202` passed, including IndexNow. Both live
+  tutorials return HTTP 200, the homepage features
+  `cartoon-ladybug-in-flight`, both finished WebP checksums match the reviewed
+  local files, and clean local `main` matches `origin/main`.
 - 2026-07-24 daily automation added current `cartoon-dragon-head` (July 24 /
   Day 068) and honest archive `cartoon-pretzel` (May 18 / Day 001). Both use
   reviewed six-panel handmade raster marker contact sheets, cropped JPG
