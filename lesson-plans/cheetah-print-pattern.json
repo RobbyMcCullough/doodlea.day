@@ -1,0 +1,115 @@
+{
+  "slug": "cheetah-print-pattern",
+  "finished": "assets/cheetah-print-pattern-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent cheetah-print pattern progressing from pale pencil rhythm guides to thick black felt-tip spots and natural golden-ochre marker color.",
+    "notes": "The process must keep the same full-page crop of irregular solid cheetah spots. Cheetah markings are solid spots, never leopard-style rosettes. The lesson draws only the pattern, not an animal, sticker, badge, fabric product, border, face, text, or final-only motif. A first generated sheet with rosettes is preserved privately and rejected for species inaccuracy."
+  },
+  "process_strategy": "Establish one diagonal pattern flow and every large solid-spot position before inking or coloring, then add smaller filler spots, varied black marker weights, and natural marker fill cumulatively so the final only evens existing marks.",
+  "final_elements": [
+    {
+      "name": "diagonal flow guides and motif centers",
+      "introduced_by_step": 1,
+      "description": "Three faint sweeping diagonal rhythm bands with varied centers for the larger solid spots across the same square crop."
+    },
+    {
+      "name": "large irregular solid-spot shapes",
+      "introduced_by_step": 2,
+      "description": "A loose field of uneven round, oval, and slightly angular solid-spot outlines distributed along the guides without rings or open centers."
+    },
+    {
+      "name": "small filler spots and clipped edge spots",
+      "introduced_by_step": 3,
+      "description": "Smaller solid-spot outlines in the remaining negative spaces plus a few partial spots clipped naturally by the crop edges."
+    },
+    {
+      "name": "thick black marker spot weights",
+      "introduced_by_step": 4,
+      "description": "Handmade thick black felt-tip fill inside every established large, small, and edge-clipped spot while preserving uneven hand-drawn edges."
+    },
+    {
+      "name": "golden-ochre and warm-tan marker color",
+      "introduced_by_step": 5,
+      "description": "Golden-ochre marker around the black spots with broad warm-tan variation, visible directional streaks, and small intentional paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cheetah-print-pattern-step-1.jpg",
+      "step_name": "Map the pattern flow",
+      "visible_job": "Places three pale diagonal rhythm bands and varied centers for the larger solid spots across one fixed square crop.",
+      "introduces": [
+        "diagonal flow guides and motif centers"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cheetah-print-pattern-step-2.jpg",
+      "step_name": "Shape the large solid spots",
+      "visible_job": "Builds uneven round, oval, and slightly angular spot outlines around the established motif centers, with no rings or open rosette centers.",
+      "introduces": [
+        "large irregular solid-spot shapes"
+      ],
+      "requires_prior_elements": [
+        "diagonal flow guides and motif centers"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cheetah-print-pattern-step-3.jpg",
+      "step_name": "Fill the open spaces",
+      "visible_job": "Adds smaller solid-spot outlines in the open spaces and a few partial spots clipped by the crop edges without moving the established large spots.",
+      "introduces": [
+        "small filler spots and clipped edge spots"
+      ],
+      "requires_prior_elements": [
+        "large irregular solid-spot shapes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cheetah-print-pattern-step-4.jpg",
+      "step_name": "Ink the spot rhythm",
+      "visible_job": "Fills every existing large, small, and edge-clipped spot with imperfect black felt-tip weight while preserving irregular hand-drawn edges.",
+      "introduces": [
+        "thick black marker spot weights"
+      ],
+      "requires_prior_elements": [
+        "large irregular solid-spot shapes",
+        "small filler spots and clipped edge spots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cheetah-print-pattern-step-5.jpg",
+      "step_name": "Sweep in the cheetah color",
+      "visible_job": "Pulls golden-ochre and warm-tan marker strokes around the existing black motifs, following the diagonal flow and leaving small paper highlight gaps.",
+      "introduces": [
+        "golden-ochre and warm-tan marker color"
+      ],
+      "requires_prior_elements": [
+        "thick black marker spot weights"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Balance the wild pattern",
+    "asset": "assets/cheetah-print-pattern-finished-v1.jpg",
+    "visible_job": "Only strengthens the established black solid spots, golden-ochre and warm-tan fills, diagonal rhythm, and intentional paper gaps.",
+    "allowed_changes": [
+      "keeper outline strengthening",
+      "black marker-fill evening inside existing motifs",
+      "natural marker-fill evening around existing motifs",
+      "small negative-space clarifications",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same square crop, diagonal flow, motif positions, and spacing must persist in all six panels.",
+    "Every large, small, and edge-clipped solid spot must appear before the final panel and persist through the finish; no ringed or open-center leopard rosette is allowed.",
+    "No animal, face, fabric product, sticker outline, badge frame, decorative border, text, extra motif, or final-only color area may appear.",
+    "The finish must show handmade marker streaks and irregular spot edges rather than seamless digital texture or clean vector-pattern polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-25
+- Date: 2026-07-26
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-24 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-25 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,30 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-26 daily automation added current `cheetah-print-pattern`
+  (July 26 / Day 072) and honest archive `cartoon-padlock-and-key` (May 16 /
+  Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The corrected cheetah sheet privately preserves a rejected
+  leopard-rosette v1, then keeps accurate solid irregular spots and a natural
+  ochre marker fill through the finish; the face-free lock lesson keeps one
+  key, one lock, keyhole, two screws, two shackle collars, side band, glints,
+  and limited teal/mustard/brick color stable. Finished image ratings: cheetah
+  pattern 9.2/10 for species-correct marks, handmade marker texture, and clear
+  pattern logic; padlock and key 9.6/10 for instant readability, excellent
+  overlap planning, disciplined color, and a strong cumulative sequence.
+- July 26 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove's expired certificate
+  blocked the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844
+  used the documented localhost fallback. Homepage, library, and both
+  tutorials had no horizontal overflow, clipped H1s, broken loaded images,
+  missing alt text, invalid JSON-LD, console errors, or public lab links. The
+  temporary two-tutorial-per-site backfill cadence remains active.
+- The required 1Password-backed push stopped at `sign_and_send_pubkey: ...
+  communication with agent failed`. The reviewed July 26 lesson commit remains
+  local; authorize 1Password and retry through the same socket without
+  switching agents or transports.
 - 2026-07-25 daily automation added current `cartoon-ladybug-in-flight`
   (July 25 / Day 070) and honest archive `cartoon-toaster-popping-toast`
   (May 17 / Day 001). Both use reviewed six-panel handmade raster marker

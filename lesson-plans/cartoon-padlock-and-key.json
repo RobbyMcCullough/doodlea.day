@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-padlock-and-key",
+  "finished": "assets/cartoon-padlock-and-key-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent face-free padlock and key progressing from pale pencil construction to thick felt-tip outlines and a restrained teal, mustard, brick-red, and charcoal marker palette.",
+    "notes": "The process must keep one chunky three-quarter padlock with one arched shackle, one keyhole, two corner screws, one separate diagonal key crossing the lower body, two paired-ray comic glint groups, and one shadow. No face, text, logo, sticker outline, badge frame, floating extra key, or final-only feature is allowed."
+  },
+  "process_strategy": "Reserve the diagonal key footprint across the lower lock body in the first frame, build only the visible lock structure around that overlap, then add the keyhole, screws, hardware, glints, shadow, thick outline, and limited marker color cumulatively.",
+  "final_elements": [
+    {
+      "name": "padlock body, shackle, key, and shadow construction",
+      "introduced_by_step": 1,
+      "description": "One pale rounded three-quarter body block, thick arched shackle route, diagonal key footprint crossing the lower body, and shallow oval shadow guide."
+    },
+    {
+      "name": "complete padlock-and-key silhouette",
+      "introduced_by_step": 2,
+      "description": "The rounded body, inner and outer shackle edges, side plane, separate key with round bow, center hole, shaft, and simple two-step teeth wrapped around the guides."
+    },
+    {
+      "name": "keyhole, two corner screws, side band, and shackle joints",
+      "introduced_by_step": 3,
+      "description": "One centered keyhole, exactly two visible corner screws, one side band, and two shackle joint collars on the established lock."
+    },
+    {
+      "name": "two paired-ray comic glint groups and one oval shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly two small paired-ray angular glint groups around the lock and one broken charcoal oval shadow beneath the padlock and key."
+    },
+    {
+      "name": "thick black outline and limited marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, deep teal lock body, mustard shackle and key, brick-red side band, charcoal shadow, visible marker streaks, and small paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-padlock-and-key-step-1.jpg",
+      "step_name": "Block the lock and key",
+      "visible_job": "Places the pale rounded three-quarter lock body, thick arched shackle route, diagonal key footprint across the lower body, and shallow shadow guide.",
+      "introduces": [
+        "padlock body, shackle, key, and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-padlock-and-key-step-2.jpg",
+      "step_name": "Shape the secure silhouette",
+      "visible_job": "Wraps the guides with the rounded lock body, side plane, inner and outer shackle edges, and one separate diagonal key with round bow, center hole, shaft, and two-step teeth.",
+      "introduces": [
+        "complete padlock-and-key silhouette"
+      ],
+      "requires_prior_elements": [
+        "padlock body, shackle, key, and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-padlock-and-key-step-3.jpg",
+      "step_name": "Add the lock hardware",
+      "visible_job": "Adds one centered keyhole, exactly two visible corner screws, one side band, and two shackle joint collars to the established lock.",
+      "introduces": [
+        "keyhole, two corner screws, side band, and shackle joints"
+      ],
+      "requires_prior_elements": [
+        "complete padlock-and-key silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-padlock-and-key-step-4.jpg",
+      "step_name": "Set the comic glints and shadow",
+      "visible_job": "Adds exactly two paired-ray angular glint groups around the lock and one broken oval shadow beneath the existing padlock and key, then clarifies the key overlap.",
+      "introduces": [
+        "two paired-ray comic glint groups and one oval shadow"
+      ],
+      "requires_prior_elements": [
+        "complete padlock-and-key silhouette",
+        "keyhole, two corner screws, side band, and shackle joints"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-padlock-and-key-step-5.jpg",
+      "step_name": "Ink and color the hardware",
+      "visible_job": "Thickens every established contour and fills the lock body deep teal, shackle and key mustard, side band brick red, and shadow charcoal while leaving visible paper streaks.",
+      "introduces": [
+        "thick black outline and limited marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete padlock-and-key silhouette",
+        "keyhole, two corner screws, side band, and shackle joints",
+        "two paired-ray comic glint groups and one oval shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Click the finish into place",
+    "asset": "assets/cartoon-padlock-and-key-finished-v1.jpg",
+    "visible_job": "Only strengthens the established thick outlines, lock-and-key overlap, keyhole, screws, band, shackle joints, two paired-ray glint groups, limited marker fills, paper highlights, and oval shadow.",
+    "allowed_changes": [
+      "keeper outline strengthening",
+      "marker-fill evening inside existing shapes",
+      "small overlap clarifications",
+      "restrained paper highlight cleanup",
+      "minor shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "The same face-free padlock, three-quarter angle, scale, shackle proportions, diagonal key position, and overlap must persist in all six panels.",
+    "One padlock, one key, one keyhole, two corner screws, two shackle joints, two paired-ray glint groups, and one shadow must appear before the final panel and persist.",
+    "No face, smile, floating extra key, text, logo, sticker outline, badge frame, new hardware, accent, shadow, or color area may first appear in the final panel.",
+    "The finish must show handmade marker streaks and imperfect outlines rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cheetah-print pattern</title>
+      <link>https://doodlea.day/tutorials/cheetah-print-pattern.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cheetah-print-pattern.html</guid>
+      <pubDate>Sun, 26 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cheetah-print pattern using diagonal flow guides, varied large and small solid spots, edge-clipped marks, thick black felt-tip fill, natural golden-ochre and warm-tan marker color, visible streaks, and intentional paper gaps.</description>
+      <media:content url="https://doodlea.day/assets/cheetah-print-pattern-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon ladybug in flight</title>
       <link>https://doodlea.day/tutorials/cartoon-ladybug-in-flight.html</link>
@@ -566,6 +574,14 @@
       <pubDate>Sun, 17 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a retro toaster popping toast with a rounded three-quarter body, two toast slices, a top slot, side lever, browning dial, cancel button, popping rays, thick black outlines, and warm marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-toaster-popping-toast-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a padlock and key</title>
+      <link>https://doodlea.day/tutorials/cartoon-padlock-and-key.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-padlock-and-key.html</guid>
+      <pubDate>Sat, 16 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a padlock and key using a rounded three-quarter body, arched shackle, diagonal key overlap, keyhole, screws, joint collars, comic glints, thick black outlines, limited teal, mustard, and brick-red marker fills, and a charcoal shadow.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-padlock-and-key-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

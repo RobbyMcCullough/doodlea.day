@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://doodlea.day/</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doodlea.day/about.html</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://doodlea.day/library.html</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cheetah-print-pattern.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://doodlea.day/tutorials/cartoon-ladybug-in-flight.html</loc>
@@ -1696,6 +1720,30 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-toaster-popping-toast-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://doodlea.day/tutorials/cartoon-padlock-and-key.html</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-padlock-and-key-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>
