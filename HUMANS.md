@@ -58,6 +58,19 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-27 owner caught a second gaze-sequence issue in the revised
+  `cheetah-print-pattern` cub: step 4 still contained iris-like curves that
+  implied the earlier wrong direction. A targeted raster repair now leaves
+  both step-4 eye openings blank; step 5 is the first frame to add both pupils,
+  aimed toward the page's right. The superseded v3 sheet/panel are preserved
+  under `drafts/cheetah-print-pattern/eye-guide-shift-v3/`, and the approved v4
+  source, sheet, and crop live under
+  `drafts/cheetah-print-pattern/gaze-sequence-repair-v4/`. The finished image is
+  unchanged at 9.7/10. Full readiness passed, and direct Cove QA at 1440x1000
+  and 390x844 confirmed the corrected visual sequence, specific copy, all 13
+  tutorial images loaded, valid JSON-LD, no broken images or console errors,
+  no horizontal overflow, and no public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-27 owner caught a gaze-continuity error in the revised
   `cheetah-print-pattern` cub: step 5 introduced both pupils toward the image's
   left, while steps 6, 7, and the finish looked toward the image's right. A
