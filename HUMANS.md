@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-26
+- Date: 2026-07-27
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-25 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-26 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,30 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-27 daily automation added current `comic-ocean-wave`
+  (July 27 / Day 074) and honest archive `cartoon-jack-in-the-box` (May 15 /
+  Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The wave repair preserves its base-foam guide before crop and keeps
+  exactly three flow bands and three droplets in a limited navy/sea-green
+  palette. The jack keeps one wink, one sideways eye, one raised brow, an
+  off-center grin with exactly two teeth, one crank, and two motion arcs in a
+  soft-retro cobalt/coral/butter palette. Finished-image ratings: wave 9.4/10
+  for its bold readable silhouette, disciplined palette, visible marker
+  streaks, and teachable curl; jack 9.6/10 for its distinctive expression,
+  stable three-quarter overlap, strong character, and coherent process.
+- July 27 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove's expired certificate
+  blocked the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844
+  used the documented localhost fallback. Homepage, library, and both
+  tutorials had no horizontal overflow, clipped H1s, broken loaded images,
+  invalid JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- Lesson commit `d5de647` is local and validated. The required
+  1Password-backed push stopped at `agent refused operation`; no alternate
+  agent or transport was used. Authorize 1Password and retry through the same
+  socket. Deployment and live checksum proof remain pending.
 - 2026-07-26 daily automation added current `cheetah-print-pattern`
   (July 26 / Day 072) and honest archive `cartoon-padlock-and-key` (May 16 /
   Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
