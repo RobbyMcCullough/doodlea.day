@@ -48,7 +48,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-finished-v1.webp</image:loc>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-finished-v2.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-1.webp</image:loc>
@@ -64,6 +64,12 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-5.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-6.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cheetah-print-pattern-step-7.webp</image:loc>
     </image:image>
   </url>
   <url>

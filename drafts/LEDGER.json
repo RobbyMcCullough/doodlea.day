@@ -173,8 +173,8 @@
     },
     "cheetah-print-pattern": {
       "status": "published",
-      "date": "2026-07-26",
-      "note": "Reviewed solid-spot cheetah-print process promoted as the July 26 current lesson after the first leopard-rosette sheet was rejected and preserved privately; crop, process-plan, delivery-image, JSON-LD, link, and step-delta checks passed."
+      "date": "2026-07-27",
+      "note": "Owner-directed July 26 correction replaced the simple full-page pattern with a reviewed eight-panel cartoon cheetah cub process. The former published sheet and JPG masters remain private under drafts/cheetah-print-pattern/simple-pattern-v1/; the v2 sequence passed visual, cumulative-process, expression, solid-spot, tear-stripe, toe-mark, derivative, and readiness review."
     },
     "comic-camera-flash-doodle": {
       "status": "published"
@@ -256,6 +256,11 @@
     },
     "soccer-whistle": {
       "status": "published"
+    },
+    "squirtle": {
+      "status": "rejected-quality",
+      "date": "2026-07-27",
+      "note": "No raster output was saved. Two built-in image-generation attempts for the owner-requested Squirtle archive lesson were blocked by output moderation, so publishing stopped rather than substituting vector-style or mismatched art. The process plan remains available for an explicitly authorized raster API/CLI fallback."
     },
     "sunscreen-bottle-sticker": {
       "status": "published"

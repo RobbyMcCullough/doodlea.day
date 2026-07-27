@@ -58,6 +58,29 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-27 owner selected the richer option 2 correction for the July 26
+  `cheetah-print-pattern` lesson: it remains Day 073 / July 26, but now teaches
+  a cheeky cartoon cheetah cub peeking over a ledge in eight cumulative marker
+  panels. The original flat pattern lesson and its approved sheet are preserved
+  privately under `drafts/cheetah-print-pattern/simple-pattern-v1/`; public art
+  now uses `finished-v2` plus seven setup frames.
+- The replacement scored 9.7/10 for immediate subject readability, asymmetric
+  personality, species-specific solid spots and tear stripes, handmade marker
+  texture, convincing paw/ledge overlap, and an attainable process. Contact
+  sheet and crop review confirmed one stable pose, exactly two paws, one canine,
+  two tear stripes, and no rosettes or late major elements. Cove desktop and
+  mobile QA scored 9.7/10: all 13 page images loaded, JSON-LD was valid, and
+  there were no console errors, public lab links, clipped headings, or horizontal
+  overflow. The temporary two-tutorial-per-site backfill cadence remains active.
+- 2026-07-27 owner-requested `squirtle` archive work is paused before art. The
+  shared lock and duplicate guard verified 2026-05-14 as the next open archive
+  date, preflight locked the slug, and `lesson-plans/squirtle.json` now records
+  a six-panel cumulative marker process. Two built-in raster generations were
+  blocked by output moderation before any image was saved, so no page, assets,
+  day-number changes, commit, push, or deployment were made. The ledger is
+  resolved as `rejected-quality`; resume only if the owner explicitly approves
+  the image skill's API/CLI raster fallback. The temporary two-tutorial-per-site
+  backfill cadence remains active.
 - 2026-07-27 daily automation added current `comic-ocean-wave`
   (July 27 / Day 074) and honest archive `cartoon-jack-in-the-box` (May 15 /
   Day 001). Both use reviewed six-panel handmade raster marker contact sheets,

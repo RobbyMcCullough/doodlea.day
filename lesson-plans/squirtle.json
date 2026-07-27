@@ -1,0 +1,118 @@
+{
+  "slug": "squirtle",
+  "finished": "assets/squirtle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent handmade Squirtle fan-art drawing progressing from pale construction guides to a bold felt-tip finish in blue, cream, warm brown, red-brown, pink, and charcoal.",
+    "notes": "Keep the same three-quarter standing pose, large head, compact body, raised near hand, lowered far hand, forward near foot, visible brown shell, and curled tail throughout. The face must retain two large oval eyes looking slightly toward the raised hand, one gently lifted brow, two small nostrils, and one open angled smile with a visible tongue. No Poké Ball, logo, text, scenery, sticker outline, badge frame, signature, watermark, or final-only prop."
+  },
+  "process_strategy": "Reserve Squirtle's head, body, shell, limbs, curled tail, and ground shadow in the first frame; complete the silhouette before adding the expressive face; add the belly plates, shell divisions, and three digits on each visible hand and foot before the ink-and-color pass so the final only reinforces established marks.",
+  "final_elements": [
+    {
+      "name": "head, body, shell, limb, tail, and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Pale guides for one large round head, compact torso, visible back-shell oval, raised near arm, lowered far arm, two planted legs, one curled tail, and one broken oval ground shadow."
+    },
+    {
+      "name": "complete three-quarter Squirtle silhouette",
+      "introduced_by_step": 2,
+      "description": "One large rounded head with short cheek muzzle, compact body, two arms, two legs, visible back-shell rim, and one curled tail in the same standing three-quarter pose."
+    },
+    {
+      "name": "alert open-smile expression",
+      "introduced_by_step": 3,
+      "description": "Two large vertical oval eyes with pupils looking slightly toward the raised hand, one gently lifted brow, two small nostrils, and one open angled smile with a tongue."
+    },
+    {
+      "name": "belly plates, shell divisions, and three-digit anatomy",
+      "introduced_by_step": 4,
+      "description": "A cream belly panel divided into broad plates, a warm-brown back shell with simple segmented divisions and cream rim, and exactly three short digits on each visible hand and foot."
+    },
+    {
+      "name": "bold outline and character marker color",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip contours with medium-blue skin, cream belly and shell rim, warm-brown shell, red-brown irises, pink tongue, charcoal shadow, visible marker streaks, and small warm-paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/squirtle-step-1.jpg",
+      "step_name": "Map Squirtle's pose",
+      "visible_job": "Places the pale head circle, face axis, compact torso, back-shell oval, arm and leg gestures, curled-tail guide, and broken oval shadow in one fixed square crop.",
+      "introduces": [
+        "head, body, shell, limb, tail, and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/squirtle-step-2.jpg",
+      "step_name": "Shape the turtle silhouette",
+      "visible_job": "Wraps the guides with Squirtle's large rounded head and cheek muzzle, compact body, raised near hand, lowered far hand, two legs, visible shell rim, and one curled tail.",
+      "introduces": [
+        "complete three-quarter Squirtle silhouette"
+      ],
+      "requires_prior_elements": [
+        "head, body, shell, limb, tail, and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/squirtle-step-3.jpg",
+      "step_name": "Aim the bright expression",
+      "visible_job": "Adds two large oval eyes and offset pupils, one gently lifted brow, two small nostrils, and one open angled smile with a tongue inside the established head.",
+      "introduces": [
+        "alert open-smile expression"
+      ],
+      "requires_prior_elements": [
+        "complete three-quarter Squirtle silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/squirtle-step-4.jpg",
+      "step_name": "Divide the shell and digits",
+      "visible_job": "Adds the broad belly plates, simple back-shell divisions, cream shell-rim boundary, and exactly three short digits on each visible hand and foot.",
+      "introduces": [
+        "belly plates, shell divisions, and three-digit anatomy"
+      ],
+      "requires_prior_elements": [
+        "complete three-quarter Squirtle silhouette",
+        "alert open-smile expression"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/squirtle-step-5.jpg",
+      "step_name": "Ink and color Squirtle",
+      "visible_job": "Thickens every established contour and fills existing shapes with medium blue, cream, warm brown, red-brown, pink, and charcoal while preserving visible felt-tip streaks and paper gaps.",
+      "introduces": [
+        "bold outline and character marker color"
+      ],
+      "requires_prior_elements": [
+        "complete three-quarter Squirtle silhouette",
+        "alert open-smile expression",
+        "belly plates, shell divisions, and three-digit anatomy"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Bring the water turtle to life",
+    "asset": "assets/squirtle-finished-v1.jpg",
+    "visible_job": "Only reinforces the existing three-quarter silhouette, raised hand, curled tail, expressive face, belly plates, shell divisions, three-digit anatomy, character colors, marker texture, highlight gaps, and shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small warm-paper highlight clarifications",
+      "minor eye, smile, shell, and overlap cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same square crop, three-quarter standing pose, head-to-body proportions, raised near hand, lowered far hand, forward near foot, back shell, and curled tail must persist through all six panels.",
+    "The face must keep two large oval eyes looking slightly toward the raised hand, one gently lifted brow, two nostrils, and one open angled smile with a tongue; dot eyes, a centered U-smile, a wink, or a face change fails the expression gate.",
+    "Every visible hand and foot must keep exactly three short digits, and the belly plates, back-shell divisions, cream rim, and curled tail must appear before the ink-and-color frame.",
+    "No Poké Ball, logo, text, scenery, water splash, prop, extra character, sticker outline, badge frame, decorative outer border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
