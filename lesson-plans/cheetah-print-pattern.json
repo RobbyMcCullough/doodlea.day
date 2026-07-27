@@ -3,8 +3,8 @@
   "finished": "assets/cheetah-print-pattern-finished-v2.jpg",
   "source": {
     "type": "generated-raster-contact-sheet",
-    "description": "An eight-panel raster contact sheet showing one consistent cheeky cartoon cheetah cub peeking over a ledge, progressing from pale construction to thick felt-tip outlines, accurate solid cheetah spots, and restrained marker color.",
-    "notes": "This owner-directed correction replaces the technically accurate but underpowered full-page pattern exercise with a character-rich cub lesson. The published simple-pattern contact sheet and JPG masters are preserved privately under drafts/cheetah-print-pattern/simple-pattern-v1/. The cub must keep the same slightly tilted near-front head angle, ear tilt, ledge, two forepaws, asymmetric side-eye, raised brow, small canine, two facial tear stripes, and solid irregular spots. No leopard rosettes, full body, tail, jungle scenery, text, sticker edge, badge frame, logo, or extra prop is allowed."
+    "description": "An eight-panel repaired raster contact sheet showing one consistent cheeky cartoon cheetah cub peeking over a ledge, progressing from pale construction to thick felt-tip outlines, accurate solid cheetah spots, and restrained marker color.",
+    "notes": "This owner-directed correction replaces the technically accurate but underpowered full-page pattern exercise with a character-rich cub lesson. The published simple-pattern contact sheet and JPG masters are preserved privately under drafts/cheetah-print-pattern/simple-pattern-v1/. A second owner review caught step 5 looking in the opposite direction from steps 6 through the finish; the mismatched sheet and panel are preserved under drafts/cheetah-print-pattern/eye-direction-shift-v2/, and the canonical sheet now uses a one-panel raster repair with both pupils aimed toward the right side of the image from step 5 onward. The cub must keep the same slightly tilted near-front head angle, ear tilt, ledge, two forepaws, asymmetric side-eye, raised brow, small canine, two facial tear stripes, and solid irregular spots. No leopard rosettes, full body, tail, jungle scenery, text, sticker edge, badge frame, logo, or extra prop is allowed."
   },
   "process_strategy": "Use eight cumulative stages so the ledge occlusion, head anatomy, two paws, face, expression, species-specific tear stripes, solid spots, and color each receive a visible instructional job before the final reinforcement panel.",
   "final_elements": [
@@ -31,7 +31,7 @@
     {
       "name": "asymmetric side-eye expression paw details and neck spot anchors",
       "introduced_by_step": 5,
-      "description": "Both pupils glancing sideways, one raised curved brow, one crooked smirk, exactly three short toe marks on each established forepaw, and two small solid-spot anchors on the visible neck."
+      "description": "Both pupils glancing toward the right side of the image, one raised curved brow, one crooked smirk, exactly three short toe marks on each established forepaw, and two small solid-spot anchors on the visible neck."
     },
     {
       "name": "cheetah tear stripes and solid spot layout",
@@ -94,7 +94,7 @@
       "step": 5,
       "asset": "assets/cheetah-print-pattern-step-5.jpg",
       "step_name": "Aim the cheeky side-eye",
-      "visible_job": "Turns both pupils sideways, raises one brow, shapes one crooked smirk, adds three short toe marks to each existing paw, and places two small neck spot anchors.",
+      "visible_job": "Turns both pupils toward the right side of the image, raises one brow, shapes one crooked smirk, adds three short toe marks to each existing paw, and places two small neck spot anchors.",
       "introduces": [
         "asymmetric side-eye expression paw details and neck spot anchors"
       ],
@@ -149,7 +149,7 @@
   "rejection_checks": [
     "The same cub, near-front head angle, ear tilt, ledge, two paws, crop, and scale must persist through all eight panels.",
     "The ledge must hide the lower body from step 1 onward, its top edge must stop behind the two reserved paws, and no finished torso detail may be drawn only to disappear.",
-    "Both eye shapes, side-glancing pupils, one raised brow, one small canine, two tear stripes, six total toe marks, and every solid spot must appear before the final panel and persist through the finish.",
+    "Both eye shapes, pupils aimed toward the right side of the image from step 5 onward, one raised brow, one small canine, two tear stripes, six total toe marks, and every solid spot must appear before the final panel and persist through the finish.",
     "Every marking must be a closed irregular solid spot or one of the two facial tear stripes; no leopard rosette, open center, decorative ring, or full-page pattern field is allowed.",
     "No tail, full body, jungle scenery, text, logo, sticker edge, badge frame, extra prop, extra character, or final-only motif may appear.",
     "The finish must show handmade felt-tip edges, directional marker streaks, and warm-paper gaps rather than vector-perfect outlines, glossy gradients, or poster polish."

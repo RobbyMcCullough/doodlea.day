@@ -58,6 +58,24 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-27 owner caught a gaze-continuity error in the revised
+  `cheetah-print-pattern` cub: step 5 introduced both pupils toward the image's
+  left, while steps 6, 7, and the finish looked toward the image's right. A
+  targeted built-in raster edit changed only step 5's pupils and highlights;
+  the eye shapes, brows, face, pose, paws, construction axes, marker stage, and
+  approved finished image remain unchanged. The mismatched sheet and step are
+  preserved under `drafts/cheetah-print-pattern/eye-direction-shift-v2/`, and
+  the repaired panel plus review crops live under
+  `drafts/cheetah-print-pattern/eye-consistency-repair-v3/`.
+- The process plan and public step copy now explicitly require both pupils to
+  aim toward the right side of the page from step 5 onward. Full readiness
+  passed, including seven frame deltas, 981-image asset accounting, 165
+  internal URLs, JSON-LD, lab privacy, derivatives, and `git diff --check`.
+  Direct Cove QA at 1440x1000 and 390x844 visibly confirmed the stable gaze,
+  all 13 tutorial images loaded, and there were no broken images, console
+  errors, horizontal overflow, or public lab links. The unchanged finished
+  image remains rated 9.7/10, and the temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-27 owner selected the richer option 2 correction for the July 26
   `cheetah-print-pattern` lesson: it remains Day 073 / July 26, but now teaches
   a cheeky cartoon cheetah cub peeking over a ledge in eight cumulative marker
