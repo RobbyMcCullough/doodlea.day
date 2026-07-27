@@ -78,6 +78,11 @@
       "date": "2026-07-19",
       "note": "Reviewed six-panel ice-cream-truck process promoted after crop, service-window continuity, frame-delta, delivery-image, and visual checks."
     },
+    "cartoon-jack-in-the-box": {
+      "status": "published",
+      "date": "2026-07-27",
+      "note": "Reviewed six-panel jack-in-the-box process promoted after expression, count, crop, marker-texture, and cumulative-step checks."
+    },
     "cartoon-jellyfish": {
       "status": "published"
     },
@@ -183,6 +188,9 @@
     "comic-megaphone": {
       "status": "rejected-duplicate",
       "note": "Rejected before image generation because the July 13 cartoon boombox made the audio-device category too recent; no megaphone art was generated."
+    },
+    "comic-ocean-wave": {
+      "status": "published"
     },
     "comic-ray-gun": {
       "status": "published",

@@ -1,0 +1,118 @@
+{
+  "slug": "cartoon-jack-in-the-box",
+  "finished": "assets/cartoon-jack-in-the-box-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent handmade jack-in-the-box progressing from pale construction guides to a thick felt-tip finish in dusty cobalt, soft coral, pale butter, cream, and black.",
+    "notes": "Keep the same three-quarter box, open lid, zigzag spring, head, ruff, two-point cap, side crank, and expression throughout. The face must remain deliberately asymmetric: one crescent wink, one wide oval eye looking sideways, one raised brow, and one off-center grin with exactly two square teeth. No sticker border, badge frame, text, logo, stars, confetti, signature, or final-only prop."
+  },
+  "process_strategy": "Reserve every overlapping part around one three-quarter box before drawing the character, lock the asymmetric expression and two-tooth grin before decoration, then add the crank, broad box-panel divisions, motion arcs, bold ink, and soft-retro marker color cumulatively so the final only reinforces existing marks.",
+  "final_elements": [
+    {
+      "name": "box, lid, spring axis, and character reserves",
+      "introduced_by_step": 1,
+      "description": "A pale three-quarter cube, one open hinged lid flap, one centered zigzag spring axis, and reserved footprints for the round head, ruff, two-point cap, and side crank."
+    },
+    {
+      "name": "spring-loaded character silhouette",
+      "introduced_by_step": 2,
+      "description": "The complete box and lid, one visible zigzag spring, one round head, one broad three-lobed ruff, and one floppy two-point cap."
+    },
+    {
+      "name": "asymmetric wink-and-grin expression",
+      "introduced_by_step": 3,
+      "description": "One crescent wink, one wide oval eye looking sideways, one raised brow over the wide eye, and one off-center open grin with exactly two square teeth."
+    },
+    {
+      "name": "side crank, broad panel divisions, and two motion arcs",
+      "introduced_by_step": 4,
+      "description": "One side crank with a round handle, two broad diagonal color-panel divisions on the box front, and exactly two short curved motion arcs near the open lid."
+    },
+    {
+      "name": "bold outline and soft-retro marker color",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip contours with dusty-cobalt, soft-coral, pale-butter, and cream marker fills, visible directional streaks, and small warm-paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-jack-in-the-box-step-1.jpg",
+      "step_name": "Block the box and surprise",
+      "visible_job": "Places the pale three-quarter cube, open lid flap, centered spring axis, and reserved head, ruff, cap, and crank footprints in one fixed square crop.",
+      "introduces": [
+        "box, lid, spring axis, and character reserves"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-jack-in-the-box-step-2.jpg",
+      "step_name": "Pop up the character",
+      "visible_job": "Wraps the guides with the complete box and lid, one zigzag spring, one round head, one broad three-lobed ruff, and one floppy two-point cap.",
+      "introduces": [
+        "spring-loaded character silhouette"
+      ],
+      "requires_prior_elements": [
+        "box, lid, spring axis, and character reserves"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-jack-in-the-box-step-3.jpg",
+      "step_name": "Aim the crooked grin",
+      "visible_job": "Adds one crescent wink, one wide sideways-looking oval eye, one raised brow above that eye, and one off-center open grin with exactly two square teeth.",
+      "introduces": [
+        "asymmetric wink-and-grin expression"
+      ],
+      "requires_prior_elements": [
+        "spring-loaded character silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-jack-in-the-box-step-4.jpg",
+      "step_name": "Add the crank and motion",
+      "visible_job": "Adds one side crank with a round handle, two broad diagonal panel divisions on the existing box front, and exactly two short motion arcs by the lid.",
+      "introduces": [
+        "side crank, broad panel divisions, and two motion arcs"
+      ],
+      "requires_prior_elements": [
+        "box, lid, spring axis, and character reserves",
+        "spring-loaded character silhouette",
+        "asymmetric wink-and-grin expression"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-jack-in-the-box-step-5.jpg",
+      "step_name": "Ink the soft-retro colors",
+      "visible_job": "Thickens every established contour and fills existing shapes with dusty cobalt, soft coral, pale butter, cream, and black while preserving visible felt-tip streaks and paper gaps.",
+      "introduces": [
+        "bold outline and soft-retro marker color"
+      ],
+      "requires_prior_elements": [
+        "spring-loaded character silhouette",
+        "asymmetric wink-and-grin expression",
+        "side crank, broad panel divisions, and two motion arcs"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the springy surprise",
+    "asset": "assets/cartoon-jack-in-the-box-finished-v1.jpg",
+    "visible_job": "Only reinforces the existing box, lid, spring, head, ruff, cap, asymmetric expression, two teeth, crank, panel divisions, two motion arcs, soft-retro fills, and intentional paper gaps.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small cream highlight clarifications",
+      "minor spring and overlap cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same square crop, three-quarter box, lid angle, spring, character pose, ruff, cap, crank, and expression must persist through all six panels.",
+    "The face must keep one crescent wink, one wide sideways-looking eye, one raised brow, one off-center grin, and exactly two square teeth; mirrored dot eyes or a centered U-smile fail the expression gate.",
+    "No text, logo, star, confetti, prop, extra tooth, sticker outline, badge frame, decorative outer border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

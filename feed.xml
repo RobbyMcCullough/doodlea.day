@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic ocean wave</title>
+      <link>https://doodlea.day/tutorials/comic-ocean-wave.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-ocean-wave.html</guid>
+      <pubDate>Mon, 27 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic ocean wave using a spiral curl guide, one bold crest silhouette, exactly three inner flow bands, chunky foam scallops, three spray droplets, thick black felt-tip outlines, navy and sea-green marker fills, and warm paper highlights.</description>
+      <media:content url="https://doodlea.day/assets/comic-ocean-wave-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cheetah-print pattern</title>
       <link>https://doodlea.day/tutorials/cheetah-print-pattern.html</link>
@@ -582,6 +590,14 @@
       <pubDate>Sat, 16 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a padlock and key using a rounded three-quarter body, arched shackle, diagonal key overlap, keyhole, screws, joint collars, comic glints, thick black outlines, limited teal, mustard, and brick-red marker fills, and a charcoal shadow.</description>
       <media:content url="https://doodlea.day/assets/cartoon-padlock-and-key-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon jack-in-the-box</title>
+      <link>https://doodlea.day/tutorials/cartoon-jack-in-the-box.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-jack-in-the-box.html</guid>
+      <pubDate>Fri, 15 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon jack-in-the-box using a three-quarter toy box, open lid, zigzag spring, two-point cap, asymmetric wink-and-eye expression, two-tooth grin, side crank, motion arcs, thick black outlines, and soft-retro marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-jack-in-the-box-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

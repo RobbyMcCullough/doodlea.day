@@ -1,0 +1,118 @@
+{
+  "slug": "comic-ocean-wave",
+  "finished": "assets/comic-ocean-wave-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent curling ocean wave progressing from pale marker guides to a bold navy and sea-green felt-tip finish on warm paper.",
+    "notes": "The lesson draws the wave itself: no face, text, sun, boat, surfboard, sticker border, badge frame, landscape horizon, signature, or final-only splash. Keep exactly three crest flow bands and exactly three separate spray droplets in the established positions."
+  },
+  "process_strategy": "Lock one large curling wave silhouette and all foam and spray positions before marker color, then build three inner flow bands, scalloped foam, thick outlines, and limited fills cumulatively so the final only reinforces existing marks.",
+  "final_elements": [
+    {
+      "name": "curl axis, wedge base, and spray positions",
+      "introduced_by_step": 1,
+      "description": "A pale spiral-C guide for the curl, a low triangular base guide, a small foam footprint, and exactly three separate spray-droplet positions above the crest."
+    },
+    {
+      "name": "curling wave silhouette",
+      "introduced_by_step": 2,
+      "description": "One broad wave body rising from the low right base and curling leftward into a pointed crest around the established spiral."
+    },
+    {
+      "name": "three inner flow bands",
+      "introduced_by_step": 3,
+      "description": "Exactly three long curved bands inside the wave body that follow the curl and taper toward the crest."
+    },
+    {
+      "name": "foam scallops and three droplets",
+      "introduced_by_step": 4,
+      "description": "Chunky handmade foam scallops along the crest and base plus exactly three separate teardrop-shaped spray droplets in the reserved positions."
+    },
+    {
+      "name": "bold outline and limited ocean color",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip contours, navy shadow bands, muted sea-green marker fill, cream paper foam, and small intentional dry-marker highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-ocean-wave-step-1.jpg",
+      "step_name": "Map the curl",
+      "visible_job": "Places the pale spiral-C curl guide, low wedge base, foam footprint, and exactly three spray-droplet positions in one fixed square crop.",
+      "introduces": [
+        "curl axis, wedge base, and spray positions"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-ocean-wave-step-2.jpg",
+      "step_name": "Shape the wave",
+      "visible_job": "Connects the guides into one broad wave body with a left-curling pointed crest and low right base without adding interior decoration.",
+      "introduces": [
+        "curling wave silhouette"
+      ],
+      "requires_prior_elements": [
+        "curl axis, wedge base, and spray positions"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-ocean-wave-step-3.jpg",
+      "step_name": "Pull three flow bands",
+      "visible_job": "Adds exactly three curved tapering bands inside the established body, all following the same spiral toward the crest.",
+      "introduces": [
+        "three inner flow bands"
+      ],
+      "requires_prior_elements": [
+        "curling wave silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-ocean-wave-step-4.jpg",
+      "step_name": "Break up the foam",
+      "visible_job": "Builds chunky foam scallops along the existing crest and base and turns the three reserved spray positions into exactly three droplets.",
+      "introduces": [
+        "foam scallops and three droplets"
+      ],
+      "requires_prior_elements": [
+        "curl axis, wedge base, and spray positions",
+        "curling wave silhouette",
+        "three inner flow bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-ocean-wave-step-5.jpg",
+      "step_name": "Ink and color the surge",
+      "visible_job": "Thickens every established contour in imperfect black felt-tip, then fills the existing wave with navy and muted sea-green marker while preserving cream foam and small paper gaps.",
+      "introduces": [
+        "bold outline and limited ocean color"
+      ],
+      "requires_prior_elements": [
+        "curling wave silhouette",
+        "three inner flow bands",
+        "foam scallops and three droplets"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the comic wave",
+    "asset": "assets/comic-ocean-wave-finished-v1.jpg",
+    "visible_job": "Only reinforces the existing black contours, navy and sea-green fills, three flow bands, foam scallops, three droplets, and intentional dry-marker paper gaps.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small cream foam clarifications",
+      "minor dry-marker texture accents",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same square crop, curl direction, silhouette, base placement, three flow bands, foam footprint, and three droplet positions must persist in all six panels.",
+    "No face, text, sun, boat, surfboard, landscape, sticker outline, badge frame, signature, watermark, extra droplet, or final-only splash may appear.",
+    "The final panel may only strengthen or clarify marks already visible in panel five; it may not introduce a new band, foam cluster, color region, or scenic element.",
+    "The finish must retain visible felt-tip texture and imperfect handmade edges rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
