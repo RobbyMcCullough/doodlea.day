@@ -78,10 +78,12 @@
   tutorials had no horizontal overflow, clipped H1s, broken loaded images,
   invalid JSON-LD, console errors, or public lab links. The temporary
   two-tutorial-per-site backfill cadence remains active.
-- Lesson commit `d5de647` is local and validated. The required
-  1Password-backed push stopped at `agent refused operation`; no alternate
-  agent or transport was used. Authorize 1Password and retry through the same
-  socket. Deployment and live checksum proof remain pending.
+- Publication follow-up completed at 2026-07-27 09:45 PDT after 1Password was
+  authorized. Lesson commit `d5de647` and continuity commit `96a30c2` pushed
+  through the required socket; DigitalOcean workflow `30286088300` passed,
+  including IndexNow. Both live tutorials return HTTP 200, the homepage
+  features `comic-ocean-wave`, both finished WebP checksums match the reviewed
+  local files, and local `main` matches `origin/main`.
 - 2026-07-26 daily automation added current `cheetah-print-pattern`
   (July 26 / Day 072) and honest archive `cartoon-padlock-and-key` (May 16 /
   Day 001). Both use reviewed six-panel handmade raster marker contact sheets,
