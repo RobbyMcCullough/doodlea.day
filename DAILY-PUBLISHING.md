@@ -240,9 +240,17 @@ headline data before continuing.
 Score the layout against these criteria:
 
 - The hero heading is readable and intentional at both breakpoints.
-- No line breaks after a single letter or stranded article such as "a".
+- Default compact subject phrases to one `headlineSubject` line. The generator
+  renders phrases with 12 or fewer non-space characters as one line even if
+  stale `<br>` markup remains; keep new source data free of that markup.
+- Use `<br>` only when a longer phrase would otherwise shrink excessively.
+  Break between meaningful phrase groups with comparable visual weight. Manual
+  breaks persist across breakpoints, so never use them as desktop-only spacing.
+- Never break after a single character or strand an article such as "a", "an",
+  or "the". The generator rejects those manual lines.
 - Manual headline lines do not wrap internally; reduce the headline line size
-  or choose a better `headlineSubject` break instead.
+  or choose a better `headlineSubject` break instead. During rendered QA,
+  confirm the line count and lack of overflow at 1440x1000 and 390x844.
 - The marker underline lands under a real word, not under whitespace,
   punctuation, or a weak connector such as "on", "in", "of", or "a".
 - The hero art, CTA, date, time, difficulty, and intro sit in a balanced

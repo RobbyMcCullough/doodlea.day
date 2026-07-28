@@ -51,7 +51,7 @@ const lessons = [
     date: "Thursday, May 14",
     isoDate: "2026-05-14",
     subject: "a traffic cone",
-    headlineSubject: "a traffic<br>cone",
+    headlineSubject: "a traffic cone",
     shortSubject: "a traffic cone",
     lessonTitle: "Let's draw a traffic cone",
     description: "Learn how to draw a traffic cone with a tilted taper, oval top opening, three-quarter rubber base, one reflective band, three scuff clusters, two pebbles, thick black outlines, and limited safety-orange marker color.",
@@ -277,7 +277,7 @@ const lessons = [
     date: "Monday, May 18",
     isoDate: "2026-05-18",
     subject: "a soft pretzel",
-    headlineSubject: "a soft<br>pretzel",
+    headlineSubject: "a soft pretzel",
     shortSubject: "a soft pretzel",
     lessonTitle: "Let's draw a soft pretzel",
     description: "Learn how to draw a soft pretzel with one continuous dough rope, two upper openings, one lower opening, a clear over-under crossing, two bake creases, eight coarse salt grains, a shallow shadow, thick black outlines, and natural marker color.",
@@ -333,7 +333,7 @@ const lessons = [
     date: "Tuesday, May 19",
     isoDate: "2026-05-19",
     subject: "a harmonica",
-    headlineSubject: "a<br>harmonica",
+    headlineSubject: "a harmonica",
     shortSubject: "a harmonica",
     lessonTitle: "Let's draw a harmonica",
     description: "Learn how to draw a harmonica with a rounded three-quarter body, layered cover plates, two end caps, eight mouth holes, two screws, two cover seams, three sound arcs, thick black outlines, and bright marker color.",
@@ -361,7 +361,7 @@ const lessons = [
     date: "Wednesday, July 22",
     isoDate: "2026-07-22",
     subject: "a comic ray gun",
-    headlineSubject: "a comic<br>ray gun",
+    headlineSubject: "a comic ray gun",
     shortSubject: "a comic ray gun",
     lessonTitle: "Let's draw a comic ray gun",
     description: "Learn how to draw a retro comic ray gun with a chunky rounded body, long barrel, flared muzzle, angled grip, trigger guard, control knobs, coils, action rays, sparks, thick black outlines, and bright marker color.",
@@ -389,7 +389,7 @@ const lessons = [
     date: "Wednesday, May 20",
     isoDate: "2026-05-20",
     subject: "a fire hydrant",
-    headlineSubject: "a fire<br>hydrant",
+    headlineSubject: "a fire hydrant",
     shortSubject: "a fire hydrant",
     lessonTitle: "Let's draw a fire hydrant",
     description: "Learn how to draw a fire hydrant with a domed cap, cylindrical body, two ringed side nozzles, wide base flange, four visible bolts, three water drops, thick black outlines, and bright felt-tip marker color.",
@@ -445,7 +445,7 @@ const lessons = [
     date: "Thursday, May 21",
     isoDate: "2026-05-21",
     subject: "a camping tent",
-    headlineSubject: "a camping<br>tent",
+    headlineSubject: "a camping tent",
     shortSubject: "a camping tent",
     lessonTitle: "Let's draw a camping tent",
     description: "Learn how to draw a cartoon camping tent with an A-frame front, sloping roof, open doorway, rolled flap edges, roof seam, zipper, guy lines, stakes, grass tufts, thick black outlines, and bright marker color.",
@@ -473,7 +473,7 @@ const lessons = [
     date: "Monday, July 20",
     isoDate: "2026-07-20",
     subject: "a chess knight",
-    headlineSubject: "a chess<br>knight",
+    headlineSubject: "a chess knight",
     shortSubject: "a chess knight",
     lessonTitle: "Let's draw a chess knight",
     description: "Learn how to draw a cartoon chess knight with a blocky horse-head profile, arched neck, wide pedestal, carved mane blocks, base bands, spark accents, thick black outlines, and bright felt-tip marker color.",
@@ -585,7 +585,7 @@ const lessons = [
     date: "Saturday, July 18",
     isoDate: "2026-07-18",
     subject: "a cowboy hat",
-    headlineSubject: "a cowboy<br>hat",
+    headlineSubject: "a cowboy hat",
     shortSubject: "a cowboy hat",
     lessonTitle: "Let's draw a cowboy hat",
     description: "Learn how to draw a cowboy hat with a tilted wide brim, curled sides, tapered crown, center dent, side pinches, visible underside, simple hatband and buckle, thick black marker outlines, and bright handmade color.",
@@ -2832,7 +2832,7 @@ const lessons = [
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a trophy cup sticker",
-    headlineSubject: "a trophy<br>cup",
+    headlineSubject: "a trophy cup",
     shortSubject: "a trophy cup",
     lessonTitle: "Let's doodle a trophy cup",
     description: "Learn how to draw a trophy cup sticker with a rounded cup, side handles, thick black outline, gold marker fill, orange shadow, shine marks, and small confetti dots.",
@@ -3209,8 +3209,26 @@ const escapeHtml = (value) => String(value)
   .replaceAll(">", "&gt;")
   .replaceAll('"', "&quot;")
   .replaceAll("'", "&#39;");
-const headlineHtml = (value) => String(value)
-  .split(/<br\s*\/?>/i)
+const headlineLines = (value, slug) => {
+  const manualLines = String(value)
+    .split(/<br\s*\/?>/i)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (!manualLines.length) {
+    throw new Error(`${slug}: headlineSubject cannot be empty.`);
+  }
+
+  const strandedLine = manualLines.find((line) =>
+    line.length === 1 || /^(?:a|an|the)$/i.test(line));
+  if (strandedLine) {
+    throw new Error(`${slug}: headlineSubject strands "${strandedLine}" on its own line; keep articles with their noun phrase.`);
+  }
+
+  const compactLength = manualLines.join(" ").replace(/\s+/g, "").length;
+  return compactLength <= 12 ? [manualLines.join(" ")] : manualLines;
+};
+const headlineHtml = (value, slug) => headlineLines(value, slug)
   .map((line, lineIndex, lines) => {
     const words = line.trim().split(/\s+/).filter(Boolean);
     const letterCount = words.join("").length;
@@ -3358,7 +3376,7 @@ ${plausibleTag}
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
         <p class="eyebrow">${lesson.date}</p>
-        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw...</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
+        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw...</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject, lesson.slug)}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
         <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span></div>
         <a class="nav-button hero-button" href="#lesson">Start doodling <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>
