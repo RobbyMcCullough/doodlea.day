@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-27
+- Date: 2026-07-28
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-26 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-27 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,27 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-28 daily automation added owner-requested current
+  `cartoon-bumblebee` (July 28 / Day 076) and honest archive
+  `cartoon-traffic-cone` (May 14 / Day 001). Both use reviewed six-panel
+  handmade raster marker contact sheets, cropped JPG masters, WebP derivatives,
+  social cards, and explicit process plans. A first bee sheet with only four
+  limbs is preserved privately and rejected; the approved waving bee keeps two
+  antennae, two wings, six limbs, an uneven wink, off-center mouth, two broad
+  bands, and one shallow shadow. The cone keeps one tapered silhouette, one
+  broad reflective band, charcoal base, exactly three scuff clusters, two
+  pebbles, one highlight gap, and one broken shadow. Finished-image ratings:
+  bee 9.5/10 for immediate character, countable anatomy, handmade marker grain,
+  and a distinct upright drawing problem; cone 9.2/10 for strong perspective,
+  clear material contrast, road-worn personality, and an easy cumulative
+  sequence.
+- July 28 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove QA at 1440x1000 and
+  390x844 covered the homepage, library, and both tutorials with no horizontal
+  overflow, broken loaded images, invalid JSON-LD, unreadable mobile step cards,
+  or public lab links. The temporary two-tutorial-per-site backfill cadence
+  remains active.
 - 2026-07-27 owner caught a second gaze-sequence issue in the revised
   `cheetah-print-pattern` cub: step 4 still contained iris-like curves that
   implied the earlier wrong direction. A targeted raster repair now leaves

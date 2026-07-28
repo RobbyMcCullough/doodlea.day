@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a bee</title>
+      <link>https://doodlea.day/tutorials/cartoon-bumblebee.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-bumblebee.html</guid>
+      <pubDate>Tue, 28 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a bee with a fuzzy upright body, two antennae, two wings, six visible limbs, a waving foreleg, an asymmetric wink, two broad stripes, thick black outlines, and limited marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-bumblebee-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a comic ocean wave</title>
       <link>https://doodlea.day/tutorials/comic-ocean-wave.html</link>
@@ -598,6 +606,14 @@
       <pubDate>Fri, 15 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon jack-in-the-box using a three-quarter toy box, open lid, zigzag spring, two-point cap, asymmetric wink-and-eye expression, two-tooth grin, side crank, motion arcs, thick black outlines, and soft-retro marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-jack-in-the-box-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a traffic cone</title>
+      <link>https://doodlea.day/tutorials/cartoon-traffic-cone.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-traffic-cone.html</guid>
+      <pubDate>Thu, 14 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a traffic cone with a tilted taper, oval top opening, three-quarter rubber base, one reflective band, three scuff clusters, two pebbles, thick black outlines, and limited safety-orange marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-traffic-cone-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

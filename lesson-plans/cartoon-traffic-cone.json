@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-traffic-cone",
+  "finished": "assets/cartoon-traffic-cone-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent face-free traffic cone progressing from pale pencil perspective guides to thick felt-tip outlines and a limited safety-orange, cream, charcoal, and muted-navy marker finish.",
+    "notes": "Keep one slightly tilted three-quarter cone, one wide rubber base, one top opening, one broad reflective band, exactly three small scuff clusters, two road-pebble marks, and one offset shadow. No face, words, caution-tape text, sticker border, badge frame, signature, watermark, or final-only feature is allowed."
+  },
+  "process_strategy": "Lock the cone on one leaning center axis, reserve the broad reflective band and the base perspective before darkening the silhouette, then add surface marks, shadow, ink, and limited color only to established shapes so the final remains a cumulative face-free marker study.",
+  "final_elements": [
+    {
+      "name": "leaning cone, base, band, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "One pale tilted center axis, tapered cone envelope, wide shallow three-quarter base footprint, top opening, one broad band reserve between two curved boundary guides, two pebble positions, and one offset shadow footprint."
+    },
+    {
+      "name": "complete traffic-cone silhouette",
+      "introduced_by_step": 2,
+      "description": "One tapered cone with a small oval top opening seated in one broad black-rubber base with a visible top plane and front thickness."
+    },
+    {
+      "name": "one reflective band and inset base edge",
+      "introduced_by_step": 3,
+      "description": "One broad curved reflective band wrapped around the existing taper plus one lower taper guide and one inset edge across the established rubber base."
+    },
+    {
+      "name": "three scuffs, two pebbles, highlight gap, and offset shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly three short irregular scuff clusters on the cone, two small road-pebble marks beside the base, one narrow paper highlight gap, and one broken offset shadow."
+    },
+    {
+      "name": "thick black outline and limited safety-color fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, burnt safety-orange cone fill, one cream reflective band, charcoal rubber base, muted-navy shadow, warm-gray pebbles, visible marker streaks, and paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-traffic-cone-step-1.jpg",
+      "step_name": "Tilt the cone guides",
+      "visible_job": "Places one leaning center axis, tapered cone envelope, wide three-quarter base footprint, top opening, one broad band reserve between two curved guides, two pebble positions, and one offset shadow footprint.",
+      "introduces": [
+        "leaning cone, base, band, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-traffic-cone-step-2.jpg",
+      "step_name": "Build the safety silhouette",
+      "visible_job": "Wraps the guides with one tapered cone, small oval top opening, broad rubber base, visible base top plane, and front thickness while keeping the original lean.",
+      "introduces": [
+        "complete traffic-cone silhouette"
+      ],
+      "requires_prior_elements": [
+        "leaning cone, base, band, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-traffic-cone-step-3.jpg",
+      "step_name": "Wrap the reflective band",
+      "visible_job": "Clarifies one broad curved reflective band around the established taper, keeps one lower taper guide, and adds one inset edge across the existing rubber base.",
+      "introduces": [
+        "one reflective band and inset base edge"
+      ],
+      "requires_prior_elements": [
+        "complete traffic-cone silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-traffic-cone-step-4.jpg",
+      "step_name": "Scuff the road-ready details",
+      "visible_job": "Adds exactly three short scuff clusters to the cone, two pebble marks beside the base, one narrow paper highlight gap, and one broken offset shadow around the established silhouette.",
+      "introduces": [
+        "three scuffs, two pebbles, highlight gap, and offset shadow"
+      ],
+      "requires_prior_elements": [
+        "complete traffic-cone silhouette",
+        "one reflective band and inset base edge"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-traffic-cone-step-5.jpg",
+      "step_name": "Ink the safety orange",
+      "visible_job": "Thickens every established contour and fills the cone burnt orange, the broad band cream, the base charcoal, the shadow muted navy, and the two pebbles warm gray while preserving paper texture.",
+      "introduces": [
+        "thick black outline and limited safety-color fills"
+      ],
+      "requires_prior_elements": [
+        "complete traffic-cone silhouette",
+        "one reflective band and inset base edge",
+        "three scuffs, two pebbles, highlight gap, and offset shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the cone firmly down",
+    "asset": "assets/cartoon-traffic-cone-finished-v1.jpg",
+    "visible_job": "Only reinforces the established cone, base, top opening, one reflective band, three scuff clusters, two pebbles, limited marker fills, paper highlight, and offset shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "minor base-perspective clarification",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same three-quarter lean, crop, scale, cone taper, top opening, and base perspective must persist through all six panels.",
+    "One broad reflective band, three scuff clusters, two pebble marks, and one offset shadow must appear before the final panel and persist through the finish.",
+    "No face, arms, legs, text, caution-tape words, car, worker, road scene, sticker outline, badge frame, decorative outer border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

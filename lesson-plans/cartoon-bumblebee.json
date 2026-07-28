@@ -1,0 +1,118 @@
+{
+  "slug": "cartoon-bumblebee",
+  "finished": "assets/cartoon-bumblebee-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent front-facing cartoon bumblebee progressing from pale pencil construction to thick felt-tip outlines and a limited golden-yellow, charcoal, pale-aqua, and warm-gray marker finish.",
+    "notes": "Keep one upright hovering pose with two antennae, two small wings, exactly six limbs, one raised waving foreleg, two broad dark abdomen bands, and one deliberately asymmetric expression. No flower, flight arc, sticker border, badge frame, text, logo, signature, watermark, or final-only feature is allowed."
+  },
+  "process_strategy": "Build the bee on one upright center axis, establish every wing and limb before adding the asymmetric face and stripe map, then ink and color only already visible shapes so the finish stays distinct from the recent top-down ladybug lesson and remains a cumulative handmade marker drawing.",
+  "final_elements": [
+    {
+      "name": "upright head, fuzzy body, wing, antenna, and limb guides",
+      "introduced_by_step": 1,
+      "description": "One pale front-facing bee construction with a round head, broad fuzzy abdomen, two small wing envelopes, two antenna routes, and exactly six limb axes including one raised foreleg."
+    },
+    {
+      "name": "complete waving bumblebee silhouette",
+      "introduced_by_step": 2,
+      "description": "The round head, scalloped fuzzy body, two antennae, two small wings, and exactly six bent limbs wrapped around the fixed upright guides."
+    },
+    {
+      "name": "asymmetric wink and open-mouth expression",
+      "introduced_by_step": 3,
+      "description": "One wide oval eye looking toward the raised foreleg, one curved wink, one lifted brow, and one small off-center open mouth with a visible tongue."
+    },
+    {
+      "name": "two abdomen bands, wing veins, and warm-gray shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly two broad curved dark bands around the existing abdomen, two simple vein branches in each established wing, short fuzzy-edge marks, and one shallow warm-gray oval shadow."
+    },
+    {
+      "name": "thick black outline and limited marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, golden-yellow body fill, charcoal bands and limbs, pale-aqua wings, muted-coral tongue, warm-gray shadow, visible marker streaks, and paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-bumblebee-step-1.jpg",
+      "step_name": "Set the bumblebee guides",
+      "visible_job": "Places one upright center axis, the round head, broad abdomen, two small wing envelopes, two antenna routes, and exactly six limb axes with one foreleg raised in a wave.",
+      "introduces": [
+        "upright head, fuzzy body, wing, antenna, and limb guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-bumblebee-step-2.jpg",
+      "step_name": "Shape the fuzzy silhouette",
+      "visible_job": "Wraps the guides with the round head, scalloped fuzzy body, two antennae, two small wings, and exactly six bent limbs while preserving the same front-facing hover.",
+      "introduces": [
+        "complete waving bumblebee silhouette"
+      ],
+      "requires_prior_elements": [
+        "upright head, fuzzy body, wing, antenna, and limb guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-bumblebee-step-3.jpg",
+      "step_name": "Give the bee a cheeky hello",
+      "visible_job": "Adds one wide sideways-looking oval eye, one curved wink, one lifted brow, and one small off-center open mouth with a tongue inside the established head.",
+      "introduces": [
+        "asymmetric wink and open-mouth expression"
+      ],
+      "requires_prior_elements": [
+        "complete waving bumblebee silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-bumblebee-step-4.jpg",
+      "step_name": "Band the belly and wings",
+      "visible_job": "Adds exactly two broad curved abdomen bands, two simple vein branches inside each established wing, short fuzzy-edge marks, and one shallow warm-gray oval shadow.",
+      "introduces": [
+        "two abdomen bands, wing veins, and warm-gray shadow"
+      ],
+      "requires_prior_elements": [
+        "complete waving bumblebee silhouette",
+        "asymmetric wink and open-mouth expression"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-bumblebee-step-5.jpg",
+      "step_name": "Ink the honey-gold color",
+      "visible_job": "Thickens every established contour and fills the body golden yellow, bands and limbs charcoal, wings pale aqua, tongue muted coral, and shadow warm gray while preserving paper streaks and highlight gaps.",
+      "introduces": [
+        "thick black outline and limited marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete waving bumblebee silhouette",
+        "asymmetric wink and open-mouth expression",
+        "two abdomen bands, wing veins, and warm-gray shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the bumblebee buzz",
+    "asset": "assets/cartoon-bumblebee-finished-v1.jpg",
+    "visible_job": "Only reinforces the established upright silhouette, two antennae, two wings, six limbs, waving foreleg, asymmetric expression, two bands, veins, limited marker fills, paper highlights, and warm-gray shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small overlap clarifications",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same upright front-facing pose, crop, scale, head and body proportions, wing angles, waving foreleg, and five other limbs must persist through all six panels.",
+    "Exactly two antennae, two wings, six limbs, one raised foreleg, and two broad abdomen bands must appear before the final panel and persist through the finish.",
+    "The face must keep one wide sideways-looking eye, one curved wink, one lifted brow, and one off-center open mouth; two dot eyes and a centered U-smile fail the expression gate.",
+    "No flower, flight arc, extra insect, text, logo, sticker outline, badge frame, decorative border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
