@@ -58,6 +58,15 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-28 mirrored compact-headline correction now collapses subject phrases
+  of 12 or fewer non-space characters, rejects one-character or article-only
+  manual lines, and reserves `<br>` for balanced longer phrases. Nine compact
+  Doodlea headings were normalized in source. Fallback browser QA at 1440x1000
+  and 390x844 checked Bee, every corrected heading, and a retained two-line
+  heading with no internal wrapping or horizontal overflow. Commit `15652cf`
+  deployed successfully in workflow `30397247347` with IndexNow; the live Bee
+  and Harmonica pages return HTTP 200 with one headline line. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-28 owner correction removed the forced line break between “a” and
   “bee” in the current `cartoon-bumblebee` hero. Commit `8fb5213` keeps both
   words in one generated headline-line wrapper on the homepage and tutorial.
