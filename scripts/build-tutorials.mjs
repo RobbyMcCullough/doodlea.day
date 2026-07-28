@@ -23,7 +23,7 @@ const lessons = [
     date: "Tuesday, July 28",
     isoDate: "2026-07-28",
     subject: "a bee",
-    headlineSubject: "a<br>bee",
+    headlineSubject: "a bee",
     shortSubject: "a bee",
     lessonTitle: "Let's draw a cartoon bumblebee",
     description: "Learn how to draw a bee with a fuzzy upright body, two antennae, two wings, six visible limbs, a waving foreleg, an asymmetric wink, two broad stripes, thick black outlines, and limited marker color.",
