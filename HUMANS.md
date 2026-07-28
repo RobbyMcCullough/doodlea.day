@@ -58,6 +58,13 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-28 owner correction removed the forced line break between “a” and
+  “bee” in the current `cartoon-bumblebee` hero. Commit `8fb5213` keeps both
+  words in one generated headline-line wrapper on the homepage and tutorial.
+  Full Bee readiness passed; fallback QA at 1440x1000 and 390x844 confirmed
+  the phrase stays together with no clipping or horizontal overflow. Workflow
+  `30395610867` passed with IndexNow, both live pages return HTTP 200 with the
+  corrected markup, and local `main` matches `origin/main`.
 - 2026-07-28 daily automation added owner-requested current
   `cartoon-bumblebee` (July 28 / Day 076) and honest archive
   `cartoon-traffic-cone` (May 14 / Day 001). Both use reviewed six-panel
