@@ -79,6 +79,14 @@
   overflow, broken loaded images, invalid JSON-LD, unreadable mobile step cards,
   or public lab links. The temporary two-tutorial-per-site backfill cadence
   remains active.
+- Local lesson commit `5fcc034` is complete. The required 1Password-backed
+  push stopped at 2026-07-28 10:18 PDT with
+  `sign_and_send_pubkey: ... communication with agent failed`; no fallback
+  agent or transport was used, no deployment began, and local `main` remains
+  ahead of `origin/main` by the lesson commit plus this continuity note. After
+  authorizing 1Password, retry the documented socket-backed push and verify the
+  workflow, live URLs, homepage, library cards, finished-WebP checksums, and
+  branch alignment.
 - 2026-07-27 owner caught a second gaze-sequence issue in the revised
   `cheetah-print-pattern` cub: step 4 still contained iris-like curves that
   implied the earlier wrong direction. A targeted raster repair now leaves
