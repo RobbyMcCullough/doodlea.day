@@ -87,6 +87,13 @@
   authorizing 1Password, retry the documented socket-backed push and verify the
   workflow, live URLs, homepage, library cards, finished-WebP checksums, and
   branch alignment.
+- Publication retry completed at 2026-07-28 13:11 PDT after 1Password was
+  authorized. Lesson commit `5fcc034` and continuity commit `bd04631` pushed
+  through the required socket. DigitalOcean workflow `30395166878` passed,
+  including IndexNow. Both July 28 tutorials return HTTP 200, the homepage
+  features the Bee, the library contains the Traffic Cone, both finished WebP
+  checksums match the reviewed local files, and local `main` matches
+  `origin/main`.
 - 2026-07-27 owner caught a second gaze-sequence issue in the revised
   `cheetah-print-pattern` cub: step 4 still contained iris-like curves that
   implied the earlier wrong direction. A targeted raster repair now leaves
