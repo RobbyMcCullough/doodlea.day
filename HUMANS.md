@@ -85,6 +85,13 @@
   1Password, push `main` through the documented socket and verify the
   workflow, live URLs, homepage, library cards, finished-WebP checksums, and
   branch alignment.
+- Publication retry completed at 2026-07-29 10:48 PDT after 1Password was
+  authorized. Lesson commit `ab03bea` and continuity commit `3c60d5b`
+  pushed through the required socket; DigitalOcean workflow `30476863345`
+  passed, including IndexNow. Both July 29 tutorials and the homepage/library
+  return HTTP 200, the homepage features the Chicken, the library contains the
+  Gumball Machine, and both live finished WebP checksums match the reviewed
+  local files.
 - 2026-07-28 mirrored compact-headline correction now collapses subject phrases
   of 12 or fewer non-space characters, rejects one-character or article-only
   manual lines, and reserves `<br>` for balanced longer phrases. Nine compact
