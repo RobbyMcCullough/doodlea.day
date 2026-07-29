@@ -78,6 +78,13 @@
   both tutorials had no horizontal overflow, broken loaded lesson images,
   invalid JSON-LD, empty step-image alts, or public lab links. The temporary
   two-tutorial-per-site backfill cadence remains active.
+- Local lesson commit `ab03bea` is complete. The required 1Password-backed
+  push stopped at 2026-07-29 10:35 PDT with
+  `sign_and_send_pubkey: ... communication with agent failed`; no fallback
+  agent or transport was used and no deployment began. After authorizing
+  1Password, push `main` through the documented socket and verify the
+  workflow, live URLs, homepage, library cards, finished-WebP checksums, and
+  branch alignment.
 - 2026-07-28 mirrored compact-headline correction now collapses subject phrases
   of 12 or fewer non-space characters, rejects one-character or article-only
   manual lines, and reserves `<br>` for balanced longer phrases. Nine compact
