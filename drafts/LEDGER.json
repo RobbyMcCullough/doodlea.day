@@ -50,6 +50,9 @@
     "cartoon-chess-knight": {
       "status": "published"
     },
+    "cartoon-chicken": {
+      "status": "published"
+    },
     "cartoon-claw-hammer": {
       "status": "published"
     },
@@ -72,6 +75,10 @@
     },
     "cartoon-french-fries": {
       "status": "published"
+    },
+    "cartoon-gumball-machine": {
+      "status": "published",
+      "note": "Approved ten-gumball contact sheet promoted as the honest 2026-05-13 archive lesson; private 11- and 9-gumball variants document count rejections."
     },
     "cartoon-harmonica": {
       "status": "published"

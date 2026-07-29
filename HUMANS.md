@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-28
+- Date: 2026-07-29
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-27 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-28 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -58,6 +58,26 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-07-29 daily automation added owner-requested current
+  `cartoon-chicken` (July 29 / Day 078) and honest archive
+  `cartoon-gumball-machine` (May 13 / Day 001). The easy 15-minute chicken
+  keeps one plump silhouette, two wings, three tail feathers, two three-toed
+  feet, an upward glance, raised brows, open beak, cheek marks, and sunny
+  marker color; it rates 9.6/10 for immediate charm, thumbnail clarity,
+  attainable construction, and visible felt-tip texture. The gumball machine
+  keeps one stable front view, exactly ten gumballs in a 3-4-3 arrangement,
+  controls, two screws, two feet, glass highlights, and cherry-red marker
+  fills; it rates 9.4/10 for countable geometry, candy-shop appeal, strong
+  contrast, and a clear cumulative process.
+- Two gumball variants with eleven and nine balls remain private as documented
+  quality rejections. Both approved six-panel raster contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, process plans, HowTo data,
+  frame deltas, links, asset accounting, lab privacy, and diff checks passed.
+  Cove's expired browser certificate required the documented localhost:4174
+  fallback for 1440x1000 and 390x844 rendered QA; the homepage, library, and
+  both tutorials had no horizontal overflow, broken loaded lesson images,
+  invalid JSON-LD, empty step-image alts, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-28 mirrored compact-headline correction now collapses subject phrases
   of 12 or fewer non-space characters, rejects one-character or article-only
   manual lines, and reserves `<br>` for balanced longer phrases. Nine compact

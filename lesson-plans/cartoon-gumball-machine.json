@@ -1,0 +1,117 @@
+{
+  "slug": "cartoon-gumball-machine",
+  "finished": "assets/cartoon-gumball-machine-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent face-free cartoon gumball machine progressing from pale construction to thick felt-tip outlines and a limited cherry-red, aqua, yellow, coral, purple, and warm-gray marker finish.",
+    "notes": "Keep one upright front-facing machine with one round glass globe, exactly ten large gumballs, one domed top cap, one neck ring, one broad cabinet base, one coin slot, one three-lobed turn handle, one dispenser chute, two short feet, and one shallow shadow. No face, words, numbers, logo, candy spill, sticker border, badge frame, signature, watermark, or final-only feature is allowed."
+  },
+  "process_strategy": "Build the machine around one globe circle and broad cabinet box, reserve the gumball, control, chute, foot, and shadow positions before inking, then fill only established shapes so the repeated circles and mechanical details remain cumulative and readable.",
+  "final_elements": [
+    {
+      "name": "globe, cap, cabinet, control, chute, foot, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "One pale front-facing construction with a large globe circle, domed cap envelope, neck ring, broad cabinet box, coin-control reserve, dispenser-chute reserve, two foot blocks, and one shallow shadow footprint."
+    },
+    {
+      "name": "complete gumball-machine silhouette",
+      "introduced_by_step": 2,
+      "description": "The round glass globe with thick rim, domed cap, neck ring, broad cabinet base, two short feet, and reserved front control and chute panels wrapped around the fixed guides."
+    },
+    {
+      "name": "ten gumballs, coin slot, turn handle, and chute",
+      "introduced_by_step": 3,
+      "description": "Exactly ten large overlapping gumball circles inside the globe, one narrow coin slot, one three-lobed turn handle, and one dark dispenser-chute opening on the established cabinet."
+    },
+    {
+      "name": "glass highlights, cabinet seams, screws, and shallow shadow",
+      "introduced_by_step": 4,
+      "description": "Two curved glass highlight gaps, simple cabinet edge seams, two small screw dots, one chute lip, and one shallow warm-gray oval shadow."
+    },
+    {
+      "name": "thick black outline and limited candy-shop marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, cherry-red cap and cabinet, aqua, yellow, coral, and purple gumballs, charcoal hardware, warm-gray shadow, visible marker streaks, and paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-gumball-machine-step-1.jpg",
+      "step_name": "Stack the machine guides",
+      "visible_job": "Places the large globe circle, domed cap envelope, neck ring, broad cabinet box, coin-control reserve, dispenser-chute reserve, two foot blocks, and shallow shadow footprint.",
+      "introduces": [
+        "globe, cap, cabinet, control, chute, foot, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-gumball-machine-step-2.jpg",
+      "step_name": "Build the candy-shop silhouette",
+      "visible_job": "Wraps the guides with the round globe and thick rim, domed cap, neck ring, broad cabinet base, two short feet, and the reserved front control and chute panels.",
+      "introduces": [
+        "complete gumball-machine silhouette"
+      ],
+      "requires_prior_elements": [
+        "globe, cap, cabinet, control, chute, foot, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-gumball-machine-step-3.jpg",
+      "step_name": "Load the globe and controls",
+      "visible_job": "Adds exactly ten large overlapping gumball circles inside the globe, one narrow coin slot, one three-lobed turn handle, and one dark dispenser-chute opening.",
+      "introduces": [
+        "ten gumballs, coin slot, turn handle, and chute"
+      ],
+      "requires_prior_elements": [
+        "complete gumball-machine silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-gumball-machine-step-4.jpg",
+      "step_name": "Add glass and cabinet details",
+      "visible_job": "Adds two curved glass highlight gaps, simple cabinet edge seams, two small screw dots, one chute lip, and one shallow warm-gray oval shadow.",
+      "introduces": [
+        "glass highlights, cabinet seams, screws, and shallow shadow"
+      ],
+      "requires_prior_elements": [
+        "complete gumball-machine silhouette",
+        "ten gumballs, coin slot, turn handle, and chute"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-gumball-machine-step-5.jpg",
+      "step_name": "Fill the candy-shop color",
+      "visible_job": "Thickens every established contour and fills the cap and cabinet cherry red, the ten gumballs aqua, yellow, coral, and purple, the hardware charcoal, and the shadow warm gray while preserving streaks and paper highlights.",
+      "introduces": [
+        "thick black outline and limited candy-shop marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete gumball-machine silhouette",
+        "ten gumballs, coin slot, turn handle, and chute",
+        "glass highlights, cabinet seams, screws, and shallow shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the gumball machine",
+    "asset": "assets/cartoon-gumball-machine-finished-v1.jpg",
+    "visible_job": "Only reinforces the established globe, ten gumballs, cap, neck, cabinet, coin slot, turn handle, chute, feet, glass highlights, limited marker fills, paper gaps, and shallow shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small overlap clarifications",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same front-facing pose, globe size, cabinet width, cap, neck, two feet, crop, and scale must persist through all six panels.",
+    "Exactly ten gumballs, one coin slot, one three-lobed turn handle, one chute, two screws, glass highlights, color areas, and the shadow must appear before the final panel and persist through the finish.",
+    "No face, words, numbers, price label, logo, candy spill, extra machine, sticker outline, badge frame, decorative border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

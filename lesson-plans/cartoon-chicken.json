@@ -1,0 +1,118 @@
+{
+  "slug": "cartoon-chicken",
+  "finished": "assets/cartoon-chicken-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent easy cartoon chicken progressing from pale construction to bold felt-tip outlines and cheerful cream, golden-yellow, coral-red, and orange marker color.",
+    "notes": "Keep one upright three-quarter chicken pose with one round head, one plump pear-shaped body, two small wings, exactly three tail feathers, two legs, three toes per foot, one three-bump comb, two wattles, and one charming open-beak expression. No egg, nest, barn, sticker border, badge frame, text, logo, signature, watermark, or final-only feature is allowed."
+  },
+  "process_strategy": "Build the chicken from one round head and plump pear body, reserve every limb, feather, comb, beak, face, and shadow before inking, then color only the established shapes so the final remains an easy cumulative marker drawing with a non-default expression.",
+  "final_elements": [
+    {
+      "name": "head, body, wing, tail, leg, face, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "One pale upright chicken construction with a round head, plump pear body, two wing envelopes, three tail-feather routes, two leg axes, three-toe foot routes, comb and beak reserves, face axes, and one shallow shadow footprint."
+    },
+    {
+      "name": "complete plump chicken silhouette",
+      "introduced_by_step": 2,
+      "description": "The round head, pear-shaped body, two small wings, exactly three tail feathers, two legs, three toes per foot, three-bump comb, and two small wattles wrapped around the fixed guides."
+    },
+    {
+      "name": "bright-eyed open-beak expression",
+      "introduced_by_step": 3,
+      "description": "Two wide almond-shaped eyes with pupils looking slightly upward, two small raised brows, a tiny open two-part beak, and two short cheek marks for a curious, delighted expression."
+    },
+    {
+      "name": "wing feather marks, body tufts, and shallow shadow",
+      "introduced_by_step": 4,
+      "description": "Curved feather marks inside the larger near wing, small edge tufts on the far wing, three small breast tufts, a few tail notches, and one shallow warm-gray oval shadow."
+    },
+    {
+      "name": "thick black outline and cheerful marker fills",
+      "introduced_by_step": 5,
+      "description": "Thick imperfect black felt-tip outlines, creamy body fill, golden-yellow wings, coral-red comb and wattles, orange beak and feet, warm-gray shadow, visible marker streaks, and paper highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-chicken-step-1.jpg",
+      "step_name": "Map the chicken shapes",
+      "visible_job": "Places the round head, plump pear body, two wing envelopes, three tail-feather routes, two leg axes, three-toe foot routes, comb and beak reserves, face axes, and shallow shadow footprint.",
+      "introduces": [
+        "head, body, wing, tail, leg, face, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-chicken-step-2.jpg",
+      "step_name": "Shape the plump silhouette",
+      "visible_job": "Wraps the guides with the round head, pear-shaped body, two small wings, exactly three tail feathers, two legs, three toes per foot, three-bump comb, and two small wattles.",
+      "introduces": [
+        "complete plump chicken silhouette"
+      ],
+      "requires_prior_elements": [
+        "head, body, wing, tail, leg, face, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-chicken-step-3.jpg",
+      "step_name": "Give the chicken a sunny peep",
+      "visible_job": "Adds two wide almond eyes looking slightly upward, two raised brows, one tiny open two-part beak, and two short cheek marks inside the established head.",
+      "introduces": [
+        "bright-eyed open-beak expression"
+      ],
+      "requires_prior_elements": [
+        "complete plump chicken silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-chicken-step-4.jpg",
+      "step_name": "Tuck in the feather details",
+      "visible_job": "Adds curved feather marks inside the larger near wing, small edge tufts on the far wing, three small breast tufts, tail notches, and one shallow warm-gray oval shadow beneath the established feet.",
+      "introduces": [
+        "wing feather marks, body tufts, and shallow shadow"
+      ],
+      "requires_prior_elements": [
+        "complete plump chicken silhouette",
+        "bright-eyed open-beak expression"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-chicken-step-5.jpg",
+      "step_name": "Add the sunny marker color",
+      "visible_job": "Thickens every established contour and fills the body cream, wings golden yellow, comb and wattles coral red, beak and feet orange, and shadow warm gray while preserving marker streaks and paper highlights.",
+      "introduces": [
+        "thick black outline and cheerful marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete plump chicken silhouette",
+        "bright-eyed open-beak expression",
+        "wing feather marks, body tufts, and shallow shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the little chicken chirp",
+    "asset": "assets/cartoon-chicken-finished-v1.jpg",
+    "visible_job": "Only reinforces the established plump silhouette, two wings, three tail feathers, two three-toed feet, comb, wattles, bright-eyed open-beak expression, feather marks, limited marker fills, paper highlights, and shallow shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small overlap clarifications",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same upright three-quarter pose, crop, scale, head and body proportions, wing positions, tail fan, and foot placement must persist through all six panels.",
+    "Exactly two wings, three tail feathers, two legs, three toes per foot, one three-bump comb, and two wattles must appear before the final panel and persist through the finish.",
+    "The face must keep two wide almond eyes looking slightly upward, raised brows, an open beak, and cheek marks; two dot eyes and a centered U-smile fail the expression gate.",
+    "No egg, nest, barn, extra chicken, text, logo, sticker outline, badge frame, decorative border, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
