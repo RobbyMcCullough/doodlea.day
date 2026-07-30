@@ -1,0 +1,118 @@
+{
+  "slug": "cartoon-soda-can-with-fizz",
+  "finished": "assets/cartoon-soda-can-with-fizz-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent soda can progressing from pale construction to bold felt-tip outlines and saturated marker color.",
+    "notes": "Keep one upright three-quarter aluminum can with one top ellipse, one bottom curve, one pull tab and opening, two blank diagonal label bands, exactly five fizz bubbles, three short motion ticks, two highlight gaps, and one shallow shadow stable. The first approved drawing arrived on a square overall canvas and is preserved privately as cartoon-soda-can-with-fizz-square-layout-v1.png; a layout-only edit reformatted the same sequence into a 3:2 sheet with square cells before cropping. No brand, letters, face, straw, cup, bottle, sticker border, badge frame, signature, watermark, or final-only feature."
+  },
+  "process_strategy": "Lock the can's cylinder, top ellipse, pull-tab footprint, two label-band routes, fizz arc, and shadow before outlining; add all hardware and bubbles before inking; then color only established shapes so the finish stays cumulative, face-free, and visibly handmade.",
+  "final_elements": [
+    {
+      "name": "can cylinder, top ellipse, pull-tab, label-band, fizz, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one upright can, its three-quarter top, tab reserve, two diagonal band routes, five-bubble fizz arc, and shallow shadow footprint."
+    },
+    {
+      "name": "complete soda-can silhouette with top rim and bottom curve",
+      "introduced_by_step": 2,
+      "description": "One slightly tapered can body wraps the guides with a readable top ellipse and curved lower edge."
+    },
+    {
+      "name": "pull tab, can opening, center rivet, and two blank diagonal label bands",
+      "introduced_by_step": 3,
+      "description": "Simple top hardware and two text-free sweeping bands give the can material and graphic structure."
+    },
+    {
+      "name": "exactly five fizz bubbles, three motion ticks, two highlight gaps, and shallow shadow",
+      "introduced_by_step": 4,
+      "description": "Five unequal bubbles rise from the opening along the reserved arc, supported by three short ticks, two paper highlights, and one grounded shadow."
+    },
+    {
+      "name": "thick black outline and coral, teal, pale-butter, gray, and golden marker fills",
+      "introduced_by_step": 5,
+      "description": "Imperfect felt-tip outlines and saturated but limited marker fills clarify every established contour while preserving streaks and paper gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-soda-can-with-fizz-step-1.jpg",
+      "step_name": "Map the fizzy can",
+      "visible_job": "Places the can center axis, top ellipse, body sides, bottom curve, pull-tab footprint, two label-band routes, five-bubble fizz arc, and shallow shadow footprint.",
+      "introduces": [
+        "can cylinder, top ellipse, pull-tab, label-band, fizz, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-soda-can-with-fizz-step-2.jpg",
+      "step_name": "Shape the can silhouette",
+      "visible_job": "Wraps the pale guides with the complete slightly tapered body, top rim, short neck transition, and curved bottom edge.",
+      "introduces": [
+        "complete soda-can silhouette with top rim and bottom curve"
+      ],
+      "requires_prior_elements": [
+        "can cylinder, top ellipse, pull-tab, label-band, fizz, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-soda-can-with-fizz-step-3.jpg",
+      "step_name": "Build the tab and label waves",
+      "visible_job": "Adds one pull tab, one can opening, one center rivet, and two blank diagonal label bands to the established can.",
+      "introduces": [
+        "pull tab, can opening, center rivet, and two blank diagonal label bands"
+      ],
+      "requires_prior_elements": [
+        "complete soda-can silhouette with top rim and bottom curve"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-soda-can-with-fizz-step-4.jpg",
+      "step_name": "Pop five fizz bubbles",
+      "visible_job": "Adds exactly five unequal fizz bubbles along the reserved arc, three short motion ticks, two vertical paper-highlight gaps, and one shallow shadow.",
+      "introduces": [
+        "exactly five fizz bubbles, three motion ticks, two highlight gaps, and shallow shadow"
+      ],
+      "requires_prior_elements": [
+        "can cylinder, top ellipse, pull-tab, label-band, fizz, and shadow guides",
+        "complete soda-can silhouette with top rim and bottom curve",
+        "pull tab, can opening, center rivet, and two blank diagonal label bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-soda-can-with-fizz-step-5.jpg",
+      "step_name": "Ink the soda-shop colors",
+      "visible_job": "Thickens every established contour and fills the can coral, label bands teal and pale butter, top and bottom gray, bubbles golden yellow, and shadow warm gray while preserving streaks and paper highlights.",
+      "introduces": [
+        "thick black outline and coral, teal, pale-butter, gray, and golden marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete soda-can silhouette with top rim and bottom curve",
+        "pull tab, can opening, center rivet, and two blank diagonal label bands",
+        "exactly five fizz bubbles, three motion ticks, two highlight gaps, and shallow shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Make the fizz pop",
+    "asset": "assets/cartoon-soda-can-with-fizz-finished-v1.jpg",
+    "visible_job": "Only reinforces the established can, rim, tab, opening, label bands, five bubbles, three motion ticks, highlight gaps, limited fills, and shallow shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small hardware and overlap clarifications",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same upright three-quarter can, crop, scale, top ellipse, body taper, tab position, label bands, and fizz arc must persist through all six panels.",
+    "Exactly one can, one pull tab and opening, two blank label bands, five bubbles, three motion ticks, and two highlight gaps must appear before the final panel and persist.",
+    "No brand, letter, word, logo, face, straw, cup, bottle, extra prop, sticker outline, badge frame, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

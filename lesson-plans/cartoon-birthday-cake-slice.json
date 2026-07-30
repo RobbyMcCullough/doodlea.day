@@ -1,0 +1,118 @@
+{
+  "slug": "cartoon-birthday-cake-slice",
+  "finished": "assets/cartoon-birthday-cake-slice-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent birthday-cake slice progressing from pale construction to bold felt-tip outlines and a raspberry, lavender, mint, and tangerine marker palette.",
+    "notes": "Honest 2026-05-12 archive lesson. Keep one three-quarter triangular cake slice with three sponge layers, two filling bands, one top frosting layer with a single front drip, one striped candle with two tangerine diagonal bands, one flame, exactly six sprinkle marks, two side highlight reserves, one top frosting paper highlight, and one shallow shadow stable. No face, plate, whole cake, gift, party scene, text, sticker border, badge frame, signature, watermark, or final-only feature."
+  },
+  "process_strategy": "Lock the cake prism, layer divisions, candle footprint, flame, sprinkles, and shadow before outlining; establish every layer and decoration before inking; then color only the existing shapes so the final remains a cumulative face-free marker drawing in a palette distinct from the current soda can.",
+  "final_elements": [
+    {
+      "name": "cake-prism, layer, frosting, candle, flame, sprinkle, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one triangular slice, three layer zones, top frosting, candle footprint, flame reserve, six sprinkle positions, and shallow shadow."
+    },
+    {
+      "name": "complete triangular cake-slice silhouette with top and side planes",
+      "introduced_by_step": 2,
+      "description": "One stable three-quarter wedge wraps the guides with a pointed back, broad front face, and visible side plane."
+    },
+    {
+      "name": "three sponge layers, two filling bands, top frosting, and one front drip",
+      "introduced_by_step": 3,
+      "description": "Countable horizontal cake layers and one soft frosting edge make the slice readable before decoration or color."
+    },
+    {
+      "name": "one candle, two tangerine bands, one flame, six sprinkles, two side highlight reserves, and shallow shadow",
+      "introduced_by_step": 4,
+      "description": "A single upright candle and six countable top decorations sit in reserved areas without covering finished cake detail."
+    },
+    {
+      "name": "thick black outline and raspberry, lavender, mint, tangerine, cream, and warm-gray marker fills",
+      "introduced_by_step": 5,
+      "description": "Imperfect felt-tip outlines and a cool-fruit palette clarify every established shape while preserving visible streaks, the two side highlights, and one top frosting paper highlight."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-birthday-cake-slice-step-1.jpg",
+      "step_name": "Map the cake wedge",
+      "visible_job": "Places the top triangle, front and side planes, three layer zones, frosting edge, candle footprint, flame reserve, six sprinkle positions, and shallow shadow footprint.",
+      "introduces": [
+        "cake-prism, layer, frosting, candle, flame, sprinkle, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-birthday-cake-slice-step-2.jpg",
+      "step_name": "Shape the cake slice",
+      "visible_job": "Wraps the pale guides with the complete triangular top, broad front face, visible side plane, and stable bottom edge while preserving every reserved decoration area.",
+      "introduces": [
+        "complete triangular cake-slice silhouette with top and side planes"
+      ],
+      "requires_prior_elements": [
+        "cake-prism, layer, frosting, candle, flame, sprinkle, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-birthday-cake-slice-step-3.jpg",
+      "step_name": "Stack the cake layers",
+      "visible_job": "Divides the established slice into exactly three sponge layers and two filling bands, then adds the top frosting edge and one front drip.",
+      "introduces": [
+        "three sponge layers, two filling bands, top frosting, and one front drip"
+      ],
+      "requires_prior_elements": [
+        "complete triangular cake-slice silhouette with top and side planes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-birthday-cake-slice-step-4.jpg",
+      "step_name": "Light the birthday details",
+      "visible_job": "Adds one candle with exactly two planned color bands, one flame, exactly six sprinkle marks outside the candle footprint, two side paper-highlight reserves, and one shallow shadow.",
+      "introduces": [
+        "one candle, two tangerine bands, one flame, six sprinkles, two side highlight reserves, and shallow shadow"
+      ],
+      "requires_prior_elements": [
+        "cake-prism, layer, frosting, candle, flame, sprinkle, and shadow guides",
+        "complete triangular cake-slice silhouette with top and side planes",
+        "three sponge layers, two filling bands, top frosting, and one front drip"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-birthday-cake-slice-step-5.jpg",
+      "step_name": "Ink the party colors",
+      "visible_job": "Thickens every established contour and fills the frosting raspberry, sponge lavender, filling mint, two candle bands tangerine, remaining candle areas cream, flame golden, and shadow warm gray while preserving marker streaks, both side highlights, and one top frosting paper highlight.",
+      "introduces": [
+        "thick black outline and raspberry, lavender, mint, tangerine, cream, and warm-gray marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete triangular cake-slice silhouette with top and side planes",
+        "three sponge layers, two filling bands, top frosting, and one front drip",
+        "one candle, two tangerine bands, one flame, six sprinkles, two side highlight reserves, and shallow shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the birthday slice",
+    "asset": "assets/cartoon-birthday-cake-slice-finished-v1.jpg",
+    "visible_job": "Only reinforces the established cake planes, three layers, two filling bands, frosting and drip, candle and flame, six sprinkles, three paper highlights, limited fills, and shallow shadow.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established shapes",
+      "small layer and overlap clarifications",
+      "restrained paper-highlight cleanup",
+      "minor dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same three-quarter wedge, crop, scale, plane angles, candle position, layer heights, and shadow must persist through all six panels.",
+    "Exactly three sponge layers, two filling bands, one frosting drip, one candle, two tangerine bands, one flame, six sprinkles, two side highlights, and one top frosting highlight must appear before the final panel and persist.",
+    "No face, plate, whole cake, gift, balloons, confetti, words, numbers, extra candle, sticker outline, badge frame, signature, watermark, or final-only motif may appear.",
+    "The finish must retain visible felt-tip texture and handmade edge variation rather than polished vector or bakery-ad gloss, and no adjacent frame may look unchanged at card size."
+  ]
+}

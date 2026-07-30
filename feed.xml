@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a soda can with fizz</title>
+      <link>https://doodlea.day/tutorials/cartoon-soda-can-with-fizz.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-soda-can-with-fizz.html</guid>
+      <pubDate>Thu, 30 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a soda can with fizz using a three-quarter cylinder, pull tab, opening, two blank label bands, five bubbles, three motion ticks, paper highlights, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-soda-can-with-fizz-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a chicken</title>
       <link>https://doodlea.day/tutorials/cartoon-chicken.html</link>
@@ -630,6 +638,14 @@
       <pubDate>Wed, 13 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a gumball machine with a round glass globe, exactly ten gumballs, a domed cap, broad cabinet, coin slot, three-lobed handle, dispenser chute, thick black outlines, and bright marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-gumball-machine-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a birthday cake slice</title>
+      <link>https://doodlea.day/tutorials/cartoon-birthday-cake-slice.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-birthday-cake-slice.html</guid>
+      <pubDate>Tue, 12 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a birthday cake slice with a three-quarter wedge, three sponge layers, two filling bands, top frosting and one drip, a striped candle and flame, six sprinkles, thick black outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-birthday-cake-slice-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -890,6 +890,16 @@
   clear shapes, bright color, and a simple teachable sequence.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+
+## 2026-07-30 Daily Lessons
+- Published `cartoon-soda-can-with-fizz` as the July 30 / Day 080 current lesson
+  and `cartoon-birthday-cake-slice` as the honest May 12 / Day 001 archive
+  lesson. Finished-image ratings were 9.5/10 and 9.4/10.
+- The soda sheet's original square-layout draft was preserved privately, then
+  the approved sequence was reformatted to a true 3x2 landscape sheet before
+  cropping. Both lessons passed readiness plus Cove desktop/mobile review.
+- The temporary two-tutorial-per-site backfill cadence remains active until the
+  owner says otherwise.
 - July 1, 2026 follow-up: added `scripts/check-daily-publish-slots.py` and
   updated `AGENTS.md`/`DAILY-PUBLISHING.md` so the daily automation stops before
   choosing subjects or generating art when the current publish date is already
