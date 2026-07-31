@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a folded banner ribbon</title>
+      <link>https://doodlea.day/tutorials/folded-banner-ribbon.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/folded-banner-ribbon.html</guid>
+      <pubDate>Fri, 31 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a folded banner ribbon using a curved front panel, folded-back returns, fishtail ends, overlap seams, bold felt-tip outlines, marker highlights, and saturated color.</description>
+      <media:content url="https://doodlea.day/assets/folded-banner-ribbon-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a soda can with fizz</title>
       <link>https://doodlea.day/tutorials/cartoon-soda-can-with-fizz.html</link>
@@ -646,6 +654,14 @@
       <pubDate>Tue, 12 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a birthday cake slice with a three-quarter wedge, three sponge layers, two filling bands, top frosting and one drip, a striped candle and flame, six sprinkles, thick black outlines, and bright marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-birthday-cake-slice-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a retro lava lamp</title>
+      <link>https://doodlea.day/tutorials/retro-lava-lamp.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/retro-lava-lamp.html</guid>
+      <pubDate>Mon, 11 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a retro lava lamp with a flared base, curved glass chamber, four large wax blobs, two small bubbles, bold felt-tip outlines, paper highlights, and saturated marker color.</description>
+      <media:content url="https://doodlea.day/assets/retro-lava-lamp-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-29
+- Date: 2026-07-31
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-28 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-30 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -34,6 +34,28 @@
 - Owner direction (2026-07-04): avoid "sticker"/"badge" framing for new
   lessons — no sticker titles, die-cut borders, or badge frames. Recorded in
   `AGENTS.md` and `DAILY-PUBLISHING.md`; existing sticker lessons stay.
+
+### 2026-07-31 — Daily tutorials (Codex)
+- Daily automation added current `folded-banner-ribbon` (July 31 /
+  Day 082) and honest archive `retro-lava-lamp` (May 11 / Day 001). Both use
+  reviewed six-panel handmade raster felt-tip contact sheets, cropped JPG
+  masters, WebP derivatives, social cards, and explicit process plans. The
+  blank banner keeps one curved front panel, two folded returns, two notched
+  tails, four overlap seams, highlights, and separate raspberry/teal/yellow
+  marker planes; it rates 9.3/10 for immediate readability, clear overlap
+  teaching, strong color, visible marker grain, and attainable construction.
+  The lamp keeps one flared base, curved chamber, tapered cap, four large wax
+  blobs, two small bubbles, highlights, seams, and an oval shadow; it rates
+  9.5/10 for its crisp retro silhouette, organic spacing, handmade texture,
+  disciplined palette, and cumulative process.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's expired certificate required the documented localhost:4174
+  fallback for 1440x1000 and 390x844 rendered QA; the homepage, library, and
+  both tutorials had no horizontal overflow, broken loaded lesson images,
+  empty lesson-image alts, invalid JSON-LD, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local

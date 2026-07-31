@@ -1,0 +1,117 @@
+{
+  "slug": "folded-banner-ribbon",
+  "finished": "assets/folded-banner-ribbon-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent folded banner ribbon progressing from pale marker-pencil construction to bold felt-tip outlines and saturated marker color.",
+    "notes": "Keep one centered blank banner with one long front panel, two folded-back return sections, two fishtail ends, four visible overlap seams, two long highlight gaps, two small corner glints, three short shadow hatches, and one shallow broken shadow stable. No letters, words, face, sticker border, badge frame, extra ribbon, arrows, numbers, labels, fake UI, signature, watermark, or final-only fold."
+  },
+  "process_strategy": "Lock the front panel, fold-return routes, fishtail notches, overlap seams, highlight gaps, and shadow footprint in pale construction; establish every ribbon contour and overlap before inking; then color only the already visible sections so the finish stays cumulative, face-free, and handmade.",
+  "final_elements": [
+    {
+      "name": "centerline, front-panel box, fold-return routes, fishtail notches, and shadow guide",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one long center panel, symmetrical return paths, two tail notches, and one shallow broken shadow."
+    },
+    {
+      "name": "complete front panel, two folded-back returns, and two fishtail ends",
+      "introduced_by_step": 2,
+      "description": "One continuous outer contour turns the guides into a readable blank banner with clear depth and two notched tails."
+    },
+    {
+      "name": "four overlap seams, inner fold edges, two long highlight gaps, two corner glints, and three short shadow hatches",
+      "introduced_by_step": 3,
+      "description": "Four seam changes clarify which ribbon sections pass in front, while two long open highlights, two small corner glints, and short hatches map the later value pattern."
+    },
+    {
+      "name": "thick black felt-tip keeper outlines and clarified ribbon overlaps",
+      "introduced_by_step": 4,
+      "description": "Imperfect bold outlines reinforce every established edge and seam while keeping the center panel blank."
+    },
+    {
+      "name": "raspberry front panel, teal returns, golden tails, purple fold shadows, and warm-gray ground shadow",
+      "introduced_by_step": 5,
+      "description": "Saturated marker fills separate the established ribbon planes with visible streaks and preserved paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-banner-ribbon-step-1.jpg",
+      "step_name": "Map the ribbon folds",
+      "visible_job": "Places a pale centerline, long front-panel box, two fold-return routes, two fishtail notches, and one shallow broken shadow footprint.",
+      "introduces": [
+        "centerline, front-panel box, fold-return routes, fishtail notches, and shadow guide"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-banner-ribbon-step-2.jpg",
+      "step_name": "Shape the banner silhouette",
+      "visible_job": "Wraps the guides with one complete blank front panel, two folded-back return sections, and two notched fishtail ends.",
+      "introduces": [
+        "complete front panel, two folded-back returns, and two fishtail ends"
+      ],
+      "requires_prior_elements": [
+        "centerline, front-panel box, fold-return routes, fishtail notches, and shadow guide"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-banner-ribbon-step-3.jpg",
+      "step_name": "Lock the overlaps",
+      "visible_job": "Adds four visible overlap seams, the inner fold edges, two long open highlight gaps, two small corner glints, and three short shadow hatches to the established ribbon.",
+      "introduces": [
+        "four overlap seams, inner fold edges, two long highlight gaps, two corner glints, and three short shadow hatches"
+      ],
+      "requires_prior_elements": [
+        "complete front panel, two folded-back returns, and two fishtail ends"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-banner-ribbon-step-4.jpg",
+      "step_name": "Ink the folded edges",
+      "visible_job": "Thickens every established outside edge, seam, tail notch, and fold boundary with imperfect black felt-tip lines while preserving the blank center and both highlight gaps.",
+      "introduces": [
+        "thick black felt-tip keeper outlines and clarified ribbon overlaps"
+      ],
+      "requires_prior_elements": [
+        "complete front panel, two folded-back returns, and two fishtail ends",
+        "four overlap seams, inner fold edges, two long highlight gaps, two corner glints, and three short shadow hatches"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-banner-ribbon-step-5.jpg",
+      "step_name": "Color each ribbon plane",
+      "visible_job": "Fills the established front panel raspberry, returns teal, tails golden yellow, fold shadows purple, and shallow ground shadow warm gray with directional marker strokes and open-paper highlights.",
+      "introduces": [
+        "raspberry front panel, teal returns, golden tails, purple fold shadows, and warm-gray ground shadow"
+      ],
+      "requires_prior_elements": [
+        "complete front panel, two folded-back returns, and two fishtail ends",
+        "four overlap seams, inner fold edges, two long highlight gaps, two corner glints, and three short shadow hatches",
+        "thick black felt-tip keeper outlines and clarified ribbon overlaps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Crisp up the banner",
+    "asset": "assets/folded-banner-ribbon-finished-v1.jpg",
+    "visible_job": "Only reinforces the established outline, overlap seams, marker fills, paper highlights, short hatches, and shallow broken shadow without adding text or a new fold.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established ribbon sections",
+      "minor overlap and seam clarification",
+      "restrained paper-highlight cleanup",
+      "small dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same centered ribbon, front-panel width, return depth, tail angles, notch shapes, overlap seams, and shadow footprint must persist through all six panels.",
+    "Exactly one blank front panel, two folded-back returns, two fishtail ends, four overlap seams, two long highlight gaps, and two small corner glints must appear before the final panel and persist.",
+    "No letter, word, logo, face, sticker outline, badge frame, extra ribbon, prop, label, arrow, number, fake UI, signature, watermark, or final-only fold may appear.",
+    "The finish must retain visible felt-tip streaks and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
