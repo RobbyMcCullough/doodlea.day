@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-31
+- Date: 2026-08-01
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-30 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-31 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -56,6 +56,29 @@
   empty lesson-image alts, invalid JSON-LD, or public lab links. The temporary
   two-tutorial-per-site backfill cadence remains active until the owner says
   otherwise.
+
+### 2026-08-01 — Daily tutorials (Codex)
+- Daily automation added current `leafy-vine-flourish` (August 1 / Day 084)
+  and honest archive `paint-roller-with-paint-swash` (May 10 / Day 001). Both
+  use reviewed six-panel handmade raster felt-tip contact sheets, cropped JPG
+  masters, WebP derivatives, social cards, and explicit process plans. The
+  vine keeps one diagonal S curve, eight alternating leaves, two tendrils,
+  three berries, simple veins, and two violet hatch clusters; its final panel
+  received a reviewed raster edit so every leaf keeps its Step 5 color, and it
+  rates 9.4/10 for botanical rhythm, thumbnail clarity, saturated handmade
+  marker texture, and an approachable 15-minute sequence. The roller keeps one
+  cylinder, bent metal frame, tapered grip, broad swash, two attached drips,
+  two detached droplets, two cover highlights, and a broken shadow; it rates
+  9.5/10 for unmistakable tool anatomy, strong overlap teaching, bold palette,
+  and a stable 20-minute process.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  library, and both tutorials with no horizontal overflow, broken loaded
+  lesson images, missing image alts, invalid JSON-LD, or public lab links.
+  Screenshots are under `/tmp/daily-sketch-doodle-qa-2026-08-01/`. The
+  temporary two-tutorial-per-site backfill cadence remains active until the
+  owner says otherwise.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local
