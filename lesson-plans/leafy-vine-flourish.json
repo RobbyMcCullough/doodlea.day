@@ -1,0 +1,118 @@
+{
+  "slug": "leafy-vine-flourish",
+  "finished": "assets/leafy-vine-flourish-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent leafy vine progressing from pale pencil construction to bold felt-tip outlines and saturated marker color.",
+    "notes": "Keep one face-free diagonal S-curved vine, exactly eight alternating leaves, two curling tendrils, exactly three round berry accents, short leaf veins, two small clusters of three stem-shadow hatch marks, and open paper highlights stable. No flower, pot, border frame, wreath, lettering, face, insect, extra leaf, extra berry, label, arrow, number, fake UI, signature, watermark, or final-only flourish."
+  },
+  "process_strategy": "Lock the diagonal S path, stem width, eight leaf footprints, two tendril curls, and three berry positions in pale construction; establish every leaf, vein, and accent before inking; then color only the visible shapes already present so the finish stays cumulative and handmade.",
+  "final_elements": [
+    {
+      "name": "diagonal S path, stem width, eight leaf footprints, two tendril routes, and three berry positions",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one sweeping vine, exactly eight alternating leaves, two open curls, and three berry accents in one balanced square crop."
+    },
+    {
+      "name": "complete double-line vine stem and eight leaf silhouettes",
+      "introduced_by_step": 2,
+      "description": "A tapered double-line stem and eight varied pointed leaves turn the guides into one readable botanical flourish."
+    },
+    {
+      "name": "two curling tendrils, three berries, leaf midribs, side veins, and two three-mark stem-shadow hatch clusters",
+      "introduced_by_step": 3,
+      "description": "The two curls, three round accents, simple veins, and short hatches add rhythm without changing the established silhouette."
+    },
+    {
+      "name": "thick imperfect black felt-tip outlines and clarified overlaps",
+      "introduced_by_step": 4,
+      "description": "Bold handmade marker reinforces every existing stem, leaf, tendril, berry, vein, and overlap while keeping intentional paper gaps."
+    },
+    {
+      "name": "deep-jade and chartreuse leaf fills, raspberry berries, violet stem shadows, and paper highlights",
+      "introduced_by_step": 5,
+      "description": "Saturated limited-color marker fills separate alternating leaves and accents with visible streaks and preserved open-paper shine."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/leafy-vine-flourish-step-1.jpg",
+      "step_name": "Sweep the vine path",
+      "visible_job": "Places one pale diagonal S curve, a parallel stem-width guide, exactly eight alternating leaf footprints, two tendril routes, and three berry positions.",
+      "introduces": [
+        "diagonal S path, stem width, eight leaf footprints, two tendril routes, and three berry positions"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/leafy-vine-flourish-step-2.jpg",
+      "step_name": "Shape eight leaves",
+      "visible_job": "Connects the stem guides into one tapered double-line vine and wraps all eight footprints with varied pointed leaf silhouettes.",
+      "introduces": [
+        "complete double-line vine stem and eight leaf silhouettes"
+      ],
+      "requires_prior_elements": [
+        "diagonal S path, stem width, eight leaf footprints, two tendril routes, and three berry positions"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/leafy-vine-flourish-step-3.jpg",
+      "step_name": "Curl tendrils and veins",
+      "visible_job": "Adds two curling tendrils, exactly three round berries, a midrib and a few side veins inside each established leaf, and two small clusters of three violet stem-shadow hatch marks.",
+      "introduces": [
+        "two curling tendrils, three berries, leaf midribs, side veins, and two three-mark stem-shadow hatch clusters"
+      ],
+      "requires_prior_elements": [
+        "diagonal S path, stem width, eight leaf footprints, two tendril routes, and three berry positions",
+        "complete double-line vine stem and eight leaf silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/leafy-vine-flourish-step-4.jpg",
+      "step_name": "Ink the botanical rhythm",
+      "visible_job": "Thickens every established stem, leaf, tendril, berry, vein, and overlap with imperfect black felt-tip lines while preserving narrow paper highlights.",
+      "introduces": [
+        "thick imperfect black felt-tip outlines and clarified overlaps"
+      ],
+      "requires_prior_elements": [
+        "complete double-line vine stem and eight leaf silhouettes",
+        "two curling tendrils, three berries, leaf midribs, side veins, and two three-mark stem-shadow hatch clusters"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/leafy-vine-flourish-step-5.jpg",
+      "step_name": "Color the curling vine",
+      "visible_job": "Fills the established leaves in alternating deep jade and chartreuse, the three berries raspberry, the stem-shadow hatches violet, and leaves narrow open-paper highlights with visible marker streaks.",
+      "introduces": [
+        "deep-jade and chartreuse leaf fills, raspberry berries, violet stem shadows, and paper highlights"
+      ],
+      "requires_prior_elements": [
+        "complete double-line vine stem and eight leaf silhouettes",
+        "two curling tendrils, three berries, leaf midribs, side veins, and two three-mark stem-shadow hatch clusters",
+        "thick imperfect black felt-tip outlines and clarified overlaps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the vine unfurl",
+    "asset": "assets/leafy-vine-flourish-finished-v1.jpg",
+    "visible_job": "Only reinforces the established black outlines, eight leaf fills, two tendrils, three berries, veins, violet hatches, and open-paper highlights without adding another botanical form.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established leaves, berries, and stem shadows",
+      "minor vein and overlap clarification",
+      "restrained paper-highlight cleanup",
+      "small dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same diagonal S path, stem width, eight leaf positions, two tendril curls, three berry positions, crop, and scale must persist through all six panels.",
+    "Exactly one vine, eight leaves, two tendrils, and three berries must appear before the final panel and persist.",
+    "No flower, pot, wreath, border frame, lettering, face, insect, extra leaf, extra berry, label, arrow, number, fake UI, signature, watermark, or final-only flourish may appear.",
+    "The finish must retain visible felt-tip streaks and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}

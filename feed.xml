@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a leafy vine flourish</title>
+      <link>https://doodlea.day/tutorials/leafy-vine-flourish.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/leafy-vine-flourish.html</guid>
+      <pubDate>Sat, 01 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a leafy vine flourish with one sweeping S curve, eight alternating leaves, two curling tendrils, three berry accents, bold felt-tip outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/leafy-vine-flourish-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a folded banner ribbon</title>
       <link>https://doodlea.day/tutorials/folded-banner-ribbon.html</link>
@@ -662,6 +670,14 @@
       <pubDate>Mon, 11 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a retro lava lamp with a flared base, curved glass chamber, four large wax blobs, two small bubbles, bold felt-tip outlines, paper highlights, and saturated marker color.</description>
       <media:content url="https://doodlea.day/assets/retro-lava-lamp-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a paint roller with a paint swash</title>
+      <link>https://doodlea.day/tutorials/paint-roller-with-paint-swash.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/paint-roller-with-paint-swash.html</guid>
+      <pubDate>Sun, 10 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a paint roller with a cylindrical cover, bent metal frame, tapered grip, broad paint swash, two drips, two droplets, bold outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/paint-roller-with-paint-swash-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

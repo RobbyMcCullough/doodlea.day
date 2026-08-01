@@ -1,0 +1,118 @@
+{
+  "slug": "paint-roller-with-paint-swash",
+  "finished": "assets/paint-roller-with-paint-swash-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent paint roller and swash progressing from pale construction to bold felt-tip outlines and saturated marker color.",
+    "notes": "Keep one face-free paint roller angled from a lower-right grip to an upper-left roller cover, one bent metal frame, one broad paint swash behind it, exactly two rounded drips, exactly two detached paint droplets, one grip hole, two roller highlight gaps, and one shallow broken shadow stable. No hand, wall, paint can, brush, face, lettering, logo, border, sticker edge, badge frame, label, arrow, number, fake UI, signature, watermark, or final-only flourish."
+  },
+  "process_strategy": "Lock the roller axis, cylinder ends, bent-frame route, grip footprint, swash boundary, two drip positions, two droplet positions, highlight gaps, and shadow before inking; clarify the roller hardware and every paint edge before adding color; then deepen only established fills and outlines in the final frame.",
+  "final_elements": [
+    {
+      "name": "roller axis, cylinder ends, bent-frame route, grip footprint, swash footprint, two drips, two droplets, highlights, and shadow",
+      "introduced_by_step": 1,
+      "description": "Pale construction places one diagonal roller, one paint swash, exactly two drips, two detached droplets, two roller highlights, and one shallow broken shadow."
+    },
+    {
+      "name": "complete roller cover, bent metal frame, and tapered grip silhouettes",
+      "introduced_by_step": 2,
+      "description": "The cylinder, frame bends, ferrule, and grip become one readable paint-roller silhouette with clear overlaps."
+    },
+    {
+      "name": "broad paint swash, two rounded drips, two detached droplets, grip hole, two roller highlights, and broken shadow",
+      "introduced_by_step": 3,
+      "description": "Every paint edge, drip, droplet, hardware detail, highlight reserve, and shadow appears before the black and color passes."
+    },
+    {
+      "name": "thick imperfect black felt-tip outlines and clarified roller-over-swash overlaps",
+      "introduced_by_step": 4,
+      "description": "Bold handmade marker reinforces every existing roller, frame, grip, swash, drip, droplet, highlight, and shadow boundary."
+    },
+    {
+      "name": "tangerine paint, deep-navy grip, cool-gray frame, paper highlights, and warm-gray shadow",
+      "introduced_by_step": 5,
+      "description": "A limited retro palette fills the roller cover and swash tangerine, grip deep navy, frame cool gray, and shadow warm gray with visible marker texture."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/paint-roller-with-paint-swash-step-1.jpg",
+      "step_name": "Angle the roller guides",
+      "visible_job": "Places a pale diagonal roller axis, two cylinder ends, bent-frame route, tapered grip footprint, broad swash boundary, two drip positions, two droplet positions, two highlight gaps, and a shallow shadow.",
+      "introduces": [
+        "roller axis, cylinder ends, bent-frame route, grip footprint, swash footprint, two drips, two droplets, highlights, and shadow"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/paint-roller-with-paint-swash-step-2.jpg",
+      "step_name": "Build the roller silhouette",
+      "visible_job": "Wraps the guides with one rounded roller cover, one bent metal frame with clear axle overlap, and one tapered grip with a small ferrule.",
+      "introduces": [
+        "complete roller cover, bent metal frame, and tapered grip silhouettes"
+      ],
+      "requires_prior_elements": [
+        "roller axis, cylinder ends, bent-frame route, grip footprint, swash footprint, two drips, two droplets, highlights, and shadow"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/paint-roller-with-paint-swash-step-3.jpg",
+      "step_name": "Shape the paint swash",
+      "visible_job": "Adds one broad paint swash behind the roller, exactly two rounded lower-edge drips, exactly two detached droplets, one grip hole, two roller highlight reserves, and one broken shadow.",
+      "introduces": [
+        "broad paint swash, two rounded drips, two detached droplets, grip hole, two roller highlights, and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "roller axis, cylinder ends, bent-frame route, grip footprint, swash footprint, two drips, two droplets, highlights, and shadow",
+        "complete roller cover, bent metal frame, and tapered grip silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/paint-roller-with-paint-swash-step-4.jpg",
+      "step_name": "Ink the roller and paint",
+      "visible_job": "Thickens every established roller, frame, grip, swash, drip, droplet, highlight, and shadow boundary with imperfect black felt-tip lines.",
+      "introduces": [
+        "thick imperfect black felt-tip outlines and clarified roller-over-swash overlaps"
+      ],
+      "requires_prior_elements": [
+        "complete roller cover, bent metal frame, and tapered grip silhouettes",
+        "broad paint swash, two rounded drips, two detached droplets, grip hole, two roller highlights, and broken shadow"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/paint-roller-with-paint-swash-step-5.jpg",
+      "step_name": "Roll on the color",
+      "visible_job": "Fills the established roller cover and swash tangerine, grip deep navy, frame cool gray, and shadow warm gray while preserving two paper highlights and visible marker streaks.",
+      "introduces": [
+        "tangerine paint, deep-navy grip, cool-gray frame, paper highlights, and warm-gray shadow"
+      ],
+      "requires_prior_elements": [
+        "complete roller cover, bent metal frame, and tapered grip silhouettes",
+        "broad paint swash, two rounded drips, two detached droplets, grip hole, two roller highlights, and broken shadow",
+        "thick imperfect black felt-tip outlines and clarified roller-over-swash overlaps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the fresh coat",
+    "asset": "assets/paint-roller-with-paint-swash-finished-v1.jpg",
+    "visible_job": "Only reinforces the established outlines, tangerine paint, roller hardware, grip, two drips, two droplets, two paper highlights, and broken shadow without adding another object or paint mark.",
+    "allowed_changes": [
+      "keeper-outline strengthening",
+      "marker-fill evening inside established roller, swash, grip, and shadow shapes",
+      "minor overlap and hardware clarification",
+      "restrained paper-highlight cleanup",
+      "small dry-marker texture accents"
+    ]
+  },
+  "rejection_checks": [
+    "The same roller angle, cover shape, bent-frame route, grip footprint, swash boundary, two drip positions, two droplet positions, crop, and scale must persist through all six panels.",
+    "Exactly one roller, one swash, two drips, and two detached droplets must appear before the final panel and persist.",
+    "No hand, wall, paint can, brush, face, lettering, logo, border, sticker edge, badge frame, label, arrow, number, fake UI, signature, watermark, or final-only flourish may appear.",
+    "The finish must retain visible felt-tip streaks and handmade edge variation rather than clean vector-icon polish, and no adjacent frame may look unchanged at card size."
+  ]
+}
