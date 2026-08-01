@@ -11,7 +11,7 @@
     {
       "name": "curl axis, wedge base, and spray positions",
       "introduced_by_step": 1,
-      "description": "A pale spiral-C guide for the curl, a low triangular base guide, a small foam footprint, and exactly three separate spray-droplet positions above the crest."
+      "description": "A pale backwards C-shaped spiral guide for the curl, a low triangular base guide, a small foam footprint, and exactly three separate spray-droplet positions above the crest."
     },
     {
       "name": "curling wave silhouette",
@@ -39,7 +39,7 @@
       "step": 1,
       "asset": "assets/comic-ocean-wave-step-1.jpg",
       "step_name": "Map the curl",
-      "visible_job": "Places the pale spiral-C curl guide, low wedge base, foam footprint, and exactly three spray-droplet positions in one fixed square crop.",
+      "visible_job": "Places the pale backwards C-shaped spiral curl guide, low wedge base, foam footprint, and exactly three spray-droplet positions in one fixed square crop.",
       "introduces": [
         "curl axis, wedge base, and spray positions"
       ]
