@@ -9,9 +9,9 @@
   "process_strategy": "Lock the lamp axis, flared base, glass chamber, cap, wax routes, highlight gaps, and shadow in pale construction; establish every lamp and wax contour before inking; then color only the already visible metal, glass, wax, and shadow shapes so the finish stays cumulative, face-free, and handmade.",
   "final_elements": [
     {
-      "name": "center axis, base trapezoid, glass chamber, cap, wax routes, highlight reserves, and shadow guide",
+      "name": "center axis, base trapezoid, glass chamber, cap, four large wax footprints, two bubble guides, highlight reserves, and shadow guide",
       "introduced_by_step": 1,
-      "description": "Pale construction fixes one upright lamp, its slight three-quarter taper, the internal wax flow, three highlight reserves, and one shallow oval shadow."
+      "description": "Pale construction fixes one upright lamp, its slight three-quarter taper, the exact four large wax footprints and two bubble positions used later, three highlight reserves, and one shallow oval shadow."
     },
     {
       "name": "complete flared base, curved glass chamber, tapered cap, and glass rims",
@@ -19,9 +19,9 @@
       "description": "A single readable outside contour establishes the retro lamp silhouette and the boundaries between metal and glass."
     },
     {
-      "name": "four large wax blobs, two small wax bubbles, and open highlight gaps",
+      "name": "refined wax contours and open highlight gaps",
       "introduced_by_step": 3,
-      "description": "Four irregular connected-looking wax forms and two smaller bubbles create the lava rhythm inside the established chamber while highlights stay open."
+      "description": "The four established wax footprints and two bubble guides are refined into confident irregular contours while the established highlights stay open."
     },
     {
       "name": "thick black felt-tip outlines, three base seam accents, and clarified glass overlaps",
@@ -39,33 +39,34 @@
       "step": 1,
       "asset": "assets/retro-lava-lamp-step-1.jpg",
       "step_name": "Stack the lamp shapes",
-      "visible_job": "Places a pale center axis, flared base trapezoid, curved glass chamber, tapered cap, internal wax routes, one long glass-highlight reserve, two short base-highlight reserves, and one shallow oval shadow footprint.",
+      "visible_job": "Places a pale center axis, flared base trapezoid, curved glass chamber, tapered cap, the exact four large wax footprints and two bubble positions used later, one long glass-highlight reserve, two short base-highlight reserves, and one shallow oval shadow footprint.",
       "introduces": [
-        "center axis, base trapezoid, glass chamber, cap, wax routes, highlight reserves, and shadow guide"
+        "center axis, base trapezoid, glass chamber, cap, four large wax footprints, two bubble guides, highlight reserves, and shadow guide"
       ]
     },
     {
       "step": 2,
       "asset": "assets/retro-lava-lamp-step-2.jpg",
       "step_name": "Shape the retro silhouette",
-      "visible_job": "Wraps the guides with the complete flared base, curved glass chamber, tapered cap, and the top and bottom glass rims.",
+      "visible_job": "Wraps the guides with the complete flared base, curved glass chamber, tapered cap, and the top and bottom glass rims while preserving all four wax footprints and both bubble guides.",
       "introduces": [
         "complete flared base, curved glass chamber, tapered cap, and glass rims"
       ],
       "requires_prior_elements": [
-        "center axis, base trapezoid, glass chamber, cap, wax routes, highlight reserves, and shadow guide"
+        "center axis, base trapezoid, glass chamber, cap, four large wax footprints, two bubble guides, highlight reserves, and shadow guide"
       ]
     },
     {
       "step": 3,
       "asset": "assets/retro-lava-lamp-step-3.jpg",
       "step_name": "Float the lava shapes",
-      "visible_job": "Adds four large irregular wax blobs and two small wax bubbles inside the established glass chamber while preserving one long glass highlight and two short metal highlights.",
+      "visible_job": "Darkens and refines the four established wax footprints and two bubble guides inside the glass chamber while preserving one long glass highlight and two short metal highlights.",
       "introduces": [
-        "four large wax blobs, two small wax bubbles, and open highlight gaps"
+        "refined wax contours and open highlight gaps"
       ],
       "requires_prior_elements": [
-        "complete flared base, curved glass chamber, tapered cap, and glass rims"
+        "complete flared base, curved glass chamber, tapered cap, and glass rims",
+        "center axis, base trapezoid, glass chamber, cap, four large wax footprints, two bubble guides, highlight reserves, and shadow guide"
       ]
     },
     {
@@ -78,7 +79,7 @@
       ],
       "requires_prior_elements": [
         "complete flared base, curved glass chamber, tapered cap, and glass rims",
-        "four large wax blobs, two small wax bubbles, and open highlight gaps"
+        "refined wax contours and open highlight gaps"
       ]
     },
     {
@@ -91,7 +92,7 @@
       ],
       "requires_prior_elements": [
         "complete flared base, curved glass chamber, tapered cap, and glass rims",
-        "four large wax blobs, two small wax bubbles, and open highlight gaps",
+        "refined wax contours and open highlight gaps",
         "thick black felt-tip outlines, three base seam accents, and clarified glass overlaps"
       ]
     }

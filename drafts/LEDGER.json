@@ -273,7 +273,9 @@
       "status": "published"
     },
     "retro-lava-lamp": {
-      "status": "published"
+      "status": "published",
+      "date": "2026-05-11",
+      "note": "Corrected 2026-08-01: steps 1 and 2 now retain the same four wax footprints and two bubbles refined in step 3."
     },
     "silly-robot-head": {
       "status": "published"
