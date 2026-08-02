@@ -102,6 +102,15 @@
   `/tmp/daily-sketch-doodle-qa-2026-08-02/`. The temporary
   two-tutorial-per-site backfill cadence remains active until the owner says
   otherwise.
+- Local lesson commit `8cef662` is complete. The push phase stopped when the
+  required 1Password SSH agent failed while signing the Sketcha.day push with
+  `sign_and_send_pubkey: ... communication with agent failed`; no fallback
+  agent or transport was used, the Doodlea.day push was not attempted, and no
+  deployment began. After authorizing 1Password, push `main` through the
+  documented socket and verify both `8cef662` and the waiting lava-lamp
+  continuity commit `82ce97b`, the workflow, live URLs, homepage/library,
+  lesson finished-WebP checksums, repaired lava-lamp Step 1/2 checksums, and
+  branch alignment.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local
