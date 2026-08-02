@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon submarine with bubbles</title>
+      <link>https://doodlea.day/tutorials/cartoon-submarine-with-bubbles.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-submarine-with-bubbles.html</guid>
+      <pubDate>Sun, 02 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon submarine with a capsule hull, bent periscope, three portholes, six rivets, two tail fins, three-blade propeller, three bubbles, thick felt-tip outlines, and vintage marine marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-submarine-with-bubbles-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a leafy vine flourish</title>
       <link>https://doodlea.day/tutorials/leafy-vine-flourish.html</link>
@@ -678,6 +686,14 @@
       <pubDate>Sun, 10 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a paint roller with a cylindrical cover, bent metal frame, tapered grip, broad paint swash, two drips, two droplets, bold outlines, and bright marker color.</description>
       <media:content url="https://doodlea.day/assets/paint-roller-with-paint-swash-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a high-top sneaker with loose laces</title>
+      <link>https://doodlea.day/tutorials/high-top-sneaker-with-loose-laces.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/high-top-sneaker-with-loose-laces.html</guid>
+      <pubDate>Sat, 09 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a high-top sneaker with a three-quarter canvas shape, rounded toe cap, thick sole, six visible eyelets, crisscross laces, two loose ends, seams, tread notches, and bold marker color.</description>
+      <media:content url="https://doodlea.day/assets/high-top-sneaker-with-loose-laces-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

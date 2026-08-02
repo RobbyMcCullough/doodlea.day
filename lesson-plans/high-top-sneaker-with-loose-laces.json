@@ -1,0 +1,127 @@
+{
+  "slug": "high-top-sneaker-with-loose-laces",
+  "finished": "assets/high-top-sneaker-with-loose-laces-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free high-top sneaker, one stable three-quarter side view, one toe cap, one thick sole, one tongue, one ankle collar, exactly six visible eyelets, one crisscross lace path, exactly two loose lace ends, side seams, four tread notches, and one broken shadow stable."
+  },
+  "process_strategy": "Reserve the tongue and lace footprint inside the upper, construct the shoe and sole first, place all eyelets, laces, seams, and tread details in light line before inking, introduce the limited canvas palette before the final panel, and finish with line-weight and fill cleanup only.",
+  "final_elements": [
+    {
+      "name": "sole foot ankle tongue lace and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes the sole baseline, foot box, high ankle envelope, tongue footprint, toe-cap curve, six visible eyelet positions, lace route, and broken shadow."
+    },
+    {
+      "name": "complete high-top sneaker silhouette",
+      "introduced_by_step": 2,
+      "description": "One three-quarter side-view high-top with rounded toe cap, thick sole, heel, ankle collar, and tongue."
+    },
+    {
+      "name": "six visible eyelets crisscross laces and two loose ends",
+      "introduced_by_step": 3,
+      "description": "Exactly six visible eyelets along the near side, one clear crisscross lace path across the tongue, and exactly two loose lace ends resting above the toe."
+    },
+    {
+      "name": "side seams sole stripe and four tread notches",
+      "introduced_by_step": 3,
+      "description": "A curved side panel seam, heel seam, one sole stripe, and exactly four visible tread notches complete the light detail pass."
+    },
+    {
+      "name": "thick black felt-tip outline and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces every established shoe contour, lace, eyelet, seam, sole detail, and the reserved broken shadow."
+    },
+    {
+      "name": "forest green cream rust and navy marker fills",
+      "introduced_by_step": 5,
+      "description": "Forest-green canvas, cream toe cap sole and laces, rust-orange ankle lining, and a muted navy shadow with visible marker streaks and paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/high-top-sneaker-with-loose-laces-step-1.jpg",
+      "step_name": "Block the high-top angle",
+      "visible_job": "Uses pale construction to place the sole baseline, foot box, high ankle envelope, tongue footprint, toe-cap curve, six visible eyelet positions, lace route, and broken shadow.",
+      "introduces": [
+        "sole foot ankle tongue lace and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/high-top-sneaker-with-loose-laces-step-2.jpg",
+      "step_name": "Shape the canvas and sole",
+      "visible_job": "Wraps the guides with one rounded toe cap, thick sole, heel, high ankle collar, and tongue while keeping the lace and eyelet routes visible.",
+      "introduces": [
+        "complete high-top sneaker silhouette"
+      ],
+      "requires_prior_elements": [
+        "sole foot ankle tongue lace and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/high-top-sneaker-with-loose-laces-step-3.jpg",
+      "step_name": "Thread the loose laces",
+      "visible_job": "Adds exactly six visible eyelets, one crisscross lace path, exactly two loose ends, the curved side and heel seams, one sole stripe, and exactly four tread notches in light line.",
+      "introduces": [
+        "six visible eyelets crisscross laces and two loose ends",
+        "side seams sole stripe and four tread notches"
+      ],
+      "requires_prior_elements": [
+        "sole foot ankle tongue lace and shadow guides",
+        "complete high-top sneaker silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/high-top-sneaker-with-loose-laces-step-4.jpg",
+      "step_name": "Ink the shoe rhythm",
+      "visible_job": "Traces only the established shoe, sole, tongue, six visible eyelets, laces, two ends, seams, stripe, tread notches, and broken shadow with thick handmade black felt-tip.",
+      "introduces": [
+        "thick black felt-tip outline and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "complete high-top sneaker silhouette",
+        "six visible eyelets crisscross laces and two loose ends",
+        "side seams sole stripe and four tread notches"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/high-top-sneaker-with-loose-laces-step-5.jpg",
+      "step_name": "Fill the canvas color",
+      "visible_job": "Adds forest green to the established canvas, cream to the toe cap sole and laces, rust orange to the lining, and muted navy to the shadow with visible directional marker strokes.",
+      "introduces": [
+        "forest green cream rust and navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "complete high-top sneaker silhouette",
+        "six visible eyelets crisscross laces and two loose ends",
+        "side seams sole stripe and four tread notches",
+        "thick black felt-tip outline and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Lace up the final lines",
+    "asset": "assets/high-top-sneaker-with-loose-laces-finished-v1.jpg",
+    "visible_job": "Only thickens selected established edges, evens existing marker fills, deepens the broken shadow, and clarifies paper highlights without changing the shoe shape, lace route, counts, seams, or colors.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "deeper tone inside the established broken shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep the same single face-free high-top sneaker, three-quarter side view, toe direction, crop, scale, sole angle, tongue, and shadow footprint in all six panels.",
+    "Exactly six visible eyelets, one crisscross lace path, two loose lace ends, one sole stripe, and four tread notches must appear before bold ink or color and persist.",
+    "Reserve the tongue and lace footprint before drawing the surrounding upper; do not draw finished canvas seams underneath covering laces.",
+    "Do not add a second shoe, leg, foot, sock, face, logo, brand mark, text, label, arrow, number, signature, watermark, sticker outline, or badge frame.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean footwear icon art or polished product rendering."
+  ]
+}

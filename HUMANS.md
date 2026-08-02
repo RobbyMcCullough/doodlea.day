@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-01
+- Date: 2026-08-02
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-07-31 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-01 / Codex / Daily sketch and doodle lessons
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.
@@ -79,6 +79,29 @@
   Screenshots are under `/tmp/daily-sketch-doodle-qa-2026-08-01/`. The
   temporary two-tutorial-per-site backfill cadence remains active until the
   owner says otherwise.
+
+### 2026-08-02 — Daily tutorials (Codex)
+- Daily automation added current `cartoon-submarine-with-bubbles` (August 2 /
+  Day 086) and honest archive `high-top-sneaker-with-loose-laces` (May 9 /
+  Day 001). Both use reviewed six-panel handmade raster felt-tip contact
+  sheets, cropped JPG masters, WebP derivatives, social cards, and explicit
+  process plans. The submarine keeps three portholes, six rivets, three
+  bubbles, two tail fins, a three-blade propeller, and one lower side fin; it
+  rates 9.6/10 for its unmistakable silhouette, bold handmade lines, stable
+  hardware counts, marker grain, and restrained mustard/navy/rust/seafoam
+  palette. The sneaker keeps six visible eyelets, one crisscross lace, two
+  loose ends, one sole stripe, and four tread notches; it rates 9.7/10 for
+  exceptional high-top readability, clear lace overlap, natural color, and a
+  stable attainable sequence.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's expired certificate required the documented localhost:4174
+  fallback for 1440x1000 and 390x844 rendered QA; the homepage, 86-card
+  library, and both tutorials had no horizontal overflow, broken loaded
+  images, invalid JSON-LD, or public lab links. Screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-08-02/`. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local
