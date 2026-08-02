@@ -111,6 +111,14 @@
   continuity commit `82ce97b`, the workflow, live URLs, homepage/library,
   lesson finished-WebP checksums, repaired lava-lamp Step 1/2 checksums, and
   branch alignment.
+- Publication retry completed at 2026-08-02 10:50 PDT after 1Password was
+  authorized. Lava-lamp repair `82ce97b`, lesson commit `8cef662`, and
+  continuity commit `6cf220e` pushed through the required socket;
+  DigitalOcean workflow `30759632248` passed in 44s, including IndexNow. Both
+  August 2 tutorials, the Lava Lamp, and the homepage/library return HTTP 200;
+  the homepage features the Submarine, the library contains the Sneaker and
+  Lava Lamp, both lesson finished-WebP hashes and repaired lava-lamp Step 1/2
+  hashes match local reviewed files, and local `main` matches `origin/main`.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local
