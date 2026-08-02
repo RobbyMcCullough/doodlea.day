@@ -144,6 +144,19 @@ def string_list(value: Any, slug: str, label: str) -> list[str]:
     return items
 
 
+def string_array(value: Any, slug: str, label: str) -> list[str]:
+    if not isinstance(value, list):
+        raise ValueError(f"{slug}: `{label}` must be an array")
+    items: list[str] = []
+    for index, item in enumerate(value, start=1):
+        if not isinstance(item, str) or not item.strip():
+            raise ValueError(
+                f"{slug}: `{label}` item {index} must be a non-empty string"
+            )
+        items.append(item.strip())
+    return items
+
+
 def numeric_step(path: Path) -> int:
     match = re.search(r"-step-(\d+)\.jpe?g$", path.name)
     if not match:
@@ -329,6 +342,128 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                     f"final element {name!r} first appears in frame {first_step}, "
                     f"but plan says step {expected_step}"
                 )
+
+        schema_version = plan.get("schema_version", 1)
+        if not isinstance(schema_version, int) or schema_version < 1:
+            failures.append("`schema_version` must be a positive integer")
+            schema_version = 1
+        if schema_version >= 2:
+            overlap_reservations = plan.get("overlap_reservations")
+            if not isinstance(overlap_reservations, list):
+                failures.append("schema v2 requires `overlap_reservations` as an array")
+                overlap_reservations = []
+            for reservation_index, reservation in enumerate(
+                overlap_reservations, start=1
+            ):
+                if not isinstance(reservation, dict):
+                    failures.append(
+                        f"overlap reservation {reservation_index} must be an object"
+                    )
+                    continue
+                foreground = require_text(reservation, "foreground_element", slug)
+                if foreground not in element_names:
+                    failures.append(
+                        f"overlap reservation {reservation_index} names unknown "
+                        f"foreground element {foreground!r}"
+                    )
+                reserved_by_step = reservation.get("reserved_by_step")
+                if (
+                    not isinstance(reserved_by_step, int)
+                    or reserved_by_step < 1
+                    or (frames and reserved_by_step > len(frames))
+                ):
+                    failures.append(
+                        f"overlap reservation {foreground!r} has invalid "
+                        "`reserved_by_step`"
+                    )
+                elif (
+                    foreground in element_first_steps
+                    and reserved_by_step > element_first_steps[foreground]
+                ):
+                    failures.append(
+                        f"overlap reservation {foreground!r} is declared after the "
+                        "foreground element first appears"
+                    )
+                stop_rule = require_text(
+                    reservation, "background_lines_stop_before", slug
+                )
+                if len(stop_rule.split()) < 4:
+                    failures.append(
+                        f"overlap reservation {foreground!r} stop rule is too vague"
+                    )
+
+            transition_audit = plan.get("transition_audit")
+            if not isinstance(transition_audit, list):
+                failures.append("schema v2 requires `transition_audit` as an array")
+                transition_audit = []
+            if len(transition_audit) != len(frames):
+                failures.append(
+                    "schema v2 `transition_audit` must contain one entry for every "
+                    "adjacent transition, including the last frame to the finish"
+                )
+            for transition_index, transition in enumerate(
+                transition_audit, start=1
+            ):
+                if not isinstance(transition, dict):
+                    failures.append(
+                        f"transition audit {transition_index} must be an object"
+                    )
+                    continue
+                if transition.get("from_step") != transition_index:
+                    failures.append(
+                        f"transition audit {transition_index} has incorrect `from_step`"
+                    )
+                if transition.get("to_step") != transition_index + 1:
+                    failures.append(
+                        f"transition audit {transition_index} has incorrect `to_step`"
+                    )
+                try:
+                    must_persist = string_list(
+                        transition.get("must_persist"),
+                        slug,
+                        f"transition_audit[{transition_index}].must_persist",
+                    )
+                    new_occlusions = string_array(
+                        transition.get("new_occlusions"),
+                        slug,
+                        f"transition_audit[{transition_index}].new_occlusions",
+                    )
+                    keeper_lines_removed = string_array(
+                        transition.get("keeper_lines_removed"),
+                        slug,
+                        f"transition_audit[{transition_index}].keeper_lines_removed",
+                    )
+                except ValueError as error:
+                    failures.append(str(error))
+                    continue
+                unknown_persistent = set(must_persist) - element_names
+                if unknown_persistent:
+                    failures.append(
+                        f"transition audit {transition_index} lists unknown persistent "
+                        f"elements: {sorted(unknown_persistent)}"
+                    )
+                expected_persistent = {
+                    name
+                    for name, first_step in element_first_steps.items()
+                    if first_step <= transition_index
+                }
+                missing_persistent = expected_persistent - set(must_persist)
+                if missing_persistent:
+                    failures.append(
+                        f"transition audit {transition_index} omits previously introduced "
+                        f"elements: {sorted(missing_persistent)}"
+                    )
+                if keeper_lines_removed:
+                    failures.append(
+                        f"transition audit {transition_index} removes keeper lines: "
+                        f"{keeper_lines_removed}; revise the earlier frame instead"
+                    )
+                for occlusion_index, note in enumerate(new_occlusions, start=1):
+                    if len(note.split()) < 4:
+                        failures.append(
+                            f"transition audit {transition_index} new occlusion "
+                            f"{occlusion_index} is too vague"
+                        )
 
         final_name = require_text(final_step, "step_name", slug)
         final_asset = require_text(final_step, "asset", slug)

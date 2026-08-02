@@ -187,7 +187,11 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
 9. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
-   listed part must have an earlier `introduced_by_step`.
+   listed part must have an earlier `introduced_by_step`. Use schema v2's
+   `transition_audit` to confirm that every introduced landmark persists in
+   every later frame, that `keeper_lines_removed` stays empty, and that any
+   physical overlap is documented. Fill `overlap_reservations` before drawing
+   background seams or dividers behind later foreground objects.
 10. Generate one raster process contact sheet first. No labels, arrows, numbers,
    signatures, watermarks, or fake UI.
 11. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and

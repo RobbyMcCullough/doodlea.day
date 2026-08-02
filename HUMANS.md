@@ -119,6 +119,13 @@
   the homepage features the Submarine, the library contains the Sneaker and
   Lava Lamp, both lesson finished-WebP hashes and repaired lava-lamp Step 1/2
   hashes match local reviewed files, and local `main` matches `origin/main`.
+- Owner-review correction on 2026-08-02 restored the submarine's bent
+  periscope in Step 2 so that landmark now persists from Step 1 through the
+  finish. The process-plan contract is now schema v2: every adjacent frame
+  declares what must persist, keeper-line removals are forbidden, and overlap
+  reservations prevent later foreground objects from requiring erased lines.
+  Readiness and desktop/mobile rendered QA passed; correction screenshots are
+  under `/tmp/daily-sketch-doodle-corrections-2026-08-02/`.
 
 ### 2026-06-26 — Doodlea.day went live on Andromeda/Caddy + Plausible
 - Final domain chosen: **doodlea.day** (doodle.day was the earlier name; the local

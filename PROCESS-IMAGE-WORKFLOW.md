@@ -13,6 +13,20 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
      the footprint of any covering element early, and do not render finished
      detail underneath it. Pale construction may be erased; detailed lines
      should not be drawn only to disappear in a later frame.
+   - Use plan schema v2 and complete `transition_audit` for every adjacent pair,
+     including the last process frame to the finish. List every previously
+     introduced element under `must_persist`, keep `keeper_lines_removed`
+     empty, and describe any newly created physical overlap in
+     `new_occlusions`.
+   - Once a major element or route appears, it must remain visible in every
+     later panel unless another established form physically covers it. A
+     periscope, handle, limb, prop, or other landmark may not disappear for one
+     panel and return later.
+   - For containers, compartments, folded paper, architecture, or any subject
+     with foreground objects over internal lines, fill `overlap_reservations`
+     before generating. Draw dividers and seams only up to the reserved
+     foreground silhouettes; never teach a keeper line that the reader must
+     erase to add food, props, or other later forms.
    - For any frame that will darken, ink, fill, color, shade, clean, or clarify
      existing parts, list those parts in `requires_prior_elements`; they must
      first appear in an earlier frame.
@@ -38,6 +52,11 @@ separate from lesson writing, SEO copy, page generation, and daily publishing.
 
 3. Review the contact sheet before cropping.
    - Reject sheets where the subject, pose, or proportions drift.
+   - Reject sheets where an introduced landmark disappears from any later
+     panel and then returns, even if the first and final panels match.
+   - Reject sheets where a later foreground element requires erasing an earlier
+     keeper line. Repair the earlier panel so its background lines stop at a
+     reserved silhouette.
    - Reject sheets where adjacent panels are nearly identical.
    - Reject sheets where the final introduces major structure, color, markings,
      props, or perspective that was not present earlier.

@@ -1,4 +1,5 @@
 {
+  "schema_version": 2,
   "slug": "example-slug",
   "finished": "assets/example-slug-finished-v1.jpg",
   "source": {
@@ -17,6 +18,18 @@
       "name": "later refinement or color",
       "introduced_by_step": 2,
       "description": "A visible later change applied to an element already present."
+    },
+    {
+      "name": "overlap or supporting structure",
+      "introduced_by_step": 1,
+      "description": "A visible supporting element whose keeper lines stop before foreground forms."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "major visible element",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Supporting keeper lines stop at the reserved foreground silhouette."
     }
   ],
   "frames": [
@@ -26,7 +39,8 @@
       "step_name": "Visible step name",
       "visible_job": "The concrete drawing job this frame performs.",
       "introduces": [
-        "major visible element"
+        "major visible element",
+        "overlap or supporting structure"
       ]
     },
     {
@@ -42,6 +56,29 @@
       ]
     }
   ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "major visible element",
+        "overlap or supporting structure"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "major visible element",
+        "overlap or supporting structure",
+        "later refinement or color"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
   "final_step": {
     "step_name": "Finish the sketch",
     "asset": "assets/example-slug-finished-v1.jpg",
@@ -54,6 +91,8 @@
   "rejection_checks": [
     "No major contour, prop, marking, or color choice should first appear in the final image.",
     "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "Once a major element appears, it must remain visible in every later frame unless a documented physical overlap hides it.",
+    "No keeper line may be removed to make room for a later foreground element; reserve that foreground footprint first.",
     "No adjacent frame should look unchanged at card size.",
     "The final image must keep the same pose, scale, and placement as the step frames."
   ]
