@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a retro handheld game console</title>
+      <link>https://doodlea.day/tutorials/retro-handheld-game-console.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/retro-handheld-game-console.html</guid>
+      <pubDate>Mon, 03 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a retro handheld game console with a chunky three-quarter shell, blank inset screen, D-pad, two action buttons, two menu buttons, four speaker slots, power light, bold outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/retro-handheld-game-console-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon submarine with bubbles</title>
       <link>https://doodlea.day/tutorials/cartoon-submarine-with-bubbles.html</link>
@@ -694,6 +702,14 @@
       <pubDate>Sat, 09 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a high-top sneaker with a three-quarter canvas shape, rounded toe cap, thick sole, six visible eyelets, crisscross laces, two loose ends, seams, tread notches, and bold marker color.</description>
       <media:content url="https://doodlea.day/assets/high-top-sneaker-with-loose-laces-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon boxing glove</title>
+      <link>https://doodlea.day/tutorials/cartoon-boxing-glove.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-boxing-glove.html</guid>
+      <pubDate>Fri, 08 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon boxing glove with a rounded knuckle mass, curled thumb, wide cuff, blank patch, curved seam, three knuckle creases, three motion dashes, thick felt-tip outlines, and punchy marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-boxing-glove-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

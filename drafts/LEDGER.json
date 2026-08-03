@@ -43,6 +43,11 @@
       "date": "2026-07-13",
       "note": "Reviewed six-panel marker boombox process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
     },
+    "cartoon-boxing-glove": {
+      "status": "published",
+      "date": "2026-08-03",
+      "note": "Published as the honest 2026-05-08 archive lesson from an approved six-panel raster marker-process sheet."
+    },
     "cartoon-bumblebee": {
       "status": "published"
     },
@@ -281,6 +286,11 @@
     },
     "retro-arcade-joystick-sticker": {
       "status": "published"
+    },
+    "retro-handheld-game-console": {
+      "status": "published",
+      "date": "2026-08-03",
+      "note": "Published from approved six-panel raster marker-process sheet with stable controls and no embedded text."
     },
     "retro-lava-lamp": {
       "status": "published",

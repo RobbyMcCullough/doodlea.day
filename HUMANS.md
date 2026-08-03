@@ -1,11 +1,31 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-02
+- Date: 2026-08-03
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-01 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-02 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-03 — Daily tutorials (Codex)
+- Daily automation added current `retro-handheld-game-console` (August 3 /
+  Day 088) and honest archive `cartoon-boxing-glove` (May 8 / Day 001). Both
+  use reviewed six-panel handmade raster felt-tip contact sheets, cropped JPG
+  masters, WebP derivatives, social cards, and schema-v2 process plans. The
+  console rates 9.7/10 for its unmistakable face-free hardware layout, stable
+  control counts, saturated retro palette, visible marker grain, and coherent
+  challenge progression. The glove rates 9.5/10 for its bold silhouette,
+  clean thumb/cuff overlaps, exact three-crease and three-dash rhythm, and
+  attainable energetic finish.
+- Both readiness checks passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's crawler passed, while the in-app browser needed the documented
+  localhost:4174 fallback for 1440x1000 and 390x844 rendered QA. The homepage,
+  88-card library, and both tutorials showed no horizontal overflow, invalid
+  JSON-LD, public lab links, or missing lesson-image alt text. Screenshots are
+  under `/tmp/daily-sister-site-qa-2026-08-03/`. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 
 ### 2026-07-04 — Mirrored Sketcha.day workflow + SEO upgrades (Cowork)
 - Mirrored the same-day Sketcha.day changes per the sister-site parity rule.

@@ -1,0 +1,137 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-boxing-glove",
+  "finished": "assets/cartoon-boxing-glove-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free red boxing glove punching toward the upper right with one curled thumb, one wide cuff, one cuff patch without text, curved seams, exactly three short motion dashes, thick black outlines, visible marker grain, and one broken shadow. No fist impact burst, words, letters, numbers, logo, badge, or sticker border."
+  },
+  "process_strategy": "Reserve the glove, thumb, cuff, wordless patch, seam, three motion dashes, and shadow in pale construction before drawing the outside contour; clarify the same landmarks before the heavy felt-tip and color passes; limit the final panel to selected outline, fill, highlight, and shadow cleanup.",
+  "final_elements": [
+    {
+      "name": "pale glove thumb cuff patch seam motion and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A tilted mitten-and-cuff envelope with reserved thumb, wordless cuff patch, curved seam, exactly three motion dashes, and broken shadow footprints."
+    },
+    {
+      "name": "rounded boxing glove curled thumb and wide cuff silhouette",
+      "introduced_by_step": 2,
+      "description": "One puffy face-free boxing glove angled toward the upper right with a rounded knuckle mass, curled thumb, narrow wrist, and wide cuff."
+    },
+    {
+      "name": "curved palm seam knuckle creases cuff patch and three motion dashes",
+      "introduced_by_step": 3,
+      "description": "One curved palm seam, three short knuckle creases, one blank cuff patch, and exactly three short motion dashes placed behind the glove."
+    },
+    {
+      "name": "thick black felt-tip outline and broken cast shadow",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces all established glove, thumb, cuff, patch, seam, crease, motion, and shadow boundaries."
+    },
+    {
+      "name": "tomato-red burgundy mustard and navy marker fills",
+      "introduced_by_step": 5,
+      "description": "Tomato red fills the glove, burgundy deepens the thumb and seams, mustard fills the blank cuff patch and motion dashes, and navy anchors the broken shadow with visible marker grain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rounded boxing glove curled thumb and wide cuff silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The palm seam stops at the curled thumb, the wrist edges stop at the cuff, and all three motion dashes stay outside the glove silhouette instead of crossing through it."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-boxing-glove-step-1.jpg",
+      "step_name": "Block the punch angle",
+      "visible_job": "Uses pale construction to place the tilted knuckle mass, curled thumb, narrow wrist, wide cuff, blank patch, palm seam, three knuckle creases, exactly three motion dashes, and broken shadow footprint.",
+      "introduces": ["pale glove thumb cuff patch seam motion and shadow construction"]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-boxing-glove-step-2.jpg",
+      "step_name": "Shape the glove silhouette",
+      "visible_job": "Wraps the guides with one puffy boxing-glove contour, curled thumb, narrow wrist, and wide cuff while preserving the patch, seam, crease, motion, and shadow reservations.",
+      "introduces": ["rounded boxing glove curled thumb and wide cuff silhouette"],
+      "requires_prior_elements": ["pale glove thumb cuff patch seam motion and shadow construction"]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-boxing-glove-step-3.jpg",
+      "step_name": "Add seams and motion",
+      "visible_job": "Clarifies the curved palm seam, three short knuckle creases, one blank cuff patch, and exactly three short motion dashes without changing the established glove silhouette.",
+      "introduces": ["curved palm seam knuckle creases cuff patch and three motion dashes"],
+      "requires_prior_elements": ["pale glove thumb cuff patch seam motion and shadow construction", "rounded boxing glove curled thumb and wide cuff silhouette"]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-boxing-glove-step-4.jpg",
+      "step_name": "Ink the impact contour",
+      "visible_job": "Traces only the established glove, thumb, cuff, patch, seam, creases, three motion dashes, and broken shadow with thick imperfect black felt-tip.",
+      "introduces": ["thick black felt-tip outline and broken cast shadow"],
+      "requires_prior_elements": ["rounded boxing glove curled thumb and wide cuff silhouette", "curved palm seam knuckle creases cuff patch and three motion dashes"]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-boxing-glove-step-5.jpg",
+      "step_name": "Fill the boxing red",
+      "visible_job": "Fills the established glove tomato red and burgundy, the blank cuff patch and three motion dashes mustard, and the broken shadow navy while preserving marker streaks and paper highlights.",
+      "introduces": ["tomato-red burgundy mustard and navy marker fills"],
+      "requires_prior_elements": ["rounded boxing glove curled thumb and wide cuff silhouette", "curved palm seam knuckle creases cuff patch and three motion dashes", "thick black felt-tip outline and broken cast shadow"]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": ["pale glove thumb cuff patch seam motion and shadow construction"],
+      "new_occlusions": ["The curled thumb covers only the pale palm-seam gap, and the cuff covers only the wrist endpoints reserved in construction."],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": ["pale glove thumb cuff patch seam motion and shadow construction", "rounded boxing glove curled thumb and wide cuff silhouette"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": ["pale glove thumb cuff patch seam motion and shadow construction", "rounded boxing glove curled thumb and wide cuff silhouette", "curved palm seam knuckle creases cuff patch and three motion dashes"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": ["pale glove thumb cuff patch seam motion and shadow construction", "rounded boxing glove curled thumb and wide cuff silhouette", "curved palm seam knuckle creases cuff patch and three motion dashes", "thick black felt-tip outline and broken cast shadow"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": ["pale glove thumb cuff patch seam motion and shadow construction", "rounded boxing glove curled thumb and wide cuff silhouette", "curved palm seam knuckle creases cuff patch and three motion dashes", "thick black felt-tip outline and broken cast shadow", "tomato-red burgundy mustard and navy marker fills"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Tighten the knockout finish",
+    "asset": "assets/cartoon-boxing-glove-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens the existing marker fills, deepens the broken shadow, clarifies paper highlights, and removes distracting pale guides without changing the glove, seams, motion dashes, palette, or angle.",
+    "allowed_changes": ["selective black outline thickening", "second marker pass inside established color areas", "small paper-highlight cleanup", "deeper tone inside the established broken shadow", "light removal of pale construction guides"]
+  },
+  "rejection_checks": [
+    "Keep one face-free boxing glove, one upper-right punch angle, one crop, and one scale in all six panels.",
+    "The rounded knuckles, curled thumb, wrist, cuff, blank patch, palm seam, three knuckle creases, three motion dashes, and shadow must stay in the same positions after they appear.",
+    "Do not draw the palm seam through the thumb, the wrist through the cuff, or any motion dash through the glove silhouette.",
+    "Do not add a face, second glove, hand, arm, punching bag, impact burst, words, letters, numbers, logo, badge frame, or sticker outline.",
+    "The final panel may not introduce a new seam, crease, patch, motion mark, shadow shape, or color area.",
+    "The finish must retain visible felt-tip grain and imperfect handmade edges rather than vector-clean sports clip art, a glossy logo, or polished AI poster art."
+  ]
+}

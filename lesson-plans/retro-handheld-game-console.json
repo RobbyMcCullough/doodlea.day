@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "slug": "retro-handheld-game-console",
+  "finished": "assets/retro-handheld-game-console-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free unbranded handheld console in a stable three-quarter front view with a blank screen, one D-pad, exactly two action buttons, two menu buttons, four speaker slots, one power light, and one broken shadow."
+  },
+  "process_strategy": "Reserve the screen, controls, speaker, light, and shadow in pale construction before shaping the console shell, preserve every footprint through the black-marker and color passes, keep the blank display free of game art or text, and limit the final panel to outline, fill, highlight, and shadow cleanup.",
+  "final_elements": [
+    {
+      "name": "pale console screen control speaker light and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A three-quarter rounded body envelope with reserved screen, D-pad, two action buttons, two menu buttons, four speaker slots, power light, and broken shadow footprints."
+    },
+    {
+      "name": "rounded console shell raised screen bezel and side thickness",
+      "introduced_by_step": 2,
+      "description": "One chunky handheld console with rounded corners, a raised blank-screen bezel, and a visible right-side thickness plane."
+    },
+    {
+      "name": "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight",
+      "introduced_by_step": 3,
+      "description": "A face-free control layout with one cross-shaped D-pad, exactly two round action buttons, two small oval menu buttons, exactly four short speaker slots, one power light, and two diagonal blank-screen highlight gaps."
+    },
+    {
+      "name": "thick black felt-tip outline and broken cast shadow",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces all established shell, bezel, control, speaker, light, highlight, and shadow boundaries."
+    },
+    {
+      "name": "cobalt raspberry mustard teal and warm-gray marker fills",
+      "introduced_by_step": 5,
+      "description": "A limited retro palette fills the established shell, controls, blank screen, power light, and shadow with visible marker streaks and open paper highlights."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "No shell seam, marker hatch, or side-plane line crosses the reserved screen, control, speaker, or power-light footprints."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/retro-handheld-game-console-step-1.jpg",
+      "step_name": "Map the console controls",
+      "visible_job": "Uses pale construction to establish the three-quarter body, side plane, raised screen bezel, one D-pad, two action buttons, two menu buttons, four speaker slots, one power light, two screen highlights, and a broken shadow footprint.",
+      "introduces": [
+        "pale console screen control speaker light and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/retro-handheld-game-console-step-2.jpg",
+      "step_name": "Shape the chunky shell",
+      "visible_job": "Wraps the guides with the rounded console body, raised blank-screen bezel, and visible side thickness while preserving every reserved control, speaker, light, highlight, and shadow footprint.",
+      "introduces": [
+        "rounded console shell raised screen bezel and side thickness"
+      ],
+      "requires_prior_elements": [
+        "pale console screen control speaker light and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/retro-handheld-game-console-step-3.jpg",
+      "step_name": "Place the retro controls",
+      "visible_job": "Clarifies the already reserved D-pad, exactly two action buttons, two menu buttons, four speaker slots, one power light, and two diagonal blank-screen highlights without adding text or game imagery.",
+      "introduces": [
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight"
+      ],
+      "requires_prior_elements": [
+        "pale console screen control speaker light and shadow construction",
+        "rounded console shell raised screen bezel and side thickness"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/retro-handheld-game-console-step-4.jpg",
+      "step_name": "Ink the hardware rhythm",
+      "visible_job": "Traces only the established body, bezel, side plane, controls, speaker slots, power light, screen highlights, and broken shadow with thick imperfect black felt-tip.",
+      "introduces": [
+        "thick black felt-tip outline and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded console shell raised screen bezel and side thickness",
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/retro-handheld-game-console-step-5.jpg",
+      "step_name": "Fill the retro palette",
+      "visible_job": "Fills the established shell cobalt, action buttons raspberry and mustard, blank screen teal, power light mustard, and shadow warm gray while preserving marker streaks and paper highlights.",
+      "introduces": [
+        "cobalt raspberry mustard teal and warm-gray marker fills"
+      ],
+      "requires_prior_elements": [
+        "rounded console shell raised screen bezel and side thickness",
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight",
+        "thick black felt-tip outline and broken cast shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale console screen control speaker light and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale console screen control speaker light and shadow construction",
+        "rounded console shell raised screen bezel and side thickness"
+      ],
+      "new_occlusions": [
+        "The raised controls occupy only the pale footprints reserved on the console face; no shell line is erased beneath them."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale console screen control speaker light and shadow construction",
+        "rounded console shell raised screen bezel and side thickness",
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale console screen control speaker light and shadow construction",
+        "rounded console shell raised screen bezel and side thickness",
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight",
+        "thick black felt-tip outline and broken cast shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale console screen control speaker light and shadow construction",
+        "rounded console shell raised screen bezel and side thickness",
+        "one D-pad two action buttons two menu buttons four speaker slots power light and screen highlight",
+        "thick black felt-tip outline and broken cast shadow",
+        "cobalt raspberry mustard teal and warm-gray marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Power up the final lines",
+    "asset": "assets/retro-handheld-game-console-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens the existing marker fills, deepens the broken shadow, clarifies the two blank-screen highlight gaps, and removes distracting pale guides without changing controls, counts, colors, or perspective.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "deeper tone inside the established broken shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free handheld console, one three-quarter front view, one crop, and one scale in all six panels.",
+    "The blank screen, D-pad, two action buttons, two menu buttons, four speaker slots, power light, and side thickness must remain in the same positions after they appear.",
+    "Do not introduce a control, slot, light, bezel edge, screen highlight, shadow shape, or color area in the final panel.",
+    "Do not add game characters, pixels, words, letters, numbers, logos, brand marks, hands, cables, cartridges, face features, sticker borders, or badge frames.",
+    "The screen must stay blank apart from the two established diagonal paper-highlight gaps.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean icon art, polished product rendering, or glossy AI poster art."
+  ]
+}
