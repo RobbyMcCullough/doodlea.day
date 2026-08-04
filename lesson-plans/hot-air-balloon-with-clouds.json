@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "slug": "hot-air-balloon-with-clouds",
+  "finished": "assets/hot-air-balloon-with-clouds-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free hot-air balloon with one scalloped envelope, four vertical panel seams, one narrow neck, two suspension ropes, two small burner shapes, one rectangular basket, three cloud wisps, and no text or logos."
+  },
+  "process_strategy": "Reserve the envelope, four seams, neck, ropes, burners, basket, highlights, and clouds in pale construction; wrap those same footprints with bold handmade contours; preserve every count through the marker passes; and limit the final panel to outline, fill, highlight, and edge cleanup.",
+  "final_elements": [
+    {
+      "name": "pale balloon seam neck rope burner basket highlight and cloud construction",
+      "introduced_by_step": 1,
+      "description": "One large balloon envelope with four seam routes, a narrow neck, two ropes, two burners, a basket, two highlight gaps, and three cloud-wisp footprints."
+    },
+    {
+      "name": "scalloped balloon envelope narrow neck and rectangular basket contours",
+      "introduced_by_step": 2,
+      "description": "A stable face-free hot-air balloon silhouette with a gently scalloped envelope, small neck opening, and woven rectangular basket."
+    },
+    {
+      "name": "four panel seams two suspension ropes two burners two highlights and three cloud wisps",
+      "introduced_by_step": 3,
+      "description": "Exactly four curved vertical seams, two ropes, two burner shapes, two open-paper highlights, and three separate cloud wisps."
+    },
+    {
+      "name": "thick black felt-tip outline and basket weave hatching",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces every established contour and adds short cross-hatching inside the already established basket."
+    },
+    {
+      "name": "raspberry mustard teal cobalt and warm-brown marker fills",
+      "introduced_by_step": 5,
+      "description": "Alternating saturated balloon bands, a warm-brown basket, small mustard burners, and pale cobalt cloud accents with visible marker streaks."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "four panel seams two suspension ropes two burners two highlights and three cloud wisps",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The envelope seams stop at the two reserved highlight gaps, the suspension ropes stop behind the basket rim and burner shapes, and no cloud line crosses the balloon silhouette."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/hot-air-balloon-with-clouds-step-1.jpg",
+      "step_name": "Map the balloon flight",
+      "visible_job": "Uses pale marker-pencil construction to place the envelope, four seam routes, neck, two suspension ropes, two burners, basket, two highlights, and three cloud-wisp footprints.",
+      "introduces": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/hot-air-balloon-with-clouds-step-2.jpg",
+      "step_name": "Shape the envelope and basket",
+      "visible_job": "Wraps the guides with the scalloped balloon envelope, narrow neck, and rectangular basket while preserving every seam, rope, burner, highlight, and cloud footprint.",
+      "introduces": [
+        "scalloped balloon envelope narrow neck and rectangular basket contours"
+      ],
+      "requires_prior_elements": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/hot-air-balloon-with-clouds-step-3.jpg",
+      "step_name": "Connect the flight details",
+      "visible_job": "Clarifies exactly four panel seams, two suspension ropes, two burners, two highlight gaps, and three cloud wisps on the reserved routes without adding any new decoration.",
+      "introduces": [
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps"
+      ],
+      "requires_prior_elements": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction",
+        "scalloped balloon envelope narrow neck and rectangular basket contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/hot-air-balloon-with-clouds-step-4.jpg",
+      "step_name": "Ink the floating silhouette",
+      "visible_job": "Traces only the established envelope, seams, neck, ropes, burners, basket, highlights, and clouds with thick imperfect black felt-tip and adds short hatching inside the basket.",
+      "introduces": [
+        "thick black felt-tip outline and basket weave hatching"
+      ],
+      "requires_prior_elements": [
+        "scalloped balloon envelope narrow neck and rectangular basket contours",
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/hot-air-balloon-with-clouds-step-5.jpg",
+      "step_name": "Fill the sky-bright palette",
+      "visible_job": "Fills the established balloon bands raspberry, mustard, teal, and cobalt, colors the basket warm brown and burners mustard, and lightly accents the three clouds while preserving marker streaks and highlight gaps.",
+      "introduces": [
+        "raspberry mustard teal cobalt and warm-brown marker fills"
+      ],
+      "requires_prior_elements": [
+        "scalloped balloon envelope narrow neck and rectangular basket contours",
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps",
+        "thick black felt-tip outline and basket weave hatching"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction",
+        "scalloped balloon envelope narrow neck and rectangular basket contours"
+      ],
+      "new_occlusions": [
+        "The basket rim covers only the lower rope and burner endpoints reserved in pale construction, while the envelope covers only the reserved rope tops."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction",
+        "scalloped balloon envelope narrow neck and rectangular basket contours",
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction",
+        "scalloped balloon envelope narrow neck and rectangular basket contours",
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps",
+        "thick black felt-tip outline and basket weave hatching"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale balloon seam neck rope burner basket highlight and cloud construction",
+        "scalloped balloon envelope narrow neck and rectangular basket contours",
+        "four panel seams two suspension ropes two burners two highlights and three cloud wisps",
+        "thick black felt-tip outline and basket weave hatching",
+        "raspberry mustard teal cobalt and warm-brown marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Lift the final marker lines",
+    "asset": "assets/hot-air-balloon-with-clouds-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens existing marker fills, sharpens the two highlight gaps, deepens the basket hatching, and removes distracting pale guides without changing counts, colors, or flight geometry.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "slightly deeper existing basket hatching",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free balloon, one upright flight pose, one crop, and one scale in all six panels.",
+    "Keep exactly four envelope seams, two suspension ropes, two burners, two highlights, one basket, and three cloud wisps after those routes appear.",
+    "No seam may cross a reserved highlight gap, no rope may pass through the basket rim, and no cloud line may cross the balloon silhouette.",
+    "Do not add people, faces, flags, lettering, numbers, logos, brand marks, birds, a second balloon, sticker borders, badge frames, arrows, signatures, or watermarks.",
+    "The final panel may not introduce a seam, rope, burner, basket edge, cloud, highlight, hatch cluster, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean travel art, polished AI poster rendering, or glossy icon art."
+  ]
+}

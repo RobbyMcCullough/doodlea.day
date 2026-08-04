@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a hot-air balloon</title>
+      <link>https://doodlea.day/tutorials/hot-air-balloon-with-clouds.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/hot-air-balloon-with-clouds.html</guid>
+      <pubDate>Tue, 04 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a hot-air balloon with a scalloped envelope, five bright marker bands, two suspension ropes, two burners, a woven basket, three clouds, and bold handmade outlines.</description>
+      <media:content url="https://doodlea.day/assets/hot-air-balloon-with-clouds-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a retro handheld game console</title>
       <link>https://doodlea.day/tutorials/retro-handheld-game-console.html</link>
@@ -710,6 +718,14 @@
       <pubDate>Fri, 08 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon boxing glove with a rounded knuckle mass, curled thumb, wide cuff, blank patch, curved seam, three knuckle creases, three motion dashes, thick felt-tip outlines, and punchy marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-boxing-glove-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a cartoon saxophone with music notes</title>
+      <link>https://doodlea.day/tutorials/cartoon-saxophone-with-music-notes.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-saxophone-with-music-notes.html</guid>
+      <pubDate>Thu, 07 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon saxophone with a flared bell, curved brass body, dark mouthpiece, seven colored key pads, three key rods, two music notes, two sound arcs, bold outlines, and textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-saxophone-with-music-notes-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

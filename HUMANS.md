@@ -1,11 +1,29 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-03
+- Date: 2026-08-04
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-02 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-03 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-04 — Daily tutorials (Codex)
+- Daily automation added current `hot-air-balloon-with-clouds` (August 4 /
+  Day 090) and honest archive `cartoon-saxophone-with-music-notes` (May 7 /
+  Day 001). Both use approved six-panel handmade raster felt-tip contact
+  sheets, cropped JPG masters, WebP derivatives, social cards, and schema-v2
+  process plans. The balloon rates 9.6/10 for immediate thumbnail readability,
+  stable five-band construction, thick handmade outlines, visible fill grain,
+  and an attainable progression. The saxophone rates 9.7/10 for its lively
+  face-free silhouette, exact seven-pad/two-note/two-arc rhythm, strong brass
+  palette, and coherent hardware sequence.
+- Both readiness suites passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  90-card library, and both tutorials with no overflow, broken images, missing
+  alt attributes, invalid JSON-LD, or public lab links. Screenshots are under
+  `/tmp/sister-site-qa-2026-08-04/`. The temporary two-tutorial-per-site
+  backfill cadence remains active until the owner says otherwise.
 
 ### 2026-08-03 — Daily tutorials (Codex)
 - Daily automation added current `retro-handheld-game-console` (August 3 /

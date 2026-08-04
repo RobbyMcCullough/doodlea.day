@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-saxophone-with-music-notes",
+  "finished": "assets/cartoon-saxophone-with-music-notes-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free unbranded alto saxophone on one rising diagonal with one flared bell, bent neck and mouthpiece, exactly seven round key pads, three long key rods, one strap loop, two separate music-note symbols, two sound arcs, and one broken shadow."
+  },
+  "process_strategy": "Reserve the full bent tube, bell, neck, mouthpiece, seven pad centers, three rod routes, strap loop, two notes, two arcs, highlights, and shadow in pale construction; convert those same footprints into persistent contours; color-code the established pads and notes before the black outline; stop rods and pads at the body silhouette; and limit the final panel to outline, fill, highlight, and shadow cleanup.",
+  "final_elements": [
+    {
+      "name": "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "One diagonal alto-sax envelope with a flared bell, bent body and neck, mouthpiece, seven pad centers, three rod routes, strap loop, two music notes, two sound arcs, highlight gaps, and shadow footprint."
+    },
+    {
+      "name": "flared bell curved saxophone body bent neck and mouthpiece contours",
+      "introduced_by_step": 2,
+      "description": "One stable face-free alto-sax silhouette with a broad bell, J-curved body tube, raised neck, and dark mouthpiece."
+    },
+    {
+      "name": "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights",
+      "introduced_by_step": 3,
+      "description": "Exactly seven round key pads color-coded teal and coral, three long rods, one small loop, two separate coral music-note symbols, two sound arcs, and three open-paper instrument highlights."
+    },
+    {
+      "name": "thick black felt-tip outline key hatching and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces every established contour and adds short hatching to the already established key hardware and broken shadow."
+    },
+    {
+      "name": "mustard ochre and deep-navy body mouthpiece and shadow fills",
+      "introduced_by_step": 5,
+      "description": "Warm mustard and ochre brass plus a deep-navy mouthpiece and shadow, layered around the already colored keys, notes, and highlight gaps with visible marker grain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Key rods and pad stems stop at the saxophone tube and bell edges, body fills stop at the reserved pad and highlight shapes, and the sound marks stay outside the instrument silhouette."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-saxophone-with-music-notes-step-1.jpg",
+      "step_name": "Map the saxophone curve",
+      "visible_job": "Uses pale construction to place the flared bell, curved body tube, bent neck, mouthpiece, seven pad centers, three rod routes, strap loop, two notes, two arcs, highlights, and broken shadow.",
+      "introduces": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-saxophone-with-music-notes-step-2.jpg",
+      "step_name": "Shape the brass silhouette",
+      "visible_job": "Wraps the guides with the broad flared bell, J-curved body tube, raised bent neck, and mouthpiece while preserving every hardware, note, arc, highlight, and shadow reservation.",
+      "introduces": [
+        "flared bell curved saxophone body bent neck and mouthpiece contours"
+      ],
+      "requires_prior_elements": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-saxophone-with-music-notes-step-3.jpg",
+      "step_name": "Place the keys and sound marks",
+      "visible_job": "Clarifies exactly seven round key pads and color-codes them teal and coral, then reinforces three rods, one strap loop, two coral music notes, two sound arcs, and three highlight gaps on their reserved routes.",
+      "introduces": [
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights"
+      ],
+      "requires_prior_elements": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+        "flared bell curved saxophone body bent neck and mouthpiece contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-saxophone-with-music-notes-step-4.jpg",
+      "step_name": "Ink the jazzy hardware",
+      "visible_job": "Traces only the established bell, tube, neck, mouthpiece, seven colored pads, three rods, loop, two notes, two arcs, highlights, and broken shadow with thick imperfect black felt-tip.",
+      "introduces": [
+        "thick black felt-tip outline key hatching and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "flared bell curved saxophone body bent neck and mouthpiece contours",
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-saxophone-with-music-notes-step-5.jpg",
+      "step_name": "Fill the brass and accents",
+      "visible_job": "Fills the established saxophone mustard and ochre and adds deep navy to the mouthpiece and broken shadow while preserving the already colored keys, two notes, highlight gaps, and marker streaks.",
+      "introduces": [
+        "mustard ochre and deep-navy body mouthpiece and shadow fills"
+      ],
+      "requires_prior_elements": [
+        "flared bell curved saxophone body bent neck and mouthpiece contours",
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights",
+        "thick black felt-tip outline key hatching and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+        "flared bell curved saxophone body bent neck and mouthpiece contours"
+      ],
+      "new_occlusions": [
+        "The seven pad stems and three rods meet only the tube gaps reserved in pale construction, without crossing through the instrument body."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+        "flared bell curved saxophone body bent neck and mouthpiece contours",
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+        "flared bell curved saxophone body bent neck and mouthpiece contours",
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights",
+        "thick black felt-tip outline key hatching and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale saxophone bell tube neck mouthpiece key rod loop note arc highlight and shadow construction",
+        "flared bell curved saxophone body bent neck and mouthpiece contours",
+        "seven colored key pads three key rods strap loop two music notes two sound arcs and highlights",
+        "thick black felt-tip outline key hatching and broken shadow",
+        "mustard ochre and deep-navy body mouthpiece and shadow fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Tune the final marker rhythm",
+    "asset": "assets/cartoon-saxophone-with-music-notes-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens existing marker fills, sharpens existing highlights, deepens key hatching and the broken shadow, and removes distracting pale guides without changing hardware, sound-mark counts, colors, or angle.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "slightly deeper existing key hatching and shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free saxophone, one rising diagonal, one crop, and one scale in all six panels.",
+    "Keep one bell, one bent neck, one mouthpiece, seven key pads, three rods, one strap loop, two notes, two sound arcs, three highlights, and one shadow after those elements appear.",
+    "Key hardware must stop at the instrument body and body fills must stop at reserved pads and highlights; no taught line may be erased to fake the assembly.",
+    "Do not add a face, hands, musician, case, brand mark, words, letters, numbers, extra notes, sticker border, badge frame, label, arrow, signature, or watermark.",
+    "The final panel may not introduce a pad, rod, loop, note, arc, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, polished product rendering, or glossy AI poster art."
+  ]
+}
