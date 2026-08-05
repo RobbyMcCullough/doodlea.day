@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "slug": "retro-perfume-bottle-with-atomizer",
+  "finished": "assets/retro-perfume-bottle-with-atomizer-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free faceted perfume bottle, one blank oval label panel, one short neck with stepped stopper, one hose, and one ribbed squeeze bulb in a stable three-quarter view. No brand text, decorative border, or poster treatment."
+  },
+  "process_strategy": "Reserve the entire bottle, blank label, neck, stopper, hose, bulb, highlights, facets, and shadow in pale construction; build every later contour and fill on those same footprints; and restrict the final panel to cleanup of established outlines, marker fills, highlights, and shadow.",
+  "final_elements": [
+    {
+      "name": "pale bottle label neck stopper hose bulb highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A squat faceted bottle envelope in three-quarter view with a reserved blank oval label, short neck, stepped stopper, C-curved hose, ribbed squeeze bulb, two highlight routes, and one broken shadow."
+    },
+    {
+      "name": "faceted bottle blank label neck and stepped stopper contours",
+      "introduced_by_step": 2,
+      "description": "The glass bottle silhouette, shoulder facets, blank oval label panel, short neck, and stepped stopper wrap the original construction without changing pose or scale."
+    },
+    {
+      "name": "single curved hose ribbed squeeze bulb highlights and shadow",
+      "introduced_by_step": 3,
+      "description": "One hose curves from the stopper to one ribbed bulb, with two slim bottle highlights and one broken grounding shadow established before ink or color."
+    },
+    {
+      "name": "thick black felt-tip contours facets and bulb ribs",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces the established bottle, label, stopper, hose, bulb, facet, highlight, and shadow contours with imperfect line weight."
+    },
+    {
+      "name": "raspberry teal mustard and navy marker fills",
+      "introduced_by_step": 5,
+      "description": "Raspberry perfume glass, a teal blank label, mustard stopper and bulb, and navy hose and shadow fill the reserved shapes with visible marker streaks."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "faceted bottle blank label neck and stepped stopper contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Bottle facet lines stop at the blank label boundary, the hose begins behind the stopper collar, and the broken shadow stops at the bottle and bulb silhouettes."
+    },
+    {
+      "foreground_element": "single curved hose ribbed squeeze bulb highlights and shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The hose enters only the reserved rear collar, never crosses the bottle or label, and ends cleanly at the reserved squeeze-bulb neck."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/retro-perfume-bottle-with-atomizer-step-1.jpg",
+      "step_name": "Map the atomizer",
+      "visible_job": "Uses pale marker-pencil construction to place the faceted bottle, blank oval label, short neck, stepped stopper, C-curved hose, ribbed bulb, two highlights, and broken shadow.",
+      "introduces": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/retro-perfume-bottle-with-atomizer-step-2.jpg",
+      "step_name": "Shape the perfume bottle",
+      "visible_job": "Wraps the construction with one squat faceted bottle, one blank oval label, one short neck, and one stepped stopper while preserving the hose, bulb, highlights, and shadow routes.",
+      "introduces": [
+        "faceted bottle blank label neck and stepped stopper contours"
+      ],
+      "requires_prior_elements": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/retro-perfume-bottle-with-atomizer-step-3.jpg",
+      "step_name": "Connect the squeeze bulb",
+      "visible_job": "Clarifies one hose, one ribbed bulb, two slim highlights, the bottle facets, and the broken shadow on their reserved construction routes.",
+      "introduces": [
+        "single curved hose ribbed squeeze bulb highlights and shadow"
+      ],
+      "requires_prior_elements": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction",
+        "faceted bottle blank label neck and stepped stopper contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/retro-perfume-bottle-with-atomizer-step-4.jpg",
+      "step_name": "Ink the vintage contours",
+      "visible_job": "Traces only the established bottle, blank label, stopper, hose, bulb, facet, highlight, and shadow lines with thick imperfect black felt-tip.",
+      "introduces": [
+        "thick black felt-tip contours facets and bulb ribs"
+      ],
+      "requires_prior_elements": [
+        "faceted bottle blank label neck and stepped stopper contours",
+        "single curved hose ribbed squeeze bulb highlights and shadow"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/retro-perfume-bottle-with-atomizer-step-5.jpg",
+      "step_name": "Add the retro marker palette",
+      "visible_job": "Fills the established glass raspberry, blank label teal, stopper and bulb mustard, and hose plus shadow navy while preserving visible felt-tip streaks and the two highlights.",
+      "introduces": [
+        "raspberry teal mustard and navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "faceted bottle blank label neck and stepped stopper contours",
+        "single curved hose ribbed squeeze bulb highlights and shadow",
+        "thick black felt-tip contours facets and bulb ribs"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction",
+        "faceted bottle blank label neck and stepped stopper contours"
+      ],
+      "new_occlusions": [
+        "The hose begins behind the reserved stopper collar, and bottle facets stop at the already reserved blank label panel."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction",
+        "faceted bottle blank label neck and stepped stopper contours",
+        "single curved hose ribbed squeeze bulb highlights and shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction",
+        "faceted bottle blank label neck and stepped stopper contours",
+        "single curved hose ribbed squeeze bulb highlights and shadow",
+        "thick black felt-tip contours facets and bulb ribs"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale bottle label neck stopper hose bulb highlight and shadow construction",
+        "faceted bottle blank label neck and stepped stopper contours",
+        "single curved hose ribbed squeeze bulb highlights and shadow",
+        "thick black felt-tip contours facets and bulb ribs",
+        "raspberry teal mustard and navy marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the atomizer",
+    "asset": "assets/retro-perfume-bottle-with-atomizer-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens existing marker fills, sharpens the two highlight gaps, deepens the established shadow, and removes distracting pale guides without changing counts, colors, or geometry.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "slightly deeper existing facet accents and shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free perfume bottle, one three-quarter view, one crop, and one scale in all six panels.",
+    "Keep exactly one blank label, one stopper, one hose, one squeeze bulb, two highlights, and one shadow after those routes appear.",
+    "No bottle facet may cross the blank label, no hose may cross the bottle, and no shadow may cross the bottle or bulb silhouettes.",
+    "Do not add eyes, a mouth, limbs, words, brand marks, extra bottles, flowers, a vanity scene, sticker outlines, badge frames, arrows, labels, numbers, signatures, or watermarks.",
+    "The final panel may not introduce a bottle edge, label, stopper tier, hose bend, bulb rib, facet, highlight, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean icon art, polished AI poster rendering, or glossy product advertising."
+  ]
+}

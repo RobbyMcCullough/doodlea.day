@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-oyster-with-pearl",
+  "finished": "assets/cartoon-oyster-with-pearl-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free open oyster in a stable three-quarter view with exactly two hinged shell halves, one large pearl, one dark hinge, broad radiating shell ribs, one scalloped inner lip, two narrow highlight gaps that cannot read as eyes, and one broken shadow. The rejected v1 sheet remains private because early pebble color disappeared and oval shell gaps resembled a default face."
+  },
+  "process_strategy": "Reserve both shell halves, hinge, pearl, inner lip, rib fan, two narrow highlights, and shadow in pale construction; wrap those same footprints with bold handmade contours; preserve every overlap and count through the marker passes; and limit the final panel to outline, fill, highlight, and edge cleanup.",
+  "final_elements": [
+    {
+      "name": "pale shell hinge pearl lip rib highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Two hinged fan-like shell envelopes, one hinge block, one large pearl circle, a scalloped inner lip, broad rib routes, one narrow pearl highlight, one narrow upper-rim highlight, and one broken shadow footprint."
+    },
+    {
+      "name": "open upper shell cupped lower shell hinge and scalloped lip contours",
+      "introduced_by_step": 2,
+      "description": "A stable face-free open oyster silhouette with one raised fan shell, one cupped lower shell, one dark hinge, and one scalloped inner lip."
+    },
+    {
+      "name": "single pearl broad shell ribs two narrow highlights and shadow",
+      "introduced_by_step": 3,
+      "description": "Exactly one round pearl seated in the lower cup, broad radiating ribs on both shell halves, one narrow pearl highlight, one narrow upper-rim highlight, and one broken shadow."
+    },
+    {
+      "name": "thick black felt-tip outline rib hatching and pearl contour",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces every established shell, hinge, pearl, rib, highlight, and shadow contour with sparse short hatching."
+    },
+    {
+      "name": "seafoam coral navy and pearl-gray marker fills",
+      "introduced_by_step": 5,
+      "description": "Saturated seafoam outer shell, coral inner lip, navy hinge and shadow, plus pearl-gray shading on the pearl and lower shell bed with visible marker streaks."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "single pearl broad shell ribs two narrow highlights and shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Lower-shell ribs stop at the reserved pearl circle, the upper shell stops behind the hinge, the scalloped lip stops around the pearl seat, and the shadow stops at both shell silhouettes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-oyster-with-pearl-step-1.jpg",
+      "step_name": "Map the open shell",
+      "visible_job": "Uses pale marker-pencil construction to place two hinged shell envelopes, the hinge, one pearl circle, the inner lip, rib routes, one narrow pearl highlight, one narrow upper-rim highlight, and one broken shadow footprint.",
+      "introduces": [
+        "pale shell hinge pearl lip rib highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-oyster-with-pearl-step-2.jpg",
+      "step_name": "Shape the hinged shell",
+      "visible_job": "Wraps the guides with one raised upper shell, one cupped lower shell, one hinge, and one scalloped inner lip while preserving the pearl, rib, narrow-highlight, and shadow footprints.",
+      "introduces": [
+        "open upper shell cupped lower shell hinge and scalloped lip contours"
+      ],
+      "requires_prior_elements": [
+        "pale shell hinge pearl lip rib highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-oyster-with-pearl-step-3.jpg",
+      "step_name": "Seat the pearl and ribs",
+      "visible_job": "Clarifies exactly one pearl, the broad radiating rib rhythm, one narrow pearl highlight, one narrow upper-rim highlight, and the broken shadow on their reserved routes.",
+      "introduces": [
+        "single pearl broad shell ribs two narrow highlights and shadow"
+      ],
+      "requires_prior_elements": [
+        "pale shell hinge pearl lip rib highlight and shadow construction",
+        "open upper shell cupped lower shell hinge and scalloped lip contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-oyster-with-pearl-step-4.jpg",
+      "step_name": "Ink the tidal contours",
+      "visible_job": "Traces only the established shell halves, hinge, lip, pearl, ribs, narrow highlights, and shadow with thick imperfect black felt-tip and adds sparse short rib hatching.",
+      "introduces": [
+        "thick black felt-tip outline rib hatching and pearl contour"
+      ],
+      "requires_prior_elements": [
+        "open upper shell cupped lower shell hinge and scalloped lip contours",
+        "single pearl broad shell ribs two narrow highlights and shadow"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-oyster-with-pearl-step-5.jpg",
+      "step_name": "Fill the tide-pool palette",
+      "visible_job": "Fills the established shell seafoam, inner lip coral, hinge and shadow navy, and the pearl plus lower shell bed softly gray while preserving marker streaks and both narrow highlight gaps.",
+      "introduces": [
+        "seafoam coral navy and pearl-gray marker fills"
+      ],
+      "requires_prior_elements": [
+        "open upper shell cupped lower shell hinge and scalloped lip contours",
+        "single pearl broad shell ribs two narrow highlights and shadow",
+        "thick black felt-tip outline rib hatching and pearl contour"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale shell hinge pearl lip rib highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale shell hinge pearl lip rib highlight and shadow construction",
+        "open upper shell cupped lower shell hinge and scalloped lip contours"
+      ],
+      "new_occlusions": [
+        "The pearl covers only the lower-shell rib gaps reserved in pale construction, while the upper shell overlaps the hinge only at its reserved rear edge."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale shell hinge pearl lip rib highlight and shadow construction",
+        "open upper shell cupped lower shell hinge and scalloped lip contours",
+        "single pearl broad shell ribs two narrow highlights and shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale shell hinge pearl lip rib highlight and shadow construction",
+        "open upper shell cupped lower shell hinge and scalloped lip contours",
+        "single pearl broad shell ribs two narrow highlights and shadow",
+        "thick black felt-tip outline rib hatching and pearl contour"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale shell hinge pearl lip rib highlight and shadow construction",
+        "open upper shell cupped lower shell hinge and scalloped lip contours",
+        "single pearl broad shell ribs two narrow highlights and shadow",
+        "thick black felt-tip outline rib hatching and pearl contour",
+        "seafoam coral navy and pearl-gray marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the hidden pearl",
+    "asset": "assets/cartoon-oyster-with-pearl-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens existing marker fills, sharpens the two highlight gaps, deepens existing rib hatching and shadow, and removes distracting pale guides without changing counts, colors, or shell geometry.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "slightly deeper existing rib hatching and shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free open oyster, one three-quarter view, one crop, and one scale in all six panels.",
+    "Keep exactly two shell halves, one pearl, one hinge, two narrow highlights, and one shadow after those routes appear.",
+    "No lower-shell rib may cross the reserved pearl footprint, no lip line may run through the pearl, and no shadow line may cross either shell silhouette.",
+    "Do not add eyes, a mouth, limbs, text, a plate, utensils, ocean scenery, a second shell, extra pearls, sticker outlines, badge frames, arrows, labels, numbers, signatures, or watermarks.",
+    "The final panel may not introduce a shell edge, pearl, hinge, rib, lip, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean seafood art, polished AI poster rendering, or glossy icon art."
+  ]
+}

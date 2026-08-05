@@ -1,11 +1,30 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-04
+- Date: 2026-08-05
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-03 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-04 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-05 — Daily tutorials (Codex)
+- Daily automation added current `cartoon-oyster-with-pearl` (August 5 /
+  Day 092) and honest archive `retro-perfume-bottle-with-atomizer` (May 6 /
+  Day 001). Both use reviewed six-panel handmade raster felt-tip contact
+  sheets, cropped JPG masters, WebP derivatives, social cards, and schema-v2
+  process plans. The oyster rates 9.6/10 for its unmistakable open-shell
+  silhouette, single readable pearl, bold tide-pool palette, and cumulative
+  rib construction; its pebble-drifting, face-like v1 remains private. The
+  perfume atomizer rates 9.6/10 for confident faceted geometry, clean
+  hose-and-bulb overlap, saturated handmade marker grain, and a polished but
+  attainable finish.
+- Both readiness suites passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  92-card library, and both tutorials with no horizontal overflow, visible
+  broken images, invalid JSON-LD, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 
 ### 2026-08-04 — Daily tutorials (Codex)
 - Daily automation added current `hot-air-balloon-with-clouds` (August 4 /

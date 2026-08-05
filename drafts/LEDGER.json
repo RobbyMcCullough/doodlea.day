@@ -114,6 +114,9 @@
     "cartoon-magnifying-glass-doodle": {
       "status": "published"
     },
+    "cartoon-oyster-with-pearl": {
+      "status": "published"
+    },
     "cartoon-padlock-and-key": {
       "status": "published",
       "date": "2026-07-26",
@@ -306,6 +309,11 @@
       "status": "published",
       "date": "2026-05-11",
       "note": "Corrected 2026-08-01: steps 1 and 2 now retain the same four wax footprints and two bubbles refined in step 3."
+    },
+    "retro-perfume-bottle-with-atomizer": {
+      "status": "published",
+      "date": "2026-05-06",
+      "note": "Reviewed six-panel marker process promoted as the honest May 6 archive lesson after crop, continuity review, process-plan, delivery-image, JSON-LD, link, and step-delta checks."
     },
     "silly-robot-head": {
       "status": "published"

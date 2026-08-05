@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an oyster with a pearl</title>
+      <link>https://doodlea.day/tutorials/cartoon-oyster-with-pearl.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-oyster-with-pearl.html</guid>
+      <pubDate>Wed, 05 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an open oyster with two hinged shell halves, one large pearl, a scalloped inner lip, broad radiating ribs, thick felt-tip outlines, visible marker grain, and a bright tide-pool palette.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-oyster-with-pearl-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a hot-air balloon</title>
       <link>https://doodlea.day/tutorials/hot-air-balloon-with-clouds.html</link>
@@ -726,6 +734,14 @@
       <pubDate>Thu, 07 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cartoon saxophone with a flared bell, curved brass body, dark mouthpiece, seven colored key pads, three key rods, two music notes, two sound arcs, bold outlines, and textured marker color.</description>
       <media:content url="https://doodlea.day/assets/cartoon-saxophone-with-music-notes-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a retro perfume bottle with an atomizer</title>
+      <link>https://doodlea.day/tutorials/retro-perfume-bottle-with-atomizer.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/retro-perfume-bottle-with-atomizer.html</guid>
+      <pubDate>Wed, 06 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a retro perfume bottle with a faceted glass body, blank oval label, stepped stopper, curved atomizer hose, ribbed squeeze bulb, thick felt-tip outlines, and saturated marker color.</description>
+      <media:content url="https://doodlea.day/assets/retro-perfume-bottle-with-atomizer-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
