@@ -2190,7 +2190,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-finished-v1.webp</image:loc>
+      <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-finished-v2.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-step-1.webp</image:loc>
@@ -2206,6 +2206,12 @@
     </image:image>
     <image:image>
       <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-step-5.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-step-6.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://doodlea.day/assets/cartoon-saxophone-with-music-notes-step-7.webp</image:loc>
     </image:image>
   </url>
   <url>

@@ -7,6 +7,25 @@
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 - Previous: 2026-08-04 / Codex / Daily sketch and doodle lessons
 
+### 2026-08-05 — Backfill cadence ended (Codex)
+- Owner direction ended the temporary backfill cadence. Future daily
+  sister-site runs should create exactly one current Sketcha.day lesson and one
+  current Doodlea.day lesson, with no routine backdated tutorials. Existing
+  archive-correction tooling remains available for explicit repairs.
+
+### 2026-08-05 — Saxophone tutorial correction (Codex)
+- Replaced the non-instructional `cartoon-saxophone-with-music-notes` v1
+  sequence with an eight-panel v2 raster process: raw primitives, rough
+  silhouette, refined structure, seven pads, hardware and sound marks, ink,
+  marker color, then final reinforcement. The v1 masters are preserved under
+  `drafts/cartoon-saxophone-with-music-notes/superseded-noninstructional-v1/`.
+- Finished v2 rated 9.2/10: immediately readable and appealing at card size,
+  with handmade marker grain, stable counts, strong composition, and a
+  challenging subject divided into attainable drawing jobs. Readiness passed;
+  Cove QA passed at 1440x1000 and 390x844 with all nine displayed tutorial
+  images loaded, valid eight-step HowTo JSON-LD, no overflow, and no console
+  errors.
+
 ### 2026-08-05 — Daily tutorials (Codex)
 - Daily automation added current `cartoon-oyster-with-pearl` (August 5 /
   Day 092) and honest archive `retro-perfume-bottle-with-atomizer` (May 6 /

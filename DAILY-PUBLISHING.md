@@ -90,12 +90,11 @@ already told the reader to thicken the full outline.
 
 ## Routine
 
-1. Until the owner says otherwise, create two Doodlea.day tutorials per run:
-   one new current daily tutorial and one honest backdated archive tutorial.
-   Coordinate with the Sketcha.day sister track, which should also create one
-   current daily tutorial and one backdated tutorial in the same run. Keep
-   backdated lessons honest in public copy: no invented traffic, comments,
-   popularity, or fake community activity.
+1. Owner direction (2026-08-05): create one new current Doodlea.day tutorial
+   per run. Do not create routine backdated archive tutorials. Coordinate with
+   the Sketcha.day sister track, which should likewise create one new current
+   tutorial per run. Existing archive-correction flags remain available only
+   for an explicit owner-directed correction to an already published lesson.
 2. Before choosing subjects or making art, acquire the cross-site daily run lock.
    This is the mutex that prevents two automation runs from both passing the
    duplicate-slot guard before either has committed:
