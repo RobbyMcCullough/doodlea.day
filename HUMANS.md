@@ -1,11 +1,29 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-05
+- Date: 2026-08-06
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-04 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-05 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-06 — Daily tutorial (Codex)
+- Added one current lesson only: `root-beer-float-with-straw` (August 6 /
+  Day 093). The approved v2 six-panel handmade raster process keeps one mug,
+  one scoop, the foam cap, straw, bubbles, highlights, and shadow cumulative
+  through the black-marker and color stages. The first sheet remains private
+  under `rejected-fill-regression-v1/` because its early drink fill vanished
+  at the inking stage.
+- Finished art rates 9.4/10 for instant root-beer-float readability, cheerful
+  soda-fountain character, visible marker grain, strong mug-and-straw
+  composition, and a clear attainable 20-minute sequence. Readiness passed
+  ledger, schema-v2 plan, frame deltas, derivatives, social card, JSON-LD,
+  internal links, unused assets, lab privacy, and diff checks. QA at 1280x720
+  and 390x844 covered the homepage, 93-card library, and tutorial with no
+  overflow, broken images, invalid JSON-LD, or public lab links; the browser
+  used localhost:4174 because Cove's certificate was expired. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
 
 ### 2026-08-05 — Backfill cadence ended (Codex)
 - Owner direction ended the temporary backfill cadence. Future daily

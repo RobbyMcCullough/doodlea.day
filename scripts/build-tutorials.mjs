@@ -18,6 +18,34 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "root-beer-float-with-straw",
+    day: "093",
+    date: "Thursday, August 6",
+    isoDate: "2026-08-06",
+    subject: "a root beer float with a striped straw",
+    headlineSubject: "a root beer float<br>with a striped straw",
+    shortSubject: "a root beer float",
+    lessonTitle: "Let's draw a root beer float with a striped straw",
+    description: "Learn how to draw a root beer float with a handled glass mug, one vanilla scoop, foamy cap, striped straw, three bubbles, glass highlights, thick felt-tip outlines, and retro marker color.",
+    intro: "Build one face-free root beer float around a chunky glass mug, reserve one large vanilla scoop and foamy cap above the drink, then fit the striped straw, bubbles, glass highlights, and shadow before the heavy marker pass. Earthy brown, cream, aqua, and red turn the 20-minute drawing into a cheerful soda-fountain doodle without polishing away the felt-tip grain.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#8a4a25",
+    finished: "root-beer-float-with-straw-finished-v1.jpg",
+    finishedAlt: "Handmade face-free felt-tip marker drawing of one root beer float in a three-quarter handled glass mug with one dark root-beer fill, exactly one large vanilla scoop, one irregular foamy cap, exactly one diagonal striped muted-aqua-and-red straw, exactly three small bubbles inside the drink, exactly two open-paper glass highlights, one clear side handle, a heavy glass base, thick imperfect black outlines, visible marker streaks, and one broken cool-gray ground shadow",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Root-beer brown, cream, muted-aqua, red, and cool-gray markers"],
+    materialNote: "Use pencil to place the complete mug, handle, drink line, scoop, foam, straw, three bubbles, two highlights, and shadow first. Let the black outline dry before filling the brown, cream, aqua, red, and gray marker areas, and keep the glass highlights as open paper.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the float in the mug", text: "Use pale construction to place one thick glass mug, its side handle, root-beer level, one large scoop circle, irregular foam cap, one diagonal straw route, exactly three bubbles, two glass highlights, and one broken shadow footprint.", tip: "Ghost the mug envelope and scoop before touching down, then compare their widths. Reserve the scoop and handle now so the drink, foam, and far mug wall stop cleanly instead of becoming lines you must erase later." },
+      { name: "Shape the frosty mug", text: "Wrap the guides with one sturdy three-quarter mug, thick inner rim, tapered sides, heavy base, one clear handle, and the root-beer plane while preserving every scoop, foam, straw, bubble, highlight, and shadow route.", tip: "Draw the near mug wall first, then use its slope to aim the far wall. Keep the inner and outer handle curves parallel, and trace the root-beer level with your finger so it stops around the reserved scoop and glass edges." },
+      { name: "Float the scoop and fizz", text: "Clarify exactly one large vanilla scoop, one irregular foam cap, one striped straw, exactly three bubbles inside the drink, two open-paper glass highlights, and the established broken shadow.", tip: "Vary the foam lobes around the scoop instead of making a perfect cloud. Keep all three bubbles inside the dark drink, and let the straw disappear only behind the scoop edge you reserved in the first panel." },
+      { name: "Ink the soda-fountain lines", text: "Trace only the established mug, handle, drink, scoop, foam, straw, three bubbles, two highlights, and shadow with thick, slightly wobbly black felt-tip, then add sparse foam and glass hatching.", tip: "Ink the bubbles and straw stripes first, let them dry, then rotate the page for the large mug curves. Give the outside silhouette the heaviest line and keep the glass and foam hatching lighter." },
+      { name: "Pour in the retro color", text: "Fill the established drink root-beer brown, scoop and foam cream, straw muted aqua and red, and glass edges plus shadow cool gray while preserving visible marker streaks and both paper highlights.", tip: "Pull the brown strokes vertically through the mug and work around every bubble and highlight. Let adjoining fills dry before they touch, and use one extra cream pass only where the scoop turns away from the light." },
+      { name: "Frost the float finish", text: "Thicken selected established black edges, even the existing fills, deepen the same foam hatching and shadow, sharpen both highlight gaps, and remove only pale guides that distract.", tip: "Count one mug, one handle, one scoop, one foam cap, one straw, three bubbles, two highlights, and one shadow before stopping. Change the soda-fountain colors if you like, but keep the same overlaps and handmade marker grain.", image: true }
+    ]
+  },
+  {
     slug: "retro-perfume-bottle-with-atomizer",
     day: "001",
     date: "Wednesday, May 6",

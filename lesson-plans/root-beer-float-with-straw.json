@@ -1,0 +1,192 @@
+{
+  "schema_version": 2,
+  "slug": "root-beer-float-with-straw",
+  "finished": "assets/root-beer-float-with-straw-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one face-free root beer float in a stable three-quarter view with one thick handled glass mug, one clear handle, one dark root-beer fill, exactly one large vanilla scoop, one irregular foam cap, exactly one striped straw, exactly three small bubbles inside the drink, two open-paper glass highlights, thick imperfect black outlines, and one broken cool-gray shadow. The rejected v1 sheet remains private because panels 2-3 added dark graphite fill that disappeared at the inking stage. The approved v2 simplifies an ambiguous second scoop into the persistent foam cap so every count stays readable."
+  },
+  "process_strategy": "Reserve the mug, handle, drink line, one scoop, foam cap, straw, three bubbles, two highlights, and shadow in pale construction; wrap those same footprints with handmade contours; stop the drink and foam around the reserved scoop and the mug wall behind the handle; add earthy retro marker color before limiting the final panel to outline, fill, highlight, and edge cleanup.",
+  "final_elements": [
+    {
+      "name": "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "One mug envelope and inner rim with a reserved side handle, root-beer level, one large scoop circle, foam lobes, one straw route, three bubble circles, two glass highlights, and one broken shadow footprint."
+    },
+    {
+      "name": "handled glass mug rim base and root-beer fill contours",
+      "introduced_by_step": 2,
+      "description": "One sturdy three-quarter glass mug with a thick rim, tapered sides, heavy base, one clear handle, and a dark drink plane around the reserved ice cream."
+    },
+    {
+      "name": "one vanilla scoop foam cap striped straw three bubbles and two highlights",
+      "introduced_by_step": 3,
+      "description": "Exactly one large vanilla scoop, one irregular foam cap with varied lobes, one diagonal striped straw, exactly three small bubbles inside the drink, and two open-paper glass highlights."
+    },
+    {
+      "name": "thick black felt-tip outline foam hatching and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Handmade black marker reinforces every established mug, handle, scoop, foam, straw, bubble, highlight, and shadow contour with sparse foam and glass hatching."
+    },
+    {
+      "name": "root-beer brown vanilla cream muted-aqua red and cool-gray marker fills",
+      "introduced_by_step": 5,
+      "description": "Earthy root-beer brown in the mug, vanilla cream in the scoop and foam, muted aqua and red on the straw, and cool gray in the glass edges and shadow with visible marker streaks."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "one vanilla scoop foam cap striped straw three bubbles and two highlights",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The drink line and foam lobes stop around the reserved scoop circle, the straw passes behind the scoop only on its reserved route, and the three bubble circles remain inside the drink rather than crossing the mug edge."
+    },
+    {
+      "foreground_element": "handled glass mug rim base and root-beer fill contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The far mug wall stops behind the clear handle attachment, and the broken shadow stops at the mug base and handle instead of crossing the glass."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/root-beer-float-with-straw-step-1.jpg",
+      "step_name": "Map the float in the mug",
+      "visible_job": "Uses pale construction to place the mug, handle, drink line, one large scoop circle, foam cap, one straw route, three bubbles, two highlights, and one broken shadow footprint.",
+      "introduces": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/root-beer-float-with-straw-step-2.jpg",
+      "step_name": "Shape the frosty mug",
+      "visible_job": "Wraps the guides with one thick glass mug, inner rim, heavy base, one clear handle, and the root-beer plane while preserving every scoop, foam, straw, bubble, highlight, and shadow route.",
+      "introduces": [
+        "handled glass mug rim base and root-beer fill contours"
+      ],
+      "requires_prior_elements": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/root-beer-float-with-straw-step-3.jpg",
+      "step_name": "Float the scoop and fizz",
+      "visible_job": "Clarifies exactly one large vanilla scoop, one irregular foam cap, one striped straw, exactly three bubbles, two open-paper highlights, and the broken shadow on their reserved routes.",
+      "introduces": [
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights"
+      ],
+      "requires_prior_elements": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+        "handled glass mug rim base and root-beer fill contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/root-beer-float-with-straw-step-4.jpg",
+      "step_name": "Ink the soda-fountain lines",
+      "visible_job": "Traces only the established mug, handle, drink, scoop, foam, straw, three bubbles, highlights, and shadow with thick imperfect black felt-tip and adds sparse foam and glass hatching.",
+      "introduces": [
+        "thick black felt-tip outline foam hatching and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "handled glass mug rim base and root-beer fill contours",
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/root-beer-float-with-straw-step-5.jpg",
+      "step_name": "Pour in the retro color",
+      "visible_job": "Fills the established drink root-beer brown, the scoop and foam vanilla cream, the straw muted aqua and red, and the glass edges plus shadow cool gray while preserving marker grain and two paper highlights.",
+      "introduces": [
+        "root-beer brown vanilla cream muted-aqua red and cool-gray marker fills"
+      ],
+      "requires_prior_elements": [
+        "handled glass mug rim base and root-beer fill contours",
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights",
+        "thick black felt-tip outline foam hatching and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+        "handled glass mug rim base and root-beer fill contours"
+      ],
+      "new_occlusions": [
+        "The scoop covers only its reserved drink and foam gap, the straw passes behind only the reserved scoop edge, and the handle covers only the reserved far mug wall."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+        "handled glass mug rim base and root-beer fill contours",
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+        "handled glass mug rim base and root-beer fill contours",
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights",
+        "thick black felt-tip outline foam hatching and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale mug handle drink scoop foam straw bubble highlight and shadow construction",
+        "handled glass mug rim base and root-beer fill contours",
+        "one vanilla scoop foam cap striped straw three bubbles and two highlights",
+        "thick black felt-tip outline foam hatching and broken shadow",
+        "root-beer brown vanilla cream muted-aqua red and cool-gray marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Frost the float finish",
+    "asset": "assets/root-beer-float-with-straw-finished-v1.jpg",
+    "visible_job": "Only thickens selected established black edges, evens existing marker fills, sharpens the same two highlight gaps, deepens existing foam hatching and shadow, and removes distracting pale guides without changing counts, colors, or mug geometry.",
+    "allowed_changes": [
+      "selective black outline thickening",
+      "second marker pass inside established color areas",
+      "small paper-highlight cleanup",
+      "slightly deeper existing foam hatching and shadow",
+      "light removal of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free root beer float, one three-quarter view, one crop, and one scale in all six panels.",
+    "Keep one mug, one handle, one scoop, one foam cap, one straw, three bubbles, two highlights, and one shadow after those routes appear.",
+    "The drink and foam must stop around the reserved scoop, the straw may pass behind only that scoop, the far mug wall must stop behind the handle, and the shadow may not cross the glass.",
+    "Do not add a face, cherry, spoon, second drink, text, logo, brand mark, table scene, enclosing outline, sticker edge, badge frame, arrows, labels, numbers, signature, or watermark.",
+    "The final panel may not introduce a mug edge, handle, scoop, foam lobe, straw stripe, bubble, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean drink art, polished AI poster rendering, or glossy icon art."
+  ]
+}
