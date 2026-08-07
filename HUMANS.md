@@ -1,11 +1,27 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-06
+- Date: 2026-08-07
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-05 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-06 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-07 — Daily tutorial (Codex)
+- Added one current lesson only: `raccoon-peeking-from-trash-can` (August 7 /
+  Day 094). The approved eight-panel handmade raster process keeps one
+  expressive raccoon, two paws, three tail bands, and a four-rib teal trash
+  can stable from construction through keeper outlines, visible marker fill,
+  and final accents. The finished doodle rates 9.7/10 for instant story and
+  character, stable asymmetrical side-eye, bold thumbnail composition,
+  convincing felt-tip texture, and a playful but teachable 20-minute challenge.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Browser QA at desktop and 390x844 mobile widths
+  covered the homepage, 94-card library, and tutorial with no overflow,
+  failed tutorial images, invalid JSON-LD, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
 
 ### 2026-08-06 — Daily tutorial (Codex)
 - Added one current lesson only: `root-beer-float-with-straw` (August 6 /

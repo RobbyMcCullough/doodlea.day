@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "slug": "raccoon-peeking-from-trash-can",
+  "finished": "assets/raccoon-peeking-from-trash-can-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed eight-panel felt-tip marker contact sheet cropped into seven cumulative process frames and one finished master.",
+    "notes": "Keep one mischievous raccoon peeking from one open ribbed trash can with exactly two ears, two eyes, two gripping paws, one crooked grin with one small tooth, one ringed tail with exactly three dark bands, two can handles, four vertical can ribs, one diamond-shaped dent, two mustard accent blocks, one tall paper highlight, and one broken shadow."
+  },
+  "process_strategy": "Use eight cumulative stages so the complete pale construction, rough silhouette, refined overlaps, facial and tail markings, expression and can details, black ink, marker color, and final reinforcement each receive a distinct visible job. Reserve the head, paws, and tail before drawing the can rim and ribs so no keeper line is erased later.",
+  "final_elements": [
+    {
+      "name": "pale can raccoon head paw tail face detail highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Pale blue guides for one open tapered can, one raccoon head, two ears, two paws, one curled tail, face axes, two handles, four rib routes, one diamond-dent route, two accent-block routes, one tall highlight reserve, and one broken shadow."
+    },
+    {
+      "name": "rough trash-can rim raccoon head ear paw and tail silhouette",
+      "introduced_by_step": 2,
+      "description": "A loose handmade contour for one open trash can, one peeking raccoon head, exactly two ears, exactly two paws gripping the rim, and one tail curling from behind the can."
+    },
+    {
+      "name": "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+      "introduced_by_step": 3,
+      "description": "A doubled can rim and bottom band, exactly two side handles, three vertical ribs, a rounded raccoon muzzle, two clear gripping paws, and one thick tail contour."
+    },
+    {
+      "name": "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+      "introduced_by_step": 4,
+      "description": "Two asymmetrical mask patches, two eye openings, one raised-brow guide, one dark nose, one crooked grin with one small tooth, and exactly three band guides across the tail."
+    },
+    {
+      "name": "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow",
+      "introduced_by_step": 5,
+      "description": "One half-lidded eye and one wider eye with both pupils glancing to page right, one raised brow, cheek tufts, one diamond-shaped dent, two small accent blocks, one tall open-paper highlight, and one broken shadow."
+    },
+    {
+      "name": "thick black felt-tip keeper lines and restrained fur and metal hatching",
+      "introduced_by_step": 6,
+      "description": "Imperfect black felt-tip traces every established animal, can, expression, marking, highlight, accent, and shadow boundary with short fur and metal hatching."
+    },
+    {
+      "name": "cool-gray charcoal teal coral mustard and deep-navy marker fills",
+      "introduced_by_step": 7,
+      "description": "Cool gray raccoon fur, charcoal masks and three tail bands, teal can panels, coral ear interiors, two mustard accent blocks, and a deep-navy broken shadow around one tall paper highlight."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rough trash-can rim raccoon head ear paw and tail silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The back rim stops behind the reserved raccoon head, the front rim stops at both gripping paws, and can ribs stop before the reserved tail where it curls across the lower right side."
+    },
+    {
+      "foreground_element": "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Both side handles attach only outside the can edges, the four ribs stop at the rim, paws, tail, and bottom band, and the broken shadow stops at the can and tail silhouettes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-1.jpg",
+      "step_name": "Map the midnight visitor",
+      "visible_job": "Uses only pale blue guides to place the tapered can, open rim, raccoon head, two ears, two paws, curled tail, face axes, two handles, four rib routes, one diamond dent, two accent blocks, one tall highlight, and broken shadow.",
+      "introduces": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-2.jpg",
+      "step_name": "Wrap the peeking silhouette",
+      "visible_job": "Adds a loose contour for the open trash can, raccoon head, two ears, two gripping paws, and one curled tail while keeping every facial, hardware, rib, highlight, accent, and shadow route visible.",
+      "introduces": [
+        "rough trash-can rim raccoon head ear paw and tail silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-3.jpg",
+      "step_name": "Fit the paws tail and can",
+      "visible_job": "Clarifies the doubled rim, bottom band, two handles, four ribs, rounded muzzle, two paws, and thick tail on the reserved construction without adding expression, ink, or color.",
+      "introduces": [
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours"
+      ],
+      "requires_prior_elements": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-4.jpg",
+      "step_name": "Place the mask and tail bands",
+      "visible_job": "Adds two asymmetrical mask patches, two empty eye openings, the raised-brow route, dark nose, crooked grin with one small tooth, and exactly three unfilled tail-band guides.",
+      "introduces": [
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides"
+      ],
+      "requires_prior_elements": [
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-5.jpg",
+      "step_name": "Aim the side-eye and can details",
+      "visible_job": "Adds both rightward pupils, one raised brow, cheek tufts, one diamond dent, two accent blocks, one tall highlight reserve, and the broken shadow without changing the raccoon pose or hardware counts.",
+      "introduces": [
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-6.jpg",
+      "step_name": "Ink the sneaky keeper drawing",
+      "visible_job": "Traces every established raccoon, can, mask, pupil, tooth, tail band, dent, accent, highlight, and shadow boundary with thick imperfect black felt-tip and restrained fur and metal hatching.",
+      "introduces": [
+        "thick black felt-tip keeper lines and restrained fur and metal hatching"
+      ],
+      "requires_prior_elements": [
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/raccoon-peeking-from-trash-can-step-7.jpg",
+      "step_name": "Fill the alley-night color",
+      "visible_job": "Fills the established fur cool gray, masks and three tail bands charcoal, can teal, ear interiors coral, two accent blocks mustard, and shadow deep navy while preserving the tall paper highlight and marker streaks.",
+      "introduces": [
+        "cool-gray charcoal teal coral mustard and deep-navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow",
+        "thick black felt-tip keeper lines and restrained fur and metal hatching"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette"
+      ],
+      "new_occlusions": [
+        "The head interrupts only the reserved back rim, both paws overlap only the reserved front rim, and the tail crosses only the reserved lower-right can area."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow",
+        "thick black felt-tip keeper lines and restrained fur and metal hatching"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale can raccoon head paw tail face detail highlight and shadow construction",
+        "rough trash-can rim raccoon head ear paw and tail silhouette",
+        "refined can bands two handles four ribs raccoon muzzle paws and tail contours",
+        "two mask patches two eye openings raised-brow route nose grin tooth and three tail-band guides",
+        "rightward pupils raised brow cheek tufts diamond dent two accent blocks tall highlight and broken shadow",
+        "thick black felt-tip keeper lines and restrained fur and metal hatching",
+        "cool-gray charcoal teal coral mustard and deep-navy marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Lock in the midnight mischief",
+    "asset": "assets/raccoon-peeking-from-trash-can-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black edges, evens existing marker fills, clarifies the two reserved highlights, and deepens existing fur hatching and broken shadow without changing the animal, expression, counts, palette, pose, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established color areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing fur hatching and shadow",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one raccoon, one open trash can, one peeking pose, one crop, and one scale in all eight panels.",
+    "Keep two ears, two eyes, two paws, one small tooth, one tail with three dark bands, two can handles, four ribs, one diamond dent, two mustard accent blocks, one tall paper highlight, and one shadow after those elements appear.",
+    "Both pupils must look toward page right from step 5 onward; one eye stays half-lidded, the other wider, and one brow stays raised.",
+    "The back rim must stop behind the head, the front rim must stop at both paws, and can ribs must stop at the tail and bottom band; no keeper line may be erased to fake an overlap.",
+    "Do not add a lid, garbage pile, food, alley scenery, second animal, extra limb, extra tail, words, letters, logo, sticker border, badge frame, label, arrow, signature, or watermark.",
+    "The final panel may not introduce an ear, paw, facial feature, tooth, tail band, handle, rib, dent, accent, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, polished character rendering, or glossy AI poster art."
+  ]
+}

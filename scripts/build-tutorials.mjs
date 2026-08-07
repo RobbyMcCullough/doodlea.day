@@ -18,6 +18,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "raccoon-peeking-from-trash-can",
+    day: "094",
+    date: "Friday, August 7",
+    isoDate: "2026-08-07",
+    subject: "a raccoon peeking from a trash can",
+    headlineSubject: "a raccoon<br>peeking from a trash can",
+    shortSubject: "a peeking raccoon",
+    lessonTitle: "Let's draw a raccoon peeking from a trash can",
+    description: "Learn how to draw a mischievous raccoon peeking from a ribbed trash can with two paws, an asymmetric side-eye, a ringed tail, bold outlines, and retro marker color.",
+    intro: "Build one mischievous raccoon around a big peeking head, two gripping paws, and a striped tail, then fit those shapes into an open ribbed trash can before the heavy marker pass. The asymmetric side-eye, teal metal, charcoal markings, and visible felt-tip grain make this 20-minute challenge playful without turning it into glossy character art.",
+    time: 20,
+    difficulty: "Challenge",
+    accent: "#138f8c",
+    finished: "raccoon-peeking-from-trash-can-finished-v1.jpg",
+    finishedAlt: "Handmade felt-tip marker drawing of one mischievous cool-gray raccoon peeking from one open teal trash can with exactly two coral-lined ears, two asymmetric charcoal mask patches, one half-lidded eye and one wide eye glancing toward the right side of the page, one raised brow, one dark nose, one crooked grin with one small tooth, exactly two gray paws gripping the front rim, one curled gray tail with exactly three charcoal bands, exactly two can handles, exactly four long can ribs, one tall open-paper highlight, two mustard accent blocks, one diamond-shaped dent, thick imperfect black outlines, visible marker streaks, and one broken deep-navy shadow",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Cool-gray, charcoal, teal, coral, mustard, and deep-navy markers"],
+    materialNote: "Use pencil to place the complete can, raccoon head, two ears, two paws, tail, face, two handles, four ribs, three tail bands, highlight, accent blocks, dent, and shadow first. Let the black felt-tip dry before filling the gray, charcoal, teal, coral, mustard, and navy areas.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the midnight visitor", text: "Use pale construction to place one tapered can, its oval rim, the raccoon head, two ears, two paw ovals, one curled tail route, face axes, two handles, four rib routes, one diamond dent, two accent blocks, one tall highlight, and a broken shadow footprint.", tip: "Ghost the can rim and head circle before touching down, then compare their widths. Reserve the head, both paws, and full tail route now so the rim and ribs can stop around them instead of becoming lines you must erase later." },
+      { name: "Wrap the peeking silhouette", text: "Add a loose contour for the open trash can, raccoon head, exactly two ears, exactly two paws gripping the rim, and one thick curled tail while preserving every face, hardware, rib, accent, highlight, and shadow route.", tip: "Pull the cheek tufts outward in a few broad points rather than tiny fur zigzags. Keep the back rim hidden behind the head, stop the front rim at both paws, and let the tail cross only the lower-right can area you reserved." },
+      { name: "Fit the paws tail and can", text: "Clarify the doubled rim, bottom band, exactly two handles, exactly four long ribs, rounded muzzle, both gripping paws, and the thick tail on the reserved construction.", tip: "Draw the paws before the front rim so their fingers sit on top, then rotate the page for the four long ribs. Stop every rib at the rim, paws, tail, or bottom band instead of drawing through an overlap." },
+      { name: "Place the mask and tail bands", text: "Add two asymmetric mask patches, two empty eye openings, one raised-brow route, the dark nose, a crooked grin with one small tooth, cheek-tuft guides, and exactly three unfilled tail-band guides.", tip: "Keep the two eye openings visibly different: one flatter and one rounder. Space the three tail bands around the curve, and trace the crooked grin in one relaxed pass so the expression feels sly rather than symmetrical." },
+      { name: "Aim the side-eye and can details", text: "Add both pupils glancing toward the page's right, keep one eye half-lidded and the other wider, clarify the raised brow and cheek tufts, then place one diamond dent, two accent blocks, one tall highlight, and the broken shadow.", tip: "Place both pupils before darkening either one and compare their direction across the nose. Keep the tall highlight open, the two accent blocks separate, and the shadow outside the can and tail silhouettes." },
+      { name: "Ink the sneaky keeper drawing", text: "Trace only the established raccoon, can, expression, three tail bands, four ribs, dent, accents, highlight, and shadow with thick, slightly wobbly black felt-tip, then add restrained fur and metal hatching.", tip: "Ink the pupils, mask edges, fingers, and tail bands first, let them dry, then rotate the page for the long can contour and ribs. Use the heaviest line on the outside silhouette and lighter hatching inside." },
+      { name: "Fill the alley-night color", text: "Fill the established fur cool gray, masks and three tail bands charcoal, can teal, ear interiors coral, two accent blocks mustard, and shadow deep navy while preserving the tall paper highlight and visible marker streaks.", tip: "Pull teal strokes vertically with the can ribs and gray strokes outward through the cheek fur. Let adjacent fills dry before they touch, and work around the eye whites, tooth, and can highlight instead of covering them." },
+      { name: "Lock in the midnight mischief", text: "Thicken selected established black edges, even the same marker fills, deepen the existing fur hatching and shadow, sharpen the tall highlight, and remove only pale guides that distract.", tip: "Count two ears, two eyes, two paws, one tooth, three tail bands, two handles, four ribs, two accent blocks, one dent, and one shadow before stopping. Change the can color or expression in your own version, but keep the overlap order and handmade grain.", image: true }
+    ]
+  },
+  {
     slug: "root-beer-float-with-straw",
     day: "093",
     date: "Thursday, August 6",
