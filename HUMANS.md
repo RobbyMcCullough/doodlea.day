@@ -1,11 +1,29 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-07
+- Date: 2026-08-08
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-06 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-07 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-08 — Daily tutorial (Codex)
+- Added one current lesson only: `pickleball-paddle-and-ball-in-motion`
+  (August 8 / Day 095). The approved v2 eight-panel handmade raster process
+  keeps one tilted paddle, three face color blocks, one ball with exactly seven
+  holes, two swing arcs, three speed dashes, and two face highlights cumulative
+  through the heavy-outline and marker-color stages. The first generated sheet
+  remains private under `rejected-continuity-v1/` because its holes disappeared
+  and its sequence introduced color too early.
+- The finished doodle rates 9.5/10 for instant sports readability, bold marker
+  grain, exact seven-hole continuity, and a clean energetic action layout.
+  Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Browser QA at 1440x1000 and 390x844 covered the
+  homepage, 95-card library, and tutorial with no overflow, failed new lesson
+  images, invalid JSON-LD, missing new-image alt text, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
 
 ### 2026-08-07 — Daily tutorial (Codex)
 - Added one current lesson only: `raccoon-peeking-from-trash-can` (August 7 /

@@ -291,6 +291,11 @@
     "parade-drum-doodle": {
       "status": "published"
     },
+    "pickleball-paddle-and-ball-in-motion": {
+      "status": "published",
+      "date": "2026-08-08",
+      "note": "Approved eight-panel v2 raster process cropped and promoted as the August 8 current lesson after v1 was rejected for hole regression and premature color; v2 keeps one paddle, one ball, seven visible holes, ink-only panel 6, full-color panel 7, process-plan, frame-delta, derivative, JSON-LD, link, asset, lab-privacy, and diff checks aligned."
+    },
     "raccoon-peeking-from-trash-can": {
       "status": "published",
       "date": "2026-08-07",

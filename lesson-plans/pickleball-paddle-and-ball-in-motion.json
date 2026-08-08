@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "slug": "pickleball-paddle-and-ball-in-motion",
+  "finished": "assets/pickleball-paddle-and-ball-in-motion-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed eight-panel felt-tip marker contact sheet cropped into seven cumulative process frames and one finished master.",
+    "notes": "Keep one face-free pickleball paddle tilted from lower left toward upper center, one perforated ball flying at upper right, one oval paddle face, one short neck, one wrapped handle with three grip bands, two diagonal face-color routes, exactly seven visible ball holes, two curved motion arcs, three short speed dashes, two open-paper highlights, thick imperfect outlines, visible marker grain, and one broken shadow."
+  },
+  "process_strategy": "Use eight cumulative stages so the complete pale action map, rough paddle-and-ball silhouette, refined hardware and grip, face pattern and ball holes, motion and highlight details, black ink, marker color, and final reinforcement each receive a distinct visible job. Reserve the ball, motion routes, handle, highlights, and shadow before drawing keeper contours so no established line is erased later.",
+  "final_elements": [
+    {
+      "name": "pale paddle ball grip pattern motion highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Pale guides for one diagonal paddle face, neck and handle, one blank flying-ball circle, three grip bands, two face-color routes, two motion arcs, three speed dashes, two highlights, and one broken shadow; the seven ball holes are deliberately deferred until step 4."
+    },
+    {
+      "name": "rough oval paddle neck wrapped handle and flying ball silhouette",
+      "introduced_by_step": 2,
+      "description": "A loose handmade silhouette for one thick oval pickleball paddle, one short neck, one tapered wrapped handle, and one separate round ball at upper right."
+    },
+    {
+      "name": "refined paddle rim neck end cap three grip bands and ball contour",
+      "introduced_by_step": 3,
+      "description": "A doubled paddle rim, clear neck attachment, small handle end cap, exactly three curved grip bands, and one round perforated-ball contour on the reserved action line."
+    },
+    {
+      "name": "two diagonal paddle color blocks and seven visible ball holes",
+      "introduced_by_step": 4,
+      "description": "Exactly two diagonal routes divide the paddle face into three broad color areas, and exactly seven small round holes sit inside the existing ball silhouette."
+    },
+    {
+      "name": "two motion arcs three speed dashes two highlights and broken shadow",
+      "introduced_by_step": 5,
+      "description": "Two curved arcs show the paddle swing, three short dashes track the flying ball, two open-paper oval highlights sit on the paddle face, and one broken shadow grounds the handle."
+    },
+    {
+      "name": "thick black felt-tip keeper lines and restrained grip hatching",
+      "introduced_by_step": 6,
+      "description": "Imperfect black felt-tip traces every established paddle, ball, hole, grip, pattern, motion, highlight, and shadow boundary with restrained handle and rim hatching."
+    },
+    {
+      "name": "raspberry teal mustard coral and deep-navy marker fills",
+      "introduced_by_step": 7,
+      "description": "Raspberry, teal, and mustard fill the three paddle-face blocks, coral fills the wrapped grip, mustard fills the ball around its seven holes, and deep navy fills the broken shadow while two paper highlights and marker streaks remain visible."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rough oval paddle neck wrapped handle and flying ball silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The paddle-face pattern and hatching stop at the doubled rim, grip bands stop at the handle edges, motion arcs and speed dashes stay outside the ball and paddle, and the broken shadow stops at the handle silhouette."
+    },
+    {
+      "foreground_element": "two motion arcs three speed dashes two highlights and broken shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Marker fills stop around the two reserved highlight shapes, all seven holes remain open inside the ball, and no motion mark crosses the ball, paddle, or handle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-1.jpg",
+      "step_name": "Map the quick volley",
+      "visible_job": "Uses pale construction to place the diagonal paddle face, neck, handle, blank ball circle, three grip bands, two color routes, two motion arcs, three speed dashes, two highlights, and broken shadow while deliberately leaving the ball holes for step 4.",
+      "introduces": [
+        "pale paddle ball grip pattern motion highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-2.jpg",
+      "step_name": "Wrap the paddle silhouette",
+      "visible_job": "Adds a loose contour for one thick oval paddle, short neck, tapered handle, and flying ball while preserving every grip, pattern, hole, motion, highlight, and shadow route.",
+      "introduces": [
+        "rough oval paddle neck wrapped handle and flying ball silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale paddle ball grip pattern motion highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-3.jpg",
+      "step_name": "Fit the rim and grip",
+      "visible_job": "Clarifies the doubled paddle rim, neck attachment, handle end cap, exactly three curved grip bands, and the ball contour without adding face color, ink, or fills.",
+      "introduces": [
+        "refined paddle rim neck end cap three grip bands and ball contour"
+      ],
+      "requires_prior_elements": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-4.jpg",
+      "step_name": "Divide the face and ball",
+      "visible_job": "Adds exactly two diagonal paddle-face routes and exactly seven unfilled round holes inside the existing ball while keeping the silhouette and grip unchanged.",
+      "introduces": [
+        "two diagonal paddle color blocks and seven visible ball holes"
+      ],
+      "requires_prior_elements": [
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-5.jpg",
+      "step_name": "Kick up the volley motion",
+      "visible_job": "Adds two curved paddle-swing arcs, three short ball-speed dashes, two open-paper oval highlight reserves on the paddle face, and one broken shadow without changing the paddle, grip, pattern, or seven-hole count.",
+      "introduces": [
+        "two motion arcs three speed dashes two highlights and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-6.jpg",
+      "step_name": "Ink the court-ready lines",
+      "visible_job": "Traces every established paddle, rim, neck, grip band, ball hole, color route, motion mark, highlight, and shadow boundary with thick imperfect black felt-tip and restrained grip hatching.",
+      "introduces": [
+        "thick black felt-tip keeper lines and restrained grip hatching"
+      ],
+      "requires_prior_elements": [
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes",
+        "two motion arcs three speed dashes two highlights and broken shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/pickleball-paddle-and-ball-in-motion-step-7.jpg",
+      "step_name": "Fill the bright court color",
+      "visible_job": "Fills the three paddle blocks raspberry, teal, and mustard, the grip coral, the ball mustard, and the broken shadow deep navy while preserving all seven holes, two highlights, and visible marker grain.",
+      "introduces": [
+        "raspberry teal mustard coral and deep-navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "two diagonal paddle color blocks and seven visible ball holes",
+        "two motion arcs three speed dashes two highlights and broken shadow",
+        "thick black felt-tip keeper lines and restrained grip hatching"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette"
+      ],
+      "new_occlusions": [
+        "The doubled rim stays inside the reserved paddle edge, the neck attaches only at the reserved lower-face opening, and the three grip bands wrap only the established handle."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes",
+        "two motion arcs three speed dashes two highlights and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes",
+        "two motion arcs three speed dashes two highlights and broken shadow",
+        "thick black felt-tip keeper lines and restrained grip hatching"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale paddle ball grip pattern motion highlight and shadow construction",
+        "rough oval paddle neck wrapped handle and flying ball silhouette",
+        "refined paddle rim neck end cap three grip bands and ball contour",
+        "two diagonal paddle color blocks and seven visible ball holes",
+        "two motion arcs three speed dashes two highlights and broken shadow",
+        "thick black felt-tip keeper lines and restrained grip hatching",
+        "raspberry teal mustard coral and deep-navy marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Snap the pickleball finish",
+    "asset": "assets/pickleball-paddle-and-ball-in-motion-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black edges, evens existing marker fills, clarifies the same two paper highlights, and deepens the existing grip hatching and broken shadow without changing the paddle, ball, counts, palette, motion, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established color areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing grip hatching and shadow",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one pickleball paddle, one perforated ball, one diagonal action pose, one crop, and one scale in all eight panels.",
+    "Keep three grip bands, two diagonal paddle routes, seven visible ball holes, two motion arcs, three speed dashes, two highlights, and one shadow after those elements appear.",
+    "The ball must remain at upper right on the same action line, and the paddle tilt, oval proportions, handle length, and grip width may not drift.",
+    "The paddle pattern and hatching must stop at the rim, the grip bands must stop at the handle edges, every motion mark must stay outside the subjects, and the shadow must stop at the handle.",
+    "Do not add a face, player, hand, court, net, second paddle, second ball, trophy, words, lettering, logo, sticker border, badge frame, label, arrow, signature, or watermark.",
+    "The final panel may not introduce a rim, grip band, face route, hole, motion mark, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, polished sports branding, glossy AI poster art, or rasterized vector drawing."
+  ]
+}

@@ -18,6 +18,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "pickleball-paddle-and-ball-in-motion",
+    day: "095",
+    date: "Saturday, August 8",
+    isoDate: "2026-08-08",
+    subject: "a pickleball paddle and ball in motion",
+    headlineSubject: "a pickleball paddle<br>and ball in motion",
+    shortSubject: "a pickleball paddle",
+    lessonTitle: "Let's draw a pickleball paddle and ball in motion",
+    description: "Learn how to draw a pickleball paddle and ball in motion with a wrapped grip, three color blocks, seven visible ball holes, swing arcs, speed dashes, thick outlines, and bright marker fills.",
+    intro: "Tilt one face-free pickleball paddle into a quick swing, float one perforated ball just beyond its face, and place the rim, grip, color blocks, holes, highlights, and motion marks before the heavy marker pass. Raspberry, teal, mustard, coral, and deep navy give the 20-minute sports doodle plenty of court energy while visible felt-tip streaks keep it handmade and attainable.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#d61f69",
+    finished: "pickleball-paddle-and-ball-in-motion-finished-v1.jpg",
+    finishedAlt: "Handmade face-free felt-tip marker drawing of one diagonal pickleball paddle with one thick oval face divided into raspberry, teal, and mustard color blocks by exactly two diagonal routes, one doubled black rim, one short neck, one coral handle with exactly three curved grip bands and a small end cap, one mustard pickleball at upper right with exactly seven visible open holes, two black paddle-swing arcs, exactly three black ball-speed dashes, two open-paper oval highlights on the paddle face, thick imperfect black outlines, visible marker streaks, and one broken deep-navy shadow beneath the handle",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Raspberry, teal, mustard, coral, and deep-navy markers"],
+    materialNote: "Use pencil to place the complete paddle, doubled rim, neck, handle, three grip bands, blank ball, two face routes, seven hole positions, two swing arcs, three speed dashes, two highlights, and shadow before inking. Let the black felt-tip dry before filling the raspberry, teal, mustard, coral, and navy areas, and keep the holes and highlights as open paper.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the quick volley", text: "Use pale construction to place the diagonal paddle face, doubled-rim guide, neck, tapered handle, blank ball circle, exactly three grip-band routes, exactly two face-color routes, two swing arcs, three speed dashes, two paddle-face highlights, and one broken shadow footprint.", tip: "Ghost the paddle oval and its long center axis before touching down, then compare the handle length with the face. Keep the ball blank for now, and reserve the motion marks and highlights so no later line has to cut through the paddle or ball." },
+      { name: "Wrap the paddle silhouette", text: "Add a loose contour for one thick oval paddle, one short neck, one tapered handle, and one separate blank ball while preserving every grip, pattern, motion, highlight, and shadow route.", tip: "Rotate the page and pull each long paddle edge in one relaxed pass. Keep the neck centered on the oval and match the paper gap around the ball so the action angle does not drift." },
+      { name: "Fit the rim and grip", text: "Clarify the doubled paddle rim, neck attachment, small handle end cap, exactly three curved grip bands, and the ball contour without adding holes, black ink, or color.", tip: "Echo the outer oval with a narrow inner rim instead of redrawing a separate shape. Wrap all three grip bands around the same handle taper and stop each band cleanly at the handle edges." },
+      { name: "Divide the face and ball", text: "Add exactly two diagonal routes across the paddle face and exactly seven unfilled round holes inside the established ball while keeping the silhouette and grip unchanged.", tip: "Pull both diagonal routes parallel enough to create one broad center block, then place the ball's center hole first and space six around it. Count all seven before darkening any circle." },
+      { name: "Kick up the volley motion", text: "Add two curved paddle-swing arcs, exactly three short ball-speed dashes, two open-paper oval highlights on the paddle face, and the established broken shadow.", tip: "Ghost the two long arcs beside the paddle before drawing them and keep all three short dashes beside the ball. Leave open paper between every motion mark and the subject silhouettes so the action remains crisp." },
+      { name: "Ink the court-ready lines", text: "Trace only the established paddle, rim, neck, three grip bands, two face routes, ball, seven holes, motion marks, highlights, and shadow with thick, slightly wobbly black felt-tip, then add restrained grip and rim hatching.", tip: "Ink the seven small holes and grip bands first, let them dry, then rotate the page for the large oval. Give the outside silhouette the heaviest line and keep the inner rim and hatching lighter." },
+      { name: "Fill the bright court color", text: "Fill the three paddle blocks raspberry, teal, and mustard, the grip coral, the ball mustard around all seven holes, and the broken shadow deep navy while preserving both paper highlights and visible marker streaks.", tip: "Pull the paddle strokes along each diagonal block and the grip strokes around the handle. Let neighboring fills dry before they touch, and color around every hole and highlight instead of painting over the reserved paper." },
+      { name: "Snap the pickleball finish", text: "Thicken selected established black edges, even the same marker fills, clarify both paddle highlights, and deepen only the existing grip hatching and broken shadow.", tip: "Count one paddle, one ball, three grip bands, two face routes, seven holes, two swing arcs, three speed dashes, two highlights, and one shadow before stopping. Change the paddle palette if you like, but keep the face-free action and handmade marker grain.", image: true }
+    ]
+  },
+  {
     slug: "raccoon-peeking-from-trash-can",
     day: "094",
     date: "Friday, August 7",
