@@ -7,6 +7,17 @@
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 - Previous: 2026-08-08 / Codex / Daily sketch and doodle lessons
 
+### 2026-08-09 — Open-book early-step correction (Codex)
+- Corrected `open-book-with-ribbon-bookmark` after owner review found Steps
+  1-3 too visually similar. The repaired sequence now uses three distinct jobs:
+  a sparse hinge/spread gesture, two page-face silhouettes, then the complete
+  layered pencil construction before black ink. Steps 4-7 and the finished JPG
+  remain byte-identical to the approved published art.
+- The superseded contact sheet and original Step 1-3 JPG masters remain private
+  under `superseded-near-duplicate-early-panels-v2/`. Schema-v2 plan, written
+  steps, derivatives, frame deltas, JSON-LD, internal links, unused assets, lab
+  privacy, `git diff --check`, and rendered desktop/mobile QA all pass.
+
 ### 2026-08-09 — Daily tutorial (Codex)
 - Added one current lesson only: `open-book-with-ribbon-bookmark` (August 9 /
   Day 096). The approved v2 eight-panel handmade raster process keeps one open
