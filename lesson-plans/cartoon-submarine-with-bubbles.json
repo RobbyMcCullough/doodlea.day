@@ -4,25 +4,25 @@
   "finished": "assets/cartoon-submarine-with-bubbles-finished-v1.jpg",
   "source": {
     "type": "generated-raster-contact-sheet",
-    "description": "One reviewed six-panel felt-tip marker contact sheet cropped into five cumulative process frames and one finished master.",
-    "notes": "Keep one face-free submarine, one capsule hull, one tower, one bent periscope, exactly three portholes, two tail fins, one three-blade propeller, one lower side fin, exactly six rivets, three bubbles, and one broken water shadow stable."
+    "description": "A reviewed six-panel raster correction sheet supplies three distinct replacement construction frames; the approved ink, color, and finished masters remain unchanged.",
+    "notes": "Step 1 must stay sparse, Step 2 must add the readable submarine silhouette, and Step 3 must install every window and hardware detail before the preserved black-marker frame. Keep one face-free submarine, one capsule hull, one tower, one bent periscope, exactly three portholes, two tail fins, one three-blade propeller, one lower side fin, exactly six rivets, three bubbles, and one broken water shadow stable."
   },
-  "process_strategy": "Map every mechanical footprint and count in pale construction, preserve the tower and bent periscope through every later panel while building the full silhouette, ink only elements already visible, introduce the limited vintage-marine palette before the final panel, and finish with line-weight and highlight cleanup only.",
+  "process_strategy": "Begin with only a pale dive axis, capsule envelope, attachment axes, feature centers, and shadow footprint; add the full hull, tower, bent periscope, fins, propeller gestures, and bubble guides in Step 2; install every porthole, rivet, seam, refined blade, refined bubble, and shadow contour in Step 3; then preserve the approved ink, color, and finish frames unchanged.",
   "final_elements": [
     {
-      "name": "capsule hull tower tail fin propeller and bubble guides",
+      "name": "sparse dive scaffold and reserved feature positions",
       "introduced_by_step": 1,
-      "description": "Pale construction fixes one long capsule hull, small tower, bent periscope route, two tail fins, a three-blade propeller, lower side fin, three porthole centers, three bubble routes, and a broken shadow footprint."
+      "description": "Pale construction fixes one tilted centerline, a loose capsule envelope, a small tower box, tail and fin axes, a propeller hub axis, three porthole centers, three bubble centers, and a broken shadow footprint without drawing finished contours."
     },
     {
-      "name": "complete submarine silhouette",
+      "name": "complete submarine silhouette attachment footprints and bubble guides",
       "introduced_by_step": 2,
-      "description": "One readable submarine with a rounded nose, capsule hull, tower, two tail fins, three-blade propeller, and lower side fin."
+      "description": "One readable submarine with a rounded capsule hull, small tower, persistent bent periscope, tapered tail housing, two tail fins, one lower side fin, a propeller hub with three light blade gestures, and exactly three light bubble circles."
     },
     {
-      "name": "bent periscope three portholes six rivets and three bubbles",
+      "name": "three portholes seam six rivets and refined hardware",
       "introduced_by_step": 3,
-      "description": "One bent periscope, exactly three round portholes, one hull seam, exactly six rivets, and exactly three bubbles in three sizes."
+      "description": "Exactly three round portholes, one hull seam, exactly six rivets, three refined propeller blades, three refined bubbles in three sizes, and the complete broken shadow outline."
     },
     {
       "name": "thick black felt-tip outline and broken water shadow",
@@ -37,7 +37,7 @@
   ],
   "overlap_reservations": [
     {
-      "foreground_element": "capsule hull tower tail fin propeller and bubble guides",
+      "foreground_element": "complete submarine silhouette attachment footprints and bubble guides",
       "reserved_by_step": 1,
       "background_lines_stop_before": "The hull keeper contour stops at the reserved lower side-fin silhouette."
     }
@@ -46,35 +46,35 @@
     {
       "step": 1,
       "asset": "assets/cartoon-submarine-with-bubbles-step-1.jpg",
-      "step_name": "Map the submarine route",
-      "visible_job": "Uses pale construction to place the capsule hull, tower, periscope route, two tail fins, three-blade propeller, lower side fin, three porthole centers, three bubble routes, and broken shadow footprint.",
+      "step_name": "Set the dive gesture",
+      "visible_job": "Uses only pale construction to place one tilted centerline, a loose capsule envelope, a small tower box, tail and fin axes, a propeller hub axis, exactly three porthole centers, exactly three bubble centers, and a broken shadow footprint; no finished submarine contour appears yet.",
       "introduces": [
-        "capsule hull tower tail fin propeller and bubble guides"
+        "sparse dive scaffold and reserved feature positions"
       ]
     },
     {
       "step": 2,
       "asset": "assets/cartoon-submarine-with-bubbles-step-2.jpg",
-      "step_name": "Build the diving silhouette",
-      "visible_job": "Wraps the guides with the rounded hull, small tower, already mapped bent periscope, two tail fins, one three-blade propeller, and one lower side fin while preserving every feature center and bubble route.",
+      "step_name": "Build the submarine body",
+      "visible_job": "Wraps the sparse map with the rounded hull, small tower, bent periscope, tapered tail housing, exactly two tail fins, one lower side fin, the propeller hub plus three light blade gestures, and exactly three light bubble circles while leaving the porthole, rivet, seam, and shadow details pale.",
       "introduces": [
-        "complete submarine silhouette"
+        "complete submarine silhouette attachment footprints and bubble guides"
       ],
       "requires_prior_elements": [
-        "capsule hull tower tail fin propeller and bubble guides"
+        "sparse dive scaffold and reserved feature positions"
       ]
     },
     {
       "step": 3,
       "asset": "assets/cartoon-submarine-with-bubbles-step-3.jpg",
-      "step_name": "Place windows and hardware",
-      "visible_job": "Refines the already persistent bent periscope, then adds exactly three porthole rings, one hull seam, exactly six rivets, and exactly three bubbles in light line before any bold inking.",
+      "step_name": "Install windows and hardware",
+      "visible_job": "Completes exactly three porthole rings, one hull seam, exactly six rivets, the three propeller blades, the three existing bubble guides, and the broken shadow outline in refined pencil so every shape is ready for the preserved ink frame.",
       "introduces": [
-        "bent periscope three portholes six rivets and three bubbles"
+        "three portholes seam six rivets and refined hardware"
       ],
       "requires_prior_elements": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette"
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides"
       ]
     },
     {
@@ -86,9 +86,9 @@
         "thick black felt-tip outline and broken water shadow"
       ],
       "requires_prior_elements": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette",
-        "bent periscope three portholes six rivets and three bubbles"
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides",
+        "three portholes seam six rivets and refined hardware"
       ]
     },
     {
@@ -100,8 +100,8 @@
         "mustard navy rust and seafoam marker fills"
       ],
       "requires_prior_elements": [
-        "complete submarine silhouette",
-        "bent periscope three portholes six rivets and three bubbles",
+        "complete submarine silhouette attachment footprints and bubble guides",
+        "three portholes seam six rivets and refined hardware",
         "thick black felt-tip outline and broken water shadow"
       ]
     }
@@ -111,7 +111,7 @@
       "from_step": 1,
       "to_step": 2,
       "must_persist": [
-        "capsule hull tower tail fin propeller and bubble guides"
+        "sparse dive scaffold and reserved feature positions"
       ],
       "new_occlusions": [
         "The lower side fin covers its reserved hull edge without erasing a keeper line."
@@ -122,8 +122,8 @@
       "from_step": 2,
       "to_step": 3,
       "must_persist": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette"
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides"
       ],
       "new_occlusions": [],
       "keeper_lines_removed": []
@@ -132,9 +132,9 @@
       "from_step": 3,
       "to_step": 4,
       "must_persist": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette",
-        "bent periscope three portholes six rivets and three bubbles"
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides",
+        "three portholes seam six rivets and refined hardware"
       ],
       "new_occlusions": [],
       "keeper_lines_removed": []
@@ -143,9 +143,9 @@
       "from_step": 4,
       "to_step": 5,
       "must_persist": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette",
-        "bent periscope three portholes six rivets and three bubbles",
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides",
+        "three portholes seam six rivets and refined hardware",
         "thick black felt-tip outline and broken water shadow"
       ],
       "new_occlusions": [],
@@ -155,9 +155,9 @@
       "from_step": 5,
       "to_step": 6,
       "must_persist": [
-        "capsule hull tower tail fin propeller and bubble guides",
-        "complete submarine silhouette",
-        "bent periscope three portholes six rivets and three bubbles",
+        "sparse dive scaffold and reserved feature positions",
+        "complete submarine silhouette attachment footprints and bubble guides",
+        "three portholes seam six rivets and refined hardware",
         "thick black felt-tip outline and broken water shadow",
         "mustard navy rust and seafoam marker fills"
       ],
@@ -179,7 +179,8 @@
   },
   "rejection_checks": [
     "Keep the same face-free submarine, upward tilt, crop, scale, hull proportions, tower, fins, propeller, and bubble placement in all six panels.",
-    "The bent periscope route introduced in Step 1 must remain visible in Step 2 and every later panel; it may never disappear and return.",
+    "Step 1 must remain a sparse primitive scaffold, Step 2 must visibly add the complete silhouette and attachments, and Step 3 must visibly add the windows and hardware; reject any repair where these frames read as the same drawing with darker lines.",
+    "The bent periscope introduced with the Step 2 silhouette must remain visible in every later panel; it may never disappear and return.",
     "Exactly three portholes, six rivets, three bubbles, two tail fins, one three-blade propeller, and one lower side fin must appear before bold ink or color and persist.",
     "Do not introduce a porthole, rivet, bubble, seam, fin, propeller blade, periscope bend, shadow shape, or color area in the final panel.",
     "Do not add eyes, mouth, passenger, fish, seabed, coral, text, label, arrow, number, signature, watermark, sticker border, or badge frame.",

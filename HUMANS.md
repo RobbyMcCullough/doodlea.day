@@ -18,6 +18,18 @@
   steps, derivatives, frame deltas, JSON-LD, internal links, unused assets, lab
   privacy, `git diff --check`, and rendered desktop/mobile QA all pass.
 
+### 2026-08-09 — Submarine early-step correction (Codex)
+- Corrected `cartoon-submarine-with-bubbles` after owner review found the first
+  three frames too visually similar. The repaired sequence now separates the
+  dive gesture, complete body construction, and windows/hardware pass. Public
+  Steps 4-5 and the finished JPG remain byte-identical to the approved lesson.
+- The original Step 1-3 JPG masters and superseded contact sheet remain private
+  under `superseded-near-duplicate-early-panels-v1/`. Schema-v2 planning,
+  frame deltas, readiness checks, JSON-LD, internal links, lab privacy,
+  `git diff --check`, and desktop/mobile Cove QA all pass. The
+  one-current-lesson-per-site cadence remains active; archive work remains
+  limited to explicit owner-requested corrections.
+
 ### 2026-08-09 — Daily tutorial (Codex)
 - Added one current lesson only: `open-book-with-ribbon-bookmark` (August 9 /
   Day 096). The approved v2 eight-panel handmade raster process keeps one open
