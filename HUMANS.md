@@ -1,11 +1,29 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-08
+- Date: 2026-08-09
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-07 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-08 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-09 — Daily tutorial (Codex)
+- Added one current lesson only: `open-book-with-ribbon-bookmark` (August 9 /
+  Day 096). The approved v2 eight-panel handmade raster process keeps one open
+  book, two page faces, layered lower page edges, one center ribbon, page
+  curls, and ground shadow cumulative through black outlines and bright marker
+  color. The first sheet remains private under
+  `rejected-bookmark-and-page-mark-continuity-v1/` because the ribbon route
+  disappeared and page marks became text-like.
+- The finished doodle rates 9.5/10 for an unmistakable book silhouette, bold
+  marker grain, strong page-and-ribbon overlaps, cheerful color contrast, and
+  an attainable 15-minute progression. Readiness passed the ledger, schema-v2
+  process plan, frame deltas, derivatives, social card, JSON-LD, internal
+  links, unused assets, lab privacy, and diff checks. Browser QA at 1440x1000
+  and 390x844 covered the homepage, 96-card library, and tutorial with no
+  overflow, failed lesson images, invalid JSON-LD, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
 
 ### 2026-08-08 — Daily tutorial (Codex)
 - Added one current lesson only: `pickleball-paddle-and-ball-in-motion`

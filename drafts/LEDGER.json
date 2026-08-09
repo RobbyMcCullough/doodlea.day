@@ -283,6 +283,11 @@
     "magic-wand-sparkle": {
       "status": "published"
     },
+  "open-book-with-ribbon-bookmark": {
+      "status": "published",
+      "date": "2026-08-09",
+      "note": "Approved contact sheet promoted into the current tutorial after readiness and visual QA."
+    },
     "paint-roller-with-paint-swash": {
       "status": "published",
       "date": "2026-05-10",

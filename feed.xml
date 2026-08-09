@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an open book with a ribbon bookmark</title>
+      <link>https://doodlea.day/tutorials/open-book-with-ribbon-bookmark.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/open-book-with-ribbon-bookmark.html</guid>
+      <pubDate>Sun, 09 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an open book with a ribbon bookmark using two page blocks, a center gutter, curled corners, stacked page edges, bold outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/open-book-with-ribbon-bookmark-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a pickleball paddle and ball in motion</title>
       <link>https://doodlea.day/tutorials/pickleball-paddle-and-ball-in-motion.html</link>

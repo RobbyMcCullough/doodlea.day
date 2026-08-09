@@ -18,6 +18,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "open-book-with-ribbon-bookmark",
+    day: "096",
+    date: "Sunday, August 9",
+    isoDate: "2026-08-09",
+    subject: "an open book with a ribbon bookmark",
+    headlineSubject: "an open book<br>with a ribbon bookmark",
+    shortSubject: "an open book",
+    lessonTitle: "Let's draw an open book with a ribbon bookmark",
+    description: "Learn how to draw an open book with a ribbon bookmark using two page blocks, a center gutter, curled corners, stacked page edges, bold outlines, and bright marker fills.",
+    intro: "Open one face-free book into two broad page shapes, tuck a ribbon through the center gutter, and keep the page faces free of writing while you build the lower edges, curls, shadow, black outlines, and bright marker color. The easy 15-minute doodle turns a familiar book into a useful exercise in mirrored curves, overlap planning, drying order, and directional fill strokes.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#d61f69",
+    finished: "open-book-with-ribbon-bookmark-finished-v1.jpg",
+    finishedAlt: "Handmade face-free felt-tip marker drawing of one open book in a shallow three-quarter view with exactly two blank page blocks, one black V-shaped center gutter, one coral ribbon bookmark hanging from the gutter, one small curled outer corner on each page, exactly three stacked warm-yellow lower page-edge bands per side, raspberry marker fill across the left page and cover plane, teal marker fill across the right page and cover plane, small open-paper cover-edge highlights, thick imperfect black outlines, visible marker streaks, restrained edge hatching, and one broken deep-navy shadow",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Raspberry, teal, warm-yellow, coral, and deep-navy markers"],
+    materialNote: "Use pale pencil to place the complete spread, gutter, lower page blocks, cover edge, bookmark route, two curls, six lower bands, highlight gaps, and shadow first. Color the small coral ribbon and yellow bands lightly, let them dry, trace the established black keeper lines, then pull the broad raspberry and teal page fills with the page curves while keeping the blank surfaces free of text-like marks.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the open spread", text: "Use pale construction to place two blank page faces, one center gutter, the lower page-block thickness, one cover edge, a ribbon route from the gutter, two corner-curl routes, exactly three lower page-edge bands per side, small cover-highlight gaps, and one broken shadow footprint.", tip: "Ghost the two broad page curves before touching down, then compare the wedges of paper on both sides of the gutter. Keep the bookmark route visible from the start so the page and cover lines can stop around it instead of needing erasure later." },
+      { name: "Wrap the book silhouette", text: "Add one loose open-book contour with exactly two broad blank page shapes and one V-shaped center gutter while preserving every cover, ribbon, curl, lower-band, highlight, and shadow route.", tip: "Rotate the page to pull each long outer edge in one relaxed stroke. Use the gutter as the hinge, and compare the two page widths rather than forcing ruler-perfect symmetry." },
+      { name: "Build the page blocks", text: "Clarify both page blocks, their lower thickness, one visible cover edge, and the center gutter while keeping the pale ribbon route and all six lower-band routes visible.", tip: "Draw the page faces first, then echo their lower curves to create thickness. Stop the inner page and cover lines at the bookmark route and check that the three bands on each side fan from the same gutter point." },
+      { name: "Tuck in the coral ribbon", text: "Trace one flat ribbon bookmark over its persistent pale route, fill it coral, and strengthen one small curl at each outer page corner without changing the book geometry.", tip: "Outline the ribbon from gutter to notch in one pass, then let the coral dry before touching the black edge later. Keep the gutter and cover lines broken where the ribbon overlaps them so the bookmark sits inside the book instead of on top." },
+      { name: "Band the lower page edges", text: "Darken exactly three stacked lower page-edge bands per side, fill those bands warm yellow, preserve the small cover-edge highlight gaps, and add one broken deep-navy shadow while leaving both broad page faces unmarked.", tip: "Pull each yellow stroke along the page curve and count three bands on both sides before moving on. Keep the shadow outside the book and ribbon silhouettes, and leave broken paper gaps so it does not become a smooth digital oval." },
+      { name: "Ink the story-ready lines", text: "Trace only the established page, gutter, cover, ribbon, curl, lower-band, highlight, and shadow boundaries with thick, slightly wobbly black felt-tip, then add short hatching along the outer cover edges.", tip: "Let the coral, yellow, and navy areas dry, then ink the small curls and gutter before rotating the page for the long silhouette. Use the heaviest line outside the book and lighter hatching inside the cover edge." },
+      { name: "Fill the bright page color", text: "Fill the established left blank page face and cover plane raspberry and the right blank page face and cover plane teal while preserving the yellow bands, coral ribbon, navy shadow, highlight gaps, and visible marker grain.", tip: "Pull broad marker strokes from the gutter toward each outer edge so the streaks follow the pages. Work one side at a time, let the first color dry, and stop short of the black outlines to avoid muddy bleed." },
+      { name: "Turn the page on the finish", text: "Strengthen selected established black edges, even the same marker fills, clarify the cover-edge highlight gaps, and deepen only the existing hatching and broken shadow.", tip: "Count two page blocks, one gutter, one ribbon, two curls, three yellow bands per side, and one shadow before stopping. Change the page palette in your own version if you like, but keep the overlap order, blank surfaces, and handmade marker grain.", image: true }
+    ]
+  },
+  {
     slug: "pickleball-paddle-and-ball-in-motion",
     day: "095",
     date: "Saturday, August 8",

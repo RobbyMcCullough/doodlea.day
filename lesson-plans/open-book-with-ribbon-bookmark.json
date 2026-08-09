@@ -1,0 +1,261 @@
+{
+  "schema_version": 2,
+  "slug": "open-book-with-ribbon-bookmark",
+  "finished": "assets/open-book-with-ribbon-bookmark-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed eight-panel felt-tip marker contact sheet cropped into seven cumulative process frames and one finished master.",
+    "notes": "Keep one face-free open book in a shallow three-quarter view, two page blocks, one center gutter, one visible cover edge, one ribbon bookmark emerging from the gutter, two outer page curls, exactly three stacked lower page-edge bands per side, small open-paper cover highlights, one broken navy shadow, thick imperfect black outlines, saturated raspberry, teal, yellow, and coral marker fills, and no marks on the broad page faces except the visible marker grain itself; no readable text, letters, symbols, labels, arrows, numbers, signature, watermark, sticker border, or badge frame."
+  },
+  "process_strategy": "Use eight cumulative stages so the pale spread map, rough open-book silhouette, refined page blocks and cover, outlined coral bookmark and page curls, yellow lower page bands with highlight/shadow reserves, full black ink, raspberry-and-teal page color, and final reinforcement each receive a distinct visible job. Reserve the ribbon, gutter, page curls, lower bands, highlights, and shadow before keeper contours so no established line is erased later.",
+  "final_elements": [
+    {
+      "name": "pale book spread gutter cover bookmark curl highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Pale guides establish the shallow three-quarter spread, two page blocks, one center gutter, one cover edge, one ribbon route, two outer page-curl routes, two highlight reserves, and one broken shadow footprint."
+    },
+    {
+      "name": "rough two-page open-book silhouette and center gutter",
+      "introduced_by_step": 2,
+      "description": "A loose handmade silhouette wraps one open book with two broad page shapes meeting at one V-shaped center gutter."
+    },
+    {
+      "name": "refined page blocks visible cover edge and book thickness",
+      "introduced_by_step": 3,
+      "description": "Clear upper page edges, lower page-block thickness, one visible cover lip, and the same center gutter establish a readable open-book volume."
+    },
+    {
+      "name": "one outlined coral ribbon bookmark and two outer page curls",
+      "introduced_by_step": 4,
+      "description": "One flat ribbon follows the established pale route from the center gutter below the book, receives its first coral marker fill, and remains paired with one small curl at each outer page corner."
+    },
+    {
+      "name": "three yellow lower page-edge bands per side small cover highlights and broken navy shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly three stacked curved bands inside each lower page-block thickness receive warm-yellow marker, small open-paper highlight gaps remain on the cover edge, and one broken deep-navy shadow grounds the book without adding marks to the broad page faces."
+    },
+    {
+      "name": "thick black felt-tip keeper lines and restrained edge hatching",
+      "introduced_by_step": 6,
+      "description": "Imperfect black felt-tip traces every established book, page, gutter, cover, ribbon, curl, highlight, and shadow boundary with short edge hatching."
+    },
+    {
+      "name": "raspberry and teal page-face and cover marker fills",
+      "introduced_by_step": 7,
+      "description": "Raspberry fills the left blank page face and related cover plane, teal fills the right blank page face and related cover plane, and both retain visible marker streaks while the established yellow bands, coral ribbon, navy shadow, black outlines, and open-paper highlights remain unchanged."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "one outlined coral ribbon bookmark and two outer page curls",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The gutter and page-block lines stop at the ribbon route, the cover edge stops at the ribbon exit, and page-layer curves stop before both outer curl silhouettes."
+    },
+    {
+      "foreground_element": "three yellow lower page-edge bands per side small cover highlights and broken navy shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Marker fills stop around the reserved cover-edge highlight gaps, all six bands stay inside the lower page-block thickness rather than migrating onto the broad page faces, and the broken shadow stops at the book and ribbon silhouettes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-1.jpg",
+      "step_name": "Map the open spread",
+      "visible_job": "Uses pale construction to place the two-page spread, center gutter, cover edge, ribbon route, two page curls, two highlight reserves, and broken shadow footprint.",
+      "introduces": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-2.jpg",
+      "step_name": "Wrap the book silhouette",
+      "visible_job": "Adds one loose open-book contour with two broad page shapes and one V-shaped center gutter while preserving every cover, ribbon, curl, highlight, and shadow route.",
+      "introduces": [
+        "rough two-page open-book silhouette and center gutter"
+      ],
+      "requires_prior_elements": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-3.jpg",
+      "step_name": "Build the page blocks",
+      "visible_job": "Clarifies both page blocks, lower page thickness, one visible cover edge, and the center gutter without adding the ribbon, ink, or marker fill.",
+      "introduces": [
+        "refined page blocks visible cover edge and book thickness"
+      ],
+      "requires_prior_elements": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-4.jpg",
+      "step_name": "Tuck in the coral ribbon",
+      "visible_job": "Traces one flat ribbon bookmark over the persistent pale gutter route, gives it a first coral marker fill, and strengthens one small curl at each outer page corner while keeping the page and cover geometry fixed.",
+      "introduces": [
+        "one outlined coral ribbon bookmark and two outer page curls"
+      ],
+      "requires_prior_elements": [
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-5.jpg",
+      "step_name": "Band the lower page edges",
+      "visible_job": "Darkens exactly three stacked lower page-edge bands per side, fills those established bands warm yellow, preserves small open-paper cover highlights, and adds one broken deep-navy shadow without marking the broad page faces.",
+      "introduces": [
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow"
+      ],
+      "requires_prior_elements": [
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-6.jpg",
+      "step_name": "Ink the story-ready lines",
+      "visible_job": "Traces every established page, gutter, cover, ribbon, curl, lower band, highlight, and shadow boundary with thick imperfect black felt-tip and restrained outer-edge hatching.",
+      "introduces": [
+        "thick black felt-tip keeper lines and restrained edge hatching"
+      ],
+      "requires_prior_elements": [
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls",
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/open-book-with-ribbon-bookmark-step-7.jpg",
+      "step_name": "Fill the bright page color",
+      "visible_job": "Fills the established left blank page face and cover plane raspberry and the right blank page face and cover plane teal while preserving the yellow lower bands, coral ribbon, navy shadow, open-paper highlights, black outlines, and visible marker grain.",
+      "introduces": [
+        "raspberry and teal page-face and cover marker fills"
+      ],
+      "requires_prior_elements": [
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls",
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow",
+        "thick black felt-tip keeper lines and restrained edge hatching"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness"
+      ],
+      "new_occlusions": [
+        "The ribbon emerges only through the reserved center-gutter route, and each corner curl lifts only over its reserved outer page area; no finished page or cover line is removed."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls",
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls",
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow",
+        "thick black felt-tip keeper lines and restrained edge hatching"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale book spread gutter cover bookmark curl highlight and shadow construction",
+        "rough two-page open-book silhouette and center gutter",
+        "refined page blocks visible cover edge and book thickness",
+        "one outlined coral ribbon bookmark and two outer page curls",
+        "three yellow lower page-edge bands per side small cover highlights and broken navy shadow",
+        "thick black felt-tip keeper lines and restrained edge hatching",
+        "raspberry and teal page-face and cover marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Turn the page on the finish",
+    "asset": "assets/open-book-with-ribbon-bookmark-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black edges, evens existing marker fills, clarifies the same two paper highlights, and deepens the existing edge hatching and broken shadow without changing the book, page count, ribbon, curls, layer-curve counts, palette, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established raspberry teal yellow coral and navy areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing edge hatching and shadow",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one open book, two page blocks, one center gutter, one ribbon bookmark, one shallow three-quarter view, one crop, and one scale in all eight panels.",
+    "Keep two outer page curls, exactly three lower page-edge bands per side, the small cover-edge highlight gaps, and one broken shadow after those elements appear.",
+    "The gutter angle, page widths, cover thickness, ribbon route, and curl positions may not drift between panels.",
+    "The ribbon must occupy only its reserved gutter route, all six page bands must stay inside the lower thickness and stop before both curl silhouettes, marker fills must stop around the cover-edge highlight gaps, and the shadow must stop at the book and ribbon.",
+    "Do not add readable words, letters, symbols, page numbers, character face, glasses, pen, flowers, coffee, hands, second book, sticker border, badge frame, label, arrow, signature, or watermark.",
+    "The final panel may not introduce a page block, gutter, cover edge, bookmark, page curl, lower page band, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, polished publishing graphics, glossy AI poster art, or rasterized vector drawing."
+  ]
+}
