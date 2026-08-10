@@ -1,11 +1,24 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-09
+- Date: 2026-08-10
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-08 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-09 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-10 — Handheld-console early-step correction (Codex)
+- Corrected `retro-handheld-game-console` after the archive audit found Steps
+  1-3 revealed nearly the complete device and mostly changed line darkness.
+  One generated repair sheet produced three distinct jobs: sparse perspective
+  scaffold, shell-and-screen construction, then controls and hardware. Public
+  Steps 4-5 and the finished JPG remain byte-identical to the approved lesson.
+- The original Step 1-3 JPG masters and contact sheet remain private under
+  `superseded-near-duplicate-early-panels-v1/`. Readiness, schema-v2 planning,
+  frame deltas, JSON-LD, 209 internal URLs, lab privacy, diff checks, and
+  rendered desktop/mobile QA passed. The finished art remains 9.7/10, and the
+  one-current-lesson-per-site cadence remains active; this was an explicit
+  published-lesson repair, not a new or routine backdated tutorial.
 
 ### 2026-08-09 — Open-book early-step correction (Codex)
 - Corrected `open-book-with-ribbon-bookmark` after owner review found Steps
