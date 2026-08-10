@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "slug": "heart-with-a-bandage",
+  "finished": "assets/heart-with-a-bandage-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One six-panel felt-tip marker contact sheet intended to become five cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one face-free plump heart tilted slightly clockwise with one diagonal adhesive bandage crossing the center from lower left to upper right, one central bandage pad, two rounded adhesive ends with two tiny ventilation dots per end, two open-paper heart highlights, exactly two small sparkle accents, one broken navy shadow, thick imperfect black outlines, raspberry and coral heart fill, teal bandage ends, warm-yellow center pad, and no eyes, mouth, text, labels, arrows, numbers, signature, watermark, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "Use six cumulative stages so the pale heart and bandage reserve, rough heart silhouette, complete bandage and accent construction, bold structural ink, bright marker color, and final reinforcement each make one clear visual change. Reserve the diagonal bandage footprint, highlight gaps, sparkles, and broken shadow before keeper lines or marker fill so the bandage overlaps the heart without requiring erased detail.",
+  "final_elements": [
+    {
+      "name": "pale heart axis silhouette bandage highlight sparkle and shadow map",
+      "introduced_by_step": 1,
+      "description": "Pale pencil establishes one slightly tilted heart envelope and center axis, one diagonal bandage footprint, one center-pad box, two highlight gaps, two sparkle centers, and one broken shadow footprint."
+    },
+    {
+      "name": "rough plump heart silhouette",
+      "introduced_by_step": 2,
+      "description": "A loose handmade contour turns the guide into one broad face-free heart with two unequal lobes and a softly pointed base while leaving the diagonal bandage reserve empty."
+    },
+    {
+      "name": "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour",
+      "introduced_by_step": 3,
+      "description": "One diagonal adhesive bandage crosses the heart, with one center pad, two rounded ends, exactly four tiny ventilation dots, two open-paper heart highlights, exactly two small sparkle accents, and one broken shadow contour."
+    },
+    {
+      "name": "full imperfect black structural ink",
+      "introduced_by_step": 4,
+      "description": "Thick handmade black felt-tip traces the established heart, bandage, pad, four dots, highlights, sparkles, and broken shadow boundaries without changing their geometry."
+    },
+    {
+      "name": "raspberry coral teal yellow and navy marker fills",
+      "introduced_by_step": 5,
+      "description": "Raspberry and coral fill the established heart around the bandage, teal fills both adhesive ends, warm yellow fills the center pad, deep navy fills the broken shadow, and the two heart highlights remain open paper with visible marker grain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Heart hatching and marker fill stop at the complete diagonal bandage silhouette; no finished heart texture or color is drawn beneath the adhesive strip, pad, or reserved paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/heart-with-a-bandage-step-1.jpg",
+      "step_name": "Map the heart and bandage",
+      "visible_job": "Uses pale pencil to place the tilted heart envelope, center axis, diagonal bandage footprint, center pad, two heart highlights, two sparkle centers, and broken shadow footprint.",
+      "introduces": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/heart-with-a-bandage-step-2.jpg",
+      "step_name": "Shape the plump heart",
+      "visible_job": "Wraps the pale guide with one loose face-free heart contour while preserving the empty diagonal bandage, highlight, sparkle, and shadow reserves.",
+      "introduces": [
+        "rough plump heart silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/heart-with-a-bandage-step-3.jpg",
+      "step_name": "Build the bandage overlap",
+      "visible_job": "Adds the diagonal bandage with one center pad, two rounded ends, four tiny ventilation dots, two open-paper heart highlights, two sparkle accents, and the broken shadow contour.",
+      "introduces": [
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour"
+      ],
+      "requires_prior_elements": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map",
+        "rough plump heart silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/heart-with-a-bandage-step-4.jpg",
+      "step_name": "Ink the caring contours",
+      "visible_job": "Traces only the established heart, bandage, center pad, four dots, two highlights, two sparkles, and broken shadow with thick imperfect black felt-tip.",
+      "introduces": [
+        "full imperfect black structural ink"
+      ],
+      "requires_prior_elements": [
+        "rough plump heart silhouette",
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/heart-with-a-bandage-step-5.jpg",
+      "step_name": "Fill the hopeful color",
+      "visible_job": "Fills the established heart raspberry and coral, the two bandage ends teal, the center pad warm yellow, and the broken shadow navy while preserving both open-paper highlights and visible marker streaks.",
+      "introduces": [
+        "raspberry coral teal yellow and navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "rough plump heart silhouette",
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour",
+        "full imperfect black structural ink"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map",
+        "rough plump heart silhouette"
+      ],
+      "new_occlusions": [
+        "The bandage occupies only the pale diagonal reserve across the heart; the heart contour remains intact and no completed interior texture or color is covered."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map",
+        "rough plump heart silhouette",
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map",
+        "rough plump heart silhouette",
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour",
+        "full imperfect black structural ink"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale heart axis silhouette bandage highlight sparkle and shadow map",
+        "rough plump heart silhouette",
+        "diagonal bandage central pad four ventilation dots two highlights two sparkles and shadow contour",
+        "full imperfect black structural ink",
+        "raspberry coral teal yellow and navy marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Patch up the finish",
+    "asset": "assets/heart-with-a-bandage-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black contours, evens the same marker fills, clarifies the two existing paper highlights and two sparkles, and deepens the existing broken shadow without changing the heart, bandage, dot count, palette, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established raspberry coral teal yellow and navy areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing broken shadow",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free heart, one slight clockwise tilt, one diagonal bandage route, one crop, and one scale in all six panels.",
+    "Keep one center pad, two rounded bandage ends, exactly four ventilation dots, two heart highlights, two sparkles, and one broken shadow after those elements appear.",
+    "The heart lobes, point, bandage angle, pad size, highlight positions, sparkle positions, and shadow footprint may not drift between panels.",
+    "The bandage must occupy only its reserved route, and marker fill must stop at the bandage and two paper-highlight shapes without requiring erased keeper lines.",
+    "Do not add eyes, mouth, cheeks, readable text, medical symbols, hands, extra bandages, sticker outline, badge frame, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a heart contour, bandage part, ventilation dot, highlight, sparkle, shadow shape, ink boundary, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, glossy AI poster art, polished medical branding, or rasterized vector drawing."
+  ]
+}

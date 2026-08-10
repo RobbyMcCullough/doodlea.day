@@ -18,6 +18,34 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "heart-with-a-bandage",
+    day: "097",
+    date: "Monday, August 10",
+    isoDate: "2026-08-10",
+    subject: "a heart with a bandage",
+    headlineSubject: "a heart<br>with a bandage",
+    shortSubject: "a bandaged heart",
+    lessonTitle: "Let's draw a heart with a bandage",
+    description: "Learn how to draw a heart with a bandage using a plump tilted silhouette, a clean diagonal overlap, four ventilation dots, bold outlines, and bright marker fills.",
+    intro: "Tilt one plump face-free heart, reserve a diagonal bandage across its middle, and keep the two highlights, two sparkles, and broken shadow visible before the black-marker and color passes. The easy 15-minute doodle turns a friendly symbol into a useful lesson in smooth curves, overlap planning, drying order, and directional fill strokes.",
+    time: 15,
+    difficulty: "Easy",
+    accent: "#d61f69",
+    finished: "heart-with-a-bandage-finished-v1.jpg",
+    finishedAlt: "Handmade face-free felt-tip marker drawing of one plump raspberry-and-coral heart tilted slightly clockwise with one teal adhesive bandage crossing diagonally from lower left to upper right, one warm-yellow center pad, two rounded adhesive ends with exactly four open-paper ventilation dots total, two open-paper oval heart highlights, exactly two small warm-yellow sparkle accents, thick imperfect black outlines, visible marker streaks, a few pale construction traces, and one broken deep-navy shadow",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Raspberry, coral, teal, warm-yellow, and deep-navy markers"],
+    materialNote: "Use pale pencil to place the heart, diagonal bandage, center pad, four ventilation dots, two highlight gaps, two sparkles, and broken shadow before inking. Let the black outline dry, then pull raspberry and coral marker around the bandage, fill the teal ends and yellow pad separately, and keep every dot and highlight as open paper.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the heart and bandage", text: "Use pale pencil to place the slightly tilted heart envelope and center axis, the complete diagonal bandage footprint, one center-pad box, two heart-highlight reserves, two sparkle centers, and one broken shadow footprint.", tip: "Ghost both heart lobes before touching down, then lay a straight diagonal axis across the center. Reserve the entire bandage now so later heart lines and color can stop around it instead of becoming marks you must erase." },
+      { name: "Shape the plump heart", text: "Wrap the pale guide with one loose face-free heart contour while preserving the empty diagonal bandage, highlight, sparkle, and shadow reserves.", tip: "Rotate the page to pull each lobe in one confident arc, and let one lobe sit slightly higher than the other. Keep the point soft rather than pinched, then compare the open paper on both sides of the bandage route." },
+      { name: "Build the bandage overlap", text: "Add one diagonal bandage with a central pad, two rounded ends, exactly four ventilation dots total, two open-paper heart highlights, exactly two sparkle accents, and the broken shadow contour.", tip: "Draw the two long bandage edges parallel first, then cap both ends with half circles. Count two ventilation dots on each end, and stop the heart's interior marks at the bandage boundary so the overlap stays physically clean." },
+      { name: "Ink the caring contours", text: "Trace only the established heart, bandage, center pad, four dots, two highlights, two sparkles, and broken shadow with thick, slightly wobbly black felt-tip.", tip: "Ink the small dots and pad first, let them dry, then rotate the page for the long heart and bandage curves. Give the outside silhouettes more weight than the dot and highlight rings so the doodle remains readable at thumbnail size." },
+      { name: "Fill the hopeful color", text: "Fill the established heart with raspberry and coral, both bandage ends with teal, the center pad with warm yellow, and the broken shadow with deep navy while preserving both open-paper highlights and visible marker streaks.", tip: "Pull marker strokes with each form: around the heart lobes, along the bandage, and across the center pad. Let neighboring colors dry before they touch, and color around every dot and highlight instead of painting over the reserved paper." },
+      { name: "Patch up the finish", text: "Strengthen selected established black contours, even the same marker fills, clarify the two paper highlights and two sparkles, and deepen only the existing broken shadow.", tip: "Count one heart, one bandage, one center pad, four ventilation dots, two highlights, two sparkles, and one shadow before stopping. Try different care-and-repair colors in your own version, but keep the clean diagonal overlap and handmade marker grain.", image: true }
+    ]
+  },
+  {
     slug: "open-book-with-ribbon-bookmark",
     day: "096",
     date: "Sunday, August 9",

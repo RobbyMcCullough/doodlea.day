@@ -7,6 +7,23 @@
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 - Previous: 2026-08-09 / Codex / Daily sketch and doodle lessons
 
+### 2026-08-10 — Daily tutorial (Codex)
+- Added one current lesson only: `heart-with-a-bandage` (August 10 / Day 097).
+  The approved six-panel handmade raster process keeps one plump heart, one
+  diagonal bandage, four ventilation dots, two highlights, two sparkles, and
+  one ground shadow cumulative from pale construction through heavy black
+  marker and bright fill. The finished doodle rates 9.6/10 for instant symbol
+  clarity, bold handmade marker grain, stable overlap and counts, balanced
+  color, and an attainable 15-minute progression.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Rendered QA at 1440x1000 and 390x844 covered the
+  homepage, 97-card library, and tutorial with no horizontal overflow,
+  invalid JSON-LD, missing current-image alt text, or browser errors. The
+  browser used localhost:4174 because Cove's certificate had expired. The
+  one-current-lesson-per-site cadence remains active; routine backdated
+  tutorials remain off.
+
 ### 2026-08-10 — Handheld-console early-step correction (Codex)
 - Corrected `retro-handheld-game-console` after the archive audit found Steps
   1-3 revealed nearly the complete device and mostly changed line darkness.

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a heart with a bandage</title>
+      <link>https://doodlea.day/tutorials/heart-with-a-bandage.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/heart-with-a-bandage.html</guid>
+      <pubDate>Mon, 10 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a heart with a bandage using a plump tilted silhouette, a clean diagonal overlap, four ventilation dots, bold outlines, and bright marker fills.</description>
+      <media:content url="https://doodlea.day/assets/heart-with-a-bandage-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an open book with a ribbon bookmark</title>
       <link>https://doodlea.day/tutorials/open-book-with-ribbon-bookmark.html</link>
