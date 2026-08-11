@@ -114,6 +114,11 @@
     "cartoon-magnifying-glass-doodle": {
       "status": "published"
     },
+    "cartoon-megaphone-with-sound-bursts": {
+      "status": "rejected-duplicate",
+      "date": "2026-08-11",
+      "note": "Rejected before image generation after continuity review found the prior comic-megaphone rejection and the August 5 saxophone made the audio category too recent; no art was generated."
+    },
     "cartoon-oyster-with-pearl": {
       "status": "published"
     },
@@ -258,6 +263,11 @@
     },
     "fried-chicken-drumstick-doodle": {
       "status": "published"
+    },
+    "garden-hose-with-spray-nozzle": {
+      "status": "published",
+      "date": "2026-08-11",
+      "note": "Approved corrected six-panel raster contact sheet cropped into five cumulative steps plus the finished master for the August 11 current lesson."
     },
     "goofy-monster-face": {
       "status": "published"

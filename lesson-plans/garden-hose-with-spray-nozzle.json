@@ -1,0 +1,195 @@
+{
+  "schema_version": 2,
+  "slug": "garden-hose-with-spray-nozzle",
+  "finished": "assets/garden-hose-with-spray-nozzle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One six-panel felt-tip marker contact sheet intended to become five cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one face-free garden hose in one loose lower-left coil connected to one pistol-grip spray nozzle angled toward the upper right. Include one barrel collar, one trigger, one connector, exactly three handle grip ribs, exactly three curved spray jets, exactly two detached water drops, two open-paper highlights, one short flat irregular ground-shadow patch, thick imperfect black outlines, forest-green hose, burnt-orange nozzle, cream collar, muted blue water, deep-navy shadow, and no eyes, mouth, text, labels, arrows, numbers, signature, watermark, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "Use six cumulative stages so the pale hose-and-nozzle map, rough coil and nozzle silhouette, complete hardware and spray marks, bold structural ink, limited marker color, and final reinforcement each make one clear visible change. Reserve the nozzle overlap, connector, hose loop crossing, water jets, highlights, drops, and flat ground shadow before keeper outlines or marker fill so no completed line must be erased later.",
+  "final_elements": [
+    {
+      "name": "pale hose coil nozzle spray highlight and shadow map",
+      "introduced_by_step": 1,
+      "description": "Pale pencil establishes one loose hose loop, its single crossing, one angled pistol-grip nozzle, barrel and collar axes, trigger and connector footprints, three spray routes, two drop centers, two highlight gaps, and one short flat irregular ground-shadow footprint."
+    },
+    {
+      "name": "rough one-loop hose and pistol-grip nozzle silhouette",
+      "introduced_by_step": 2,
+      "description": "Loose handmade contours turn the map into one thick hose loop connected to one readable angled nozzle with a barrel, handle, and open collar."
+    },
+    {
+      "name": "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow",
+      "introduced_by_step": 3,
+      "description": "The nozzle gains one collar, one trigger, one connector, exactly three grip ribs, exactly three curved spray jets, exactly two detached drops, two open-paper highlights, and one short flat irregular ground-shadow patch."
+    },
+    {
+      "name": "full imperfect black structural ink",
+      "introduced_by_step": 4,
+      "description": "Thick handmade black felt-tip traces only the established hose, nozzle, collar, trigger, connector, three ribs, three jets, two drops, and highlights, then fills the established flat shadow patch black."
+    },
+    {
+      "name": "forest-green burnt-orange cream blue and navy marker fills",
+      "introduced_by_step": 5,
+      "description": "Forest green fills the established hose, burnt orange fills the nozzle body, cream fills the collar, muted blue follows the three jets and drops, deep navy fills the flat shadow patch, and two highlight gaps remain open paper with visible marker grain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rough one-loop hose and pistol-grip nozzle silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The rear hose segment stops at the reserved single loop crossing, and the hose body stops at the connector so no finished hose contour runs beneath the nozzle hardware."
+    },
+    {
+      "foreground_element": "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Marker fill stops at the collar, trigger, connector, and two highlight gaps; the flat ground shadow stops before the hose and nozzle contact points rather than passing through them."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-hose-with-spray-nozzle-step-1.jpg",
+      "step_name": "Map the coil and spray angle",
+      "visible_job": "Uses pale pencil to place the loose hose loop, single crossing, angled nozzle, collar, trigger and connector footprints, three spray routes, two drops, two highlights, and a short flat irregular ground-shadow footprint.",
+      "introduces": [
+        "pale hose coil nozzle spray highlight and shadow map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-hose-with-spray-nozzle-step-2.jpg",
+      "step_name": "Wrap the hose and nozzle",
+      "visible_job": "Builds one thick loose hose loop and one connected pistol-grip nozzle silhouette with a barrel, handle, and open collar while preserving every pale hardware and spray reserve.",
+      "introduces": [
+        "rough one-loop hose and pistol-grip nozzle silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale hose coil nozzle spray highlight and shadow map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-hose-with-spray-nozzle-step-3.jpg",
+      "step_name": "Fit the nozzle and water marks",
+      "visible_job": "Adds the collar, trigger, connector, three grip ribs, three curved spray jets, two detached drops, two open-paper highlights, and the short flat irregular ground-shadow patch to the reserved shapes.",
+      "introduces": [
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow"
+      ],
+      "requires_prior_elements": [
+        "pale hose coil nozzle spray highlight and shadow map",
+        "rough one-loop hose and pistol-grip nozzle silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-hose-with-spray-nozzle-step-4.jpg",
+      "step_name": "Ink the working contours",
+      "visible_job": "Traces only the established hose, nozzle, collar, trigger, connector, three ribs, three jets, two drops, and highlights with thick imperfect black felt-tip, then fills the established flat shadow patch black.",
+      "introduces": [
+        "full imperfect black structural ink"
+      ],
+      "requires_prior_elements": [
+        "rough one-loop hose and pistol-grip nozzle silhouette",
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-hose-with-spray-nozzle-step-5.jpg",
+      "step_name": "Pull in the garden color",
+      "visible_job": "Fills the established hose forest green, nozzle burnt orange, collar cream, three water jets and two drops muted blue, and flat ground shadow navy while preserving both open-paper highlights and visible felt-tip streaks.",
+      "introduces": [
+        "forest-green burnt-orange cream blue and navy marker fills"
+      ],
+      "requires_prior_elements": [
+        "rough one-loop hose and pistol-grip nozzle silhouette",
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow",
+        "full imperfect black structural ink"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale hose coil nozzle spray highlight and shadow map"
+      ],
+      "new_occlusions": [
+        "The thick hose and nozzle occupy only the pale Step 1 routes; the rear hose segment remains visibly interrupted at the reserved loop crossing."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale hose coil nozzle spray highlight and shadow map",
+        "rough one-loop hose and pistol-grip nozzle silhouette"
+      ],
+      "new_occlusions": [
+        "The connector and trigger occupy only their reserved spaces between the hose end, nozzle barrel, and handle; no keeper contour is erased."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale hose coil nozzle spray highlight and shadow map",
+        "rough one-loop hose and pistol-grip nozzle silhouette",
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale hose coil nozzle spray highlight and shadow map",
+        "rough one-loop hose and pistol-grip nozzle silhouette",
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow",
+        "full imperfect black structural ink"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale hose coil nozzle spray highlight and shadow map",
+        "rough one-loop hose and pistol-grip nozzle silhouette",
+        "barrel collar trigger connector three grip ribs three spray jets two drops two highlights and flat ground shadow",
+        "full imperfect black structural ink",
+        "forest-green burnt-orange cream blue and navy marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Turn up the garden spray",
+    "asset": "assets/garden-hose-with-spray-nozzle-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black contours, evens the same limited marker fills, clarifies the two existing paper highlights, and deepens the established flat ground shadow without changing the hose loop, nozzle, hardware, spray counts, palette, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established green orange cream blue and navy areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing flat ground shadow",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one face-free hose, one loose lower-left loop, one upper-right nozzle angle, one crop, and one scale in all six panels.",
+    "Keep one collar, one trigger, one connector, exactly three grip ribs, exactly three spray jets, exactly two detached drops, two highlights, and one short flat irregular ground-shadow patch after those elements appear.",
+    "The hose crossing, nozzle angle, barrel length, handle shape, hardware positions, spray routes, and shadow footprint may not drift between panels.",
+    "The connector and loop crossing must use reserved overlaps, and marker fill must stop at the collar and two paper-highlight shapes without requiring erased keeper lines.",
+    "Do not add eyes, mouth, cheeks, flowers, hands, readable text, extra hose loops, extra spray jets, extra drops, sticker outline, badge frame, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a hose contour, nozzle part, hardware mark, rib, spray jet, drop, highlight, shadow shape, ink boundary, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, glossy AI poster art, digital gradients, or rasterized vector drawing."
+  ]
+}

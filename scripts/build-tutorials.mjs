@@ -18,6 +18,34 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "garden-hose-with-spray-nozzle",
+    day: "098",
+    date: "Tuesday, August 11",
+    isoDate: "2026-08-11",
+    subject: "a garden hose with a spray nozzle",
+    headlineSubject: "a garden hose<br>with a spray nozzle",
+    shortSubject: "a garden hose",
+    lessonTitle: "Let's draw a garden hose with a spray nozzle",
+    description: "Learn how to draw a garden hose with a spray nozzle using one coiled overlap, a pistol-grip handle, three water jets, bold outlines, and limited marker color.",
+    intro: "Loop one face-free garden hose across the page, connect it to an angled pistol-grip nozzle, and reserve the collar, trigger, water marks, highlights, and flat ground shadow before the heavy black-marker pass. The Intermediate 20-minute doodle turns a familiar garden tool into a useful exercise in tube thickness, over-under overlap, confident curves, drying order, and directional marker fill.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#237451",
+    finished: "garden-hose-with-spray-nozzle-finished-v1.jpg",
+    finishedAlt: "Handmade face-free felt-tip marker drawing of one thick forest-green garden hose forming one loose lower-left loop with a single over-under crossing, connected to one burnt-orange pistol-grip spray nozzle angled toward the upper right with one open-paper barrel collar, one cream trigger, one cream connector, exactly three black handle grip ribs, exactly three curved muted-blue water jets, exactly two detached blue drops, one open-paper highlight on the hose and one on the handle, thick imperfect black outlines, visible marker streaks, and one short flat irregular deep-navy ground-shadow patch",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Forest-green, burnt-orange, cream, muted-blue, and deep-navy markers"],
+    materialNote: "Use pale pencil to place the one-loop hose route, its single crossing, the full nozzle, collar, trigger, connector, three grip ribs, three water jets, two drops, two highlight gaps, and short flat ground-shadow patch before inking. Let the black outline dry, then pull green strokes along the hose curve and keep the orange, cream, blue, and navy fills inside their established boundaries.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the coil and spray angle", text: "Use pale pencil to place one loose hose loop and its single crossing, the angled nozzle envelope, collar, trigger and connector footprints, exactly three spray routes, two drop centers, two highlight gaps, and a short flat irregular ground-shadow footprint.", tip: "Ghost the full hose loop twice before touching down, then draw its centerline in one relaxed pass. Reserve the crossing and connector now so later contours can stop cleanly instead of becoming keeper lines you must erase." },
+      { name: "Wrap the hose and nozzle", text: "Build one thick loose hose loop and one connected pistol-grip nozzle silhouette with a barrel, handle, and open collar while preserving every pale hardware, spray, highlight, and shadow reserve.", tip: "Keep the hose width consistent by checking the empty strip between its two edges as you curve. Rotate the page for the loop, then use the nozzle axis to keep the barrel and handle at a clear working angle." },
+      { name: "Fit the nozzle and water marks", text: "Add one collar, one trigger, one connector, exactly three grip ribs, three curved spray jets, two detached drops, two open-paper highlights, and the short flat irregular ground-shadow patch.", tip: "Wrap all three grip ribs around the same handle taper and leave open paper between them. Pull the three water jets from the collar in separate confident arcs, then place both drops beyond the spray without turning them into extra jets." },
+      { name: "Ink the working contours", text: "Trace only the established hose, nozzle, collar, trigger, connector, three ribs, three jets, two drops, and highlights with thick, slightly imperfect black felt-tip, then fill the established flat shadow patch black.", tip: "Ink the small hardware and drops first, let them dry, then rotate the page for the long hose loop. Give the outside hose and nozzle silhouette more weight than the inner ribs and water marks so the tool stays readable at card size." },
+      { name: "Pull in the garden color", text: "Fill the hose forest green, nozzle burnt orange, collar and hardware cream, three water jets and two drops muted blue, and flat ground shadow deep navy while preserving both open-paper highlights and visible marker streaks.", tip: "Pull the green strokes around the hose instead of across its width, and fill the orange handle from edge to center. Let each small cream or blue area dry before coloring beside it, then leave the two highlight gaps untouched." },
+      { name: "Turn up the garden spray", text: "Strengthen selected established black contours, even the same limited marker fills, clarify both paper highlights, and deepen only the existing flat ground shadow.", tip: "Count one hose loop, one crossing, one nozzle, three grip ribs, three water jets, two drops, two highlights, and one flat shadow before stopping. Change the hose and nozzle colors in your own version if you like, but keep the overlap and marker grain handmade.", image: true }
+    ]
+  },
+  {
     slug: "heart-with-a-bandage",
     day: "097",
     date: "Monday, August 10",

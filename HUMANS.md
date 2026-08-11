@@ -1,11 +1,29 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-10
+- Date: 2026-08-11
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-09 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-10 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-11 — Daily tutorial (Codex)
+- Added one current lesson only: `garden-hose-with-spray-nozzle` (August 11 /
+  Day 098). The approved v3 six-panel handmade raster process keeps one green
+  hose loop, one orange spray nozzle, three grip ribs, three water jets, two
+  drops, two highlights, and one flat navy ground-shadow patch cumulative
+  through thick black outlines and visible marker fill. The first two sheets
+  remain private under `rejected-arrowlike-shadow-v1/` and
+  `rejected-arrowlike-shadow-v2/` because the shadow read as an arrow.
+- The finished doodle rates 9.6/10 for its bold silhouette, strong marker
+  grain, clean over-under overlap, stable hardware and water counts, and an
+  attainable 20-minute progression. Readiness passed the ledger, schema-v2
+  process plan, frame deltas, derivatives, social card, JSON-LD, internal
+  links, unused assets, lab privacy, and diff checks. Direct Cove QA at
+  1440x1000 and 390x844 covered the homepage, 98-card library, and tutorial
+  with no horizontal overflow, failed current-lesson images, invalid JSON-LD,
+  public lab links, or browser errors. The one-current-lesson-per-site cadence
+  remains active; routine backdated tutorials remain off.
 
 ### 2026-08-10 — Daily tutorial (Codex)
 - Added one current lesson only: `heart-with-a-bandage` (August 10 / Day 097).
