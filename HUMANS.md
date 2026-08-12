@@ -7,6 +7,22 @@
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
 - Previous: 2026-08-11 / Codex / Daily sketch and doodle lessons
 
+### 2026-08-12 — Axolotl construction-step correction (Codex)
+- Corrected `cartoon-axolotl-swimming` after owner review found that the first
+  frames front-loaded nearly the full character and mostly changed line
+  darkness. The repaired five-stage pencil sequence now separates primitive
+  head/body/tail masses, connected silhouette, four-limb/three-gill envelopes,
+  face and appendage refinement, then spots/bubbles/highlights/shadow before
+  the existing ink and color passes.
+- The original contact sheet and Step 1-5 JPG masters remain private under
+  `superseded-front-loaded-pencil-panels-v1/`; two rejected repair sheets also
+  remain private because the first had only three limb masses and a premature
+  highlight, while the second still leaked that highlight. Public Steps 6-7
+  and the finished JPG remain byte-identical.
+  This was an explicit correction to the current August 12 / Day 099 lesson,
+  not a second current lesson or routine backfill. The one-current-lesson-per-
+  site cadence remains active.
+
 ### 2026-08-12 — Daily tutorial (Codex)
 - Added one current lesson only: `cartoon-axolotl-swimming` (August 12 / Day
   099). The approved eight-panel handmade raster process keeps one
