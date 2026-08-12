@@ -1,0 +1,269 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-axolotl-swimming",
+  "finished": "assets/cartoon-axolotl-swimming-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One eight-panel felt-tip marker contact sheet intended to become seven cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one right-facing swimming cartoon axolotl in one side view with a rounded head, tapered body, broad curling tail fin, exactly four small limbs, exactly three external gill stalks visible behind the head, one oversized round eye with an upward-looking pupil, one tiny open diamond mouth, three cheek hatches, exactly two dorsal spots, exactly three bubbles, two paper highlights, one broken teal water-shadow mark, thick imperfect black outlines, coral-pink body, raspberry gills, deep-navy details, teal bubbles and shadow, and no second character, scenery, text, labels, arrows, numbers, signature, watermark, sticker outline, badge frame, or decorative border."
+  },
+  "process_strategy": "Use eight cumulative stages so the pale swimming map, head-body-tail silhouette, four limbs and three gills, distinctive expression, spots bubbles highlights and shadow, bold structural ink, saturated marker color, and final reinforcement each make one visible change. Reserve the far limbs, gill attachments, eye, mouth, spots, bubbles, highlights, and water-shadow mark before keeper outlines or color so no completed line must be erased later.",
+  "final_elements": [
+    {
+      "name": "pale axolotl anatomy face detail highlight and water-shadow map",
+      "introduced_by_step": 1,
+      "description": "Pale pencil places the head and body masses, tail-fin curve, four limb routes, three gill stalks, eye and mouth anchors, two spot centers, three bubbles, two highlights, and one broken water-shadow footprint."
+    },
+    {
+      "name": "rough rounded head tapered body and broad curling tail-fin silhouette",
+      "introduced_by_step": 2,
+      "description": "Loose handmade contours turn the map into one right-facing swimming axolotl with a wide head, tapered torso, and broad tail fin curling behind it."
+    },
+    {
+      "name": "exactly four small limbs and exactly three external gill stalks",
+      "introduced_by_step": 3,
+      "description": "Two near and two smaller far limbs fit the swimming body while three leaf-tipped external gill stalks fan behind the head."
+    },
+    {
+      "name": "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+      "introduced_by_step": 4,
+      "description": "One large round eye with its pupil high in the socket, a tiny open diamond mouth, three short cheek hatches, and one tail-fin seam create a surprised swimming expression unlike recent two-eye side-eye characters."
+    },
+    {
+      "name": "two dorsal spots three bubbles two highlights and one broken water shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly two rounded dorsal spots, three separate bubbles, two open-paper highlights, and one broken teal water-shadow mark complete the pre-ink drawing."
+    },
+    {
+      "name": "full imperfect black structural ink",
+      "introduced_by_step": 6,
+      "description": "Thick handmade black felt-tip traces only the established axolotl, four limbs, three gills, expression, spots, bubbles, highlights, tail seam, and water-shadow mark."
+    },
+    {
+      "name": "coral raspberry navy and teal marker fills",
+      "introduced_by_step": 7,
+      "description": "Coral pink fills the established body, raspberry fills the three gill stalks, deep navy fills the eye mouth and spots, and teal fills the three bubbles and broken shadow while two highlights remain open paper."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rough rounded head tapered body and broad curling tail-fin silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The broad tail fin begins only at its reserved body seam, and the body contour stops at all four limb attachments instead of running through them."
+    },
+    {
+      "foreground_element": "exactly four small limbs and exactly three external gill stalks",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The two smaller far limbs stop behind the body, the near limbs sit on top of the body edge, and all three gill stalks begin at reserved head attachments without covering finished head detail."
+    },
+    {
+      "foreground_element": "two dorsal spots three bubbles two highlights and one broken water shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Black ink and marker fill stop around both spot routes, three bubble circles, two paper highlights, and the water-shadow gap; none is painted over and redrawn."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-axolotl-swimming-step-1.jpg",
+      "step_name": "Map the swimming curve",
+      "visible_job": "Uses pale pencil to place the head and body masses, tail-fin curve, four limbs, three gills, face anchors, two spots, three bubbles, two highlights, and broken water-shadow footprint.",
+      "introduces": [
+        "pale axolotl anatomy face detail highlight and water-shadow map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-axolotl-swimming-step-2.jpg",
+      "step_name": "Wrap the head body and tail",
+      "visible_job": "Builds one loose right-facing axolotl silhouette with a rounded head, tapered body, and broad curling tail fin while preserving every limb, gill, face, detail, highlight, and shadow reserve.",
+      "introduces": [
+        "rough rounded head tapered body and broad curling tail-fin silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale axolotl anatomy face detail highlight and water-shadow map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-axolotl-swimming-step-3.jpg",
+      "step_name": "Fit the legs and gill fan",
+      "visible_job": "Adds exactly four small swimming limbs and exactly three leaf-tipped external gill stalks to their reserved routes without changing the head, body, or tail.",
+      "introduces": [
+        "exactly four small limbs and exactly three external gill stalks"
+      ],
+      "requires_prior_elements": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-axolotl-swimming-step-4.jpg",
+      "step_name": "Give the axolotl a surprised face",
+      "visible_job": "Adds one oversized round eye with an upward-looking pupil, one tiny open diamond mouth, three cheek hatches, and the established tail-fin seam.",
+      "introduces": [
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam"
+      ],
+      "requires_prior_elements": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-axolotl-swimming-step-5.jpg",
+      "step_name": "Add the spots bubbles and highlights",
+      "visible_job": "Adds exactly two dorsal spots, exactly three separate bubbles, two open-paper highlights, and the reserved broken water-shadow mark while preserving the anatomy and expression.",
+      "introduces": [
+        "two dorsal spots three bubbles two highlights and one broken water shadow"
+      ],
+      "requires_prior_elements": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/cartoon-axolotl-swimming-step-6.jpg",
+      "step_name": "Ink the underwater contours",
+      "visible_job": "Traces only the established axolotl, four limbs, three gills, expression, spots, bubbles, highlights, tail seam, and shadow with thick imperfect black felt-tip.",
+      "introduces": [
+        "full imperfect black structural ink"
+      ],
+      "requires_prior_elements": [
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+        "two dorsal spots three bubbles two highlights and one broken water shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/cartoon-axolotl-swimming-step-7.jpg",
+      "step_name": "Fill the lagoon color",
+      "visible_job": "Fills the established body coral pink, three gill stalks raspberry, eye mouth and spots deep navy, and three bubbles plus broken shadow teal while preserving two paper highlights and felt-tip streaks.",
+      "introduces": [
+        "coral raspberry navy and teal marker fills"
+      ],
+      "requires_prior_elements": [
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+        "two dorsal spots three bubbles two highlights and one broken water shadow",
+        "full imperfect black structural ink"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette"
+      ],
+      "new_occlusions": [
+        "The four limbs and three gill stalks occupy only their pale Step 1 routes; the far limbs stop behind the body while the near limbs sit on top of its edge."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+        "two dorsal spots three bubbles two highlights and one broken water shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+        "two dorsal spots three bubbles two highlights and one broken water shadow",
+        "full imperfect black structural ink"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale axolotl anatomy face detail highlight and water-shadow map",
+        "rough rounded head tapered body and broad curling tail-fin silhouette",
+        "exactly four small limbs and exactly three external gill stalks",
+        "one oversized upward-looking eye one diamond mouth three cheek hatches and tail seam",
+        "two dorsal spots three bubbles two highlights and one broken water shadow",
+        "full imperfect black structural ink",
+        "coral raspberry navy and teal marker fills"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Send the axolotl swimming",
+    "asset": "assets/cartoon-axolotl-swimming-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established black contours, evens the same limited marker fills, clarifies the two existing paper highlights, and deepens the established broken water-shadow mark without changing the anatomy, expression, counts, palette, or composition.",
+    "allowed_changes": [
+      "selective black outline strengthening",
+      "second marker pass inside established coral raspberry navy and teal areas",
+      "small paper-highlight clarification",
+      "slightly deeper existing broken water-shadow mark",
+      "light softening of distracting pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one right-facing swimming axolotl, one rounded head, one tapered body, one broad curling tail fin, four limbs, three gill stalks, one eye, one mouth, one crop, and one scale in all eight panels.",
+    "Keep exactly four limbs, exactly three visible gill stalks, exactly two dorsal spots, exactly three bubbles, three cheek hatches, and two highlights after those elements appear.",
+    "The head-body-tail curve, limb order, gill fan, pupil direction, mouth shape, spots, bubbles, highlights, and water-shadow footprint may not drift between panels.",
+    "Do not add a second eye, second character, extra limb, extra gill, extra spot, extra bubble, plant, castle, readable text, sticker outline, badge frame, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce an anatomy contour, limb, gill, facial feature, spot, bubble, highlight, shadow shape, ink boundary, or color area.",
+    "The finish must retain visible felt-tip streaks and imperfect handmade edges rather than vector-clean clip art, glossy AI poster art, digital gradients, or rasterized vector drawing."
+  ]
+}

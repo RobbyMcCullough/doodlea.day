@@ -1,11 +1,28 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-11
+- Date: 2026-08-12
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`
-- Previous: 2026-08-10 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-11 / Codex / Daily sketch and doodle lessons
+
+### 2026-08-12 — Daily tutorial (Codex)
+- Added one current lesson only: `cartoon-axolotl-swimming` (August 12 / Day
+  099). The approved eight-panel handmade raster process keeps one
+  right-facing swimming axolotl, four limbs, three feathery gills, one large
+  upward-looking eye, a diamond mouth, two dorsal spots, three cheek hatches,
+  three bubbles, two tail highlight gaps, and a broken teal water shadow
+  cumulative through thick black outlines and visible marker fill.
+- The finished doodle rates 9.6/10 for instant character, strong felt-tip
+  grain, an unusual one-eye surprised expression, stable countable anatomy,
+  and a clean 20-minute progression. Readiness passed the ledger, schema-v2
+  process plan, frame deltas, derivatives, social card, JSON-LD, internal
+  links, unused assets, lab privacy, and diff checks. Rendered QA at 1440x1000
+  and 390x844 covered the homepage, 99-card library, and tutorial with no
+  overflow, broken current images, JSON-LD errors, public lab links, or browser
+  errors. The one-current-lesson-per-site cadence remains active; routine
+  backdated tutorials remain off.
 
 ### 2026-08-11 — Daily tutorial (Codex)
 - Added one current lesson only: `garden-hose-with-spray-nozzle` (August 11 /

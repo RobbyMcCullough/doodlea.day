@@ -18,6 +18,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-axolotl-swimming",
+    day: "099",
+    date: "Wednesday, August 12",
+    isoDate: "2026-08-12",
+    subject: "a cartoon axolotl swimming",
+    headlineSubject: "a cartoon axolotl<br>swimming",
+    shortSubject: "a swimming axolotl",
+    lessonTitle: "Let's draw a cartoon axolotl swimming",
+    description: "Learn how to draw a cartoon axolotl swimming with four small limbs, three feathery gills, a surprised one-eye expression, bubbles, bold outlines, and bright marker color.",
+    intro: "Sweep one cartoon axolotl through the page on a broad head-body-tail curve, fit four small swimming limbs and three feathery gills around that silhouette, then give it one oversized upward-looking eye and a tiny diamond mouth before the black-marker and color passes. The Intermediate 20-minute doodle turns a trending animal subject into a useful exercise in flowing contours, countable anatomy, expression variation, intentional paper highlights, and directional marker fill.",
+    time: 20,
+    difficulty: "Intermediate",
+    accent: "#ee6f7c",
+    finished: "cartoon-axolotl-swimming-finished-v1.jpg",
+    finishedAlt: "Handmade felt-tip marker drawing of one right-facing coral-pink cartoon axolotl swimming in side view with one broad rounded head, one tapered body, one broad upward-curling tail fin, exactly four small limbs, exactly three raspberry leaf-tipped external gill stalks, one oversized round eye with a deep-navy pupil looking upward, one tiny open deep-navy diamond mouth, exactly three short cheek hatches, exactly two deep-navy dorsal spots, exactly three teal bubbles, two open-paper oval highlights on the tail, thick imperfect black outlines, visible marker streaks, and one short broken teal water-shadow swoosh",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Coral-pink, raspberry, deep-navy, and teal markers"],
+    materialNote: "Use pale pencil to place the complete head-body-tail curve, four limbs, three gill stalks, one-eye expression, diamond mouth, three cheek hatches, two spots, three bubbles, two highlight gaps, tail seam, and broken water-shadow mark before inking. Let the thick black outline dry, then pull coral strokes along the body and tail while keeping the raspberry, navy, teal, and paper-white areas inside their established boundaries.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the swimming curve", text: "Use pale pencil to place the head and body masses, broad tail-fin curve, exactly four limb routes, three gill routes, the one-eye and diamond-mouth anchors, two spot centers, three bubble centers, two highlight gaps, and one broken water-shadow footprint.", tip: "Ghost the head-to-tail sweep twice before touching down, then compare the open paper above and below the body. Mark all four limbs and three gills now so later contours can stop at their attachments instead of becoming lines you must erase." },
+      { name: "Wrap the head body and tail", text: "Build one loose right-facing axolotl silhouette with a rounded head, tapered body, and broad curling tail fin while preserving every pale limb, gill, face, detail, highlight, and shadow reserve.", tip: "Pull the belly and back as two relaxed curves, then rotate the page for the broad tail fin. Keep the head wide enough for the single large eye and stop the body contour at every reserved limb route." },
+      { name: "Fit the legs and gill fan", text: "Add exactly four small swimming limbs and exactly three leaf-tipped external gill stalks to their reserved routes without changing the head, body, or tail.", tip: "Draw the two smaller far limbs first and let them stop behind the body, then place the two near limbs on top. Fan all three gills from the back of the head with different angles but the same general leaf rhythm." },
+      { name: "Give the axolotl a surprised face", text: "Add one oversized round eye with its pupil high and looking upward, one tiny open diamond mouth, exactly three short cheek hatches, and the established tail-fin seam.", tip: "Place the pupil high in the eye before darkening it, then keep the diamond mouth small and off-center. That one-eye upward glance and angular mouth make the expression distinct from the recent two-eye side-eye characters." },
+      { name: "Add the spots bubbles and highlights", text: "Add exactly two dorsal spots, exactly three separate bubbles, two open-paper oval highlights, and the reserved broken water-shadow swoosh while preserving the anatomy and expression.", tip: "Space the two spots along the body curve and stack the three bubbles with uneven gaps. Keep both tail highlights open and break the shadow into short pieces so none of these accents becomes a border around the character." },
+      { name: "Ink the underwater contours", text: "Trace only the established axolotl, four limbs, three gills, expression, two spots, three bubbles, two highlights, tail seam, and shadow with thick, slightly wobbly black felt-tip.", tip: "Ink the small gill leaves, fingers, face, and bubbles first, let them dry, then rotate the page for the long body and tail curves. Give the outside silhouette the heaviest line and keep the cheek hatches and tail seam lighter." },
+      { name: "Fill the lagoon color", text: "Fill the established body coral pink, all three gill stalks raspberry, eye mouth and two spots deep navy, and three bubbles plus broken shadow teal while preserving both paper highlights and visible felt-tip streaks.", tip: "Pull coral strokes along the body and around the tail curl instead of straight across them. Let the raspberry and navy details dry before coloring beside them, and work around both paper highlights rather than adding white later." },
+      { name: "Send the axolotl swimming", text: "Strengthen selected established black contours, even the same limited marker fills, clarify both paper highlights, and deepen only the existing broken water-shadow swoosh.", tip: "Count four limbs, three gills, one eye, one diamond mouth, three cheek hatches, two spots, three bubbles, and two highlights before stopping. Change the colors or eye direction in your own version if you like, but keep the swimming curve and handmade marker grain.", image: true }
+    ]
+  },
+  {
     slug: "garden-hose-with-spray-nozzle",
     day: "098",
     date: "Tuesday, August 11",
