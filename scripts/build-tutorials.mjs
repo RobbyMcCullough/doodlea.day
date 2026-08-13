@@ -18,6 +18,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cartoon-paintbrush-with-rainbow-paint",
+    day: "100",
+    date: "Thursday, August 13",
+    isoDate: "2026-08-13",
+    subject: "a cartoon paintbrush with rainbow paint",
+    headlineSubject: "a cartoon paintbrush<br>with rainbow paint",
+    shortSubject: "a rainbow paintbrush",
+    lessonTitle: "Let's draw a cartoon paintbrush with rainbow paint",
+    description: "Learn how to draw a cartoon paintbrush with rainbow paint using a tilted handle, wide bristles, three parallel paint bands, bold outlines, and bright marker color.",
+    intro: "Angle one face-free paintbrush across the page, build its rounded handle, metal ferrule, and wide bristles, then sweep exactly three parallel paint bands out of the tip before the black-marker and color passes. This easy 20-minute doodle gives you a practical exercise in a clean diagonal composition, parallel curves, visible marker texture, and paint that looks like it is moving without needing a complicated scene.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#f15b5d",
+    finished: "cartoon-paintbrush-with-rainbow-paint-finished-v1.jpg",
+    finishedAlt: "Handmade felt-tip marker drawing of one face-free paintbrush angled from lower left to upper right with a coral rounded handle, blue-gray ferrule, warm-yellow bristles, exactly three parallel paint bands curling from the bristle edge in coral, yellow, and teal, two open-paper handle highlights, simple ferrule and bristle marks, thick imperfect black outlines, visible marker streaks, and one short flat navy shadow.",
+    materials: ["Pencil", "Drawing paper", "Black felt-tip marker", "Coral, warm-yellow, teal, blue-gray, and navy markers"],
+    materialNote: "Start with a pale handle capsule, ferrule box, bristle trapezoid, paint route, two highlight gaps, and a flat shadow footprint. Let your black outline dry before pulling marker strokes along the handle, bristles, and three paint bands, leaving the two highlights as open paper.",
+    tipLabel: "Marker tip",
+    steps: [
+      { name: "Map the brush tilt", text: "Use pale pencil for one rounded handle capsule, one ferrule box, one wide bristle trapezoid, a single curling paint route, two tiny highlight ovals, and one short flat shadow footprint.", tip: "Ghost the lower-left to upper-right axis twice before drawing. This first frame should read as construction, not a pale finished brush." },
+      { name: "Wrap the brush", text: "Connect the handle, ferrule, and bristle guides into one loose angled paintbrush silhouette while keeping the paint as one guide route.", tip: "Keep the handle wider at its rounded end and let the ferrule edges stay parallel. Stop the bristle edge where the paint route begins so the next step joins cleanly." },
+      { name: "Sweep three paint bands", text: "Turn the guide into exactly three parallel uncolored paint bands that curl from the bristle edge and end in three rounded tips.", tip: "Draw the outer curve first, echo it twice inside, and check that the gaps remain even around the bend. Do not add stray drips or a fourth band." },
+      { name: "Add the working details", text: "Add the two open-paper highlights, a few simple ferrule marks, light bristle streaks, and the reserved short flat shadow.", tip: "Keep the bristle strokes long and in the same direction. Let the shadow sit beneath the handle instead of wrapping around it like a border." },
+      { name: "Clarify the bristle rhythm", text: "Refine the already-established bristle streaks and ferrule marks without changing the brush, three paint bands, highlights, or shadow.", tip: "Use fewer marks than you think. The bristles should still read as one broad shape at thumbnail size." },
+      { name: "Ink the established lines", text: "Trace only the established brush, three paint bands, highlights, texture marks, and shadow with thick, slightly wobbly black felt-tip.", tip: "Ink the small ferrule marks and paint tips first, then rotate the page for the long handle and paint curves. Keep the outside silhouette heaviest." },
+      { name: "Pull in rainbow color", text: "Fill the handle coral, ferrule blue-gray, bristles warm yellow, and the three established paint bands coral, yellow, and teal; fill the existing shadow navy.", tip: "Pull strokes along each long form and keep both handle highlights open. Let neighboring colors dry before they touch so the black outline stays crisp." },
+      { name: "Finish the rainbow brush", text: "Strengthen only established black contours and marker fills, clarify the same two paper highlights, and deepen the existing flat navy shadow.", tip: "Count one brush, one handle, one ferrule, one bristle tip, three paint bands, two highlights, and one shadow before stopping. Try another three-color palette later, but keep the curves parallel and the marker texture visible.", image: true }
+    ]
+  },
+  {
     slug: "cartoon-axolotl-swimming",
     day: "099",
     date: "Wednesday, August 12",
