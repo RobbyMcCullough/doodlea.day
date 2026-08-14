@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-wizard-hat-with-stars",
+  "finished": "assets/cartoon-wizard-hat-with-stars-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Approved eight-panel handmade felt-tip-marker raster contact sheet cropped into JPG masters.","notes":"Replace only the preflight-rejected roller-skate candidate; this face-free magical hat has a separate silhouette and drawing problem."},
+  "process_strategy":"One floppy wizard hat grows from a brim and cone construction, then gets a crescent buckle, three stars, marker outline, saturated fill, and limited finishing accents without changing the established shape.",
+  "final_elements":[
+    {"name":"construction guides","introduced_by_step":1,"description":"Pale brim ellipse, cone axis, bend gesture, band footprint, star centers, and shadow footprint."},
+    {"name":"floppy wizard hat silhouette","introduced_by_step":2,"description":"One tall bent purple cone and wide oval brim with a tipped point."},
+    {"name":"buckle band","introduced_by_step":3,"description":"One orange band and one crescent-moon buckle crossing the lower cone."},
+    {"name":"three star accents","introduced_by_step":4,"description":"Exactly three five-point stars arranged around the cone."},
+    {"name":"marker color and shadow","introduced_by_step":5,"description":"Purple, orange, yellow, teal, and navy marker fills with one flat broken navy shadow."}
+  ],
+  "overlap_reservations":[{"foreground_element":"buckle band","reserved_by_step":1,"background_lines_stop_before":"Cone texture and color stop under the full band route."}],
+  "frames":[
+    {"step":1,"asset":"assets/cartoon-wizard-hat-with-stars-step-1.jpg","step_name":"Map the brim and bend","visible_job":"Place one wide brim ellipse, tall bent cone route, band footprint, three star centers, and a flat shadow reserve in pale pencil.","introduces":["construction guides"]},
+    {"step":2,"asset":"assets/cartoon-wizard-hat-with-stars-step-2.jpg","step_name":"Shape the floppy hat","visible_job":"Connect the brim and cone into one tall tipped wizard-hat silhouette while keeping later reserves open.","introduces":["floppy wizard hat silhouette"]},
+    {"step":3,"asset":"assets/cartoon-wizard-hat-with-stars-step-3.jpg","step_name":"Add the magic band","visible_job":"Draw the established band and one crescent buckle across the cone.","introduces":["buckle band"]},
+    {"step":4,"asset":"assets/cartoon-wizard-hat-with-stars-step-4.jpg","step_name":"Place the three stars","visible_job":"Turn the three centers into exactly three five-point stars and add brim seams and a few fold lines.","introduces":["three star accents"]},
+    {"step":5,"asset":"assets/cartoon-wizard-hat-with-stars-step-5.jpg","step_name":"Ink the spellbound shapes","visible_job":"Trace only established contours and details with thick imperfect black felt-tip, including the established flat broken shadow.","introduces":["marker color and shadow"]}
+  ],
+  "transition_audit":[
+    {"from_step":1,"to_step":2,"must_persist":["construction guides"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["construction guides","floppy wizard hat silhouette"],"new_occlusions":["band covers reserved lower-cone route"],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["construction guides","floppy wizard hat silhouette","buckle band"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["construction guides","floppy wizard hat silhouette","buckle band","three star accents"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["construction guides","floppy wizard hat silhouette","buckle band","three star accents","marker color and shadow"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Make the magic pop","asset":"assets/cartoon-wizard-hat-with-stars-finished-v1.jpg","visible_job":"Only clarifies established outline, marker fill, paper shines, and shadow.","allowed_changes":["keeper contour darkening","marker fill evening","small highlight clarification"]},
+  "rejection_checks":["Reject a hat that changes bend, brim, buckle, or three-star count between frames.","Reject final-only stars, band, color, shine, or shadow.","Reject vector-clean icon art or glossy poster rendering; retain felt-tip texture and imperfect black outlines."]
+}

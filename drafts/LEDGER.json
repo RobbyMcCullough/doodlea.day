@@ -167,6 +167,11 @@
     "cartoon-roller-skate": {
       "status": "published"
     },
+    "cartoon-roller-skate-with-lightning-laces": {
+      "status": "rejected-duplicate",
+      "date": "2026-08-14",
+      "note": "Rejected before image generation: the existing cartoon roller-skate lesson repeats the core silhouette and drawing problem."
+    },
     "cartoon-saxophone-with-music-notes": {
       "status": "published",
       "date": "2026-08-05",
@@ -220,6 +225,11 @@
       "status": "published",
       "date": "2026-07-12",
       "note": "Reviewed six-panel marker chest process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
+    "cartoon-wizard-hat-with-stars": {
+      "status": "published",
+      "date": "2026-08-14",
+      "note": "Approved six-panel handmade raster process cropped and promoted as the August 14 current lesson. Private v1 was rejected for premature detail; private v2 was rejected for portrait panels that would distort square crops."
     },
     "cartoon-yo-yo-in-motion": {
       "status": "published",

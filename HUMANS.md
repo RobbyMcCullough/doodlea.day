@@ -1502,3 +1502,14 @@
   `a cartoon` / `asteroid` / `doodle`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- 2026-08-14 daily automation added one current lesson only:
+  `cartoon-wizard-hat-with-stars` (August 14 / Day 101). Its reviewed
+  six-panel handmade raster process moves from sparse brim-and-cone guides to
+  a floppy hat, one crescent buckle, exactly three stars, thick black marker,
+  and bright purple/orange/yellow fills. The finished doodle rates 8.9/10 for
+  readable silhouette, warm marker grain, a genuinely teachable construction
+  sequence, and an attainable 15-minute finish. Private v1 was rejected for
+  premature detail and v2 for portrait crops. Readiness, JSON-LD, delivery
+  images, contact-sheet deltas, desktop/mobile homepage-library-tutorial QA,
+  and diff checks passed. One-current-per-site cadence remains active; routine
+  backfills remain off.
