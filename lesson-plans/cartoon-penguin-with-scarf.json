@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-penguin-with-scarf",
+  "finished": "assets/cartoon-penguin-with-scarf-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Planned six-panel handmade felt-tip-marker contact sheet.","notes":"August 15 current Doodlea lesson; chosen for a distinct character silhouette and marker-color problem."},
+  "process_strategy":"One upright penguin grows from two pale ovals and a centerline, then gets its black outer silhouette, white belly, one beak and two flippers, one wrapped scarf, face, thick outline, saturated marker fills, and final small accents without changing pose or countable features.",
+  "final_elements":[
+    {"name":"construction guides","introduced_by_step":1,"description":"Pale head and body ovals, centerline, belly, beak, flipper, scarf, and shadow routes."},
+    {"name":"penguin silhouette, belly, and scarf route","introduced_by_step":2,"description":"One upright black penguin silhouette with one white oval belly and one unfilled scarf band with a short hanging tail."},
+    {"name":"beak and flippers","introduced_by_step":3,"description":"One small orange beak and exactly two side flippers."},
+    {"name":"wrapped scarf color","introduced_by_step":4,"description":"One red scarf around the neck with one short hanging tail with exactly three pale stripe bands."},
+    {"name":"face and marker color","introduced_by_step":5,"description":"Exactly two oval eyes, two tiny cheek marks, black, white, orange, red, and pale blue marker fills plus one broken blue shadow."}
+  ],
+  "overlap_reservations":[
+    {"foreground_element":"penguin silhouette, belly, and scarf route","reserved_by_step":1,"background_lines_stop_before":"Belly and body texture stop under the scarf band and hanging tail routes."}
+  ],
+  "frames":[
+    {"step":1,"asset":"assets/cartoon-penguin-with-scarf-step-1.jpg","step_name":"Map the chilly pose","visible_job":"Place a tall body oval, smaller head oval, centerline, belly oval, beak point, two flipper routes, scarf footprint, and broken shadow reserve in pale pencil.","introduces":["construction guides"]},
+    {"step":2,"asset":"assets/cartoon-penguin-with-scarf-step-2.jpg","step_name":"Shape the penguin","visible_job":"Connect the guides into one upright penguin silhouette and one inner belly, then add the unfilled scarf band and hanging-tail route.","introduces":["penguin silhouette, belly, and scarf route"]},
+    {"step":3,"asset":"assets/cartoon-penguin-with-scarf-step-3.jpg","step_name":"Add wings and beak","visible_job":"Draw exactly two flippers and one small beak on their established routes.","introduces":["beak and flippers"],"requires_prior_elements":["penguin silhouette, belly, and scarf route"]},
+    {"step":4,"asset":"assets/cartoon-penguin-with-scarf-step-4.jpg","step_name":"Color the scarf","visible_job":"Fill the established scarf red while keeping exactly three pale stripe bands on its hanging tail.","introduces":["wrapped scarf color"],"requires_prior_elements":["penguin silhouette, belly, and scarf route"]},
+    {"step":5,"asset":"assets/cartoon-penguin-with-scarf-step-5.jpg","step_name":"Ink the cozy character","visible_job":"Add exactly two oval eyes and two cheek marks, then trace only established contours with thick imperfect black marker and fill existing body, beak, and shadow shapes.","introduces":["face and marker color"],"requires_prior_elements":["penguin silhouette, belly, and scarf route","beak and flippers","wrapped scarf color"]}
+  ],
+  "transition_audit":[
+    {"from_step":1,"to_step":2,"must_persist":["construction guides"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["construction guides","penguin silhouette, belly, and scarf route"],"new_occlusions":["scarf band covers its reserved neck and belly route"],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["construction guides","penguin silhouette, belly, and scarf route","beak and flippers"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["construction guides","penguin silhouette, belly, and scarf route","beak and flippers","wrapped scarf color"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["construction guides","penguin silhouette, belly, and scarf route","beak and flippers","wrapped scarf color","face and marker color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Make the penguin pop","asset":"assets/cartoon-penguin-with-scarf-finished-v1.jpg","visible_job":"Only evens established marker fills, clarifies open-paper highlights, and strengthens existing contours.","allowed_changes":["keeper contour darkening","marker fill evening","small highlight clarification"]},
+  "rejection_checks":["Reject a changed upright pose, flipper count, eye count, scarf route, stripe count, or beak shape.","Reject final-only face, scarf, color, highlight, or shadow additions.","Reject vector-clean icon art or glossy poster art; retain felt-tip texture and imperfect black outlines."]
+}

@@ -400,6 +400,12 @@
 - Local Cove URL: `https://doodlea.localhost/`
 
 ## Return Notes
+- 2026-08-15 daily automation added one current lesson only:
+  `cartoon-penguin-with-scarf` (August 15 / Day 102). Its approved six-panel
+  handmade felt-tip-marker process keeps one upright penguin, two flippers,
+  one beak, two eyes, one scarf with three pale stripe bands, and a broken blue
+  shadow cumulative through finish. The one-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
 - 2026-07-29 daily automation added owner-requested current
   `cartoon-chicken` (July 29 / Day 078) and honest archive
   `cartoon-gumball-machine` (May 13 / Day 001). The easy 15-minute chicken
