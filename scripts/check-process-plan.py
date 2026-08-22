@@ -17,6 +17,21 @@ PLANS = ROOT / "lesson-plans"
 TUTORIALS = ROOT / "tutorials"
 ASSETS = ROOT / "assets"
 EXCEPTIONS = PLANS / "exceptions.json"
+LEDGER = ROOT / "drafts" / "LEDGER.json"
+
+STAGE_ROLE_ORDER = {
+    "construction": 1,
+    "silhouette": 2,
+    "major_parts": 3,
+    "features": 4,
+    "details": 5,
+    "ink_and_color_map": 6,
+}
+FIRST_FRAME_FINISHING_WORDS = re.compile(
+    r"\b(?:ink|color|fill|shade|shadow|highlight|texture|clean|trace|darken|"
+    r"thicken|finish)(?:s|ed|ing)?\b",
+    re.IGNORECASE,
+)
 
 
 class StepParser(HTMLParser):
@@ -178,6 +193,15 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
     failures: list[str] = []
     page = parse_page(slug)
     try:
+        if LEDGER.exists():
+            ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
+            ledger_entry = ledger.get("entries", {}).get(slug, {})
+            ledger_status = ledger_entry.get("status")
+            if ledger_status in {"rejected-quality", "rejected-duplicate"}:
+                failures.append(
+                    f"draft ledger status is {ledger_status!r}; rejected art cannot "
+                    "pass process-plan validation"
+                )
         if plan.get("slug") != slug:
             failures.append(f"`slug` must be {slug!r}")
 
@@ -193,6 +217,59 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
         if not isinstance(source, dict) or not source.get("type"):
             failures.append("`source.type` is required")
 
+        schema_version = plan.get("schema_version", 1)
+        if not isinstance(schema_version, int) or schema_version < 1:
+            failures.append("`schema_version` must be a positive integer")
+            schema_version = 1
+
+        first_frame_max_completion = 30
+        minimum_completion_increase = 10
+        if schema_version >= 3:
+            progression = plan.get("progression_contract")
+            if not isinstance(progression, dict):
+                failures.append("schema v3 requires `progression_contract` as an object")
+                progression = {}
+            first_frame_max_completion = progression.get(
+                "first_frame_max_structural_completion_percent", 0
+            )
+            if (
+                not isinstance(first_frame_max_completion, int)
+                or first_frame_max_completion < 15
+                or first_frame_max_completion > 30
+            ):
+                failures.append(
+                    "schema v3 first-frame structural completion must be an integer "
+                    "from 15 through 30 percent"
+                )
+                first_frame_max_completion = 30
+            minimum_completion_increase = progression.get(
+                "minimum_completion_increase_percent", 0
+            )
+            if (
+                not isinstance(minimum_completion_increase, int)
+                or minimum_completion_increase < 8
+                or minimum_completion_increase > 20
+            ):
+                failures.append(
+                    "schema v3 minimum completion increase must be an integer "
+                    "from 8 through 20 percent"
+                )
+                minimum_completion_increase = 10
+            if progression.get("maximum_darkening_only_transitions") != 1:
+                failures.append(
+                    "schema v3 `maximum_darkening_only_transitions` must be 1"
+                )
+            try:
+                blank_page_test = require_text(
+                    progression, "blank_page_test", slug
+                )
+                if "two minute" not in blank_page_test.lower() and "two-minute" not in blank_page_test.lower():
+                    failures.append(
+                        "schema v3 blank-page test must require a two-minute sparse construction"
+                    )
+            except ValueError as error:
+                failures.append(str(error))
+
         frames = plan.get("frames")
         if not isinstance(frames, list) or not frames:
             failures.append("`frames` must be a non-empty array")
@@ -206,6 +283,7 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
         final_elements = plan.get("final_elements")
         element_names: set[str] = set()
         element_first_steps: dict[str, int] = {}
+        element_established_steps: dict[str, int] = {}
         if not isinstance(final_elements, list) or len(final_elements) < 3:
             failures.append(
                 "`final_elements` must contain at least 3 major visible elements"
@@ -238,6 +316,24 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                 )
             else:
                 element_first_steps[name] = step
+            if schema_version >= 3:
+                established_step = element.get("established_by_step")
+                if not isinstance(established_step, int) or established_step < 1:
+                    failures.append(
+                        f"final element {name!r} must have a positive integer "
+                        "`established_by_step`"
+                    )
+                elif frames and established_step > len(frames):
+                    failures.append(
+                        f"final element {name!r} is established by step "
+                        f"{established_step}, but only {len(frames)} non-final frames exist"
+                    )
+                elif isinstance(step, int) and established_step < step:
+                    failures.append(
+                        f"final element {name!r} cannot be established before it is introduced"
+                    )
+                else:
+                    element_established_steps[name] = established_step
 
         expected_step_count = len(frames) + 1
         if len(page.steps) != expected_step_count:
@@ -248,6 +344,9 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
 
         planned_assets: list[str] = []
         introduced_by_frame: dict[int, list[str]] = {}
+        established_by_frame: dict[int, list[str]] = {}
+        previous_stage_rank = 0
+        previous_completion = 0
 
         for index, frame in enumerate(frames, start=1):
             if not isinstance(frame, dict):
@@ -267,8 +366,85 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
             visible_job = require_text(frame, "visible_job", slug)
             if len(visible_job.split()) < 8:
                 failures.append(f"frame {index} visible_job is too vague")
+            if schema_version >= 3:
+                stage_role = require_text(frame, "stage_role", slug)
+                stage_rank = STAGE_ROLE_ORDER.get(stage_role)
+                if stage_rank is None:
+                    failures.append(
+                        f"frame {index} has unknown stage_role {stage_role!r}; "
+                        f"expected one of {sorted(STAGE_ROLE_ORDER)}"
+                    )
+                    stage_rank = previous_stage_rank
+                if index == 1 and stage_role != "construction":
+                    failures.append("schema v3 frame 1 must use stage_role `construction`")
+                if stage_rank <= previous_stage_rank:
+                    failures.append(
+                        f"frame {index} stage_role {stage_role!r} does not advance "
+                        "the construction-to-color sequence"
+                    )
+                previous_stage_rank = stage_rank
+
+                completion = frame.get("completion_target_percent")
+                if not isinstance(completion, int) or completion < 1 or completion > 95:
+                    failures.append(
+                        f"frame {index} completion_target_percent must be an integer "
+                        "from 1 through 95"
+                    )
+                    completion = previous_completion
+                if index == 1 and completion > first_frame_max_completion:
+                    failures.append(
+                        f"frame 1 completion target {completion}% exceeds the "
+                        f"{first_frame_max_completion}% construction maximum"
+                    )
+                if index > 1 and completion - previous_completion < minimum_completion_increase:
+                    failures.append(
+                        f"frame {index} advances only {completion - previous_completion} "
+                        f"percentage points; schema v3 requires at least "
+                        f"{minimum_completion_increase}"
+                    )
+                previous_completion = completion
+
+                try:
+                    adds = string_list(frame.get("adds"), slug, f"frames[{index}].adds")
+                    must_not_show = string_list(
+                        frame.get("must_not_show"),
+                        slug,
+                        f"frames[{index}].must_not_show",
+                    )
+                except ValueError as error:
+                    failures.append(str(error))
+                    adds = []
+                    must_not_show = []
+                if set(adds) & set(must_not_show):
+                    failures.append(
+                        f"frame {index} lists the same work under `adds` and `must_not_show`"
+                    )
+                if index == 1:
+                    try:
+                        construction_primitives = string_list(
+                            frame.get("construction_primitives"),
+                            slug,
+                            "frames[1].construction_primitives",
+                        )
+                    except ValueError as error:
+                        failures.append(str(error))
+                        construction_primitives = []
+                    if len(construction_primitives) < 2:
+                        failures.append(
+                            "schema v3 frame 1 needs at least two explicit construction primitives"
+                        )
+                    if len(must_not_show) < 4:
+                        failures.append(
+                            "schema v3 frame 1 must forbid at least four groups of future work"
+                        )
+                    if FIRST_FRAME_FINISHING_WORDS.search(visible_job):
+                        failures.append(
+                            "schema v3 frame 1 visible_job contains finishing work; "
+                            "use only primitives, routes, axes, envelopes, and placement ticks"
+                        )
             try:
-                introduces = string_list(
+                list_reader = string_array if schema_version >= 3 else string_list
+                introduces = list_reader(
                     frame.get("introduces"), slug, f"frames[{index}].introduces"
                 )
             except ValueError as error:
@@ -280,6 +456,28 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                     failures.append(
                         f"frame {index} introduces {name!r}, "
                         "`final_elements` does not list that element"
+                    )
+            if schema_version >= 3:
+                try:
+                    establishes = string_array(
+                        frame.get("establishes"),
+                        slug,
+                        f"frames[{index}].establishes",
+                    )
+                except ValueError as error:
+                    failures.append(str(error))
+                    establishes = []
+                established_by_frame[index] = establishes
+                for name in establishes:
+                    if element_names and name not in element_names:
+                        failures.append(
+                            f"frame {index} establishes {name!r}, "
+                            "`final_elements` does not list that element"
+                        )
+                if index == 1 and establishes:
+                    failures.append(
+                        "schema v3 construction frame may guide elements but must not "
+                        "establish finished contours or color regions"
                     )
             if "requires_prior_elements" in frame:
                 try:
@@ -329,6 +527,14 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                 f"actual {actual_assets}, planned {planned_assets}"
             )
 
+        if schema_version >= 3 and frames:
+            last_role = frames[-1].get("stage_role") if isinstance(frames[-1], dict) else None
+            if last_role != "ink_and_color_map":
+                failures.append(
+                    "schema v3 last non-final frame must use stage_role "
+                    "`ink_and_color_map` so every major color decision precedes the finish"
+                )
+
         for name, expected_step in element_first_steps.items():
             actual_steps = [
                 step for step, names in introduced_by_frame.items() if name in names
@@ -343,10 +549,23 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
                     f"but plan says step {expected_step}"
                 )
 
-        schema_version = plan.get("schema_version", 1)
-        if not isinstance(schema_version, int) or schema_version < 1:
-            failures.append("`schema_version` must be a positive integer")
-            schema_version = 1
+        if schema_version >= 3:
+            for name, expected_step in element_established_steps.items():
+                actual_steps = [
+                    step for step, names in established_by_frame.items() if name in names
+                ]
+                if not actual_steps:
+                    failures.append(
+                        f"final element {name!r} is never established by a non-final frame"
+                    )
+                    continue
+                first_step = min(actual_steps)
+                if first_step != expected_step:
+                    failures.append(
+                        f"final element {name!r} is first established in frame "
+                        f"{first_step}, but plan says step {expected_step}"
+                    )
+
         if schema_version >= 2:
             overlap_reservations = plan.get("overlap_reservations")
             if not isinstance(overlap_reservations, list):

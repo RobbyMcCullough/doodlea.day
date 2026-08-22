@@ -1,5 +1,25 @@
 # Human Notes
 
+## 2026-08-22 — Marker-process progression guard (Codex)
+
+- Owner review rejected the uncommitted `cartoon-rocket-planter-with-sprout`
+  process because Panel 1 already contained most of the finished contours and
+  later panels mostly retraced them darker. The rejected v1 sheet, plan, page,
+  and masters are preserved privately under `rejected-front-loaded-v1/`.
+- Regenerated the lesson as a schema-v3 six-panel raster process: a sparse
+  construction map progresses through the planter shell, exactly three fins,
+  the window and two-leaf sprout, ink and a complete color map, then final
+  marker fills. The finished v2 image rates 9.2/10 for immediate readability,
+  handmade marker texture, stable parts, and an attainable linear progression.
+- Doodlea's process contract now requires schema-v3 plans, a 20-30% sparse
+  construction first frame, explicit per-panel omission lists, one visible job
+  per transition, only one darkening-led transition, and all major color regions
+  before the final. The one-current-lesson-per-site cadence remains active.
+
+## 2026-08-19 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-rocket-planter-with-sprout` (August 19 / Day 106). A later owner review rejected its original six-panel process for front-loading finished contours in Panel 1; the August 22 note above records the approved replacement. No second current lesson or routine backfill was created.
+
 ## Last Accessed
 - Date: 2026-08-12
 - Agent harness: Codex

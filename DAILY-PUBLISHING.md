@@ -8,6 +8,10 @@ The tutorial must convincingly produce the finished marker doodle. The final
 image should not add major shape, color, contour, lettering, props, or rendering
 that did not appear in a prior process frame.
 
+Treat the finished drawing and the instructional steps as one artifact, not as
+separate pictures of the same subject. The sequence must begin with genuinely
+sparse construction and then reveal the drawing in a usable order.
+
 The sequence must also respect occlusion and drawing economy. Do not ask the
 reader to finish panels, seams, texture, character parts, or other detail that a
 later element immediately and permanently covers. Reserve the covering
@@ -19,6 +23,34 @@ that thickens, inks, darkens, fills, colors, shades, cleans, or clarifies a
 shape may not be the first frame where that shape appears. For example, a pizza
 lesson cannot add a cheese stretch in the color step after an earlier step
 already told the reader to thicken the full outline.
+
+## Blank-Page Progression Gate
+
+This gate exists because marker generators tend to draw a nearly complete
+cartoon in Panel 1 and then repeat it with darker outlines.
+
+- Step 1 should contain roughly 20-30% of the final structure: simple circles,
+  ellipses, boxes, axes, gesture routes, open envelopes, and placement ticks.
+- A light-gray finished contour is not construction. Step 1 must not contain the
+  complete silhouette, closed secondary parts, facial features, black ink,
+  marker fills, highlights, texture, or a finished shadow.
+- Do not preview future features as faint closed shapes. Reserve a window with a
+  center point, a fin with an attachment tick, a leaf with a centerline, and a
+  face with axes; draw each full contour only in its assigned later step.
+- Every adjacent frame must add one visible, describable job. A darker tracing
+  of the same geometry counts only once as the dedicated inking step; two
+  consecutive tracing/darkening transitions fail.
+- For a colored lesson, use seven panels by default: construction, primary
+  silhouette, major parts, features, details, ink plus color map, finish. Six is
+  acceptable only when features and details can be combined without making
+  Step 1 or the final do too much.
+- Every major color region must appear in the penultimate frame. The final may
+  complete established fills and add small accents, but it may not reveal the
+  palette for the first time.
+
+Before cropping, perform the two-minute test from
+`PROCESS-IMAGE-WORKFLOW.md`: if a beginner could not copy Panel 1 in under two
+minutes using simple primitives and routes, reject or repair the sheet.
 
 ## Doodle Direction
 
@@ -183,7 +215,11 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    or get owner direction. Prefer repairing a failed panel (see
    `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
    swap after failed art is itself a rejection that must be recorded.
-9. Write `lesson-plans/{slug}.json` from the template pattern before publishing.
+9. Write `lesson-plans/{slug}.json` from the template pattern before generating
+   art. New lessons use schema v3. Complete the progression contract and every
+   frame's `stage_role`, `completion_target_percent`, `adds`, and
+   `must_not_show` fields, plus the first frame's `construction_primitives`,
+   before writing the image prompt.
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`. Use schema v2's
@@ -191,8 +227,10 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    every later frame, that `keeper_lines_removed` stays empty, and that any
    physical overlap is documented. Fill `overlap_reservations` before drawing
    background seams or dividers behind later foreground objects.
-10. Generate one raster process contact sheet first. No labels, arrows, numbers,
-   signatures, watermarks, or fake UI.
+10. Generate one raster process contact sheet first using the full master prompt
+   and panel omission contract in `PROCESS-IMAGE-WORKFLOW.md`. No labels,
+   arrows, numbers, signatures, watermarks, fake UI, detailed first panel, or
+   progressively darker copies of the same finished contour.
 11. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
    use the final panel as the finished image.
 12. Rate the saved finished image. It must be at least 8/10 for readability,
@@ -275,4 +313,7 @@ JSON-LD is invalid, `lab.html` loses `noindex,nofollow`, the rendered layout
 scores below 8/10, a headline breaks after a single character, the marker
 underline misses its target word, the duplicate-slot guard fails, a new face
 repeats a recent default two-dot/U-smile expression without a clear reason, or
-validation fails.
+validation fails. Also stop when Panel 1 already shows the finished silhouette
+or closed future features, when more than one transition merely retraces the
+same geometry darker, or when the final is the first panel to show a major color
+region. A passing pixel-delta check does not override this semantic review.

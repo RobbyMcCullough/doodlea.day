@@ -1,0 +1,299 @@
+{
+  "schema_version": 3,
+  "slug": "cartoon-rocket-planter-with-sprout",
+  "finished": "assets/cartoon-rocket-planter-with-sprout-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Replacement handmade raster 3x2 marker-process contact sheet generated after the front-loaded v1 process was rejected.",
+    "notes": "The rejected v1 sheet, assets, page, and plan are preserved under drafts/cartoon-rocket-planter-with-sprout/rejected-front-loaded-v1/."
+  },
+  "process_strategy": "Six cumulative panels move from sparse primitives and placement ticks to the shell, three fins, window and sprout, ink with every color region, then finishing-only marker fill.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 30,
+    "minimum_completion_increase_percent": 10,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one body ellipse, one centerline, one top-rim axis, a window center cross, three fin attachment ticks, and one sprout gesture with two leaf-tip ticks."
+  },
+  "final_elements": [
+    {
+      "name": "rocket planter shell",
+      "introduced_by_step": 1,
+      "established_by_step": 2,
+      "description": "One upright rounded rocket body with a curved nose and one open planter rim."
+    },
+    {
+      "name": "three lower fins",
+      "introduced_by_step": 1,
+      "established_by_step": 3,
+      "description": "Exactly three rounded lower fins attached at the reserved body locations."
+    },
+    {
+      "name": "round window",
+      "introduced_by_step": 1,
+      "established_by_step": 4,
+      "description": "One centered circular window with one simple inner ring."
+    },
+    {
+      "name": "two-leaf sprout",
+      "introduced_by_step": 1,
+      "established_by_step": 4,
+      "description": "One curved stem with exactly two simple leaves growing from the open rim."
+    },
+    {
+      "name": "highlights and shadow",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Two open-paper shell highlights and one short broken ground shadow."
+    },
+    {
+      "name": "marker palette",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "Black keeper outlines plus visible red shell, yellow fins, teal window, green sprout, and navy shadow regions."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two-leaf sprout",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The top-rim axis stops around the sprout gesture so the later stem grows from inside the planter."
+    },
+    {
+      "foreground_element": "three lower fins",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The shell and ground routes stop at three attachment ticks rather than drawing through future fin silhouettes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 25,
+      "asset": "assets/cartoon-rocket-planter-with-sprout-step-1.jpg",
+      "step_name": "Map the rocket with simple guides",
+      "visible_job": "Place one pale body ellipse, one vertical centerline, one top-rim axis, a window center cross, three fin attachment ticks, and one sprout gesture with two leaf-tip ticks.",
+      "construction_primitives": [
+        "one tall body ellipse with one vertical centerline",
+        "one short horizontal top-rim axis",
+        "one small crossed window center",
+        "three fin attachment ticks",
+        "one curved sprout gesture with two leaf-tip ticks"
+      ],
+      "introduces": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout"
+      ],
+      "establishes": [],
+      "adds": [
+        "body proportion scaffold",
+        "window and fin placement without closed contours",
+        "sprout direction without leaf outlines"
+      ],
+      "must_not_show": [
+        "complete rocket outer silhouette",
+        "closed fin contours",
+        "closed window circles",
+        "closed leaf contours",
+        "shell highlights or ground shadow",
+        "black marker outlines or marker color"
+      ]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 42,
+      "asset": "assets/cartoon-rocket-planter-with-sprout-step-2.jpg",
+      "step_name": "Connect the planter shell",
+      "visible_job": "Connect only the rounded rocket body, curved nose, and open top rim over the pale construction while leaving fins, window, and leaves absent.",
+      "introduces": [],
+      "establishes": [
+        "rocket planter shell"
+      ],
+      "adds": [
+        "one recognizable rocket-planter body silhouette"
+      ],
+      "must_not_show": [
+        "closed fin contours",
+        "closed window circles",
+        "closed leaf contours",
+        "highlights or ground shadow",
+        "black marker or color"
+      ],
+      "requires_prior_elements": [
+        "rocket planter shell"
+      ]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 58,
+      "asset": "assets/cartoon-rocket-planter-with-sprout-step-3.jpg",
+      "step_name": "Build three rounded fins",
+      "visible_job": "Add exactly three rounded fin contours at the established attachment ticks while keeping the window cross and sprout gesture open.",
+      "introduces": [],
+      "establishes": [
+        "three lower fins"
+      ],
+      "adds": [
+        "exactly three closed fin silhouettes"
+      ],
+      "must_not_show": [
+        "closed window circles",
+        "closed leaf contours",
+        "highlights or ground shadow",
+        "black marker or color"
+      ],
+      "requires_prior_elements": [
+        "rocket planter shell",
+        "three lower fins"
+      ]
+    },
+    {
+      "step": 4,
+      "stage_role": "features",
+      "completion_target_percent": 75,
+      "asset": "assets/cartoon-rocket-planter-with-sprout-step-4.jpg",
+      "step_name": "Add the window and sprout",
+      "visible_job": "Draw one round window with an inner ring, one curved stem with exactly two leaf contours, two shell highlight reserves, and one broken shadow route.",
+      "introduces": [
+        "highlights and shadow"
+      ],
+      "establishes": [
+        "round window",
+        "two-leaf sprout",
+        "highlights and shadow"
+      ],
+      "adds": [
+        "one round window and inner ring",
+        "one stem with exactly two leaves",
+        "two highlight reserves and one broken shadow route"
+      ],
+      "must_not_show": [
+        "black marker cleanup",
+        "completed marker fills",
+        "new props, flames, face, or lettering"
+      ],
+      "requires_prior_elements": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout"
+      ]
+    },
+    {
+      "step": 5,
+      "stage_role": "ink_and_color_map",
+      "completion_target_percent": 90,
+      "asset": "assets/cartoon-rocket-planter-with-sprout-step-5.jpg",
+      "step_name": "Ink and map every color",
+      "visible_job": "Ink only established contours, then place visible red, yellow, teal, green, and navy marker strokes in every major planned color region without completing the fills.",
+      "introduces": [
+        "marker palette"
+      ],
+      "establishes": [
+        "marker palette"
+      ],
+      "adds": [
+        "one thick imperfect black keeper-line pass",
+        "visible red shell, yellow fins, teal window, green sprout, and navy shadow color regions"
+      ],
+      "must_not_show": [
+        "new structural contours",
+        "new props, flames, face, or lettering",
+        "fully polished vector-like fills"
+      ],
+      "requires_prior_elements": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout",
+        "highlights and shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout",
+        "highlights and shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "rocket planter shell",
+        "three lower fins",
+        "round window",
+        "two-leaf sprout",
+        "highlights and shadow",
+        "marker palette"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the launch garden",
+    "asset": "assets/cartoon-rocket-planter-with-sprout-finished-v2.jpg",
+    "visible_job": "Only complete the established marker fills, strengthen selected keeper contours, and add small highlight and shadow accents.",
+    "allowed_changes": [
+      "completion of established marker fills",
+      "selective keeper contour darkening",
+      "small highlights and shadow accents"
+    ]
+  },
+  "rejection_checks": [
+    "Panel 1 must remain under 30 percent structural completion and contain no closed fins, window, leaves, highlights, shadow, ink, or color.",
+    "Every later frame must add its assigned new geometry; only the fifth transition may rely mainly on darker line weight.",
+    "The first panel may use attachment ticks and gesture routes but may not preview future closed contours in pale gray.",
+    "Exactly three fins, one round window, one stem, and two leaves must persist after they are established.",
+    "Every major final color region must be visible in Panel 5 before the final completes the fills.",
+    "Reject any new flame, face, lettering, prop, vector-like finish, or non-cumulative redraw."
+  ]
+}

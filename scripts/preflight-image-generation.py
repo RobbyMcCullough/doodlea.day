@@ -100,7 +100,13 @@ def main() -> int:
         and args.allow_existing_backfill_slug == slug
         else None
     )
+    entry = ledger["entries"].get(slug)
     correction_mode = bool(tutorial_exists and correction_scope)
+    rejected_rework_mode = bool(
+        correction_scope
+        and entry
+        and entry.get("status") in {"rejected-quality", "rejected-duplicate"}
+    )
     if tutorial_exists and not correction_mode:
         print(
             f"FAIL tutorials/{slug}.html already exists. Corrections must be "
@@ -181,8 +187,12 @@ def main() -> int:
     )
 
     # 6. Lock the slug.
-    entry = ledger["entries"].get(slug)
-    if correction_mode or entry is None or entry.get("status") == "pending":
+    if (
+        correction_mode
+        or rejected_rework_mode
+        or entry is None
+        or entry.get("status") == "pending"
+    ):
         ledger["entries"][slug] = {
             "status": "pending",
             "date": date.today().isoformat(),
@@ -190,6 +200,9 @@ def main() -> int:
                 f"Published slug locked for an explicit {correction_scope} correction; "
                 "resolve before any new subject."
                 if correction_mode
+                else f"Rejected slug locked for an explicit {correction_scope} rework; "
+                "resolve before any new subject."
+                if rejected_rework_mode
                 else "Slug locked for image generation by preflight; resolve before any new subject."
             ),
         }

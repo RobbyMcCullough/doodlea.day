@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Check that tutorial step frames make visible cumulative progress.
 
-This is a guardrail for Sketcha.day publishing QA. It does not replace visual
-review, but it catches repeated or nearly unchanged frames before a lesson is
-committed.
+This is a guardrail for Doodlea.day publishing QA. It catches exact or nearly
+unchanged pixels, but it cannot tell whether a pale early contour is the same
+finished contour retraced darker later. The schema-v3 plan and semantic visual
+review remain mandatory.
 """
 
 from __future__ import annotations
@@ -177,6 +178,11 @@ def check_slug(slug: str, args: argparse.Namespace) -> bool:
             f"changed>20={delta.changed_pct_strong:.2f}%"
         )
         failed = failed or not ok
+
+    print(
+        f"{slug}: pixel deltas do not prove tutorial progression; confirm Panel 1 "
+        "is sparse construction and later frames add new geometry, not only darker tracing"
+    )
 
     if args.contact_sheet:
         if len(args.slugs) != 1:

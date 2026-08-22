@@ -16,7 +16,9 @@ Rules:
 - "scheduled" entries need a release_date; a past release_date fails so a
   stashed lesson cannot silently rot.
 - "rejected-quality", "rejected-duplicate", and "transferred" entries are
-  resolved states and always pass.
+  resolved states only while they have no generated public tutorial page.
+  Rejected art must not remain wired into `tutorials/` where it could be
+  committed accidentally.
 """
 
 from __future__ import annotations
@@ -80,6 +82,11 @@ def main() -> int:
         elif status == "published" and not published_page:
             failures.append(
                 f"drafts/{slug}/ is marked published but tutorials/{slug}.html does not exist."
+            )
+        elif status in RESOLVED and published_page:
+            failures.append(
+                f"drafts/{slug}/ is marked {status} but tutorials/{slug}.html exists; "
+                "remove the rejected integration or replace it with approved art before publishing."
             )
         elif status == "pending":
             if published_page:

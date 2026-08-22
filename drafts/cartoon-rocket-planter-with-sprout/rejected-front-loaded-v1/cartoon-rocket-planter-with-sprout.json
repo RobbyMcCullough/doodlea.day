@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-rocket-planter-with-sprout",
+  "finished": "assets/cartoon-rocket-planter-with-sprout-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Approved handmade raster 3x2 felt-tip-marker process contact sheet, cropped only after full-sheet review.","notes":"One friendly face-free rocket planter with a single sprout; no lettering or embedded UI."},
+  "process_strategy": "Six cumulative panels preserve one upright rocket planter: scaffold, rocket shell, fins and window, sprout, ink, then only bright marker fill and small highlights.",
+  "final_elements": [
+    {"name":"rocket planter shell","introduced_by_step":1,"description":"One upright rounded rocket with nose cone, open top rim, and three lower fins."},
+    {"name":"three lower fins","introduced_by_step":2,"description":"Exactly three rounded lower fins attached to the rocket shell."},
+    {"name":"round window","introduced_by_step":3,"description":"One circular blue window centered on the shell."},
+    {"name":"sprout","introduced_by_step":1,"description":"One curved stem with exactly two leaves emerging from the open top."},
+    {"name":"two-leaf sprout contour","introduced_by_step":4,"description":"The refined curved stem and exactly two leaves above the rim."},
+    {"name":"marker color and shadow","introduced_by_step":5,"description":"Red shell, teal window, green sprout, yellow fins, white shine marks, and a broken navy shadow."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element":"sprout","reserved_by_step":1,"background_lines_stop_before":"Rocket rim leaves the stem route open so the sprout reads as growing from inside."},
+    {"foreground_element":"three lower fins","reserved_by_step":1,"background_lines_stop_before":"Shell and ground-shadow lines stop at the three planned fin footprints."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-rocket-planter-with-sprout-step-1.jpg","step_name":"Map the rocket garden","visible_job":"Place one tall rocket oval, nose cone, open rim, three fin guides, window circle, one sprout stem with two leaf routes, shine gaps, and broken shadow reserve.","introduces":["rocket planter shell","sprout"]},
+    {"step":2,"asset":"assets/cartoon-rocket-planter-with-sprout-step-2.jpg","step_name":"Shape the planter","visible_job":"Connect the established shell, nose cone, open top rim, and three fin silhouettes while keeping sprout and window reserves open.","introduces":["three lower fins"],"requires_prior_elements":["rocket planter shell","sprout"]},
+    {"step":3,"asset":"assets/cartoon-rocket-planter-with-sprout-step-3.jpg","step_name":"Add the round window","visible_job":"Draw the one reserved round window and its simple inner ring.","introduces":["round window"],"requires_prior_elements":["rocket planter shell"]},
+    {"step":4,"asset":"assets/cartoon-rocket-planter-with-sprout-step-4.jpg","step_name":"Grow two leaves","visible_job":"Draw the established curved stem and exactly two leaves emerging above the rim.","introduces":["two-leaf sprout contour"],"requires_prior_elements":["rocket planter shell","sprout","round window"]},
+    {"step":5,"asset":"assets/cartoon-rocket-planter-with-sprout-step-5.jpg","step_name":"Ink the rocket garden","visible_job":"Trace only the established shell, three fins, window, stem, two leaves, shine gaps, and broken shadow with thick imperfect black marker.","introduces":["marker color and shadow"],"requires_prior_elements":["rocket planter shell","round window","sprout"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["rocket planter shell","sprout"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["rocket planter shell","three lower fins","sprout"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["rocket planter shell","three lower fins","round window","sprout"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["rocket planter shell","three lower fins","round window","sprout","two-leaf sprout contour"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["rocket planter shell","three lower fins","round window","sprout","two-leaf sprout contour","marker color and shadow"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Color the launch garden","asset":"assets/cartoon-rocket-planter-with-sprout-finished-v1.jpg","visible_job":"Only fill established shapes with marker color, preserve shine gaps, and clarify existing contours and shadow.","allowed_changes":["marker color","keeper contour darkening","small highlights and shadow accents"]},
+  "rejection_checks":["Reject any panel that changes the rocket silhouette, three-fin count, window, stem, or two-leaf count.","Reject a final that introduces a new prop, flame, face, lettering, or color region absent in an earlier panel.","Reject clean vector-like marks, poster finish, or a non-cumulative redraw."]
+}
