@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "slug": "cartoon-bubble-tea-cup",
+  "finished": "assets/cartoon-bubble-tea-cup-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Approved raster contact sheet cropped from one consistent handmade marker process.","notes":"One upright clear cup, domed lid, thick straw, exactly nine tapioca pearls, a winking left eye, raised right eyebrow, open angled smile, two tiny cheek marks, ice cubes, highlights, and a short shadow remain stable."},
+  "process_strategy": "Six cumulative felt-tip panels move from pale construction to a bold outlined and brightly filled cup; marker color only lands on already established forms.",
+  "final_elements": [
+    {"name":"cup and lid","introduced_by_step":1,"description":"One tall tapered cup with one domed lid and rim."},
+    {"name":"straw","introduced_by_step":1,"description":"One thick diagonal striped straw through the lid."},
+    {"name":"nine pearls and ice","introduced_by_step":1,"description":"Exactly nine round pearls at the base and three simple ice shapes above."},
+    {"name":"winking face","introduced_by_step":1,"description":"One left wink, one open right eye under a raised brow, angled open smile, and two cheek marks."},
+    {"name":"highlights and shadow","introduced_by_step":1,"description":"Two paper highlight gaps and one short warm-gray shadow."},
+    {"name":"marker color","introduced_by_step":5,"description":"Peach tea, coral pearls, aqua lid and straw, and dark black outlines with visible marker streaks."}
+  ],
+  "overlap_reservations": [{"foreground_element":"pearls and straw","reserved_by_step":1,"background_lines_stop_before":"Tea fill stops around the nine pearl circles and straw; lid rim stops at the straw footprint."}],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-bubble-tea-cup-step-1.jpg","step_name":"Block the bubbly build","visible_job":"Place pale cup, lid, straw, nine pearl circles, three ice shapes, face anchors, highlights, and shadow.","introduces":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"]},
+    {"step":2,"asset":"assets/cartoon-bubble-tea-cup-step-2.jpg","step_name":"Shape the cup and lid","visible_job":"Connect the same taper, dome, rim, and straw without inking or coloring.","introduces":[],"requires_prior_elements":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"]},
+    {"step":3,"asset":"assets/cartoon-bubble-tea-cup-step-3.jpg","step_name":"Set the pearls and ice","visible_job":"Clarify exactly nine pearls and three ice shapes on their existing guides.","introduces":[],"requires_prior_elements":["cup and lid","straw","nine pearls and ice"]},
+    {"step":4,"asset":"assets/cartoon-bubble-tea-cup-step-4.jpg","step_name":"Give it a cheeky face","visible_job":"Add the planned wink, open eye, raised eyebrow, angled smile, and two cheek marks.","introduces":[],"requires_prior_elements":["cup and lid","winking face"]},
+    {"step":5,"asset":"assets/cartoon-bubble-tea-cup-step-5.jpg","step_name":"Ink and fill the tea","visible_job":"Add bold black outlines and saturated marker fills to established cup parts.","introduces":["marker color"],"requires_prior_elements":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["cup and lid","straw","nine pearls and ice","winking face","highlights and shadow","marker color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Serve the bright bubble tea","asset":"assets/cartoon-bubble-tea-cup-finished-v1.jpg","visible_job":"Only reinforce established outlines, marker fills, paper highlights, and the same shadow.","allowed_changes":["keeper outline darkening","marker fill refinement","small highlight clarification"]},
+  "rejection_checks":["No face feature or pearl first appears after it is inked or colored.","Exactly nine pearls persist in every later panel.","The cup stays upright and at the same scale throughout.","No labels, lettering, logo, border, or extra prop appears."]
+}

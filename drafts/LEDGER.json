@@ -6,6 +6,11 @@
       "date": "2026-07-19",
       "note": "Reviewed six-panel halo-and-wings process promoted after crop, feather-count, frame-delta, delivery-image, and visual checks."
     },
+    "august-20-preflight-probe": {
+      "status": "rejected-quality",
+      "date": "2026-08-20",
+      "note": "Diagnostic preflight probe only; no image generation or draft folder was created. Resolved immediately so it cannot block the next approved lesson."
+    },
     "badminton-shuttlecock-in-motion": {
       "status": "published"
     },
@@ -52,6 +57,11 @@
       "status": "published",
       "date": "2026-08-03",
       "note": "Published as the honest 2026-05-08 archive lesson from an approved six-panel raster marker-process sheet."
+    },
+    "cartoon-bubble-tea-cup": {
+      "status": "rejected-quality",
+      "date": "2026-08-18",
+      "note": "Stopped before publication: the private raster sheet is visually strong and count-stable, but crop, page integration, readiness, rendered QA, and commit were not completed in this run. Regenerate or explicitly re-approve before use."
     },
     "cartoon-bumblebee": {
       "status": "published"
