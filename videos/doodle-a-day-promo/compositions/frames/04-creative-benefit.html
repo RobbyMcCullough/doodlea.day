@@ -1,0 +1,379 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Caveat Brush";
+      src: url("assets/fonts/Caveat_Brush_Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM_Sans_Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #28251f;
+    }
+
+    .hf-04-creative-benefit-ground {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background-color: #fbe9c3;
+      background-image: radial-gradient(rgba(40, 37, 31, 0.2) 1.4px, transparent 1.4px);
+      background-size: 24px 24px;
+    }
+
+    .hf-04-creative-benefit-ground::before,
+    .hf-04-creative-benefit-ground::after {
+      content: "";
+      position: absolute;
+      width: 250px;
+      height: 72px;
+      border: 3px solid #28251f;
+      background: repeating-linear-gradient(
+        45deg,
+        #f2b83d 0,
+        #f2b83d 18px,
+        #28251f 18px,
+        #28251f 22px,
+        #fffdf6 22px,
+        #fffdf6 40px
+      );
+    }
+
+    .hf-04-creative-benefit-ground::before {
+      top: 24px;
+      left: -54px;
+      rotate: -7deg;
+    }
+
+    .hf-04-creative-benefit-ground::after {
+      top: 30px;
+      right: -72px;
+      rotate: 8deg;
+    }
+
+    .hf-04-creative-benefit-stage {
+      position: absolute;
+      inset: 0;
+      box-sizing: border-box;
+      padding: 70px 70px 180px;
+      display: grid;
+      place-items: center;
+    }
+
+    .hf-04-creative-benefit-art {
+      position: absolute;
+      top: 540px;
+      left: 540px;
+      width: 190px;
+      height: 190px;
+      box-sizing: border-box;
+      border: 3px solid #28251f;
+      background: #fffdf6;
+      box-shadow: 4px 4px 0 #28251f;
+      overflow: hidden;
+      will-change: transform, opacity;
+      z-index: 2;
+    }
+
+    .hf-04-creative-benefit-art img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hf-04-creative-benefit-hat {
+      rotate: -4deg;
+    }
+
+    .hf-04-creative-benefit-chicken {
+      rotate: 3deg;
+    }
+
+    .hf-04-creative-benefit-bee {
+      rotate: 3deg;
+    }
+
+    .hf-04-creative-benefit-cone {
+      rotate: -3deg;
+    }
+
+    .hf-04-creative-benefit-markers {
+      position: absolute;
+      left: 430px;
+      top: 584px;
+      width: 220px;
+      height: 220px;
+      object-fit: contain;
+      image-rendering: auto;
+      will-change: transform, opacity;
+      z-index: 3;
+    }
+
+    .hf-04-creative-benefit-message {
+      position: relative;
+      z-index: 4;
+      width: 670px;
+      min-height: 370px;
+      box-sizing: border-box;
+      border: 4px solid #28251f;
+      background: #fffdf6;
+      box-shadow: 8px 8px 0 #28251f;
+      padding: 45px 52px 42px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      align-items: center;
+      justify-items: center;
+      gap: 24px;
+      text-align: center;
+      will-change: transform, opacity;
+    }
+
+    .hf-04-creative-benefit-kicker {
+      position: relative;
+      z-index: 3;
+      box-sizing: border-box;
+      border: 3px solid #28251f;
+      border-radius: 9999px;
+      background: #e1adbd;
+      box-shadow: 4px 4px 0 #28251f;
+      padding: 10px 25px 9px;
+      color: #28251f;
+      font-family: "DM Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      will-change: transform, opacity;
+    }
+
+    .hf-04-creative-benefit-phrase-wrap {
+      position: relative;
+      width: 100%;
+      min-height: 188px;
+      display: grid;
+      place-items: center;
+    }
+
+    .hf-04-creative-benefit-highlight {
+      position: absolute;
+      left: 2px;
+      right: 2px;
+      top: 22px;
+      height: 146px;
+      z-index: 0;
+      background: #f2b83d;
+      opacity: 0.72;
+      clip-path: polygon(0 15%, 100% 0, 97% 89%, 2% 100%);
+      will-change: transform;
+    }
+
+    .hf-04-creative-benefit-phrase {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 188px;
+      display: grid;
+      place-items: center;
+      color: #28251f;
+      font-family: "Caveat Brush", cursive;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 0.93;
+      letter-spacing: -0.025em;
+      text-transform: uppercase;
+      white-space: pre-line;
+      will-change: transform, opacity;
+    }
+
+    .hf-04-creative-benefit-phrase[data-state="real"] {
+      color: #ad3e60;
+    }
+
+    .hf-04-creative-benefit-stroke {
+      position: absolute;
+      left: 50px;
+      right: 50px;
+      bottom: 3px;
+      z-index: 3;
+      width: calc(100% - 100px);
+      height: 25px;
+      overflow: visible;
+    }
+  </style>
+
+  <div data-hf-id="hf-g70u" id="root" data-composition-id="04-creative-benefit" data-start="0" data-width="1080" data-height="1080" data-duration="6.2">
+    <div data-hf-id="hf-f1xn" class="clip hf-04-creative-benefit-ground" data-start="0" data-duration="6.2" data-track-index="0"></div>
+
+    <section data-hf-id="hf-ew2x" class="clip hf-04-creative-benefit-stage" data-start="0" data-duration="6.2" data-track-index="1">
+      <div data-hf-id="hf-4g37" class="hf-04-creative-benefit-art hf-04-creative-benefit-hat" data-target-x="-399" data-target-y="-353">
+        <img data-hf-id="hf-lc24" src="assets/cowboy-hat-finished.webp" alt="">
+      </div>
+
+      <div data-hf-id="hf-1338" class="hf-04-creative-benefit-art hf-04-creative-benefit-chicken" data-target-x="399" data-target-y="-353">
+        <img data-hf-id="hf-ptlg" src="assets/lets-draw-a-cartoon-chicken.webp" alt="">
+      </div>
+
+      <div data-hf-id="hf-b4oe" class="hf-04-creative-benefit-art hf-04-creative-benefit-bee" data-target-x="-399" data-target-y="235">
+        <img data-hf-id="hf-8439" src="assets/cartoon-bumblebee-finished-v1.webp" alt="">
+      </div>
+
+      <div data-hf-id="hf-frz0" class="hf-04-creative-benefit-art hf-04-creative-benefit-cone" data-target-x="399" data-target-y="235">
+        <img data-hf-id="hf-lcdr" src="assets/cartoon-traffic-cone-finished-v1.webp" alt="">
+      </div>
+
+      <img data-hf-id="hf-a4ba" class="hf-04-creative-benefit-markers" src="assets/markers-v2.webp" alt="">
+
+      <div data-hf-id="hf-o3gj" class="hf-04-creative-benefit-message">
+        <div data-hf-id="hf-wq9n" class="hf-04-creative-benefit-kicker">A FUN WAY TO MAKE</div>
+
+        <div data-hf-id="hf-0wce" class="hf-04-creative-benefit-phrase-wrap">
+          <span data-hf-id="hf-c86j" id="hf-04-creative-benefit-highlight" class="hf-04-creative-benefit-highlight"></span>
+          <div data-hf-id="hf-5wuo" id="hf-04-creative-benefit-phrase" class="hf-04-creative-benefit-phrase"></div>
+          <svg data-hf-id="hf-6joy" class="hf-04-creative-benefit-stroke" viewBox="0 0 500 24" preserveAspectRatio="none" aria-hidden="true">
+            <path data-hf-id="hf-b9oi" id="hf-04-creative-benefit-stroke-path" d="M0,13 Q32,2 65,13 Q98,23 131,12 Q164,2 197,13 Q230,23 263,12 Q296,2 329,13 Q362,23 395,12 Q428,2 461,13 Q481,19 500,10" fill="none" stroke="#f2b83d" stroke-width="7" stroke-linecap="round" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+
+      const hf04Timeline = gsap.timeline({ paused: true });
+      window.__timelines["04-creative-benefit"] = hf04Timeline;
+
+      const hf04Phrase = document.querySelector("#hf-04-creative-benefit-phrase");
+      const hf04Highlight = document.querySelector("#hf-04-creative-benefit-highlight");
+      const hf04Stroke = document.querySelector("#hf-04-creative-benefit-stroke-path");
+      const hf04StrokeLength = hf04Stroke.getTotalLength();
+
+      gsap.set(hf04Highlight, { scaleX: 0, skewX: -2, transformOrigin: "left center" });
+      gsap.set(hf04Stroke, { strokeDasharray: hf04StrokeLength, strokeDashoffset: hf04StrokeLength });
+
+      const hf04Content = [
+        { key: "empty", text: "", state: "empty", duration: 1.6 },
+        { key: "digital", text: "OUT OF THE\nDIGITAL REALM", state: "digital", duration: 2.3 },
+        { key: "real", text: "INTO THE\nREAL WORLD.", state: "real", duration: 1.9 }
+      ];
+
+      let hf04Cumulative = 0;
+      const hf04States = hf04Content.map((entry) => {
+        const state = { ...entry, t: hf04Cumulative };
+        hf04Cumulative += entry.duration;
+        return state;
+      });
+
+      function hf04StateAt(time) {
+        for (let i = hf04States.length - 1; i >= 0; i -= 1) {
+          if (time >= hf04States[i].t) return hf04States[i];
+        }
+        return hf04States[0];
+      }
+
+      const hf04TextDriver = { t: 0 };
+      let hf04LastState = "";
+
+      hf04Timeline.to(hf04TextDriver, {
+        t: 5.8,
+        duration: 5.8,
+        ease: "none",
+        onUpdate: () => {
+          const next = hf04StateAt(hf04TextDriver.t);
+          if (next.key !== hf04LastState) {
+            hf04Phrase.textContent = next.text;
+            hf04Phrase.dataset.state = next.state;
+            hf04LastState = next.key;
+          }
+        }
+      }, 0);
+
+      hf04Timeline.fromTo(
+        ".hf-04-creative-benefit-message",
+        { scale: 0.94, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.48, ease: "power3.out" },
+        0
+      );
+
+      hf04Timeline.fromTo(
+        ".hf-04-creative-benefit-kicker",
+        { y: 18, scale: 0.88, opacity: 0 },
+        { y: 0, scale: 1, opacity: 1, duration: 0.62, ease: "back.out(1.5)" },
+        0.18
+      );
+
+      const hf04ArtEntrances = [
+        { selector: ".hf-04-creative-benefit-chicken", at: 0.04 },
+        { selector: ".hf-04-creative-benefit-hat", at: 0.16 },
+        { selector: ".hf-04-creative-benefit-bee", at: 1.68 },
+        { selector: ".hf-04-creative-benefit-cone", at: 1.8 }
+      ];
+
+      hf04ArtEntrances.forEach(({ selector, at }) => {
+        const element = document.querySelector(selector);
+        hf04Timeline.fromTo(
+          element,
+          { xPercent: -50, yPercent: -50, x: 0, y: 0, scale: 0.6, opacity: 0 },
+          {
+            xPercent: -50,
+            yPercent: -50,
+            x: Number(element.dataset.targetX),
+            y: Number(element.dataset.targetY),
+            scale: 1,
+            opacity: 1,
+            duration: 1.02,
+            ease: "power3.out"
+          },
+          at
+        );
+      });
+
+      hf04Timeline.fromTo(
+        ".hf-04-creative-benefit-phrase",
+        { scale: 0.94, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.46, ease: "power3.out", immediateRender: false },
+        1.6
+      );
+
+      hf04Timeline.fromTo(
+        ".hf-04-creative-benefit-markers",
+        { y: 76, rotation: -18, scale: 0.62, opacity: 0 },
+        { y: 0, rotation: -8, scale: 1, opacity: 1, duration: 0.78, ease: "power3.out" },
+        3.92
+      );
+
+      hf04Timeline.fromTo(
+        ".hf-04-creative-benefit-phrase",
+        { scale: 0.96, opacity: 0.25 },
+        { scale: 1, opacity: 1, duration: 0.42, ease: "power3.out", immediateRender: false },
+        3.9
+      );
+
+      hf04Timeline.to(
+        hf04Highlight,
+        { scaleX: 1, duration: 0.68, ease: "power2.out" },
+        3.96
+      );
+
+      hf04Timeline.to(
+        hf04Stroke,
+        { strokeDashoffset: 0, duration: 1.22, ease: "power1.inOut" },
+        4.28
+      );
+    </script>
+  </div>
+</template>

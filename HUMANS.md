@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-08-25 — Private-draft cleanup (Codex)
+
+- Recorded `cartoon-bubble-tea-cup` as a rejected private contact-sheet draft;
+  it is not integrated into the site and needs regeneration or explicit
+  re-approval before any future owner-authorized repair. The current-only
+  one-lesson-per-site cadence remains active.
+
 ## 2026-08-22 — Marker-process progression guard (Codex)
 
 - Owner review rejected the uncommitted `cartoon-rocket-planter-with-sprout`
@@ -426,6 +433,33 @@
   one beak, two eyes, one scarf with three pale stripe bands, and a broken blue
   shadow cumulative through finish. The one-current-lesson-per-site cadence
   remains active; routine backfills remain off.
+- 2026-08-14 daily automation added one current lesson only:
+  `cartoon-wizard-hat-with-stars` (August 14 / Day 101). Its reviewed
+  six-panel handmade raster process moves from sparse brim-and-cone guides to
+  a floppy hat, one crescent buckle, exactly three stars, thick black marker,
+  and bright purple/orange/yellow fills. The finished doodle rates 8.9/10 for
+  readable silhouette, warm marker grain, a genuinely teachable construction
+  sequence, and an attainable 15-minute finish. Private v1 was rejected for
+  premature detail and v2 for portrait crops. Readiness, JSON-LD, delivery
+  images, contact-sheet deltas, desktop/mobile homepage-library-tutorial QA,
+  and diff checks passed. One-current-per-site cadence remains active; routine
+  backfills remain off.
+- 2026-07-29 the 30-second square X/Twitter launch video under
+  `videos/doodle-a-day-promo/` reached final preview. The owner approved five
+  wireframe layouts; all five production frames are animated with 13 real
+  site/tutorial assets, styled captions, and subtle local paper/marker SFX.
+  The assembled cut is 29.999 seconds with four verified transitions. Lint,
+  runtime, layout, contrast, caption-zone, media-frame, and midpoint/cut
+  snapshot checks pass on HyperFrames 0.7.83. Final render still requires the
+  owner's explicit approval after reviewing
+  `http://localhost:3002/#project/doodle-a-day-promo`.
+- The owner recorded two tighter microphone takes. `Doodle2` was selected for
+  its stronger signal and more relaxed pacing, ingested unchanged as
+  `.media/audio/voice/voice_003.aifc`, extracted from channel 1 and normalized
+  into `.media/audio/voice/voice_004.wav`, then split into five timed frame
+  files (`voice_005.wav` through `voice_009.wav`). The exact 69-word read and
+  word timings drive the 29 caption groups. Keep the user's voice, no music,
+  no HeyGen, and only subtle local SFX.
 - 2026-07-29 daily automation added owner-requested current
   `cartoon-chicken` (July 29 / Day 078) and honest archive
   `cartoon-gumball-machine` (May 13 / Day 001). The easy 15-minute chicken
@@ -1259,6 +1293,12 @@
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
 
+- 2026-08-13 daily automation published the one-current-lesson Doodlea cadence
+  entry `cartoon-paintbrush-with-rainbow-paint` (Day 100). Its approved
+  eight-panel handmade marker contact sheet rates 8.7/10; the active cadence
+  remains exactly one current tutorial per sister site, with no routine
+  backfills.
+
 ## 2026-07-30 Daily Lessons
 - Published `cartoon-soda-can-with-fizz` as the July 30 / Day 080 current lesson
   and `cartoon-birthday-cake-slice` as the honest May 12 / Day 001 archive
@@ -1528,14 +1568,3 @@
   `a cartoon` / `asteroid` / `doodle`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
-- 2026-08-14 daily automation added one current lesson only:
-  `cartoon-wizard-hat-with-stars` (August 14 / Day 101). Its reviewed
-  six-panel handmade raster process moves from sparse brim-and-cone guides to
-  a floppy hat, one crescent buckle, exactly three stars, thick black marker,
-  and bright purple/orange/yellow fills. The finished doodle rates 8.9/10 for
-  readable silhouette, warm marker grain, a genuinely teachable construction
-  sequence, and an attainable 15-minute finish. Private v1 was rejected for
-  premature detail and v2 for portrait crops. Readiness, JSON-LD, delivery
-  images, contact-sheet deltas, desktop/mobile homepage-library-tutorial QA,
-  and diff checks passed. One-current-per-site cadence remains active; routine
-  backfills remain off.

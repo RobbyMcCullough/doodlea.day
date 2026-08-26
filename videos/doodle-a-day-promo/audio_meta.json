@@ -1,0 +1,505 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": ".media/audio/voice/reference/voice_005-reference.m4a",
+      "duration_s": 6.4,
+      "words": [
+        {
+          "id": "f1w0",
+          "text": "I",
+          "start": 0,
+          "end": 0.1
+        },
+        {
+          "id": "f1w1",
+          "text": "was",
+          "start": 0.1,
+          "end": 0.42
+        },
+        {
+          "id": "f1w2",
+          "text": "making",
+          "start": 0.42,
+          "end": 1.06
+        },
+        {
+          "id": "f1w3",
+          "text": "my",
+          "start": 1.06,
+          "end": 1.27
+        },
+        {
+          "id": "f1w4",
+          "text": "girlfriend",
+          "start": 1.47,
+          "end": 2.33
+        },
+        {
+          "id": "f1w5",
+          "text": "a",
+          "start": 2.33,
+          "end": 2.43
+        },
+        {
+          "id": "f1w6",
+          "text": "birthday",
+          "start": 2.43,
+          "end": 3.26
+        },
+        {
+          "id": "f1w7",
+          "text": "card",
+          "start": 3.28,
+          "end": 3.61
+        },
+        {
+          "id": "f1w8",
+          "text": "and",
+          "start": 3.75,
+          "end": 4
+        },
+        {
+          "id": "f1w9",
+          "text": "I",
+          "start": 4,
+          "end": 4.06
+        },
+        {
+          "id": "f1w10",
+          "text": "wanted",
+          "start": 4.06,
+          "end": 4.42
+        },
+        {
+          "id": "f1w11",
+          "text": "to",
+          "start": 4.42,
+          "end": 4.54
+        },
+        {
+          "id": "f1w12",
+          "text": "draw",
+          "start": 4.54,
+          "end": 4.72
+        },
+        {
+          "id": "f1w13",
+          "text": "a",
+          "start": 4.72,
+          "end": 4.84
+        },
+        {
+          "id": "f1w14",
+          "text": "cowboy",
+          "start": 4.84,
+          "end": 5.2
+        },
+        {
+          "id": "f1w15",
+          "text": "hat.",
+          "start": 5.2,
+          "end": 6.4
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": ".media/audio/voice/reference/voice_006-reference.m4a",
+      "duration_s": 8.08,
+      "words": [
+        {
+          "id": "f2w0",
+          "text": "So",
+          "start": 0,
+          "end": 0.18
+        },
+        {
+          "id": "f2w1",
+          "text": "I",
+          "start": 0.18,
+          "end": 0.27
+        },
+        {
+          "id": "f2w2",
+          "text": "used",
+          "start": 0.27,
+          "end": 0.63
+        },
+        {
+          "id": "f2w3",
+          "text": "chat",
+          "start": 0.63,
+          "end": 0.99
+        },
+        {
+          "id": "f2w4",
+          "text": "GPT",
+          "start": 0.99,
+          "end": 1.26
+        },
+        {
+          "id": "f2w5",
+          "text": "to",
+          "start": 1.26,
+          "end": 1.47
+        },
+        {
+          "id": "f2w6",
+          "text": "create",
+          "start": 1.47,
+          "end": 1.96
+        },
+        {
+          "id": "f2w7",
+          "text": "a",
+          "start": 2.01,
+          "end": 2.07
+        },
+        {
+          "id": "f2w8",
+          "text": "step-by-step",
+          "start": 2.07,
+          "end": 3.15
+        },
+        {
+          "id": "f2w9",
+          "text": "drawing",
+          "start": 3.15,
+          "end": 3.78
+        },
+        {
+          "id": "f2w10",
+          "text": "tutorial",
+          "start": 3.78,
+          "end": 4.52
+        },
+        {
+          "id": "f2w11",
+          "text": "and",
+          "start": 4.52,
+          "end": 4.6
+        },
+        {
+          "id": "f2w12",
+          "text": "that",
+          "start": 4.6,
+          "end": 4.71
+        },
+        {
+          "id": "f2w13",
+          "text": "gave",
+          "start": 4.72,
+          "end": 4.87
+        },
+        {
+          "id": "f2w14",
+          "text": "me",
+          "start": 4.88,
+          "end": 5
+        },
+        {
+          "id": "f2w15",
+          "text": "the",
+          "start": 5,
+          "end": 5.12
+        },
+        {
+          "id": "f2w16",
+          "text": "idea",
+          "start": 5.12,
+          "end": 5.49
+        },
+        {
+          "id": "f2w17",
+          "text": "for",
+          "start": 5.92,
+          "end": 6.32
+        },
+        {
+          "id": "f2w18",
+          "text": "Doodle",
+          "start": 6.32,
+          "end": 7.12
+        },
+        {
+          "id": "f2w19",
+          "text": "a",
+          "start": 7.12,
+          "end": 7.25
+        },
+        {
+          "id": "f2w20",
+          "text": "Day.",
+          "start": 7.39,
+          "end": 8.08
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": ".media/audio/voice/reference/voice_007-reference.m4a",
+      "duration_s": 5,
+      "words": [
+        {
+          "id": "f3w0",
+          "text": "Every",
+          "start": 0,
+          "end": 0.43
+        },
+        {
+          "id": "f3w1",
+          "text": "day",
+          "start": 0.43,
+          "end": 0.68
+        },
+        {
+          "id": "f3w2",
+          "text": "there's",
+          "start": 0.68,
+          "end": 1.28
+        },
+        {
+          "id": "f3w3",
+          "text": "a",
+          "start": 1.28,
+          "end": 1.35
+        },
+        {
+          "id": "f3w4",
+          "text": "new",
+          "start": 1.47,
+          "end": 1.61
+        },
+        {
+          "id": "f3w5",
+          "text": "kid",
+          "start": 1.61,
+          "end": 1.86
+        },
+        {
+          "id": "f3w6",
+          "text": "and",
+          "start": 1.86,
+          "end": 2.11
+        },
+        {
+          "id": "f3w7",
+          "text": "family-friendly",
+          "start": 2.11,
+          "end": 3.38
+        },
+        {
+          "id": "f3w8",
+          "text": "drawing",
+          "start": 3.38,
+          "end": 3.98
+        },
+        {
+          "id": "f3w9",
+          "text": "tutorial.",
+          "start": 3.98,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": ".media/audio/voice/reference/voice_008-reference.m4a",
+      "duration_s": 5.8,
+      "words": [
+        {
+          "id": "f4w0",
+          "text": "It's",
+          "start": 0,
+          "end": 0.32
+        },
+        {
+          "id": "f4w1",
+          "text": "been",
+          "start": 0.32,
+          "end": 0.64
+        },
+        {
+          "id": "f4w2",
+          "text": "a",
+          "start": 0.64,
+          "end": 0.72
+        },
+        {
+          "id": "f4w3",
+          "text": "fun",
+          "start": 0.72,
+          "end": 0.96
+        },
+        {
+          "id": "f4w4",
+          "text": "way",
+          "start": 0.96,
+          "end": 1.2
+        },
+        {
+          "id": "f4w5",
+          "text": "for",
+          "start": 1.2,
+          "end": 1.47
+        },
+        {
+          "id": "f4w6",
+          "text": "me",
+          "start": 1.47,
+          "end": 1.6
+        },
+        {
+          "id": "f4w7",
+          "text": "to",
+          "start": 1.6,
+          "end": 1.75
+        },
+        {
+          "id": "f4w8",
+          "text": "bring",
+          "start": 1.75,
+          "end": 2.16
+        },
+        {
+          "id": "f4w9",
+          "text": "AI",
+          "start": 2.16,
+          "end": 2.31
+        },
+        {
+          "id": "f4w10",
+          "text": "out",
+          "start": 2.31,
+          "end": 2.56
+        },
+        {
+          "id": "f4w11",
+          "text": "of",
+          "start": 2.56,
+          "end": 2.72
+        },
+        {
+          "id": "f4w12",
+          "text": "the",
+          "start": 2.72,
+          "end": 2.96
+        },
+        {
+          "id": "f4w13",
+          "text": "digital",
+          "start": 2.96,
+          "end": 3.53
+        },
+        {
+          "id": "f4w14",
+          "text": "realm",
+          "start": 3.53,
+          "end": 3.93
+        },
+        {
+          "id": "f4w15",
+          "text": "and",
+          "start": 3.93,
+          "end": 4.17
+        },
+        {
+          "id": "f4w16",
+          "text": "into",
+          "start": 4.17,
+          "end": 4.47
+        },
+        {
+          "id": "f4w17",
+          "text": "the",
+          "start": 4.5,
+          "end": 4.72
+        },
+        {
+          "id": "f4w18",
+          "text": "real",
+          "start": 4.84,
+          "end": 5.05
+        },
+        {
+          "id": "f4w19",
+          "text": "world.",
+          "start": 5.05,
+          "end": 5.78
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": ".media/audio/voice/reference/voice_009-reference.m4a",
+      "duration_s": 4.719333,
+      "words": [
+        {
+          "id": "f5w0",
+          "text": "Happy",
+          "start": 0,
+          "end": 0.23
+        },
+        {
+          "id": "f5w1",
+          "text": "doodling!",
+          "start": 0.23,
+          "end": 0.64
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "frame": 1,
+      "file": ".media/audio/sfx/sfx_001.mp3",
+      "offset_s": 1.3,
+      "duration_s": 0.574688,
+      "volume": 0.12
+    },
+    {
+      "frame": 2,
+      "file": ".media/audio/sfx/sfx_001.mp3",
+      "offset_s": 1.5,
+      "duration_s": 0.574688,
+      "volume": 0.1
+    },
+    {
+      "frame": 3,
+      "file": ".media/audio/sfx/sfx_003.mp3",
+      "offset_s": 0.95,
+      "duration_s": 0.72,
+      "volume": 0.09
+    },
+    {
+      "frame": 3,
+      "file": ".media/audio/sfx/sfx_003.mp3",
+      "offset_s": 2.15,
+      "duration_s": 0.72,
+      "volume": 0.08
+    },
+    {
+      "frame": 3,
+      "file": ".media/audio/sfx/sfx_003.mp3",
+      "offset_s": 3.45,
+      "duration_s": 0.72,
+      "volume": 0.08
+    },
+    {
+      "frame": 4,
+      "file": ".media/audio/sfx/sfx_001.mp3",
+      "offset_s": 3.9,
+      "duration_s": 0.574688,
+      "volume": 0.08
+    },
+    {
+      "frame": 5,
+      "file": ".media/audio/sfx/sfx_002.mp3",
+      "offset_s": 0.65,
+      "duration_s": 0.365688,
+      "volume": 0.1
+    }
+  ]
+}

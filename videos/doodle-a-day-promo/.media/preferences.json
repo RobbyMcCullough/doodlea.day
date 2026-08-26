@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "preferences": {
+    "destination": {
+      "value": "x-feed",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:32:47.223Z"
+    },
+    "aspect": {
+      "value": "1080x1080",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:32:47.549Z"
+    },
+    "language": {
+      "value": "en",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:32:47.834Z"
+    },
+    "flow": {
+      "value": "automation",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:32:48.034Z"
+    },
+    "storyboard": {
+      "value": "yes",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:32:48.193Z"
+    },
+    "style_preset.product-launch-video": {
+      "value": "blockframe",
+      "confirmed_in": [
+        "doodle-a-day-promo"
+      ],
+      "updated_at": "2026-07-29T21:38:39.065Z"
+    }
+  },
+  "sightings": {}
+}

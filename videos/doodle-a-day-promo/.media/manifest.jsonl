@@ -1,0 +1,8 @@
+{"id":"voice_005","type":"voice","path":".media/audio/voice/reference/voice_005-reference.m4a","source":"archived","description":"01-origin compact reference","provenance":{"provider":"local","from":"selected Doodle2 take"}}
+{"id":"voice_006","type":"voice","path":".media/audio/voice/reference/voice_006-reference.m4a","source":"archived","description":"02-idea compact reference","provenance":{"provider":"local","from":"selected Doodle2 take"}}
+{"id":"voice_007","type":"voice","path":".media/audio/voice/reference/voice_007-reference.m4a","source":"archived","description":"03-daily compact reference","provenance":{"provider":"local","from":"selected Doodle2 take"}}
+{"id":"voice_008","type":"voice","path":".media/audio/voice/reference/voice_008-reference.m4a","source":"archived","description":"04-real-world compact reference","provenance":{"provider":"local","from":"selected Doodle2 take"}}
+{"id":"voice_009","type":"voice","path":".media/audio/voice/reference/voice_009-reference.m4a","source":"archived","description":"05-happy-doodling compact reference","provenance":{"provider":"local","from":"selected Doodle2 take"}}
+{"id":"sfx_001","type":"sfx","path":".media/audio/sfx/sfx_001.mp3","source":"ingested","description":"whoosh-short.mp3","provenance":{"provider":"local","from":"bundled media-use SFX"}}
+{"id":"sfx_002","type":"sfx","path":".media/audio/sfx/sfx_002.mp3","source":"ingested","description":"click-soft.mp3","provenance":{"provider":"local","from":"bundled media-use SFX"}}
+{"id":"sfx_003","type":"sfx","path":".media/audio/sfx/sfx_003.mp3","source":"ingested","description":"pop.mp3","provenance":{"provider":"local","from":"bundled media-use SFX"}}

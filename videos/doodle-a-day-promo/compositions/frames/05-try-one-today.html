@@ -1,0 +1,224 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Caveat Brush";
+      src: url("assets/fonts/Caveat_Brush_Regular.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM_Sans_Bold.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      color: #fffdf6;
+      container-type: size;
+    }
+
+    [id="05-try-one-today-ground"] {
+      position: absolute;
+      inset: 0;
+      background-color: #28251f;
+      overflow: hidden;
+    }
+
+    [id="05-try-one-today-ground"]::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle, #fffdf6 1.5px, transparent 1.7px);
+      background-size: 24px 24px;
+      opacity: 0.07;
+    }
+
+    [id="05-try-one-today-stage"] {
+      position: absolute;
+      inset: 0;
+      box-sizing: border-box;
+      padding: 86px 86px 180px;
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 52px;
+      align-items: center;
+    }
+
+    [id="05-try-one-today-copy"] {
+      display: grid;
+      gap: 26px;
+      align-content: center;
+      justify-items: start;
+    }
+
+    [id="05-try-one-today-logo"] {
+      display: block;
+      width: 104px;
+      height: 104px;
+      object-fit: contain;
+      transform-origin: 50% 50%;
+      will-change: transform, opacity;
+    }
+
+    [id="05-try-one-today-headline"] {
+      margin: 0;
+      color: #fffdf6;
+      font-family: "Caveat Brush";
+      font-size: 90px;
+      font-weight: 400;
+      line-height: 0.92;
+      letter-spacing: -0.03em;
+      white-space: nowrap;
+      transform-origin: 0% 50%;
+      will-change: transform, opacity;
+    }
+
+    [id="05-try-one-today-underline-wrap"] {
+      position: relative;
+      width: 438px;
+      height: 24px;
+    }
+
+    [id="05-try-one-today-underline"] {
+      display: block;
+      width: 100%;
+      height: 24px;
+      overflow: visible;
+    }
+
+    [id="05-try-one-today-url"] {
+      min-height: 42px;
+      color: #fffdf6;
+      font-family: "DM Sans";
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: 0.015em;
+      white-space: nowrap;
+    }
+
+    [id="05-try-one-today-url"] span {
+      display: inline-block;
+      will-change: transform, opacity;
+    }
+
+    [id="05-try-one-today-media"] {
+      position: relative;
+      height: 470px;
+      border: 4px solid #fffdf6;
+      background: #fffdf6;
+      box-shadow: 12px 12px 0 #f2b83d;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      box-sizing: border-box;
+      overflow: hidden;
+      transform-origin: 50% 50%;
+      will-change: transform, opacity;
+    }
+
+    [id="05-try-one-today-hat"] {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+
+  <div data-hf-id="hf-6xh2" id="root" data-composition-id="05-try-one-today" data-start="0" data-width="1080" data-height="1080" data-duration="4.719333">
+    <div data-hf-id="hf-edw2" id="05-try-one-today-ground" class="clip" data-start="0" data-duration="4.719333" data-track-index="0"></div>
+
+    <section data-hf-id="hf-52ay" id="05-try-one-today-stage" class="clip" data-start="0" data-duration="4.719333" data-track-index="1">
+      <div data-hf-id="hf-7f2z" id="05-try-one-today-copy">
+        <img data-hf-id="hf-fvoh" id="05-try-one-today-logo" src="assets/logo-marker-raster-v2.png" alt="Doodle a Day marker logo">
+
+        <h1 data-hf-id="hf-al5t" id="05-try-one-today-headline">Happy doodling!</h1>
+
+        <div data-hf-id="hf-uozk" id="05-try-one-today-underline-wrap" aria-hidden="true">
+          <svg data-hf-id="hf-drzd" id="05-try-one-today-underline" viewBox="0 0 500 24" preserveAspectRatio="none">
+            <path data-hf-id="hf-5wdp" id="05-try-one-today-underline-path" d="M2,13 Q34,2 66,13 Q98,23 130,12 Q162,1 194,12 Q226,22 258,11 Q290,1 322,12 Q354,22 386,11 Q418,2 450,12 Q474,19 498,10" fill="none" stroke="#F2B83D" stroke-width="9" stroke-linecap="round" />
+          </svg>
+        </div>
+
+        <div data-hf-id="hf-pwrm" id="05-try-one-today-url" aria-label="doodlea.day">
+          <span data-hf-id="hf-585h" data-url-part="doodle">doodle</span><span data-hf-id="hf-oieb" data-url-part="a">a</span><span data-hf-id="hf-0mhv" data-url-part="day">.day</span>
+        </div>
+      </div>
+
+      <div data-hf-id="hf-gp40" id="05-try-one-today-media">
+        <img data-hf-id="hf-17hw" id="05-try-one-today-hat" src="assets/cowboy-hat-finished.webp" alt="Finished marker drawing of a cowboy hat">
+      </div>
+    </section>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+
+    const tl = gsap.timeline({ paused: true });
+    window.__timelines["05-try-one-today"] = tl;
+
+    tl.fromTo(
+      '[id="05-try-one-today-logo"]',
+      { scale: 0, opacity: 0, y: 18, rotation: -7 },
+      { scale: 1, opacity: 1, y: 0, rotation: -7, duration: 0.58, ease: "power3.out" },
+      0
+    );
+
+    tl.fromTo(
+      '[id="05-try-one-today-headline"]',
+      { scale: 0, opacity: 0, y: 20 },
+      { scale: 1, opacity: 1, y: 0, duration: 0.58, ease: "power3.out" },
+      0.05
+    );
+
+    tl.fromTo(
+      '[id="05-try-one-today-media"]',
+      { scale: 0, opacity: 0, y: 22, rotation: 2 },
+      { scale: 1, opacity: 1, y: 0, rotation: 2, duration: 0.6, ease: "power3.out" },
+      0.1
+    );
+
+    const underlinePath = document.querySelector('[id="05-try-one-today-underline-path"]');
+    const underlineLength = underlinePath.getTotalLength();
+    gsap.set(underlinePath, {
+      strokeDasharray: underlineLength,
+      strokeDashoffset: underlineLength
+    });
+    tl.to(
+      underlinePath,
+      { strokeDashoffset: 0, duration: 0.68, ease: "power1.inOut" },
+      0.7
+    );
+
+    const URL_PARTS = [
+      { key: "doodle", text: "doodle" },
+      { key: "a", text: "a" },
+      { key: "day", text: ".day" }
+    ];
+    const BASE_DURATION = 0.08;
+    const SEC_PER_CHAR = 0.018;
+    let cumulative = 1.0;
+    const URL_SEQUENCE = URL_PARTS.map((entry) => {
+      const duration = BASE_DURATION + entry.text.length * SEC_PER_CHAR;
+      const start = cumulative;
+      cumulative += duration;
+      return { ...entry, start, duration };
+    });
+
+    URL_SEQUENCE.forEach((entry) => {
+      tl.fromTo(
+        `[data-url-part="${entry.key}"]`,
+        { opacity: 0, y: 12 },
+        { opacity: 1, y: 0, duration: entry.duration, ease: "power2.out" },
+        entry.start
+      );
+    });
+  </script>
+</template>

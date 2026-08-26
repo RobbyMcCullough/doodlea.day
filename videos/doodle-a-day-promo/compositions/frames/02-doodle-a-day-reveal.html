@@ -1,0 +1,299 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Caveat Brush";
+      src: url("assets/fonts/Caveat_Brush_Regular.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM_Sans_Regular.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM_Sans_SemiBold.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    @font-face {
+      font-family: "DM Sans";
+      src: url("assets/fonts/DM_Sans_Bold.ttf") format("truetype");
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      color: #28251f;
+      container-type: size;
+    }
+
+    #root,
+    #root * {
+      box-sizing: border-box;
+    }
+
+    .frame-02-doodle-a-day-reveal-ground {
+      position: absolute;
+      inset: 0;
+      background-color: #fbe9c3;
+      background-image: radial-gradient(rgba(40, 37, 31, 0.18) 1.4px, transparent 1.4px);
+      background-size: 24px 24px;
+    }
+
+    .frame-02-doodle-a-day-reveal-stage {
+      position: absolute;
+      inset: 0;
+      padding: 72px 72px 192px;
+    }
+
+    .frame-02-doodle-a-day-reveal-layout {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 34px;
+    }
+
+    .frame-02-doodle-a-day-reveal-top {
+      position: relative;
+      z-index: 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 40px;
+      min-height: 174px;
+    }
+
+    .frame-02-doodle-a-day-reveal-copy {
+      display: grid;
+      align-content: end;
+      gap: 18px;
+      min-width: 0;
+    }
+
+    .frame-02-doodle-a-day-reveal-label {
+      width: max-content;
+      padding: 10px 18px 9px;
+      border: 3px solid #28251f;
+      border-radius: 9999px;
+      background: #f2b83d;
+      box-shadow: 4px 4px 0 #28251f;
+      color: #28251f;
+      font-family: "DM Sans";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transform-origin: 50% 50%;
+    }
+
+    .frame-02-doodle-a-day-reveal-headline {
+      position: relative;
+      z-index: 4;
+      max-width: 682px;
+      color: #28251f;
+      font-family: "Caveat Brush";
+      font-size: 75px;
+      font-weight: 400;
+      line-height: 0.94;
+      letter-spacing: -0.025em;
+      text-transform: uppercase;
+    }
+
+    .frame-02-doodle-a-day-reveal-product {
+      position: relative;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .frame-02-doodle-a-day-reveal-highlight {
+      position: absolute;
+      z-index: -1;
+      left: -7px;
+      right: -8px;
+      top: 48%;
+      bottom: 4%;
+      border-radius: 3px;
+      background: #f2b83d;
+      opacity: 0.82;
+      transform-origin: left center;
+    }
+
+    .frame-02-doodle-a-day-reveal-logo-wrap {
+      position: relative;
+      flex: 0 0 162px;
+      height: 162px;
+    }
+
+    .frame-02-doodle-a-day-reveal-stripe {
+      position: absolute;
+      z-index: 0;
+      width: 132px;
+      height: 132px;
+      top: -9px;
+      right: -15px;
+      border: 3px solid #28251f;
+      background: repeating-linear-gradient(
+        45deg,
+        #e1adbd 0,
+        #e1adbd 16px,
+        #28251f 16px,
+        #28251f 21px
+      );
+      transform: rotate(-7deg);
+    }
+
+    .frame-02-doodle-a-day-reveal-logo-card {
+      position: absolute;
+      z-index: 1;
+      right: 8px;
+      bottom: 8px;
+      width: 142px;
+      height: 142px;
+      display: grid;
+      place-items: center;
+      border: 4px solid #28251f;
+      background: #fffdf6;
+      box-shadow: 8px 8px 0 #28251f;
+      transform-origin: 50% 50%;
+    }
+
+    .frame-02-doodle-a-day-reveal-logo {
+      display: block;
+      width: 116px;
+      height: 116px;
+      object-fit: contain;
+    }
+
+    .frame-02-doodle-a-day-reveal-media {
+      position: relative;
+      z-index: 2;
+      min-height: 0;
+      overflow: hidden;
+      border: 4px solid #28251f;
+      background: #fffdf6;
+      box-shadow: 8px 8px 0 #28251f;
+      transform-origin: 50% 100%;
+    }
+
+    .frame-02-doodle-a-day-reveal-page-content {
+      position: absolute;
+      top: 0;
+      left: -10%;
+      width: 120%;
+      height: auto;
+      display: block;
+      will-change: transform;
+    }
+
+    .frame-02-doodle-a-day-reveal-paper-edge {
+      position: absolute;
+      z-index: 3;
+      inset: 0;
+      border: 8px solid rgba(255, 253, 246, 0.74);
+      pointer-events: none;
+    }
+  </style>
+
+  <div data-hf-id="hf-n8sr" id="root" data-composition-id="02-doodle-a-day-reveal" data-start="0" data-width="1080" data-height="1080" data-duration="8.58">
+    <div data-hf-id="hf-kypr" class="clip frame-02-doodle-a-day-reveal-ground" data-start="0" data-duration="8.58" data-track-index="0"></div>
+
+    <section data-hf-id="hf-iu4j" class="clip frame-02-doodle-a-day-reveal-stage" data-start="0" data-duration="8.58" data-track-index="1">
+      <div data-hf-id="hf-neaq" class="frame-02-doodle-a-day-reveal-layout">
+        <header data-hf-id="hf-cxo9" class="frame-02-doodle-a-day-reveal-top">
+          <div data-hf-id="hf-m4z3" class="frame-02-doodle-a-day-reveal-copy">
+            <div data-hf-id="hf-s4tg" id="frame-02-doodle-a-day-reveal-label" class="frame-02-doodle-a-day-reveal-label">
+              ONE SMALL EXPERIMENT
+            </div>
+            <div data-hf-id="hf-ts3k" class="frame-02-doodle-a-day-reveal-headline">
+              <span data-hf-id="hf-e541" id="frame-02-doodle-a-day-reveal-prefix">became</span>
+              <span data-hf-id="hf-2qvf" id="frame-02-doodle-a-day-reveal-product" class="frame-02-doodle-a-day-reveal-product">
+                <span data-hf-id="hf-ynp7" id="frame-02-doodle-a-day-reveal-highlight" class="frame-02-doodle-a-day-reveal-highlight"></span>
+                <span data-hf-id="hf-byrh">Doodle a Day.</span>
+              </span>
+            </div>
+          </div>
+
+          <div data-hf-id="hf-7ob2" class="frame-02-doodle-a-day-reveal-logo-wrap">
+            <div data-hf-id="hf-o1s3" class="frame-02-doodle-a-day-reveal-stripe"></div>
+            <div data-hf-id="hf-mcty" id="frame-02-doodle-a-day-reveal-logo-card" class="frame-02-doodle-a-day-reveal-logo-card">
+              <img data-hf-id="hf-zeqf" class="frame-02-doodle-a-day-reveal-logo" src="assets/logo-marker-raster-v2.png" alt="Doodle a Day marker logo">
+            </div>
+          </div>
+        </header>
+
+        <div data-hf-id="hf-u25e" id="frame-02-doodle-a-day-reveal-media" class="frame-02-doodle-a-day-reveal-media">
+          <img data-hf-id="hf-vl4n" id="frame-02-doodle-a-day-reveal-page-content" class="frame-02-doodle-a-day-reveal-page-content" src="assets/homepage-top.webp" alt="Doodle a Day homepage showing today's chicken drawing tutorial">
+          <div data-hf-id="hf-fi8s" class="frame-02-doodle-a-day-reveal-paper-edge"></div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const frame02DoodleADayRevealTimeline = gsap.timeline({ paused: true });
+      window.__timelines["02-doodle-a-day-reveal"] = frame02DoodleADayRevealTimeline;
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-label",
+        { scale: 0, opacity: 0, y: 10 },
+        { scale: 1, opacity: 1, y: 0, duration: 0.52, ease: "power3.out" },
+        0
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-logo-card",
+        { scale: 0, opacity: 0, rotation: 3 },
+        { scale: 1, opacity: 1, rotation: 3, duration: 0.58, ease: "power3.out" },
+        0.08
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-media",
+        { y: 98, scale: 0.965, opacity: 0.18 },
+        { y: 0, scale: 1, opacity: 1, duration: 1.25, ease: "power3.out" },
+        0.12
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-prefix",
+        { y: 18, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.66, ease: "power3.out" },
+        0.72
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-page-content",
+        { y: 0 },
+        { y: -78, duration: 1.45, ease: "power3.out" },
+        1.85
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-product",
+        { x: -18, opacity: 0 },
+        { x: 0, opacity: 1, duration: 0.72, ease: "power3.out" },
+        4.55
+      );
+
+      frame02DoodleADayRevealTimeline.fromTo(
+        "#frame-02-doodle-a-day-reveal-highlight",
+        { scaleX: 0, skewX: -2 },
+        { scaleX: 1, skewX: -2, duration: 0.86, ease: "power2.out" },
+        5.15
+      );
+    </script>
+  </div>
+</template>
