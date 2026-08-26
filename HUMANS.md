@@ -5,8 +5,10 @@
 - Owner review correctly rejected the approved-looking school-backpack contact
   sheet as instructional art: the main rounded guide was fragmented, the apple
   shifted from a floating circle to the zipper, and the early U-curves did not
-  become the later flap or straps. The current public lesson is not repaired in
-  this guidance pass.
+  become the later flap or straps. The owner then authorized a scoped v2 repair:
+  the public Step 1-5 masters now show a connected guide, outer strap anchors,
+  and an apple hanging from the pocket zipper pull. The valid finished v1 master
+  was retained; superseded raw and process masters remain private.
 - Added Doodlea’s Anchor Continuity Law, a mandatory visual anchor review, an
   anchor-continuity prompt block, and schema-v4 `anchor_map` validation for new
   plans. Future sheets must state every early mark’s final feature, attachment,
