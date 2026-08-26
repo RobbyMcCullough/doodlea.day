@@ -270,6 +270,32 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
             except ValueError as error:
                 failures.append(str(error))
 
+        if schema_version >= 4:
+            anchor_map = plan.get("anchor_map")
+            if not isinstance(anchor_map, list) or not anchor_map:
+                failures.append(
+                    "schema v4 requires a non-empty `anchor_map` for spatial continuity"
+                )
+            else:
+                for anchor_index, anchor in enumerate(anchor_map, start=1):
+                    if not isinstance(anchor, dict):
+                        failures.append(f"anchor map item {anchor_index} must be an object")
+                        continue
+                    for field in (
+                        "early_mark",
+                        "becomes",
+                        "fixed_relationship",
+                        "construction_note",
+                    ):
+                        try:
+                            value = require_text(anchor, field, slug)
+                            if len(value.split()) < 4:
+                                failures.append(
+                                    f"anchor map item {anchor_index} `{field}` is too vague"
+                                )
+                        except ValueError as error:
+                            failures.append(str(error))
+
         frames = plan.get("frames")
         if not isinstance(frames, list) or not frames:
             failures.append("`frames` must be a non-empty array")

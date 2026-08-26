@@ -32,6 +32,46 @@ first. Could a beginner copy Panel 1 in under two minutes using only circles,
 ellipses, boxes, axes, arcs, gesture lines, and placement ticks? If not, the
 first panel is too complete.
 
+## Anchor Continuity Law
+
+Sparse construction must still be spatially meaningful. A process sheet fails
+when a later feature is merely in the same general area as its earlier guide:
+the reader must be able to see what each guide becomes and where it attaches.
+
+- Make an **anchor map** before writing the prompt. List each relation that
+  must remain fixed: `apple keychain hangs from right pocket zipper pull`,
+  `top flap sits inside the upper third of the bag body`, or `two straps run
+  behind the left and right outer shoulders` are useful relations. “Apple on
+  the right” is not specific enough.
+- A simple *closed primitive* is allowed in Panel 1 when it is visibly a
+  construction box, ellipse, or rounded rectangle—not a finished contour—and
+  it makes the main proportion teachable. Do not force a useful guide to be
+  disconnected just to avoid a finished silhouette. The later silhouette must
+  still add the finished corners, handle, contour confidence, and final shape.
+- A future attached object may use a pale circle, box, or center point in
+  Panel 1 only at its final attachment position. Include its attachment tick
+  or hanging route in the same place. Never place a prop several inches away
+  as a generic “later” symbol and move it onto the object in a later panel.
+- A route must have an assigned destination. Do not draw free U-curves, arcs,
+  or ticks that never become a named feature. For every construction route,
+  state the later form it becomes and its two endpoints or attachment points.
+- Compare every early mark against the next panel, not only against the final:
+  its position, direction, connection, and overlap must persist unless a
+  documented established foreground form covers it.
+
+Before cropping, do the four-point anchor review at thumbnail size:
+
+1. Can you trace each Panel 1 primitive or route to one named later feature?
+2. Does every future prop occupy its final attachment point from its first
+   appearance onward?
+3. Do each pair of strap, flap, handle, seam, or other paired curves connect
+   to the same surfaces and face the same direction in every later panel?
+4. Does the Panel 1 main construction shape form a readable usable guide,
+   rather than disconnected contour fragments with no construction purpose?
+
+Any “no” is a rejection. Pixel deltas and schema validation do not override
+this spatial review.
+
 ## Recommended Workflow
 
 1. Start with a process plan, not a finished image.
@@ -42,6 +82,10 @@ first panel is too complete.
      the footprint of any covering element early, and do not render finished
      detail underneath it. Pale construction may be erased; detailed lines
      should not be drawn only to disappear in a later frame.
+   - Make the anchor map from the law above. For each early primitive, route,
+     or prop footprint, record its final relationship, destination, and
+     attachment point. Add this relationship map to the prompt; it is separate
+     from a list of elements and a list of omissions.
    - Use plan schema v2 and complete `transition_audit` for every adjacent pair,
      including the last process frame to the finish. List every previously
      introduced element under `must_persist`, keep `keeper_lines_removed`
@@ -59,11 +103,11 @@ first panel is too complete.
    - For any frame that will darken, ink, fill, color, shade, clean, or clarify
      existing parts, list those parts in `requires_prior_elements`; they must
      first appear in an earlier frame.
-   - Use schema v3 for new plans. Fill `progression_contract`, `stage_role`,
-     `completion_target_percent`, `construction_primitives`, and
+   - Use schema v4 for new plans. Fill `progression_contract`, `anchor_map`,
+     `stage_role`, `completion_target_percent`, `construction_primitives`, and
      `must_not_show` before generating. These fields force the plan to state
-     what is still absent from every panel instead of describing only what is
-     present.
+     what is still absent from every panel and where each early guide must
+     connect, rather than describing only what is present.
    - Decide whether the subject needs 5, 6, 7, or 8 stages.
    - Generate only for a locked tutorial slug. Acquire the daily run lock first,
      then lock the slug with the mandatory gate, which fails while any
@@ -103,6 +147,10 @@ first panel is too complete.
    - Reject sheets where an outline, color, fill, shading, or cleanup stage is
      also the first appearance of the shape being outlined, colored, shaded, or
      cleaned.
+   - Reject sheets where a connected construction box is inexplicably broken
+     into contour fragments, where a future prop shifts to a new attachment
+     point, or where an early curve does not become the named flap, strap,
+     handle, seam, or other later feature in the same direction.
 
 4. Repair before publishing.
    - If one panel fails, regenerate or edit only that panel using the nearest
@@ -247,6 +295,12 @@ Panel 4 must NOT show: {panel_4_forbidden_future_features}.
 Panel 5 must NOT show: final black cleanup, completed marker fills, or final
 highlights/shadow accents.
 Panel 6 must show every major color decision before the final panel.
+
+Anchor continuity contract: {for every Panel 1 primitive, route, and prop
+footprint, name the final feature it becomes; give its fixed relationship and
+attachment point. State which closed primitive is deliberately allowed as a
+construction guide, which routes become named later parts, and that no prop may
+shift location, direction, or connection after it first appears.}
 
 Occlusion and line-economy contract: {name each final element that covers part
 of another form; state the footprint that must be reserved before drawing the

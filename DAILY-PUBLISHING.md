@@ -52,6 +52,13 @@ Before cropping, perform the two-minute test from
 `PROCESS-IMAGE-WORKFLOW.md`: if a beginner could not copy Panel 1 in under two
 minutes using simple primitives and routes, reject or repair the sheet.
 
+Also perform the Anchor Continuity Law review from
+`PROCESS-IMAGE-WORKFLOW.md`. Reject the sheet if a useful construction box has
+been broken into arbitrary fragments, a prop moves from a floating guide to a
+new attachment point, or an early curve does not become its declared strap,
+flap, handle, seam, or other feature with the same direction and connections.
+Passing process-plan or pixel-delta checks is not sufficient.
+
 ## Doodle Direction
 
 - Favor cartoons, comic-style marks, icons, expressive symbols, playful
@@ -216,7 +223,8 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
    swap after failed art is itself a rejection that must be recorded.
 9. Write `lesson-plans/{slug}.json` from the template pattern before generating
-   art. New lessons use schema v3. Complete the progression contract and every
+   art. New lessons use schema v4. Complete the progression contract, anchor
+   map, and every
    frame's `stage_role`, `completion_target_percent`, `adds`, and
    `must_not_show` fields, plus the first frame's `construction_primitives`,
    before writing the image prompt.

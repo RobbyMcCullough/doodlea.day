@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "slug": "example-slug",
   "finished": "assets/example-slug-finished-v1.jpg",
   "source": {
@@ -14,6 +14,14 @@
     "maximum_darkening_only_transitions": 1,
     "blank_page_test": "A beginner can copy Panel 1 in under two minutes using only the listed primitives, axes, routes, and placement ticks."
   },
+  "anchor_map": [
+    {
+      "early_mark": "A named Panel 1 primitive, route, or prop footprint",
+      "becomes": "The exact named later feature it supports",
+      "fixed_relationship": "Its attachment point, direction, and overlap relation remain stable in every later panel.",
+      "construction_note": "State whether the early guide is an allowed closed primitive, an open route with named endpoints, or a placement footprint."
+    }
+  ],
   "final_elements": [
     {
       "name": "primary silhouette",

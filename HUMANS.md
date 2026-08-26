@@ -1,5 +1,19 @@
 # Human Notes
 
+## 2026-08-26 — Process-anchor troubleshooting (Codex)
+
+- Owner review correctly rejected the approved-looking school-backpack contact
+  sheet as instructional art: the main rounded guide was fragmented, the apple
+  shifted from a floating circle to the zipper, and the early U-curves did not
+  become the later flap or straps. The current public lesson is not repaired in
+  this guidance pass.
+- Added Doodlea’s Anchor Continuity Law, a mandatory visual anchor review, an
+  anchor-continuity prompt block, and schema-v4 `anchor_map` validation for new
+  plans. Future sheets must state every early mark’s final feature, attachment,
+  direction, and overlap relationship; a connected closed construction
+  primitive is permitted when it is clearly a guide rather than a final
+  contour. One-current-lesson-per-site cadence remains active.
+
 ## 2026-08-26 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-school-backpack-with-apple-keychain`
