@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-08-26 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-school-backpack-with-apple-keychain`
+  (August 26 / Day 107). The approved six-panel handmade raster marker process
+  moves from an open construction envelope to bag body, straps/flap,
+  pocket/keychain, ink and complete color map, then final fills. An initial
+  front-loaded contact sheet was rejected and remains private under
+  `rejected-front-loaded-v1/`. Finished image rated 9.2/10 for crisp thumbnail
+  readability, lively marker texture, and an attainable 20-minute progression.
+  Readiness and desktop/mobile QA passed. One-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
+
 ## 2026-08-25 — Private-draft cleanup (Codex)
 
 - Recorded `cartoon-bubble-tea-cup` as a rejected private contact-sheet draft;
