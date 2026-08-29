@@ -103,6 +103,20 @@ checks, QA homepage/library/tutorial pages, and commit when the quality gates
 pass. Normal daily Doodlea.day lessons may push after QA under the same
 standard as Sketcha.day.
 
+### Daily Quality-Retry Contract
+
+A failed art review is a rejected **iteration**, not a reason to end the daily
+run. Keep the current slug and daily lock active, preserve the failed sheet
+under `drafts/{slug}/rejected-progressions/`, tighten the plan or prompt, and
+repair a bad panel or regenerate the full sheet. Repeat visual review, crop,
+readiness, and rendered QA until the lesson passes every gate and the saved
+finish scores at least 8/10. If the subject itself proves unsuitable, record it
+as `rejected-quality`, lock one deliberate replacement subject, and continue
+the same current-day run. Never publish weak art to satisfy this persistence
+rule. End without a lesson only for a genuine external blocker such as an
+unavailable or malfunctioning image service, a lock/slot conflict, an unsafe
+worktree, or validation that cannot be repaired in scope.
+
 ## Conventions
 
 - Keep Doodlea.day visually close to Sketcha.day: same layout system, archive

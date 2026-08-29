@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-08-29 — Daily retry guidance (Codex)
+
+- Updated the daily publishing contract so failed art or repairable QA rejects
+  the current iteration, not the run. The automation must preserve failed
+  versions, repair or regenerate until all gates pass, and may choose one
+  deliberate replacement subject when the concept itself is unsuitable.
+  Quality thresholds remain unchanged; only genuine external blockers may end
+  a run without a current lesson. One-current-lesson-per-site cadence remains
+  active.
+
 ## 2026-08-29 — Private daily attempt (Codex)
 
 - No current Doodlea lesson was published. `cartoon-taco-with-hot-sauce` was

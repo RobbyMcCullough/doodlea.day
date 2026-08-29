@@ -222,6 +222,14 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    or get owner direction. Prefer repairing a failed panel (see
    `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
    swap after failed art is itself a rejection that must be recorded.
+   During the active daily run, a failed panel, contact sheet, crop, finished
+   image rating, or repairable validation check is a retry condition rather
+   than a terminal stop. Keep the locked slug pending, version and preserve the
+   failed iteration, revise the plan/prompt, and regenerate or repair until all
+   visual, semantic, readiness, and rendered gates pass. If the subject itself
+   remains unsuitable after repeated serious attempts, record it as rejected,
+   preflight one replacement subject, and continue toward the same day's one
+   publishable lesson.
 9. Write `lesson-plans/{slug}.json` from the template pattern before generating
    art. New lessons use schema v4. Complete the progression contract, anchor
    map, and every
@@ -311,12 +319,12 @@ Reject pages with broken display type, lonely one-character lines, underlines
 that miss the intended word, image/card collisions, clipped hero art, or any
 layout that makes the lesson feel less polished than the current site standard.
 
-## Stop Conditions
+## Retry and Stop Conditions
 
-Stop instead of publishing when image generation is unavailable, the contact
-sheet changes subject/pose between panels, a later outline/color/cleanup frame
-introduces a shape that was not visible earlier, the final introduces major
-elements, the saved final scores below 8/10, generated images do not load,
+Do not publish while the contact sheet changes subject/pose between panels, a
+later outline/color/cleanup frame introduces a shape that was not visible
+earlier, the final introduces major elements, the saved final scores below
+8/10, generated images do not load,
 JSON-LD is invalid, `lab.html` loses `noindex,nofollow`, the rendered layout
 scores below 8/10, a headline breaks after a single character, the marker
 underline misses its target word, the duplicate-slot guard fails, a new face
@@ -325,3 +333,9 @@ validation fails. Also stop when Panel 1 already shows the finished silhouette
 or closed future features, when more than one transition merely retraces the
 same geometry darker, or when the final is the first panel to show a major color
 region. A passing pixel-delta check does not override this semantic review.
+These are repair/regeneration conditions: fix the failing artifact and rerun
+the affected gates until they pass. End the daily run without a lesson only
+when image generation is genuinely unavailable or malfunctioning after
+distinct retries, the lock or duplicate-slot guard prevents work, the worktree
+cannot be made safe without overwriting owned changes, or an external
+dependency makes continued in-scope repair impossible.

@@ -153,11 +153,22 @@ this spatial review.
      handle, seam, or other later feature in the same direction.
 
 4. Repair before publishing.
+   - A failed review rejects that sheet or panel, not the daily lesson run.
+     Keep the locked slug `pending` while repair is active and continue until
+     one complete sheet passes visual and semantic QA.
    - If one panel fails, regenerate or edit only that panel using the nearest
      good panel and the final panel as visual references when the tool supports
      it.
    - If several panels fail, regenerate the full contact sheet with tighter
      stage instructions.
+   - Save every superseded attempt under
+     `drafts/{slug}/rejected-progressions/` with a versioned filename and a
+     short ledger/HUMANS note. Do not confuse a rejected iteration with the
+     final status of the subject.
+   - After each repair or regeneration, re-review the entire sheet, including
+     element counts, stage omissions, anchor continuity, and the final-only
+     change rule. Continue this loop through an approved crop and finish rated
+     at least 8/10.
    - If the contact sheet is promising but not publishable, crop panels only
      after the repaired sheet passes QA.
    - If a generated sheet will not be used, do not generate another subject
@@ -166,6 +177,12 @@ this spatial review.
      `rejected-duplicate` with a note, held as `scheduled` with a
      `release_date`, or explicitly set aside by the owner. The pre-flight gate
      enforces this; an unresolved `pending` entry blocks all new generation.
+   - If repeated attempts show that the subject itself cannot produce a clear,
+     attainable lesson, resolve that slug as `rejected-quality`, select and
+     preflight one deliberate replacement subject, and continue the current
+     daily run. Stop only when generation is genuinely unavailable or
+     malfunctioning, the lock/slot gate blocks progress, the worktree is
+     unsafe, or another external dependency makes further repair impossible.
 
 5. Convert the approved sheet into lesson assets.
    - Crop non-final panels into `{slug}-step-1.jpg` through
