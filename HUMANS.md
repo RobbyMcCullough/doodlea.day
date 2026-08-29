@@ -1,5 +1,13 @@
 # Human Notes
 
+## 2026-08-29 — Private daily attempt (Codex)
+
+- No current Doodlea lesson was published. `cartoon-taco-with-hot-sauce` was
+  locked and planned, but the image service repeatedly returned a stale cicada
+  sheet instead of a taco raster contact sheet. It was rejected before crop,
+  integration, or public assets. One-current-lesson-per-site cadence remains
+  active; retry on a future run only when genuine raster output is available.
+
 ## 2026-08-26 — Process-anchor troubleshooting (Codex)
 
 - Owner review correctly rejected the approved-looking school-backpack contact
