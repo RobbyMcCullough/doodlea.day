@@ -1338,6 +1338,12 @@
   clear shapes, bright color, and a simple teachable sequence.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- August 29, 2026: added the current Day 109 cartoon hand mirror with sparkles
+  lesson. Two private process attempts were rejected/repaired before approving
+  v3; the finished image rated 9.4/10, and readiness plus Cove desktop/mobile
+  QA passed.
+- The owner-directed cadence remains exactly one new current lesson per site per
+  run. Do not create routine backdated or archive lessons.
 
 - 2026-08-13 daily automation published the one-current-lesson Doodlea cadence
   entry `cartoon-paintbrush-with-rainbow-paint` (Day 100). Its approved
