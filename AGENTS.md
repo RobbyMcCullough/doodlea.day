@@ -46,6 +46,13 @@ node scripts/build-tutorials.mjs
 
 ## Daily Automation Entry Point
 
+## Daily Task Titles
+
+At the start of every daily automation run, rename the current Codex task to
+`YYYY-MM-DD — Daily sketch and doodle lessons`, replacing the date with the
+current Pacific calendar date. Do this before preflight so project task lists
+remain easy to scan by run date.
+
 For daily doodle work, read these files in order:
 
 1. `AGENTS.md`

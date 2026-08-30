@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-08-30 — Dated daily-task titles (Codex)
+
+- Added a shared daily-run rule: rename each Codex task before preflight as
+  `YYYY-MM-DD — Daily sketch and doodle lessons` using the Pacific run date.
+  This makes sister-site automation history easier to scan in the project.
+
 ## 2026-08-29 — Daily retry guidance (Codex)
 
 - Updated the daily publishing contract so failed art or repairable QA rejects
