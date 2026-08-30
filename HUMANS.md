@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-08-30 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-hermit-crab-with-spiral-shell`
+  (August 30 / Day 110). The approved eight-panel handmade raster marker
+  process builds one shell-and-body scaffold into two claws, two eye stalks,
+  four walking legs, an asymmetrical face, and a complete tide-pool palette.
+  Two earlier sheets remain private under `rejected-progressions/`; the final
+  saved image rated 9.5/10. One-current-lesson-per-site cadence remains active;
+  routine backfills remain off.
+
 ## 2026-08-30 — Dated daily-task titles (Codex)
 
 - Added a shared daily-run rule: rename each Codex task before preflight as

@@ -23,9 +23,10 @@ STAGE_ROLE_ORDER = {
     "construction": 1,
     "silhouette": 2,
     "major_parts": 3,
-    "features": 4,
-    "details": 5,
-    "ink_and_color_map": 6,
+    "appendages": 4,
+    "features": 5,
+    "details": 6,
+    "ink_and_color_map": 7,
 }
 FIRST_FRAME_FINISHING_WORDS = re.compile(
     r"\b(?:ink|color|fill|shade|shadow|highlight|texture|clean|trace|darken|"

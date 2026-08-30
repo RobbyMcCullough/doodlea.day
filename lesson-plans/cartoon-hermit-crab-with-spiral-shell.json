@@ -1,0 +1,213 @@
+{
+  "schema_version": 4,
+  "slug": "cartoon-hermit-crab-with-spiral-shell",
+  "finished": "assets/cartoon-hermit-crab-with-spiral-shell-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster felt-tip marker process contact sheet.",
+    "notes": "One right-facing hermit crab with one spiral shell, two claws, four visible walking legs, and an asymmetrical face; no labels, arrows, UI, signatures, watermarks, badge frame, or sticker outline."
+  },
+  "process_strategy": "Eight cumulative panels build a sparse shell-and-body scaffold into fixed claws, legs, eye stalks, spiral bands, expression, details, a complete marker color map, and a finishing-only pass.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 25,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one pale shell oval, one shell center point, one small body oval, two eye-stalk routes, two claw routes, four leg attachment ticks, and one shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One large tilted shell oval with one center point",
+      "becomes": "The teal spiral shell with one yellow spiral and three curved shell bands",
+      "fixed_relationship": "The shell remains behind the body, tilted up-left, and its lower-right opening stays attached over the crab's back.",
+      "construction_note": "Allowed pale closed construction oval; no finished shell edge or spiral in Panel 1."
+    },
+    {
+      "early_mark": "One small right-facing body oval beneath the shell opening",
+      "becomes": "The coral-orange crab head and chest",
+      "fixed_relationship": "The body remains in front of the shell opening and points toward the page's right.",
+      "construction_note": "Pale body mass only; no finished head contour or face in Panel 1."
+    },
+    {
+      "early_mark": "Two upward eye-stalk routes",
+      "becomes": "Exactly two eye stalks with one wide eye and one half-lidded eye",
+      "fixed_relationship": "Both stalks attach to the top of the body; the rear stalk stays slightly taller and neither changes attachment or direction.",
+      "construction_note": "Open routes until Panel 4."
+    },
+    {
+      "early_mark": "Two forward claw routes and four lower leg attachment ticks",
+      "becomes": "One large raised front claw, one smaller forward claw, and exactly four visible walking legs",
+      "fixed_relationship": "Both claws attach to the front half of the body; two walking legs emerge below each side of the body and remain under the shell overlap.",
+      "construction_note": "Open routes and ticks only until their assigned panels."
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "crab construction guides",
+      "introduced_by_step": 1,
+      "established_by_step": 2,
+      "description": "One shell oval and center, one body oval, two eye routes, two claw routes, four leg ticks, and one broken shadow route."
+    },
+    {
+      "name": "shell and body silhouette",
+      "introduced_by_step": 2,
+      "established_by_step": 2,
+      "description": "One large tilted shell behind one compact right-facing crab body."
+    },
+    {
+      "name": "two claws",
+      "introduced_by_step": 3,
+      "established_by_step": 3,
+      "description": "One large raised front claw and one smaller forward claw attached to the front body."
+    },
+    {
+      "name": "two eye stalks and four walking legs",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Exactly two attached eye stalks and exactly four visible bent walking legs."
+    },
+    {
+      "name": "shell pattern and asymmetrical face",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "One broad shell spiral, exactly three curved shell bands, one wide eye, one half-lidded eye, offset pupils, one raised brow, one crooked one-tooth grin, and two cheek hatches."
+    },
+    {
+      "name": "claw creases highlights and sand marks",
+      "introduced_by_step": 6,
+      "established_by_step": 6,
+      "description": "Two claw crease marks, two shell highlight reserves, exactly three short sand dashes, and one broken ground-shadow shape."
+    },
+    {
+      "name": "marker palette and shadow",
+      "introduced_by_step": 7,
+      "established_by_step": 7,
+      "description": "Thick black outlines with coral-orange crab, teal shell, yellow spiral, raspberry bands, pale-aqua highlights, warm sand dashes, and navy shadow fully mapped before the finish."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "shell and body silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The shell opening ends behind the crab body; leg and claw routes begin at visible body attachment points and no shell keeper line crosses through the body."
+    },
+    {
+      "foreground_element": "two claws",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The large raised claw sits in front of the smaller claw and body; later crease lines stop inside the established claw silhouettes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 22,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-1.jpg",
+      "step_name": "Map the shell and routes",
+      "visible_job": "Place one tilted shell oval and center point, one small right-facing body oval, two eye-stalk routes, two claw routes, four leg attachment ticks, and one broken ground-placement route.",
+      "construction_primitives": ["one tilted shell oval", "one shell center point", "one small body oval", "two eye-stalk routes", "two claw routes", "four leg attachment ticks", "one broken shadow route"],
+      "introduces": ["crab construction guides"],
+      "establishes": [],
+      "adds": ["fixed shell-body overlap", "fixed appendage attachments"],
+      "must_not_show": ["finished shell or body contours", "closed claws", "closed legs or eyes", "spiral or shell bands", "face details", "black ink or marker color", "highlights sand dashes or dark ground fill"]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 38,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-2.jpg",
+      "step_name": "Connect shell and body",
+      "visible_job": "Connect the large tilted shell and compact right-facing body over their established guides, keeping the shell opening behind the body.",
+      "introduces": ["shell and body silhouette"],
+      "establishes": ["crab construction guides", "shell and body silhouette"],
+      "adds": ["one shell silhouette", "one crab body silhouette"],
+      "must_not_show": ["closed claws legs or eyes", "spiral bands face black ink color highlights sand dashes or filled shadow"],
+      "requires_prior_elements": ["crab construction guides"]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 50,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-3.jpg",
+      "step_name": "Shape both claws",
+      "visible_job": "Wrap the two established routes with one large raised front claw and one smaller forward claw, preserving both body attachment points.",
+      "introduces": ["two claws"],
+      "establishes": ["two claws"],
+      "adds": ["one large raised claw", "one smaller forward claw"],
+      "must_not_show": ["closed walking legs or eyes", "spiral bands face details black ink color highlights sand dashes or filled shadow"],
+      "requires_prior_elements": ["crab construction guides", "shell and body silhouette"]
+    },
+    {
+      "step": 4,
+      "stage_role": "appendages",
+      "completion_target_percent": 64,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-4.jpg",
+      "step_name": "Add stalks and four legs",
+      "visible_job": "Turn the two upper routes into exactly two eye stalks and the four lower ticks into exactly four bent walking legs.",
+      "introduces": ["two eye stalks and four walking legs"],
+      "establishes": ["two eye stalks and four walking legs"],
+      "adds": ["two eye-stalk contours", "four walking-leg contours"],
+      "must_not_show": ["pupils brow mouth cheek hatches shell spiral or bands black ink color highlights sand dashes or filled shadow"],
+      "requires_prior_elements": ["crab construction guides", "shell and body silhouette"]
+    },
+    {
+      "step": 5,
+      "stage_role": "features",
+      "completion_target_percent": 76,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-5.jpg",
+      "step_name": "Spiral the shell and face",
+      "visible_job": "Add one broad shell spiral, exactly three curved shell bands, one wide eye, one half-lidded eye, offset pupils, one raised brow, one crooked one-tooth grin, and two cheek hatches.",
+      "introduces": ["shell pattern and asymmetrical face"],
+      "establishes": ["shell pattern and asymmetrical face"],
+      "adds": ["one shell spiral", "three shell bands", "asymmetrical face"],
+      "must_not_show": ["claw creases shell highlights sand dashes filled shadow black ink or color"],
+      "requires_prior_elements": ["shell and body silhouette", "two eye stalks and four walking legs"]
+    },
+    {
+      "step": 6,
+      "stage_role": "details",
+      "completion_target_percent": 85,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-6.jpg",
+      "step_name": "Place beachy details",
+      "visible_job": "Add two claw creases, two shell highlight reserves, exactly three short sand dashes, and one broken shadow shape around the established crab.",
+      "introduces": ["claw creases highlights and sand marks"],
+      "establishes": ["claw creases highlights and sand marks"],
+      "adds": ["two claw creases", "two highlight reserves", "three sand dashes", "one broken shadow shape"],
+      "must_not_show": ["black ink completed marker fills new anatomy shell bands facial features or props"],
+      "requires_prior_elements": ["two claws", "shell pattern and asymmetrical face"]
+    },
+    {
+      "step": 7,
+      "stage_role": "ink_and_color_map",
+      "completion_target_percent": 94,
+      "asset": "assets/cartoon-hermit-crab-with-spiral-shell-step-7.jpg",
+      "step_name": "Ink and map the tide-pool colors",
+      "visible_job": "Ink every established contour and visibly map coral-orange, teal, yellow, raspberry, pale aqua, warm sand, and navy marker strokes in every planned region.",
+      "introduces": ["marker palette and shadow"],
+      "establishes": ["marker palette and shadow"],
+      "adds": ["thick imperfect black outlines", "every planned marker-color region", "mapped broken navy shadow"],
+      "must_not_show": ["new anatomy shell bands face marks sand marks highlights props or color regions"],
+      "requires_prior_elements": ["shell and body silhouette", "two claws", "two eye stalks and four walking legs", "shell pattern and asymmetrical face", "claw creases highlights and sand marks"]
+    }
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["crab construction guides"], "new_occlusions": ["The crab body sits in front of the shell opening."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["crab construction guides", "shell and body silhouette"], "new_occlusions": ["The large raised claw overlaps the smaller claw and front body edge."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["crab construction guides", "shell and body silhouette", "two claws"], "new_occlusions": ["The four walking legs attach beneath the body and remain partly behind it."], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["crab construction guides", "shell and body silhouette", "two claws", "two eye stalks and four walking legs"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["crab construction guides", "shell and body silhouette", "two claws", "two eye stalks and four walking legs", "shell pattern and asymmetrical face"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["crab construction guides", "shell and body silhouette", "two claws", "two eye stalks and four walking legs", "shell pattern and asymmetrical face", "claw creases highlights and sand marks"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["crab construction guides", "shell and body silhouette", "two claws", "two eye stalks and four walking legs", "shell pattern and asymmetrical face", "claw creases highlights and sand marks", "marker palette and shadow"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {
+    "step_name": "Finish the shell-side swagger",
+    "asset": "assets/cartoon-hermit-crab-with-spiral-shell-finished-v1.jpg",
+    "visible_job": "Only complete established marker fills, strengthen selected keeper contours, and clarify the same highlights, sand dashes, face, and broken shadow.",
+    "allowed_changes": ["completion of established marker fills", "selective keeper contour darkening", "small highlight face and shadow clarification"]
+  },
+  "rejection_checks": [
+    "Reject a detailed first panel, a moving shell-body attachment, or eye claw and leg guides that do not become their named parts in place.",
+    "Reject missing or extra eye stalks, claws, walking legs, shell bands, highlights, or sand dashes after those counts appear.",
+    "Reject a repeated dot-eye and U-smile face, vector-like fills, sticker or badge framing, or a final color region absent from Panel 7.",
+    "Reject labels, arrows, text, signatures, watermarks, extra props, changing viewpoint, or repeated darker tracings."
+  ]
+}
