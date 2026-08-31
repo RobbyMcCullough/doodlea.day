@@ -1,0 +1,207 @@
+{
+  "schema_version": 4,
+  "slug": "colorful-flip-flops",
+  "finished": "assets/colorful-flip-flops-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster felt-tip-marker process contact sheet.",
+    "notes": "One overlapping pair of face-free flip-flops; no feet, beach scene, lettering, labels, arrows, UI, signatures, watermarks, sticker edge, badge frame, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels move from two sparse sole envelopes and strap routes to stable overlapping sandals, six strap branches, six sole bands, complete ink and color decisions, and a finishing-only marker pass.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 28,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using two open sole envelopes, two center axes, two toe-post dots, six open strap routes, six band ticks, and one broken shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "Two long open sole envelopes on crossing diagonal axes",
+      "becomes": "One rear-left teal flip-flop and one front-right coral flip-flop",
+      "fixed_relationship": "The coral sole overlaps only the lower-right edge of the teal sole and both keep their original tilt, toe direction, and scale.",
+      "construction_note": "Open envelopes in Panel 1; complete sole contours begin in Panel 2."
+    },
+    {
+      "early_mark": "One toe-post dot and three open Y routes on each sole",
+      "becomes": "Two Y-shaped straps with exactly three branches each",
+      "fixed_relationship": "Each center branch meets its fixed toe post and both side branches attach to the same two sole-edge ticks throughout.",
+      "construction_note": "Dots and open routes only until Panel 3."
+    },
+    {
+      "early_mark": "Three curved band ticks across each sole",
+      "becomes": "Exactly three curved color bands on each flip-flop",
+      "fixed_relationship": "All six bands stay perpendicular to their own sole axis and stop at the reserved strap footprints.",
+      "construction_note": "Placement ticks only until Panel 4."
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "two-sole strap band and shadow construction guides",
+      "introduced_by_step": 1,
+      "established_by_step": 2,
+      "description": "Two open sole envelopes, two axes, two toe-post dots, six open strap routes, six band ticks, and one broken shadow route."
+    },
+    {
+      "name": "two overlapping flip-flop sole silhouettes",
+      "introduced_by_step": 2,
+      "established_by_step": 2,
+      "description": "One rear-left sole and one front-right sole with thick rounded edges and a fixed small overlap."
+    },
+    {
+      "name": "two Y straps with six fixed branches",
+      "introduced_by_step": 3,
+      "established_by_step": 3,
+      "description": "One Y-shaped strap on each sole, exactly three branches per sandal, anchored to the toe post and side edges."
+    },
+    {
+      "name": "six sole bands and edge seams",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Exactly three curved bands on each sole plus one simple edge seam around each sandal."
+    },
+    {
+      "name": "four highlights tread notches and broken shadow",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "Two open-paper strap highlights per sandal, small outer-edge tread notches, and one broken navy shadow."
+    },
+    {
+      "name": "black marker and complete coral teal yellow aqua and navy color map",
+      "introduced_by_step": 6,
+      "established_by_step": 6,
+      "description": "Thick imperfect black outlines with coral and teal soles, golden-yellow and pale-aqua bands, and a navy shadow."
+    },
+    {
+      "name": "directional marker texture and small edge accents",
+      "introduced_by_step": 7,
+      "established_by_step": 7,
+      "description": "Visible marker streaks, clarified strap overlap accents, and small established tread and shadow refinements."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two overlapping flip-flop sole silhouettes",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The rear teal sole edge, seam, bands, and shadow stop at the reserved front coral sole silhouette."
+    },
+    {
+      "foreground_element": "two Y straps with six fixed branches",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "All six decorative band lines stop at the reserved strap footprints and never run through a strap."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 20,
+      "asset": "assets/colorful-flip-flops-step-1.jpg",
+      "step_name": "Map the two sandals",
+      "visible_job": "Place two open sole envelopes and axes, two toe-post dots, six open strap routes, six band ticks, and four short ground-placement dashes.",
+      "construction_primitives": ["two open sole envelopes", "two diagonal axes", "two toe-post dots", "six open strap routes", "six band ticks", "four short ground-placement dashes"],
+      "introduces": ["two-sole strap band and shadow construction guides"],
+      "establishes": [],
+      "adds": ["fixed sandal angles", "fixed overlap", "fixed strap anchors"],
+      "must_not_show": ["closed finished sole silhouettes", "closed straps", "decorative bands", "black ink", "marker color", "highlights or tread notches"]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 34,
+      "asset": "assets/colorful-flip-flops-step-2.jpg",
+      "step_name": "Shape both soles",
+      "visible_job": "Connect one rear-left sole and one front-right sole with rounded toes, narrow waists, heels, and the same small overlap.",
+      "introduces": ["two overlapping flip-flop sole silhouettes"],
+      "establishes": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes"],
+      "adds": ["two complete sole contours", "fixed front-over-back overlap"],
+      "must_not_show": ["closed straps", "decorative bands", "black ink", "marker color", "highlights tread or dark shadow"],
+      "requires_prior_elements": ["two-sole strap band and shadow construction guides"]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 47,
+      "asset": "assets/colorful-flip-flops-step-3.jpg",
+      "step_name": "Attach the Y straps",
+      "visible_job": "Wrap the routes with one Y-shaped strap on each sandal, keeping all six branches attached to their fixed toe posts and sole edges.",
+      "introduces": ["two Y straps with six fixed branches"],
+      "establishes": ["two Y straps with six fixed branches"],
+      "adds": ["two toe posts", "six strap branches", "four side attachments"],
+      "must_not_show": ["decorative sole bands", "black ink", "marker color", "highlights tread or dark shadow"],
+      "requires_prior_elements": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes"]
+    },
+    {
+      "step": 4,
+      "stage_role": "appendages",
+      "completion_target_percent": 59,
+      "asset": "assets/colorful-flip-flops-step-4.jpg",
+      "step_name": "Curve six sole bands",
+      "visible_job": "Add exactly three curved bands across each sole and one simple edge seam around each sandal, stopping every band at a strap.",
+      "introduces": ["six sole bands and edge seams"],
+      "establishes": ["six sole bands and edge seams"],
+      "adds": ["six decorative bands", "two edge seams"],
+      "must_not_show": ["black ink", "marker color", "highlights tread or dark shadow"],
+      "requires_prior_elements": ["two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches"]
+    },
+    {
+      "step": 5,
+      "stage_role": "features",
+      "completion_target_percent": 71,
+      "asset": "assets/colorful-flip-flops-step-5.jpg",
+      "step_name": "Reserve shine tread and shadow",
+      "visible_job": "Add two strap-highlight reserves per sandal, small outer-edge tread notches, and the established broken ground shadow.",
+      "introduces": ["four highlights tread notches and broken shadow"],
+      "establishes": ["four highlights tread notches and broken shadow"],
+      "adds": ["four strap highlights", "small tread notches", "one broken shadow"],
+      "must_not_show": ["completed black ink", "completed marker fills", "new bands or props"],
+      "requires_prior_elements": ["two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams"]
+    },
+    {
+      "step": 6,
+      "stage_role": "details",
+      "completion_target_percent": 83,
+      "asset": "assets/colorful-flip-flops-step-6.jpg",
+      "step_name": "Ink and map the beach colors",
+      "visible_job": "Ink only established contours and map coral, teal, golden yellow, pale aqua, and navy strokes in every planned region.",
+      "introduces": ["black marker and complete coral teal yellow aqua and navy color map"],
+      "establishes": ["black marker and complete coral teal yellow aqua and navy color map"],
+      "adds": ["thick imperfect black outlines", "every planned marker-color region"],
+      "must_not_show": ["new sandal parts", "new bands", "new highlights", "extra beach props"],
+      "requires_prior_elements": ["two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams", "four highlights tread notches and broken shadow"]
+    },
+    {
+      "step": 7,
+      "stage_role": "ink_and_color_map",
+      "completion_target_percent": 95,
+      "asset": "assets/colorful-flip-flops-step-7.jpg",
+      "step_name": "Pull the marker texture",
+      "visible_job": "Clarify directional marker streaks, strap overlap accents, tread notches, highlights, and the established shadow without adding forms.",
+      "introduces": ["directional marker texture and small edge accents"],
+      "establishes": ["directional marker texture and small edge accents"],
+      "adds": ["visible marker grain", "small overlap accents", "shadow refinement"],
+      "must_not_show": ["new contours", "new bands", "new color regions", "flowers feet sand or props"],
+      "requires_prior_elements": ["four highlights tread notches and broken shadow", "black marker and complete coral teal yellow aqua and navy color map"]
+    }
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["two-sole strap band and shadow construction guides"], "new_occlusions": ["The front coral sole overlaps only the reserved lower-right edge of the rear teal sole."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes"], "new_occlusions": ["Each Y strap sits over only its reserved sole footprint."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams", "four highlights tread notches and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams", "four highlights tread notches and broken shadow", "black marker and complete coral teal yellow aqua and navy color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["two-sole strap band and shadow construction guides", "two overlapping flip-flop sole silhouettes", "two Y straps with six fixed branches", "six sole bands and edge seams", "four highlights tread notches and broken shadow", "black marker and complete coral teal yellow aqua and navy color map", "directional marker texture and small edge accents"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {
+    "step_name": "Finish the boardwalk pair",
+    "asset": "assets/colorful-flip-flops-finished-v1.jpg",
+    "visible_job": "Only complete established marker fills, strengthen selected keeper contours, and clarify the same bands, straps, highlights, tread, texture, and shadow.",
+    "allowed_changes": ["completion of established marker fills", "selective keeper contour darkening", "small established highlight tread and shadow accents"]
+  },
+  "rejection_checks": [
+    "Reject a detailed first panel, a drifting sole overlap, or a toe post or strap branch that changes attachment after appearing.",
+    "Reject missing or extra sandals, strap branches, sole bands, highlights, or a stripe that runs through a reserved strap footprint.",
+    "Reject a final that introduces a contour, band, color region, flower, foot, sand, beach prop, face, word, logo, sticker edge, or badge frame absent earlier.",
+    "Reject vector-like fills, glossy poster rendering, repeated faint-to-dark tracings, labels, arrows, text, signatures, or watermarks."
+  ]
+}

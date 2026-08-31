@@ -1,5 +1,16 @@
 # Human Notes
 
+## 2026-08-31 — Daily tutorial (Codex)
+
+- Added one current lesson only: `colorful-flip-flops` (August 31 / Day 111).
+  The approved repaired eight-panel handmade raster marker process grows two
+  sparse sandal maps into fixed overlapping soles, two anchored Y straps, six
+  curved bands, complete marker color, and a finishing-only pass. The
+  front-loaded first sheet remains private under `rejected-progressions/`; the
+  saved finish rated 9.5/10. Readiness and desktop/mobile rendered QA passed
+  using the localhost fallback. The one-current-lesson-per-site cadence remains
+  active; routine backfills remain off.
+
 ## 2026-08-30 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-hermit-crab-with-spiral-shell`
