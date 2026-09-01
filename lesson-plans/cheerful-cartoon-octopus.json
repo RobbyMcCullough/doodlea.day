@@ -42,10 +42,10 @@
       "description": "One mantle circle, one face axis, eight fixed arm routes, two eye ticks, one mouth tick, three bubble circles, and one broken shadow route."
     },
     {
-      "name": "rounded mantle and lower body silhouette",
+      "name": "rounded mantle with an open arm-base edge",
       "introduced_by_step": 2,
       "established_by_step": 2,
-      "description": "One soft rounded mantle connected to one shallow lower body above the arm fan."
+      "description": "One soft rounded mantle whose side contours stop at the two arm-base anchors, leaving the lower edge open for all eight arm routes."
     },
     {
       "name": "exactly eight tapering arms with fixed tips",
@@ -104,11 +104,11 @@
       "stage_role": "silhouette",
       "completion_target_percent": 36,
       "asset": "assets/cheerful-cartoon-octopus-step-2.jpg",
-      "step_name": "Shape the mantle and body",
-      "visible_job": "Connect one soft rounded mantle and shallow lower body above the arm fan while preserving all eight pale arm routes and face guides.",
-      "introduces": ["rounded mantle and lower body silhouette"],
-      "establishes": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"],
-      "adds": ["rounded mantle contour", "shallow lower body contour"],
+      "step_name": "Shape the open mantle",
+      "visible_job": "Shape the rounded mantle top and sides, stopping both side contours at the arm-base anchors so the lower edge stays open around all eight pale routes.",
+      "introduces": ["rounded mantle with an open arm-base edge"],
+      "establishes": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge"],
+      "adds": ["rounded mantle top and side contours", "open lower edge at the eight arm routes"],
       "must_not_show": ["thick arm contours", "closed eyes or mouth", "sucker circles", "bubbles", "spots", "black ink", "marker color", "highlights or dark shadow"],
       "requires_prior_elements": ["mantle face eight-arm bubble and shadow construction guides"]
     },
@@ -123,7 +123,7 @@
       "establishes": ["exactly eight tapering arms with fixed tips"],
       "adds": ["eight arm contours", "eight visible tips", "stable arm spacing"],
       "must_not_show": ["closed eyes or mouth", "sucker circles", "bubbles", "spots", "black ink", "marker color", "highlights or dark shadow"],
-      "requires_prior_elements": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"]
+      "requires_prior_elements": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge"]
     },
     {
       "step": 4,
@@ -136,7 +136,7 @@
       "establishes": ["cheerful face sixteen suckers and three bubbles"],
       "adds": ["two eyes", "one smile", "sixteen suckers", "three bubbles"],
       "must_not_show": ["mantle spots", "head highlights", "cheek marks", "black ink", "marker color", "dark shadow"],
-      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips"]
+      "requires_prior_elements": ["rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips"]
     },
     {
       "step": 5,
@@ -149,7 +149,7 @@
       "establishes": ["six mantle spots two highlights and broken shadow"],
       "adds": ["six spots", "two highlights", "two cheek marks", "one broken shadow"],
       "must_not_show": ["completed black ink", "completed marker fills", "new arms suckers bubbles or props"],
-      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"]
+      "requires_prior_elements": ["rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"]
     },
     {
       "step": 6,
@@ -162,7 +162,7 @@
       "establishes": ["black marker and complete coral purple aqua yellow and navy color map"],
       "adds": ["thick imperfect black outlines", "every planned marker-color region"],
       "must_not_show": ["new anatomy", "new suckers", "new bubbles", "new color regions", "extra ocean props"],
-      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"]
+      "requires_prior_elements": ["rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"]
     },
     {
       "step": 7,
@@ -179,13 +179,13 @@
     }
   ],
   "transition_audit": [
-    {"from_step": 1, "to_step": 2, "must_persist": ["mantle face eight-arm bubble and shadow construction guides"], "new_occlusions": ["The lower body covers only the innermost pale starts of the eight arm routes while preserving every route direction and exit point."], "keeper_lines_removed": []},
-    {"from_step": 2, "to_step": 3, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"], "new_occlusions": ["Eight thick arms wrap their reserved routes and overlap only at their planned body-base attachments."], "keeper_lines_removed": []},
-    {"from_step": 3, "to_step": 4, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 4, "to_step": 5, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 5, "to_step": 6, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 6, "to_step": 7, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 7, "to_step": 8, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map", "directional marker texture and small contour accents"], "new_occlusions": [], "keeper_lines_removed": []}
+    {"from_step": 1, "to_step": 2, "must_persist": ["mantle face eight-arm bubble and shadow construction guides"], "new_occlusions": ["The mantle side contours stop at the two arm-base anchors; the open lower edge preserves every arm route direction and exit point."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge"], "new_occlusions": ["Eight thick arms wrap their reserved routes and close the deliberately open lower silhouette at their planned body-base attachments."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle with an open arm-base edge", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map", "directional marker texture and small contour accents"], "new_occlusions": [], "keeper_lines_removed": []}
   ],
   "final_step": {
     "step_name": "Finish the cheerful octopus",

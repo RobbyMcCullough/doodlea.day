@@ -2,6 +2,11 @@
 
 ## 2026-09-01 — Daily tutorial (Codex)
 
+- Corrected Step 2 after owner review: the rounded mantle now ends at two
+  arm-base anchors with an open lower edge, so Step 3 closes the silhouette
+  with eight arm contours instead of erasing a scalloped keeper line. The
+  superseded sheet is private under `rejected-progressions/`; the finish and
+  one-current-lesson cadence remain unchanged.
 - Added one current lesson only: `cheerful-cartoon-octopus` (September 1 /
   Day 112). The approved repaired eight-panel handmade raster marker process
   keeps one rounded mantle, eight fixed countable arms, two suckers per arm,
