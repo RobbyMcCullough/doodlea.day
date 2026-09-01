@@ -1,0 +1,202 @@
+{
+  "schema_version": 4,
+  "slug": "cheerful-cartoon-octopus",
+  "finished": "assets/cheerful-cartoon-octopus-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster felt-tip-marker process contact sheet.",
+    "notes": "One cheerful face-forward cartoon octopus with exactly eight countable arms; no lettering, labels, arrows, numbers, UI, signatures, watermarks, sticker edge, badge frame, ocean scene, or extra animal."
+  },
+  "process_strategy": "Eight cumulative panels move from one mantle guide and eight fixed arm routes to a stable eight-arm silhouette, face, suckers, bubbles, complete ink and color decisions, marker texture, and a finishing-only pass.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 27,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one round mantle guide, one face axis, eight numbered-in-plan but unlabeled arm routes, two eye ticks, one mouth tick, three bubble circles, and one broken shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One round mantle guide with a vertical face axis and two eye ticks",
+      "becomes": "The octopus mantle, lower body, and cheerful face",
+      "fixed_relationship": "The mantle stays centered above the arm fan; both eyes remain level and the mouth stays centered below them.",
+      "construction_note": "Pale circle, axis, and ticks only in Panel 1; the soft mantle silhouette begins in Panel 2."
+    },
+    {
+      "early_mark": "Eight distinct arm routes fanning from the lower body",
+      "becomes": "Exactly eight thick tapering arms with eight visible tips",
+      "fixed_relationship": "From left to right the routes remain: up-left curl, left horizontal, lower-left, front-left, front-right, lower-right, right horizontal, and up-right curl; no route swaps sides, crosses another tip, disappears, or splits.",
+      "construction_note": "Single pale center routes only until all eight arm contours are wrapped in Panel 3."
+    },
+    {
+      "early_mark": "Three bubble circles and one broken shadow route",
+      "becomes": "Exactly three aqua bubbles above the right arm fan and one navy broken shadow beneath the front arms",
+      "fixed_relationship": "The bubbles remain in a rising diagonal at upper right and the shadow stays behind the two front arms.",
+      "construction_note": "Pale circles and route only until Panel 4 and Panel 5."
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "mantle face eight-arm bubble and shadow construction guides",
+      "introduced_by_step": 1,
+      "established_by_step": 2,
+      "description": "One mantle circle, one face axis, eight fixed arm routes, two eye ticks, one mouth tick, three bubble circles, and one broken shadow route."
+    },
+    {
+      "name": "rounded mantle and lower body silhouette",
+      "introduced_by_step": 2,
+      "established_by_step": 2,
+      "description": "One soft rounded mantle connected to one shallow lower body above the arm fan."
+    },
+    {
+      "name": "exactly eight tapering arms with fixed tips",
+      "introduced_by_step": 3,
+      "established_by_step": 3,
+      "description": "Eight countable arms in the planned left-to-right order, each with one distinct visible tip and no crossing routes."
+    },
+    {
+      "name": "cheerful face sixteen suckers and three bubbles",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Two oval eyes, one smiling mouth, exactly sixteen visible sucker circles with two on each arm, and exactly three bubbles."
+    },
+    {
+      "name": "six mantle spots two highlights and broken shadow",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "Exactly six small mantle spots, two open-paper head highlights, simple cheek marks, and one broken ground shadow."
+    },
+    {
+      "name": "black marker and complete coral purple aqua yellow and navy color map",
+      "introduced_by_step": 6,
+      "established_by_step": 6,
+      "description": "Thick imperfect black outlines with coral mantle and arms, purple underside accents, aqua bubbles, yellow spots, and navy shadow."
+    },
+    {
+      "name": "directional marker texture and small contour accents",
+      "introduced_by_step": 7,
+      "established_by_step": 7,
+      "description": "Visible marker streaks, clarified sucker rings, small cheek accents, and established highlight and shadow refinement."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "exactly eight tapering arms with fixed tips",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The broken shadow and lower-body keeper lines stop at the reserved arm silhouettes, and no finished body contour crosses an arm base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 20,
+      "asset": "assets/cheerful-cartoon-octopus-step-1.jpg",
+      "step_name": "Map the head and eight arms",
+      "visible_job": "Place one round mantle guide, one face axis, eight distinct arm routes, two eye ticks, one mouth tick, three bubble placement circles, and four short ground-placement dashes.",
+      "construction_primitives": ["one round mantle guide", "one face axis", "eight distinct arm routes", "two eye ticks", "one mouth tick", "three bubble placement circles", "four short ground-placement dashes"],
+      "introduces": ["mantle face eight-arm bubble and shadow construction guides"],
+      "establishes": [],
+      "adds": ["fixed body center", "fixed eight-arm order", "fixed face placement", "fixed bubble and shadow positions"],
+      "must_not_show": ["finished mantle contour", "thick arm contours", "closed eyes or mouth", "sucker circles", "spots", "black ink", "marker color", "highlights or dark shadow"]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 36,
+      "asset": "assets/cheerful-cartoon-octopus-step-2.jpg",
+      "step_name": "Shape the mantle and body",
+      "visible_job": "Connect one soft rounded mantle and shallow lower body above the arm fan while preserving all eight pale arm routes and face guides.",
+      "introduces": ["rounded mantle and lower body silhouette"],
+      "establishes": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"],
+      "adds": ["rounded mantle contour", "shallow lower body contour"],
+      "must_not_show": ["thick arm contours", "closed eyes or mouth", "sucker circles", "bubbles", "spots", "black ink", "marker color", "highlights or dark shadow"],
+      "requires_prior_elements": ["mantle face eight-arm bubble and shadow construction guides"]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 53,
+      "asset": "assets/cheerful-cartoon-octopus-step-3.jpg",
+      "step_name": "Wrap all eight arms",
+      "visible_job": "Wrap every fixed route with one thick tapering arm, keeping exactly eight separate visible tips in the same left-to-right order.",
+      "introduces": ["exactly eight tapering arms with fixed tips"],
+      "establishes": ["exactly eight tapering arms with fixed tips"],
+      "adds": ["eight arm contours", "eight visible tips", "stable arm spacing"],
+      "must_not_show": ["closed eyes or mouth", "sucker circles", "bubbles", "spots", "black ink", "marker color", "highlights or dark shadow"],
+      "requires_prior_elements": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"]
+    },
+    {
+      "step": 4,
+      "stage_role": "appendages",
+      "completion_target_percent": 62,
+      "asset": "assets/cheerful-cartoon-octopus-step-4.jpg",
+      "step_name": "Add the face suckers and bubbles",
+      "visible_job": "Add two oval eyes, one smiling mouth, exactly two visible sucker circles on each of the eight arms, and exactly three bubbles.",
+      "introduces": ["cheerful face sixteen suckers and three bubbles"],
+      "establishes": ["cheerful face sixteen suckers and three bubbles"],
+      "adds": ["two eyes", "one smile", "sixteen suckers", "three bubbles"],
+      "must_not_show": ["mantle spots", "head highlights", "cheek marks", "black ink", "marker color", "dark shadow"],
+      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips"]
+    },
+    {
+      "step": 5,
+      "stage_role": "features",
+      "completion_target_percent": 74,
+      "asset": "assets/cheerful-cartoon-octopus-step-5.jpg",
+      "step_name": "Reserve spots shine and shadow",
+      "visible_job": "Add exactly six mantle spots, two open-paper head highlights, two cheek marks, and the established broken shadow behind the front arms.",
+      "introduces": ["six mantle spots two highlights and broken shadow"],
+      "establishes": ["six mantle spots two highlights and broken shadow"],
+      "adds": ["six spots", "two highlights", "two cheek marks", "one broken shadow"],
+      "must_not_show": ["completed black ink", "completed marker fills", "new arms suckers bubbles or props"],
+      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"]
+    },
+    {
+      "step": 6,
+      "stage_role": "details",
+      "completion_target_percent": 83,
+      "asset": "assets/cheerful-cartoon-octopus-step-6.jpg",
+      "step_name": "Ink and map the ocean colors",
+      "visible_job": "Ink only established contours and map coral, purple, aqua, yellow, and navy strokes in every planned region.",
+      "introduces": ["black marker and complete coral purple aqua yellow and navy color map"],
+      "establishes": ["black marker and complete coral purple aqua yellow and navy color map"],
+      "adds": ["thick imperfect black outlines", "every planned marker-color region"],
+      "must_not_show": ["new anatomy", "new suckers", "new bubbles", "new color regions", "extra ocean props"],
+      "requires_prior_elements": ["rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"]
+    },
+    {
+      "step": 7,
+      "stage_role": "ink_and_color_map",
+      "completion_target_percent": 95,
+      "asset": "assets/cheerful-cartoon-octopus-step-7.jpg",
+      "step_name": "Pull the marker texture",
+      "visible_job": "Clarify directional marker streaks, sucker rings, cheek accents, highlights, and the established shadow without adding forms.",
+      "introduces": ["directional marker texture and small contour accents"],
+      "establishes": ["directional marker texture and small contour accents"],
+      "adds": ["visible marker grain", "sucker-ring accents", "highlight and shadow refinement"],
+      "must_not_show": ["new contours", "new arms", "new suckers", "new bubbles", "new color regions", "extra sea life or props"],
+      "requires_prior_elements": ["cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map"]
+    }
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["mantle face eight-arm bubble and shadow construction guides"], "new_occlusions": ["The lower body covers only the innermost pale starts of the eight arm routes while preserving every route direction and exit point."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette"], "new_occlusions": ["Eight thick arms wrap their reserved routes and overlap only at their planned body-base attachments."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["mantle face eight-arm bubble and shadow construction guides", "rounded mantle and lower body silhouette", "exactly eight tapering arms with fixed tips", "cheerful face sixteen suckers and three bubbles", "six mantle spots two highlights and broken shadow", "black marker and complete coral purple aqua yellow and navy color map", "directional marker texture and small contour accents"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {
+    "step_name": "Finish the cheerful octopus",
+    "asset": "assets/cheerful-cartoon-octopus-finished-v1.jpg",
+    "visible_job": "Only complete established marker fills, strengthen selected keeper contours, and clarify the same arms, face, suckers, bubbles, spots, highlights, texture, and shadow.",
+    "allowed_changes": ["completion of established marker fills", "selective keeper contour darkening", "small established sucker highlight and shadow accents"]
+  },
+  "rejection_checks": [
+    "Reject a detailed first panel, a drifting mantle or face, or any arm route that swaps position, disappears, splits, crosses, or changes tip direction after appearing.",
+    "Reject missing or extra arms, arm tips, suckers, bubbles, spots, eyes, highlights, or a shadow that covers a front arm.",
+    "Reject a final that introduces anatomy, color regions, seaweed, fish, shells, lettering, a logo, sticker edge, badge frame, or other prop absent earlier.",
+    "Reject vector-like fills, glossy poster rendering, repeated faint-to-dark tracings, labels, arrows, numbers, text, signatures, or watermarks."
+  ]
+}

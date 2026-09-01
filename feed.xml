@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an octopus</title>
+      <link>https://doodlea.day/tutorials/cheerful-cartoon-octopus.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cheerful-cartoon-octopus.html</guid>
+      <pubDate>Tue, 01 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an octopus with a rounded head, eight clearly countable arms, a cheerful face, simple suckers, thick marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/cheerful-cartoon-octopus-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a pair of colorful flip-flops</title>
       <link>https://doodlea.day/tutorials/colorful-flip-flops.html</link>

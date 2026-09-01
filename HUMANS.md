@@ -1,5 +1,16 @@
 # Human Notes
 
+## 2026-09-01 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cheerful-cartoon-octopus` (September 1 /
+  Day 112). The approved repaired eight-panel handmade raster marker process
+  keeps one rounded mantle, eight fixed countable arms, two suckers per arm,
+  three bubbles, six spots, and the complete color map cumulative through a
+  finishing-only pass. The first sheet remains private under
+  `rejected-progressions/`; the saved finish rated 9.5/10. Readiness plus
+  desktop/mobile rendered QA passed on Cove. The one-current-lesson-per-site
+  cadence remains active; routine backfills remain off.
+
 ## 2026-08-31 — Daily tutorial (Codex)
 
 - Added one current lesson only: `colorful-flip-flops` (August 31 / Day 111).
