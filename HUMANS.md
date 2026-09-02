@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-02 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-fortune-cookie-with-slip` (September
+  2 / Day 113). The approved eight-panel handmade raster marker process moves
+  from a sparse oval, fold, slip, sparkle, and ground scaffold to one stable
+  folded cookie, one attached blank fortune slip, exactly three sparkles, two
+  highlights, five crumbs, bold golden/coral marker color, and a finishing-only
+  pass. The saved finish rated 9.6/10. The one-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
+
 ## 2026-09-01 — Daily tutorial (Codex)
 
 - Corrected Step 2 after owner review: the rounded mantle now ends at two

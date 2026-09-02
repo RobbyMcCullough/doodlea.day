@@ -1,0 +1,74 @@
+{
+  "schema_version": 4,
+  "slug": "cartoon-fortune-cookie-with-slip",
+  "finished": "assets/cartoon-fortune-cookie-with-slip-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster felt-tip-marker process contact sheet.",
+    "notes": "One face-free fortune cookie with one blank paper slip and three sparkles; no lettering, labels, arrows, numbers, UI, signatures, watermarks, sticker edge, badge frame, plate, takeout box, extra cookies, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels move from a sparse folded-cookie scaffold and reserved blank slip to one stable shell, fold opening, three sparkles, complete marker map, visible texture, and a finishing-only final.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 25,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one wide oval, one center fold axis, two corner ticks, one open paper-slip route, three sparkle centers, and one broken shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One wide oval with a vertical fold axis and two side-corner ticks",
+      "becomes": "One folded fortune-cookie shell with two rounded wings and a centered pinched valley",
+      "fixed_relationship": "The two wings stay balanced around the same center valley, and their lower tips remain fixed in every panel.",
+      "construction_note": "Pale oval, axis, and ticks only in Panel 1; the shell silhouette begins in Panel 2."
+    },
+    {
+      "early_mark": "One open horizontal paper-slip route emerging to the right",
+      "becomes": "One blank rectangular fortune slip tucked into the cookie opening",
+      "fixed_relationship": "The slip remains attached inside the right half of the opening, points slightly upward, and never floats or gains text.",
+      "construction_note": "Open route only until the blank slip contour is added in Panel 4."
+    },
+    {
+      "early_mark": "Three small sparkle centers and one broken shadow route",
+      "becomes": "Exactly three yellow sparkles above the cookie and one navy broken shadow beneath it",
+      "fixed_relationship": "The sparkles stay in a loose rising arc above the left wing and the shadow remains under both cookie tips.",
+      "construction_note": "Placement marks only until Panels 4 and 5."
+    }
+  ],
+  "final_elements": [
+    {"name": "cookie slip sparkle and ground placement guides", "introduced_by_step": 1, "established_by_step": 2, "description": "One oval, fold axis, two corner ticks, one open slip route, three sparkle centers, and four short ground-placement dashes."},
+    {"name": "folded fortune-cookie outer silhouette", "introduced_by_step": 2, "established_by_step": 2, "description": "Two rounded cookie wings pinched into one centered lower valley with fixed left and right tips."},
+    {"name": "central fold opening and inner rim", "introduced_by_step": 3, "established_by_step": 3, "description": "One curved opening with one inner rim and two fold seams that explain the cookie construction."},
+    {"name": "blank fortune slip and three sparkles", "introduced_by_step": 4, "established_by_step": 4, "description": "One blank paper rectangle tucked into the right opening and exactly three four-point sparkles above the left wing."},
+    {"name": "two highlights crumb marks and broken shadow", "introduced_by_step": 5, "established_by_step": 5, "description": "Exactly two open-paper cookie highlights, five tiny crumb marks, and one broken ground shadow."},
+    {"name": "black marker and complete gold coral yellow cream and navy color map", "introduced_by_step": 6, "established_by_step": 6, "description": "Thick imperfect black outlines with golden cookie wings, coral inner fold, yellow sparkles, cream blank slip, and navy shadow."},
+    {"name": "directional marker texture and small fold accents", "introduced_by_step": 7, "established_by_step": 7, "description": "Visible marker streaks, established fold-depth accents, highlight edges, crumbs, and shadow texture."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element": "blank fortune slip and three sparkles", "reserved_by_step": 1, "background_lines_stop_before": "The inner cookie rim stops at the reserved blank slip footprint, so the slip tucks into blank paper instead of covering a finished keeper line."}
+  ],
+  "frames": [
+    {"step": 1, "stage_role": "construction", "completion_target_percent": 21, "asset": "assets/cartoon-fortune-cookie-with-slip-step-1.jpg", "step_name": "Map the fold and slip", "visible_job": "Place one wide oval, one center fold axis, two side-corner ticks, one open paper-slip route, three sparkle centers, and four short ground-placement dashes in pale pencil.", "construction_primitives": ["one wide oval", "one center fold axis", "two side-corner ticks", "one open slip route", "three sparkle centers", "four short ground-placement dashes"], "introduces": ["cookie slip sparkle and ground placement guides"], "establishes": [], "adds": ["fixed cookie width", "fixed fold center", "fixed slip attachment", "fixed sparkle and ground positions"], "must_not_show": ["complete cookie silhouette", "closed fold opening", "closed slip rectangle", "closed sparkles", "crumb marks", "black marker", "marker color", "highlights or dark shadow"]},
+    {"step": 2, "stage_role": "silhouette", "completion_target_percent": 37, "asset": "assets/cartoon-fortune-cookie-with-slip-step-2.jpg", "step_name": "Connect the cookie shell", "visible_job": "Wrap the oval and corner ticks into two rounded cookie wings with one centered pinched valley, then add two pale curved fold routes while preserving the open slip route and sparkle centers.", "introduces": ["folded fortune-cookie outer silhouette"], "establishes": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette"], "adds": ["left rounded wing", "right rounded wing", "centered lower valley", "fixed side tips", "two pale curved fold routes"], "must_not_show": ["parallel inner rim", "closed slip rectangle", "closed sparkles", "crumb marks", "black marker", "marker color", "highlights or dark shadow"], "requires_prior_elements": ["cookie slip sparkle and ground placement guides"]},
+    {"step": 3, "stage_role": "major_parts", "completion_target_percent": 53, "asset": "assets/cartoon-fortune-cookie-with-slip-step-3.jpg", "step_name": "Build the folded opening", "visible_job": "Add one curved central opening, one inner rim, and two short fold seams while keeping the reserved slip route open.", "introduces": ["central fold opening and inner rim"], "establishes": ["central fold opening and inner rim"], "adds": ["central opening", "inner rim", "two fold seams"], "must_not_show": ["closed slip rectangle", "closed sparkles", "crumb marks", "black marker", "marker color", "highlights or dark shadow"], "requires_prior_elements": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette"]},
+    {"step": 4, "stage_role": "appendages", "completion_target_percent": 66, "asset": "assets/cartoon-fortune-cookie-with-slip-step-4.jpg", "step_name": "Add the blank slip and sparkles", "visible_job": "Wrap the open route into one blank rectangular paper slip tucked into the right opening, then turn the three centers into exactly three four-point sparkles.", "introduces": ["blank fortune slip and three sparkles"], "establishes": ["blank fortune slip and three sparkles"], "adds": ["one blank slip", "three four-point sparkles"], "must_not_show": ["lettering on the slip", "crumb marks", "black marker", "marker color", "highlights or dark shadow"], "requires_prior_elements": ["folded fortune-cookie outer silhouette", "central fold opening and inner rim"]},
+    {"step": 5, "stage_role": "features", "completion_target_percent": 77, "asset": "assets/cartoon-fortune-cookie-with-slip-step-5.jpg", "step_name": "Reserve shine crumbs and shadow", "visible_job": "Add exactly two open-paper cookie highlights, exactly five tiny crumb marks, and the established broken shadow beneath both cookie tips.", "introduces": ["two highlights crumb marks and broken shadow"], "establishes": ["two highlights crumb marks and broken shadow"], "adds": ["two highlights", "five crumb marks", "one broken shadow"], "must_not_show": ["lettering", "completed black marker", "completed marker fills", "new props"], "requires_prior_elements": ["folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles"]},
+    {"step": 6, "stage_role": "details", "completion_target_percent": 86, "asset": "assets/cartoon-fortune-cookie-with-slip-step-6.jpg", "step_name": "Ink and map the lucky colors", "visible_job": "Ink only established contours and map golden yellow, coral, bright yellow, cream, and navy strokes in every planned region.", "introduces": ["black marker and complete gold coral yellow cream and navy color map"], "establishes": ["black marker and complete gold coral yellow cream and navy color map"], "adds": ["thick imperfect black outlines", "every planned marker-color region"], "must_not_show": ["lettering", "new contours", "new sparkles", "new crumbs", "new color regions", "extra props"], "requires_prior_elements": ["folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles", "two highlights crumb marks and broken shadow"]},
+    {"step": 7, "stage_role": "ink_and_color_map", "completion_target_percent": 95, "asset": "assets/cartoon-fortune-cookie-with-slip-step-7.jpg", "step_name": "Pull the marker texture", "visible_job": "Clarify directional marker streaks, fold-depth accents, highlight edges, crumbs, and the established shadow without adding forms.", "introduces": ["directional marker texture and small fold accents"], "establishes": ["directional marker texture and small fold accents"], "adds": ["visible marker grain", "fold-depth accents", "highlight crumb and shadow refinement"], "must_not_show": ["lettering", "new contours", "new sparkles", "new crumbs", "new colors", "extra props"], "requires_prior_elements": ["central fold opening and inner rim", "blank fortune slip and three sparkles", "two highlights crumb marks and broken shadow", "black marker and complete gold coral yellow cream and navy color map"]}
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["cookie slip sparkle and ground placement guides"], "new_occlusions": ["The cookie silhouette wraps only the pale oval and corner ticks while preserving the slip route, sparkle centers, and ground-placement dashes."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette"], "new_occlusions": ["The fold opening occupies only the reserved center and leaves the right slip route open."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette", "central fold opening and inner rim"], "new_occlusions": ["The blank slip fills only its reserved route and the inner rim stops cleanly at both slip edges."], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles", "two highlights crumb marks and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles", "two highlights crumb marks and broken shadow", "black marker and complete gold coral yellow cream and navy color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["cookie slip sparkle and ground placement guides", "folded fortune-cookie outer silhouette", "central fold opening and inner rim", "blank fortune slip and three sparkles", "two highlights crumb marks and broken shadow", "black marker and complete gold coral yellow cream and navy color map", "directional marker texture and small fold accents"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {"step_name": "Finish the lucky cookie", "asset": "assets/cartoon-fortune-cookie-with-slip-finished-v1.jpg", "visible_job": "Only complete established marker fills, strengthen selected keeper contours, and clarify the same shell, fold, blank slip, three sparkles, two highlights, five crumbs, texture, and shadow.", "allowed_changes": ["completion of established marker fills", "selective keeper contour darkening", "small established fold highlight crumb and shadow accents"]},
+  "rejection_checks": [
+    "Reject a detailed first panel, drifting wing tips or fold valley, or a blank slip that floats, changes angle, gains text, or disconnects from the opening.",
+    "Reject missing or extra cookies, slips, sparkles, highlights, crumbs, fold seams, or shadows after those elements appear.",
+    "Reject a final that introduces lettering, a face, plate, takeout box, extra cookie, color region, prop, sticker edge, or badge frame absent earlier.",
+    "Reject vector-like fills, glossy poster rendering, repeated faint-to-dark tracings, labels, arrows, numbers, text, signatures, or watermarks."
+  ]
+}
