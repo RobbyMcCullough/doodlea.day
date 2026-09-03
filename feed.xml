@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a walkie-talkie</title>
+      <link>https://doodlea.day/tutorials/cartoon-walkie-talkie.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-walkie-talkie.html</guid>
+      <pubDate>Thu, 03 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a walkie-talkie with an antenna, two knobs, a blank screen, five speaker slots, signal arcs, thick marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-walkie-talkie-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a fortune cookie</title>
       <link>https://doodlea.day/tutorials/cartoon-fortune-cookie-with-slip.html</link>

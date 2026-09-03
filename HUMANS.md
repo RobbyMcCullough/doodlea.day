@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-03 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-walkie-talkie` (September 3 / Day
+  114). The approved repaired eight-panel handmade raster marker process moves
+  from sparse open construction to one stable upright radio with one attached
+  antenna, two top knobs, one side button, one blank screen, exactly five
+  speaker slots, two signal arcs, four grip ribs, complete teal/coral color,
+  and a finishing-only pass. The first front-loaded count-drifting sheet remains
+  private under `rejected-progressions/`; the saved finish rated 9.5/10.
+  Readiness plus desktop/mobile Cove QA passed. The one-current-lesson-per-site
+  cadence remains active; routine backfills remain off.
+
 ## 2026-09-02 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-fortune-cookie-with-slip` (September
