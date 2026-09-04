@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-04 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-hourglass-with-flowing-sand`
+  (September 4 / Day 115). The approved corrected eight-panel handmade marker
+  process moves from open cap and glass guides to two matched caps, exactly two
+  attached pillars, one pinched glass vessel, three flowing-sand forms, two
+  highlights, three persistent sparkles, four cap notches, and a finishing-only
+  pass. Earlier closed-guide and sparkle-dropout sheets remain private under
+  `rejected-progressions/`; the saved finish rated 9.5/10. Readiness plus
+  desktop/mobile localhost QA passed. The one-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
+
 ## 2026-09-03 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-walkie-talkie` (September 3 / Day
