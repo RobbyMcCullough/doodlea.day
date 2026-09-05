@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-05 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-capybara-holding-an-orange`
+  (September 5 / Day 116). The approved seventh eight-panel handmade marker
+  progression grows from disconnected graphite construction into a long-muzzled,
+  tiny-eared seated capybara holding exactly one orange with two paws, an
+  asymmetric side-eye, one attached leaf, three fur-tuft groups, two highlights,
+  and four fruit dimples. Six superseded progressions remain private under
+  `rejected-progressions/`; the saved finish rated 9.2/10. Readiness plus
+  desktop/mobile localhost QA passed. The one-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
+
 ## 2026-09-04 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-hourglass-with-flowing-sand`

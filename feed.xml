@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a capybara</title>
+      <link>https://doodlea.day/tutorials/cartoon-capybara-holding-an-orange.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-capybara-holding-an-orange.html</guid>
+      <pubDate>Sat, 05 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a capybara with a long blunt muzzle, tiny ears, two paws holding an orange, a raised-brow side-eye, thick marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-capybara-holding-an-orange-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an hourglass</title>
       <link>https://doodlea.day/tutorials/cartoon-hourglass-with-flowing-sand.html</link>
