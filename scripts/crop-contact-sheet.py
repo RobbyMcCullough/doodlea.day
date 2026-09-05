@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageOps
 except ModuleNotFoundError as error:  # pragma: no cover - environment message
     raise SystemExit(
         "Pillow is required for contact-sheet cropping. Install it in the "
@@ -73,7 +73,9 @@ def save_panel(
 ) -> None:
     panel = source.crop(box).convert("RGB")
     if panel.size != output_size:
-        panel = panel.resize(output_size, Image.Resampling.LANCZOS)
+        # Fit without stretching: generated grids sometimes have rectangular cells.
+        panel = ImageOps.pad(panel, output_size, method=Image.Resampling.LANCZOS,
+                             color=(247, 241, 230))
     destination.parent.mkdir(parents=True, exist_ok=True)
     panel.save(destination, quality=quality, optimize=True)
 

@@ -181,7 +181,7 @@ def check_slug(slug: str, args: argparse.Namespace) -> bool:
 
     print(
         f"{slug}: pixel deltas do not prove tutorial progression; confirm Panel 1 "
-        "is sparse construction and later frames add new geometry, not only darker tracing"
+        "is a useful copyable start and later frames teach visible additions, not only darker tracing"
     )
 
     if args.contact_sheet:

@@ -1,5 +1,25 @@
 # Human Notes
 
+## 2026-09-05 — Teaching workflow and capybara repair (Codex)
+
+- Owner review found facial-guide and fur-tuft dropouts in the earlier capybara.
+  The earlier approval below is superseded. Replaced eight stages with six
+  direct, additive steps: head, open body, face, paws/fruit, details, color.
+  Saved crops and copy were reviewed pairwise; teaching and finish each 8.5/10.
+- Schema v5 separates guide lifecycles from keeper landmarks and requires
+  image/contract hashes plus observed adjacent-pair evidence. New lessons cannot
+  use the frozen legacy-schema allowance. The script verifies evidence freshness,
+  not visual truth; explicit image review remains essential.
+- Shared workflow, template, validator, crop aspect-ratio fix and regression
+  tests were mirrored to Sketcha. Doodlea defaults to direct marker contours;
+  Sketcha retains optional useful connected pencil construction.
+- Main work: PROCESS-IMAGE-WORKFLOW.md, scripts/process_review.py,
+  lesson-plans/cartoon-capybara-holding-an-orange.json, and its private draft
+  folder. The approved review sheet is repaired-approved-review.jpg, assembled
+  from saved crops; early-panel and color source sheets have separate roles.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+  Codex task: September 5 daily lesson task, owner-directed teaching repair.
+
 ## 2026-09-05 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-capybara-holding-an-orange`

@@ -2,62 +2,19 @@
 
 This is the quality contract for Doodlea.day lessons.
 
-## Principle
+## Teaching standard
 
-The tutorial must convincingly produce the finished marker doodle. The final
-image should not add major shape, color, contour, lettering, props, or rendering
-that did not appear in a prior process frame.
+Use schema v5 and the current `PROCESS-IMAGE-WORKFLOW.md` as the authoritative
+process-art contract. Begin with useful shapes in their final positions; direct
+marker contours are encouraged. Every step teaches a visible addition. Temporary
+guides need explicit removal instructions. Keeper landmarks cannot disappear or
+move. Final coloring may introduce the palette on already-established contours.
 
-Treat the finished drawing and the instructional steps as one artifact, not as
-separate pictures of the same subject. The sequence must begin with genuinely
-sparse construction and then reveal the drawing in a usable order.
-
-The sequence must also respect occlusion and drawing economy. Do not ask the
-reader to finish panels, seams, texture, character parts, or other detail that a
-later element immediately and permanently covers. Reserve the covering
-element's footprint in an early construction frame, then draw only the
-surrounding detail that remains visible in the finished image.
-
-Late-stage actions must work only on elements that are already present. A frame
-that thickens, inks, darkens, fills, colors, shades, cleans, or clarifies a
-shape may not be the first frame where that shape appears. For example, a pizza
-lesson cannot add a cheese stretch in the color step after an earlier step
-already told the reader to thicken the full outline.
-
-## Blank-Page Progression Gate
-
-This gate exists because marker generators tend to draw a nearly complete
-cartoon in Panel 1 and then repeat it with darker outlines.
-
-- Step 1 should contain roughly 20-30% of the final structure: simple circles,
-  ellipses, boxes, axes, gesture routes, open envelopes, and placement ticks.
-- A light-gray finished contour is not construction. Step 1 must not contain the
-  complete silhouette, closed secondary parts, facial features, black ink,
-  marker fills, highlights, texture, or a finished shadow.
-- Do not preview future features as faint closed shapes. Reserve a window with a
-  center point, a fin with an attachment tick, a leaf with a centerline, and a
-  face with axes; draw each full contour only in its assigned later step.
-- Every adjacent frame must add one visible, describable job. A darker tracing
-  of the same geometry counts only once as the dedicated inking step; two
-  consecutive tracing/darkening transitions fail.
-- For a colored lesson, use seven panels by default: construction, primary
-  silhouette, major parts, features, details, ink plus color map, finish. Six is
-  acceptable only when features and details can be combined without making
-  Step 1 or the final do too much.
-- Every major color region must appear in the penultimate frame. The final may
-  complete established fills and add small accents, but it may not reveal the
-  palette for the first time.
-
-Before cropping, perform the two-minute test from
-`PROCESS-IMAGE-WORKFLOW.md`: if a beginner could not copy Panel 1 in under two
-minutes using simple primitives and routes, reject or repair the sheet.
-
-Also perform the Anchor Continuity Law review from
-`PROCESS-IMAGE-WORKFLOW.md`. Reject the sheet if a useful construction box has
-been broken into arbitrary fragments, a prop moves from a floating guide to a
-new attachment point, or an early curve does not become its declared strap,
-flap, handle, seam, or other feature with the same direction and connections.
-Passing process-plan or pixel-delta checks is not sufficient.
+Review every saved adjacent pair, compare its actual changes with the copy, and
+record individual landmark observations and artifact hashes in `visual_review`.
+Teaching quality and finish quality must independently reach 8/10. A missing
+landmark fails regardless of those scores. Pixel deltas and plan validation
+check only mechanical properties and recorded evidence, not visual correctness.
 
 ## Doodle Direction
 
@@ -230,26 +187,18 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    remains unsuitable after repeated serious attempts, record it as rejected,
    preflight one replacement subject, and continue toward the same day's one
    publishable lesson.
-9. Write `lesson-plans/{slug}.json` from the template pattern before generating
-   art. New lessons use schema v4. Complete the progression contract, anchor
-   map, and every
-   frame's `stage_role`, `completion_target_percent`, `adds`, and
-   `must_not_show` fields, plus the first frame's `construction_primitives`,
-   before writing the image prompt.
-   Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
-   existing parts must list those parts in `requires_prior_elements`, and each
-   listed part must have an earlier `introduced_by_step`. Use schema v2's
-   `transition_audit` to confirm that every introduced landmark persists in
-   every later frame, that `keeper_lines_removed` stays empty, and that any
-   physical overlap is documented. Fill `overlap_reservations` before drawing
-   background seams or dividers behind later foreground objects.
-10. Generate one raster process contact sheet first using the full master prompt
-   and panel omission contract in `PROCESS-IMAGE-WORKFLOW.md`. No labels,
+9. Write the schema-v5 lesson plan and concrete reader instructions before art.
+   Use individual landmarks and explicit guide lifecycles. Follow
+   `PROCESS-IMAGE-WORKFLOW.md`; completion percentages and unique stage-role
+   ordering are retired. Review observations must describe saved images.
+10. Generate one raster process contact sheet first using the compact keep/add prompt
+   and reserved-gap contract in `PROCESS-IMAGE-WORKFLOW.md`. No labels,
    arrows, numbers, signatures, watermarks, fake UI, detailed first panel, or
    progressively darker copies of the same finished contour.
 11. Save the approved contact sheet under `drafts/`, crop it into `assets/`, and
    use the final panel as the finished image.
-12. Rate the saved finished image. It must be at least 8/10 for readability,
+12. Rate teaching quality and the saved finished image separately. Each must
+   reach 8/10. The finished image is assessed for readability,
    character, marker quality, tutorial fit, composition, and difficulty balance.
 13. Add lesson data to `scripts/build-tutorials.mjs`, run the generator, then
    build the delivery images: `python3 scripts/build-image-derivatives.py`
@@ -329,10 +278,10 @@ JSON-LD is invalid, `lab.html` loses `noindex,nofollow`, the rendered layout
 scores below 8/10, a headline breaks after a single character, the marker
 underline misses its target word, the duplicate-slot guard fails, a new face
 repeats a recent default two-dot/U-smile expression without a clear reason, or
-validation fails. Also stop when Panel 1 already shows the finished silhouette
-or closed future features, when more than one transition merely retraces the
-same geometry darker, or when the final is the first panel to show a major color
-region. A passing pixel-delta check does not override this semantic review.
+validation fails. Also stop when Panel 1 is overloaded, future features appear
+early, or steps merely retrace the same geometry darker. A final coloring step
+is allowed on established contours. A passing pixel-delta check does not override
+the saved-image semantic review.
 These are repair/regeneration conditions: fix the failing artifact and rerun
 the affected gates until they pass. End the daily run without a lesson only
 when image generation is genuinely unavailable or malfunctioning after

@@ -40,6 +40,7 @@ class StepParser(HTMLParser):
         super().__init__()
         self.in_step = False
         self.in_h3 = False
+        self.in_instruction = False
         self.current_name: list[str] = []
         self.steps: list[dict[str, str]] = []
         self.images: list[str] = []
@@ -50,9 +51,11 @@ class StepParser(HTMLParser):
         if tag == "li" and "step-card" in classes:
             self.in_step = True
             self.current_name = []
-            self.steps.append({"name": "", "image": ""})
+            self.steps.append({"name": "", "image": "", "instruction": ""})
             return
         if self.in_step:
+            if tag == "p" and "artist-tip" not in classes:
+                self.in_instruction = True
             if tag == "h3":
                 self.in_h3 = True
             if tag == "img" and values.get("src"):
@@ -64,10 +67,14 @@ class StepParser(HTMLParser):
             self.images.append(src)
 
     def handle_data(self, data: str) -> None:
+        if self.in_step and self.in_instruction:
+            self.steps[-1]["instruction"] += data
         if self.in_step and self.in_h3:
             self.current_name.append(data)
 
     def handle_endtag(self, tag: str) -> None:
+        if tag == "p":
+            self.in_instruction = False
         if not self.in_step:
             return
         if tag == "h3":
@@ -193,6 +200,17 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
 
     failures: list[str] = []
     page = parse_page(slug)
+    legacy_slugs = json.loads((PLANS / "legacy-schema-slugs.json").read_text())["slugs"]
+    if plan.get("schema_version", 1) < 5 and slug not in legacy_slugs:
+        print(f"FAIL {slug}: new and migrated lessons require schema v5")
+        return False
+    if plan.get("schema_version", 1) >= 5:
+        from process_review import validate
+        failures = validate(plan, ROOT, page)
+        print(f"{'FAIL' if failures else 'OK'} {slug}: schema v5 artifact review")
+        for failure in failures:
+            print(f"  - {failure}")
+        return not failures
     try:
         if LEDGER.exists():
             ledger = json.loads(LEDGER.read_text(encoding="utf-8"))

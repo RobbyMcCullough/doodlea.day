@@ -126,6 +126,14 @@ worktree, or validation that cannot be repaired in scope.
 
 ## Conventions
 
+- New and corrected process plans use schema v5. Read
+  `PROCESS-IMAGE-WORKFLOW.md` for the current teaching and saved-image review
+  contract. Historical schema acceptance is frozen in
+  `lesson-plans/legacy-schema-slugs.json`; do not add new lessons there.
+- Approve teaching quality separately from finished art. Record every adjacent
+  image transition and review hashes; changed images or instructions require
+  renewed visual review. Passing pixel deltas never proves continuity.
+
 - Keep Doodlea.day visually close to Sketcha.day: same layout system, archive
   structure, generated pages, JSON-LD pattern, and QA workflow.
 - Differentiate by subject and medium: cartoon shapes, comic details, icons,

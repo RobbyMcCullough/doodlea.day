@@ -1,310 +1,90 @@
 {
-  "schema_version": 4,
+  "schema_version": 5,
   "slug": "example-slug",
   "finished": "assets/example-slug-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "Explain why one or two connected shapes give the learner a useful starting point.",
   "source": {
     "type": "generated-raster-master",
-    "description": "How the saved raster contact sheet was obtained.",
-    "notes": "Any rejected previews, repairs, or source constraints."
+    "notes": "Describe saved source and rejected iterations."
   },
-  "process_strategy": "Seven cumulative panels move from sparse primitives to silhouette, parts, features, details, ink and color map, then a finishing-only final.",
-  "progression_contract": {
-    "first_frame_max_structural_completion_percent": 30,
-    "minimum_completion_increase_percent": 10,
-    "maximum_darkening_only_transitions": 1,
-    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using only the listed primitives, axes, routes, and placement ticks."
-  },
-  "anchor_map": [
-    {
-      "early_mark": "A named Panel 1 primitive, route, or prop footprint",
-      "becomes": "The exact named later feature it supports",
-      "fixed_relationship": "Its attachment point, direction, and overlap relation remain stable in every later panel.",
-      "construction_note": "State whether the early guide is an allowed closed primitive, an open route with named endpoints, or a placement footprint."
-    }
-  ],
+  "temporary_guides": [],
   "final_elements": [
     {
-      "name": "primary silhouette",
+      "name": "main outline",
       "introduced_by_step": 1,
-      "established_by_step": 2,
-      "description": "The dominant outer form, first reserved with primitives and only closed in the silhouette stage."
+      "description": "One specific primary outline in its final position."
     },
     {
-      "name": "major attached parts",
+      "name": "attached part",
+      "introduced_by_step": 2,
+      "description": "One attached part with a fixed connection."
+    },
+    {
+      "name": "identifying detail",
       "introduced_by_step": 3,
-      "established_by_step": 3,
-      "description": "Large fins, limbs, handles, petals, or other attached forms added after the main silhouette."
-    },
-    {
-      "name": "identity features",
-      "introduced_by_step": 4,
-      "established_by_step": 4,
-      "description": "Windows, face construction, inner shapes, folds, or other recognizable landmarks."
-    },
-    {
-      "name": "secondary details",
-      "introduced_by_step": 5,
-      "established_by_step": 5,
-      "description": "Small markings, expression details, texture routes, and highlight reservations."
-    },
-    {
-      "name": "marker palette",
-      "introduced_by_step": 6,
-      "established_by_step": 6,
-      "description": "Every major black-outline and marker-color region shown before the finishing panel."
-    }
-  ],
-  "overlap_reservations": [
-    {
-      "foreground_element": "major attached parts",
-      "reserved_by_step": 1,
-      "background_lines_stop_before": "Primary keeper lines stop at simple placement ticks or open reserved routes for later attached parts."
+      "description": "One specific recognizable detail within the established outline."
     }
   ],
   "frames": [
     {
       "step": 1,
-      "stage_role": "construction",
-      "completion_target_percent": 25,
       "asset": "assets/example-slug-step-1.jpg",
-      "step_name": "Map simple shapes",
-      "visible_job": "Place two to five simple primitives, one axis or gesture route, and only the attachment ticks needed for later parts.",
-      "construction_primitives": [
-        "one main circle, ellipse, box, or open envelope",
-        "one centerline or gesture route",
-        "small placement ticks for later attached parts"
+      "step_name": "Draw the main shape",
+      "visible_job": "Replace with the specific new strokes the learner can see.",
+      "instruction": "Replace with where to start and how to connect the new strokes.",
+      "adds": [
+        "main outline"
       ],
       "introduces": [
-        "primary silhouette"
-      ],
-      "establishes": [],
-      "adds": [
-        "proportion scaffold",
-        "center or gesture alignment",
-        "attachment locations without closed contours"
-      ],
-      "must_not_show": [
-        "complete outer silhouette",
-        "closed secondary-part contours",
-        "facial or internal features",
-        "black marker outlines",
-        "marker color, highlights, texture, or finished shadow"
+        "main outline"
       ]
     },
     {
       "step": 2,
-      "stage_role": "silhouette",
-      "completion_target_percent": 40,
       "asset": "assets/example-slug-step-2.jpg",
-      "step_name": "Connect the main silhouette",
-      "visible_job": "Connect only the dominant outer form over the construction while keeping attached parts and internal features absent.",
-      "introduces": [],
-      "establishes": [
-        "primary silhouette"
-      ],
+      "step_name": "Add the attached part",
+      "visible_job": "Replace with the specific new strokes the learner can see.",
+      "instruction": "Replace with where to start and how to connect the new strokes.",
       "adds": [
-        "one recognizable primary outer contour"
+        "attached part"
       ],
-      "must_not_show": [
-        "closed attached-part contours",
-        "identity-defining internal features",
-        "secondary details",
-        "black marker or color"
-      ],
-      "requires_prior_elements": [
-        "primary silhouette"
+      "introduces": [
+        "attached part"
       ]
     },
     {
       "step": 3,
-      "stage_role": "major_parts",
-      "completion_target_percent": 55,
       "asset": "assets/example-slug-step-3.jpg",
-      "step_name": "Add the major parts",
-      "visible_job": "Add the large attached forms or overlaps at the reserved locations without drawing later internal features.",
-      "introduces": [
-        "major attached parts"
-      ],
-      "establishes": [
-        "major attached parts"
-      ],
+      "step_name": "Draw the identifying detail",
+      "visible_job": "Replace with the specific new strokes the learner can see.",
+      "instruction": "Replace with where to start and how to connect the new strokes.",
       "adds": [
-        "large attached forms at their reserved locations"
+        "identifying detail"
       ],
-      "must_not_show": [
-        "identity-defining internal features",
-        "secondary details",
-        "black marker or color"
-      ],
-      "requires_prior_elements": [
-        "primary silhouette"
-      ]
-    },
-    {
-      "step": 4,
-      "stage_role": "features",
-      "completion_target_percent": 70,
-      "asset": "assets/example-slug-step-4.jpg",
-      "step_name": "Place the identifying features",
-      "visible_job": "Add the planned face construction, window, fold, inner shape, or other identity-defining landmarks.",
       "introduces": [
-        "identity features"
-      ],
-      "establishes": [
-        "identity features"
-      ],
-      "adds": [
-        "recognizable internal landmarks"
-      ],
-      "must_not_show": [
-        "secondary texture and highlight details",
-        "black marker cleanup",
-        "marker color"
-      ],
-      "requires_prior_elements": [
-        "primary silhouette",
-        "major attached parts"
+        "identifying detail"
       ]
-    },
-    {
-      "step": 5,
-      "stage_role": "details",
-      "completion_target_percent": 82,
-      "asset": "assets/example-slug-step-5.jpg",
-      "step_name": "Add the small details",
-      "visible_job": "Add the planned small markings, expression details, texture routes, and open-paper highlight reservations.",
-      "introduces": [
-        "secondary details"
-      ],
-      "establishes": [
-        "secondary details"
-      ],
-      "adds": [
-        "small subject-specific details and highlight reserves"
-      ],
-      "must_not_show": [
-        "completed black marker cleanup",
-        "completed marker fills",
-        "final highlights or shadow accents"
-      ],
-      "requires_prior_elements": [
-        "primary silhouette",
-        "major attached parts",
-        "identity features"
-      ]
-    },
-    {
-      "step": 6,
-      "stage_role": "ink_and_color_map",
-      "completion_target_percent": 92,
-      "asset": "assets/example-slug-step-6.jpg",
-      "step_name": "Ink and map every color",
-      "visible_job": "Ink only established contours and show every major marker-color region before the finishing panel.",
-      "introduces": [
-        "marker palette"
-      ],
-      "establishes": [
-        "marker palette"
-      ],
-      "adds": [
-        "one black-marker keeper-line pass",
-        "every major planned color region"
-      ],
-      "must_not_show": [
-        "new structural contours",
-        "new props or features",
-        "final tiny highlights and shadow accents"
-      ],
-      "requires_prior_elements": [
-        "primary silhouette",
-        "major attached parts",
-        "identity features",
-        "secondary details"
-      ]
-    }
-  ],
-  "transition_audit": [
-    {
-      "from_step": 1,
-      "to_step": 2,
-      "must_persist": [
-        "primary silhouette"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
-    },
-    {
-      "from_step": 2,
-      "to_step": 3,
-      "must_persist": [
-        "primary silhouette"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
-    },
-    {
-      "from_step": 3,
-      "to_step": 4,
-      "must_persist": [
-        "primary silhouette",
-        "major attached parts"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
-    },
-    {
-      "from_step": 4,
-      "to_step": 5,
-      "must_persist": [
-        "primary silhouette",
-        "major attached parts",
-        "identity features"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
-    },
-    {
-      "from_step": 5,
-      "to_step": 6,
-      "must_persist": [
-        "primary silhouette",
-        "major attached parts",
-        "identity features",
-        "secondary details"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
-    },
-    {
-      "from_step": 6,
-      "to_step": 7,
-      "must_persist": [
-        "primary silhouette",
-        "major attached parts",
-        "identity features",
-        "secondary details",
-        "marker palette"
-      ],
-      "new_occlusions": [],
-      "keeper_lines_removed": []
     }
   ],
   "final_step": {
-    "step_name": "Finish the marker drawing",
     "asset": "assets/example-slug-finished-v1.jpg",
-    "visible_job": "Only complete established marker fills, strengthen selected keeper contours, and add small highlights or shadow accents.",
-    "allowed_changes": [
-      "completion of established marker fills",
-      "selective keeper contour darkening",
-      "small highlights and shadow accents"
-    ]
+    "step_name": "Color the drawing",
+    "visible_job": "Fill the established regions without adding any new contours.",
+    "instruction": "Name each color and where to apply its strokes.",
+    "adds": [
+      "color in established regions"
+    ],
+    "introduces": []
   },
-  "rejection_checks": [
-    "Panel 1 must stay under 30 percent structural completion and use only the listed primitives, routes, and placement ticks.",
-    "No closed future feature may appear early as a pale guide; omit it until its assigned stage.",
-    "No more than one transition may rely mainly on tracing the same geometry darker.",
-    "Every frame must add its declared visible work and keep every must_not_show item absent.",
-    "Every major contour and color region must be established before the final panel.",
-    "The final image must keep the same pose, scale, and placement as the step frames."
-  ]
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
 }
