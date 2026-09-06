@@ -1,5 +1,16 @@
 # Human Notes
 
+## 2026-09-06 — Daily tutorial (Codex)
+
+- Added one current lesson only: `cartoon-pet-rock-with-mohawk` (September 6 /
+  Day 117). The approved six-panel handmade marker progression builds one
+  lopsided rock into a five-spike mohawk, mismatched eyes, a four-tooth grin,
+  three cracks, three persistent speckles, two highlights, and turquoise,
+  magenta, coral, and navy color. One continuity-failing alternate remains
+  private under `rejected-progressions/`; teaching rated 9.3/10 and the saved finish
+  rated 9.4/10. The one-current-lesson-per-site cadence remains active;
+  routine backfills remain off.
+
 ## 2026-09-05 — Teaching workflow and capybara repair (Codex)
 
 - Owner review found facial-guide and fur-tuft dropouts in the earlier capybara.

@@ -1,0 +1,143 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-pet-rock-with-mohawk",
+  "finished": "assets/cartoon-pet-rock-with-mohawk-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad irregular rock contour with a flat lower edge creates a recognizable, copyable starting silhouette in its final position.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel handmade felt-tip marker contact sheet for National Pet Rock Day; rejected iterations remain private under rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"rock contour","description":"One broad asymmetrical rock outline with a flat lower edge in its final centered position.","introduced_by_step":1},
+    {"name":"mohawk base","description":"One short curved hairline attached across the upper-left rock edge.","introduced_by_step":2},
+    {"name":"five mohawk spikes","description":"Exactly five connected triangular hair spikes rise from the same curved base.","introduced_by_step":2},
+    {"name":"left round eye","description":"One large round left eye with a dark pupil and small white highlight.","introduced_by_step":3},
+    {"name":"right winking eye","description":"One tilted closed right eye shaped like a thick bent wedge.","introduced_by_step":3},
+    {"name":"raised eyebrow","description":"One high crooked eyebrow sits above the round left eye.","introduced_by_step":3},
+    {"name":"nose","description":"One small rounded triangular nose sits between and below the eyes.","introduced_by_step":3},
+    {"name":"toothy mouth","description":"One wide tilted open grin occupies the lower half of the rock face.","introduced_by_step":4},
+    {"name":"four teeth","description":"Exactly four square teeth hang from the upper edge of the open grin.","introduced_by_step":4},
+    {"name":"tongue","description":"One curved tongue shape fills the lower-right corner of the mouth.","introduced_by_step":4},
+    {"name":"left cheek mark","description":"One short coral-ready cheek dash sits outside the left mouth corner.","introduced_by_step":4},
+    {"name":"right cheek mark","description":"One short coral-ready cheek dash sits outside the right mouth corner.","introduced_by_step":4},
+    {"name":"three rock cracks","description":"Exactly three short angular cracks sit along the lower rock surface.","introduced_by_step":5},
+    {"name":"three rock speckles","description":"Exactly three small uneven speckles break up the open rock surface.","introduced_by_step":5},
+    {"name":"two highlight shapes","description":"Exactly two open white highlight shapes sit along the upper-right rock edge.","introduced_by_step":5},
+    {"name":"ground shadow","description":"One broken navy-ready oval shadow sits beneath the flat rock edge.","introduced_by_step":5}
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "step_name": "Draw the pet rock shape",
+      "instruction": "Draw one broad lopsided rock with a rounded top, uneven sides, and a short flat edge along the bottom. Leave the upper-left edge open just enough for the mohawk base.",
+      "asset": "assets/cartoon-pet-rock-with-mohawk-step-1.jpg",
+      "visible_job": "Establish one simple asymmetrical rock silhouette in its final position.",
+      "adds": ["rock contour"],
+      "introduces": ["rock contour"]
+    },
+    {
+      "step": 2,
+      "step_name": "Spike up the mohawk",
+      "instruction": "Join the open upper-left edge with one short curved hairline, then grow exactly five connected triangular spikes upward from that base. Make the middle spike tallest.",
+      "asset": "assets/cartoon-pet-rock-with-mohawk-step-2.jpg",
+      "visible_job": "Attach one five-spike mohawk to the reserved top edge.",
+      "adds": ["mohawk base","five mohawk spikes"],
+      "introduces": ["mohawk base","five mohawk spikes"]
+    },
+    {
+      "step": 3,
+      "step_name": "Make the eyes mismatch",
+      "instruction": "Draw one large round eye on the left with a dark pupil and tiny white highlight. On the right, add one thick bent winking eye. Put one high crooked eyebrow above the round eye and a small rounded triangular nose below them.",
+      "asset": "assets/cartoon-pet-rock-with-mohawk-step-3.jpg",
+      "visible_job": "Create the asymmetric expression with two different eyes, one raised brow, and the nose.",
+      "adds": ["left round eye","right winking eye","raised eyebrow","nose"],
+      "introduces": ["left round eye","right winking eye","raised eyebrow","nose"]
+    },
+    {
+      "step": 4,
+      "step_name": "Open a toothy grin",
+      "instruction": "Draw one wide tilted open grin below the nose. Hang exactly four square teeth from its upper edge, add one curved tongue in the lower-right corner, and place one short cheek dash outside each mouth corner.",
+      "asset": "assets/cartoon-pet-rock-with-mohawk-step-4.jpg",
+      "visible_job": "Complete the playful face with a four-tooth grin, tongue, and two cheek marks.",
+      "adds": ["toothy mouth","four teeth","tongue","left cheek mark","right cheek mark"],
+      "introduces": ["toothy mouth","four teeth","tongue","left cheek mark","right cheek mark"]
+    },
+    {
+      "step": 5,
+      "step_name": "Add cracks shine and ground",
+      "instruction": "Add exactly three short angular cracks near the lower edge and exactly three uneven speckles across the open rock surface. Reserve two small white highlight shapes along the upper-right edge, then draw one broken oval shadow underneath.",
+      "asset": "assets/cartoon-pet-rock-with-mohawk-step-5.jpg",
+      "visible_job": "Finish all rock texture, highlight reservations, and the ground shadow before color.",
+      "adds": ["three rock cracks","three rock speckles","two highlight shapes","ground shadow"],
+      "introduces": ["three rock cracks","three rock speckles","two highlight shapes","ground shadow"]
+    }
+  ],
+  "final_step": {
+    "step_name": "Color the punky pet rock",
+    "instruction": "Fill the established rock with turquoise marker, the five-spike mohawk with magenta, the tongue and cheek dashes with coral, and the shadow with navy. Keep the four teeth, eye highlight, and two rock highlights white, and let overlapping marker strokes show.",
+    "visible_job": "Color only the established rock, hair, face, accents, highlights, and shadow with visible felt-tip texture.",
+    "asset": "assets/cartoon-pet-rock-with-mohawk-finished-v1.jpg",
+    "adds": ["turquoise, magenta, coral, and navy marker fills on established regions"],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 9.3,
+    "finished_art_score": 9.4,
+    "first_step_observation": "The saved first crop contains one broad, recognizable rock contour in its final position, with only the small planned opening at the upper-left edge. No hair, facial features, texture, color, or shadow appears early.",
+    "draw_through_observation": "Reviewed the full sheet and every saved crop at full size, including all five adjacent transitions. The direct-marker lesson adds the five-spike mohawk, asymmetric face, four-tooth grin, rock texture, highlights, shadow, and one final color pass without moving or silently deleting established landmarks. Counts remain five spikes, four teeth, three cracks, three speckles, two highlights, and two cheek dashes through the finish.",
+    "contract_sha256": "5715d6021aa2ce0e00e2ffe2fb5cc2e088858c75a2671112a1206d6bf3309e25",
+    "asset_sha256": {
+      "assets/cartoon-pet-rock-with-mohawk-step-1.jpg": "67183a25613ce7820610ff9982da5eba894301cf967ddfe85fb24b3a8359a1ff",
+      "assets/cartoon-pet-rock-with-mohawk-step-2.jpg": "b1ed65f5368ecbc17a8600bad3477ce879b5ca9519a159773a21ea309b10da11",
+      "assets/cartoon-pet-rock-with-mohawk-step-3.jpg": "49ff9979f36eb708e0cbad4c50040fae5ea07defff5f554eacd42e8cb2eedcb8",
+      "assets/cartoon-pet-rock-with-mohawk-step-4.jpg": "4d7d53c3ad40fec6a92cca271dcdef3084b563dfd9e2f5fdf21536405ff93cb3",
+      "assets/cartoon-pet-rock-with-mohawk-step-5.jpg": "9c40351358891fac8d9eb40a5c5ff49aa7db5c7e7c58496b6932a71014732239",
+      "assets/cartoon-pet-rock-with-mohawk-finished-v1.jpg": "964d38321c6ca1ed98b4d5ff67d15d29c6b95c126e9acc08475f8fab0a532286"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_addition": "One curved base joins the reserved upper-left opening and exactly five connected triangular spikes rise above it, with the center spike tallest.",
+        "instruction_match": "The instruction explicitly uses the open rock edge as the mohawk attachment and fixes the spike count at five.",
+        "observed_present": ["rock contour", "mohawk base", "five mohawk spikes"],
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_addition": "The large round left eye, compact right wink, high crooked eyebrow, and small triangular nose appear inside the unchanged rock and mohawk.",
+        "instruction_match": "The instruction names each asymmetric facial landmark visible in the saved crop and adds no unplanned mouth details early.",
+        "observed_present": ["rock contour", "mohawk base", "five mohawk spikes", "left round eye", "right winking eye", "raised eyebrow", "nose"],
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_addition": "One wide tilted mouth appears with exactly four upper teeth, one lower-right tongue, and one short dash on each cheek.",
+        "instruction_match": "The instruction gives the same mouth placement and exact four-tooth, one-tongue, two-cheek-mark inventory visible in the crop.",
+        "observed_present": ["rock contour", "mohawk base", "five mohawk spikes", "left round eye", "right winking eye", "raised eyebrow", "nose", "toothy mouth", "four teeth", "tongue", "left cheek mark", "right cheek mark"],
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_addition": "Exactly three lower angular cracks, three small speckles, two open highlights, and one broken ground shadow appear while both cheek dashes and the complete face remain.",
+        "instruction_match": "The texture instruction matches every added group and keeps the three speckles visually separate from the two cheek dashes.",
+        "observed_present": ["rock contour", "mohawk base", "five mohawk spikes", "left round eye", "right winking eye", "raised eyebrow", "nose", "toothy mouth", "four teeth", "tongue", "left cheek mark", "right cheek mark", "three rock cracks", "three rock speckles", "two highlight shapes", "ground shadow"],
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_addition": "Turquoise, magenta, coral, and deep-navy fills appear only inside established regions; all five spikes, four teeth, three cracks, three black speckles, two white highlights, and two coral cheek dashes stay fixed.",
+        "instruction_match": "The final instruction is a color-only pass and preserves every counted landmark and open-paper highlight from Step 5.",
+        "observed_present": ["rock contour", "mohawk base", "five mohawk spikes", "left round eye", "right winking eye", "raised eyebrow", "nose", "toothy mouth", "four teeth", "tongue", "left cheek mark", "right cheek mark", "three rock cracks", "three rock speckles", "two highlight shapes", "ground shadow"],
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      }
+    ]
+  }
+}

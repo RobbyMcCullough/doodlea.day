@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a pet rock</title>
+      <link>https://doodlea.day/tutorials/cartoon-pet-rock-with-mohawk.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-pet-rock-with-mohawk.html</guid>
+      <pubDate>Sun, 06 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a pet rock with a five-spike mohawk, mismatched eyes, a four-tooth grin, bold marker outlines, and bright handmade color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-pet-rock-with-mohawk-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a capybara</title>
       <link>https://doodlea.day/tutorials/cartoon-capybara-holding-an-orange.html</link>
