@@ -1,0 +1,241 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-hard-hat",
+  "finished": "assets/cartoon-hard-hat-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One low closed brim gives the learner a single connected shape with clear left and right dome attachment points.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Five-panel additive marker hard hat. Archive checked: no hard hat, distinct from recent rock character and hourglass. Labor Day hook confirmed by OPM. No face, sticker border or badge framing. Approved first five-panel contact sheet, square crops made with crop-contact-sheet.py. Navy vents and shadow already appear at step 4; copy explicitly reflects that. Built-in image generation used."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "brim",
+      "introduced_by_step": 1,
+      "description": "One wide low closed oval brim, wider than the dome."
+    },
+    {
+      "name": "dome",
+      "introduced_by_step": 2,
+      "description": "One round dome arch meets the brim back edge at two fixed endpoints."
+    },
+    {
+      "name": "rib left edge",
+      "introduced_by_step": 3,
+      "description": "One narrow rib curve runs from below the crown to the brim right of center."
+    },
+    {
+      "name": "rib right edge",
+      "introduced_by_step": 3,
+      "description": "One parallel rib curve meets the brim to the right of the first."
+    },
+    {
+      "name": "rib top cap",
+      "introduced_by_step": 3,
+      "description": "One short rounded cap joins the rib edges inside the dome."
+    },
+    {
+      "name": "left vent",
+      "introduced_by_step": 4,
+      "description": "One short rounded slot sits at the left end of a three-vent row."
+    },
+    {
+      "name": "middle vent",
+      "introduced_by_step": 4,
+      "description": "One short rounded slot sits at the center of the three-vent row."
+    },
+    {
+      "name": "right vent",
+      "introduced_by_step": 4,
+      "description": "One short rounded slot sits at the right end of the three-vent row."
+    },
+    {
+      "name": "highlight",
+      "introduced_by_step": 4,
+      "description": "One long curved enclosed highlight sits above the vents on the left dome."
+    },
+    {
+      "name": "brim inner edge",
+      "introduced_by_step": 4,
+      "description": "One inner bowed line runs across the front brim."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One broken oval shadow sits beneath the helmet."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-hard-hat-step-1.jpg",
+      "step_name": "Draw the broad brim",
+      "visible_job": "Below the middle of the page, draw a wide flattened oval with a slightly straighter back edge and a gently bowed front edge. This closed brim is wider than the dome you will add next.",
+      "instruction": "Below the middle of the page, draw a wide flattened oval with a slightly straighter back edge and a gently bowed front edge. This closed brim is wider than the dome you will add next.",
+      "adds": [
+        "brim"
+      ],
+      "introduces": [
+        "brim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-hard-hat-step-2.jpg",
+      "step_name": "Raise the helmet dome",
+      "visible_job": "Starting a little inside the left end of the brim, draw one tall rounded arch up and over to a point a little inside the right end. Both ends meet the back edge of the brim. Keep the brim line visible as the join beneath the dome.",
+      "instruction": "Starting a little inside the left end of the brim, draw one tall rounded arch up and over to a point a little inside the right end. Both ends meet the back edge of the brim. Keep the brim line visible as the join beneath the dome.",
+      "adds": [
+        "dome"
+      ],
+      "introduces": [
+        "dome"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-hard-hat-step-3.jpg",
+      "step_name": "Add the raised center rib",
+      "visible_job": "Inside the dome, draw two narrow curves from near the crown down to the brim, slightly right of center. Join their upper ends with one short curve below the dome outline. Both lower ends touch the brim to make one raised reinforcing rib.",
+      "instruction": "Inside the dome, draw two narrow curves from near the crown down to the brim, slightly right of center. Join their upper ends with one short curve below the dome outline. Both lower ends touch the brim to make one raised reinforcing rib.",
+      "adds": [
+        "rib left edge",
+        "rib right edge",
+        "rib top cap"
+      ],
+      "introduces": [
+        "rib left edge",
+        "rib right edge",
+        "rib top cap"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-hard-hat-step-4.jpg",
+      "step_name": "Draw vents shine and the lower rim",
+      "visible_job": "On the left half of the dome, draw and darken exactly three short rounded horizontal vent slots in a row near the brim. Add one long curved highlight shape above them. Draw a second bowed line inside the front brim to show its thickness, then add a broken oval shadow in three dark strokes beneath the hat.",
+      "instruction": "On the left half of the dome, draw and darken exactly three short rounded horizontal vent slots in a row near the brim. Add one long curved highlight shape above them. Draw a second bowed line inside the front brim to show its thickness, then add a broken oval shadow in three dark strokes beneath the hat.",
+      "adds": [
+        "left vent",
+        "middle vent",
+        "right vent",
+        "highlight",
+        "brim inner edge",
+        "ground shadow"
+      ],
+      "introduces": [
+        "left vent",
+        "middle vent",
+        "right vent",
+        "highlight",
+        "brim inner edge",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-hard-hat-finished-v1.jpg",
+    "step_name": "Color the bright hard hat",
+    "visible_job": "Fill the established helmet contours with yellow and orange directional marker strokes.",
+    "instruction": "Fill the dome golden yellow, the center rib orange, and the brim a deeper orange. Keep the three vents and ground shadow dark navy, and leave the long highlight white. Pull the marker strokes around the dome curve and let a little paper texture show through.",
+    "adds": [
+      "yellow orange and navy in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.7,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved crop contains one flattened closed brim. Its slightly flatter upper edge and broad bowed underside are easy to copy, with room above for the dome.",
+    "draw_through_observation": "The five crops move from brim to dome to reinforcing rib to three vents and highlight/rim/shadow, then yellow-orange fills. Both dome ends and rib ends meet the persistent upper brim line. The instructions explicitly darken vents and shadow before final color, matching the saved images.",
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "brim",
+          "dome"
+        ],
+        "observed_addition": "A round arch rises from two points inside the brim ends. The original back and front brim edges remain a closed low oval beneath it.",
+        "instruction_match": "Both arch ends meet the upper brim exactly as instructed; the slightly straighter back edge supplies an obvious attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "brim",
+          "dome",
+          "rib left edge",
+          "rib right edge",
+          "rib top cap"
+        ],
+        "observed_addition": "Two near-vertical gently curved rib edges rise from the brim right of center and join with a rounded cap inside the dome. The dome silhouette remains unbroken.",
+        "instruction_match": "The instruction puts the cap below the crown and both rib feet on the brim, requiring no erased dome or brim line.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "brim",
+          "dome",
+          "rib left edge",
+          "rib right edge",
+          "rib top cap",
+          "left vent",
+          "middle vent",
+          "right vent",
+          "highlight",
+          "brim inner edge",
+          "ground shadow"
+        ],
+        "observed_addition": "Three separate dark horizontal vent slots appear left of the rib; a single long curved white highlight is outlined above them. A bowed inner brim line and three separated shadow strokes appear beneath the same dome.",
+        "instruction_match": "The revised instruction names all three vents, the enclosed highlight, inner rim and three dark shadow strokes. Rib cap and both rib feet persist within the original dome.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "brim",
+          "dome",
+          "rib left edge",
+          "rib right edge",
+          "rib top cap",
+          "left vent",
+          "middle vent",
+          "right vent",
+          "highlight",
+          "brim inner edge",
+          "ground shadow"
+        ],
+        "observed_addition": "Directional yellow strokes fill the dome while orange fills the rib and brim. The three navy slots remain aligned below the white highlight; the inner brim edge and three shadow segments stay clear.",
+        "instruction_match": "Only established regions receive color, while the already dark vents/shadow and the white enclosed highlight stay intact as the copy specifies.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ],
+    "asset_sha256": {
+      "assets/cartoon-hard-hat-step-1.jpg": "da0bf69486d33dc1b0c6f19442d1b7a19427c420d4f43b4cff85d09e72526d36",
+      "assets/cartoon-hard-hat-step-2.jpg": "1b43b7dcc4342fc9a4e4ac67c0060f460bb9d142206c68d95bf9bff1217b8427",
+      "assets/cartoon-hard-hat-step-3.jpg": "d32c3532e9db5a15e83196548bf26832495ac926da23fdd145b2e474c71f6909",
+      "assets/cartoon-hard-hat-step-4.jpg": "a38f66c6d80f654052033cecf92e0e7b72f4acc30eb1fb4e004ec609b21930a2",
+      "assets/cartoon-hard-hat-finished-v1.jpg": "637bd4ddd59c37ce408b5d66010b17102ac3ed4d6b24d87dcee2e28f38faddcf"
+    },
+    "contract_sha256": "cf4eda832e3948e90d9633bdc64e99499c7c3edc81b12154f8abc597ff3e483f"
+  }
+}

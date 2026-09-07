@@ -1,5 +1,13 @@
 # Human Notes
 
+## 2026-09-07 — Daily hard-hat lesson (Codex)
+
+- Added `cartoon-hard-hat`, September 7 / Day 118, five direct additive marker steps. First sheet approved; all three vents, the enclosed highlight, both rib edges and brim line persist through final yellow-orange color. Teaching 8.7/10, finish 8.4/10.
+- Readiness passed, including 239 local URLs. Desktop/mobile homepage, library and tutorial QA passed at 1440x1000 and 390x844; layouts rated 8.8/10 desktop and 8.5/10 mobile. Cove certificate expired, so QA used the documented HTTP fallback.
+- One current lesson per site remains active; no routine backfills.
+- Harness: Codex; task: 2026-09-07 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-06 — Daily tutorial (Codex)
 
 - Added one current lesson only: `cartoon-pet-rock-with-mohawk` (September 6 /
