@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a chameleon</title>
+      <link>https://doodlea.day/tutorials/cartoon-chameleon-on-a-branch.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-chameleon-on-a-branch.html</guid>
+      <pubDate>Tue, 08 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a chameleon on a branch in six marker steps with a curled tail, two gripping feet, a watchful eye and three bright body stripes.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-chameleon-on-a-branch-finished-v2.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a hard hat</title>
       <link>https://doodlea.day/tutorials/cartoon-hard-hat.html</link>

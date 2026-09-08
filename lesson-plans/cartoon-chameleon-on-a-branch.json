@@ -1,0 +1,351 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-chameleon-on-a-branch",
+  "finished": "assets/cartoon-chameleon-on-a-branch-finished-v2.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One arched back connected to a rounded triangular head establishes the pose, with the whole underside left open for connected legs and belly.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six additive felt-tip panels for one right-facing chameleon. Two near-side legs shown; far-side legs fully hidden. No temporary guides. First sheet rejected for erased belly sections at leg additions and covered branch edge when leaf arrives. Repair reserves two leg openings in step 1 and introduces branch plus leaf together in step 3. No branch grain before final. Second sheet rejected because short belly gaps do not fully reserve the later leg widths; third edit removes the whole early underside, allowing legs and belly to be drawn together. Third edit passes early-panel review but its final drops the front stripe. Isolated final recoloring requested from the authoritative step-5 line drawing; all prior masters retained. Final repaired from saved step-5 line art, saved as finished-v2.jpg; complete assembled review sheet is drafts/cartoon-chameleon-on-a-branch/approved-assembled-contact-sheet.jpg. Early frames from third six-panel sheet; generated final source retained separately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "arched back",
+      "introduced_by_step": 1,
+      "description": "One broad arched back with short left-side return, underside left open until step 3."
+    },
+    {
+      "name": "head triangle",
+      "introduced_by_step": 1,
+      "description": "One rounded triangular head attaches at the right body edge, with seam retained."
+    },
+    {
+      "name": "curled tail",
+      "introduced_by_step": 2,
+      "description": "One thick inward-coiling tail attaches at the left body edge and curls below left."
+    },
+    {
+      "name": "rear leg",
+      "introduced_by_step": 3,
+      "description": "One bent rear leg descends from lower-left body into a rounded grasping foot."
+    },
+    {
+      "name": "front leg",
+      "introduced_by_step": 3,
+      "description": "One bent front leg descends from lower-right body into a rounded grasping foot."
+    },
+    {
+      "name": "branch",
+      "introduced_by_step": 3,
+      "description": "One horizontal thick branch runs behind the two feet, with upper-edge gaps under each grip."
+    },
+    {
+      "name": "turret eye",
+      "introduced_by_step": 4,
+      "description": "One large circular eye sits high inside the triangular head."
+    },
+    {
+      "name": "eye pupil",
+      "introduced_by_step": 4,
+      "description": "One small dark pupil looks right from inside the turret eye."
+    },
+    {
+      "name": "smile",
+      "introduced_by_step": 4,
+      "description": "One long curved smile follows the lower head edge."
+    },
+    {
+      "name": "rear stripe",
+      "introduced_by_step": 5,
+      "description": "One curved enclosed stripe crosses the rear body without crossing its outline."
+    },
+    {
+      "name": "middle stripe",
+      "introduced_by_step": 5,
+      "description": "One curved enclosed stripe crosses the middle body without crossing its outline."
+    },
+    {
+      "name": "front stripe",
+      "introduced_by_step": 5,
+      "description": "One curved enclosed stripe crosses the front body without crossing its outline."
+    },
+    {
+      "name": "leaf",
+      "introduced_by_step": 3,
+      "description": "One pointed leaf joins the right branch end with one short stem."
+    },
+    {
+      "name": "leaf vein",
+      "introduced_by_step": 3,
+      "description": "One central vein runs through the pointed leaf."
+    },
+    {
+      "name": "rear toe crease",
+      "introduced_by_step": 3,
+      "description": "One short crease divides the rear foot grip."
+    },
+    {
+      "name": "front toe crease",
+      "introduced_by_step": 3,
+      "description": "One short crease divides the front foot grip."
+    },
+    {
+      "name": "rear belly connection",
+      "introduced_by_step": 3,
+      "description": "One short belly curve joins the tail return to the outer rear leg."
+    },
+    {
+      "name": "middle belly connection",
+      "introduced_by_step": 3,
+      "description": "One short low belly arc connects rear leg to front leg."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-chameleon-on-a-branch-step-1.jpg",
+      "step_name": "Draw the back and head",
+      "visible_job": "Draw a broad arched back slightly above the middle of the page, curving its left end down just a little. Attach a rounded triangular head at the right end with its nose pointing right. Leave the whole underside of the body open; keep the curved seam at the back of the head.",
+      "instruction": "Draw a broad arched back slightly above the middle of the page, curving its left end down just a little. Attach a rounded triangular head at the right end with its nose pointing right. Leave the whole underside of the body open; keep the curved seam at the back of the head.",
+      "adds": [
+        "arched back",
+        "head triangle"
+      ],
+      "introduces": [
+        "arched back",
+        "head triangle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-chameleon-on-a-branch-step-2.jpg",
+      "step_name": "Curl the long tail",
+      "visible_job": "From the left side of the back, pull one broad tail downward and curl it inward like a loose spiral. Return beside the first curve to make the tail thick at its base and narrow at its tip. Let the inner tail edge meet the short left body curve, leaving the underside open.",
+      "instruction": "From the left side of the back, pull one broad tail downward and curl it inward like a loose spiral. Return beside the first curve to make the tail thick at its base and narrow at its tip. Let the inner tail edge meet the short left body curve, leaving the underside open.",
+      "adds": [
+        "curled tail"
+      ],
+      "introduces": [
+        "curled tail"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-chameleon-on-a-branch-step-3.jpg",
+      "step_name": "Grip a branch with two legs",
+      "visible_job": "Connect the open underside with a short rear belly curve, a bent rear leg, a middle belly curve, and a bent front leg that meets the head. End each leg in a rounded grasping foot with one short toe crease. Draw a thick horizontal branch behind the feet, stopping its upper edge at each grip, and finish its right end with one pointed leaf and a center vein.",
+      "instruction": "Connect the open underside with a short rear belly curve, a bent rear leg, a middle belly curve, and a bent front leg that meets the head. End each leg in a rounded grasping foot with one short toe crease. Draw a thick horizontal branch behind the feet, stopping its upper edge at each grip, and finish its right end with one pointed leaf and a center vein.",
+      "adds": [
+        "rear leg",
+        "front leg",
+        "branch",
+        "leaf",
+        "leaf vein",
+        "rear toe crease",
+        "front toe crease",
+        "rear belly connection",
+        "middle belly connection"
+      ],
+      "introduces": [
+        "rear leg",
+        "front leg",
+        "branch",
+        "leaf",
+        "leaf vein",
+        "rear toe crease",
+        "front toe crease",
+        "rear belly connection",
+        "middle belly connection"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-chameleon-on-a-branch-step-4.jpg",
+      "step_name": "Give the face a watchful look",
+      "visible_job": "Inside the head, draw one large circular turret eye with a small dark pupil aimed right. Add a long curved smile below the eye, following the lower edge of the head.",
+      "instruction": "Inside the head, draw one large circular turret eye with a small dark pupil aimed right. Add a long curved smile below the eye, following the lower edge of the head.",
+      "adds": [
+        "turret eye",
+        "eye pupil",
+        "smile"
+      ],
+      "introduces": [
+        "turret eye",
+        "eye pupil",
+        "smile"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-chameleon-on-a-branch-step-5.jpg",
+      "step_name": "Curve three stripes across the body",
+      "visible_job": "Draw three separate curved stripe shapes inside the body. Start each at the upper back edge, curve down to a tapered point above the belly, and return to the back. Keep the rear stripe, middle stripe and front stripe separate.",
+      "instruction": "Draw three separate curved stripe shapes inside the body. Start each at the upper back edge, curve down to a tapered point above the belly, and return to the back. Keep the rear stripe, middle stripe and front stripe separate.",
+      "adds": [
+        "rear stripe",
+        "middle stripe",
+        "front stripe"
+      ],
+      "introduces": [
+        "rear stripe",
+        "middle stripe",
+        "front stripe"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-chameleon-on-a-branch-finished-v2.jpg",
+    "step_name": "Color the curious chameleon",
+    "visible_job": "Fill the established body stripes eye branch and leaf with marker color.",
+    "instruction": "Fill the body, head, tail and two legs with lime-green marker. Color the three body stripes turquoise, the eye yellow with its dark pupil, and the branch warm brown. Fill the leaf teal. Keep the same outlines and let the marker strokes show.",
+    "adds": [
+      "lime turquoise yellow brown and teal fills"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.5,
+    "finished_art_score": 8.7,
+    "first_step_observation": "The first JPG has one broad back arch and attached triangular head, with the entire underside empty. The short left return becomes the inner tail connection. This sparse connected contour is easy to copy without guessing where future legs will overlap.",
+    "draw_through_observation": "The six saved images progress from open back/head, attached spiral tail, connected legs/belly/branch/leaf, face, three stripe regions, then color. Every adjacent pair was inspected, including a repaired finished-v2 image made from step-5 line art. The branch starts at the inner tail boundary and stops behind both foot grips; no taught line is erased. No temporary guides are used.",
+    "contract_sha256": "c99704b4ca883d4b7d66673ab1ce89298778cc371c7eaca75d23251a49e43828",
+    "asset_sha256": {
+      "assets/cartoon-chameleon-on-a-branch-step-1.jpg": "a5a4e6318367b27c71ef6a94c5737015b35cc0d1b4bbb83dbb3c7cb1ae3fa90a",
+      "assets/cartoon-chameleon-on-a-branch-step-2.jpg": "47a4437bef16bfab332f647c301e12f6827ca22a023d952323f067bf46fa0b7d",
+      "assets/cartoon-chameleon-on-a-branch-step-3.jpg": "43c02c6ce09250c2323e263b15668446682920b7f29e93f9f6309d236a716e32",
+      "assets/cartoon-chameleon-on-a-branch-step-4.jpg": "d27a45d257fca1cf87b04bd8258065b1adec3eae1e14e2fbd547e99068723686",
+      "assets/cartoon-chameleon-on-a-branch-step-5.jpg": "40f6f366358c09a325410734faa3740766998d0442bff91ebede129ca7f4b0c4",
+      "assets/cartoon-chameleon-on-a-branch-finished-v2.jpg": "0fb98826b0867a57c5fb6274e90a55e1e66ba881283a641e9aae2d62b641cebf"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "arched back",
+          "head triangle",
+          "curled tail"
+        ],
+        "observed_addition": "The outer tail joins the upper-left back curve and sweeps down into a thick open spiral; its inner edge returns to the existing short left-side endpoint. The arched back and closed triangular head keep their shapes, and the whole belly remains open.",
+        "instruction_match": "The copy asks for a broad tapering spiral with the inner edge meeting the short body curve. It leaves the underside open for the next step; no early belly mark needs removal.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "arched back",
+          "head triangle",
+          "curled tail",
+          "rear leg",
+          "front leg",
+          "branch",
+          "leaf",
+          "leaf vein",
+          "rear toe crease",
+          "front toe crease",
+          "rear belly connection",
+          "middle belly connection"
+        ],
+        "observed_addition": "A short rear belly curve extends from the tail return into the bent rear leg. The middle belly connects to the front leg, whose outer side meets the lower head seam. Each foot has one short crease. Two branch edges begin at the inner tail boundary and pass behind the feet, ending at one pointed right leaf with a central vein. The open spiral and head contours persist.",
+        "instruction_match": "The leg instruction builds all previously absent underside curves in one connected step, draws feet before the branch, and adds branch and leaf together. Neither tail nor feet require hidden erasures.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "arched back",
+          "head triangle",
+          "curled tail",
+          "rear leg",
+          "front leg",
+          "branch",
+          "leaf",
+          "leaf vein",
+          "rear toe crease",
+          "front toe crease",
+          "rear belly connection",
+          "middle belly connection",
+          "turret eye",
+          "eye pupil",
+          "smile"
+        ],
+        "observed_addition": "One large round eye appears high inside the head with its dark pupil against the right side, and a long curved smile sits below. The tail coil remains open, the two foot creases stay separate, the branch stops behind both grips, and the pointed leaf and center vein remain at the right end.",
+        "instruction_match": "The face step names the oversized turret eye, right-looking pupil and long smile. It does not introduce unmentioned nostrils or eyebrow marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "arched back",
+          "head triangle",
+          "curled tail",
+          "rear leg",
+          "front leg",
+          "branch",
+          "leaf",
+          "leaf vein",
+          "rear toe crease",
+          "front toe crease",
+          "rear belly connection",
+          "middle belly connection",
+          "turret eye",
+          "eye pupil",
+          "smile",
+          "rear stripe",
+          "middle stripe",
+          "front stripe"
+        ],
+        "observed_addition": "Three curved tapering stripe outlines descend from the back: rear stripe above the rear leg, middle stripe over the belly, and front stripe against the head seam. The front stripe shares its upper start with the adjacent middle stripe but has its own pointed lower end. Both legs, both toe creases, two belly connections, branch, leaf vein, eye, pupil, smile and entire tail coil remain.",
+        "instruction_match": "The stripe step describes back-to-point-and-back strokes within the body, stopping above the leg attachments. All three separate enclosed areas are visible; the head, legs and tail remain unpatterned.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "arched back",
+          "head triangle",
+          "curled tail",
+          "rear leg",
+          "front leg",
+          "branch",
+          "leaf",
+          "leaf vein",
+          "rear toe crease",
+          "front toe crease",
+          "rear belly connection",
+          "middle belly connection",
+          "turret eye",
+          "eye pupil",
+          "smile",
+          "rear stripe",
+          "middle stripe",
+          "front stripe"
+        ],
+        "observed_addition": "Lime fills the established head, body, tail and both legs. Rear, middle AND front stripe regions are now turquoise; the repaired front stripe retains both black boundaries and its low point beside the head seam. The turret eye is yellow, pupil remains right-looking, smile keeps its arc, both toe creases and belly joins remain, the branch is brown, and the single leaf is teal with its central black vein. Tail tip and open spiral space retain their positions.",
+        "instruction_match": "The final instruction colors the three existing stripe regions and the established eye, body, branch and leaf. Heavier black edges clarify existing contours; no new structure is introduced. The previously missing front stripe is present and countable.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

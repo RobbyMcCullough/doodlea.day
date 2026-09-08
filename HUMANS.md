@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-08 — Daily chameleon lesson (Codex)
+
+- Added `cartoon-chameleon-on-a-branch`, September 8 / Day 119, six direct marker steps and an intermediate 25-minute lesson. Third sheet supplies the five early frames; a separate final recoloring restores all three stripes. Teaching 8.5/10, finish 8.7/10.
+- Three failed sheets and the superseded finish stay under `drafts/cartoon-chameleon-on-a-branch/rejected-progressions/`. First failure erased belly/branch lines; second had leg-gap anchor mismatch; third lost the front stripe at coloring. The final sequence starts with an entirely open underside and draws legs, belly, branch and leaf together.
+- All five saved adjacent pairs reviewed, including finished-v2. Two near-side legs, both toe creases, tail spiral, head seam, eye/pupil/smile, three stripes, branch and leaf vein persist. No guides. Schema v5 review contains image/contract hashes.
+- Readiness passed: 242 Cove URLs, zero failures; initial sandbox network errors resolved by rerunning with local network access. Desktop 1440x1000/mobile 390x844 homepage, library and tutorial QA passed; layouts 8.8/10 desktop, 8.6/10 mobile.
+- One current lesson per site remains active; no routine backfills. Older tutorial changes are generated latest-lesson cards.
+- Harness: Codex; task: 2026-09-08 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-07 — Daily hard-hat lesson (Codex)
 
 - Added `cartoon-hard-hat`, September 7 / Day 118, five direct additive marker steps. First sheet approved; all three vents, the enclosed highlight, both rib edges and brim line persist through final yellow-orange color. Teaching 8.7/10, finish 8.4/10.
