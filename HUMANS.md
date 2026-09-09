@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-09 — Daily horseshoe-magnet-with-paper-clips lesson (Codex)
+
+- Added `horseshoe-magnet-with-paper-clips`, September 9 / Day 120. Five direct marker steps from source panels 1,2,4,5,6; duplicate panel 3 stays private. Both clip loops, three seams, two highlights, inset U and two sparks persist through red/cobalt/gray/yellow fills. Teaching 8.6/10; finish 8.5/10.
+- Full readiness passed: 243 Cove URLs, zero failures. Schema v5 saved-image review contains adjacent-pair observations, individual landmarks and current image/contract hashes. No temporary guides.
+- Cove desktop 1440x1000/mobile 390x844 homepage, library and tutorial review passed; no overflow or broken lazy images. Layouts 8.8/10 desktop and 8.6/10 mobile. Lesson text/images remain in static HTML without JavaScript.
+- One current lesson per site remains active; no backfills. Older generated tutorial changes update latest-lesson cards and previous/next navigation. Built-in image generation used; source sheets and omitted/failed iterations remain outside navigation.
+- Harness: Codex; task: 2026-09-09 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-08 — Daily chameleon lesson (Codex)
 
 - Added `cartoon-chameleon-on-a-branch`, September 8 / Day 119, six direct marker steps and an intermediate 25-minute lesson. Third sheet supplies the five early frames; a separate final recoloring restores all three stripes. Teaching 8.5/10, finish 8.7/10.

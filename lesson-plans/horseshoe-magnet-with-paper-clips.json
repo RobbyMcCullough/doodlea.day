@@ -1,0 +1,294 @@
+{
+  "schema_version": 5,
+  "slug": "horseshoe-magnet-with-paper-clips",
+  "finished": "assets/horseshoe-magnet-with-paper-clips-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad U-shaped band gives the learner both outside and inside curves with two flat upper ends. Its large connected shape is easy to place before small clips.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "One generated six-panel raster sheet. Source panels 1,2,4,5,6 form the approved five-step lesson; panel 3 duplicates panel 2 and remains private. Steps use direct additive marker, no guides; five square crops reviewed pairwise."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "horseshoe band",
+      "introduced_by_step": 1,
+      "description": "Wide upright U-shaped band with flat ends and rounded lower bend."
+    },
+    {
+      "name": "left tip seam",
+      "introduced_by_step": 2,
+      "description": "Horizontal seam across the left arm below its flat end."
+    },
+    {
+      "name": "right tip seam",
+      "introduced_by_step": 2,
+      "description": "Horizontal seam across the right arm below its flat end."
+    },
+    {
+      "name": "bottom center seam",
+      "introduced_by_step": 2,
+      "description": "Short radial seam across the center of the lower bend."
+    },
+    {
+      "name": "left paper clip",
+      "introduced_by_step": 2,
+      "description": "Narrow double-loop paper clip above left tip, tilted inward."
+    },
+    {
+      "name": "right paper clip",
+      "introduced_by_step": 2,
+      "description": "Narrow double-loop paper clip above right tip, tilted inward the opposite way."
+    },
+    {
+      "name": "left highlight",
+      "introduced_by_step": 3,
+      "description": "Slim enclosed highlight inside left arm below cap."
+    },
+    {
+      "name": "right highlight",
+      "introduced_by_step": 3,
+      "description": "Slim enclosed highlight inside right arm below cap."
+    },
+    {
+      "name": "inner bevel line",
+      "introduced_by_step": 3,
+      "description": "Thin inset U following inner curve and stopping below both cap seams."
+    },
+    {
+      "name": "left spark",
+      "introduced_by_step": 4,
+      "description": "Small closed zigzag between left clip and center opening."
+    },
+    {
+      "name": "right spark",
+      "introduced_by_step": 4,
+      "description": "Small closed zigzag between right clip and center opening."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/horseshoe-magnet-with-paper-clips-step-1.jpg",
+      "step_name": "Draw the horseshoe band",
+      "visible_job": "Draw a wide U with two upright sides and a rounded bottom. Turn across each flat top end and follow a smaller U inside, making one thick horseshoe-shaped band. Keep the opening wide enough for two floating paper clips.",
+      "instruction": "Draw a wide U with two upright sides and a rounded bottom. Turn across each flat top end and follow a smaller U inside, making one thick horseshoe-shaped band. Keep the opening wide enough for two floating paper clips.",
+      "adds": [
+        "horseshoe band"
+      ],
+      "introduces": [
+        "horseshoe band"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/horseshoe-magnet-with-paper-clips-step-2.jpg",
+      "step_name": "Add the seams and clips",
+      "visible_job": "Draw a horizontal seam across each arm below its flat end and a short vertical seam across the bottom center of the U. Above each tip, draw a narrow loop that curls back inside itself to form a paper clip. Tilt the left clip right and the right clip left, keeping a clear paper gap above each tip.",
+      "instruction": "Draw a horizontal seam across each arm below its flat end and a short vertical seam across the bottom center of the U. Above each tip, draw a narrow loop that curls back inside itself to form a paper clip. Tilt the left clip right and the right clip left, keeping a clear paper gap above each tip.",
+      "adds": [
+        "left tip seam",
+        "right tip seam",
+        "bottom center seam",
+        "left paper clip",
+        "right paper clip"
+      ],
+      "introduces": [
+        "left tip seam",
+        "right tip seam",
+        "bottom center seam",
+        "left paper clip",
+        "right paper clip"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/horseshoe-magnet-with-paper-clips-step-3.jpg",
+      "step_name": "Reserve the highlights",
+      "visible_job": "Inside each arm, draw a narrow rounded highlight shape below the tip seam. Add a thin U-shaped inset line along the inner curve of the magnet, stopping both ends below the tip seams so the metal caps remain clear.",
+      "instruction": "Inside each arm, draw a narrow rounded highlight shape below the tip seam. Add a thin U-shaped inset line along the inner curve of the magnet, stopping both ends below the tip seams so the metal caps remain clear.",
+      "adds": [
+        "left highlight",
+        "right highlight",
+        "inner bevel line"
+      ],
+      "introduces": [
+        "left highlight",
+        "right highlight",
+        "inner bevel line"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/horseshoe-magnet-with-paper-clips-step-4.jpg",
+      "step_name": "Add two magnetic sparks",
+      "visible_job": "In the open space between the clips, draw two small closed zigzag spark shapes, one above the left tip and one above the right. Keep both sparks separate from the clip wires and leave the center opening airy.",
+      "instruction": "In the open space between the clips, draw two small closed zigzag spark shapes, one above the left tip and one above the right. Keep both sparks separate from the clip wires and leave the center opening airy.",
+      "adds": [
+        "left spark",
+        "right spark"
+      ],
+      "introduces": [
+        "left spark",
+        "right spark"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/horseshoe-magnet-with-paper-clips-finished-v1.jpg",
+    "step_name": "Fill the magnet with color",
+    "visible_job": "Add red and cobalt marker fills, gray metal and yellow sparks within established outlines.",
+    "instruction": "Fill the left half red and the right half cobalt blue, meeting at the bottom seam. Leave both enclosed highlights white. Shade the tips and clip wires lightly gray, fill the two sparks yellow, and darken the narrow inner bevel with the matching red or blue. Keep visible marker strokes inside the existing outlines.",
+    "adds": [
+      "red cobalt gray and yellow marker fills"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.6,
+    "finished_art_score": 8.5,
+    "first_step_observation": "The first saved crop has one large connected U-shaped band. The two flat ends join inner and outer contours; there are no scattered guides or future clip details.",
+    "draw_through_observation": "Read the revised five instructions against all four saved adjacent pairs. Omitting the duplicate source panel removes a no-change step. Two clips, three seams, two highlights, inner inset and two sparks all precede color and survive it.",
+    "contract_sha256": "45bdb01bb921cef41b222b7205131f0c1801f9701f8795fd7b92b5cb718494a2",
+    "asset_sha256": {
+      "assets/horseshoe-magnet-with-paper-clips-step-1.jpg": "4ee1e08d70d3567efbc5823478ceef8fe1da99c1db4024dbba0d54b6e3d0181e",
+      "assets/horseshoe-magnet-with-paper-clips-step-2.jpg": "527dfe946266c5a717bf30e68915cf1364463390deddb3f305ddad36ae5525b6",
+      "assets/horseshoe-magnet-with-paper-clips-step-3.jpg": "0ee1e859d4f53725d0b27fbdbffbd0d0b0abbb3d99f3599513c2981bdb4965ec",
+      "assets/horseshoe-magnet-with-paper-clips-step-4.jpg": "e1d090ea0f03ac3efd2c1a75c454364e7a9f46ee9506e339f04544de1575d935",
+      "assets/horseshoe-magnet-with-paper-clips-finished-v1.jpg": "2e09bcbec8538ca92fbb182dd6264eec2a50fa6a8971bfc509929c01572c21b8"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "horseshoe band",
+          "left tip seam",
+          "right tip seam",
+          "bottom center seam",
+          "left paper clip",
+          "right paper clip"
+        ],
+        "landmark_observations": {
+          "horseshoe band": "Wide outer U and narrower inner U retain their flat terminal ends and slightly uneven felt-tip edges.",
+          "left tip seam": "Horizontal cap seam joins both sides of left arm.",
+          "right tip seam": "Horizontal cap seam joins both sides of right arm.",
+          "bottom center seam": "Vertical bottom seam meets inner and outer bend at center.",
+          "left paper clip": "Left floating clip tilts up-right, with visible open return on its lower right.",
+          "right paper clip": "Right floating clip tilts up-left, with visible open return on its lower left."
+        },
+        "observed_addition": "Three seams and two inward-leaning clips appear while the U keeps its outline and flat ends.",
+        "instruction_match": "Step 2 combines the actually simultaneous seams and clips. The clip return is an open curled stroke; no wire attaches to or crosses the magnet.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "horseshoe band",
+          "left tip seam",
+          "right tip seam",
+          "bottom center seam",
+          "left paper clip",
+          "right paper clip",
+          "left highlight",
+          "right highlight",
+          "inner bevel line"
+        ],
+        "landmark_observations": {
+          "horseshoe band": "Wide outer U and narrower inner U retain their flat terminal ends and slightly uneven felt-tip edges.",
+          "left tip seam": "Horizontal cap seam joins both sides of left arm.",
+          "right tip seam": "Horizontal cap seam joins both sides of right arm.",
+          "bottom center seam": "Vertical bottom seam meets inner and outer bend at center.",
+          "left paper clip": "Left floating clip tilts up-right, with visible open return on its lower right.",
+          "right paper clip": "Right floating clip tilts up-left, with visible open return on its lower left.",
+          "left highlight": "Slim closed oval sits below left cap near outer edge.",
+          "right highlight": "Slim closed oval sits below right cap near outer edge.",
+          "inner bevel line": "Thin U inset sits alongside inner border and stops below both caps; crosses bottom seam without replacing it."
+        },
+        "observed_addition": "Two enclosed highlights and one thin inset U appear inside the retained band. Both clip openings and all three seams remain.",
+        "instruction_match": "Step 3 puts each highlight below its cap and ends the inset below both cap seams. The drawing can be added inside the existing band without erasures.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "horseshoe band",
+          "left tip seam",
+          "right tip seam",
+          "bottom center seam",
+          "left paper clip",
+          "right paper clip",
+          "left highlight",
+          "right highlight",
+          "inner bevel line",
+          "left spark",
+          "right spark"
+        ],
+        "landmark_observations": {
+          "horseshoe band": "Wide outer U and narrower inner U retain their flat terminal ends and slightly uneven felt-tip edges.",
+          "left tip seam": "Horizontal cap seam joins both sides of left arm.",
+          "right tip seam": "Horizontal cap seam joins both sides of right arm.",
+          "bottom center seam": "Vertical bottom seam meets inner and outer bend at center.",
+          "left paper clip": "Left floating clip tilts up-right, with visible open return on its lower right.",
+          "right paper clip": "Right floating clip tilts up-left, with visible open return on its lower left.",
+          "left highlight": "Slim closed oval sits below left cap near outer edge.",
+          "right highlight": "Slim closed oval sits below right cap near outer edge.",
+          "inner bevel line": "Thin U inset sits alongside inner border and stops below both caps; crosses bottom seam without replacing it.",
+          "left spark": "Closed zigzag between left clip and magnet opening points down-left.",
+          "right spark": "Mirrored closed zigzag between right clip and opening points down-right."
+        },
+        "observed_addition": "Two separate closed zigzags appear in the empty spaces below the clips; all existing loops, highlights and inset line persist.",
+        "instruction_match": "Step 4 asks for exactly two spark shapes, kept clear of the paper-clip wires and tips. Neither spark requires covering an earlier mark.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "horseshoe band",
+          "left tip seam",
+          "right tip seam",
+          "bottom center seam",
+          "left paper clip",
+          "right paper clip",
+          "left highlight",
+          "right highlight",
+          "inner bevel line",
+          "left spark",
+          "right spark"
+        ],
+        "landmark_observations": {
+          "horseshoe band": "Wide outer U and narrower inner U retain their flat terminal ends and slightly uneven felt-tip edges.",
+          "left tip seam": "Horizontal cap seam joins both sides of left arm.",
+          "right tip seam": "Horizontal cap seam joins both sides of right arm.",
+          "bottom center seam": "Vertical bottom seam meets inner and outer bend at center.",
+          "left paper clip": "Left floating clip tilts up-right, with visible open return on its lower right.",
+          "right paper clip": "Right floating clip tilts up-left, with visible open return on its lower left.",
+          "left highlight": "Slim closed oval sits below left cap near outer edge.",
+          "right highlight": "Slim closed oval sits below right cap near outer edge.",
+          "inner bevel line": "Thin U inset sits alongside inner border and stops below both caps; crosses bottom seam without replacing it.",
+          "left spark": "Closed zigzag between left clip and magnet opening points down-left.",
+          "right spark": "Mirrored closed zigzag between right clip and opening points down-right."
+        },
+        "observed_addition": "Red fills the left half, cobalt the right; gray fills tips and clip interiors, yellow fills both sparks, while both enclosed highlights remain white. The inset U and central seam remain black and readable.",
+        "instruction_match": "Step 5 colors established shapes with visible marker streaks. The wire returns stay open, both highlights remain enclosed white paper, and no extra comic effects are introduced.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
