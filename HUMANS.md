@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-10 — Daily waffle-with-syrup-and-butter lesson (Codex)
+
+- Added `cartoon-waffle-with-syrup-and-butter`, September 10 / Day 121. Five additive marker steps build the tilted waffle, a syrup pool with exactly three drips, one butter pat with two highlights, exactly three vertical and three horizontal interrupted grooves, three crumbs, one broken shadow, and a color-only finish. Teaching 8.9/10; finish 8.8/10.
+- Full readiness passed: schema v5 review, current hashes, pairwise landmark observations, image derivatives, social card, 246 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback. No overflow, broken or unloaded lazy images, invalid JSON-LD, or public `lab.html` links; layouts rated 8.8/10 desktop and 8.6/10 mobile.
+- One current lesson per site remains active; no backfills. Generated updates to older tutorials refresh latest-lesson cards and previous/next navigation.
+- Harness: Codex; task: 2026-09-10 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-09 — Daily horseshoe-magnet-with-paper-clips lesson (Codex)
 
 - Added `horseshoe-magnet-with-paper-clips`, September 9 / Day 120. Five direct marker steps from source panels 1,2,4,5,6; duplicate panel 3 stays private. Both clip loops, three seams, two highlights, inset U and two sparks persist through red/cobalt/gray/yellow fills. Teaching 8.6/10; finish 8.5/10.
