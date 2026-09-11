@@ -1,0 +1,168 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-rake-with-leaf-pile",
+  "finished": "assets/cartoon-rake-with-leaf-pile-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One long diagonal handle joined to one short rake-head bar gives the learner a useful connected tool silhouette in its final position before the tines and leaf pile arrive.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel direct felt-tip marker contact sheet for the September 11 current lesson. Early autumn supplies a natural seasonal hook; the rake-and-pile overlap is distinct from recent object, animal, and food lessons. Preserve rejected iterations privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"rake handle","introduced_by_step":1,"description":"One long rounded wooden handle angled from upper left to lower right."},
+    {"name":"rake head bar","introduced_by_step":1,"description":"One short dark bar attached across the lower-right end of the handle."},
+    {"name":"rake tine 1","introduced_by_step":2,"description":"Leftmost curved tine attached to the rake-head bar."},
+    {"name":"rake tine 2","introduced_by_step":2,"description":"Second curved tine attached to the rake-head bar."},
+    {"name":"rake tine 3","introduced_by_step":2,"description":"Third curved tine attached to the rake-head bar."},
+    {"name":"rake tine 4","introduced_by_step":2,"description":"Fourth curved tine attached to the rake-head bar."},
+    {"name":"rake tine 5","introduced_by_step":2,"description":"Rightmost curved tine attached to the rake-head bar."},
+    {"name":"leaf pile outline","introduced_by_step":3,"description":"One low scalloped pile beneath and behind the visible rake tines, leaving all five tips readable."},
+    {"name":"leaf 1","introduced_by_step":4,"description":"One five-point leaf near the left side of the pile."},
+    {"name":"leaf 2","introduced_by_step":4,"description":"One oval leaf near the upper-left pile edge."},
+    {"name":"leaf 3","introduced_by_step":4,"description":"One three-lobed leaf centered below the rake head."},
+    {"name":"leaf 4","introduced_by_step":4,"description":"One narrow leaf near the right pile edge."},
+    {"name":"leaf 5","introduced_by_step":4,"description":"One small five-point leaf floating above the pile."},
+    {"name":"motion curl 1","introduced_by_step":5,"description":"One short wind curl to the left of the floating leaf."},
+    {"name":"motion curl 2","introduced_by_step":5,"description":"One short wind curl to the right of the floating leaf."},
+    {"name":"ground shadow","introduced_by_step":5,"description":"One broken navy shadow beneath the leaf pile."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-rake-with-leaf-pile-step-1.jpg","step_name":"Draw the rake handle","visible_job":"Draw one long rounded handle on a diagonal and attach one short rake-head bar across its lower-right end.","instruction":"Ghost a diagonal from upper left to lower right twice, then draw the rounded wooden handle in one confident pass. Attach one short bar across its lower-right tip so the tool already points into the future pile.","adds":["rake handle","rake head bar"],"introduces":["rake handle","rake head bar"]},
+    {"step":2,"asset":"assets/cartoon-rake-with-leaf-pile-step-2.jpg","step_name":"Add five rake tines","visible_job":"Attach exactly five evenly spaced curved tines to the lower edge of the rake-head bar.","instruction":"From the lower edge of the rake-head bar, pull exactly five short curved tines downward. Space their roots evenly, keep every tip visible, and compare the four narrow gaps before moving on.","adds":["rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5"],"introduces":["rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5"]},
+    {"step":3,"asset":"assets/cartoon-rake-with-leaf-pile-step-3.jpg","step_name":"Heap the leaf pile","visible_job":"Draw one low scalloped leaf-pile silhouette behind the rake tips without covering any tine.","instruction":"Begin left of the rake head and build one low scalloped mound across the bottom of the page. Route its upper edge behind the five visible tine tips, then close the pile with a shallow lower curve.","adds":["leaf pile outline"],"introduces":["leaf pile outline"]},
+    {"step":4,"asset":"assets/cartoon-rake-with-leaf-pile-step-4.jpg","step_name":"Place five autumn leaves","visible_job":"Add exactly five distinct leaf shapes across and above the pile while keeping the rake silhouette clear.","instruction":"Add exactly five leaves: a five-point leaf at left, an oval near the upper-left edge, a three-lobed leaf below the rake head, a narrow leaf at right, and one small five-point leaf floating above the pile. Keep each silhouette separate enough to color cleanly.","adds":["leaf 1","leaf 2","leaf 3","leaf 4","leaf 5"],"introduces":["leaf 1","leaf 2","leaf 3","leaf 4","leaf 5"]},
+    {"step":5,"asset":"assets/cartoon-rake-with-leaf-pile-step-5.jpg","step_name":"Add breeze and shadow","visible_job":"Draw two short wind curls around the floating leaf and one broken ground shadow beneath the pile.","instruction":"Curve one short breeze mark on each side of the floating leaf, then draw one broken shadow beneath the pile. Leave small paper gaps in the shadow so it feels quick and handmade.","adds":["motion curl 1","motion curl 2","ground shadow"],"introduces":["motion curl 1","motion curl 2","ground shadow"]}
+  ],
+  "final_step": {
+    "asset":"assets/cartoon-rake-with-leaf-pile-finished-v1.jpg",
+    "step_name":"Color the autumn cleanup",
+    "visible_job":"Add brown, charcoal, orange, yellow, coral, teal, and navy marker fills only inside the established shapes.",
+    "instruction":"Color the handle warm brown and the rake head and five tines charcoal. Fill the pile with loose orange and yellow strokes, then color the five established leaves coral, orange, yellow, and teal. Deepen the two breeze curls and existing broken shadow with navy, preserve paper streaks, and add no new outlines.",
+    "adds":["brown charcoal orange yellow coral teal and navy marker fills"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.7,
+    "finished_art_score":8.8,
+    "first_step_observation":"The first crop presents one connected diagonal handle and attached head bar at their final scale and angle, giving a beginner a useful tool silhouette without premature tines, leaves, shadow, or color.",
+    "draw_through_observation":"All six saved crops were reviewed at readable size. Each adjacent pair adds only its assigned forms; the handle-to-head joint, five separate tine roots and tips, scalloped pile edge, five distinct leaves, two curls, and broken shadow retain their anchors through the marker-color finish.",
+    "contract_sha256":"a03260f0818d845d8ac0c11dd6fa3042ad4e02d19c9f8babd4864506d2f264c8",
+    "asset_sha256":{
+      "assets/cartoon-rake-with-leaf-pile-step-1.jpg":"adf4f127fef09eb89c6d14ebe5d318fac4bc06a2c74fa04b638f5c748ecaff1a",
+      "assets/cartoon-rake-with-leaf-pile-step-2.jpg":"c4066fcca18b5f049ba23612416534dbcaa101d0c2762391e315ba6535f5204b",
+      "assets/cartoon-rake-with-leaf-pile-step-3.jpg":"687b7209d128f811e111523c058016a45292deae79ee5449e8f121edd486a6f9",
+      "assets/cartoon-rake-with-leaf-pile-step-4.jpg":"e76b17c9fc0fbd0ace247466914c6bdc147fba88186d9b81f4e6d7104e24cb03",
+      "assets/cartoon-rake-with-leaf-pile-step-5.jpg":"80f9d9f459684788234c48f2ff8af95f242bc7f38705b294715e9e570277d29e",
+      "assets/cartoon-rake-with-leaf-pile-finished-v1.jpg":"b1976d4ee768c4516d024fa52c6a732dc697ac748334bdb004f6105e59cda315"
+    },
+    "transitions":[
+      {
+        "from_step":1,"to_step":2,
+        "observed_present":["rake handle","rake head bar","rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5"],
+        "landmark_observations":{
+          "rake handle":"The same long rounded handle stays on the upper-left to lower-right diagonal.",
+          "rake head bar":"The same short rounded bar stays attached across the handle tip.",
+          "rake tine 1":"The leftmost curved tine attaches at the bar underside and remains separate.",
+          "rake tine 2":"The second curved tine has its own root and visible tip.",
+          "rake tine 3":"The center curved tine has its own root and visible tip.",
+          "rake tine 4":"The fourth curved tine has its own root and visible tip.",
+          "rake tine 5":"The rightmost curved tine has its own root and visible tip."
+        },
+        "observed_addition":"Exactly five separated curved tines appear beneath the retained head bar, with four readable gaps and no other new marks.",
+        "instruction_match":"Step 2 matches the visible addition: five downward curves share the head bar while the handle and bar remain unchanged.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":2,"to_step":3,
+        "observed_present":["rake handle","rake head bar","rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5","leaf pile outline"],
+        "landmark_observations":{
+          "rake handle":"The diagonal handle keeps its rounded top and lower attachment.",
+          "rake head bar":"The head bar remains fixed across the handle tip.",
+          "rake tine 1":"The leftmost tine remains visible in front of the pile edge.",
+          "rake tine 2":"The second tine remains visible in front of the pile edge.",
+          "rake tine 3":"The center tine remains visible in front of the pile edge.",
+          "rake tine 4":"The fourth tine remains visible in front of the pile edge.",
+          "rake tine 5":"The rightmost tine remains visible in front of the pile edge.",
+          "leaf pile outline":"One low scalloped mound spans the bottom behind all five tine tips."
+        },
+        "observed_addition":"One substantial scalloped pile silhouette appears across the bottom while all five tine tips stay unobscured in front.",
+        "instruction_match":"Step 3 matches the crop: the pile begins left of the head, crosses behind the rake, and closes low without erasing the tool.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":3,"to_step":4,
+        "observed_present":["rake handle","rake head bar","rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5","leaf pile outline","leaf 1","leaf 2","leaf 3","leaf 4","leaf 5"],
+        "landmark_observations":{
+          "rake handle":"The handle retains the same diagonal and width.",
+          "rake head bar":"The bar stays attached at the same lower-right anchor.",
+          "rake tine 1":"The leftmost tine remains distinct above the pile.",
+          "rake tine 2":"The second tine remains distinct above the pile.",
+          "rake tine 3":"The center tine remains distinct above the pile.",
+          "rake tine 4":"The fourth tine remains distinct above the pile.",
+          "rake tine 5":"The rightmost tine remains distinct above the pile.",
+          "leaf pile outline":"The same low scalloped pile continues behind the rake and new leaves.",
+          "leaf 1":"One five-point leaf sits at the left pile edge on a short stem.",
+          "leaf 2":"One oval veined leaf floats above the upper-left pile edge.",
+          "leaf 3":"One three-lobed leaf sits centered below the rake head.",
+          "leaf 4":"One narrow veined leaf stands at the right pile edge.",
+          "leaf 5":"One small five-point leaf floats above the pile to the right of the handle."
+        },
+        "observed_addition":"Exactly five visibly different leaf silhouettes appear at the planned left, upper-left, center, right, and floating positions.",
+        "instruction_match":"Step 4 names the same five shapes and locations shown in the crop, and every leaf remains separate enough for color.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":4,"to_step":5,
+        "observed_present":["rake handle","rake head bar","rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5","leaf pile outline","leaf 1","leaf 2","leaf 3","leaf 4","leaf 5","motion curl 1","motion curl 2","ground shadow"],
+        "landmark_observations":{
+          "rake handle":"The rounded handle stays at the same diagonal anchor.",
+          "rake head bar":"The head bar stays attached and unobscured.",
+          "rake tine 1":"The leftmost tine remains visible and countable.",
+          "rake tine 2":"The second tine remains visible and countable.",
+          "rake tine 3":"The center tine remains visible and countable.",
+          "rake tine 4":"The fourth tine remains visible and countable.",
+          "rake tine 5":"The rightmost tine remains visible and countable.",
+          "leaf pile outline":"The scalloped mound remains low beneath the rake.",
+          "leaf 1":"The left five-point leaf keeps its stem and pile-edge position.",
+          "leaf 2":"The upper-left oval leaf keeps its angle and vein.",
+          "leaf 3":"The center three-lobed leaf remains below the rake head.",
+          "leaf 4":"The right narrow leaf keeps its upright angle and vein.",
+          "leaf 5":"The floating five-point leaf remains above the pile.",
+          "motion curl 1":"One short curl appears to the left of the floating leaf.",
+          "motion curl 2":"One short curl appears to the right of the floating leaf.",
+          "ground shadow":"One broken three-part shadow route appears beneath the pile."
+        },
+        "observed_addition":"Two large readable breeze curls flank the floating leaf and one broken shadow appears beneath the otherwise unchanged drawing.",
+        "instruction_match":"Step 5 matches the saved change exactly: two curls and one low broken shadow arrive without new leaves or tool parts.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":5,"to_step":6,
+        "observed_present":["rake handle","rake head bar","rake tine 1","rake tine 2","rake tine 3","rake tine 4","rake tine 5","leaf pile outline","leaf 1","leaf 2","leaf 3","leaf 4","leaf 5","motion curl 1","motion curl 2","ground shadow"],
+        "landmark_observations":{
+          "rake handle":"The same rounded handle is filled brown with its contour and attachment intact.",
+          "rake head bar":"The same head bar is filled charcoal without changing its silhouette.",
+          "rake tine 1":"The leftmost tine remains separate and receives charcoal fill.",
+          "rake tine 2":"The second tine remains separate and receives charcoal fill.",
+          "rake tine 3":"The center tine remains separate and receives charcoal fill.",
+          "rake tine 4":"The fourth tine remains separate and receives charcoal fill.",
+          "rake tine 5":"The rightmost tine remains separate and receives charcoal fill.",
+          "leaf pile outline":"The same scalloped mound receives loose orange and yellow strokes inside its boundary.",
+          "leaf 1":"The left five-point leaf remains fixed and fills coral-orange.",
+          "leaf 2":"The upper-left oval leaf remains fixed and fills golden yellow.",
+          "leaf 3":"The center three-lobed leaf remains fixed and fills golden yellow.",
+          "leaf 4":"The right narrow leaf remains fixed and fills teal.",
+          "leaf 5":"The floating five-point leaf remains fixed and fills coral-orange.",
+          "motion curl 1":"The left curl remains in place and deepens to navy.",
+          "motion curl 2":"The right curl remains in place and deepens to navy.",
+          "ground shadow":"The same broken three-part shadow remains below the pile and fills navy."
+        },
+        "observed_addition":"Warm brown, charcoal, orange, yellow, coral, teal, and navy marker fills color only the established contours with visible paper streaks.",
+        "instruction_match":"The final instruction matches the finish: all five tines, five leaves, two curls, pile, and shadow persist, and no structural landmark first appears in color.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      }
+    ]
+  }
+}

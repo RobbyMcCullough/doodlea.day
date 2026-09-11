@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-11 — Daily rake-with-leaf-pile lesson (Codex)
+
+- Added `cartoon-rake-with-leaf-pile`, September 11 / Day 122. Five direct, additive marker steps keep exactly five rake tines, five distinct leaves, and two breeze curls through the color-only finish. The first generated progression was rejected for nine tines; the corrected version rated 8.7/10 for teaching and 8.8/10 for finish.
+- Full readiness passed: schema v5 review, current hashes, pairwise landmark observations, derivatives, social card, 248 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback. No overflow, invalid JSON-LD, public `lab.html` links, or broken tutorial images; all 120 lazy library images loaded after individual scrolling.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-11 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-10 — Daily waffle-with-syrup-and-butter lesson (Codex)
 
 - Added `cartoon-waffle-with-syrup-and-butter`, September 10 / Day 121. Five additive marker steps build the tilted waffle, a syrup pool with exactly three drips, one butter pat with two highlights, exactly three vertical and three horizontal interrupted grooves, three crumbs, one broken shadow, and a color-only finish. Teaching 8.9/10; finish 8.8/10.
