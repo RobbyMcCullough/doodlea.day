@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-12 — Daily wind-up-mouse lesson (Codex)
+
+- Added `cartoon-wind-up-mouse`, September 12 / Day 123. Five direct additive marker stages use source panels 1, 2, 3, 4, and 6; the feet-only color intermediate stays private. The body, ear, two feet, four seam marks, tail curl, attached two-lobed key, sleepy profile face, three whiskers, and three spots remain fixed through the color-and-small-accent finish. Teaching rated 8.8/10; finish rated 8.9/10.
+- Full readiness passed: schema v5 review, current image/contract hashes, all four adjacent transitions, derivatives, social card, 249 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed in Cove. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 121 library images loaded after incremental scrolling.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-12 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-11 — Daily rake-with-leaf-pile lesson (Codex)
 
 - Added `cartoon-rake-with-leaf-pile`, September 11 / Day 122. Five direct, additive marker steps keep exactly five rake tines, five distinct leaves, and two breeze curls through the color-only finish. The first generated progression was rejected for nine tines; the corrected version rated 8.7/10 for teaching and 8.8/10 for finish.

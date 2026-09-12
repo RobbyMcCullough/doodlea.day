@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a wind-up mouse</title>
+      <link>https://doodlea.day/tutorials/cartoon-wind-up-mouse.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-wind-up-mouse.html</guid>
+      <pubDate>Sat, 12 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a wind-up mouse with a teardrop body, two toy feet, curled tail, anchored key, sleepy face, thick outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-wind-up-mouse-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a rake with a leaf pile</title>
       <link>https://doodlea.day/tutorials/cartoon-rake-with-leaf-pile.html</link>
