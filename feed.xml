@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a peanut</title>
+      <link>https://doodlea.day/tutorials/cartoon-peanut-in-its-shell.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-peanut-in-its-shell.html</guid>
+      <pubDate>Sun, 13 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a peanut in its shell with two rounded lobes, a wavy seam, crossed shell grooves, three bumps, thick outlines, and warm marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-peanut-in-its-shell-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a wind-up mouse</title>
       <link>https://doodlea.day/tutorials/cartoon-wind-up-mouse.html</link>

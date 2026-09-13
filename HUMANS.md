@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-13 — Daily peanut lesson (Codex)
+
+- Added `cartoon-peanut-in-its-shell`, September 13 / Day 124. Five direct marker stages preserve the pinched double-lobed shell, wavy center seam, two rims, crossing grooves, exactly three raised bumps, two open highlights, and one broken three-piece shadow through the tan, ochre, brown, and navy finish. Teaching rated 8.6/10; finish rated 8.7/10.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 252 internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback after Cove reported an expired certificate. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 122 library images and all 11 tutorial images loaded after scrolling.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-13 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-12 — Daily wind-up-mouse lesson (Codex)
 
 - Added `cartoon-wind-up-mouse`, September 12 / Day 123. Five direct additive marker stages use source panels 1, 2, 3, 4, and 6; the feet-only color intermediate stays private. The body, ear, two feet, four seam marks, tail curl, attached two-lobed key, sleepy profile face, three whiskers, and three spots remain fixed through the color-and-small-accent finish. Teaching rated 8.8/10; finish rated 8.9/10.

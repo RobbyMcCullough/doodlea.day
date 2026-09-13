@@ -1,0 +1,57 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-peanut-in-its-shell",
+  "finished": "assets/cartoon-peanut-in-its-shell-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One bold double-lobed shell contour with a pinched waist makes the peanut readable immediately and gives the learner one connected shape to copy.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Generate one six-panel cumulative felt-tip marker contact sheet; preserve failed iterations privately under the slug draft folder."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"double-lobed peanut silhouette","introduced_by_step":1,"description":"One diagonal peanut shell with two rounded lobes, a pinched waist, and softly pointed ends."},
+    {"name":"central shell seam and two inner rims","introduced_by_step":2,"description":"One curving center seam plus one inner rim curve inside each of the two lobes."},
+    {"name":"first diagonal groove family","introduced_by_step":3,"description":"A spaced family of short diagonal shell grooves running down-right across both lobes."},
+    {"name":"crossing groove family and shell bumps","introduced_by_step":4,"description":"A second groove family crossing the first plus three small raised shell bumps."},
+    {"name":"two highlights and broken shadow","introduced_by_step":5,"description":"Exactly two open-paper highlight shapes and one broken deep-navy shadow beneath the peanut."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-peanut-in-its-shell-step-1.jpg","step_name":"Draw the peanut shell","visible_job":"Draws one bold diagonal double-lobed peanut silhouette with a narrow waist.","instruction":"Draw one long peanut shell tilted from upper left to lower right. Round both lobes, pinch the middle inward on both sides, and finish each end with a soft uneven point.","adds":["double-lobed peanut silhouette"],"introduces":["double-lobed peanut silhouette"]},
+    {"step":2,"asset":"assets/cartoon-peanut-in-its-shell-step-2.jpg","step_name":"Build the shell seams","visible_job":"Adds one curving center seam and two inner rim curves inside the fixed outline.","instruction":"Pull one wavy seam through the middle from the upper tip to the lower tip. Add one shorter inner rim curve inside each lobe, following the outer shell without touching it.","adds":["central shell seam and two inner rims"],"introduces":["central shell seam and two inner rims"]},
+    {"step":3,"asset":"assets/cartoon-peanut-in-its-shell-step-3.jpg","step_name":"Stripe the first grooves","visible_job":"Adds one evenly spaced family of short diagonal shell grooves across both lobes.","instruction":"Across both lobes, draw short diagonal grooves that lean down toward the right. Stop every groove at the outer contour, center seam, or inner rim so the shell stays clean and readable.","adds":["first diagonal groove family"],"introduces":["first diagonal groove family"]},
+    {"step":4,"asset":"assets/cartoon-peanut-in-its-shell-step-4.jpg","step_name":"Cross the shell texture","visible_job":"Adds the crossing groove family and exactly three small raised bumps to the unchanged shell.","instruction":"Add a second family of short grooves leaning the opposite way to make a loose diamond texture. Place exactly three small rounded bumps along the shell, keeping them inside the established outline.","adds":["crossing groove family and shell bumps"],"introduces":["crossing groove family and shell bumps"]},
+    {"step":5,"asset":"assets/cartoon-peanut-in-its-shell-step-5.jpg","step_name":"Reserve shine and shadow","visible_job":"Adds exactly two open-paper highlights and one broken shadow beneath the established shell.","instruction":"Reserve exactly two small highlight shapes, one on each lobe, then draw one broken shadow beneath the lower edge without touching the peanut outline.","adds":["two highlights and broken shadow"],"introduces":["two highlights and broken shadow"]}
+  ],
+  "final_step": {
+    "asset":"assets/cartoon-peanut-in-its-shell-finished-v1.jpg",
+    "step_name":"Color the crunchy shell",
+    "visible_job":"Fills the established shell warm tan and ochre and deepens the existing shadow without adding structure.",
+    "instruction":"Fill the established shell with warm tan and ochre marker, pulling strokes along each lobe. Deepen the existing seam and grooves with brown, color the same broken shadow deep navy, preserve both paper highlights, and add no new contours.",
+    "adds":["warm marker color on established shell forms"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.6,
+    "finished_art_score":8.7,
+    "first_step_observation":"The first saved crop contains one thick, slightly uneven diagonal outline with two rounded lobes, two inward waist pinches, and softly pointed ends. It is recognizable as a whole peanut shell, easy to copy as one connected shape, and contains no premature seams, texture, bumps, highlights, shadow, or color.",
+    "draw_through_observation":"Compared all six saved crops pairwise. The double-lobed outline, wavy center seam, two inner rims, both groove families, three raised bumps, two reserved highlights, and three-part broken shadow keep their locations; the final adds warm tan, ochre, brown, and navy only within the established design.",
+    "contract_sha256":"04c7f3cb4e4b61d18c78d3380919678d1d0e0d626da750b24b272e011e8779e6",
+    "asset_sha256":{
+      "assets/cartoon-peanut-in-its-shell-step-1.jpg":"4d709c90fc6ea01d11f63d7b2471d21b87f503990132a684e5ee31dcec41c669",
+      "assets/cartoon-peanut-in-its-shell-step-2.jpg":"c249c365ee8c41724491b14b14bb7a43868c63dd9d4d197d67c4ecc110cce95b",
+      "assets/cartoon-peanut-in-its-shell-step-3.jpg":"4ca3b6081a86f1e19d849084ab34e41d86a2ef9be5612f76df6d05e760cf870a",
+      "assets/cartoon-peanut-in-its-shell-step-4.jpg":"a5a201779100a76e7a542563c4a88e6ed0f63902ae7dc58f6336f41be0a2fe07",
+      "assets/cartoon-peanut-in-its-shell-step-5.jpg":"6037d8b0c947108b93723c9183947d8400492a31feb9079da45cdeba1e948634",
+      "assets/cartoon-peanut-in-its-shell-finished-v1.jpg":"90edbdd6f3d09e45703ef2fc9c24c6b20a62dff07c430b8f8d7b6ebea85992f2"
+    },
+    "transitions":[
+      {"from_step":1,"to_step":2,"observed_present":["double-lobed peanut silhouette","central shell seam and two inner rims"],"landmark_observations":{"double-lobed peanut silhouette":"The same upper-left and lower-right lobes, waist pinches, outer tilt, and pointed ends retain their exact placement.","central shell seam and two inner rims":"One continuous wavy seam now joins the tips, with one separate curved rim inside each lobe."},"observed_addition":"A bold center seam and two shorter interior curves divide the unchanged shell into useful texture regions.","instruction_match":"Step 2 accurately names the tip-to-tip wavy seam and one non-touching inner rim in each lobe.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":2,"to_step":3,"observed_present":["double-lobed peanut silhouette","central shell seam and two inner rims","first diagonal groove family"],"landmark_observations":{"double-lobed peanut silhouette":"Both lobes and the narrow middle remain unchanged around the added marks.","central shell seam and two inner rims":"The wavy seam and both curved rims keep their positions and line weight.","first diagonal groove family":"Short separated strokes lean consistently down-right across both lobes and stop at the established boundaries."},"observed_addition":"One readable family of short directional grooves fills the open shell regions without crossing the seam or outline.","instruction_match":"Step 3 correctly describes the groove direction and the contour, seam, and rim stopping points visible in the crop.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":3,"to_step":4,"observed_present":["double-lobed peanut silhouette","central shell seam and two inner rims","first diagonal groove family","crossing groove family and shell bumps"],"landmark_observations":{"double-lobed peanut silhouette":"The outer peanut remains the same size, tilt, waist, and tips.","central shell seam and two inner rims":"The seam and both rims remain visible through the denser texture.","first diagonal groove family":"The original down-right groove strokes remain readable as one half of the crosshatch.","crossing groove family and shell bumps":"Opposing short strokes create loose diamonds, and exactly three rounded bumps appear from upper lobe through the waist to lower lobe."},"observed_addition":"The opposing groove family creates a substantial crosshatched shell texture and three countable bumps add irregular surface character.","instruction_match":"Step 4 matches the opposite groove direction, loose diamond pattern, and exactly three interior bumps.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":4,"to_step":5,"observed_present":["double-lobed peanut silhouette","central shell seam and two inner rims","first diagonal groove family","crossing groove family and shell bumps","two highlights and broken shadow"],"landmark_observations":{"double-lobed peanut silhouette":"The thick outer shell keeps the same diagonal placement and pinched waist.","central shell seam and two inner rims":"The wavy center and both side rims persist without shifting.","first diagonal groove family":"The first groove direction remains visible throughout both lobes.","crossing groove family and shell bumps":"The crossing lines and all three rounded bumps remain in their same upper, center, and lower positions.","two highlights and broken shadow":"Two unfilled highlight reserves sit one per lobe, while one broken shadow appears as three navy-ready pieces below the lower edge."},"observed_addition":"Two reserved paper highlights and a separated three-piece ground shadow complete the pre-color lighting plan.","instruction_match":"Step 5 accurately specifies one highlight per lobe and a broken shadow that does not touch the shell outline.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":5,"to_step":6,"observed_present":["double-lobed peanut silhouette","central shell seam and two inner rims","first diagonal groove family","crossing groove family and shell bumps","two highlights and broken shadow"],"landmark_observations":{"double-lobed peanut silhouette":"Both shell lobes, waist pinches, and tips remain fixed beneath the warm marker fill.","central shell seam and two inner rims":"The same center seam and both inner curves stay dark and readable.","first diagonal groove family":"The first diagonal strokes remain visible through tan and ochre color.","crossing groove family and shell bumps":"The opposite strokes and three rounded bumps keep their positions and dark edges.","two highlights and broken shadow":"Both white paper reserves remain open and the same three-piece broken shadow becomes deep navy."},"observed_addition":"Warm tan and ochre marker fill the established shell, brown deepens existing texture, and navy colors only the existing shadow.","instruction_match":"The final copy names the visible palette, preserves both highlights, and explicitly limits the work to established forms.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]}
+    ]
+  }
+}
