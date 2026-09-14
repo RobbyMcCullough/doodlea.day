@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an airplane</title>
+      <link>https://doodlea.day/tutorials/cartoon-passenger-airplane-in-flight.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-passenger-airplane-in-flight.html</guid>
+      <pubDate>Mon, 14 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a passenger airplane in flight with swept wings, one engine, tail surfaces, windows, clouds, bold outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-passenger-airplane-in-flight-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a peanut</title>
       <link>https://doodlea.day/tutorials/cartoon-peanut-in-its-shell.html</link>

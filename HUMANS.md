@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-14 — Daily passenger-airplane lesson (Codex)
+
+- Added `cartoon-passenger-airplane-in-flight`, September 14 / Day 125. Five additive marker stages preserve the rising fuselage, two wings, one engine, one tail fin, exactly two stabilizers, one cockpit group, four cabin windows, one door, two clouds, two motion dashes, two open highlights, and one broken shadow through the coral, teal, yellow, pale-blue, and navy finish. Teaching rated 8.9/10; finish rated 9.2/10.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 254 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed in Cove. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 123 library images and all 11 tutorial images loaded after scrolling. Layout rated 9.0/10 desktop and 8.8/10 mobile.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-14 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-13 — Daily peanut lesson (Codex)
 
 - Added `cartoon-peanut-in-its-shell`, September 13 / Day 124. Five direct marker stages preserve the pinched double-lobed shell, wavy center seam, two rims, crossing grooves, exactly three raised bumps, two open highlights, and one broken three-piece shadow through the tan, ochre, brown, and navy finish. Teaching rated 8.6/10; finish rated 8.7/10.
