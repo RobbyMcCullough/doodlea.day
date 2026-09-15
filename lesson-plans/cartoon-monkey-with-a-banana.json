@@ -1,0 +1,270 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-monkey-with-a-banana",
+  "finished": "assets/cartoon-monkey-with-a-banana-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One lopsided head oval joined to one smaller muzzle oval gives the learner a readable face base while leaving the ears, expression, body, and prop areas open.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The approved fourth six-panel landscape sheet uses foreground-first banana construction and square cells. Two earlier sheets were rejected for a closed torso line hidden by the banana, and a third was rejected because its square canvas produced rectangular cells; all remain private under rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and muzzle",
+      "introduced_by_step": 1,
+      "description": "One lopsided round head joined to one smaller low muzzle oval in final position."
+    },
+    {
+      "name": "two ears and three-point hair tuft",
+      "introduced_by_step": 2,
+      "description": "Exactly two round ears attached at different heights and one three-point tuft centered above the forehead."
+    },
+    {
+      "name": "asymmetrical face",
+      "introduced_by_step": 2,
+      "description": "One wide oval eye with a sideways pupil and paper highlight, one narrow crescent eye, one raised eyebrow, two nostrils, and one off-center open grin with exactly two square teeth."
+    },
+    {
+      "name": "banana with two arms and hands",
+      "introduced_by_step": 3,
+      "description": "One curved banana placed below the head and held by exactly two attached arms and exactly two simple hands."
+    },
+    {
+      "name": "torso behind banana and curled tail",
+      "introduced_by_step": 4,
+      "description": "One rounded seated torso drawn around and behind the foreground banana plus one long tail curling into one open spiral."
+    },
+    {
+      "name": "two seated legs and belly patch",
+      "introduced_by_step": 5,
+      "description": "Exactly two bent seated legs with one foot each and one open belly patch behind the banana."
+    },
+    {
+      "name": "three banana seams and teal broken shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly three short peel seams on the banana and one broad broken teal ground shadow beneath the feet."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-monkey-with-a-banana-step-1.jpg",
+      "step_name": "Shape the monkey face",
+      "visible_job": "Draws one lopsided round head and one attached low muzzle oval.",
+      "instruction": "Draw one lopsided round head, then overlap its lower half with one smaller wide muzzle oval. Keep the top, both sides, and all paper below the head open for the ears, hair, body, and banana.",
+      "adds": [
+        "head and muzzle"
+      ],
+      "introduces": [
+        "head and muzzle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-monkey-with-a-banana-step-2.jpg",
+      "step_name": "Build the cheeky expression",
+      "visible_job": "Adds two ears, one three-point tuft, and the complete asymmetrical face.",
+      "instruction": "Attach exactly two round ears at slightly different heights and add one three-point tuft above the forehead. Draw one wide oval eye looking sideways, one narrow crescent eye, one raised eyebrow, two nostril dots, and one off-center open grin with exactly two square teeth.",
+      "adds": [
+        "two ears and three-point hair tuft",
+        "asymmetrical face"
+      ],
+      "introduces": [
+        "two ears and three-point hair tuft",
+        "asymmetrical face"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-monkey-with-a-banana-step-3.jpg",
+      "step_name": "Place the banana and hands",
+      "visible_job": "Adds one curved banana below the head, then two attached arms and hands around it.",
+      "instruction": "Below the muzzle, draw one upward-curving banana with a short stem at each end. Attach exactly two arms from beneath the head and close exactly two simple hands around the banana ends, stopping every arm line at the prop edge.",
+      "adds": [
+        "banana with two arms and hands"
+      ],
+      "introduces": [
+        "banana with two arms and hands"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-monkey-with-a-banana-step-4.jpg",
+      "step_name": "Wrap the torso behind the snack",
+      "visible_job": "Adds one seated torso around the foreground banana and one long spiral tail.",
+      "instruction": "From beneath the head, curve the torso sides down around the outside of both arms and join them with a low rear body curve behind the banana. From the lower rear body, sweep one long tail outward and curl its tip into one open spiral.",
+      "adds": [
+        "torso behind banana and curled tail"
+      ],
+      "introduces": [
+        "torso behind banana and curled tail"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-monkey-with-a-banana-step-5.jpg",
+      "step_name": "Seat the legs and add finish marks",
+      "visible_job": "Adds two bent legs, one belly patch, three banana seams, and one teal broken shadow.",
+      "instruction": "Attach exactly two bent seated legs beneath the torso with one simple foot each, letting them overlap the lower body edge. Curve one belly patch behind the banana, add exactly three short peel seams along the fruit, and fill one broad broken ground shadow beneath the feet with teal marker.",
+      "adds": [
+        "two seated legs and belly patch",
+        "three banana seams and teal broken shadow"
+      ],
+      "introduces": [
+        "two seated legs and belly patch",
+        "three banana seams and teal broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-monkey-with-a-banana-finished-v1.jpg",
+    "step_name": "Color the banana-break finish",
+    "visible_job": "Fills established monkey, muzzle, banana, belly, ear, hand, and foot shapes with directional marker strokes and small paper gaps.",
+    "instruction": "Fill the established monkey warm brown, the muzzle, ear centers, belly patch, hands, and feet peach, and the one banana golden yellow with orange along its lower edge. Keep the same teal shadow and eye highlight, leave a few small paper gaps in the brown tuft and fur, and strengthen existing black contours without adding shapes.",
+    "adds": [
+      "marker color and small highlight gaps in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 9.0,
+    "finished_art_score": 9.1,
+    "first_step_observation": "The first saved crop contains only one bold lopsided head oval and one attached wide muzzle oval at their final anchors. The empty top, side, and lower paper clearly reserves the later hair, ears, expression, banana, limbs, and body without front-loading the drawing.",
+    "draw_through_observation": "I compared all six saved square crops pairwise at full size. The head, expression, foreground banana, hands, arms, torso, tail, legs, belly patch, peel seams, and ground shadow keep their anchors; the foreground-first order avoids hidden chest lines, and the final adds color and small paper gaps without new structure.",
+    "contract_sha256": "77d20868afac947b813a37dcf151043c0e8e5af878d14cd7fe50a9946c7e484e",
+    "asset_sha256": {
+      "assets/cartoon-monkey-with-a-banana-step-1.jpg": "ab29ffd1d9672dfa0ee4254c1649bbf7d23b0517ea20babf3f32bab2475eadaf",
+      "assets/cartoon-monkey-with-a-banana-step-2.jpg": "69f4bf0c7734e11a47b11e85856cc4acd2d9a4153a65615a124c462a8babecba",
+      "assets/cartoon-monkey-with-a-banana-step-3.jpg": "f07c87814e4375a5ccd71aff398c7fc786f9638f1846d3ae81ae3560e51f405c",
+      "assets/cartoon-monkey-with-a-banana-step-4.jpg": "d81728f2250681a17615161cb7214f6b77e9f9dfe12cf3469e41aed0f38e1257",
+      "assets/cartoon-monkey-with-a-banana-step-5.jpg": "44aba5dffe7f8378b3b9333469fedaf6a4a1778f6cda2111607a330c6ccb4a3e",
+      "assets/cartoon-monkey-with-a-banana-finished-v1.jpg": "957e0d8f9b8aa7f9e481d3890ac5ca52a9b0c25345571b163215fd4c8de4b43f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head and muzzle",
+          "two ears and three-point hair tuft",
+          "asymmetrical face"
+        ],
+        "landmark_observations": {
+          "head and muzzle": "The lopsided head and low wide muzzle keep the same outline, overlap, and page position.",
+          "two ears and three-point hair tuft": "One round ear attaches higher at left, one lower at right, and a clearly countable three-point tuft interrupts the established top contour.",
+          "asymmetrical face": "The left eye is a wide oval with a sideways dark pupil and white glint, the right eye is a narrow squint, one eyebrow arches above the wide eye, two nostrils sit on the muzzle, and the off-center open grin contains two square teeth."
+        },
+        "observed_addition": "Two ears, the three-point tuft, and a deliberately mismatched face turn the simple head base into a distinct monkey character.",
+        "instruction_match": "The copy matches the ear height difference, tuft count, eye shapes and gaze, single raised brow, two nostrils, and two-tooth grin visible in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head and muzzle",
+          "two ears and three-point hair tuft",
+          "asymmetrical face",
+          "banana with two arms and hands"
+        ],
+        "landmark_observations": {
+          "head and muzzle": "The head and muzzle anchors remain unchanged above the new prop.",
+          "two ears and three-point hair tuft": "Both attached ears and all three hair points persist without movement.",
+          "asymmetrical face": "The wide eye, squint, eyebrow, nostrils, grin, and two teeth retain their exact positions.",
+          "banana with two arms and hands": "One upward-curving banana sits below the muzzle with a short stem at each end; two arms descend from beneath the head and terminate in two hands wrapped around the stems."
+        },
+        "observed_addition": "The foreground banana, two arms, and two gripping hands occupy previously blank paper while no torso or hidden body line appears.",
+        "instruction_match": "The copy accurately describes the banana swoop, both stems, two arm origins, two grips, and the arm lines stopping at the prop edges.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head and muzzle",
+          "two ears and three-point hair tuft",
+          "asymmetrical face",
+          "banana with two arms and hands",
+          "torso behind banana and curled tail"
+        ],
+        "landmark_observations": {
+          "head and muzzle": "The full head and muzzle remain fixed as the body is added below.",
+          "two ears and three-point hair tuft": "Both ear rings and the three tuft points persist.",
+          "asymmetrical face": "Every facial mark and the two teeth remain unchanged.",
+          "banana with two arms and hands": "The same banana curve, stems, arms, and hand grips retain their positions and stay in front.",
+          "torso behind banana and curled tail": "Two torso sides route outside the arms and join below the banana, while one tail attaches at the lower right body and curls into one open spiral."
+        },
+        "observed_addition": "The rounded torso and single spiral tail wrap behind the already established foreground prop with no covered chest contour.",
+        "instruction_match": "The instruction matches the outside torso route, low rear body connection, tail origin, and one open spiral visible in Step 4.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head and muzzle",
+          "two ears and three-point hair tuft",
+          "asymmetrical face",
+          "banana with two arms and hands",
+          "torso behind banana and curled tail",
+          "two seated legs and belly patch",
+          "three banana seams and teal broken shadow"
+        ],
+        "landmark_observations": {
+          "head and muzzle": "The head and muzzle contours remain fixed.",
+          "two ears and three-point hair tuft": "Both ears and the complete tuft remain unchanged.",
+          "asymmetrical face": "The eye glint, squint, brow, nostrils, grin, and two teeth all persist.",
+          "banana with two arms and hands": "The banana, both stems, both arms, and both gripping hands keep their exact anchors.",
+          "torso behind banana and curled tail": "The torso remains behind the banana and the tail keeps the same attachment and open spiral; only the lower body edge is physically overlapped by the new foreground legs as instructed.",
+          "two seated legs and belly patch": "Two bent legs attach below the body with one broad rounded foot each, and one centered belly patch appears in open paper below the banana.",
+          "three banana seams and teal broken shadow": "Three separate short peel seams appear across the established banana and one broad teal shadow sits beneath both feet with several open-paper breaks."
+        },
+        "observed_addition": "Two foreground legs, the centered belly patch, three peel seams, and a broken teal ground shadow complete the structure and base.",
+        "instruction_match": "The copy matches the two overlapping legs, one foot each, centered belly patch, three visible peel seams, and broad broken teal shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head and muzzle",
+          "two ears and three-point hair tuft",
+          "asymmetrical face",
+          "banana with two arms and hands",
+          "torso behind banana and curled tail",
+          "two seated legs and belly patch",
+          "three banana seams and teal broken shadow"
+        ],
+        "landmark_observations": {
+          "head and muzzle": "The head turns warm brown and the muzzle peach while both contours and their overlap remain fixed.",
+          "two ears and three-point hair tuft": "Both ears receive brown and peach, and the same three-point tuft receives brown with small paper gaps.",
+          "asymmetrical face": "The wide side-looking eye and white glint, squint, brow, nostrils, open grin, and two teeth remain crisp through coloring.",
+          "banana with two arms and hands": "The one established banana becomes yellow with an orange lower edge while both peach hands and both arm attachments stay unchanged.",
+          "torso behind banana and curled tail": "The torso and single open-spiral tail receive brown marker without changing their routes or overlap order.",
+          "two seated legs and belly patch": "Both legs remain planted and gain brown and peach fills; the same belly patch turns peach.",
+          "three banana seams and teal broken shadow": "All three black peel seams remain visible and the teal shadow retains its broken footprint beneath the feet."
+        },
+        "observed_addition": "Warm brown, peach, yellow, orange, and teal marker fills follow the established forms, with visible stroke grain and small open-paper gaps.",
+        "instruction_match": "The final copy assigns every visible color, preserves the eye highlight and teal shadow, names the small fur gaps, and adds no new contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
