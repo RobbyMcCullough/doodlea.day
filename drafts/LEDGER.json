@@ -120,6 +120,11 @@
       "status": "published",
       "note": "Approved ten-gumball contact sheet promoted as the honest 2026-05-13 archive lesson; private 11- and 9-gumball variants document count rejections."
     },
+    "cartoon-hair-dryer": {
+      "status": "published",
+      "date": "2026-09-16",
+      "note": "September 16 Day 127. Approved first six-panel face-free marker progression with six stable intake slots, two controls, one curling cord and plug, three airflow swooshes, two highlights, and finishing-only color; teaching 9.0/10 and finish 9.1/10."
+    },
     "cartoon-hamburger-with-steam": {
       "status": "published",
       "date": "2026-08-27",
@@ -420,6 +425,11 @@
     },
     "graham-cracker-smore-doodle": {
       "status": "published"
+    },
+    "guacamole-bowl-with-tortilla-chips": {
+      "status": "rejected-duplicate",
+      "date": "2026-09-16",
+      "note": "Rejected before image generation after deeper archive review: bowl-of-macaroni already teaches the same bowl, rim, food-mound, and layered-overlap problem. No draft folder or art was created."
     },
     "heart-with-a-bandage": {
       "status": "published",

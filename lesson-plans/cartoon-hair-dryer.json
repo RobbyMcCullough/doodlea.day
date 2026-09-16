@@ -1,0 +1,113 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-hair-dryer",
+  "finished": "assets/cartoon-hair-dryer-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One connected rounded housing and tapered nozzle fixes the dryer's final left-facing silhouette while leaving the handle, vent, controls, cord, and airflow absent.",
+  "source": {"type":"generated-raster-master","notes":"Planned as one six-panel cumulative handmade felt-tip marker contact sheet; rejected iterations, if any, remain private under the slug draft folder."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"dryer housing and tapered nozzle","introduced_by_step":1,"description":"One rounded horizontal dryer housing tapering into one short left-facing nozzle in final position."},
+    {"name":"attached handle and rear intake","introduced_by_step":2,"description":"One slanted handle attached beneath the housing plus one round rear intake at the right end."},
+    {"name":"six intake slots and nozzle ring","introduced_by_step":3,"description":"Exactly six short radial slots inside the rear intake plus one narrow ring around the nozzle opening."},
+    {"name":"two controls and power cord","introduced_by_step":4,"description":"Exactly two small controls on the handle and one cord attached at the handle base, curling once to one simple plug."},
+    {"name":"three airflow swooshes two highlights and shadow","introduced_by_step":5,"description":"Exactly three separate airflow swooshes leaving the nozzle, two open-paper housing highlights, and one broken shadow beneath the dryer."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-hair-dryer-step-1.jpg","step_name":"Shape the dryer housing","visible_job":"Draws one connected rounded housing and short tapered nozzle facing left.","instruction":"Draw one long rounded housing across the upper half of the page, then taper its left end into one short open nozzle. Keep the lower middle edge clear for the handle and leave open paper at the right end for the intake.","adds":["dryer housing and tapered nozzle"],"introduces":["dryer housing and tapered nozzle"]},
+    {"step":2,"asset":"assets/cartoon-hair-dryer-step-2.jpg","step_name":"Attach the handle and intake","visible_job":"Adds one slanted handle beneath the housing and one round rear intake.","instruction":"Attach one slightly forward-slanting handle beneath the housing, widening it gently toward the base. Close the right end of the housing with one large round intake and keep its center blank for later vent slots.","adds":["attached handle and rear intake"],"introduces":["attached handle and rear intake"]},
+    {"step":3,"asset":"assets/cartoon-hair-dryer-step-3.jpg","step_name":"Cut the vents and nozzle ring","visible_job":"Adds one nozzle ring and exactly six short radial intake slots.","instruction":"Wrap one narrow ring around the left nozzle opening. Inside the round rear intake, place exactly six short slots radiating from the center while keeping an even paper gap between neighbors.","adds":["six intake slots and nozzle ring"],"introduces":["six intake slots and nozzle ring"]},
+    {"step":4,"asset":"assets/cartoon-hair-dryer-step-4.jpg","step_name":"Wire the controls and cord","visible_job":"Adds two handle controls plus one attached curling cord and simple plug.","instruction":"Place exactly two small controls down the handle front. From the handle base, pull one cord downward into a single loose curl and finish it with one simple two-prong plug, keeping the cord behind the dryer silhouette.","adds":["two controls and power cord"],"introduces":["two controls and power cord"]},
+    {"step":5,"asset":"assets/cartoon-hair-dryer-step-5.jpg","step_name":"Send out the airflow","visible_job":"Adds three airflow swooshes, two highlight gaps, and one broken ground shadow.","instruction":"Sweep exactly three separate curved airflow lines from the nozzle toward the left. Reserve exactly two small open-paper highlights on the housing, then place one broad broken shadow beneath the dryer without touching the cord.","adds":["three airflow swooshes two highlights and shadow"],"introduces":["three airflow swooshes two highlights and shadow"]}
+  ],
+  "final_step": {
+    "asset":"assets/cartoon-hair-dryer-finished-v1.jpg",
+    "step_name":"Blow in the marker color",
+    "visible_job":"Fills the established dryer, handle, hardware, airflow, cord, and shadow with bold directional marker strokes.",
+    "instruction":"Fill the established housing coral, the handle and nozzle ring teal, the intake and two controls warm yellow, and the cord, plug, airflow, and broken shadow deep navy. Leave both highlights open, strengthen existing black contours, and add no new shapes.",
+    "adds":["marker color on established forms"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":9.0,
+    "finished_art_score":9.1,
+    "first_step_observation":"The first saved crop contains only one bold connected housing and short left-facing nozzle at their final scale. The intentional lower gap clearly reserves the handle, and the open rear end reserves the intake without asking the learner to erase a keeper line.",
+    "draw_through_observation":"I compared all six saved square crops pairwise at readable size. The housing, handle attachments, round intake, six slots, nozzle ring, two controls, cord curl, plug, three airflow marks, two highlight gaps, and broken shadow keep their positions; the final only fills established shapes with marker color.",
+    "contract_sha256":"71cebe6d36c829d6b1cf6845f7a7b39688eb129caac229acf607469dd8e52bdb",
+    "asset_sha256":{
+      "assets/cartoon-hair-dryer-step-1.jpg":"76431b6054cf6782ccb7627658f2ba614595b9b1519e5a42e5dee020b6441e63",
+      "assets/cartoon-hair-dryer-step-2.jpg":"13d5102907717418f47acf36dfbf52bad16828038f576b8acd9c64f232819b0f",
+      "assets/cartoon-hair-dryer-step-3.jpg":"4d002479b175ab3e4bf67c99cd68818acfbd3976d5cb31e7ca1210e3fc5e097b",
+      "assets/cartoon-hair-dryer-step-4.jpg":"e269f6d3f768e826288265cb8bfc2b4eaa1c0a592d77c1aebadaeb82631855b2",
+      "assets/cartoon-hair-dryer-step-5.jpg":"a5553ebca90777e23f5119456d6830d6da85fbf419e4fb03cd6d3fd59fffa463",
+      "assets/cartoon-hair-dryer-finished-v1.jpg":"e26a3dce74827fd08ef0e4fa06dc1da26bdb8eaca2dc61dbbb0521f519840d0b"
+    },
+    "transitions":[
+      {
+        "from_step":1,"to_step":2,
+        "observed_present":["dryer housing and tapered nozzle","attached handle and rear intake"],
+        "landmark_observations":{
+          "dryer housing and tapered nozzle":"The long upper arc, short left nozzle, lower taper, scale, and left-facing orientation remain fixed.",
+          "attached handle and rear intake":"One handle connects into both sides of the reserved lower gap and leans slightly forward; one large round intake closes the previously open right end."
+        },
+        "observed_addition":"The handle and intake complete the primary appliance silhouette without changing or covering the established housing lines.",
+        "instruction_match":"The crop matches the forward-slanting attached handle, gentle base width, large round rear intake, and blank intake center named in the copy.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":2,"to_step":3,
+        "observed_present":["dryer housing and tapered nozzle","attached handle and rear intake","six intake slots and nozzle ring"],
+        "landmark_observations":{
+          "dryer housing and tapered nozzle":"The housing and open nozzle keep the same outer contour.",
+          "attached handle and rear intake":"Both handle attachments and the round intake boundary remain unchanged.",
+          "six intake slots and nozzle ring":"A narrow parallel ring appears at the left opening, and exactly six short dark slots radiate evenly within the rear intake."
+        },
+        "observed_addition":"One nozzle ring and six countable radial slots add functional detail while the clean silhouette remains stable.",
+        "instruction_match":"The saved frame shows the requested single ring, six-slot count, radial aim, and visible paper gaps between neighboring slots.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":3,"to_step":4,
+        "observed_present":["dryer housing and tapered nozzle","attached handle and rear intake","six intake slots and nozzle ring","two controls and power cord"],
+        "landmark_observations":{
+          "dryer housing and tapered nozzle":"The full housing and tapered nozzle stay fixed above the new cord.",
+          "attached handle and rear intake":"The handle and intake remain at identical anchors and proportions.",
+          "six intake slots and nozzle ring":"All six intake slots and the double nozzle edge persist without movement.",
+          "two controls and power cord":"Exactly two outlined controls stack on the handle; one cord attaches at the base, curves into one open curl, and reaches one simple two-prong plug."
+        },
+        "observed_addition":"Two handle controls and one continuous curling power cord with plug occupy previously open lower paper.",
+        "instruction_match":"The frame matches the two-control count, handle-base origin, single loose curl, behind-the-dryer route, and two-prong plug described in the instruction.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":4,"to_step":5,
+        "observed_present":["dryer housing and tapered nozzle","attached handle and rear intake","six intake slots and nozzle ring","two controls and power cord","three airflow swooshes two highlights and shadow"],
+        "landmark_observations":{
+          "dryer housing and tapered nozzle":"The same housing remains unchanged around two newly reserved white highlight shapes.",
+          "attached handle and rear intake":"The handle and rear intake retain their attachment points and outer contours.",
+          "six intake slots and nozzle ring":"All six radial slots and both nozzle-ring lines remain visible.",
+          "two controls and power cord":"Both controls, the cord attachment, one curl, and the plug stay fixed above and beside the new shadow.",
+          "three airflow swooshes two highlights and shadow":"Exactly three separate curved marks leave the nozzle to the left, two white highlight gaps sit on the housing, and one broad broken shadow lies below without touching the cord."
+        },
+        "observed_addition":"Airflow, shine reserves, and the broken ground shadow add action and depth while preserving every mechanical landmark.",
+        "instruction_match":"The image matches the three swoosh count, leftward curve, two highlight count, broad broken shadow placement, and cord clearance in the copy.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":5,"to_step":6,
+        "observed_present":["dryer housing and tapered nozzle","attached handle and rear intake","six intake slots and nozzle ring","two controls and power cord","three airflow swooshes two highlights and shadow"],
+        "landmark_observations":{
+          "dryer housing and tapered nozzle":"The established housing turns coral while its nozzle, lower gap closure, and silhouette remain unchanged.",
+          "attached handle and rear intake":"The same handle turns teal and the same round intake turns yellow without shifting either attachment.",
+          "six intake slots and nozzle ring":"All six slots remain deep navy and the established nozzle ring turns teal.",
+          "two controls and power cord":"Both controls turn yellow; the cord, single curl, and plug turn navy and retain their exact route.",
+          "three airflow swooshes two highlights and shadow":"All three airflow lines and the same broken shadow turn navy while both housing highlights remain open paper."
+        },
+        "observed_addition":"Coral, teal, yellow, and navy marker fills follow the established forms with visible felt-tip streaks and no new structure.",
+        "instruction_match":"The finish matches every assigned color, preserves both highlights and all counts, reinforces existing outlines, and introduces no new shapes.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      }
+    ]
+  }
+}

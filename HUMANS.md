@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-16 — Daily cartoon-hair-dryer lesson (Codex)
+
+- Added `cartoon-hair-dryer`, September 16 / Day 127. Five direct additive marker stages plus color preserve one left-facing housing, attached handle, round intake with exactly six radial slots, one nozzle ring, two controls, one cord curl and two-prong plug, three airflow swooshes, two highlights, and one broken shadow. Teaching rated 9.0/10; finish rated 9.1/10.
+- Rejected `guacamole-bowl-with-tortilla-chips` before plan or art generation because `bowl-of-macaroni` already teaches the same bowl, rim, food-mound, and layered-overlap problem. Its ledger entry is `rejected-duplicate`; no draft folder or assets were created.
+- Full readiness passed after the sandbox-blocked URL sweep was rerun with local network access: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 258 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 125 library images and all 11 tutorial images loaded after scrolling. Layout rated 9.0/10 desktop and 8.8/10 mobile.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-16 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-15 — Daily monkey-with-banana lesson (Codex)
 
 - Added `cartoon-monkey-with-a-banana`, September 15 / Day 126. Five additive marker stages preserve the head and muzzle, asymmetrical side-eye and squint, two teeth, foreground banana with mirrored grips, body and open spiral tail behind it, two legs, belly patch, three banana seams, and broken teal shadow through the brown, peach, yellow, orange, and teal finish. Teaching rated 9.0/10; finish rated 9.1/10.

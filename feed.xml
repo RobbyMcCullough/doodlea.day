@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a hair dryer</title>
+      <link>https://doodlea.day/tutorials/cartoon-hair-dryer.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-hair-dryer.html</guid>
+      <pubDate>Wed, 16 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon hair dryer with a tapered housing, handle, six-slot intake, controls, curling power cord, airflow, thick outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-hair-dryer-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a monkey</title>
       <link>https://doodlea.day/tutorials/cartoon-monkey-with-a-banana.html</link>
