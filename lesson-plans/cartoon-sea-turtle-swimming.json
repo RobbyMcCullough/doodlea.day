@@ -1,0 +1,242 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-sea-turtle-swimming",
+  "finished": "assets/cartoon-sea-turtle-swimming-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One tilted domed shell joined to one small head, curved neck, pointed tail, and tiny open diamond mouth fixes the turtle's final swimming direction, expression, scale, and crop while four short outline gaps reserve the flippers.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The first landscape sheet was rejected privately because it rendered five scutes against a six-scute plan. The approved second 1536x1024 sheet intentionally holds five scutes in six square cells; its direct Step 1 head contour includes the persistent diamond mouth notch."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "shell head neck tail and diamond mouth outline",
+      "introduced_by_step": 1,
+      "description": "One tilted domed oval shell joined to one small forward head, curved neck, one pointed rear tail, and one tiny open diamond mouth, with four reserved flipper gaps."
+    },
+    {
+      "name": "four attached flippers",
+      "introduced_by_step": 2,
+      "description": "Exactly four separate tapered flippers attached directly at the four reserved shell gaps: two broad front flippers and two shorter rear flippers."
+    },
+    {
+      "name": "side eye raised brow shell rim and five scutes",
+      "introduced_by_step": 3,
+      "description": "One large almond side eye with a high pupil, one raised brow, one inner shell rim, and exactly five interior shell scutes around the persistent mouth."
+    },
+    {
+      "name": "flipper seams and skin spots",
+      "introduced_by_step": 4,
+      "description": "One curved seam on each of four flippers and small established spots on the head, neck, and flippers."
+    },
+    {
+      "name": "three bubbles two water swooshes and two highlights",
+      "introduced_by_step": 5,
+      "description": "Exactly three bubbles, exactly two curved water swooshes, and exactly two open-paper shell highlights around the established turtle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-sea-turtle-swimming-step-1.jpg",
+      "step_name": "Shape the shell and head",
+      "visible_job": "Draws one tilted domed shell joined to one small head, curved neck, pointed tail, and diamond mouth with four reserved flipper gaps.",
+      "instruction": "Draw one broad domed oval shell tilted slightly upward, leaving exactly four short gaps around its edge for the flippers. From the front opening, connect a curved neck to one small rounded head pointing toward the upper right, notch one tiny open diamond mouth into the face edge, and close the rear with one small pointed tail.",
+      "adds": [
+        "shell head neck tail and diamond mouth outline"
+      ],
+      "introduces": [
+        "shell head neck tail and diamond mouth outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-sea-turtle-swimming-step-2.jpg",
+      "step_name": "Attach four flippers",
+      "visible_job": "Adds exactly four tapered flippers at the four reserved shell gaps.",
+      "instruction": "At the four reserved shell gaps, attach exactly four separate tapered flippers: two broad front flippers and two shorter rear flippers. Keep every attachment visibly connected and leave the small tail unchanged.",
+      "adds": [
+        "four attached flippers"
+      ],
+      "introduces": [
+        "four attached flippers"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-sea-turtle-swimming-step-3.jpg",
+      "step_name": "Add the face and five scutes",
+      "visible_job": "Adds one expressive side eye, raised brow, inner shell rim, and exactly five shell scutes around the existing mouth.",
+      "instruction": "Place one large almond eye on the visible side of the head with its pupil high and forward, then add one raised curved brow. Keep the tiny diamond mouth unchanged, echo the shell with one inner rim, and draw exactly five large curved scutes that fit together without crossing it.",
+      "adds": [
+        "side eye raised brow shell rim and five scutes"
+      ],
+      "introduces": [
+        "side eye raised brow shell rim and five scutes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-sea-turtle-swimming-step-4.jpg",
+      "step_name": "Build the turtle texture",
+      "visible_job": "Adds one curved seam inside each of four flippers and small skin spots on the established forms.",
+      "instruction": "Draw one curved seam inside each of the four flippers and scatter small round spots across the head, neck, and flippers. Keep the eye, mouth, inner rim, five scutes, tail, and every attachment clear.",
+      "adds": [
+        "flipper seams and skin spots"
+      ],
+      "introduces": [
+        "flipper seams and skin spots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-sea-turtle-swimming-step-5.jpg",
+      "step_name": "Add bubbles and water motion",
+      "visible_job": "Adds three bubbles, two water swooshes, and two open shell highlights without changing the turtle.",
+      "instruction": "Draw exactly three round bubbles above the head, exactly two curved aqua water swooshes behind the rear flippers, and reserve exactly two small open-paper highlights inside the established shell. Change no turtle contour.",
+      "adds": [
+        "three bubbles two water swooshes and two highlights"
+      ],
+      "introduces": [
+        "three bubbles two water swooshes and two highlights"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-sea-turtle-swimming-finished-v1.jpg",
+    "step_name": "Color the swimming turtle",
+    "visible_job": "Fills only the established turtle and scutes with textured marker color and deepens the existing aqua water accents.",
+    "instruction": "Fill the established skin with bright teal, the shell rim with deep navy, the five scutes with coral and golden yellow, and the spots with navy. Deepen the existing aqua bubbles and swooshes, leave both shell highlights open, and add no new contours.",
+    "adds": [
+      "textured marker color on established turtle and water accents"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 9.2,
+    "finished_art_score": 9.4,
+    "first_step_observation": "The first saved crop contains one bold tilted shell joined to one curved neck and small head, one persistent diamond mouth notch, one pointed tail, and exactly four short shell-edge gaps. These connected final-position shapes are readable without later panels and reserve every flipper attachment.",
+    "draw_through_observation": "I inspected the six saved square JPGs as a full sheet and every adjacent pair at readable size. The shell tilt, head and neck, mouth notch, tail, four flipper anchors, five scute compartments, almond eye, raised brow, seams, spots, bubbles, swooshes, highlights, pose, scale, and crop remain fixed; each written instruction describes the visible saved change, and the final adds only marker color.",
+    "contract_sha256": "eb1dfaa2e492a0844cc63db60c33911d43ff7c214140a2b63700c0d63f1a793b",
+    "asset_sha256": {
+      "assets/cartoon-sea-turtle-swimming-step-1.jpg": "049b27eb13ac4f8bdfec3b63d08eac74044cbcb52899aee7d8dd6efe5ecdcff0",
+      "assets/cartoon-sea-turtle-swimming-step-2.jpg": "da1e69f962c80be3c976b801197c96e5a1b2553f8dbf89307226c7328ed3334c",
+      "assets/cartoon-sea-turtle-swimming-step-3.jpg": "3ca58f8f9556986b798aaaa7e9ded551a47067bf13dcb6ac64340178ebc1d9d4",
+      "assets/cartoon-sea-turtle-swimming-step-4.jpg": "fda55226e5a0eb82326c8e7ba3d9c69977ecf18b6bccc809ff8db45e4e20676d",
+      "assets/cartoon-sea-turtle-swimming-step-5.jpg": "584091abd3bb87d795aede39df44a3d2305db31e16d0bd05423ffb7d5a59a668",
+      "assets/cartoon-sea-turtle-swimming-finished-v1.jpg": "e8d09747ec51cc69c86a95b1548fd6b706d3fa83111289e0ec5c0ec9c3c633b7"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "shell head neck tail and diamond mouth outline",
+          "four attached flippers"
+        ],
+        "landmark_observations": {
+          "shell head neck tail and diamond mouth outline": "The same tilted shell, curved neck, rounded head, diamond mouth notch, pointed tail, scale, and crop stay fixed.",
+          "four attached flippers": "Exactly four tapered flippers attach at the four reserved gaps: one upper front, one right front, and two shorter lower rear flippers."
+        },
+        "observed_addition": "Four clearly separated flippers close the four reserved shell gaps without changing the head, shell, mouth, or tail.",
+        "instruction_match": "The saved change matches the requested two broad front flippers, two shorter rear flippers, direct connections, and unchanged tail.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "shell head neck tail and diamond mouth outline",
+          "four attached flippers",
+          "side eye raised brow shell rim and five scutes"
+        ],
+        "landmark_observations": {
+          "shell head neck tail and diamond mouth outline": "Shell, neck, head, mouth notch, and tail retain identical contours and anchors.",
+          "four attached flippers": "All four flippers keep their original attachment points, taper, direction, and separation.",
+          "side eye raised brow shell rim and five scutes": "One almond eye with a high pupil, one raised brow, one inner rim, and exactly five separate shell scutes appear within the existing forms."
+        },
+        "observed_addition": "The curious side-eye expression and five-compartment shell structure make the unchanged turtle recognizable without adding color.",
+        "instruction_match": "The crop matches the almond eye, high-forward pupil, raised brow, preserved mouth, inner rim, and exact five-scute count in Step 3.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "shell head neck tail and diamond mouth outline",
+          "four attached flippers",
+          "side eye raised brow shell rim and five scutes",
+          "flipper seams and skin spots"
+        ],
+        "landmark_observations": {
+          "shell head neck tail and diamond mouth outline": "The body and head outline, mouth, neck, and tail remain unchanged.",
+          "four attached flippers": "Each of four flippers stays connected at the same shell gap.",
+          "side eye raised brow shell rim and five scutes": "The eye, brow, rim, and five scute boundaries keep their exact positions.",
+          "flipper seams and skin spots": "One curved seam appears inside each of the four flippers, while varied round spots appear on the head, neck, and flippers."
+        },
+        "observed_addition": "Four flipper seams and spotted skin add useful texture to established forms without covering the face or shell count.",
+        "instruction_match": "The visible seams follow each flipper curve, the spots stay on the named skin areas, and all required earlier landmarks remain clear.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "shell head neck tail and diamond mouth outline",
+          "four attached flippers",
+          "side eye raised brow shell rim and five scutes",
+          "flipper seams and skin spots",
+          "three bubbles two water swooshes and two highlights"
+        ],
+        "landmark_observations": {
+          "shell head neck tail and diamond mouth outline": "The complete turtle silhouette and mouth notch stay fixed.",
+          "four attached flippers": "All four flippers and their attachment points persist unchanged.",
+          "side eye raised brow shell rim and five scutes": "The eye, brow, shell rim, and exactly five scutes remain stable.",
+          "flipper seams and skin spots": "Every flipper seam and the established spot pattern persists.",
+          "three bubbles two water swooshes and two highlights": "Exactly three bubbles appear above the head, exactly two separate aqua swooshes appear behind the rear flippers, and exactly two open highlights appear in separate shell scutes."
+        },
+        "observed_addition": "Three bubbles, two aqua motion strokes, and two shell highlights add swimming context and reserved shine without altering the turtle.",
+        "instruction_match": "The saved crop matches all three requested counts and the instruction to change no turtle contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "shell head neck tail and diamond mouth outline",
+          "four attached flippers",
+          "side eye raised brow shell rim and five scutes",
+          "flipper seams and skin spots",
+          "three bubbles two water swooshes and two highlights"
+        ],
+        "landmark_observations": {
+          "shell head neck tail and diamond mouth outline": "The shell, head, neck, mouth, and tail keep their exact contours under teal, navy, coral, and yellow marker.",
+          "four attached flippers": "Exactly four flippers remain attached and receive teal fill without shape changes.",
+          "side eye raised brow shell rim and five scutes": "The almond eye and raised brow persist; the rim becomes navy and the same five scutes become coral and yellow.",
+          "flipper seams and skin spots": "All four seams and the same varied skin spots remain visible through the fill.",
+          "three bubbles two water swooshes and two highlights": "The three bubbles and two swooshes deepen in aqua, while both open-paper shell highlights stay in their original scutes."
+        },
+        "observed_addition": "Saturated marker fills follow only the established compartments and skin, with directional streaks that preserve the handmade surface.",
+        "instruction_match": "The finish matches the named palette, five-scute count, preserved water accents and highlights, and prohibition on new contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

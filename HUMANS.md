@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-17 — Daily cartoon sea-turtle lesson (Codex)
+
+- Added `cartoon-sea-turtle-swimming`, September 17 / Day 128. Five direct marker stages plus color preserve one tilted shell, one head and neck, one diamond mouth, one tail, exactly four attached flippers, one almond eye and raised brow, exactly five shell scutes, four flipper seams, spotted skin, three bubbles, two water swooshes, and two shell highlights. Teaching rated 9.2/10; finish rated 9.4/10.
+- Rejected the first generated sheet privately because it rendered five scutes against a six-scute plan. The approved v2 sheet intentionally teaches five stable scutes in six square cells; every repeated-element count and adjacent transition was reviewed against the saved crops and copy.
+- Full readiness passed on the documented localhost fallback after Cove was unreachable: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 260 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 126 library images and all 11 tutorial images loaded after scrolling. Layout rated 9.3/10 desktop and 8.9/10 mobile.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-17 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-16 — Daily cartoon-hair-dryer lesson (Codex)
 
 - Added `cartoon-hair-dryer`, September 16 / Day 127. Five direct additive marker stages plus color preserve one left-facing housing, attached handle, round intake with exactly six radial slots, one nozzle ring, two controls, one cord curl and two-prong plug, three airflow swooshes, two highlights, and one broken shadow. Teaching rated 9.0/10; finish rated 9.1/10.
