@@ -172,6 +172,11 @@
       "date": "2026-07-25",
       "note": "Reviewed contact sheet cropped into the published July 25 tutorial assets."
     },
+    "cartoon-laundry-basket-with-striped-socks": {
+      "status": "published",
+      "date": "2026-09-18",
+      "note": "Approved corrected six-panel schema v5 marker process after v1 was rejected for a missing second highlight. Two handles, two socks, one towel, three stripes per sock, three weave rows, four divider routes, two highlights, and the broken shadow were reviewed pairwise. Teaching 8.7/10; finish 8.9/10."
+    },
     "cartoon-magnifying-glass-doodle": {
       "status": "published"
     },
@@ -331,6 +336,11 @@
       "status": "published",
       "date": "2026-07-12",
       "note": "Reviewed six-panel marker chest process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
+    "cartoon-ukulele": {
+      "status": "rejected-duplicate",
+      "date": "2026-09-18",
+      "note": "Rejected before image generation during the September 18 archive back-check: Doodlea already publishes cartoon-saxophone-with-music-notes and cartoon-harmonica, so another musical instrument repeats the category."
     },
     "cartoon-waffle-with-syrup-and-butter": {
       "status": "published",

@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-18 — Daily laundry basket lesson (Codex)
+
+- Added `cartoon-laundry-basket-with-striped-socks`, September 18 / Day 129. Five direct marker stages plus color preserve one basket, exactly two attached handles, three weave rows, four divider routes, exactly two socks, one folded towel, three stripes per sock, exactly two highlights, and one broken shadow. Teaching rated 8.7/10; finish rated 8.9/10.
+- Rejected the first generated sheet privately because it showed only one clear basket highlight. The corrected sheet and every saved adjacent crop were reviewed against schema v5 copy; both highlights and every laundry, weave, stripe, and overlap landmark persist through the finish.
+- Rejected `cartoon-ukulele` before image generation after preflight exposed existing saxophone and harmonica lessons in the same category. The ledger records it as `rejected-duplicate`; no ukulele art was generated.
+- Full readiness passed on the documented localhost fallback after Cove access was blocked by the runtime sandbox: fresh contract/image hashes, all five transitions, derivatives, social card, 262 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed at 1440×1000 and 390×844 for the homepage, library, and tutorial: all lazy images loaded after scrolling, links and JSON-LD were valid, and no horizontal overflow or headline clipping appeared.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+
 ## 2026-09-17 — Daily cartoon sea-turtle lesson (Codex)
 
 - Added `cartoon-sea-turtle-swimming`, September 17 / Day 128. Five direct marker stages plus color preserve one tilted shell, one head and neck, one diamond mouth, one tail, exactly four attached flippers, one almond eye and raised brow, exactly five shell scutes, four flipper seams, spotted skin, three bubbles, two water swooshes, and two shell highlights. Teaching rated 9.2/10; finish rated 9.4/10.

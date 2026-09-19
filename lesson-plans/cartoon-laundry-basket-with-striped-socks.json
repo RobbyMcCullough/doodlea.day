@@ -1,0 +1,242 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-laundry-basket-with-striped-socks",
+  "finished": "assets/cartoon-laundry-basket-with-striped-socks-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One wide oval rim joined to a rounded trapezoid fixes the basket opening, width, ground position, and final front view in a copyable first step.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The first six-panel sheet was rejected privately because Panels 5 and 6 showed only one clear basket highlight against the two-highlight contract. The approved corrected sheet keeps two separate lower-front highlights plus every basket, weave, laundry, stripe, and overlap landmark stable."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "oval rim and rounded basket body",
+      "introduced_by_step": 1,
+      "description": "One wide oval opening joined to one rounded trapezoid basket body in its final front-facing position."
+    },
+    {
+      "name": "two handles and woven bands",
+      "introduced_by_step": 2,
+      "description": "Exactly two side handles plus three broad horizontal weave bands and four short vertical dividers."
+    },
+    {
+      "name": "two draped socks and folded towel",
+      "introduced_by_step": 3,
+      "description": "Exactly two separate socks and one folded towel overlap the rear rim while leaving the basket front readable."
+    },
+    {
+      "name": "six sock stripes and towel edge",
+      "introduced_by_step": 4,
+      "description": "Exactly three curved stripes on each sock and one stitched edge across the folded towel."
+    },
+    {
+      "name": "two highlights and broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly two open-paper basket highlights and one broken deep-navy shadow complete the composition."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-laundry-basket-with-striped-socks-step-1.jpg",
+      "step_name": "Shape the laundry basket",
+      "visible_job": "Draws one wide oval rim joined to one rounded trapezoid basket body.",
+      "instruction": "Draw one wide shallow oval for the opening, then drop two gently sloping sides and join them with one rounded lower edge to make the basket body.",
+      "adds": [
+        "oval rim and rounded basket body"
+      ],
+      "introduces": [
+        "oval rim and rounded basket body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-laundry-basket-with-striped-socks-step-2.jpg",
+      "step_name": "Build the woven basket",
+      "visible_job": "Adds two side handles, three horizontal bands, and four vertical dividers to the fixed body.",
+      "instruction": "Attach exactly two oval handles at the left and right rim, then cross the basket front with exactly three broad horizontal bands and four short vertical dividers.",
+      "adds": [
+        "two handles and woven bands"
+      ],
+      "introduces": [
+        "two handles and woven bands"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-laundry-basket-with-striped-socks-step-3.jpg",
+      "step_name": "Drape the clean laundry",
+      "visible_job": "Adds two socks and one folded towel over the rear rim with clear foreground overlaps.",
+      "instruction": "Drape exactly two separate socks over the rear rim and tuck one folded towel between them, stopping every hidden rim line at the laundry edges.",
+      "adds": [
+        "two draped socks and folded towel"
+      ],
+      "introduces": [
+        "two draped socks and folded towel"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-laundry-basket-with-striped-socks-step-4.jpg",
+      "step_name": "Stripe the socks",
+      "visible_job": "Adds three curved stripes to each sock and one stitched edge to the towel.",
+      "instruction": "Wrap exactly three curved stripes around each sock, then add one short stitched edge across the established folded towel without changing any overlap.",
+      "adds": [
+        "six sock stripes and towel edge"
+      ],
+      "introduces": [
+        "six sock stripes and towel edge"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-laundry-basket-with-striped-socks-step-5.jpg",
+      "step_name": "Reserve shine and shadow",
+      "visible_job": "Adds two basket highlight reserves and one broken shadow beneath the completed laundry pile.",
+      "instruction": "Reserve exactly two small open-paper highlights on the basket front and place one broken deep-navy shadow beneath the lower edge, keeping both handles, both socks, and all six stripes clear.",
+      "adds": [
+        "two highlights and broken ground shadow"
+      ],
+      "introduces": [
+        "two highlights and broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-laundry-basket-with-striped-socks-finished-v1.jpg",
+    "step_name": "Color the laundry-day finish",
+    "visible_job": "Fills only the established basket, socks, towel, weave, highlights, and shadow with bright marker color.",
+    "instruction": "Fill the established basket teal, one sock coral, the other golden yellow, the towel violet, and the same stripe bands and shadow deep navy. Leave both highlights open and add no new shapes.",
+    "adds": [
+      "bright marker fills in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.7,
+    "finished_art_score": 8.9,
+    "first_step_observation": "The first saved crop contains one confident wide oval opening joined to two sloping sides and one rounded lower edge. Those connected strokes immediately establish the final basket width, front view, ground height, and open upper area where the laundry will overlap.",
+    "draw_through_observation": "I inspected the corrected six-cell sheet and all six saved square JPGs at readable size, then compared every adjacent pair with the written instruction. The basket body, two attached handles, three weave rows, four aligned divider routes, two socks, folded towel, three stripes per sock, stitched edge, two separate highlights, and broken shadow keep stable anchors and overlap order; the final panel only adds the declared marker fills.",
+    "contract_sha256": "376ad541c9f54ebb4377ddcbd503596ffabfa014b639e5762ef8b4f83a4db32e",
+    "asset_sha256": {
+      "assets/cartoon-laundry-basket-with-striped-socks-step-1.jpg": "8a12e7f08e321bffa47eee9c58b2f9cc3a51e3b11579e9517abe11b4a156656c",
+      "assets/cartoon-laundry-basket-with-striped-socks-step-2.jpg": "330da17d87132387251c07867af6834287a98ea6fd0581e244be8237c4d291ee",
+      "assets/cartoon-laundry-basket-with-striped-socks-step-3.jpg": "f54c1dc19883492d56c7e6fdfac814570c1b52a2cd1d44ce9b90b8fac9129f67",
+      "assets/cartoon-laundry-basket-with-striped-socks-step-4.jpg": "31340824561f520c5f5dc261faec813a7b0282fec0ee8798a9b3c1433fce83c4",
+      "assets/cartoon-laundry-basket-with-striped-socks-step-5.jpg": "16d72675c36629fbd08b04b442eab351436acf4e43292b44d16010f1dc52f399",
+      "assets/cartoon-laundry-basket-with-striped-socks-finished-v1.jpg": "3eb2c55c186eca4df5301ca48564b9bdd0276752da6e0063d5e6491887e2c4b6"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "oval rim and rounded basket body",
+          "two handles and woven bands"
+        ],
+        "landmark_observations": {
+          "oval rim and rounded basket body": "The same wide oval rim, sloping sides, rounded lower edge, scale, and crop remain fixed.",
+          "two handles and woven bands": "Exactly two oval handles attach at the left and right rim; three broad horizontal rows and four aligned divider routes occupy the established front."
+        },
+        "observed_addition": "The two side handles and simple three-row weave turn the plain container into a readable laundry basket without changing its silhouette.",
+        "instruction_match": "The crop matches the exact handle count, horizontal row count, vertical divider placement, and left-right attachment points described in Step 2.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "oval rim and rounded basket body",
+          "two handles and woven bands",
+          "two draped socks and folded towel"
+        ],
+        "landmark_observations": {
+          "oval rim and rounded basket body": "The basket contour and visible front rim segments remain in the same positions.",
+          "two handles and woven bands": "Both handles remain attached and the visible weave routes persist around the new foreground cloth.",
+          "two draped socks and folded towel": "One sock drapes at left, one at right, and one folded towel sits between them; all three cover the rear rim cleanly while the rim restarts in the gaps."
+        },
+        "observed_addition": "Two separate sock silhouettes and one central folded towel create clear foreground overlaps while preserving both handles and the basket front.",
+        "instruction_match": "The image follows the requested two-sock and one-towel count, central towel placement, and hidden-rim stops at every cloth edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "oval rim and rounded basket body",
+          "two handles and woven bands",
+          "two draped socks and folded towel",
+          "six sock stripes and towel edge"
+        ],
+        "landmark_observations": {
+          "oval rim and rounded basket body": "The body and rim retain their fixed crop beneath the laundry.",
+          "two handles and woven bands": "Both handles and every visible weave route persist without moving.",
+          "two draped socks and folded towel": "The left sock, right sock, and center towel keep the same silhouettes, attachment points, and overlap order.",
+          "six sock stripes and towel edge": "Exactly three curved dark stripes wrap each sock, and one row of short stitch marks follows the towel lower edge."
+        },
+        "observed_addition": "Six countable sock stripes and one stitched towel edge add pattern without changing any cloth contour.",
+        "instruction_match": "The crop matches three stripes on each established sock and one stitched towel edge, with all earlier overlaps unchanged.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "oval rim and rounded basket body",
+          "two handles and woven bands",
+          "two draped socks and folded towel",
+          "six sock stripes and towel edge",
+          "two highlights and broken ground shadow"
+        ],
+        "landmark_observations": {
+          "oval rim and rounded basket body": "The full basket silhouette remains fixed above the new ground shadow.",
+          "two handles and woven bands": "Both handles, three horizontal rows, and four aligned divider routes stay visible.",
+          "two draped socks and folded towel": "Both socks and the towel keep their exact positions and overlap order.",
+          "six sock stripes and towel edge": "All six sock stripes and the towel stitch row persist.",
+          "two highlights and broken ground shadow": "Two separate vertical white highlight reserves appear low on the left and right front, and one broken navy shadow sits below the basket."
+        },
+        "observed_addition": "Two clearly separate highlight reserves and one broken ground shadow complete the uncolored drawing and make the final count easy to verify.",
+        "instruction_match": "The image matches the exact two-highlight requirement, left-right locations, and broken shadow placement without altering the basket or laundry.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "oval rim and rounded basket body",
+          "two handles and woven bands",
+          "two draped socks and folded towel",
+          "six sock stripes and towel edge",
+          "two highlights and broken ground shadow"
+        ],
+        "landmark_observations": {
+          "oval rim and rounded basket body": "Teal marker fills the same established body and rim without changing their contours.",
+          "two handles and woven bands": "Both handles and every weave route remain legible through the teal fill.",
+          "two draped socks and folded towel": "The left sock stays coral, the right sock golden yellow, and the center towel violet within their existing silhouettes.",
+          "six sock stripes and towel edge": "All six deep-navy stripes and the same towel stitch marks remain fixed.",
+          "two highlights and broken ground shadow": "Both separate white highlights remain open, and the same broken navy shadow deepens beneath the basket."
+        },
+        "observed_addition": "Teal, coral, golden yellow, violet, and deep navy fill only established regions while visible marker streaks preserve the handmade finish.",
+        "instruction_match": "The final image uses the named colors on the named forms, preserves both highlights and every count, and adds no new contour or garment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

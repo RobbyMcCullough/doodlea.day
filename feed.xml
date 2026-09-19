@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a laundry basket</title>
+      <link>https://doodlea.day/tutorials/cartoon-laundry-basket-with-striped-socks.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-laundry-basket-with-striped-socks.html</guid>
+      <pubDate>Fri, 18 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon laundry basket with two handles, woven bands, two striped socks, a folded towel, thick outlines, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-laundry-basket-with-striped-socks-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a sea turtle</title>
       <link>https://doodlea.day/tutorials/cartoon-sea-turtle-swimming.html</link>
