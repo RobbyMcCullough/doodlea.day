@@ -1,0 +1,153 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-pirate-spyglass",
+  "finished": "assets/cartoon-pirate-spyglass-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One long tapered barrel with two connected side edges gives the learner a useful spyglass body in its final diagonal position.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel felt-tip marker contact sheet for the September 19, 2026 current lesson. Two full sheets were rejected for dark glowing backgrounds. The bright-paper third sheet was repaired so panels 4 and 5 use the same deep-aqua lens as the finish; the pre-repair sheet is preserved privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name": "main tapered barrel", "introduced_by_step": 1, "description": "One long face-free spyglass barrel tilted from lower right toward upper left with connected top and bottom edges."},
+    {"name": "wide front lens ring", "introduced_by_step": 2, "description": "One thick oval lens ring attached around the wide upper-left end of the barrel."},
+    {"name": "two telescoping tubes", "introduced_by_step": 2, "description": "Exactly two narrowing tube sections extending from the lower-right end of the main barrel."},
+    {"name": "small eyepiece", "introduced_by_step": 2, "description": "One short rounded eyepiece attached to the end of the second narrow tube."},
+    {"name": "two joint collars", "introduced_by_step": 3, "description": "Exactly two curved collar rings crossing the established barrel and tube joints behind the separate front lens ring."},
+    {"name": "three grip-wrap stripes", "introduced_by_step": 3, "description": "Exactly three short diagonal wrap stripes spaced across the main barrel grip."},
+    {"name": "wrist loop and knot", "introduced_by_step": 4, "description": "One curved wrist cord attached at the eyepiece with one small visible knot."},
+    {"name": "lens crescent", "introduced_by_step": 4, "description": "One curved open-paper reflection crescent inside the established front lens."},
+    {"name": "two hardware highlights", "introduced_by_step": 4, "description": "Exactly two narrow open-paper highlight gaps reserved on the front lens ring and first rear tube."},
+    {"name": "three sparkle bursts", "introduced_by_step": 4, "description": "Exactly three small golden four-point sparkle bursts arranged around the front lens without touching it."},
+    {"name": "broken ground shadow", "introduced_by_step": 5, "description": "One broad broken navy shadow beneath the tilted spyglass with visible paper gaps."}
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pirate-spyglass-step-1.jpg",
+      "step_name": "Shape the spyglass barrel",
+      "visible_job": "Draw one long tapered barrel tilted from lower right to upper left with a wide open front and narrower open rear.",
+      "instruction": "Pull two long slightly bowed lines from a wide opening at the upper left toward a narrower opening at the lower right, then join each opening with a shallow oval curve.",
+      "adds": ["main tapered barrel"],
+      "introduces": ["main tapered barrel"]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pirate-spyglass-step-2.jpg",
+      "step_name": "Extend the lens and tubes",
+      "visible_job": "Attach one thick lens ring at the wide end, exactly two narrowing tube sections at the rear, and one small rounded eyepiece.",
+      "instruction": "Echo the wide front oval to make one thick lens ring. From the narrow rear opening, attach exactly two shorter narrowing tubes in the same diagonal, then cap them with one small rounded eyepiece.",
+      "adds": ["wide front lens ring", "two telescoping tubes", "small eyepiece"],
+      "introduces": ["wide front lens ring", "two telescoping tubes", "small eyepiece"]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pirate-spyglass-step-3.jpg",
+      "step_name": "Collar and wrap the grip",
+      "visible_job": "Cross the established form with exactly two curved joint collars and exactly three diagonal grip-wrap stripes.",
+      "instruction": "Curve exactly two narrow collars across the barrel and tube joints behind the front lens ring. On the main barrel, place exactly three short diagonal stripes with open paper between them.",
+      "adds": ["two joint collars", "three grip-wrap stripes"],
+      "introduces": ["two joint collars", "three grip-wrap stripes"]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pirate-spyglass-step-4.jpg",
+      "step_name": "Tie on the wrist loop and shine",
+      "visible_job": "Attach one curved wrist loop and knot, fill the lens deep aqua around one white crescent, reserve two hardware highlights, and add three golden sparkles.",
+      "instruction": "From the eyepiece base, pull one cord into a single open loop and close it with one small knot. Fill the lens deep aqua around one white crescent, reserve exactly two narrow hardware highlights, and place exactly three small golden four-point sparkles around the lens.",
+      "adds": ["wrist loop and knot", "lens crescent", "two hardware highlights", "three sparkle bursts", "deep-aqua lens color"],
+      "introduces": ["wrist loop and knot", "lens crescent", "two hardware highlights", "three sparkle bursts"]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-pirate-spyglass-step-5.jpg",
+      "step_name": "Ground the spyglass",
+      "visible_job": "Add one broad deep-navy broken shadow beneath the unchanged spyglass while preserving the loop, lens crescent, highlights, and three sparkles.",
+      "instruction": "Sweep one broad deep-navy shadow beneath the spyglass as three loose marker patches. Leave paper gaps between the patches and keep the wrist loop, aqua lens, white crescent, two highlights, and three golden sparkles unchanged.",
+      "adds": ["broken ground shadow"],
+      "introduces": ["broken ground shadow"]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-pirate-spyglass-finished-v1.jpg",
+    "step_name": "Color the lookout finish",
+    "visible_job": "Fill only the established barrel, tubes, front ring, two collars, and cord with saturated marker color while keeping the aqua lens, sparkles, shadow, and highlights unchanged.",
+    "instruction": "Fill the main barrel coral, both rear tubes teal, and the front lens ring plus two joint collars golden yellow. Deepen the established navy cord and shadow, leave the aqua lens, white crescent, two hardware highlights, and three golden sparkles unchanged, and add no new shapes.",
+    "adds": ["saturated marker color on established forms"],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.6,
+    "finished_art_score": 8.9,
+    "first_step_observation": "Step 1 is independently useful: two long bowed sides and two shallow end curves make one clear tapered cylinder in its final diagonal position, with open paper at the rear for the telescope sections.",
+    "draw_through_observation": "The saved crops and copy teach one continuous object: main barrel, attached lens and rear sections, countable collars and grip marks, attached cord plus lens shine and sparkles, grounding shadow, then the remaining marker fills. Every endpoint and overlap remains readable.",
+    "contract_sha256": "fd1d71d7909d72f7214bb38ab0ac4960a0c215345521697ee9b2bf2bd02f3e50",
+    "asset_sha256": {
+      "assets/cartoon-pirate-spyglass-step-1.jpg": "1ade8046bee2f0e0a9336d86814fc6e4dc1713aef48a0d749befcecd753f313e",
+      "assets/cartoon-pirate-spyglass-step-2.jpg": "bad736018334281f2439ebe533dbe3ebcff803df70e154f336490076858bd21e",
+      "assets/cartoon-pirate-spyglass-step-3.jpg": "03366d9fb8f801428357a54b50e7f92fc6fe7b06f74d1a37ef96e801a1203050",
+      "assets/cartoon-pirate-spyglass-step-4.jpg": "2520438cca35c74549d0617f642c324766bb0f35f21be0edbb530354894b87d6",
+      "assets/cartoon-pirate-spyglass-step-5.jpg": "d5d1cd79142e94bda772511fb4aa02a6b41766e3ec38fefcb64d962419b60f16",
+      "assets/cartoon-pirate-spyglass-finished-v1.jpg": "88614b26e88594df0df2df796712ff1e6eac371fda8b64b92b81c352fcd4201c"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": ["main tapered barrel", "wide front lens ring", "two telescoping tubes", "small eyepiece"],
+        "observed_addition": "The second crop keeps the tapered barrel at the same diagonal and attaches one thick front lens ring, two progressively narrower rear sections, and one rounded eyepiece.",
+        "instruction_match": "The visible additions follow the stated wide-to-narrow order, every tube meets the previous oval opening, and no band, stripe, cord, sparkle, or shadow appears early.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": ["main tapered barrel", "wide front lens ring", "two telescoping tubes", "small eyepiece", "two joint collars", "three grip-wrap stripes"],
+        "observed_addition": "The third crop adds exactly two curved joint collars behind the separate lens ring and exactly three short diagonal grip marks across the unchanged main barrel.",
+        "instruction_match": "Both collars follow nearby oval angles and the three grip stripes sit in open barrel space with even gaps, matching the copy and actual count.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": ["main tapered barrel", "wide front lens ring", "two telescoping tubes", "small eyepiece", "two joint collars", "three grip-wrap stripes", "wrist loop and knot", "lens crescent", "two hardware highlights", "three sparkle bursts"],
+        "observed_addition": "The fourth crop attaches one cord and open loop at the eyepiece knot, fills the existing lens deep aqua around one white crescent, reserves two hardware highlights, and adds exactly three golden sparkles.",
+        "instruction_match": "The cord begins at the established eyepiece, the aqua stays inside the lens, the crescent remains open paper, and all three sparkles stay outside the lens as instructed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": ["main tapered barrel", "wide front lens ring", "two telescoping tubes", "small eyepiece", "two joint collars", "three grip-wrap stripes", "wrist loop and knot", "lens crescent", "two hardware highlights", "three sparkle bursts", "broken ground shadow"],
+        "observed_addition": "The fifth crop adds one deep-navy ground shadow as three loose horizontal marker patches beneath the unchanged spyglass, leaving white gaps and clearing the wrist loop.",
+        "instruction_match": "The shadow follows the spyglass diagonal, remains below the object, and preserves the aqua lens, white crescent, hardware highlights, three sparkles, and loop exactly as the instruction says.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": ["main tapered barrel", "wide front lens ring", "two telescoping tubes", "small eyepiece", "two joint collars", "three grip-wrap stripes", "wrist loop and knot", "lens crescent", "two hardware highlights", "three sparkle bursts", "broken ground shadow"],
+        "observed_addition": "The finish fills the established main barrel coral, both rear sections teal, and the front ring plus two collars golden yellow, while deepening the same navy cord and shadow.",
+        "instruction_match": "No new contour appears; three grip stripes, two collars, two tubes, the loop and knot, aqua lens, white crescent, two highlights, three sparkles, and three-patch shadow all persist at fixed anchors.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

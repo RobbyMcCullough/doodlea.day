@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-19 — Daily pirate spyglass lesson (Codex)
+
+- Added `cartoon-pirate-spyglass`, September 19 / Day 130. Five direct marker stages plus final color preserve one tapered barrel, one front lens ring, exactly two rear tubes, one eyepiece, two joint collars, three grip stripes, one attached wrist loop and knot, one aqua lens with white crescent, two hardware highlights, three sparkles, and one broken three-patch shadow. Teaching rated 8.6/10; finish rated 8.9/10.
+- Rejected two full contact sheets privately because the image service repeatedly returned black glowing backgrounds instead of bright marker paper. The third bright-paper sheet received one targeted repair so the lens stays deep aqua from step 4 through the finish; every saved adjacent crop was then re-reviewed against the schema-v5 copy and fresh hashes.
+- Full readiness passed on the documented localhost fallback after Cove access was blocked by the sandbox: fresh contract/image hashes, all five transitions, derivatives, social card, 264 URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed at 1440×1000 and 390×844 for homepage, library, and tutorial. Explicit scroll-and-wait checks loaded all 11 homepage images, all 128 library images, and all 11 tutorial images at both breakpoints; no broken images, invalid JSON-LD, public `lab.html` links, headline clipping, or horizontal overflow appeared. Layout rated 9.0/10 desktop and 8.8/10 mobile.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+- Harness: Codex; task: 2026-09-19 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-18 — Daily laundry basket lesson (Codex)
 
 - Added `cartoon-laundry-basket-with-striped-socks`, September 18 / Day 129. Five direct marker stages plus color preserve one basket, exactly two attached handles, three weave rows, four divider routes, exactly two socks, one folded towel, three stripes per sock, exactly two highlights, and one broken shadow. Teaching rated 8.7/10; finish rated 8.9/10.
