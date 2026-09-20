@@ -1,0 +1,136 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-garden-gloves-with-leaf",
+  "finished": "assets/cartoon-garden-gloves-with-leaf-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One complete foreground glove silhouette gives the learner a useful final-position shape and a clear overlap boundary for the second glove.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The first full sheet was rejected for mismatched stitch and vein counts. The second corrected sheet supplied the approved finish, but its foreground glove drifted between early panels; Steps 1-4 were therefore derived backward from the approved colored master with targeted image edits while Step 5 and the finish retain the master geometry."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"foreground glove","introduced_by_step":1,"description":"One left-leaning foreground garden glove with four rounded fingers, one thumb, and one open cuff edge."},
+    {"name":"rear glove","introduced_by_step":2,"description":"One right-leaning rear garden glove whose hidden contour stops behind the foreground glove."},
+    {"name":"two cuff bands","introduced_by_step":3,"description":"One broad cuff band attached to the base of each glove."},
+    {"name":"two palm seam panels","introduced_by_step":3,"description":"One curved reinforcement panel drawn inside each established glove palm."},
+    {"name":"single leaf","introduced_by_step":4,"description":"One separate pointed garden leaf with one stem and a simple branching vein pattern placed beside the cuffs."},
+    {"name":"five visible stitch dashes","introduced_by_step":4,"description":"Exactly three short stitch dashes in the foreground cuff and two visible dashes in the partly occluded rear cuff."},
+    {"name":"two paper highlights","introduced_by_step":5,"description":"One open-paper curved highlight reserved inside each glove."},
+    {"name":"broken ground shadow","introduced_by_step":5,"description":"One low broken navy shadow beneath both cuffs and the leaf."},
+    {"name":"coral teal yellow and green marker fills","introduced_by_step":5,"description":"Established marker-color regions inside every finished contour before the final reinforcement."}
+  ],
+  "frames": [
+    {
+      "step":1,
+      "asset":"assets/cartoon-garden-gloves-with-leaf-step-1.jpg",
+      "step_name":"Shape the foreground glove",
+      "visible_job":"Draw one complete left-leaning glove with four rounded fingers, one thumb, and an open cuff edge.",
+      "instruction":"Start at the open cuff edge, sweep around one thumb, then build four rounded finger bumps from shortest to tallest before returning to the cuff. Keep the palm broad and tilt the glove slightly left.",
+      "adds":["foreground glove"],
+      "introduces":["foreground glove"]
+    },
+    {
+      "step":2,
+      "asset":"assets/cartoon-garden-gloves-with-leaf-step-2.jpg",
+      "step_name":"Cross the rear glove behind",
+      "visible_job":"Add one right-leaning glove behind the first while preserving the foreground overlap.",
+      "instruction":"Begin the rear cuff to the right, curve around its thumb and four rounded fingers, and stop every hidden line at the foreground glove. Let the two cuffs cross without drawing through the front palm.",
+      "adds":["rear glove"],
+      "introduces":["rear glove"]
+    },
+    {
+      "step":3,
+      "asset":"assets/cartoon-garden-gloves-with-leaf-step-3.jpg",
+      "step_name":"Band the cuffs and palms",
+      "visible_job":"Attach one broad cuff band and one curved palm reinforcement panel to each glove.",
+      "instruction":"Close each cuff with one broad band, then curve one simple reinforcement panel across each palm. Keep both panel seams inside the glove outlines and stop the rear panel where the foreground glove covers it.",
+      "adds":["two cuff bands","two palm seam panels"],
+      "introduces":["two cuff bands","two palm seam panels"]
+    },
+    {
+      "step":4,
+      "asset":"assets/cartoon-garden-gloves-with-leaf-step-4.jpg",
+      "step_name":"Place the leaf and stitches",
+      "visible_job":"Add one separate pointed leaf beside the cuffs and exactly five visible cuff stitches.",
+      "instruction":"Draw one pointed leaf beside the crossed cuffs with one short stem and a simple branching vein pattern. Add exactly three short stitch dashes inside the foreground cuff and two visible dashes inside the partly covered rear cuff.",
+      "adds":["single leaf","five visible stitch dashes"],
+      "introduces":["single leaf","five visible stitch dashes"]
+    },
+    {
+      "step":5,
+      "asset":"assets/cartoon-garden-gloves-with-leaf-step-5.jpg",
+      "step_name":"Set the bright marker color",
+      "visible_job":"Reserve two highlights, add one broken shadow, and establish coral, teal, yellow, and green fills.",
+      "instruction":"Reserve one curved paper highlight inside each glove, then add one low broken shadow under the cuffs and leaf. Fill the foreground glove coral, the rear glove teal, both cuff bands golden yellow, and the leaf green with visible marker streaks.",
+      "adds":["two paper highlights","broken ground shadow","coral teal yellow and green marker fills"],
+      "introduces":["two paper highlights","broken ground shadow","coral teal yellow and green marker fills"]
+    }
+  ],
+  "final_step": {
+    "asset":"assets/cartoon-garden-gloves-with-leaf-finished-v1.jpg",
+    "step_name":"Reinforce the ready-to-work finish",
+    "visible_job":"Strengthen only the established black outlines, seams, stitches, fills, highlights, veins, and broken shadow.",
+    "instruction":"Reinforce the existing glove outlines, two palm panels, two cuff bands, five visible stitch dashes, leaf veins, and broken shadow. Even the coral, teal, yellow, and green fills while preserving both paper highlights and adding no new shapes.",
+    "adds":["stronger established outlines and marker texture"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.7,
+    "finished_art_score":8.8,
+    "first_step_observation":"Step 1 is immediately copyable: one broad left-leaning glove uses four clear finger arches, one thumb, and one open cuff ellipse in its final position, leaving a clean right-side field for the rear glove.",
+    "draw_through_observation":"The master-derived crops match the written sequence: fixed foreground glove, fixed rear glove behind it, attached bands and palm panels, one separate leaf with five visible stitches, full marker color and highlights, then outline reinforcement. Finger counts, cuff crossing, foreground overlap, and leaf placement persist with no hidden erasure or unexplained movement.",
+    "contract_sha256":"5015d0f56c1d77a4d0233411bdd1dda408197c9be5fa798985e45586db48db1c",
+    "asset_sha256":{
+      "assets/cartoon-garden-gloves-with-leaf-step-1.jpg":"11604f54ab1a7e0dd155b3a472f7d1d53356420bf968b749b217c402e27bb6c4",
+      "assets/cartoon-garden-gloves-with-leaf-step-2.jpg":"91a7a721040e2b947f7ad47c9e5b9f347e8fa203711d7357c4feca05132b148e",
+      "assets/cartoon-garden-gloves-with-leaf-step-3.jpg":"4a9d42fda9c02aa1f3d564e350b3e571a0e8a4885ec51e5edffc9215f5575f7b",
+      "assets/cartoon-garden-gloves-with-leaf-step-4.jpg":"a28095ffa7dbacb2bba3572527848ac47ad4d82017d771d0b8583c8cea250751",
+      "assets/cartoon-garden-gloves-with-leaf-step-5.jpg":"6d54da781aeb08a50367c4889c19eabb75b7f1d3db0da55f289c39b73952c6c6",
+      "assets/cartoon-garden-gloves-with-leaf-finished-v1.jpg":"f03f1a7673e6188efa031a78903174f004b4739d99aafcb88a1b69f643d527b1"
+    },
+    "transitions":[
+      {
+        "from_step":1,
+        "to_step":2,
+        "observed_present":["foreground glove","rear glove"],
+        "observed_addition":"The second crop keeps the exact foreground-left glove and adds one right-leaning rear glove whose lower cuff passes behind the foreground open edge.",
+        "instruction_match":"Both gloves show four rounded fingers and one thumb, the rear outline stops at the stated crossing, and the front glove remains visually on top.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":2,
+        "to_step":3,
+        "observed_present":["foreground glove","rear glove","two cuff bands","two palm seam panels"],
+        "observed_addition":"The third crop preserves both hand silhouettes while attaching one broad band to each cuff and one curved reinforcement panel inside each palm.",
+        "instruction_match":"Both panels stay inside their glove outlines, both bands connect at the existing wrists, and the foreground band continues to cover the rear cuff at the crossing.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":3,
+        "to_step":4,
+        "observed_present":["foreground glove","rear glove","two cuff bands","two palm seam panels","single leaf","five visible stitch dashes"],
+        "observed_addition":"The fourth crop keeps both gloves and adds one separate pointed leaf beside the cuffs, three stitch dashes on the foreground band, and two visible dashes on the occluded rear band.",
+        "instruction_match":"The leaf remains separate as directed, its branch veins stay inside the outline, and the visible stitch count matches the three-front plus two-rear instruction.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":4,
+        "to_step":5,
+        "observed_present":["foreground glove","rear glove","two cuff bands","two palm seam panels","single leaf","five visible stitch dashes","two paper highlights","broken ground shadow","coral teal yellow and green marker fills"],
+        "observed_addition":"The fifth crop fills the fixed foreground glove coral, rear glove teal, both cuffs yellow, and leaf green, while reserving two white highlights and adding one broken navy shadow.",
+        "instruction_match":"Every color stays inside an established contour, both highlights remain open paper, five stitches stay visible, and the shadow grounds the cuffs and leaf without hiding them.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":5,
+        "to_step":6,
+        "observed_present":["foreground glove","rear glove","two cuff bands","two palm seam panels","single leaf","five visible stitch dashes","two paper highlights","broken ground shadow","coral teal yellow and green marker fills"],
+        "observed_addition":"The finish strengthens the same black contours, panel seams, leaf veins, stitch marks, bright fills, and broken navy shadow without adding another object or decorative border.",
+        "instruction_match":"Exactly two gloves, two bands, two panels, five stitches, two highlights, one leaf, and one shadow remain fixed while only marker weight and fill confidence increase.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      }
+    ]
+  }
+}

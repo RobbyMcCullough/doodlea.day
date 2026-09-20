@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-20 — Daily garden gloves lesson (Codex)
+
+- Added `cartoon-garden-gloves-with-leaf`, September 20 / Day 131. Five direct marker stages plus final color preserve two overlapping gloves, two cuff bands, two palm panels, five visible stitches, two highlights, one leaf, and one broken shadow. Teaching rated 8.7/10; finish rated 8.8/10.
+- Rejected two generated progressions privately for count and silhouette drift. The approved sequence is derived from the reviewed final master so glove contours, overlap order, cuff placement, palm panels, stitches, highlights, leaf, and shadow remain spatially stable through every adjacent transition.
+- Full readiness passed on the localhost fallback: fresh schema-v5 contract and image hashes, all five adjacent transitions, derivatives, social card, 266 URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed at 1440×1000 and 390×844 for homepage, library, and tutorial. Lazy images loaded, the current lesson appeared in the library, JSON-LD was present, `lab.html` stayed unlinked, and no broken images or horizontal overflow appeared. Layout rated 9.0/10 desktop and 8.8/10 mobile.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+- Harness: Codex; intended task title: 2026-09-20 — Daily sketch and doodle lessons (the runtime did not expose task renaming).
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-19 — Daily pirate spyglass lesson (Codex)
 
 - Added `cartoon-pirate-spyglass`, September 19 / Day 130. Five direct marker stages plus final color preserve one tapered barrel, one front lens ring, exactly two rear tubes, one eyepiece, two joint collars, three grip stripes, one attached wrist loop and knot, one aqua lens with white crescent, two hardware highlights, three sparkles, and one broken three-patch shadow. Teaching rated 8.6/10; finish rated 8.9/10.
