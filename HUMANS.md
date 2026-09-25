@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-09-25 — Current cartoon seahorse lesson (Codex)
+
+- Added Day 132 `cartoon-seahorse-with-curled-tail` for September 25. Six cumulative felt-tip frames preserve a left-facing snout, one spiral tail, attached dorsal and pectoral fins, three crest bumps, one eye, four belly bands, three bubbles, and two cheek spots before the coral, yellow, teal, and blue marker finish.
+- Saved-crop review rated teaching 8.4/10 and finish 8.8/10. Full readiness passed on the documented localhost fallback, including 268 internal URLs, five adjacent deltas, schema-v5 hashes, derivatives, JSON-LD, unused assets, and diff checks. Desktop/mobile homepage, library, and tutorial QA found no overflow; all tutorial images loaded after scrolling.
+- The one-current-lesson-per-site cadence remains active. No archive/backfill lesson was created. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-20 — Daily garden gloves lesson (Codex)
 
 - Added `cartoon-garden-gloves-with-leaf`, September 20 / Day 131. Five direct marker stages plus final color preserve two overlapping gloves, two cuff bands, two palm panels, five visible stitches, two highlights, one leaf, and one broken shadow. Teaching rated 8.7/10; finish rated 8.8/10.

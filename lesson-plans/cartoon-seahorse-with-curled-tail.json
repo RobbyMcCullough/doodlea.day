@@ -1,0 +1,215 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-seahorse-with-curled-tail",
+  "finished": "assets/cartoon-seahorse-with-curled-tail-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One connected left-facing head and curved torso outline establishes the seahorse pose and leaves a clear lower route for the spiral tail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel cumulative handmade black felt-tip contact sheet on white paper. Keep one left-facing seahorse with fixed snout, spiral tail, dorsal fin, three crest bumps, one eye, belly bands, and exactly three bubbles."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head snout and curved torso",
+      "introduced_by_step": 1,
+      "description": "One left-facing seahorse profile with long tubular snout, rounded forehead and curved upright torso open at the tail base."
+    },
+    {
+      "name": "spiral tail and dorsal fin",
+      "introduced_by_step": 2,
+      "description": "One thick tail curling inward below the belly and one scalloped fin with three interior ribs attached behind the upper back."
+    },
+    {
+      "name": "three crest bumps and one eye",
+      "introduced_by_step": 3,
+      "description": "Exactly three small crest bumps along the top of the head and one round eye with a dark pupil."
+    },
+    {
+      "name": "belly boundary three dividers and pectoral fin",
+      "introduced_by_step": 4,
+      "description": "One curved inner belly boundary from under the jaw toward the tail base, three cross-belly dividers making four bands, and one small fan-shaped pectoral fin attached behind the neck."
+    },
+    {
+      "name": "three bubbles and small cheek spots",
+      "introduced_by_step": 5,
+      "description": "Exactly three simple round bubbles rising to the left of the snout and two small cheek spots."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-seahorse-with-curled-tail-step-1.jpg",
+      "step_name": "Draw the head and body",
+      "visible_job": "Connect one snout, rounded head, and curving torso in their final positions.",
+      "instruction": "Start with a short tube snout pointing left, curve up over the forehead and back of the head, then sweep down through a rounded torso. Return along the belly, leaving its lower end open for the curled tail.",
+      "adds": [
+        "head snout and curved torso"
+      ],
+      "introduces": [
+        "head snout and curved torso"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-seahorse-with-curled-tail-step-2.jpg",
+      "step_name": "Curl the tail",
+      "visible_job": "Connect one inward spiral tail and a scalloped dorsal fin with three ribs.",
+      "instruction": "From the open lower body, draw a broad tail that curls once inward to a rounded tip. Attach one scalloped fin to the upper back and give it three short ribs, keeping the torso edge clear.",
+      "adds": [
+        "spiral tail and dorsal fin"
+      ],
+      "introduces": [
+        "spiral tail and dorsal fin"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-seahorse-with-curled-tail-step-3.jpg",
+      "step_name": "Give it a face and crest",
+      "visible_job": "Add one round eye and exactly three bumps along the existing crown.",
+      "instruction": "Place one round eye above the snout with a small dark pupil. Build exactly three short crest bumps along the crown, rooted in the head rather than floating above it.",
+      "adds": [
+        "three crest bumps and one eye"
+      ],
+      "introduces": [
+        "three crest bumps and one eye"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-seahorse-with-curled-tail-step-4.jpg",
+      "step_name": "Band the belly",
+      "visible_job": "Add the curved belly boundary and three dividers, then one attached pectoral fin.",
+      "instruction": "From below the jaw, curve an inner belly boundary toward the tail base. Cross it with three short curved dividers to make four broad bands. Attach one small fan-shaped pectoral fin behind the neck.",
+      "adds": [
+        "belly boundary",
+        "three belly dividers",
+        "pectoral fin"
+      ],
+      "introduces": [
+        "belly boundary three dividers and pectoral fin"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-seahorse-with-curled-tail-step-5.jpg",
+      "step_name": "Add bubbles and cheek spots",
+      "visible_job": "Place three bubbles by the snout and two small cheek spots; reinforce the established black contour.",
+      "instruction": "Draw exactly three simple bubbles rising beside the snout, then place two small spots on the cheek. Reinforce the existing outer contour with a black felt tip, keeping the inside bands lighter.",
+      "adds": [
+        "three bubbles and small cheek spots"
+      ],
+      "introduces": [
+        "three bubbles and small cheek spots"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-seahorse-with-curled-tail-finished-v1.jpg",
+    "step_name": "Color the seahorse",
+    "visible_job": "Fill established regions with streaky marker color and strengthen their keeper outlines.",
+    "instruction": "Fill the established body coral orange, the belly bands pale yellow, the dorsal and pectoral fins teal, and the three bubbles light blue. Leave a little white paper in each region and strengthen only the existing black edges.",
+    "adds": [
+      "marker color within established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.4,
+    "finished_art_score": 8.8,
+    "first_step_observation": "The first saved crop is copyable without seeing later frames: one left-facing tube snout joins a rounded head and S-curved torso, with two open lower endpoints reserved for a single curled tail. No eye, fin, crest, bands or bubbles are premature.",
+    "draw_through_observation": "I inspected the full sheet and all six saved JPGs in adjacent order. The snout tip, crown, body bends, tail spiral, dorsal-fin root, crest roots, eye, inner belly boundary, pectoral-fin attachment, three bubble positions and two cheek spots remain spatially consistent. There are no temporary guides. The last frame only colors the established shapes, retaining imperfect felt-tip outlines and visible marker streaks.",
+    "contract_sha256": "2212d42e4cbb81ea83d92a5a9d63635b7f4451b01f7386f73a3401b0944fa9ff",
+    "asset_sha256": {
+      "assets/cartoon-seahorse-with-curled-tail-step-1.jpg": "d6fed2c6ae826283ef861a82d8df051c07636e71d5ff1c074709088e8bb38ecc",
+      "assets/cartoon-seahorse-with-curled-tail-step-2.jpg": "2b59fcf9bd357479bac07a213975eb6ff3d42d34ae44a22d01512d8833a3337c",
+      "assets/cartoon-seahorse-with-curled-tail-step-3.jpg": "6ad83012f14bd48f0bbde231dfb4a1f01b6a30a5d4db9e7f8a42ddd75c901f0c",
+      "assets/cartoon-seahorse-with-curled-tail-step-4.jpg": "bed933d97e465e953c3951516d290b1664dfaefc2e2a36c7b387dda84bf057e6",
+      "assets/cartoon-seahorse-with-curled-tail-step-5.jpg": "1233df7ed5200dd877d68c1ae64abc53a1d7c9ea24ea8c28a6ea13082f77f753",
+      "assets/cartoon-seahorse-with-curled-tail-finished-v1.jpg": "da33a42b5a4c421cbed8e8532abd5fe848c9c7386e5df072c8235a36e6347b9b"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head snout and curved torso",
+          "spiral tail and dorsal fin"
+        ],
+        "observed_addition": "The second saved crop preserves the left-facing tube snout, round head, open lower torso and its exact pose; one thick tail extends from the lower opening into a single inward spiral, and a scalloped dorsal fin with three ribs attaches behind the upper back.",
+        "instruction_match": "The tail connects to both lower torso ends without a moved tip, and the dorsal fin stays behind the existing back line as the instruction describes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head snout and curved torso",
+          "spiral tail and dorsal fin",
+          "three crest bumps and one eye"
+        ],
+        "observed_addition": "The third crop retains the same single tail spiral and dorsal-fin attachment. Exactly three rounded crest bumps are rooted along the head crown and one large eye with pupil and tiny glint appears above the snout.",
+        "instruction_match": "The eye sits inside the established head and the three crest bumps follow the written count; no body, fin, snout or tail route changes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head snout and curved torso",
+          "spiral tail and dorsal fin",
+          "three crest bumps and one eye",
+          "belly boundary three dividers and pectoral fin"
+        ],
+        "observed_addition": "The fourth crop keeps the head, eye, three crest bumps, dorsal fin and spiral tail fixed. A curved inner belly boundary starts below the jaw, three dividers make four open belly bands, and a small fan-shaped pectoral fin attaches behind the neck.",
+        "instruction_match": "The new belly contour stays inside the existing torso, all three dividers meet it, and the pectoral fin overlaps the back at the stated neck attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head snout and curved torso",
+          "spiral tail and dorsal fin",
+          "three crest bumps and one eye",
+          "belly boundary three dividers and pectoral fin",
+          "three bubbles and small cheek spots"
+        ],
+        "observed_addition": "The fifth crop keeps both fins, the head crest, eye, belly boundary, three dividers and spiral tail. Exactly three separate bubble circles rise to the left of the snout and two round cheek spots appear below the eye.",
+        "instruction_match": "The bubbles clear the snout, the cheek spots stay on the established head, and reinforced black edges follow existing contours rather than changing the pose.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head snout and curved torso",
+          "spiral tail and dorsal fin",
+          "three crest bumps and one eye",
+          "belly boundary three dividers and pectoral fin",
+          "three bubbles and small cheek spots"
+        ],
+        "observed_addition": "The finished crop retains every black contour, attachment, four belly bands, three crest bumps, three bubbles and two cheek spots in place. Streaky coral orange, pale yellow, teal and light blue fill only those established regions with small open-paper gaps.",
+        "instruction_match": "The final instruction asks only for color and keeper-edge strengthening; no new fin, band, bubble, crest, face mark or tail segment appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
