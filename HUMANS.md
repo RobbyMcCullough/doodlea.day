@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-09-26 — Current cartoon sushi roll lesson (Codex)
+
+- Added Day 133 `cartoon-sushi-roll` for September 26. Six additive felt-tip frames keep the nori ring, rice boundary, salmon/cucumber/carrot fillings, three rice marks, glint, and broken shadow in their final positions through the textured marker finish.
+- Rejected four paper-lantern progressions privately for loop clipping and shifting structure; the replacement sushi subject passed after a targeted sheet repair. Every saved adjacent crop and instruction was reviewed with schema-v5 image and contract hashes. Teaching rated 8.5/10; finish 8.4/10.
+- Full readiness passed on the localhost fallback: 270 internal URLs, five adjacent transitions, derivatives, social card, JSON-LD, asset usage, ledger, and diff checks. Desktop/mobile homepage, library, and tutorial QA found no overflow and all tutorial images loaded after scrolling.
+- The one-current-lesson-per-site cadence remains active. No archive/backfill lesson was created. Task: 2026-09-26 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-25 — Current cartoon seahorse lesson (Codex)
 
 - Added Day 132 `cartoon-seahorse-with-curled-tail` for September 25. Six cumulative felt-tip frames preserve a left-facing snout, one spiral tail, attached dorsal and pectoral fins, three crest bumps, one eye, four belly bands, three bubbles, and two cheek spots before the coral, yellow, teal, and blue marker finish.

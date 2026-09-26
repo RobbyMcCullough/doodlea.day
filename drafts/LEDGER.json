@@ -211,6 +211,11 @@
       "date": "2026-08-13",
       "note": "Owner-directed current-lesson process repair: original Steps 1-5 were near-duplicate and replaced by approved v3 pale-pencil stages. Original ink/color/finish stay byte-identical; private v2 was rejected for uneven-grid crop contamination."
     },
+    "cartoon-paper-lantern": {
+      "status": "rejected-quality",
+      "date": "2026-09-26",
+      "note": "Four serious generated raster iterations retained privately. Bottom-row loop clipping and scale/position drift could not be repaired while keeping one cumulative drawing."
+    },
     "cartoon-passenger-airplane-in-flight": {
       "status": "published",
       "date": "2026-09-14",
@@ -323,6 +328,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "cartoon-sushi-roll": {
+      "status": "published",
+      "date": "2026-09-26",
+      "note": "Day 133 current marker lesson. Approved six-panel saved-crop review after one alignment retry; all three fillings and rice marks persist."
     },
     "cartoon-taco-with-hot-sauce": {
       "status": "rejected-quality",

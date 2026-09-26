@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a sushi roll</title>
+      <link>https://doodlea.day/tutorials/cartoon-sushi-roll.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-sushi-roll.html</guid>
+      <pubDate>Sat, 26 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a sushi roll with a bold seaweed wrap, round rice ring, three colorful fillings, three rice marks, and textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-sushi-roll-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon seahorse</title>
       <link>https://doodlea.day/tutorials/cartoon-seahorse-with-curled-tail.html</link>

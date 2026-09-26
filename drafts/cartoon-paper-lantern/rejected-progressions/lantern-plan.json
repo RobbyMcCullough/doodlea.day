@@ -1,0 +1,34 @@
+{
+  "schema_version":5,
+  "slug":"cartoon-paper-lantern",
+  "finished":"assets/cartoon-paper-lantern-finished-v1.jpg",
+  "drawing_mode":"direct",
+  "first_step_test":"One rounded lantern body with gently scalloped sides fixes the final silhouette and leaves clear attachment points above and below.",
+  "source":{"type":"generated-raster-master","notes":"One reviewed six-panel felt-tip marker raster contact sheet on paper; rejected iterations remain private."},
+  "temporary_guides":[],
+  "final_elements":[
+    {"name":"lantern body","introduced_by_step":1,"description":"One plump upright rounded-paper silhouette with a narrow top and bottom and gently scalloped sides."},
+    {"name":"top cap","introduced_by_step":2,"description":"One short dark top cap centered above the existing body."},
+    {"name":"hanging loop","introduced_by_step":2,"description":"One small attached loop centered above the top cap."},
+    {"name":"bottom cap","introduced_by_step":2,"description":"One short dark bottom cap centered below the body."},
+    {"name":"left outer rib","introduced_by_step":3,"description":"One curved rib line inside the left side of the lantern body."},
+    {"name":"left inner rib","introduced_by_step":3,"description":"One second curved rib line between the left outer rib and center."},
+    {"name":"right inner rib","introduced_by_step":3,"description":"One curved rib line between center and the right outer rib."},
+    {"name":"right outer rib","introduced_by_step":3,"description":"One curved rib line inside the right side of the lantern body."},
+    {"name":"upper trim band","introduced_by_step":4,"description":"One shallow curved band crossing the existing ribs near the top."},
+    {"name":"lower trim band","introduced_by_step":4,"description":"One shallow curved band crossing the existing ribs near the bottom."},
+    {"name":"tassel knot","introduced_by_step":5,"description":"One small knot attached immediately below the bottom cap."},
+    {"name":"left tassel strand","introduced_by_step":5,"description":"One left strand hanging from the same knot."},
+    {"name":"center tassel strand","introduced_by_step":5,"description":"One center strand hanging from the same knot."},
+    {"name":"right tassel strand","introduced_by_step":5,"description":"One right strand hanging from the same knot."}
+  ],
+  "frames":[
+    {"step":1,"asset":"assets/cartoon-paper-lantern-step-1.jpg","step_name":"Outline the paper lantern","visible_job":"Draw one plump upright lantern body with narrow ends and scalloped sides.","instruction":"Use black felt tip to draw a rounded upright lantern body. Narrow both ends and give the sides a few gentle bumps, keeping the top and bottom centers clear for fittings.","adds":["lantern body"],"introduces":["lantern body"]},
+    {"step":2,"asset":"assets/cartoon-paper-lantern-step-2.jpg","step_name":"Attach the hanger and caps","visible_job":"Add one top cap, one small loop, and one bottom cap at the body ends.","instruction":"Set a short dark cap across the top point and a matching cap beneath the bottom point. From the center of the top cap, draw a small upright loop that joins back to the cap.","adds":["top cap","hanging loop","bottom cap"],"introduces":["top cap","hanging loop","bottom cap"]},
+    {"step":3,"asset":"assets/cartoon-paper-lantern-step-3.jpg","step_name":"Curve four paper ribs","visible_job":"Add exactly four curved ribs from upper cap toward lower cap inside the lantern.","instruction":"Pull two curved rib lines down the left half and two down the right, starting just below the top cap and ending just above the bottom cap. Let them bow with the paper body.","adds":["left outer rib","left inner rib","right inner rib","right outer rib"],"introduces":["left outer rib","left inner rib","right inner rib","right outer rib"]},
+    {"step":4,"asset":"assets/cartoon-paper-lantern-step-4.jpg","step_name":"Add the trim bands","visible_job":"Cross the established ribs with one upper and one lower curved trim band.","instruction":"Draw one shallow curved band across the upper body and another across the lower body, passing over the four ribs without shifting their endpoints. Keep both bands inside the outer lantern edge.","adds":["upper trim band","lower trim band"],"introduces":["upper trim band","lower trim band"]},
+    {"step":5,"asset":"assets/cartoon-paper-lantern-step-5.jpg","step_name":"Hang the tassel","visible_job":"Attach one small knot and exactly three tassel strands below the bottom cap.","instruction":"From the bottom cap, add one small knot. Pull three separate short strands down from it, one left, one center, and one right; stop before they touch the edge of the page.","adds":["tassel knot","left tassel strand","center tassel strand","right tassel strand"],"introduces":["tassel knot","left tassel strand","center tassel strand","right tassel strand"]}
+  ],
+  "final_step":{"asset":"assets/cartoon-paper-lantern-finished-v1.jpg","step_name":"Color the paper lantern","visible_job":"Fill only the established paper panels and fittings with visible marker grain.","instruction":"Fill alternating rib panels coral red and orange, leave two narrow paper highlights, color the top and bottom caps deep navy, and touch the two trim bands and three tassel strands with golden yellow. Keep every black contour in place.","adds":["coral red, orange, deep navy, and yellow marker fill on established shapes"],"introduces":[]},
+  "visual_review":{"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-sushi-roll",
+  "finished": "assets/cartoon-sushi-roll-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One slightly wobbly bold circle fixes the roll's final scale and gives the learner an immediate recognizable food silhouette.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Reviewed six-panel black felt-tip and saturated marker raster sheet on paper; rejected lantern iterations remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer nori circle",
+      "introduced_by_step": 1,
+      "description": "One broad, slightly imperfect round outer seaweed contour in its final position."
+    },
+    {
+      "name": "inner rice boundary",
+      "introduced_by_step": 2,
+      "description": "One smaller nested round boundary leaving a thick outer seaweed band and a white rice ring."
+    },
+    {
+      "name": "salmon filling",
+      "introduced_by_step": 3,
+      "description": "One small rounded coral-salmon block at the center left of the established opening."
+    },
+    {
+      "name": "cucumber filling",
+      "introduced_by_step": 3,
+      "description": "One small curved green cucumber wedge at the center right, touching the salmon block."
+    },
+    {
+      "name": "carrot filling",
+      "introduced_by_step": 3,
+      "description": "One tiny orange triangular carrot wedge below the salmon and cucumber."
+    },
+    {
+      "name": "left rice grain",
+      "introduced_by_step": 4,
+      "description": "One short rice-grain dash within the left white ring."
+    },
+    {
+      "name": "upper rice grain",
+      "introduced_by_step": 4,
+      "description": "One short rice-grain dash within the upper white ring."
+    },
+    {
+      "name": "right rice grain",
+      "introduced_by_step": 4,
+      "description": "One short rice-grain dash within the right white ring."
+    },
+    {
+      "name": "nori glint",
+      "introduced_by_step": 5,
+      "description": "One short curved white gel-pen glint on the lower-right outer seaweed band."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One short broken dark marker shadow directly beneath the roll."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-sushi-roll-step-1.jpg",
+      "step_name": "Circle the seaweed wrap",
+      "visible_job": "Draw one slightly wobbly round outer seaweed contour.",
+      "instruction": "With a black felt tip, make one generous circle that is slightly uneven like a hand-rolled sushi piece. Leave the center open for the rice and filling.",
+      "adds": [
+        "outer nori circle"
+      ],
+      "introduces": [
+        "outer nori circle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-sushi-roll-step-2.jpg",
+      "step_name": "Mark the rice ring",
+      "visible_job": "Nest one smaller round line inside the same outer circle.",
+      "instruction": "Follow the outer circle with a second smaller curve, leaving a fairly even dark seaweed band. Keep a broad white rice ring inside that band and an open center for the filling.",
+      "adds": [
+        "inner rice boundary"
+      ],
+      "introduces": [
+        "inner rice boundary"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-sushi-roll-step-3.jpg",
+      "step_name": "Place three fillings",
+      "visible_job": "Add one salmon block, one cucumber wedge, and one carrot triangle in the established center.",
+      "instruction": "Inside the open middle, draw a rounded salmon block on the left. Tuck a curved cucumber wedge against its right edge and a small carrot triangle directly beneath the two, leaving white rice around all three.",
+      "adds": [
+        "salmon filling",
+        "cucumber filling",
+        "carrot filling"
+      ],
+      "introduces": [
+        "salmon filling",
+        "cucumber filling",
+        "carrot filling"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-sushi-roll-step-4.jpg",
+      "step_name": "Add three rice marks",
+      "visible_job": "Add one small dash each at left, top, and right within the white rice ring.",
+      "instruction": "Put one short rice-grain dash in the left rice band, one near the top, and one on the right. Keep them off the fillings and out of the dark seaweed wrap.",
+      "adds": [
+        "left rice grain",
+        "upper rice grain",
+        "right rice grain"
+      ],
+      "introduces": [
+        "left rice grain",
+        "upper rice grain",
+        "right rice grain"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-sushi-roll-step-5.jpg",
+      "step_name": "Add the glint and shadow",
+      "visible_job": "Add one curved white glint and one broken ground shadow.",
+      "instruction": "Add one short curved white gel-pen glint on the lower-right seaweed band. Place a small broken black marker shadow under the roll, centered beneath the outer circle, without moving the rice or fillings.",
+      "adds": [
+        "nori glint",
+        "ground shadow"
+      ],
+      "introduces": [
+        "nori glint",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-sushi-roll-finished-v1.jpg",
+    "step_name": "Color the sushi roll",
+    "visible_job": "Fill established shapes with saturated marker color and leave the rice open.",
+    "instruction": "Fill the outer seaweed band deep navy-black, the salmon coral with two pale streaks, the cucumber green with a few light seed marks, and the carrot orange. Leave the rice ring mostly white with light cream marker dashes, and preserve the three black grain marks, white nori glint, and broken shadow.",
+    "adds": [
+      "marker color on established wrap and fillings"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.5,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved crop shows only one bold slightly wobbly circular seaweed edge, centered with broad clear paper margins. A beginner can repeat that one gesture and still has open space for the inner rice line.",
+    "draw_through_observation": "I inspected the full wide contact sheet and every saved square JPG adjacent pair. The outer wrap, nested rice boundary, left salmon, right cucumber, lower carrot, and three individual grain positions remain centered through the finish; the glint and shadow persist after Step 5. No temporary guides are used. The final marker fill stays inside earlier contours with visible felt-tip grain.",
+    "contract_sha256": "e666866706a6ef7a96b482248b44470106403dc6c97cf2985c91c72efd5401b7",
+    "asset_sha256": {
+      "assets/cartoon-sushi-roll-step-1.jpg": "63cb0076c7c5d79ee69c1ad7f3819aea601f7599ec5ec90149cb41cb2c33b0b6",
+      "assets/cartoon-sushi-roll-step-2.jpg": "3de2215ebbf0d747a3e09ca6542d2cfcba53c050e7a98ddd212b8e85b5a1ea80",
+      "assets/cartoon-sushi-roll-step-3.jpg": "d1164d2a266b27d4b25bbbd79eb06cdb882f845c7502e8379d4bd2eeedc401de",
+      "assets/cartoon-sushi-roll-step-4.jpg": "b85fe424eaa2afdcbd4f812e2d2982ac77c5b98f7b4f0bcfd074bd086f511fc0",
+      "assets/cartoon-sushi-roll-step-5.jpg": "edcee4b2476cc2683aecf9423c92c19bb2bcb5396b65b39eb14df011f636e09b",
+      "assets/cartoon-sushi-roll-finished-v1.jpg": "fd67da8a6b8b900b433fd3b40c78fe7ee5fe24a9e0d38c2f0dd6e85a29cb3962"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer nori circle",
+          "inner rice boundary"
+        ],
+        "observed_addition": "The second saved crop retains the thick, slightly uneven outer nori circle around the same center. One smaller inner round line appears, leaving a broad white band and open middle.",
+        "instruction_match": "The instruction asks for one nested inner curve inside the established wrap; the new ring is visible, while the three fillings and rice marks remain absent.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer nori circle",
+          "inner rice boundary",
+          "salmon filling",
+          "cucumber filling",
+          "carrot filling"
+        ],
+        "observed_addition": "The third crop keeps both nested circles in the same centered arrangement. A rounded salmon block sits left of center, a cucumber wedge touches it on the right, and a small carrot triangle meets them below.",
+        "instruction_match": "The copy names the salmon, cucumber and carrot separately and locates their attachments; all three are inside the existing inner circle with rice space around them.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer nori circle",
+          "inner rice boundary",
+          "salmon filling",
+          "cucumber filling",
+          "carrot filling",
+          "left rice grain",
+          "upper rice grain",
+          "right rice grain"
+        ],
+        "observed_addition": "The fourth crop retains the outer wrap, inner rice boundary, salmon block, cucumber wedge and carrot triangle. A short grain mark appears at left, one above the filling, and one at right.",
+        "instruction_match": "The written step asks for exactly three rice dashes at left, top and right, away from both the fillings and outer wrap; those are the new marks in the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer nori circle",
+          "inner rice boundary",
+          "salmon filling",
+          "cucumber filling",
+          "carrot filling",
+          "left rice grain",
+          "upper rice grain",
+          "right rice grain",
+          "nori glint",
+          "ground shadow"
+        ],
+        "observed_addition": "The fifth crop keeps the two circles, three fixed fillings and all three rice marks. One short white curved glint appears on the lower-right dark wrap, and a small broken black shadow sits below the roll.",
+        "instruction_match": "The updated instruction explicitly calls for a white gel-pen glint on the lower-right seaweed and a short ground shadow; both additions match the saved frame.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "outer nori circle",
+          "inner rice boundary",
+          "salmon filling",
+          "cucumber filling",
+          "carrot filling",
+          "left rice grain",
+          "upper rice grain",
+          "right rice grain",
+          "nori glint",
+          "ground shadow"
+        ],
+        "observed_addition": "The saved finish retains the centered wrap, rice boundary, three touching fillings, left/top/right rice marks, lower-right white glint and broken shadow. Navy, cream, coral, green and orange marker strokes fill established regions; pale salmon streaks and cucumber seed marks are color details within their earlier outlines.",
+        "instruction_match": "The final copy directs each color and the pale inner filling marks, while preserving the black contours and three grain marks; no new structural shape is needed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
