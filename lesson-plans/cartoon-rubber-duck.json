@@ -1,0 +1,255 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-rubber-duck",
+  "finished": "assets/cartoon-rubber-duck-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One large head arc sets the duck\u2019s scale and facing direction, while two open lower ends reserve separate back and chest attachments.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned cumulative six-panel handmade felt-tip raster sheet; visual review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "round head",
+      "introduced_by_step": 1,
+      "description": "One broad rounded head high on the right, with two open lower ends for the back and chest."
+    },
+    {
+      "name": "orange beak",
+      "introduced_by_step": 2,
+      "description": "One short two-lobed beak attached to the right edge of the head."
+    },
+    {
+      "name": "near eye",
+      "introduced_by_step": 2,
+      "description": "One small black oval eye above and left of the beak."
+    },
+    {
+      "name": "body outline",
+      "introduced_by_step": 3,
+      "description": "One low plump body sweeps from the head base around the belly and back toward the raised tail."
+    },
+    {
+      "name": "raised tail",
+      "introduced_by_step": 3,
+      "description": "One short upturned tail point at the left rear of the body."
+    },
+    {
+      "name": "wing",
+      "introduced_by_step": 4,
+      "description": "One rounded wing inside the body, attached behind the head and ending before the tail."
+    },
+    {
+      "name": "inner feather stroke",
+      "introduced_by_step": 4,
+      "description": "One short curved stroke inside the rear half of the wing."
+    },
+    {
+      "name": "left ripple",
+      "introduced_by_step": 5,
+      "description": "One short broken water ripple below the left half of the duck."
+    },
+    {
+      "name": "right ripple",
+      "introduced_by_step": 5,
+      "description": "One longer broken water ripple below the beak and chest."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-rubber-duck-step-1.jpg",
+      "step_name": "Round the duck head",
+      "visible_job": "Draw a generous rounded head high on the right, leaving both lower ends open: the left end will meet the back and the right end will meet the chest.",
+      "instruction": "Draw a generous rounded head high on the right, leaving both lower ends open: the left end will meet the back and the right end will meet the chest.",
+      "adds": [
+        "round head"
+      ],
+      "introduces": [
+        "round head"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-rubber-duck-step-2.jpg",
+      "step_name": "Set beak and eye",
+      "visible_job": "Attach a short two-lobed beak to the head\u2019s right edge and place one small oval eye above and just behind it.",
+      "instruction": "Attach a short two-lobed beak to the head\u2019s right edge and place one small oval eye above and just behind it.",
+      "adds": [
+        "orange beak",
+        "near eye"
+      ],
+      "introduces": [
+        "orange beak",
+        "near eye"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-rubber-duck-step-3.jpg",
+      "step_name": "Sweep the body and tail",
+      "visible_job": "From the head\u2019s open lower-left edge, sweep a broad back curve toward an upturned tail point at left; return along a low belly curve to the head base.",
+      "instruction": "From the head\u2019s open lower-left edge, sweep a broad back curve toward an upturned tail point at left; return along a low belly curve to the head base.",
+      "adds": [
+        "body outline",
+        "raised tail"
+      ],
+      "introduces": [
+        "body outline",
+        "raised tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-rubber-duck-step-4.jpg",
+      "step_name": "Float the wing",
+      "visible_job": "Inside the body, draw one broad rounded wing that curves back toward the tail, then add one short curved feather stroke inside its rear half.",
+      "instruction": "Inside the body, draw one broad rounded wing that curves back toward the tail, then add one short curved feather stroke inside its rear half.",
+      "adds": [
+        "wing",
+        "inner feather stroke"
+      ],
+      "introduces": [
+        "wing",
+        "inner feather stroke"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-rubber-duck-step-5.jpg",
+      "step_name": "Set the bath ripples",
+      "visible_job": "Below the duck, make one short broken teal-marker ripple on the left and a longer broken teal-marker ripple on the right, leaving open water between them.",
+      "instruction": "Below the duck, make one short broken teal-marker ripple on the left and a longer broken teal-marker ripple on the right, leaving open water between them.",
+      "adds": [
+        "left ripple",
+        "right ripple"
+      ],
+      "introduces": [
+        "left ripple",
+        "right ripple"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-rubber-duck-finished-v1.jpg",
+    "step_name": "Color the duck",
+    "visible_job": "Fill established duck contours with textured yellow and orange marker, tint ripples teal, and reinforce existing black edges.",
+    "instruction": "Fill the existing head, body, tail, and wing warm yellow with visible marker streaks; color the beak orange and preserve both teal ripples and small paper highlights.",
+    "adds": [
+      "marker color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved square crop contains one thick black rounded head arc facing right, placed high enough to leave room for a body below and behind. Its two separate lower ends are clear attachment anchors for the later back and chest.",
+    "draw_through_observation": "I inspected the full 3-by-2 raster sheet and each saved square JPG in adjacent order. The head arc and lower attachment ends remain stable; the beak and eye remain on the right, the tail stays left, the wing stays inside the belly, and the two ripples persist through coloring. No temporary guides are used.",
+    "contract_sha256": "b0e5cd71408940b2a160514fd1e9e7b601eaffbf193920b3e188205e01523a36",
+    "asset_sha256": {
+      "assets/cartoon-rubber-duck-step-1.jpg": "5b2a55065612ec5e9bd01a958760ce05dc298cae8b602effacb2b532258d92f8",
+      "assets/cartoon-rubber-duck-step-2.jpg": "5e0807f74192d8cb4b04ba55c06920c101c89dee21f002aee3f02e31f637a97d",
+      "assets/cartoon-rubber-duck-step-3.jpg": "2ddadebc6401308f8acdcbee658a1c6a83db4c721f2fe714b4d0df336a11908d",
+      "assets/cartoon-rubber-duck-step-4.jpg": "3addb14a7832286f896c2c2209e0b608b54503776e41ac0f041eedb3b6f3cff9",
+      "assets/cartoon-rubber-duck-step-5.jpg": "7c955b7a4e5046e80cfa1dc7a6b2cf32631df898e6fb7910dac4da9969d5fe37",
+      "assets/cartoon-rubber-duck-finished-v1.jpg": "dc26f025cb29f2bda36acdd9b6b0a3b7e71b9b3245f784413f79ed5374c3e118"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "round head",
+          "orange beak",
+          "near eye"
+        ],
+        "observed_addition": "The same open head arc stays high on the right. A two-lobed beak joins its right edge and one black oval eye appears above and behind that joint; both lower head ends remain open.",
+        "instruction_match": "The second instruction adds the beak at the head edge and the eye above it. No body or wing arrives early.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "round head",
+          "orange beak",
+          "near eye",
+          "body outline",
+          "raised tail"
+        ],
+        "observed_addition": "The head arc, right-facing beak, and single eye retain their anchors. A broad back line leaves the left lower head end, rises into one small left tail point, then turns through a low rounded belly to the right lower head end.",
+        "instruction_match": "The instruction describes both attachment points and the tail-to-belly sweep; the saved outline has no hidden line through the head.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "round head",
+          "orange beak",
+          "near eye",
+          "body outline",
+          "raised tail",
+          "wing",
+          "inner feather stroke"
+        ],
+        "observed_addition": "The head, eye, beak, left tail point, back and belly stay in their places. One broad open-ended curved wing sits inside the body and one short curved inner stroke appears at its rear.",
+        "instruction_match": "The copy asks for a wing inside the existing body and a single short inner feather stroke, matching the two new line jobs without changing the outer silhouette.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "round head",
+          "orange beak",
+          "near eye",
+          "body outline",
+          "raised tail",
+          "wing",
+          "inner feather stroke",
+          "left ripple",
+          "right ripple"
+        ],
+        "observed_addition": "All duck contours and the one inner feather stroke remain. One short teal ripple appears below the tail side and one longer separate teal ripple below the chest side, with white paper between them.",
+        "instruction_match": "The step explicitly uses teal marker for two separate broken water marks beneath the established duck, as shown in the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "round head",
+          "orange beak",
+          "near eye",
+          "body outline",
+          "raised tail",
+          "wing",
+          "inner feather stroke",
+          "left ripple",
+          "right ripple"
+        ],
+        "observed_addition": "The round head, one eye, two beak lobes, broad body, upturned tail, wing with one inner stroke, and two teal ripples stay in the same positions. Yellow marker fills the duck and orange fills both beak lobes with visible paper streaks.",
+        "instruction_match": "The last instruction fills only established shapes and preserves the already teal ripples; no feet, bubble, border, or other new structure appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

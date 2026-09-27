@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a rubber duck</title>
+      <link>https://doodlea.day/tutorials/cartoon-rubber-duck.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-rubber-duck.html</guid>
+      <pubDate>Sun, 27 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cheerful rubber duck with a round head, two-lobed beak, plump body, upturned tail, wing, two water ripples, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-rubber-duck-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a sushi roll</title>
       <link>https://doodlea.day/tutorials/cartoon-sushi-roll.html</link>

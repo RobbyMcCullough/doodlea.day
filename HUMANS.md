@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-09-27 — Daily rubber duck lesson (Codex)
+
+- Added current Doodlea Day 134 `cartoon-rubber-duck`, September 27. Teaching 8.3/10; finish 8.4/10. Six saved crops preserve one head, eye, two-lobed beak, plump body, raised tail, wing, inner feather stroke, and two teal ripples through marker color. No temporary guides.
+- Schema-v5 review with five adjacent observations and artifact hashes passed. Readiness checked 272 internal URLs with zero failures on the HTTP fallback because Cove was unavailable; desktop/mobile homepage, library, and tutorial QA passed with all tutorial images loaded and no overflow.
+- One current lesson per site remains the cadence; no archive/backfill work. Harness: Codex; task: 2026-09-27 — Daily sketch and doodle lessons.
+
+
 ## 2026-09-26 — Current cartoon sushi roll lesson (Codex)
 
 - Added Day 133 `cartoon-sushi-roll` for September 26. Six additive felt-tip frames keep the nori ring, rice boundary, salmon/cucumber/carrot fillings, three rice marks, glint, and broken shadow in their final positions through the textured marker finish.
