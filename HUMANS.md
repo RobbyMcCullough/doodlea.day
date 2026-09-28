@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-09-28 — Current robot vacuum lesson (Codex)
+
+- Added Doodlea Day 135 `cartoon-robot-vacuum-with-dust-swirl` for September 28. Teaching 8.2/10; saved finish 8.1/10. Six direct felt-tip crops keep the low body, front bumper, two controls, two wheel tabs, open teal curl, two dust marks, two internal highlights, and broken shadow fixed through the coral-and-blue marker finish.
+- Rejected V1 privately for floating highlights and icon-like lines, and V2 for a lower-row housing shift; the third sheet passed full and all-five-pair saved-crop review. Schema-v5 hashes and readiness passed: 274 internal URLs with zero failures on the HTTP fallback. Desktop/mobile homepage, library, and tutorial had no overflow; all 11 tutorial images loaded, JSON-LD parsed, and lab stayed unlinked.
+- Exactly one current lesson per site remains the cadence; no routine archive/backfill work. Harness: Codex; task: 2026-09-28 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-27 — Daily rubber duck lesson (Codex)
 
 - Added current Doodlea Day 134 `cartoon-rubber-duck`, September 27. Teaching 8.3/10; finish 8.4/10. Six saved crops preserve one head, eye, two-lobed beak, plump body, raised tail, wing, inner feather stroke, and two teal ripples through marker color. No temporary guides.

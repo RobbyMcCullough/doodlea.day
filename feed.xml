@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a robot vacuum</title>
+      <link>https://doodlea.day/tutorials/cartoon-robot-vacuum-with-dust-swirl.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-robot-vacuum-with-dust-swirl.html</guid>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon robot vacuum with a low oval shell, front bumper, top sensor, two wheels, a teal dust curl, and textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-robot-vacuum-with-dust-swirl-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a rubber duck</title>
       <link>https://doodlea.day/tutorials/cartoon-rubber-duck.html</link>

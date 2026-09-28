@@ -1,0 +1,267 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-robot-vacuum-with-dust-swirl",
+  "finished": "assets/cartoon-robot-vacuum-with-dust-swirl-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single low oval housing and connected front bumper give the learner the robot vacuum silhouette and its facing direction immediately.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Built-in image generation produced three contact sheets. V1 was rejected for floating highlights and icon-like lines; V2 was rejected for a lower-row housing shift. The approved V3 sheet preserves stable contours and two dust marks across saved crops."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "low oval body",
+      "introduced_by_step": 1,
+      "description": "One low wide oval vacuum housing in fixed three-quarter view, facing right."
+    },
+    {
+      "name": "front bumper band",
+      "introduced_by_step": 1,
+      "description": "One shallow curved band attached to the front lower edge of the body."
+    },
+    {
+      "name": "top sensor disc",
+      "introduced_by_step": 2,
+      "description": "One small circular raised sensor on top, centered slightly behind the front edge."
+    },
+    {
+      "name": "power button",
+      "introduced_by_step": 2,
+      "description": "One small round power button left of the top sensor."
+    },
+    {
+      "name": "left wheel tab",
+      "introduced_by_step": 3,
+      "description": "One dark wheel tab under the lower left body edge."
+    },
+    {
+      "name": "right wheel tab",
+      "introduced_by_step": 3,
+      "description": "One dark wheel tab under the lower right body edge."
+    },
+    {
+      "name": "curled dust swirl",
+      "introduced_by_step": 4,
+      "description": "One open teal motion curl to the right of the vacuum, with one clear tail and open center."
+    },
+    {
+      "name": "two dust motes",
+      "introduced_by_step": 4,
+      "description": "Exactly two small black dust marks between the front bumper and teal curl; one paired mark and one single dot."
+    },
+    {
+      "name": "two housing highlights",
+      "introduced_by_step": 5,
+      "description": "Two short open-paper shine strokes on the upper housing."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "One short broken shadow beneath the body and wheels."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-step-1.jpg",
+      "step_name": "Shape the vacuum",
+      "visible_job": "Draw one low oval housing with a connected front bumper band, both at their final angles.",
+      "instruction": "Draw one wide shallow oval for the vacuum body, then attach a curved bumper band along its front-right lower edge. Keep the band inside the body width.",
+      "adds": [
+        "low oval body",
+        "front bumper band"
+      ],
+      "introduces": [
+        "low oval body",
+        "front bumper band"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-step-2.jpg",
+      "step_name": "Place the controls",
+      "visible_job": "Add one raised circular sensor and one small round power button on the existing top.",
+      "instruction": "Set a small round sensor slightly behind the front edge of the housing and a smaller power button to its left. Leave clear space between them.",
+      "adds": [
+        "top sensor disc",
+        "power button"
+      ],
+      "introduces": [
+        "top sensor disc",
+        "power button"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-step-3.jpg",
+      "step_name": "Set the wheels",
+      "visible_job": "Attach one dark wheel tab under each outer lower side of the body.",
+      "instruction": "Tuck one short wheel tab under the left lower edge and one under the right lower edge. Keep both mostly hidden beneath the housing.",
+      "adds": [
+        "left wheel tab",
+        "right wheel tab"
+      ],
+      "introduces": [
+        "left wheel tab",
+        "right wheel tab"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-step-4.jpg",
+      "step_name": "Curl the dust trail",
+      "visible_job": "Draw one open teal motion curl to the right and exactly two separate dust marks between it and the bumper.",
+      "instruction": "Starting just right of the bumper, sweep a loose open teal curl outward, leaving its center white. Place exactly two black dust marks in the gap: one paired blot and one single dot.",
+      "adds": [
+        "curled dust swirl",
+        "two dust motes"
+      ],
+      "introduces": [
+        "curled dust swirl",
+        "two dust motes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-step-5.jpg",
+      "step_name": "Reserve shine and shadow",
+      "visible_job": "Leave two short highlight marks on the housing and draw one broken shadow below the wheels.",
+      "instruction": "Mark two short shine gaps on the upper shell. Below the two wheel tabs, lay one broken shadow that stays narrower than the body.",
+      "adds": [
+        "two housing highlights",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "two housing highlights",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-robot-vacuum-with-dust-swirl-finished-v1.jpg",
+    "step_name": "Color the cleaning run",
+    "visible_job": "Fill only the established shell, bumper, sensor, wheels, curl, and shadow with textured marker color.",
+    "instruction": "Fill the existing housing coral, bumper deep navy, sensor and power button golden yellow, dust curl teal, and shadow pale gray. Reinforce only established black contours and preserve the two shine gaps.",
+    "adds": [
+      "marker fills on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop has one low oval housing and a connected curved front-right bumper band. Those two useful shapes fix the facing direction and leave room for later top controls, tucked wheels, and an external dust curl.",
+    "draw_through_observation": "I viewed the complete third 3x2 raster sheet and all five pairs of saved square JPGs in order. Housing, bumper, sensor, button, two wheel tabs, curl, two dust marks, two internal shines, and under-wheel shadow stay at their established attachment points through the textured color finish. No temporary guides are present. The first two sheets were rejected privately for floating highlights and a lower-row pose shift.",
+    "contract_sha256": "b3683c606316b69e177b4f2becab3487e28f79b28d775bfb2cc8a5623d743a27",
+    "asset_sha256": {
+      "assets/cartoon-robot-vacuum-with-dust-swirl-step-1.jpg": "615fa073f49f14432e3e110efb8cb9c13a6901cdb71e985f52bc6dcaa62e1300",
+      "assets/cartoon-robot-vacuum-with-dust-swirl-step-2.jpg": "cdf49ebd1d721a099d5392268fd527d6ea76c6086280967e0e3ced423381a623",
+      "assets/cartoon-robot-vacuum-with-dust-swirl-step-3.jpg": "0d1315523c0cfadb48efac942d8dbd127c7b7a909d1d6aeaae5c97dd49cfcd94",
+      "assets/cartoon-robot-vacuum-with-dust-swirl-step-4.jpg": "c99d354393bad62c380b5b511c12ded988a098af06af583a80ae3fa0b1b1e6bb",
+      "assets/cartoon-robot-vacuum-with-dust-swirl-step-5.jpg": "f7274c2d6e08d15259d52e9cc18be81770f85104143379d3e440590469e7dc20",
+      "assets/cartoon-robot-vacuum-with-dust-swirl-finished-v1.jpg": "892914a2b03a75f51c71c5318fae5326793dc1055623b79780661cfbd473c799"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "low oval body",
+          "front bumper band",
+          "top sensor disc",
+          "power button"
+        ],
+        "observed_addition": "The low housing and curved front bumper keep the same left edge, right edge, and front attachment. A raised sensor disc appears on the top-right half and a smaller round button appears to its left.",
+        "instruction_match": "Step 2 asks for the two separate top controls, and the saved crop contains them without altering the bumper.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "low oval body",
+          "front bumper band",
+          "top sensor disc",
+          "power button",
+          "left wheel tab",
+          "right wheel tab"
+        ],
+        "observed_addition": "The body, bumper, sensor, and button remain at their anchors. One short dark wheel tab appears under the left lower contour and one under the right lower contour.",
+        "instruction_match": "Step 3 asks for exactly those two mostly hidden tabs; their attachment points are under, not in front of, the shell.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "low oval body",
+          "front bumper band",
+          "top sensor disc",
+          "power button",
+          "left wheel tab",
+          "right wheel tab",
+          "curled dust swirl",
+          "two dust motes"
+        ],
+        "observed_addition": "The body and both wheels retain their size and position across the row change. One open teal curl appears to the right with one paired black dust blot and one separate dot between curl and bumper.",
+        "instruction_match": "Step 4 describes the curl and two dust marks. The curl is outside the body, and no part of the vacuum is redrawn to make room.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "low oval body",
+          "front bumper band",
+          "top sensor disc",
+          "power button",
+          "left wheel tab",
+          "right wheel tab",
+          "curled dust swirl",
+          "two dust motes",
+          "two housing highlights",
+          "broken ground shadow"
+        ],
+        "observed_addition": "Housing, bumper, controls, wheel tabs, teal curl, and both dust marks persist. One outlined oblong shine and one small round shine appear inside the upper-left shell; a pale broken gray shadow appears directly below both wheels.",
+        "instruction_match": "Step 5 instructs the two internal shine shapes and the under-wheel shadow; the curl and dust stay unchanged.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "low oval body",
+          "front bumper band",
+          "top sensor disc",
+          "power button",
+          "left wheel tab",
+          "right wheel tab",
+          "curled dust swirl",
+          "two dust motes",
+          "two housing highlights",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The same low shell, bumper, two controls, two wheels, two interior shines, teal curl, two black dust marks, and gray shadow remain fixed. Streaky coral, blue, and gold marker fills established regions.",
+        "instruction_match": "The final instruction colors already outlined forms and preserves both white shines; no new structural landmark appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
