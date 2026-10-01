@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a spinning top</title>
+      <link>https://doodlea.day/tutorials/cartoon-spinning-top.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-spinning-top.html</guid>
+      <pubDate>Tue, 29 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a colorful spinning top with a tilted rim, pointed body, round knob, three triangle marks, motion arcs, and textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-spinning-top-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a robot vacuum</title>
       <link>https://doodlea.day/tutorials/cartoon-robot-vacuum-with-dust-swirl.html</link>

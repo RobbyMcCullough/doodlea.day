@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-01 — Recovery of September 29 spinning-top lesson (Codex)
+
+- Completed the previously pending September 29 current lesson, Day 136 `cartoon-spinning-top`. The six saved felt-tip crops retain one tilted rim, centered point, attached shaft and knob, two curved bands, three dark triangles, one upper-right band shine, four motion arcs, and one broken oval shadow. Corrected the finish so unplanned top and knob highlights no longer appear only in the final frame; failed originals remain private. Teaching 8.3/10; saved finish 8.2/10.
+- Schema-v5 plan now records all five adjacent saved-crop observations and current image/contract hashes. Full readiness passed on HTTP fallback (276 URLs); desktop/mobile homepage, library, and tutorial rendered without overflow, and all 11 tutorial images loaded.
+- Current-only cadence remains active: exactly one new current lesson per site per run, with no routine archive/backfill work. Harness: Codex; task: 2026-10-01 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day; sister: sketcha.day.
+
 ## 2026-09-28 — Current robot vacuum lesson (Codex)
 
 - Added Doodlea Day 135 `cartoon-robot-vacuum-with-dust-swirl` for September 28. Teaching 8.2/10; saved finish 8.1/10. Six direct felt-tip crops keep the low body, front bumper, two controls, two wheel tabs, open teal curl, two dust marks, two internal highlights, and broken shadow fixed through the coral-and-blue marker finish.

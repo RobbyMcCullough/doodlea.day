@@ -1,0 +1,267 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-spinning-top",
+  "finished": "assets/cartoon-spinning-top-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The wide tilted rim and attached tapered point establish the complete spinning silhouette in its final pose; a beginner can copy the large shapes before adding decoration.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Built-in image generation made the six-panel handmade marker sheet. The initial finish was rejected because white highlights on the coral top and round knob appeared only in the final frame. An image edit removed those two unplanned reserves; the band shine, marker texture, four motion arcs, and all structural contours remain. Rejected sheets and finish are private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "wide top rim",
+      "introduced_by_step": 1,
+      "description": "One tilted wide oval across the upper body."
+    },
+    {
+      "name": "tapered lower body and point",
+      "introduced_by_step": 1,
+      "description": "Two curved sides taper from the oval into one centered spinning point."
+    },
+    {
+      "name": "short center shaft",
+      "introduced_by_step": 2,
+      "description": "One narrow vertical shaft attached at the oval center."
+    },
+    {
+      "name": "round knob",
+      "introduced_by_step": 2,
+      "description": "One round cap on the shaft."
+    },
+    {
+      "name": "upper curved band",
+      "introduced_by_step": 3,
+      "description": "One curved stripe beneath the top rim following the body."
+    },
+    {
+      "name": "lower curved band",
+      "introduced_by_step": 3,
+      "description": "One second curved stripe above the point."
+    },
+    {
+      "name": "three dark triangle marks",
+      "introduced_by_step": 4,
+      "description": "Exactly three downward dark triangles in the band between the two curved stripes."
+    },
+    {
+      "name": "one white shine reserve",
+      "introduced_by_step": 4,
+      "description": "One open highlight shape on the upper-right body."
+    },
+    {
+      "name": "two pairs of motion arcs",
+      "introduced_by_step": 5,
+      "description": "Two short open curves on each side of the top, four strokes total."
+    },
+    {
+      "name": "broken oval shadow",
+      "introduced_by_step": 5,
+      "description": "One broken oval shadow just beneath the point."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-spinning-top-step-1.jpg",
+      "step_name": "Shape the spinning body",
+      "visible_job": "Draw one wide, slightly tilted oval across the upper body. From its left and right ends, curve both sides inward to meet at a short point below the center.",
+      "instruction": "Draw one wide, slightly tilted oval across the upper body. From its left and right ends, curve both sides inward to meet at a short point below the center.",
+      "adds": [
+        "wide top rim",
+        "tapered lower body and point"
+      ],
+      "introduces": [
+        "wide top rim",
+        "tapered lower body and point"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-spinning-top-step-2.jpg",
+      "step_name": "Cap the center shaft",
+      "visible_job": "Attach a narrow upright shaft to the oval center and cap it with one small round knob. Keep the knob directly above the pointed tip.",
+      "instruction": "Attach a narrow upright shaft to the oval center and cap it with one small round knob. Keep the knob directly above the pointed tip.",
+      "adds": [
+        "short center shaft",
+        "round knob"
+      ],
+      "introduces": [
+        "short center shaft",
+        "round knob"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-spinning-top-step-3.jpg",
+      "step_name": "Wrap two curved bands",
+      "visible_job": "Follow the body curve to draw one band just below the rim and a second band above the point. Let both bands bend with the tilted oval.",
+      "instruction": "Follow the body curve to draw one band just below the rim and a second band above the point. Let both bands bend with the tilted oval.",
+      "adds": [
+        "upper curved band",
+        "lower curved band"
+      ],
+      "introduces": [
+        "upper curved band",
+        "lower curved band"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-spinning-top-step-4.jpg",
+      "step_name": "Mark the patterned middle",
+      "visible_job": "Fill exactly three downward dark triangles between the two bands and outline one oval white shine reserve at upper right.",
+      "instruction": "Between the two curved bands, draw exactly three downward triangles and fill them dark. Leave the paper gaps between them, then outline one oval shine reserve at the upper-right edge of the top band.",
+      "adds": [
+        "three dark triangle marks",
+        "one white shine reserve"
+      ],
+      "introduces": [
+        "three dark triangle marks",
+        "one white shine reserve"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-spinning-top-step-5.jpg",
+      "step_name": "Show the spin",
+      "visible_job": "Sweep two open motion strokes beside each side and one broken oval shadow below the tip.",
+      "instruction": "Outside each side of the top, sweep one long and one short open motion curve. Place one broken oval shadow beneath the tip, keeping a white gap between tip and shadow.",
+      "adds": [
+        "two pairs of motion arcs",
+        "broken oval shadow"
+      ],
+      "introduces": [
+        "two pairs of motion arcs",
+        "broken oval shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-spinning-top-finished-v1.jpg",
+    "step_name": "Color the spinning top",
+    "visible_job": "Color only the existing body, knob, shaft, triangles, gaps, and shadow with streaky marker, preserving the white shine and four motion strokes.",
+    "instruction": "Fill the established top coral, the upper and lower body teal, the three dark triangles navy, and the gaps between them golden yellow. Color the round knob yellow and the shaft yellow with dark teal sides; leave the outlined band shine white and preserve both pairs of motion curves and the broken shadow.",
+    "adds": [
+      "textured marker color inside established outlines"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved JPG contains one wide slightly tilted rim oval attached to two tapering body sides that meet at a single centered point. Its large connected silhouette gives a beginner the top shape before decorative bands, knob, or color.",
+    "draw_through_observation": "I inspected the corrected six-panel sheet and every adjacent pair of saved crops. The rim endpoints, centered point, shaft-to-rim attachment, round knob, two curved band boundaries, three downward triangles, one upper-right band shine, four side motion arcs, and broken oval shadow stay in their intended places. No guides appear or disappear; the final crop fills established regions with streaky marker and adds no white highlight shape.",
+    "contract_sha256": "477ae4293fa0ace6741117af77ad2ac0e8a81ba32c68aa6bbdc7f44ac6b73802",
+    "asset_sha256": {
+      "assets/cartoon-spinning-top-step-1.jpg": "17000ff02733b0b66d743dbde66aa3832757c8727875239a25217528cbcf7d09",
+      "assets/cartoon-spinning-top-step-2.jpg": "1968726bf9ed351ffe5d7fe2ce33b1b389e49c7e0bb3f47744dc84c45322fbd3",
+      "assets/cartoon-spinning-top-step-3.jpg": "632f720445c0fdb06d2a5810ef8abd07c9ea6ca161ac082c1d0c600e55c19b9f",
+      "assets/cartoon-spinning-top-step-4.jpg": "b06b4c1938d35c0463631f6110f6e6bd93ddf11ea56fd40ff3ae361c442e238f",
+      "assets/cartoon-spinning-top-step-5.jpg": "bdd8e93d5b6642e45a39026d8d76069873284aa2dd19b9f7ae843cc381608583",
+      "assets/cartoon-spinning-top-finished-v1.jpg": "4c74884e6c3a13c6741c07543d6a349ea9549a32dfbe3f67ecf3beb92567ed42"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "wide top rim",
+          "tapered lower body and point",
+          "short center shaft",
+          "round knob"
+        ],
+        "observed_addition": "The rim oval and tapered sides keep their original ends and centered point. One narrow shaft attaches at the oval center and one round knob caps it directly above the point.",
+        "instruction_match": "Step 2 asks for the centered attached shaft and round cap; both are new, and the original wide rim and tapered body remain unchanged.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "wide top rim",
+          "tapered lower body and point",
+          "short center shaft",
+          "round knob",
+          "upper curved band",
+          "lower curved band"
+        ],
+        "observed_addition": "The centered shaft, knob, rim, and pointed body persist. One curved upper band appears below the rim and one lower curved band appears above the point, both following the same tapered body.",
+        "instruction_match": "Step 3 names two curved bands in those exact locations; the saved frame adds the pair without redrawing the outer silhouette.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "wide top rim",
+          "tapered lower body and point",
+          "short center shaft",
+          "round knob",
+          "upper curved band",
+          "lower curved band",
+          "three dark triangle marks",
+          "one white shine reserve"
+        ],
+        "observed_addition": "Both curved bands remain anchored. Exactly three filled downward triangles appear between them, and one unfilled oval shine reserve is outlined at the upper-right end of the top band.",
+        "instruction_match": "Step 4 instructs three dark triangles with open gaps and a single band shine reserve; the crop shows that count and position.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "wide top rim",
+          "tapered lower body and point",
+          "short center shaft",
+          "round knob",
+          "upper curved band",
+          "lower curved band",
+          "three dark triangle marks",
+          "one white shine reserve",
+          "two pairs of motion arcs",
+          "broken oval shadow"
+        ],
+        "observed_addition": "The three triangles and band shine stay fixed. One long and one short open motion arc appear on each side, four strokes total. A broken oval shadow appears below the pointed tip with a white gap.",
+        "instruction_match": "Step 5 asks for two side-arc pairs and the detached broken shadow; the crop contains those additions without the formerly promised but absent center shading.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "wide top rim",
+          "tapered lower body and point",
+          "short center shaft",
+          "round knob",
+          "upper curved band",
+          "lower curved band",
+          "three dark triangle marks",
+          "one white shine reserve",
+          "two pairs of motion arcs",
+          "broken oval shadow"
+        ],
+        "observed_addition": "The same rim, tapered point, centered shaft, round knob, two bands, three triangles, one band shine, four motion arcs, and broken shadow persist. Coral, teal, yellow, and navy marker fills the existing regions with visible paper streaks; no new white top or knob highlights appear.",
+        "instruction_match": "The final instruction assigns coral to the top, teal to upper and lower bands, navy to the triangles, yellow to the gaps and knob, and yellow with dark teal sides to the shaft. It reserves only the pre-existing band shine.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
