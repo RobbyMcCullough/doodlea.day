@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-01 — Current surprised pumpkin lesson (Codex)
+
+- Added Doodlea Day 137 `surprised-cartoon-pumpkin` for October 1. Five handmade marker crops keep the squat five-lobed body, attached stem, three ribs, two separate eyes and pupils, one round mouth, one stem-attached curling vine and leaf, and broken oval shadow at fixed positions. Repaired the stem gap and deferred green vine color to the finish; initial sheet and rejected crops remain private.
+- Teaching 8.3/10 and saved finish 8.3/10. Schema-v5 review records all four adjacent transitions, individual landmarks, no temporary guides, and current asset/contract hashes. Readiness passed on the fallback local server (277 URLs); desktop/mobile home, library, and tutorial rendered without overflow, and all ten tutorial images loaded.
+- Current-only cadence remains active: exactly one new current lesson per site per run, with no routine archive/backfill work. Sister: Sketcha.day Day 148 `raincoat-on-a-wall-hook`.
+
 ## 2026-10-01 — Recovery of September 29 spinning-top lesson (Codex)
 
 - Completed the previously pending September 29 current lesson, Day 136 `cartoon-spinning-top`. The six saved felt-tip crops retain one tilted rim, centered point, attached shaft and knob, two curved bands, three dark triangles, one upper-right band shine, four motion arcs, and one broken oval shadow. Corrected the finish so unplanned top and knob highlights no longer appear only in the final frame; failed originals remain private. Teaching 8.3/10; saved finish 8.2/10.

@@ -1,0 +1,267 @@
+{
+  "schema_version": 5,
+  "slug": "surprised-cartoon-pumpkin",
+  "finished": "assets/surprised-cartoon-pumpkin-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first marker contour is a single squat pumpkin body with an open notch at the top; its five scallops fix the final silhouette and leave one clear place for the stem.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved five-panel marker raster sheet combines generated original cells and generated Step 1/Step 4 repairs. Initial sheet had a closed stem notch and premature green vine color; it remains under rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "pumpkin silhouette",
+      "introduced_by_step": 1,
+      "description": "One squat five-lobed pumpkin body with an open stem notch at top center."
+    },
+    {
+      "name": "stem",
+      "introduced_by_step": 2,
+      "description": "One short thick stem seated in the reserved top notch."
+    },
+    {
+      "name": "left rib",
+      "introduced_by_step": 2,
+      "description": "One curved rib descends from the left side of the stem to the lower body."
+    },
+    {
+      "name": "center rib",
+      "introduced_by_step": 2,
+      "description": "One short center rib below the stem, interrupted by the future face."
+    },
+    {
+      "name": "right rib",
+      "introduced_by_step": 2,
+      "description": "One curved rib descends from the right side of the stem to the lower body."
+    },
+    {
+      "name": "left eye",
+      "introduced_by_step": 3,
+      "description": "One tall rounded eye inside the upper left face area."
+    },
+    {
+      "name": "right eye",
+      "introduced_by_step": 3,
+      "description": "One matching tall rounded eye inside the upper right face area."
+    },
+    {
+      "name": "round mouth",
+      "introduced_by_step": 3,
+      "description": "One open round surprised mouth centered below both eyes."
+    },
+    {
+      "name": "curling vine",
+      "introduced_by_step": 4,
+      "description": "One single curved vine springs from the stem and curls toward the upper left."
+    },
+    {
+      "name": "leaf",
+      "introduced_by_step": 4,
+      "description": "One small pointed leaf attached to the leftward vine."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One short broken oval shadow beneath the pumpkin body."
+    },
+    {
+      "name": "left pupil",
+      "introduced_by_step": 3,
+      "description": "One dark pupil with a small white paper dot inside the left eye."
+    },
+    {
+      "name": "right pupil",
+      "introduced_by_step": 3,
+      "description": "One dark pupil with a small white paper dot inside the right eye."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/surprised-cartoon-pumpkin-step-1.jpg",
+      "step_name": "Draw the pumpkin body",
+      "visible_job": "Draw one squat five-lobed body contour with an open top notch.",
+      "instruction": "With a black felt-tip marker, start at the top left of a small stem gap. Curve around a wide squat pumpkin in five gentle lobes, then return to the other side of that top gap; keep the middle open for the face.",
+      "adds": [
+        "pumpkin silhouette"
+      ],
+      "introduces": [
+        "pumpkin silhouette"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/surprised-cartoon-pumpkin-step-2.jpg",
+      "step_name": "Set the stem and ribs",
+      "visible_job": "Attach one thick stem and three curved form lines to the existing body.",
+      "instruction": "Fit a short thick stem into the top gap. From its base, draw one curved rib toward each lower side and one short center rib that stops above the empty face area.",
+      "adds": [
+        "stem",
+        "left rib",
+        "center rib",
+        "right rib"
+      ],
+      "introduces": [
+        "stem",
+        "left rib",
+        "center rib",
+        "right rib"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/surprised-cartoon-pumpkin-step-3.jpg",
+      "step_name": "Make the surprised face",
+      "visible_job": "Add two tall rounded eyes with dark pupils and one open round mouth with a paper shine.",
+      "instruction": "Place one tall rounded eye on each side of the short center rib, leaving them the same height. Ink one pupil inside each eye, reserving a small white dot. Below them, draw and fill one round surprised mouth with a small paper shine, clear of the side ribs.",
+      "adds": [
+        "left eye",
+        "right eye",
+        "round mouth",
+        "left pupil",
+        "right pupil"
+      ],
+      "introduces": [
+        "left eye",
+        "right eye",
+        "round mouth",
+        "left pupil",
+        "right pupil"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/surprised-cartoon-pumpkin-step-4.jpg",
+      "step_name": "Curl the vine and ground it",
+      "visible_job": "Add one leftward curling vine, its attached leaf, and a short ground shadow.",
+      "instruction": "From the stem's left side, sweep one vine outward and curl its tip. Attach one small pointed leaf along that vine, then draw a short broken oval shadow beneath the already finished pumpkin outline.",
+      "adds": [
+        "curling vine",
+        "leaf",
+        "ground shadow"
+      ],
+      "introduces": [
+        "curling vine",
+        "leaf",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/surprised-cartoon-pumpkin-finished-v1.jpg",
+    "step_name": "Color the pumpkin",
+    "visible_job": "Fill the established body orange and the stem, leaf, and vine green while keeping the face readable.",
+    "instruction": "Let the ink dry, then fill the existing pumpkin lobes with streaky orange marker and the stem, vine, and leaf with green. Keep both dark pupils, the dark mouth, their small white shines, and two paper streaks on the outer lobes clear; add no new outlines.",
+    "adds": [
+      "marker color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.3,
+    "first_step_observation": "The first saved crop is one broad black marker pumpkin contour with five readable lobes and a real open stem gap. Its wide squat proportions and blank interior give a beginner a useful final-position shape before any face marks.",
+    "draw_through_observation": "I inspected the corrected full sheet and all four adjacent pairs of saved JPGs, including the finish. The repaired first top gap accepts the fixed stem without hiding a keeper line. The two side ribs and one short center rib persist; two eyes and pupils, one mouth, one stem-attached vine and leaf, and the broken shadow retain their anchors. Step 4 is uncolored so the final marker fill is the only coloring step. No temporary guides, unexplained removals, or movement were observed.",
+    "contract_sha256": "2fce315dc59e8a4fe937d7972a42bffff61690e5b0deda45c714b74b5b3fc219",
+    "asset_sha256": {
+      "assets/surprised-cartoon-pumpkin-step-1.jpg": "f78a51fbec5145bde9ef662c800816c76cf152bd5210d22843f42057e16c0e1a",
+      "assets/surprised-cartoon-pumpkin-step-2.jpg": "b5918867692da5cc3644517c33f7c6e558f9c9e5e8574443c33ffde730638ded",
+      "assets/surprised-cartoon-pumpkin-step-3.jpg": "448fc625a0bbcd74ffc2e67ddf5428a8ce6a58564104b5935601e9fd23d16d75",
+      "assets/surprised-cartoon-pumpkin-step-4.jpg": "5be0cf03555db6dbf37095024f73f2be1fcb8a6d258865aeddcf48cef83140dd",
+      "assets/surprised-cartoon-pumpkin-finished-v1.jpg": "c2e2f80402faf38334601649975931600300ebf7148cf7101a627439dae32bcc"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "pumpkin silhouette",
+          "stem",
+          "left rib",
+          "center rib",
+          "right rib"
+        ],
+        "observed_addition": "The same squat five-lobed outline retains both outer sides and lower scallops. The previously open top gap is occupied by one attached thick stem; a left curved rib, short center rib, and right curved rib appear without crossing the blank face area.",
+        "instruction_match": "Step 2 teaches the stem in the reserved gap and precisely the three new rib strokes shown in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "pumpkin silhouette",
+          "stem",
+          "left rib",
+          "center rib",
+          "right rib",
+          "left eye",
+          "right eye",
+          "round mouth",
+          "left pupil",
+          "right pupil"
+        ],
+        "observed_addition": "The body, stem, two curved side ribs, and short center rib remain fixed. Two separate tall eye outlines and two dark pupils with white dots appear beneath the center rib; one round dark mouth with a small white shine appears lower down.",
+        "instruction_match": "Step 3 tells the learner to add both eyes and pupils with paper dots, then the round mouth with a paper shine, clear of the existing side ribs.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "pumpkin silhouette",
+          "stem",
+          "left rib",
+          "center rib",
+          "right rib",
+          "left eye",
+          "right eye",
+          "round mouth",
+          "left pupil",
+          "right pupil",
+          "curling vine",
+          "leaf",
+          "ground shadow"
+        ],
+        "observed_addition": "Both eyes, dark pupils, and open mouth keep their spacing under the fixed stem. One vine springs from the stem left side, curls once toward the upper left, and carries one pointed leaf; one broken oval shadow appears beneath the existing body.",
+        "instruction_match": "Step 4 names the vine origin, single curl, attached leaf, and short ground oval visible in the saved panel.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "pumpkin silhouette",
+          "stem",
+          "left rib",
+          "center rib",
+          "right rib",
+          "left eye",
+          "right eye",
+          "round mouth",
+          "curling vine",
+          "leaf",
+          "ground shadow",
+          "left pupil",
+          "right pupil"
+        ],
+        "observed_addition": "All established black contours, including each eye/pupil, round mouth, stem, three ribs, one vine, one leaf, and oval shadow remain in place. Streaky orange fills the body, green fills stem/vine/leaf, and two white paper shine streaks remain on outer lobes; no structural part appears.",
+        "instruction_match": "The final instruction limits marker color to established forms and reserves the observed paper shines.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
