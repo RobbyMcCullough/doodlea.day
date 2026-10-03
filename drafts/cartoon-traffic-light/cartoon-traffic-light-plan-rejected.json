@@ -1,0 +1,33 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-traffic-light",
+  "finished": "assets/cartoon-traffic-light-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A tall rounded housing and its lower neck create a recognizable signal silhouette and locate every later lamp within one fixed frame.",
+  "source": {"type":"generated-raster-master","notes":"Six-panel handmade marker-on-paper contact sheet; rejected iterations stay in drafts."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"rounded signal housing","introduced_by_step":1,"description":"One tall rounded black-outline housing centered on page."},
+    {"name":"short lower neck","introduced_by_step":1,"description":"Short centered neck attached to bottom of housing."},
+    {"name":"top lamp ring","introduced_by_step":2,"description":"Top round lamp inside housing."},
+    {"name":"middle lamp ring","introduced_by_step":2,"description":"Middle round lamp on same axis."},
+    {"name":"bottom lamp ring","introduced_by_step":2,"description":"Bottom round lamp on same axis."},
+    {"name":"top visor","introduced_by_step":3,"description":"Small curved hood above top lamp."},
+    {"name":"middle visor","introduced_by_step":3,"description":"Small curved hood above middle lamp."},
+    {"name":"bottom visor","introduced_by_step":3,"description":"Small curved hood above bottom lamp."},
+    {"name":"post and base","introduced_by_step":4,"description":"Narrow post continues from neck to flat stable foot."},
+    {"name":"left bolt","introduced_by_step":5,"description":"One small bolt on lower left housing edge."},
+    {"name":"right bolt","introduced_by_step":5,"description":"One small bolt on lower right housing edge."},
+    {"name":"green lamp shine gap","introduced_by_step":5,"description":"Small open-paper crescent within bottom lamp."},
+    {"name":"broken shadow","introduced_by_step":5,"description":"One short broken shadow beneath base."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cartoon-traffic-light-step-1.jpg","step_name":"Shape the signal housing","visible_job":"Draw one tall rounded housing with an attached short lower neck.","instruction":"Ghost the tall housing curve twice, then pull its rounded left and right sides in confident black marker strokes. Close the top and bottom around a short centered neck; leave its interior blank for three lamps.","adds":["rounded signal housing","short lower neck"],"introduces":["rounded signal housing","short lower neck"]},
+    {"step":2,"asset":"assets/cartoon-traffic-light-step-2.jpg","step_name":"Stack three lamp rings","visible_job":"Draw three separate aligned circular lamps inside the housing.","instruction":"Fit one round lamp near the top, one in the middle, and one near the bottom, leaving similar side margins. Compare the empty gaps between circles before inking the second and third rings.","adds":["top lamp ring","middle lamp ring","bottom lamp ring"],"introduces":["top lamp ring","middle lamp ring","bottom lamp ring"]},
+    {"step":3,"asset":"assets/cartoon-traffic-light-step-3.jpg","step_name":"Cap the lamps with visors","visible_job":"Add one short curved visor above each existing ring.","instruction":"Pull a short curved hood across the top edge of each lamp ring, letting its ends tuck into the housing. Keep the lower halves of the three circles open and visible.","adds":["top visor","middle visor","bottom visor"],"introduces":["top visor","middle visor","bottom visor"]},
+    {"step":4,"asset":"assets/cartoon-traffic-light-step-4.jpg","step_name":"Ground the signal","visible_job":"Extend the neck into a narrow post and flat foot.","instruction":"Continue the short neck straight down into a narrow post, then widen it into one flat rounded base. Keep the post centered under the housing so the signal does not lean.","adds":["post and base"],"introduces":["post and base"]},
+    {"step":5,"asset":"assets/cartoon-traffic-light-step-5.jpg","step_name":"Add signal details","visible_job":"Add two small bolts, one green-lamp shine gap, and a broken base shadow.","instruction":"Place one tiny bolt on each lower housing side, leave a small crescent gap inside the bottom lamp for shine, and draw a short broken shadow directly beneath the base. Keep all three lamp rings distinct.","adds":["left bolt","right bolt","green lamp shine gap","broken shadow"],"introduces":["left bolt","right bolt","green lamp shine gap","broken shadow"]}
+  ],
+  "final_step": {"asset":"assets/cartoon-traffic-light-finished-v1.jpg","step_name":"Light the green signal","visible_job":"Color existing top red, middle amber, bottom green, housing teal, post navy, and shadow cool gray with visible marker strokes.","instruction":"Fill the top lamp red, middle lamp amber, and bottom lamp vivid green around its reserved shine gap. Pull teal marker strokes down the housing and navy down the post, letting the paper texture show; reinforce only established black contours.","adds":["marker color in established shapes"],"introduces":[]},
+  "visual_review": {"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}

@@ -372,6 +372,11 @@
       "date": "2026-05-14",
       "note": "Reviewed six-panel face-free traffic-cone process promoted as the honest May 14 archive lesson after perspective, count, crop, marker-texture, and cumulative-step checks."
     },
+    "cartoon-traffic-light": {
+      "status": "rejected-quality",
+      "date": "2026-10-02",
+      "note": "Four generated contact-sheet iterations retained privately. V1 had vector-icon finish; V2 cropped off lower-row housing; V3/V4 moved the housing and lamp anchors between rows despite explicit repairs. No public assets or lesson integrated."
+    },
     "cartoon-treasure-chest": {
       "status": "published",
       "date": "2026-07-12",

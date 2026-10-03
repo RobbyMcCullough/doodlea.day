@@ -1,5 +1,10 @@
 # Human Notes
 
+## 2026-10-02 — Daily marker lesson blocked by process-art continuity (Codex)
+
+- Worktrees were clean before the shared lock; the October 2 slot was open. Preflighted `cartoon-traffic-light` for Doodlea Day 138, but four generated raster sheets did not meet the saved-crop gate: V1 was too icon-like, V2 clipped the lower-row housing when cropped, and V3/V4 moved the housing and lamp anchors between rows despite targeted edits. The sheets, rejected crops, and schema-v5 plan are private under `drafts/cartoon-traffic-light/`; the ledger entry is `rejected-quality`.
+- No October 2 lesson, public assets, rating, commit, or push resulted. The one-current-lesson-per-site cadence remains active, with no routine archive lesson. Harness: Codex; task: 2026-10-02 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-01 — Current surprised pumpkin lesson (Codex)
 
 - Added Doodlea Day 137 `surprised-cartoon-pumpkin` for October 1. Five handmade marker crops keep the squat five-lobed body, attached stem, three ribs, two separate eyes and pupils, one round mouth, one stem-attached curling vine and leaf, and broken oval shadow at fixed positions. Repaired the stem gap and deferred green vine color to the finish; initial sheet and rejected crops remain private.
