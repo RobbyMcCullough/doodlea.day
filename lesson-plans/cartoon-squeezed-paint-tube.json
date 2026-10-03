@@ -1,0 +1,170 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-squeezed-paint-tube",
+  "finished": "assets/cartoon-squeezed-paint-tube-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first crop establishes one complete diagonal tube with its crimped tail and fixed capped nozzle, so later details can be placed on a stable silhouette.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved fourth generated sheet after focused removal of two highlight outlines from Step 3; V1 count mismatch, V2 cap movement, V3 crease disappearance, and V4 highlight erasure remain private. Raw approved sheet and square crop source remain in drafts."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "tapered tube body",
+      "introduced_by_step": 1,
+      "description": "One long gently squeezed tube silhouette running upper left to lower right with a reserved narrow gap for the cap."
+    },
+    {
+      "name": "crimped tail",
+      "introduced_by_step": 1,
+      "description": "A short folded seam attached across the upper-left end of the tube body."
+    },
+    {
+      "name": "ribbed cap",
+      "introduced_by_step": 1,
+      "description": "One small cap attached at the lower-right nozzle gap with three vertical ribs."
+    },
+    {
+      "name": "front label panel",
+      "introduced_by_step": 2,
+      "description": "One rounded rectangular label panel centered inside the tube silhouette."
+    },
+    {
+      "name": "paint drop emblem",
+      "introduced_by_step": 2,
+      "description": "One simple teardrop shape centered inside the label panel."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 3,
+      "description": "One short broken shadow under and to the right of the capped tube."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-squeezed-paint-tube-step-1.jpg",
+      "step_name": "Draw the complete tube silhouette",
+      "visible_job": "Set the long tilted tube, crimped tail, and attached ribbed cap at their final anchors.",
+      "instruction": "With black felt tip, draw one long tapered squeezed tube diagonally from upper left to lower right. Close its broad end with a folded crimp; at the narrow lower-right tip, attach a small squared cap with exactly three short ribs.",
+      "adds": [
+        "tapered tube body",
+        "crimped tail",
+        "ribbed cap"
+      ],
+      "introduces": [
+        "tapered tube body",
+        "crimped tail",
+        "ribbed cap"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-squeezed-paint-tube-step-2.jpg",
+      "step_name": "Place the paint label",
+      "visible_job": "Add the central rounded label panel and its one drop emblem.",
+      "instruction": "Inside the broad middle of the fixed tube, draw one rounded rectangular label following its tilt. Center one teardrop emblem inside, keeping a paper gap between the label and the tube edge.",
+      "adds": [
+        "front label panel",
+        "paint drop emblem"
+      ],
+      "introduces": [
+        "front label panel",
+        "paint drop emblem"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-squeezed-paint-tube-step-3.jpg",
+      "step_name": "Ground the paint tube",
+      "visible_job": "Add one short broken black shadow directly below the capped end.",
+      "instruction": "Below the lower-right cap, place one short broken black shadow. Keep the crimp, three cap ribs, label, and drop fixed; leave the red body blank until the color step.",
+      "adds": [
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-squeezed-paint-tube-finished-v1.jpg",
+    "step_name": "Fill the marker colors",
+    "visible_job": "Fill the established tube, cap, and drop with bright marker strokes while preserving the label and small white highlight.",
+    "instruction": "Fill the established tube coral red, the label warm yellow, the single drop turquoise, and the cap deep violet. Leave two narrow shine streaks and one tiny shine spot as open paper on the tube, show directional marker strokes, and preserve the existing shadow and black contours.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The saved first crop establishes one long tilted squeezed tube with a broad attached crimp, narrow nozzle collar, squared cap, and exactly three cap ribs at the final positions. The blank tube front gives a simple connected starting silhouette.",
+    "draw_through_observation": "The three saved transitions add a single label and drop, ground the cap with a broken shadow, then fill the same shapes with bright marker and reserve small white shines. Each existing outline and attachment persists; no temporary guides appear or disappear.",
+    "contract_sha256": "b763f8335f062a114c4b32f62511d9fbcddcc600cb34da77574f0dba1e326918",
+    "asset_sha256": {
+      "assets/cartoon-squeezed-paint-tube-step-1.jpg": "4d30144a1d6f78c7c7d8044ed020aa0bda0d3ed0818b3f2c47923db999c7dc6a",
+      "assets/cartoon-squeezed-paint-tube-step-2.jpg": "62410a497c2c2cce1aba25ef9b007b63da0244a3272149174a85bda401f382b8",
+      "assets/cartoon-squeezed-paint-tube-step-3.jpg": "5ab64f6f629820fae2734ecc133bd74032b3ae2231c16fe4af62e66b5b0bd513",
+      "assets/cartoon-squeezed-paint-tube-finished-v1.jpg": "481cea5809b3182b2c6bc35ce6d4a00061fc2066b26c1fc8e4c051d815ce4421"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "tapered tube body",
+          "crimped tail",
+          "ribbed cap",
+          "front label panel",
+          "paint drop emblem"
+        ],
+        "observed_addition": "One rounded rectangular panel appears on the broad middle of the already capped diagonal tube, and one separate teardrop contour appears inside. The crimped tail, nozzle collar, squared cap, and all three cap ribs remain in their initial positions.",
+        "instruction_match": "The Step 2 instruction asks for the centered label and single drop. The saved crop shows those additions while the tube body remains blank.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "tapered tube body",
+          "crimped tail",
+          "ribbed cap",
+          "front label panel",
+          "paint drop emblem",
+          "broken ground shadow"
+        ],
+        "observed_addition": "One broken black ground shadow appears immediately beneath the same capped lower-right end. The label, drop, crimp, tube sides, collar, and three cap ribs remain fixed; no interior shine contour appears.",
+        "instruction_match": "The Step 3 instruction asks the reader only to ground the tube with a short broken shadow, exactly the new mark visible in this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "tapered tube body",
+          "crimped tail",
+          "ribbed cap",
+          "front label panel",
+          "paint drop emblem",
+          "broken ground shadow"
+        ],
+        "observed_addition": "Coral, yellow, turquoise, and violet marker fills cover the established tube, label, single drop, and cap. Two narrow white streaks and one tiny shine spot are reserved during coloring, while the earlier black shadow and every structural contour persist.",
+        "instruction_match": "The finish follows the named palette and adds only allowed small paper highlights during the color pass; the cap still has exactly three dark ribs and no earlier keeper line disappears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

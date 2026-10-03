@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-03 — Current paint tube lesson (Codex)
+
+- Added Doodlea Day 138, `cartoon-squeezed-paint-tube`, for October 3. The four-stage marker lesson keeps a tilted tube, folded crimp, three-rib cap, label, single drop, and ground shadow at stable anchors; color and small paper shines arrive only in the finish. Four generated sheets and two targeted edits were reviewed before the corrected sequence passed. Rejected iterations remain private under `drafts/`.
+- All three saved adjacent pairs including finish were inspected, with no temporary guides. Teaching 8.0/10 and finished marker art 8.2/10; schema-v5 image/contract hashes and readiness passed (278 URLs on localhost fallback). Desktop/mobile home, library, and tutorial QA showed the new images loaded, valid JSON-LD, no lab link, and no horizontal overflow. One-current-lesson-per-site cadence remains active.
+- Harness: Codex; task: 2026-10-03 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-02 — Daily marker lesson blocked by process-art continuity (Codex)
 
 - Worktrees were clean before the shared lock; the October 2 slot was open. Preflighted `cartoon-traffic-light` for Doodlea Day 138, but four generated raster sheets did not meet the saved-crop gate: V1 was too icon-like, V2 clipped the lower-row housing when cropped, and V3/V4 moved the housing and lamp anchors between rows despite targeted edits. The sheets, rejected crops, and schema-v5 plan are private under `drafts/cartoon-traffic-light/`; the ledger entry is `rejected-quality`.
