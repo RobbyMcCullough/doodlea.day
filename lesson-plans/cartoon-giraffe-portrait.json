@@ -1,0 +1,347 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-giraffe-portrait",
+  "finished": "assets/cartoon-giraffe-portrait-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The connected head, muzzle and long neck make a recognizable giraffe footprint at final size, with four top gaps reserved for two ears and two ossicones; a beginner can copy it in one pass.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved fourth contact sheet after rejecting first for icon-like finish and four-versus-five spots, second for nostril replacement, and third for freckles disappearing under color. All rejected sheets remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and neck",
+      "introduced_by_step": 1,
+      "description": "Connected long neck, rounded head and blunt left-pointing muzzle with four top attachment gaps."
+    },
+    {
+      "name": "left ear",
+      "introduced_by_step": 2,
+      "description": "One leaf-shaped ear attached outside the left top gap."
+    },
+    {
+      "name": "right ear",
+      "introduced_by_step": 2,
+      "description": "One leaf-shaped ear attached outside the right top gap."
+    },
+    {
+      "name": "left ossicone",
+      "introduced_by_step": 2,
+      "description": "One round-tipped stalk near the left ear."
+    },
+    {
+      "name": "right ossicone",
+      "introduced_by_step": 2,
+      "description": "One round-tipped stalk near the right ear."
+    },
+    {
+      "name": "eye",
+      "introduced_by_step": 3,
+      "description": "One large round half-lidded eye with pupil looking sideways right."
+    },
+    {
+      "name": "left nostril",
+      "introduced_by_step": 3,
+      "description": "First solid black dot near the left muzzle tip."
+    },
+    {
+      "name": "right nostril",
+      "introduced_by_step": 3,
+      "description": "Second solid black dot just to the right of the first."
+    },
+    {
+      "name": "grin curve",
+      "introduced_by_step": 3,
+      "description": "One crooked mouth curve below the two nostrils."
+    },
+    {
+      "name": "left tooth",
+      "introduced_by_step": 3,
+      "description": "First square white tooth beneath the grin curve."
+    },
+    {
+      "name": "right tooth",
+      "introduced_by_step": 3,
+      "description": "Second square white tooth beside the first."
+    },
+    {
+      "name": "upper neck spot",
+      "introduced_by_step": 4,
+      "description": "First irregular patch just below the giraffe jaw at the rear."
+    },
+    {
+      "name": "middle left neck spot",
+      "introduced_by_step": 4,
+      "description": "Second patch below and left of the upper patch."
+    },
+    {
+      "name": "middle right neck spot",
+      "introduced_by_step": 4,
+      "description": "Third patch below and right of the second."
+    },
+    {
+      "name": "low neck spot",
+      "introduced_by_step": 4,
+      "description": "Fourth patch near the lower neck base."
+    },
+    {
+      "name": "mane tufts",
+      "introduced_by_step": 5,
+      "description": "Short triangular tufts along the back of the same neck."
+    },
+    {
+      "name": "upper cheek freckle",
+      "introduced_by_step": 5,
+      "description": "Top small black dot beneath the eye."
+    },
+    {
+      "name": "left cheek freckle",
+      "introduced_by_step": 5,
+      "description": "Small black dot below and left of the top dot."
+    },
+    {
+      "name": "right cheek freckle",
+      "introduced_by_step": 5,
+      "description": "Small black dot below and right of the top dot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-giraffe-portrait-step-1.jpg",
+      "step_name": "Shape the head and neck",
+      "visible_job": "With a black felt tip, draw a long upright neck that widens into a rounded head. Push one blunt muzzle to the left and join it under the chin; leave four small open gaps at the top for two ears and two ossicones.",
+      "instruction": "With a black felt tip, draw a long upright neck that widens into a rounded head. Push one blunt muzzle to the left and join it under the chin; leave four small open gaps at the top for two ears and two ossicones.",
+      "adds": [
+        "head and neck"
+      ],
+      "introduces": [
+        "head and neck"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-giraffe-portrait-step-2.jpg",
+      "step_name": "Attach ears and ossicones",
+      "visible_job": "At the four top gaps, attach two leaf-shaped ears angled outward and two short stalks tipped with round ossicones between them. Keep the muzzle and neck in place.",
+      "instruction": "At the four top gaps, attach two leaf-shaped ears angled outward and two short stalks tipped with round ossicones between them. Keep the muzzle and neck in place.",
+      "adds": [
+        "ears and ossicones"
+      ],
+      "introduces": [
+        "left ear",
+        "right ear",
+        "left ossicone",
+        "right ossicone"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-giraffe-portrait-step-3.jpg",
+      "step_name": "Give it a side glance",
+      "visible_job": "Inside the same head, draw one large round eye with a heavy half-closed upper lid and pupil looking sideways right. Add two solid black nostrils on the muzzle and an open crooked grin showing two square teeth.",
+      "instruction": "Inside the same head, draw one large round eye with a heavy half-closed upper lid and pupil looking sideways right. Add two solid black nostrils on the muzzle and an open crooked grin showing two square teeth.",
+      "adds": [
+        "side-glance face"
+      ],
+      "introduces": [
+        "eye",
+        "left nostril",
+        "right nostril",
+        "grin curve",
+        "left tooth",
+        "right tooth"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-giraffe-portrait-step-4.jpg",
+      "step_name": "Place the neck spots",
+      "visible_job": "Draw exactly four irregular dark-edged spots down the long neck, stepping them from the jaw to the shoulder and leaving clear gaps between them.",
+      "instruction": "Draw exactly four irregular dark-edged spots down the long neck, stepping them from the jaw to the shoulder and leaving clear gaps between them.",
+      "adds": [
+        "four neck spots"
+      ],
+      "introduces": [
+        "upper neck spot",
+        "middle left neck spot",
+        "middle right neck spot",
+        "low neck spot"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-giraffe-portrait-step-5.jpg",
+      "step_name": "Add mane and cheek marks",
+      "visible_job": "Along the back of the neck, add a short row of little triangular mane tufts. Put three cheek freckles below the eye; keep both black nostril dots unchanged.",
+      "instruction": "Along the back of the neck, add a short row of little triangular mane tufts. Put three cheek freckles below the eye; keep both black nostril dots unchanged.",
+      "adds": [
+        "mane and cheek details"
+      ],
+      "introduces": [
+        "mane tufts",
+        "upper cheek freckle",
+        "left cheek freckle",
+        "right cheek freckle"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-giraffe-portrait-finished-v1.jpg",
+    "step_name": "Color the giraffe",
+    "visible_job": "Fill the established giraffe with golden-yellow marker, warm-brown spots and mane, and blush-pink inner ears while retaining every black mark.",
+    "instruction": "Fill the existing head and neck golden yellow, the four spots and mane warm brown, and the inner ears soft pink. Keep the same black outlines, two nostril dots, teeth and freckles.",
+    "adds": [
+      "marker color in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop shows a left-facing blunt muzzle connected to a long neck, plus four small open top gaps at the final ear and ossicone positions. These simple connected strokes are copyable in one pass; no face, spots, color, or temporary guides appear.",
+    "draw_through_observation": "The six saved square crops add four top attachments, a distinct lidded side glance and two-tooth grin, four neck spots, mane and three freckles, then directional yellow, brown and coral marker color. Both nostril dots and each separate patch persist through the finish; there are no temporary guide marks or instructed removals.",
+    "contract_sha256": "5b38ac87fcde6398af430d74c0b4b26fa77aee27276232cbe23d7757b96668a8",
+    "asset_sha256": {
+      "assets/cartoon-giraffe-portrait-step-1.jpg": "cae8b749ec63c074047d4dff6d5bcecb847824d425e2f2387e37269605e41366",
+      "assets/cartoon-giraffe-portrait-step-2.jpg": "a6accabe2870f92f8c4ea633ec3c14c367c2bafdde063436a1caa2a8b3559a2a",
+      "assets/cartoon-giraffe-portrait-step-3.jpg": "85cf3e42364cc81a983b73960828abf3e3cd440549b9d6b1e2e700c777fb0b03",
+      "assets/cartoon-giraffe-portrait-step-4.jpg": "bf82533fe357832936467cdce2db34fe9144e996cc02d209bff693d6840dd40b",
+      "assets/cartoon-giraffe-portrait-step-5.jpg": "d468f617fd3a2037381e60a0386fcb2eb18a89b37917301f8ed35f2ba8baa3d7",
+      "assets/cartoon-giraffe-portrait-finished-v1.jpg": "77477464d54aa40b756069dfef1458f49cf21ffa0b2675aba55059a9f5123992"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head and neck",
+          "left ear",
+          "right ear",
+          "left ossicone",
+          "right ossicone"
+        ],
+        "observed_addition": "Two outward ears attach at the outer head gaps; two round-tipped ossicones rise from the inner gaps. The left muzzle tip and both long neck edges retain their original positions.",
+        "instruction_match": "The second instruction names all four attachments and uses the four gaps drawn in Step 1; it does not require changing the muzzle or neck.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head and neck",
+          "left ear",
+          "right ear",
+          "left ossicone",
+          "right ossicone",
+          "eye",
+          "left nostril",
+          "right nostril",
+          "grin curve",
+          "left tooth",
+          "right tooth"
+        ],
+        "observed_addition": "One half-lidded round eye with pupil to the viewer right, two distinct black nostrils, one crooked grin, and two square teeth appear inside the established head. Both ears and both ossicones remain attached at the same top anchors.",
+        "instruction_match": "The third instruction asks for the eye, the two separate solid nostrils and the two-tooth grin exactly where the saved crop shows them.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head and neck",
+          "left ear",
+          "right ear",
+          "left ossicone",
+          "right ossicone",
+          "eye",
+          "left nostril",
+          "right nostril",
+          "grin curve",
+          "left tooth",
+          "right tooth",
+          "upper neck spot",
+          "middle left neck spot",
+          "middle right neck spot",
+          "low neck spot"
+        ],
+        "observed_addition": "Four separate irregular neck patches appear: upper near jaw, middle left, middle right and low at the neck base. The left and right nostrils, both teeth, grin curve, eye, left and right ears, and both ossicones persist.",
+        "instruction_match": "The fourth instruction asks for four vertically staggered neck spots, none on the muzzle; the saved crop contains those four separate outlines.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head and neck",
+          "left ear",
+          "right ear",
+          "left ossicone",
+          "right ossicone",
+          "eye",
+          "left nostril",
+          "right nostril",
+          "grin curve",
+          "left tooth",
+          "right tooth",
+          "upper neck spot",
+          "middle left neck spot",
+          "middle right neck spot",
+          "low neck spot",
+          "mane tufts",
+          "upper cheek freckle",
+          "left cheek freckle",
+          "right cheek freckle"
+        ],
+        "observed_addition": "Triangular mane tufts extend from the same back-neck contour, and three cheek dots appear in a small cluster beneath the eye. All four patch outlines and both black nostrils remain in place.",
+        "instruction_match": "The fifth instruction teaches only the mane row and three cheek freckles; it leaves the muzzle and all four spots unchanged.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head and neck",
+          "left ear",
+          "right ear",
+          "left ossicone",
+          "right ossicone",
+          "eye",
+          "left nostril",
+          "right nostril",
+          "grin curve",
+          "left tooth",
+          "right tooth",
+          "upper neck spot",
+          "middle left neck spot",
+          "middle right neck spot",
+          "low neck spot",
+          "mane tufts",
+          "upper cheek freckle",
+          "left cheek freckle",
+          "right cheek freckle"
+        ],
+        "observed_addition": "Golden-yellow directional marker fills the existing head and neck; four old patches and the mane receive warm brown, and both ears receive coral. Both nostrils, both square teeth, the eye, grin, horns and spots persist. The three tiny freckles remain visible though lighter under the yellow fill.",
+        "instruction_match": "The final instruction is the stated color pass over established regions; no new patch, ear, ossicone, tooth, nostril or mane contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

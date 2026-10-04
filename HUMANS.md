@@ -1,3 +1,8 @@
+## 2026-10-04 — Current giraffe portrait lesson (Codex)
+
+- Added Doodlea Day 139, `cartoon-giraffe-portrait`, for October 4. Six saved felt-tip crops keep two ears, two ossicones, a half-lidded eye, two nostrils, two teeth, four neck patches, mane and cheek freckles anchored through golden marker color. Teaching 8.1/10 and finish 8.1/10. Three earlier iterations were rejected for spot count, icon-like finish, nostril replacement or lost freckles; those sheets remain private.
+- Schema-v5 review and readiness passed (282 URLs) on the localhost fallback. Rendered home, library and tutorial passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD and no horizontal overflow. The one-current-lesson-per-site cadence remains active; no archive lesson was made. Harness: Codex; task: 2026-10-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 # Human Notes
 
 ## 2026-10-03 — Current paint tube lesson (Codex)

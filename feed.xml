@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon giraffe</title>
+      <link>https://doodlea.day/tutorials/cartoon-giraffe-portrait.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-giraffe-portrait.html</guid>
+      <pubDate>Sun, 04 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon giraffe with two ears, two ossicones, a sleepy side glance, four neck spots, a short mane, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-giraffe-portrait-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a squeezed paint tube</title>
       <link>https://doodlea.day/tutorials/cartoon-squeezed-paint-tube.html</link>
