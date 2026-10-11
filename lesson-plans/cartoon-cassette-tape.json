@@ -1,0 +1,266 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-cassette-tape",
+  "finished": "assets/cartoon-cassette-tape-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The wide rounded shell establishes the final size, orientation, and space for the window; a learner can pull its long edges confidently before adding small parts.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved third generated raster contact sheet at drafts/cartoon-cassette-tape/cartoon-cassette-tape-contact-sheet.png. V1 and V2 positional-drift attempts remain in rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "rounded cassette shell",
+      "introduced_by_step": 1,
+      "description": "One wide rounded rectangular cassette housing at its final position."
+    },
+    {
+      "name": "central window",
+      "introduced_by_step": 2,
+      "description": "One long rounded rectangular clear window centered inside the shell."
+    },
+    {
+      "name": "left reel",
+      "introduced_by_step": 2,
+      "description": "One circular reel in the left half of the central window."
+    },
+    {
+      "name": "right reel",
+      "introduced_by_step": 2,
+      "description": "One matching circular reel in the right half of the central window."
+    },
+    {
+      "name": "two reel hubs and tape path",
+      "introduced_by_step": 3,
+      "description": "One small hub inside each reel and one narrow visible brown tape line linking the reels across the window."
+    },
+    {
+      "name": "top label panel",
+      "introduced_by_step": 4,
+      "description": "One wide blank label panel along the upper shell above the window."
+    },
+    {
+      "name": "two lower holes",
+      "introduced_by_step": 4,
+      "description": "Exactly two small dark holes spaced along the bottom shell below the window."
+    },
+    {
+      "name": "lower access panel",
+      "introduced_by_step": 4,
+      "description": "One shallow trapezoid along the lower cassette edge surrounding the two small holes."
+    },
+    {
+      "name": "four corner screws",
+      "introduced_by_step": 5,
+      "description": "Exactly four tiny screw circles near the shell corners."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One short flat dark-navy oval shadow directly below the cassette."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-cassette-tape-step-1.jpg",
+      "step_name": "Outline the cassette",
+      "visible_job": "rounded cassette shell appear in fixed positions on the cassette.",
+      "instruction": "Draw one wide rounded rectangle, keeping the top and bottom almost parallel and leaving a broad empty center.",
+      "adds": [
+        "rounded cassette shell"
+      ],
+      "introduces": [
+        "rounded cassette shell"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-cassette-tape-step-2.jpg",
+      "step_name": "Set the window and reels",
+      "visible_job": "central window, left reel, right reel appear in fixed positions on the cassette.",
+      "instruction": "Inside the shell, draw one long rounded window. Place two equal reel circles, one on each side of its center, with matching margins.",
+      "adds": [
+        "central window",
+        "left reel",
+        "right reel"
+      ],
+      "introduces": [
+        "central window",
+        "left reel",
+        "right reel"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-cassette-tape-step-3.jpg",
+      "step_name": "Connect the tape",
+      "visible_job": "two reel hubs and tape path appear in fixed positions on the cassette.",
+      "instruction": "Put one smaller hub circle inside each reel and draw one narrow tape line across the center of the window between them.",
+      "adds": [
+        "two reel hubs and tape path"
+      ],
+      "introduces": [
+        "two reel hubs and tape path"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-cassette-tape-step-4.jpg",
+      "step_name": "Add the label and holes",
+      "visible_job": "Draw the blank upper label, one shallow lower access panel and exactly two dark lower holes.",
+      "instruction": "Draw one blank label panel above the window. Along the lower shell edge, outline one shallow trapezoid access panel and place exactly two dark circular holes inside it.",
+      "adds": [
+        "top label panel",
+        "lower access panel",
+        "two lower holes"
+      ],
+      "introduces": [
+        "top label panel",
+        "lower access panel",
+        "two lower holes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-cassette-tape-step-5.jpg",
+      "step_name": "Finish the hardware",
+      "visible_job": "four corner screws, ground shadow appear in fixed positions on the cassette.",
+      "instruction": "Add one tiny screw circle near each of the four shell corners, then a short flat oval shadow below the cassette.",
+      "adds": [
+        "four corner screws",
+        "ground shadow"
+      ],
+      "introduces": [
+        "four corner screws",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-cassette-tape-finished-v1.jpg",
+    "step_name": "Color the cassette",
+    "visible_job": "Fill the established shell and label in bright marker color while preserving the two reels, tape path, lower holes, screws, and shadow.",
+    "instruction": "Fill the existing shell coral and teal, the blank label golden yellow, and the tape path warm brown. Deepen the black outlines and navy shadow without adding new hardware or marks.",
+    "adds": [
+      "coral, teal, yellow, and brown marker fill on established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop contains one wide rounded cassette housing at its final size and straight-on orientation, with enough interior space for a centered window. Its four broad sides are copyable with a black felt tip and require no temporary guide.",
+    "draw_through_observation": "I inspected the full third sheet and each of the five adjacent saved-crop pairs. The shell gains a window and two reels, then hubs and a brown tape link, a blank label and lower panel with two holes, four screws and a shadow, and finally marker color. The prior reel and window attachments persist with minor hand-ink edge wobble, and no guide removal or landmark displacement is required.",
+    "contract_sha256": "f9d94c7d0ded4db1afa6d266f2f8f7258dc53363ca0f56578ffd9afd439a07cd",
+    "asset_sha256": {
+      "assets/cartoon-cassette-tape-step-1.jpg": "00c3151e39ca317b0ddb5a913ccae657b940e2107e478604dfdd2faa624686ba",
+      "assets/cartoon-cassette-tape-step-2.jpg": "fa3ceebb2b442cadf70298269e39e051c7c2e4033f86efeeea58e1817fe56027",
+      "assets/cartoon-cassette-tape-step-3.jpg": "2257b814ae04cde96f825d5c13adb2f0e4e4a7d7b7fde2e88be38e988960efca",
+      "assets/cartoon-cassette-tape-step-4.jpg": "d79ed30b76b398c73716c4dde413083f1235b9e3b25b6d1f07bc6a2335252f90",
+      "assets/cartoon-cassette-tape-step-5.jpg": "8c2aeef4bcb51aa77c8db8d2471b81535f7d1492cb0d20911629703e3362dc77",
+      "assets/cartoon-cassette-tape-finished-v1.jpg": "7b417540f8aeecacbee0b264664dda2e147811e3e36e6aaa8bb94d2f1d296166"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "rounded cassette shell",
+          "central window",
+          "left reel",
+          "right reel"
+        ],
+        "observed_addition": "One centered long window and two separate reel circles appear inside the unchanged shell. The left reel, right reel, and window ends keep clear margins to the shell edges.",
+        "instruction_match": "Step 2 asks for one window and two balanced circles, which are the only new contours in the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "rounded cassette shell",
+          "central window",
+          "left reel",
+          "right reel",
+          "two reel hubs and tape path"
+        ],
+        "observed_addition": "A small hub circle is added at the center of each reel and one brown tape strip connects the reels within the window. The shell outline, window border, and both reel circles persist.",
+        "instruction_match": "Step 3 names both hub centers and the connecting tape; the same window and reels remain readable.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "rounded cassette shell",
+          "central window",
+          "left reel",
+          "right reel",
+          "two reel hubs and tape path",
+          "top label panel",
+          "two lower holes",
+          "lower access panel"
+        ],
+        "observed_addition": "A blank long label appears above the window, and a shallow lower access trapezoid holds exactly two dark holes. The outer shell, left reel, right reel, two hubs and brown tape strip keep their relative positions; tiny felt-tip edge wobble is visible but no structural part is repositioned.",
+        "instruction_match": "Step 4 explicitly asks for the blank label, lower access panel, and two holes while leaving the previous window and reels in place.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "rounded cassette shell",
+          "central window",
+          "left reel",
+          "right reel",
+          "two reel hubs and tape path",
+          "top label panel",
+          "two lower holes",
+          "lower access panel",
+          "four corner screws",
+          "ground shadow"
+        ],
+        "observed_addition": "One small screw circle appears in each of the four shell corners and one flat navy oval shadow appears below. The top label, lower panel, two holes, reels, hubs, and brown tape strip persist.",
+        "instruction_match": "Step 5 asks for four corner screws and the low shadow, matching the two new feature groups in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "rounded cassette shell",
+          "central window",
+          "left reel",
+          "right reel",
+          "two reel hubs and tape path",
+          "top label panel",
+          "two lower holes",
+          "lower access panel",
+          "four corner screws",
+          "ground shadow"
+        ],
+        "observed_addition": "Coral fills the shell, yellow fills the existing blank label, teal fills the window and lower panel, and the established brown strip and navy shadow deepen. Both white reels, two dark hub centers, two lower holes and four corner screws remain visible; no new structure appears.",
+        "instruction_match": "The final instruction calls for marker fill and outline strength on established shapes; the saved finish keeps the label blank and every earlier landmark.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

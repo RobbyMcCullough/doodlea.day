@@ -82,6 +82,11 @@
       "date": "2026-09-05",
       "note": "Owner-directed schema-v5 six-step repair replaces the earlier approval, which missed facial-tick and fur-tuft dropouts. Saved crops reviewed pairwise with explicit landmarks and hashes; teaching and finish 8.5/10. Original assets and rejected repair iterations remain private."
     },
+    "cartoon-cassette-tape": {
+      "status": "published",
+      "date": "2026-10-11",
+      "note": "Day 140 current marker lesson. Third six-panel sheet approved after two positional-drift rejections; teaching 8.1/10 and finish 8.2/10. Schema-v5 hashes, readiness, and Cove desktop/mobile QA passed."
+    },
     "cartoon-chameleon-on-a-branch": {
       "status": "published",
       "date": "2026-09-08",
@@ -225,6 +230,11 @@
       "status": "rejected-quality",
       "date": "2026-09-26",
       "note": "Four serious generated raster iterations retained privately. Bottom-row loop clipping and scale/position drift could not be repaired while keeping one cumulative drawing."
+    },
+    "cartoon-party-horn-with-confetti": {
+      "status": "rejected-duplicate",
+      "date": "2026-10-11",
+      "note": "Rejected before art: the diagonal flared cone and sound-burst/confetti drawing problem overlap the existing comic-megaphone lesson. No image generated."
     },
     "cartoon-passenger-airplane-in-flight": {
       "status": "published",

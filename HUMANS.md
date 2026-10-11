@@ -1,3 +1,9 @@
+## 2026-10-11 — Current cassette lesson (Codex)
+
+- Added Doodlea Day 140, `cartoon-cassette-tape`, for October 11. The six saved felt-tip crops keep one shell, one window, two reels and hubs, the brown tape link, blank label, lower panel and two holes, four corner screws, and shadow anchored through coral, teal, and yellow marker color. Two earlier sheets were rejected for positional drift and remain private.
+- Reviewed all five adjacent saved-crop pairs including finish. Teaching 8.1/10 and saved finish 8.2/10, with no temporary guides. Schema-v5 hashes and readiness passed (284 local URLs); Cove-rendered home, library, and tutorial passed at 1440×1000 and 390×844 with all new images loaded, valid JSON-LD, and no horizontal overflow.
+- Rejected a party-horn candidate before art because of megaphone overlap, and preserved the prior October 5 cauldron draft in a separate commit. One-current-lesson-per-site cadence remains active; no archive/backfill lesson. Harness: Codex; task: 2026-10-11 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-05 — Current cauldron lesson blocked by process-art continuity (Codex)
 
 - Both clean worktrees passed open-slot and ledger checks under the shared daily lock. Preflighted `cartoon-bubbling-cauldron` for planned Doodlea Day 140, October 5.
