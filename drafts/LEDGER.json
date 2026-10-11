@@ -63,6 +63,11 @@
       "date": "2026-08-18",
       "note": "Stopped before publication: the private raster sheet is visually strong and count-stable, but crop, page integration, readiness, rendered QA, and commit were not completed in this run. Regenerate or explicitly re-approve before use."
     },
+    "cartoon-bubbling-cauldron": {
+      "status": "rejected-quality",
+      "date": "2026-10-05",
+      "note": "Three generated raster attempts (two sheets and one targeted edit) changed pot/rim/foot positions between rows and into the finish. No approved contact sheet or public art; image-generation continuity blocker on 2026-10-05."
+    },
     "cartoon-bumblebee": {
       "status": "published"
     },

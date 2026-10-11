@@ -1,3 +1,9 @@
+## 2026-10-05 — Current cauldron lesson blocked by process-art continuity (Codex)
+
+- Both clean worktrees passed open-slot and ledger checks under the shared daily lock. Preflighted `cartoon-bubbling-cauldron` for planned Doodlea Day 140, October 5.
+- Two generated contact sheets and one targeted edit kept useful marker step order but moved pot, rim, or feet between rows and into the finish. The schema-v5 plan and failed raster attempts remain private. No approved crop, public asset, lesson page, rating, commit, or push resulted.
+- The one-current-lesson-per-site cadence remains active; no archive lesson was made. Harness: Codex; task: 2026-10-05 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-04 — Current giraffe portrait lesson (Codex)
 
 - Added Doodlea Day 139, `cartoon-giraffe-portrait`, for October 4. Six saved felt-tip crops keep two ears, two ossicones, a half-lidded eye, two nostrils, two teeth, four neck patches, mane and cheek freckles anchored through golden marker color. Teaching 8.1/10 and finish 8.1/10. Three earlier iterations were rejected for spot count, icon-like finish, nostril replacement or lost freckles; those sheets remain private.

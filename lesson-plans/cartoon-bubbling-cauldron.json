@@ -1,0 +1,175 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-bubbling-cauldron",
+  "finished": "assets/cartoon-bubbling-cauldron-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One round-bottomed pot outline with two tiny feet is a recognizable, useful shape in its final position; the open top reserves the lip and liquid.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Three generated raster attempts (two sheets and one targeted edit) changed pot/rim/foot positions between rows and into the finish. No approved contact sheet or public art; image-generation continuity blocker on 2026-10-05."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "pot bowl",
+      "introduced_by_step": 1,
+      "description": "Wide round-bottomed cauldron body with an open top and fixed lower position."
+    },
+    {
+      "name": "left foot",
+      "introduced_by_step": 1,
+      "description": "Short foot attached under left base."
+    },
+    {
+      "name": "right foot",
+      "introduced_by_step": 1,
+      "description": "Short foot attached under right base."
+    },
+    {
+      "name": "oval rim",
+      "introduced_by_step": 2,
+      "description": "Wide oval lip joining the two top ends of bowl."
+    },
+    {
+      "name": "left handle",
+      "introduced_by_step": 2,
+      "description": "Small loop attached outside left upper bowl."
+    },
+    {
+      "name": "right handle",
+      "introduced_by_step": 2,
+      "description": "Small loop attached outside right upper bowl."
+    },
+    {
+      "name": "liquid surface",
+      "introduced_by_step": 3,
+      "description": "Wavy potion surface inside the open oval rim."
+    },
+    {
+      "name": "three surface bubbles",
+      "introduced_by_step": 3,
+      "description": "Three small bubbles touching the liquid surface."
+    },
+    {
+      "name": "three floating bubbles",
+      "introduced_by_step": 4,
+      "description": "Three separate bubbles stacked above the center of pot."
+    },
+    {
+      "name": "two steam curls",
+      "introduced_by_step": 4,
+      "description": "Short curl on each side of the rising bubbles."
+    },
+    {
+      "name": "front crescent emblem",
+      "introduced_by_step": 5,
+      "description": "One small crescent inside front of pot, no badge or border."
+    },
+    {
+      "name": "two tiny sparks",
+      "introduced_by_step": 5,
+      "description": "Two tiny four-point sparks beside the high bubbles."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-bubbling-cauldron-step-1.jpg",
+      "step_name": "Shape the cauldron",
+      "visible_job": "Draw a round-bottomed pot with two feet and an open top.",
+      "instruction": "Draw a broad U-shaped pot body with black felt tip, leaving a wide open top. Attach two short feet under the bottom, one on each side.",
+      "adds": [
+        "pot bowl",
+        "left foot",
+        "right foot"
+      ],
+      "introduces": [
+        "pot bowl",
+        "left foot",
+        "right foot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-bubbling-cauldron-step-2.jpg",
+      "step_name": "Add rim and handles",
+      "visible_job": "Close the top with an oval rim and attach two side loops.",
+      "instruction": "Bridge the two open top ends with a thick oval rim. Add one small loop handle to each upper side, stopping where each loop meets the bowl.",
+      "adds": [
+        "oval rim",
+        "left handle",
+        "right handle"
+      ],
+      "introduces": [
+        "oval rim",
+        "left handle",
+        "right handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-bubbling-cauldron-step-3.jpg",
+      "step_name": "Fill the rim with potion",
+      "visible_job": "Place a wavy liquid line and three bubbles inside the rim.",
+      "instruction": "Inside the oval, draw one wavy liquid line from left to right. Place three small round bubbles touching that line, leaving space above for floating bubbles.",
+      "adds": [
+        "liquid surface",
+        "three surface bubbles"
+      ],
+      "introduces": [
+        "liquid surface",
+        "three surface bubbles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-bubbling-cauldron-step-4.jpg",
+      "step_name": "Lift three bubbles",
+      "visible_job": "Draw three floating bubbles and two separate steam curls above the pot.",
+      "instruction": "Above the rim, stack three separate circles from large to small without moving the surface bubbles. Add a short curling steam line on each side.",
+      "adds": [
+        "three floating bubbles",
+        "two steam curls"
+      ],
+      "introduces": [
+        "three floating bubbles",
+        "two steam curls"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-bubbling-cauldron-step-5.jpg",
+      "step_name": "Mark the magic details",
+      "visible_job": "Add one crescent on pot front and two tiny sparks near high bubbles.",
+      "instruction": "Put a small crescent inside the pot front, clear of its outer contour. Add two tiny four-point sparks beside the upper bubbles, leaving the pot, handles and bubbles unchanged.",
+      "adds": [
+        "front crescent emblem",
+        "two tiny sparks"
+      ],
+      "introduces": [
+        "front crescent emblem",
+        "two tiny sparks"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-bubbling-cauldron-finished-v1.jpg",
+    "step_name": "Color the cauldron",
+    "visible_job": "Fill the established pot, potion, bubbles and emblem with streaky marker color.",
+    "instruction": "Fill the existing pot shape with deep purple marker, the potion and bubbles with lime green, and the crescent with warm yellow. Let paper streaks show and thicken only existing black edges; add no new shape.",
+    "adds": [
+      "marker color in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}
