@@ -1,3 +1,8 @@
+## 2026-10-11 — Daily duplicate-slot guard repair (Codex)
+
+- The scheduled 10:00 Pacific rerun found the already published October 11 pair and needed no authentication. Its duplicate-slot script incorrectly reported an open date because it missed inline JSON-style lesson records.
+- Updated the parser to handle both inline JSON and older multiline JavaScript objects, with a regression test. It now reads 137 lessons, blocks the occupied October 11 slot, accepts the exact-slug correction flag, and leaves October 12 open. No lesson art or page content changed. One-current-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-11 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-11 — Current cassette lesson (Codex)
 
 - Added Doodlea Day 140, `cartoon-cassette-tape`, for October 11. The six saved felt-tip crops keep one shell, one window, two reels and hubs, the brown tape link, blank label, lower panel and two holes, four corner screws, and shadow anchored through coral, teal, and yellow marker color. Two earlier sheets were rejected for positional drift and remain private.

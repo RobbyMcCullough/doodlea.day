@@ -24,6 +24,40 @@ class Lesson:
     subject: str
 
 
+def lesson_objects(body: str) -> list[str]:
+    """Split the lesson array at top-level object boundaries, not line breaks."""
+    objects: list[str] = []
+    depth = 0
+    start = None
+    quote = None
+    escaped = False
+    for index, char in enumerate(body):
+        if quote:
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == quote:
+                quote = None
+            continue
+        if char in ('"', "'", "`"):
+            quote = char
+        elif char == "{":
+            if depth == 0:
+                start = index
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth < 0:
+                raise ValueError("Unexpected closing brace in lesson array")
+            if depth == 0 and start is not None:
+                objects.append(body[start:index + 1])
+                start = None
+    if depth or quote or not objects:
+        raise ValueError("Could not parse every lesson object")
+    return objects
+
+
 def read_lessons() -> list[Lesson]:
     text = BUILD_FILE.read_text(encoding="utf-8")
     match = re.search(r"const lessons = \[(.*?)]\;\n\nconst archiveLessons", text, re.S)
@@ -34,21 +68,14 @@ def read_lessons() -> list[Lesson]:
     if not body:
         return []
 
-    chunks = re.split(r"\n  \},\n  \{", body)
     lessons: list[Lesson] = []
-    for index, chunk in enumerate(chunks, start=1):
-        normalized = chunk
-        if not normalized.startswith("{"):
-            normalized = "{" + normalized
-        if not normalized.endswith("}"):
-            normalized = normalized + "}"
-
+    for index, chunk in enumerate(lesson_objects(body), start=1):
         fields: dict[str, str] = {}
         for name in ("slug", "day", "isoDate", "subject"):
-            field = re.search(rf"\b{name}:\s*\"([^\"]+)\"", normalized)
+            field = re.search(rf'(?:\b{name}|"{name}")\s*:\s*"((?:\\.|[^"\\])*)"', chunk)
             if not field:
                 raise ValueError(f"Lesson object {index} is missing `{name}`")
-            fields[name] = field.group(1)
+            fields[name] = json.loads('"' + field.group(1) + '"')
 
         lessons.append(
             Lesson(
