@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a comic lightning cloud</title>
+      <link>https://doodlea.day/tutorials/comic-lightning-cloud.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/comic-lightning-cloud.html</guid>
+      <pubDate>Mon, 12 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a comic lightning cloud with a bold zigzag bolt, two raindrops, simple accent dashes, and bright textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/comic-lightning-cloud-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon cassette tape</title>
       <link>https://doodlea.day/tutorials/cartoon-cassette-tape.html</link>

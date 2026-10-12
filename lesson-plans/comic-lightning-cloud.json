@@ -1,0 +1,232 @@
+{
+  "schema_version": 5,
+  "slug": "comic-lightning-cloud",
+  "finished": "assets/comic-lightning-cloud-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The single connected cloud silhouette has three broad top humps and a reserved center gap; its outer edge is a useful, copyable foundation at its final size.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved six-panel generated raster contact sheet at drafts/comic-lightning-cloud/comic-lightning-cloud-contact-sheet.png. The 3x2 cells are rectangular; crop-contact-sheet.py preserved aspect ratio with paper-colored side padding, without stretching."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "puffy cloud outline",
+      "introduced_by_step": 1,
+      "description": "One broad cloud with three upper humps and a scalloped lower edge, with a short center gap reserved for the bolt."
+    },
+    {
+      "name": "upper lightning arm",
+      "introduced_by_step": 2,
+      "description": "Two angular black strokes leaving the reserved center gap and bending down to the right."
+    },
+    {
+      "name": "lower lightning point",
+      "introduced_by_step": 3,
+      "description": "A sharp lower zigzag returning left and ending in a long pointed lightning tip."
+    },
+    {
+      "name": "left raindrop",
+      "introduced_by_step": 4,
+      "description": "One large separate teardrop outside the lower left of the cloud."
+    },
+    {
+      "name": "right raindrop",
+      "introduced_by_step": 4,
+      "description": "One matching separate teardrop outside the lower right of the cloud."
+    },
+    {
+      "name": "cloud curl",
+      "introduced_by_step": 5,
+      "description": "One short curved inner line inside the left cloud lobe."
+    },
+    {
+      "name": "two comic spark dashes",
+      "introduced_by_step": 5,
+      "description": "Exactly two short black accent dashes outside the lightning point."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-lightning-cloud-step-1.jpg",
+      "step_name": "Shape the storm cloud",
+      "visible_job": "Draw one broad puffy cloud with three top humps and a scalloped base. Leave a short gap at the bottom center for the lightning bolt.",
+      "instruction": "Draw one broad puffy cloud with three top humps and a scalloped base. Leave a short gap at the bottom center for the lightning bolt.",
+      "adds": [
+        "puffy cloud outline"
+      ],
+      "introduces": [
+        "puffy cloud outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-lightning-cloud-step-2.jpg",
+      "step_name": "Start the lightning zigzag",
+      "visible_job": "From the reserved center gap, draw two thick angular strokes down and right, leaving the lower end open for the next pointed turn.",
+      "instruction": "From the reserved center gap, draw two thick angular strokes down and right, leaving the lower end open for the next pointed turn.",
+      "adds": [
+        "upper lightning arm"
+      ],
+      "introduces": [
+        "upper lightning arm"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-lightning-cloud-step-3.jpg",
+      "step_name": "Point the bolt downward",
+      "visible_job": "From the open lower end, turn left in a sharp zigzag and pull a long pointed tip down. Return the second edge upward to close the bold bolt.",
+      "instruction": "From the open lower end, turn left in a sharp zigzag and pull a long pointed tip down. Return the second edge upward to close the bold bolt.",
+      "adds": [
+        "lower lightning point"
+      ],
+      "introduces": [
+        "lower lightning point"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-lightning-cloud-step-4.jpg",
+      "step_name": "Hang two raindrops",
+      "visible_job": "Draw one separate chunky raindrop below the cloud on the left and one on the right. Keep both clear of the centered lightning bolt.",
+      "instruction": "Draw one separate chunky raindrop below the cloud on the left and one on the right. Keep both clear of the centered lightning bolt.",
+      "adds": [
+        "left raindrop",
+        "right raindrop"
+      ],
+      "introduces": [
+        "left raindrop",
+        "right raindrop"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-lightning-cloud-step-5.jpg",
+      "step_name": "Add a curl and sparks",
+      "visible_job": "Draw one short curved cloud curl inside the left lobe. Place exactly two short comic dashes outside the bolt tip without touching the raindrops.",
+      "instruction": "Draw one short curved cloud curl inside the left lobe. Place exactly two short comic dashes outside the bolt tip without touching the raindrops.",
+      "adds": [
+        "cloud curl",
+        "two comic spark dashes"
+      ],
+      "introduces": [
+        "cloud curl",
+        "two comic spark dashes"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/comic-lightning-cloud-finished-v1.jpg",
+    "step_name": "Color the storm burst",
+    "visible_job": "Fill the existing cloud blue violet, lightning yellow, drops teal, and small accents magenta with visible felt-tip strokes.",
+    "instruction": "Fill the established cloud with blue-violet marker, the closed bolt with yellow, and both raindrops with teal. Add magenta to the two dashes and keep the cloud curl visible; do not move or add contours.",
+    "adds": [
+      "marker color inside established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved square JPG shows one connected broad cloud outline at final scale, with three main upper humps and a deliberate bottom-center opening. Its thick imperfect felt-tip edge is easy to copy before any bolt, drop, or curl appears.",
+    "draw_through_observation": "I compared the full raw sheet and each adjacent saved JPG crop, including finish. The fixed cloud gains an open upper bolt, a closed lower point, two separate drops, then a curl and two dashes before marker fill. Rectangular source cells were padded to square without distortion. No temporary guides or unexplained moved or removed keeper marks were observed.",
+    "contract_sha256": "47f6082acdcb79d04b4157051c536916967cc4bdc0601533d13fe7ef28f603da",
+    "asset_sha256": {
+      "assets/comic-lightning-cloud-step-1.jpg": "40501cb1f3280517c5f3d490698a262ff2705755d6f9a3338abf1a27a2d4e4c6",
+      "assets/comic-lightning-cloud-step-2.jpg": "ac4e66b17ffa173692cbc73445eff5dc278b3cf7115878e3b0d3e19be1acfa0a",
+      "assets/comic-lightning-cloud-step-3.jpg": "4c6e955d83d8e8f1fd9ca02afa8f8eefae351319bcb2584f08f89a9410f6f712",
+      "assets/comic-lightning-cloud-step-4.jpg": "bb75290cf5ecbbe0c09ff7e7fe00dce24fba530ba08b50010dabed3662bbd9af",
+      "assets/comic-lightning-cloud-step-5.jpg": "ef481ad1e2c6b6ebc09d7eed2d6205637147acea2e0a1e63d14ef811ca0f958b",
+      "assets/comic-lightning-cloud-finished-v1.jpg": "2cbfa1fd29a3c8d66753044b5e6c045ac64967e2fec7571aa1e7ef798e9c22d7"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "puffy cloud outline",
+          "upper lightning arm"
+        ],
+        "observed_addition": "Two thick black sides leave the unchanged center gap and kink to the right, stopping open above the future tip. The three upper humps and lower cloud lobes remain fixed.",
+        "instruction_match": "Step 2 asks for only the first angled arm of the bolt and explicitly leaves its lower ends open.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "puffy cloud outline",
+          "upper lightning arm",
+          "lower lightning point"
+        ],
+        "observed_addition": "The open lower ends continue into a leftward notch and long downward point, closing one centered zigzag bolt. The cloud outline and both attachment points remain in place.",
+        "instruction_match": "Step 3 tells the reader to complete and close the lower point from the previously open strokes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "puffy cloud outline",
+          "upper lightning arm",
+          "lower lightning point",
+          "left raindrop",
+          "right raindrop"
+        ],
+        "observed_addition": "One broad outlined teardrop appears to the left of the bolt and one to the right, both below the cloud with visible white gaps. The bolt tip, cloud lobes and center attachments remain fixed.",
+        "instruction_match": "Step 4 asks for exactly one separate raindrop on each side of the established bolt.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "puffy cloud outline",
+          "upper lightning arm",
+          "lower lightning point",
+          "left raindrop",
+          "right raindrop",
+          "cloud curl",
+          "two comic spark dashes"
+        ],
+        "observed_addition": "One short black curl appears inside the left cloud lobe; exactly two black dashes sit to the left and right of the bolt tip. Both drops and the completed bolt persist.",
+        "instruction_match": "Step 5 names the single curl and two separated comic dashes without changing the existing storm shapes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "puffy cloud outline",
+          "upper lightning arm",
+          "lower lightning point",
+          "left raindrop",
+          "right raindrop",
+          "cloud curl",
+          "two comic spark dashes"
+        ],
+        "observed_addition": "Blue-violet marker fills the same cloud, yellow fills the fixed bolt, teal fills both outlined drops, and magenta colors the two earlier black dashes. The black curl and all prior outlines remain visible; no new structure is introduced.",
+        "instruction_match": "The final instruction names the four observed color regions and keeps every earlier landmark.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

@@ -1,3 +1,8 @@
+## 2026-10-12 — Current lightning cloud lesson (Codex)
+
+- Added Doodlea Day 141, `comic-lightning-cloud`, for October 12. Six saved marker crops keep the cloud, two-stage centered zigzag bolt, one raindrop on each side, inner curl, and two accent dashes fixed through saturated color. Rectangular source cells were padded to square by the crop script without stretching.
+- Reviewed the full sheet and all five adjacent saved-crop transitions including finish: teaching 8.2/10 and saved finish 8.2/10, no temporary guides. Schema-v5 hashes and readiness passed. Cove home, library, and tutorial passed at 1440×1000 and 390×844 with new images loaded, valid JSON-LD, and no horizontal overflow. One-current-lesson-per-site cadence remains active; no archive/backfill lesson. Harness: Codex; task: 2026-10-12 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-11 — Daily duplicate-slot guard repair (Codex)
 
 - The scheduled 10:00 Pacific rerun found the already published October 11 pair and needed no authentication. Its duplicate-slot script incorrectly reported an open date because it missed inline JSON-style lesson records.

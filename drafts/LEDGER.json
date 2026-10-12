@@ -469,6 +469,11 @@
     "comic-firecracker-doodle": {
       "status": "published"
     },
+    "comic-lightning-cloud": {
+      "status": "published",
+      "date": "2026-10-12",
+      "note": "Approved six-panel marker contact sheet and padded square crops, all five adjacent transitions; teaching and finish 8.2/10; Day 141."
+    },
     "comic-megaphone": {
       "status": "rejected-duplicate",
       "note": "Rejected before image generation because the July 13 cartoon boombox made the audio-device category too recent; no megaphone art was generated."
