@@ -1947,3 +1947,7 @@
   `a cartoon` / `asteroid` / `doodle`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+## 2026-10-13 — Current striped witch hat lesson (Codex)
+
+- Added Doodlea Day 142, `striped-witch-hat`, for October 13. The six saved felt-tip crops retain the open brim attachment, bent crown, segmented hatband, centered buckle, two crown stripe boundaries, and two stars through orange, purple, lilac, teal, and yellow marker fills.
+- Preserved five rejected sheet iterations privately while repairing a missing stripe, brim erasure, and band overlap. Reviewed the final full sheet and all five saved adjacent pairs including finish: teaching 8.2/10, saved finish 8.4/10, no temporary guides or unexplained moves. Schema-v5 hashes and readiness passed; Cove desktop/mobile home, library, and tutorial QA showed loaded lesson images, valid JSON-LD, and no horizontal overflow. One-current-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-13 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.

@@ -630,6 +630,11 @@
       "date": "2026-07-27",
       "note": "No raster output was saved. Two built-in image-generation attempts for the owner-requested Squirtle archive lesson were blocked by output moderation, so publishing stopped rather than substituting vector-style or mismatched art. The process plan remains available for an explicitly authorized raster API/CLI fallback."
     },
+    "striped-witch-hat": {
+      "status": "published",
+      "date": "2026-10-13",
+      "note": "Approved repaired six-panel raster process after five rejected iterations; published as current Doodlea Day 142."
+    },
     "sunscreen-bottle-sticker": {
       "status": "published"
     },

@@ -1,0 +1,223 @@
+{
+  "schema_version": 5,
+  "slug": "striped-witch-hat",
+  "finished": "assets/striped-witch-hat-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The broad, swooping brim is one useful final-position shape; its open center gives the crown a clear attachment point.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Generated handmade raster contact sheet. V1 omitted stripes; V2 drew through crown footprint; V3 left a short brim overlap; V4-V5 drew the hatband through the future buckle or left an undersized gap. All rejected sheets remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "swooping brim",
+      "introduced_by_step": 1,
+      "description": "Wide tilted oval brim with a lifted left tip and visible front edge."
+    },
+    {
+      "name": "bent crown",
+      "introduced_by_step": 2,
+      "description": "Tall cone rising from the same inner brim, with tip curling left and no hidden base line."
+    },
+    {
+      "name": "curved hatband",
+      "introduced_by_step": 3,
+      "description": "Broad band following the lower crown curve, clear of the brim edge."
+    },
+    {
+      "name": "square buckle",
+      "introduced_by_step": 4,
+      "description": "One centered square buckle with small tongue attached over the band."
+    },
+    {
+      "name": "two crown stripes",
+      "introduced_by_step": 5,
+      "description": "Exactly two curved stripe boundaries across the crown, drawn before color."
+    },
+    {
+      "name": "two star accents",
+      "introduced_by_step": 5,
+      "description": "Exactly two small four-point stars outside the brim, one on each side."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/striped-witch-hat-step-1.jpg",
+      "step_name": "Sweep the brim",
+      "visible_job": "Draw the broad tilted brim with its lifted left tip.",
+      "instruction": "Ghost a wide oval sweep, then pull the front brim curve from the lifted left tip to the right edge. Leave a broad opening in its upper middle for the crown base.",
+      "adds": [
+        "swooping brim"
+      ],
+      "introduces": [
+        "swooping brim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/striped-witch-hat-step-2.jpg",
+      "step_name": "Bend the tall crown",
+      "visible_job": "Raise one bent cone from the open center of the same brim.",
+      "instruction": "From the inner brim, draw two sides rising into a tall crown; curl the narrow tip left. Stop both sides at the brim opening without drawing through the brim.",
+      "adds": [
+        "bent crown"
+      ],
+      "introduces": [
+        "bent crown"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/striped-witch-hat-step-3.jpg",
+      "step_name": "Wrap the hatband",
+      "visible_job": "Add one broad curved band across the established crown base.",
+      "instruction": "Draw one short upper and lower band curve from each crown side toward the center. Stop both pairs before the middle so a square buckle can occupy the clean gap.",
+      "adds": [
+        "curved hatband"
+      ],
+      "introduces": [
+        "curved hatband"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/striped-witch-hat-step-4.jpg",
+      "step_name": "Set the buckle",
+      "visible_job": "Place one centered square frame and a short buckle tongue over the same band.",
+      "instruction": "Center a chunky square buckle on the band, leaving a narrow gap inside its frame. Add one short tongue pointing toward the buckle center.",
+      "adds": [
+        "square buckle"
+      ],
+      "introduces": [
+        "square buckle"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/striped-witch-hat-step-5.jpg",
+      "step_name": "Stripe and sparkle",
+      "visible_job": "Add two crown stripe boundaries and two separate four-point stars; color the established band orange.",
+      "instruction": "Draw two shallow curved stripe boundaries across the crown and one four-point star outside each brim tip. Let the ink dry, then fill only the existing band orange.",
+      "adds": [
+        "two crown stripes",
+        "two star accents",
+        "orange marker on curved hatband"
+      ],
+      "introduces": [
+        "two crown stripes",
+        "two star accents"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/striped-witch-hat-finished-v1.jpg",
+    "step_name": "Color the witch hat",
+    "visible_job": "Fill alternate fixed crown stripes purple and lilac, the brim teal, buckle and stars yellow; strengthen existing edges.",
+    "instruction": "Fill the established crown bands alternating purple and lilac, following their curves with marker strokes. Color the brim teal, the same buckle and two stars yellow, and leave paper streaks for texture.",
+    "adds": [
+      "purple teal and yellow marker fills"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved crop shows only the broad swooping brim, lifted at left, with an upper center gap aligned to the later crown feet. Its front arc gives a beginner a stable, copyable baseline; no future crown, band, buckle, stripes, stars, or color appears.",
+    "draw_through_observation": "I compared all five adjacent saved JPG pairs after the final repair. The crown fills the reserved brim opening; segmented band boundaries reserve a square buckle footprint; the buckle joins those ends without removing keeper ink. Two crown stripe lines and two side stars arrive before final purple, lilac, teal, and yellow fills. The hat pose, tip curl, buckle center, and star spacing remain fixed. No temporary guides or unexplained removals or moves were observed.",
+    "contract_sha256": "c26cfdac760644125f18a7bb346ccf7697843b1ae07438d142e3cd70579e1bd4",
+    "asset_sha256": {
+      "assets/striped-witch-hat-step-1.jpg": "2d0eb9d6f2d1892a5a5e6757c3117bea4c1eaf931e4dd7b15ad11825fce7356c",
+      "assets/striped-witch-hat-step-2.jpg": "9295a7365791e32aed31b84cba983beed2a96e5d7f803381ff38e6a352452012",
+      "assets/striped-witch-hat-step-3.jpg": "03f11075d60c8fd3eb80d19aa55492446876272a3783e3b46ba8a9e8b3aeffdc",
+      "assets/striped-witch-hat-step-4.jpg": "33d97e4d06e596a9a116029093f25adff45f0e7a980e6c071dc1c25a41b7f324",
+      "assets/striped-witch-hat-step-5.jpg": "0a9feb28fa21baa7c72c98c2ed1df3537892427f48da9b4b05f64e0ac08087fb",
+      "assets/striped-witch-hat-finished-v1.jpg": "61f19c979f37a9a6d35dfde5fa90625869bfa731e0a3ef74094e9234f80e826e"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "swooping brim",
+          "bent crown"
+        ],
+        "observed_addition": "One tall crown rises from the exact reserved upper-brim gap. Its tip curls left; the lifted left brim and broad front arc keep their original locations.",
+        "instruction_match": "Step 2 directs the two crown sides into the first panel’s open gap, so no earlier brim stroke needs removal.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "swooping brim",
+          "bent crown",
+          "curved hatband"
+        ],
+        "observed_addition": "Two short upper band segments and two short lower segments attach at the crown sides. Their middle remains empty, wide enough for the later buckle; brim and curled tip persist.",
+        "instruction_match": "Step 3 explicitly tells the learner to stop both band boundaries before the center buckle space.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "swooping brim",
+          "bent crown",
+          "curved hatband",
+          "square buckle"
+        ],
+        "observed_addition": "One square buckle with a small interior tongue occupies the prior blank band center. Both left and right band segments meet its edges; the curled tip and brim stay fixed.",
+        "instruction_match": "Step 4 places the buckle on the gap reserved in Step 3 and names its inner tongue.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "swooping brim",
+          "bent crown",
+          "curved hatband",
+          "square buckle",
+          "two crown stripes",
+          "two star accents"
+        ],
+        "observed_addition": "Two curved stripe boundaries cross the upper crown, one left and one right four-point star sit outside the brim, and orange fills only the existing band. The buckle and brim remain in place.",
+        "instruction_match": "Step 5 calls for the exact two stripe lines, two separated stars, and orange band fill after ink dries.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "swooping brim",
+          "bent crown",
+          "curved hatband",
+          "square buckle",
+          "two crown stripes",
+          "two star accents"
+        ],
+        "observed_addition": "Three established crown bands receive alternating deep-purple, lilac, deep-purple fill; the original brim turns teal, the same buckle and two stars yellow, and the orange band persists. No new outlines or objects appear.",
+        "instruction_match": "The final step specifies these fills on established contours, with visible directional marker streaks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
