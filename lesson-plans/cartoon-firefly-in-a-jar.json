@@ -1,0 +1,319 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-firefly-in-a-jar",
+  "finished": "assets/cartoon-firefly-in-a-jar-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A wide jar body, plain oval rim, and four short side shine strokes give the learner a clear container at final scale and reserve its center for the firefly.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Fourth generated felt-tip contact sheet approved after three private rejected progressions: premature face, bee-like smooth icon, and clipped rim/grid line. The six 496-pixel cells were cropped with the project script, then each crop window was offset horizontally by 0/8/16 source pixels and the second row vertically by 20 source pixels to register the jar silhouette; no drawn pixels were altered or scaled differently."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "jar body",
+      "introduced_by_step": 1,
+      "description": "One broad rounded glass jar with a plain oval rim and flat bottom at page center."
+    },
+    {
+      "name": "four gray glass accents",
+      "introduced_by_step": 1,
+      "description": "Two short gray curved strokes on each inner side of the jar."
+    },
+    {
+      "name": "lid rib marks",
+      "introduced_by_step": 2,
+      "description": "Short vertical screw rib marks across the same plain jar rim."
+    },
+    {
+      "name": "jar base line",
+      "introduced_by_step": 2,
+      "description": "One shallow inner curve parallel to the jar bottom."
+    },
+    {
+      "name": "firefly head",
+      "introduced_by_step": 3,
+      "description": "One small blank round head near the jar upper middle."
+    },
+    {
+      "name": "gray thorax",
+      "introduced_by_step": 3,
+      "description": "One small gray thorax connected directly below the head."
+    },
+    {
+      "name": "firefly abdomen",
+      "introduced_by_step": 3,
+      "description": "One long unstriped tapering abdomen attached to the thorax."
+    },
+    {
+      "name": "left wing",
+      "introduced_by_step": 4,
+      "description": "One oval wing extending left from the thorax shoulder."
+    },
+    {
+      "name": "right wing",
+      "introduced_by_step": 4,
+      "description": "One oval wing extending right from the thorax shoulder."
+    },
+    {
+      "name": "left wing veins",
+      "introduced_by_step": 4,
+      "description": "Fine gray branching strokes inside the left wing."
+    },
+    {
+      "name": "right wing veins",
+      "introduced_by_step": 4,
+      "description": "Fine gray branching strokes inside the right wing."
+    },
+    {
+      "name": "two antennae",
+      "introduced_by_step": 4,
+      "description": "Exactly two curved antennae attached to the head top."
+    },
+    {
+      "name": "face",
+      "introduced_by_step": 4,
+      "description": "One left dot eye, one right wink eye, and a small smile on the head."
+    },
+    {
+      "name": "four glow dashes",
+      "introduced_by_step": 5,
+      "description": "Exactly four short radiating yellow dashes around the tapered abdomen tip."
+    },
+    {
+      "name": "two pale glass gleams",
+      "introduced_by_step": 5,
+      "description": "One pale blue gleam next to a gray side accent on each side of the jar."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-firefly-in-a-jar-step-1.jpg",
+      "step_name": "Shape the glass jar",
+      "visible_job": "Draw the centered jar and four short side shine accents.",
+      "instruction": "Draw a wide oval mouth and one plain narrow rim band. Drop two jar sides from its shoulders, round the lower corners, and join them with a flat bottom. Place two short gray shine strokes inside each side.",
+      "adds": [
+        "jar body",
+        "four gray glass accents"
+      ],
+      "introduces": [
+        "jar body",
+        "four gray glass accents"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-firefly-in-a-jar-step-2.jpg",
+      "step_name": "Mark rim and base",
+      "visible_job": "Add short vertical screw marks to the rim and one inner base curve.",
+      "instruction": "Draw short vertical rib marks across the existing rim band. Echo the flat bottom with one shallow inner curve just above it, keeping the jar and four side accents in place.",
+      "adds": [
+        "lid rib marks",
+        "jar base line"
+      ],
+      "introduces": [
+        "lid rib marks",
+        "jar base line"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-firefly-in-a-jar-step-3.jpg",
+      "step_name": "Place the firefly",
+      "visible_job": "Connect one blank round head, gray thorax, and long plain abdomen.",
+      "instruction": "Place a small blank round head near the jar upper middle. Attach a short gray thorax beneath it, then a long unstriped abdomen tapering to a point; leave the head empty for the next step.",
+      "adds": [
+        "firefly head",
+        "gray thorax",
+        "firefly abdomen"
+      ],
+      "introduces": [
+        "firefly head",
+        "gray thorax",
+        "firefly abdomen"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-firefly-in-a-jar-step-4.jpg",
+      "step_name": "Give it wings and a face",
+      "visible_job": "Add two attached veined wings, two antennae, a dot eye, wink, and smile.",
+      "instruction": "From each thorax shoulder, curve an oval wing outward and add light gray vein strokes inside each. Attach two antennae to the head, then draw a left dot eye, right wink, and small smile.",
+      "adds": [
+        "left wing",
+        "right wing",
+        "left wing veins",
+        "right wing veins",
+        "two antennae",
+        "face"
+      ],
+      "introduces": [
+        "left wing",
+        "right wing",
+        "left wing veins",
+        "right wing veins",
+        "two antennae",
+        "face"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-firefly-in-a-jar-step-5.jpg",
+      "step_name": "Show the tail glow",
+      "visible_job": "Add four yellow glow dashes, a pale tail tip, and two pale glass gleams.",
+      "instruction": "Place two short yellow glow dashes on each side of the tail tip and tint the established tip pale yellow. Beside the existing gray jar accents, add one pale blue gleam on each side.",
+      "adds": [
+        "four glow dashes",
+        "two pale glass gleams",
+        "pale yellow tint on existing tail"
+      ],
+      "introduces": [
+        "four glow dashes",
+        "two pale glass gleams"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-firefly-in-a-jar-finished-v1.jpg",
+    "step_name": "Color the glowing firefly",
+    "visible_job": "Fill only the established head, wings, rim, and tail with textured marker color.",
+    "instruction": "Fill the established rim coral, head teal, wings pale blue, and tapered abdomen yellow to orange toward its tip. Deepen the same four glow dashes to orange; keep the jar mostly white and the four gray accents and two pale blue gleams visible.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.5,
+    "first_step_observation": "The first saved crop shows a wide rounded jar with an oval plain rim and two gray side marks on each side, centered with clear paper margin. The empty middle reserves a fixed, generous space for the firefly and the shape is copyable with simple connected curves.",
+    "draw_through_observation": "I viewed the approved full sheet and all six registered saved crops, then compared each adjacent pair with the actual reader instruction. The jar silhouette, four gray accents, rim ticks, base curve, blank then expressive head, gray thorax, unstriped tapering abdomen, paired wing attachments and veins, two antennae, four dashes and two pale gleams keep their positions. The final only colors established forms. No temporary guides or unexplained removals are present.",
+    "contract_sha256": "25088137b305019aaeff9fedde5b752ec6c976b3abc6dbfbca36841f7c433ccc",
+    "asset_sha256": {
+      "assets/cartoon-firefly-in-a-jar-step-1.jpg": "00fc75ecd45319ddc3af382ede0d80216fa6ccb7b2afea32464986e0ff86cf2c",
+      "assets/cartoon-firefly-in-a-jar-step-2.jpg": "b83f6bcee5a7c2ede696c5a51d058597329c418c2d4a42260832114fae474dca",
+      "assets/cartoon-firefly-in-a-jar-step-3.jpg": "e39d2e4fb5f2b088e6b8bfe56b8b428eb50787223d190348612d9f1a2404d79e",
+      "assets/cartoon-firefly-in-a-jar-step-4.jpg": "f51bc50701b6b27e30e2ba25bc34ffc902a72e5b18c40d2ccf4ba54d4ec02279",
+      "assets/cartoon-firefly-in-a-jar-step-5.jpg": "9aaecec01c32bae69f4adb40b2d2e7fb0f3078c8cafeb4a1c699152edefc7f85",
+      "assets/cartoon-firefly-in-a-jar-finished-v1.jpg": "9b8557a9c5ac57e156c4ee7243c90911128bf88321748e923f3bca515aec85d9"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "jar body",
+          "four gray glass accents",
+          "lid rib marks",
+          "jar base line"
+        ],
+        "observed_addition": "The blank jar retains its oval rim, rounded side walls, flat bottom, and two gray accents on each side. Short black rib ticks fill the existing rim band, and one shallow base curve appears inside the bottom.",
+        "instruction_match": "The instruction asks for exactly those rim ticks and inner base curve; the jar silhouette and four side accents remain fixed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "jar body",
+          "four gray glass accents",
+          "lid rib marks",
+          "jar base line",
+          "firefly head",
+          "gray thorax",
+          "firefly abdomen"
+        ],
+        "observed_addition": "The same rim ticks, inner base curve, and four gray side accents remain; a blank round head appears above a gray thorax and long unstriped pointed abdomen in the jar center.",
+        "instruction_match": "The head is still blank as instructed; the thorax touches the head and the tapered abdomen meets the thorax without erasing jar marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "jar body",
+          "four gray glass accents",
+          "lid rib marks",
+          "jar base line",
+          "firefly head",
+          "gray thorax",
+          "firefly abdomen",
+          "left wing",
+          "right wing",
+          "left wing veins",
+          "right wing veins",
+          "two antennae",
+          "face"
+        ],
+        "observed_addition": "Both wings attach at the same thorax shoulders with gray vein strokes inside; two antennae root at the head top, and left dot eye, right wink, and small smile fill the previously blank head. Jar, head, thorax and abdomen stay anchored.",
+        "instruction_match": "The written wing attachment, antennae, and one-dot-one-wink expression match the new marks; no earlier face was changed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "jar body",
+          "four gray glass accents",
+          "lid rib marks",
+          "jar base line",
+          "firefly head",
+          "gray thorax",
+          "firefly abdomen",
+          "left wing",
+          "right wing",
+          "left wing veins",
+          "right wing veins",
+          "two antennae",
+          "face",
+          "four glow dashes",
+          "two pale glass gleams"
+        ],
+        "observed_addition": "Four yellow dashes now sit two per side near the abdomen tip; its existing lower section gets pale yellow tint. Two pale blue gleams sit beside the earlier gray side accents. All jar and firefly contours and both wings persist.",
+        "instruction_match": "The instruction names the four new dashes, pale tail tint, and two new glass gleams; nothing structural shifts or disappears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "jar body",
+          "four gray glass accents",
+          "lid rib marks",
+          "jar base line",
+          "firefly head",
+          "gray thorax",
+          "firefly abdomen",
+          "left wing",
+          "right wing",
+          "left wing veins",
+          "right wing veins",
+          "two antennae",
+          "face",
+          "four glow dashes",
+          "two pale glass gleams"
+        ],
+        "observed_addition": "The four same dashes turn orange; existing rim turns coral, head teal, wings pale blue, and the unstriped tail gains textured yellow-to-orange fill. Two gray accents per side and two pale blue gleams stay visible.",
+        "instruction_match": "The final instruction is a coloring job on established shapes and dashes; no new body, wing, face, or jar contour is introduced.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
