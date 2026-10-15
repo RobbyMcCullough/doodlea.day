@@ -1,3 +1,8 @@
+## 2026-10-14 — Current rainbow lollipop lesson (Codex)
+
+- Added Doodlea Day 143, `rainbow-spiral-lollipop-with-bow`, for October 14. Six saved felt-tip crops keep the candy circle and spiral, two bow loops, two pointed tails, centered knot, single rounded stick, two sparkles and three shadow dashes through the final marker fill. Teaching 8.4/10, saved finish 8.5/10; all five adjacent pairs, individual landmarks, no temporary guides, image hashes and contract hash were reviewed. The pre-existing megaphone rejection was honored; several power-plug sheets failed registration or stage continuity and remain private as rejected-quality.
+- Schema-v5 readiness passed; Cove home, library and tutorial passed at 1440×1000 and 390×844 with images loaded, valid JSON-LD and no horizontal overflow. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-10-14 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-12 — Current lightning cloud lesson (Codex)
 
 - Added Doodlea Day 141, `comic-lightning-cloud`, for October 12. Six saved marker crops keep the cloud, two-stage centered zigzag bolt, one raindrop on each side, inner curl, and two accent dashes fixed through saturated color. Rectangular source cells were padded to square by the crop script without stretching.

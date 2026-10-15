@@ -1,0 +1,324 @@
+{
+  "schema_version": 5,
+  "slug": "rainbow-spiral-lollipop-with-bow",
+  "finished": "assets/rainbow-spiral-lollipop-with-bow-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One round candy outline high on the page fixes the center and leaves a clear space below for a tied bow and straight stick.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Replacement current-day Doodlea subject after the power-plug process could not hold its body position."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "candy circle",
+      "introduced_by_step": 1,
+      "description": "One large imperfect round candy outline sits high on the paper."
+    },
+    {
+      "name": "center swirl",
+      "introduced_by_step": 2,
+      "description": "One continuous black spiral starts near candy center and widens toward its edge."
+    },
+    {
+      "name": "left bow loop",
+      "introduced_by_step": 3,
+      "description": "One open curved loop attaches to a central knot directly below candy."
+    },
+    {
+      "name": "right bow loop",
+      "introduced_by_step": 3,
+      "description": "A matching curved loop attaches to the other side of the same knot."
+    },
+    {
+      "name": "bow knot",
+      "introduced_by_step": 3,
+      "description": "One small oval knot sits centered under the candy between the loops."
+    },
+    {
+      "name": "left ribbon tail",
+      "introduced_by_step": 3,
+      "description": "One short pointed tail hangs below the left loop."
+    },
+    {
+      "name": "right ribbon tail",
+      "introduced_by_step": 3,
+      "description": "One short pointed tail hangs below the right loop."
+    },
+    {
+      "name": "straight stick",
+      "introduced_by_step": 4,
+      "description": "One slim two-line stick continues down from behind the bow knot and closes in a rounded tip."
+    },
+    {
+      "name": "left sparkle",
+      "introduced_by_step": 5,
+      "description": "One small four-point sparkle sits outside the candy on the left."
+    },
+    {
+      "name": "right sparkle",
+      "introduced_by_step": 5,
+      "description": "One second four-point sparkle sits outside the candy on the right."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "Three short broken dark shadow strokes sit directly below the rounded stick tip."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/rainbow-spiral-lollipop-with-bow-step-1.jpg",
+      "step_name": "Draw the round candy",
+      "visible_job": "Near the top half of the page, draw one generous hand-drawn circle. Leave open paper below it for the bow and stick.",
+      "instruction": "Near the top half of the page, draw one generous hand-drawn circle. Leave open paper below it for the bow and stick.",
+      "adds": [
+        "candy circle"
+      ],
+      "introduces": [
+        "candy circle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/rainbow-spiral-lollipop-with-bow-step-2.jpg",
+      "step_name": "Wind the swirl",
+      "visible_job": "Start a loose black spiral near the candy center and wind it outward toward the rim. Stop before crossing the outer circle.",
+      "instruction": "Start a loose black spiral near the candy center and wind it outward toward the rim. Stop before crossing the outer circle.",
+      "adds": [
+        "center swirl"
+      ],
+      "introduces": [
+        "center swirl"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/rainbow-spiral-lollipop-with-bow-step-3.jpg",
+      "step_name": "Tie the bow",
+      "visible_job": "Directly under the candy, draw a small oval knot, a rounded loop to each side, and one short pointed ribbon tail beneath each loop. Keep all four parts attached to the knot.",
+      "instruction": "Directly under the candy, draw a small oval knot, a rounded loop to each side, and one short pointed ribbon tail beneath each loop. Keep all four parts attached to the knot.",
+      "adds": [
+        "left bow loop",
+        "right bow loop",
+        "bow knot",
+        "left ribbon tail",
+        "right ribbon tail"
+      ],
+      "introduces": [
+        "left bow loop",
+        "right bow loop",
+        "bow knot",
+        "left ribbon tail",
+        "right ribbon tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/rainbow-spiral-lollipop-with-bow-step-4.jpg",
+      "step_name": "Pull the stick",
+      "visible_job": "From below the bow knot, draw two straight parallel stick edges down and round their lower tip. Stop the top edges behind the bow so no line crosses either loop.",
+      "instruction": "From below the bow knot, draw two straight parallel stick edges down and round their lower tip. Stop the top edges behind the bow so no line crosses either loop.",
+      "adds": [
+        "straight stick"
+      ],
+      "introduces": [
+        "straight stick"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/rainbow-spiral-lollipop-with-bow-step-5.jpg",
+      "step_name": "Add two sparkles",
+      "visible_job": "Outside the round candy, draw one small four-point sparkle on the left and one on the right. Place three short broken shadow strokes just below the stick tip.",
+      "instruction": "Outside the round candy, draw one small four-point sparkle on the left and one on the right. Place three short broken shadow strokes just below the stick tip.",
+      "adds": [
+        "left sparkle",
+        "right sparkle",
+        "ground shadow"
+      ],
+      "introduces": [
+        "left sparkle",
+        "right sparkle",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/rainbow-spiral-lollipop-with-bow-finished-v1.jpg",
+    "step_name": "Color the candy and bow",
+    "visible_job": "Fill established spiral spaces with bright pink, yellow, teal and orange marker, color the bow purple and stick warm gray.",
+    "instruction": "Let the black outlines dry. Fill the existing spiral spaces with bright pink, yellow, teal and orange marker, color the bow purple, the stick warm gray and both sparkles yellow. Keep the same swirl and bow contours visible.",
+    "adds": [
+      "marker color within established candy, bow, stick and sparkles"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.4,
+    "finished_art_score": 8.5,
+    "first_step_observation": "The first saved crop shows one confident, slightly irregular round candy outline high on the sheet. Its open interior makes the next spiral easy to place, and the large blank area below reserves room for bow and stick.",
+    "draw_through_observation": "I viewed the full contact sheet and every saved adjacent crop through the colored finish. The same round candy and single spiral persist; the knot attaches both loops and two tails, the stick stays behind the knot, and the two sparkles remain outside. No temporary guides or unexplained missing contours were seen.",
+    "contract_sha256": "26a39bf5332c8dc9e5ef02171baf8dc5adf79e12aaa318273baf8cb567840be9",
+    "asset_sha256": {
+      "assets/rainbow-spiral-lollipop-with-bow-step-1.jpg": "1ac74ffab1aa35cb62395f8da126d10a97f3f55ccc48957e670b8675126db3bc",
+      "assets/rainbow-spiral-lollipop-with-bow-step-2.jpg": "d9629c996e6140471425724c4928f1c953a936d2116a1c0406eaf86bd48e6333",
+      "assets/rainbow-spiral-lollipop-with-bow-step-3.jpg": "804ff63234a5557ea1b507082b65ea1cb76d674af7c78dccb9960735d28a96be",
+      "assets/rainbow-spiral-lollipop-with-bow-step-4.jpg": "10dfd524e30f53f030624773998a75fecd72114c0f0297f5a6f72bbd1f2024fe",
+      "assets/rainbow-spiral-lollipop-with-bow-step-5.jpg": "f7794d8542af08a27a8a7dd685cfe331f49be44814074f1ac3d438eb2d0b4cc8",
+      "assets/rainbow-spiral-lollipop-with-bow-finished-v1.jpg": "76f9429928af6d293978891661a8e7bf36b349cf722808c612df0a0ca721c947"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "candy circle",
+          "center swirl"
+        ],
+        "landmark_observations": {
+          "candy circle": "The thick imperfect circle remains high on the page with the same clear open lower edge.",
+          "center swirl": "One continuous black curl starts near center and widens to meet the lower-right area of the candy without crossing the rim."
+        },
+        "observed_addition": "A continuous inward spiral appears inside the established circle.",
+        "instruction_match": "The saved second crop matches the instruction to wind one line from center outward and stop within the rim.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "candy circle",
+          "center swirl",
+          "left bow loop",
+          "right bow loop",
+          "bow knot",
+          "left ribbon tail",
+          "right ribbon tail"
+        ],
+        "landmark_observations": {
+          "candy circle": "The round outer black contour still encloses the same candy disk.",
+          "center swirl": "The inward curl keeps the same center, winding direction and lower-right termination.",
+          "left bow loop": "One left rounded loop touches the new central knot just below the candy.",
+          "right bow loop": "One matching right loop touches the same knot.",
+          "bow knot": "The small oval sits centered under the candy where the two loops meet.",
+          "left ribbon tail": "One pointed tail falls down-left from the knot beneath the left loop.",
+          "right ribbon tail": "One pointed tail falls down-right from the knot beneath the right loop."
+        },
+        "observed_addition": "One central knot, two attached loops and two pointed tails form a complete bow beneath the candy.",
+        "instruction_match": "The third crop shows exactly the knot, left and right loops, and one pointed tail under each loop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "candy circle",
+          "center swirl",
+          "left bow loop",
+          "right bow loop",
+          "bow knot",
+          "left ribbon tail",
+          "right ribbon tail",
+          "straight stick"
+        ],
+        "landmark_observations": {
+          "candy circle": "The round candy outline still sits directly over the centered bow.",
+          "center swirl": "The same continuous curl remains inside the candy, with no extra spiral turn.",
+          "left bow loop": "The left loop still ends at the oval knot, with no stick line crossing it.",
+          "right bow loop": "The right loop still attaches to the knot and remains open.",
+          "bow knot": "The oval knot remains between the loops and in front of the new stick.",
+          "left ribbon tail": "The left pointed tail keeps its down-left tip and attachment.",
+          "right ribbon tail": "The right pointed tail keeps its down-right tip and attachment.",
+          "straight stick": "Two close vertical lines start behind the knot, pass between the tails and join at one rounded lower tip."
+        },
+        "observed_addition": "A narrow two-line stick descends from behind the knot to a rounded tip.",
+        "instruction_match": "The fourth crop shows the stick start hidden by the knot and its two sides join at one rounded end.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "candy circle",
+          "center swirl",
+          "left bow loop",
+          "right bow loop",
+          "bow knot",
+          "left ribbon tail",
+          "right ribbon tail",
+          "straight stick",
+          "left sparkle",
+          "right sparkle",
+          "ground shadow"
+        ],
+        "landmark_observations": {
+          "candy circle": "The candy keeps one bold circular edge, clear of both outside sparkles.",
+          "center swirl": "The single curl remains visible inside the same outer ring.",
+          "left bow loop": "The left rounded loop still touches the center knot.",
+          "right bow loop": "The right rounded loop still touches the center knot.",
+          "bow knot": "The knot remains centered under candy and above stick.",
+          "left ribbon tail": "The left pointed tail remains outside the stick on the lower left.",
+          "right ribbon tail": "The right pointed tail remains outside the stick on the lower right.",
+          "straight stick": "The same narrow two-line stick ends in its rounded tip above the new shadow.",
+          "left sparkle": "One open four-point sparkle now floats left of the candy.",
+          "right sparkle": "A second open four-point sparkle now floats right of the candy.",
+          "ground shadow": "Three separate horizontal black dashes sit below the rounded stick tip."
+        },
+        "observed_addition": "Two outside four-point sparkles and three short ground-shadow dashes appear.",
+        "instruction_match": "The fifth crop matches the two counted outside sparkles and the three shadow strokes under the tip.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "candy circle",
+          "center swirl",
+          "left bow loop",
+          "right bow loop",
+          "bow knot",
+          "left ribbon tail",
+          "right ribbon tail",
+          "straight stick",
+          "left sparkle",
+          "right sparkle",
+          "ground shadow"
+        ],
+        "landmark_observations": {
+          "candy circle": "The existing outer candy edge remains black around the new pink, yellow, teal and orange fill.",
+          "center swirl": "The same black inward curl stays continuous and readable through the multicolor fill.",
+          "left bow loop": "The left loop keeps its outline and receives streaky purple marker.",
+          "right bow loop": "The right loop keeps its outline and receives matching purple marker.",
+          "bow knot": "The centered oval remains between loops and above the stick, filled purple.",
+          "left ribbon tail": "The pointed left tail keeps its notch under the purple fill.",
+          "right ribbon tail": "The pointed right tail keeps its notch and position.",
+          "straight stick": "The established narrow stick remains behind the bow and receives gray marker only.",
+          "left sparkle": "The left four-point contour remains fixed and fills yellow.",
+          "right sparkle": "The right four-point contour remains fixed and fills yellow.",
+          "ground shadow": "All three earlier broken dashes persist below the stick without new lines."
+        },
+        "observed_addition": "The established spiral, bow, stick and sparkles gain streaky marker color with no new structural contour.",
+        "instruction_match": "The finish follows the color instruction while preserving the complete black spiral and all bow, stick and sparkle edges.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

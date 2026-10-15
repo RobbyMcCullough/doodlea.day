@@ -272,6 +272,11 @@
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
+    "cartoon-power-plug-with-curly-cord": {
+      "status": "rejected-quality",
+      "date": "2026-10-14",
+      "note": "Multiple contact-sheet and targeted-registration attempts moved the plug body when the cord appeared; earlier variants also introduced early color, thick borders, or changed black marks to white. Plan and six private iterations preserved. No public art or lesson."
+    },
     "cartoon-pretzel": {
       "status": "published",
       "date": "2026-05-18",
@@ -575,6 +580,11 @@
     },
     "rainbow-lightning-bolt-badge": {
       "status": "published"
+    },
+    "rainbow-spiral-lollipop-with-bow": {
+      "status": "published",
+      "date": "2026-10-14",
+      "note": "Approved six-panel felt-tip progression, with all structural parts before final marker color; current Doodlea Day 143."
     },
     "red-white-blue-popsicle-badge": {
       "status": "published"

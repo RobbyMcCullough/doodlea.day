@@ -1,0 +1,168 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-power-plug-with-curly-cord",
+  "finished": "assets/cartoon-power-plug-with-curly-cord-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad rounded plug body points left, fixing the front edge for the two prongs and the right edge for the cord; it is simple enough to copy alone.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First current-day Doodlea contact sheet for a face-free marker subject."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "plug body",
+      "introduced_by_step": 1,
+      "description": "One broad rounded plug body lies horizontally, with its flat front pointing left."
+    },
+    {
+      "name": "upper prong",
+      "introduced_by_step": 2,
+      "description": "One short metal prong extends left from the upper half of the flat front."
+    },
+    {
+      "name": "lower prong",
+      "introduced_by_step": 2,
+      "description": "One matching prong extends left beneath the upper one, leaving a clear gap."
+    },
+    {
+      "name": "cord neck",
+      "introduced_by_step": 3,
+      "description": "Two short parallel cord lines emerge from the right end of the body."
+    },
+    {
+      "name": "curly cord",
+      "introduced_by_step": 3,
+      "description": "One thick single-loop cord curves rightward from the neck without crossing the body."
+    },
+    {
+      "name": "grip ridge",
+      "introduced_by_step": 4,
+      "description": "One curved ridge follows the right third of the plug body."
+    },
+    {
+      "name": "upper shine dash",
+      "introduced_by_step": 4,
+      "description": "One short open shine dash sits on the upper body face."
+    },
+    {
+      "name": "lower shine dash",
+      "introduced_by_step": 4,
+      "description": "One separate short shine dash sits lower on the body face."
+    },
+    {
+      "name": "first spark stroke",
+      "introduced_by_step": 5,
+      "description": "One small zigzag floats left of the upper prong."
+    },
+    {
+      "name": "second spark stroke",
+      "introduced_by_step": 5,
+      "description": "A second separate zigzag floats below-left of the lower prong."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "A soft broken oval shadow sits directly below the plug body."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-power-plug-with-curly-cord-step-1.jpg",
+      "step_name": "Draw the plug body",
+      "visible_job": "Draw a broad rounded plug body pointing left. Keep its front edge nearly flat and its right end softly curved for the cord neck.",
+      "instruction": "Draw a broad rounded plug body pointing left. Keep its front edge nearly flat and its right end softly curved for the cord neck.",
+      "adds": [
+        "plug body"
+      ],
+      "introduces": [
+        "plug body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-power-plug-with-curly-cord-step-2.jpg",
+      "step_name": "Add two prongs",
+      "visible_job": "From the flat left edge, extend two short parallel metal prongs, one above the other. Cap their ends and keep a clear paper gap between them.",
+      "instruction": "From the flat left edge, extend two short parallel metal prongs, one above the other. Cap their ends and keep a clear paper gap between them.",
+      "adds": [
+        "upper prong",
+        "lower prong"
+      ],
+      "introduces": [
+        "upper prong",
+        "lower prong"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-power-plug-with-curly-cord-step-3.jpg",
+      "step_name": "Curl the cord",
+      "visible_job": "From the rounded right end, draw a narrow two-line neck, then carry it into one loose clockwise curl to the right. Keep the cord clear of the plug body.",
+      "instruction": "From the rounded right end, draw a narrow two-line neck, then carry it into one loose clockwise curl to the right. Keep the cord clear of the plug body.",
+      "adds": [
+        "cord neck",
+        "curly cord"
+      ],
+      "introduces": [
+        "cord neck",
+        "curly cord"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-power-plug-with-curly-cord-step-4.jpg",
+      "step_name": "Mark grip and shine",
+      "visible_job": "Near the right third of the body, add one curved grip ridge. Put two short separate shine dashes on the face, one high and one low.",
+      "instruction": "Near the right third of the body, add one curved grip ridge. Put two short separate shine dashes on the face, one high and one low.",
+      "adds": [
+        "grip ridge",
+        "upper shine dash",
+        "lower shine dash"
+      ],
+      "introduces": [
+        "grip ridge",
+        "upper shine dash",
+        "lower shine dash"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-power-plug-with-curly-cord-step-5.jpg",
+      "step_name": "Add sparks and shadow",
+      "visible_job": "Place one small zigzag left of the upper prong and one below-left of the lower prong. Sweep a broken oval shadow directly below the body without touching the cord.",
+      "instruction": "Place one small zigzag left of the upper prong and one below-left of the lower prong. Sweep a broken oval shadow directly below the body without touching the cord.",
+      "adds": [
+        "first spark stroke",
+        "second spark stroke",
+        "ground shadow"
+      ],
+      "introduces": [
+        "first spark stroke",
+        "second spark stroke",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-power-plug-with-curly-cord-finished-v1.jpg",
+    "step_name": "Fill the marker color",
+    "visible_job": "Fill the established body teal, prongs warm gray, cord orange and two sparks yellow, leaving both shine dashes uncolored.",
+    "instruction": "Let the outlines dry, then fill the existing plug body teal, two prongs warm gray, one curled cord orange and both sparks yellow. Keep the two shine dashes white and deepen only the established shadow.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}
