@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a bicycle bell</title>
+      <link>https://doodlea.day/tutorials/cartoon-bicycle-bell.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-bicycle-bell.html</guid>
+      <pubDate>Fri, 16 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a bicycle bell with a rounded dome, small top button, mounting clamp, thumb lever, two ringing marks, and bright marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-bicycle-bell-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a firefly in a jar</title>
       <link>https://doodlea.day/tutorials/cartoon-firefly-in-a-jar.html</link>

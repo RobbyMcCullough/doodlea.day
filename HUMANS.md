@@ -1,3 +1,8 @@
+## 2026-10-16 — Current bicycle bell lesson (Codex)
+
+- Added Doodlea Day 145, `cartoon-bicycle-bell`, for October 16. Five saved marker crops keep the dome, base band, top button, shine stroke, U clamp and screw anchored as a left lever and two sound ticks appear, followed by textured coral, teal and yellow color. The first sheet was rejected privately because its lever clipped and its crop picked up a neighboring panel.
+- Reviewed every saved adjacent pair including the finish; no temporary guides or unexplained moves. Teaching 8.3/10, saved finish 8.4/10. Schema-v5 hashes and readiness passed; Cove home, library and tutorial passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD and no overflow. One-current-lesson-per-site cadence remains active, without backfill. Harness: Codex; task: 2026-10-16 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-15 — Current firefly in a jar lesson (Codex)
 
 - Added Doodlea Day 144, `cartoon-firefly-in-a-jar`, for October 15. Six saved marker crops keep the rounded jar, ribbed rim, blank then expressive firefly head, gray thorax, tapered unstriped tail, two veined wings, antennae, four glow dashes and glass accents in position through the coral, teal, blue and yellow-orange finish.

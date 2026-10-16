@@ -1,0 +1,217 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-bicycle-bell",
+  "finished": "assets/cartoon-bicycle-bell-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One bold dome and its narrow base band establish the bell silhouette and leave clear space below for the handlebar clamp.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Second generated raster sheet approved after first had clipped lever and neighboring-panel bleed."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "bell dome",
+      "introduced_by_step": 1,
+      "description": "One squat rounded dome in its final side view position."
+    },
+    {
+      "name": "base band",
+      "introduced_by_step": 1,
+      "description": "Narrow horizontal band under the dome."
+    },
+    {
+      "name": "top button",
+      "introduced_by_step": 2,
+      "description": "Small round cap at the dome top."
+    },
+    {
+      "name": "shine stroke",
+      "introduced_by_step": 2,
+      "description": "One short curved highlight mark on upper-left dome."
+    },
+    {
+      "name": "handlebar clamp",
+      "introduced_by_step": 3,
+      "description": "U-shaped mounting clamp below the band at right."
+    },
+    {
+      "name": "clamp screw",
+      "introduced_by_step": 3,
+      "description": "Small screw circle in the clamp."
+    },
+    {
+      "name": "thumb lever",
+      "introduced_by_step": 4,
+      "description": "Short bent lever extending from left edge of band."
+    },
+    {
+      "name": "two sound ticks",
+      "introduced_by_step": 4,
+      "description": "Two short curved ringing marks outside upper-left dome."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-bicycle-bell-step-1.jpg",
+      "step_name": "Shape the bell",
+      "visible_job": "Draw a squat rounded dome with a flat lower edge, then add a narrow band directly beneath it. Keep the left and right ends aligned.",
+      "instruction": "Draw a squat rounded dome with a flat lower edge, then add a narrow band directly beneath it. Keep the left and right ends aligned.",
+      "adds": [
+        "bell dome",
+        "base band"
+      ],
+      "introduces": [
+        "bell dome",
+        "base band"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-bicycle-bell-step-2.jpg",
+      "step_name": "Fit the cap and shine",
+      "visible_job": "Place a small round button on top center of the dome. Draw one short curved shine stroke inside the upper-left dome, well away from the outer outline.",
+      "instruction": "Place a small round button on top center of the dome. Draw one short curved shine stroke inside the upper-left dome, well away from the outer outline.",
+      "adds": [
+        "top button",
+        "shine stroke"
+      ],
+      "introduces": [
+        "top button",
+        "shine stroke"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-bicycle-bell-step-3.jpg",
+      "step_name": "Mount the clamp",
+      "visible_job": "Under the right half of the band, draw a U-shaped handlebar clamp with a small screw circle on its outer side. Leave the left band edge free for the lever.",
+      "instruction": "Under the right half of the band, draw a U-shaped handlebar clamp with a small screw circle on its outer side. Leave the left band edge free for the lever.",
+      "adds": [
+        "handlebar clamp",
+        "clamp screw"
+      ],
+      "introduces": [
+        "handlebar clamp",
+        "clamp screw"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-bicycle-bell-step-4.jpg",
+      "step_name": "Add the lever and ring",
+      "visible_job": "From the left band edge, draw a short bent thumb lever pointing up-left. Put two short curved sound ticks outside the dome at upper left.",
+      "instruction": "From the left band edge, draw a short bent thumb lever pointing up-left. Put two short curved sound ticks outside the dome at upper left.",
+      "adds": [
+        "thumb lever",
+        "two sound ticks"
+      ],
+      "introduces": [
+        "thumb lever",
+        "two sound ticks"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-bicycle-bell-finished-v1.jpg",
+    "step_name": "Color the bicycle bell",
+    "visible_job": "Color established contours with coral, teal and yellow marker.",
+    "instruction": "Fill the existing dome coral, the narrow band and clamp teal, and the top button and lever yellow. Keep the sound ticks black and leave small paper highlights inside the dome.",
+    "adds": [
+      "marker color in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved square crop has one clear squat dome on a narrow band, centered with empty paper above, left and below for later attachments. The thick slightly uneven felt-tip contour is easy to copy.",
+    "draw_through_observation": "I compared all five saved square crops in order. The dome, base band, top button, inner shine stroke, U clamp, right screw, left lever and two sound ticks retain their anchors through the coral, teal and yellow finish. No temporary guides or unexplained erasures appear.",
+    "contract_sha256": "90e504465ac19d466a9dd30491fb12c0d6f8ef758ec2b65da731cfaec1bff151",
+    "asset_sha256": {
+      "assets/cartoon-bicycle-bell-step-1.jpg": "b1790de15d6945cc7448ebe31a8cbb21e0be63a5394aab1b99ccf8b945e0be0e",
+      "assets/cartoon-bicycle-bell-step-2.jpg": "37413c2246ed3a759032afbee826c5253eea9d65480b6a787f3d09e7ade7baf1",
+      "assets/cartoon-bicycle-bell-step-3.jpg": "86c3afc941f3afd5a7d53c278edad46626aaf1508ae567a781cb0d92bf96ad08",
+      "assets/cartoon-bicycle-bell-step-4.jpg": "1996965b448af6b42b05fe8c356ab978a280be8d426aba34d20f0dcbaf141320",
+      "assets/cartoon-bicycle-bell-finished-v1.jpg": "6d5a12a2f0b09038c2786e65cfca0ac3cac1333fa25d37ec0f6f3cd26a71d9b1"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "bell dome",
+          "base band",
+          "top button",
+          "shine stroke"
+        ],
+        "observed_addition": "A small cylindrical button lands at the dome apex and one short curved shine stroke appears inside its upper-left face; the original dome and band remain.",
+        "instruction_match": "The saved second crop matches the cap-and-shine instruction at the specified locations.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "bell dome",
+          "base band",
+          "top button",
+          "shine stroke",
+          "handlebar clamp",
+          "clamp screw"
+        ],
+        "observed_addition": "A U-shaped clamp hangs from the band underside and one screw circle with a diagonal slot appears on its right; the dome, band, button and shine remain.",
+        "instruction_match": "The saved third crop matches the U clamp and outer screw instruction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "bell dome",
+          "base band",
+          "top button",
+          "shine stroke",
+          "handlebar clamp",
+          "clamp screw",
+          "thumb lever",
+          "two sound ticks"
+        ],
+        "observed_addition": "A bent lever attaches at the left end of the band and ends in a round knob; exactly two separate ringing arcs appear above-left, with the clamp and screw unchanged.",
+        "instruction_match": "The saved fourth crop matches the left lever and two ringing marks instruction without shifting earlier parts.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "bell dome",
+          "base band",
+          "top button",
+          "shine stroke",
+          "handlebar clamp",
+          "clamp screw",
+          "thumb lever",
+          "two sound ticks"
+        ],
+        "observed_addition": "Uneven coral fills the dome around the inner shine stroke; teal fills band and clamp, yellow fills button and lever. All black contours, screw, and exactly two sound marks persist.",
+        "instruction_match": "The saved finish matches the named color regions and preserves every preexisting contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
