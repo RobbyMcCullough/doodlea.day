@@ -1,0 +1,217 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-pinwheel",
+  "finished": "assets/cartoon-pinwheel-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A small hub circle and one attached paper blade establish the pinwheel center and scale with two connected marker shapes.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved first five-panel generated raster sheet after full-sheet and saved-crop adjacent-pair review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "round hub",
+      "introduced_by_step": 1,
+      "description": "One small center circle in the upper half of the page."
+    },
+    {
+      "name": "upper-left blade",
+      "introduced_by_step": 1,
+      "description": "One broad triangular curved paper blade growing toward upper left from the hub."
+    },
+    {
+      "name": "upper-right blade",
+      "introduced_by_step": 2,
+      "description": "One second curved triangular blade from the hub toward upper right."
+    },
+    {
+      "name": "lower-right blade",
+      "introduced_by_step": 2,
+      "description": "One third curved triangular blade from the hub toward lower right."
+    },
+    {
+      "name": "lower-left blade",
+      "introduced_by_step": 3,
+      "description": "One fourth curved triangular blade from the hub toward lower left."
+    },
+    {
+      "name": "straight stick",
+      "introduced_by_step": 3,
+      "description": "One narrow vertical stick descending behind the center hub and the lower blades."
+    },
+    {
+      "name": "center fastener",
+      "introduced_by_step": 4,
+      "description": "One small dark fastener inside the original hub circle."
+    },
+    {
+      "name": "four motion ticks",
+      "introduced_by_step": 4,
+      "description": "Two pairs of short curved marker ticks outside opposite spinning blade tips."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pinwheel-step-1.jpg",
+      "step_name": "Start the hub and first blade",
+      "visible_job": "Outline a small round hub and one attached curved paper blade pointing up left.",
+      "instruction": "Draw a small circle above page center. From its upper-left edge, sweep out one wide rounded triangular blade, then curve its lower edge back to the same hub.",
+      "adds": [
+        "round hub",
+        "upper-left blade"
+      ],
+      "introduces": [
+        "round hub",
+        "upper-left blade"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pinwheel-step-2.jpg",
+      "step_name": "Turn the next two blades",
+      "visible_job": "Add an upper-right blade and a lower-right blade at the existing hub without moving the first.",
+      "instruction": "From the same hub, draw one curved triangular blade toward upper right and another toward lower right. Keep their outer tips separated and their inner ends tucked beneath the hub.",
+      "adds": [
+        "upper-right blade",
+        "lower-right blade"
+      ],
+      "introduces": [
+        "upper-right blade",
+        "lower-right blade"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pinwheel-step-3.jpg",
+      "step_name": "Close the wheel and stick",
+      "visible_job": "Add the lower-left blade and a narrow straight stick behind the wheel.",
+      "instruction": "Fill the open lower-left quadrant with the fourth curved blade. From behind the hub, draw two close vertical lines down for the stick, stopping its top where the blades cover it.",
+      "adds": [
+        "lower-left blade",
+        "straight stick"
+      ],
+      "introduces": [
+        "lower-left blade",
+        "straight stick"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pinwheel-step-4.jpg",
+      "step_name": "Set the fastener and spin",
+      "visible_job": "Ink a small center fastener and two pairs of curved motion ticks beyond opposite blade tips.",
+      "instruction": "Place one small dark fastener in the hub circle. Add two short curved ticks outside the upper-left blade and two outside the lower-right blade, keeping all four clear of the paper.",
+      "adds": [
+        "center fastener",
+        "four motion ticks"
+      ],
+      "introduces": [
+        "center fastener",
+        "four motion ticks"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-pinwheel-finished-v1.jpg",
+    "step_name": "Color the spinning paper",
+    "visible_job": "Fill only the four existing blades and stick with visible felt-tip marker grain.",
+    "instruction": "Color the four outlined blades coral, yellow, teal, and violet, one color per blade. Fill the stick blue, reinforce the same black contours, and leave small paper streaks for handmade marker texture.",
+    "adds": [
+      "marker color in established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved crop contains one small black round hub and exactly one upper-left curved triangular blade. Both shapes connect and leave open space for the other three blades.",
+    "draw_through_observation": "I inspected the full five-panel sheet and every saved crop from first outline to colored finish. The original hub and all four blade tips stay at fixed anchors; the stick arrives before the fastener and four motion ticks. No temporary guides or unexplained moves appear.",
+    "contract_sha256": "6ce715c92b9d7aaaadc28d6d955f77314fb1d1fc72c5b25140465c2049c73443",
+    "asset_sha256": {
+      "assets/cartoon-pinwheel-step-1.jpg": "145b56417529beb5056f170f86239d436c6dcd847a50ba69ec1a7a28975afa7d",
+      "assets/cartoon-pinwheel-step-2.jpg": "7bec9578422590ca1fa09e1e6f24dab03cee8111d2d8904eab085d291f14f993",
+      "assets/cartoon-pinwheel-step-3.jpg": "581da95c4531ad3b0959684bfb8318897dc34db80160e5dc3fec6d8fa2316fdd",
+      "assets/cartoon-pinwheel-step-4.jpg": "0b8c2995f385db90199aeae20947e966d5626fc77c1d540a04f2348b4e222404",
+      "assets/cartoon-pinwheel-finished-v1.jpg": "5e85d4f1afb867d120f887d7b48631302365975638f872e592bbc297eb172439"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "round hub",
+          "upper-left blade",
+          "upper-right blade",
+          "lower-right blade"
+        ],
+        "observed_addition": "The original hub circle and upper-left blade remain fixed; a broad upper-right blade and a lower-right curved blade grow from the same hub, leaving three countable blades.",
+        "instruction_match": "The saved second crop matches the instruction to add the two right-side blades without changing the original upper-left outline.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "round hub",
+          "upper-left blade",
+          "upper-right blade",
+          "lower-right blade",
+          "lower-left blade",
+          "straight stick"
+        ],
+        "observed_addition": "All three earlier blades stay attached to the hub; a fourth blade fills the lower-left quadrant and a narrow vertical stick descends behind the hub, ending in a rounded base.",
+        "instruction_match": "The saved third crop matches the fourth-blade and stick instruction; the stick top stops at the hub rather than drawing through it.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "round hub",
+          "upper-left blade",
+          "upper-right blade",
+          "lower-right blade",
+          "lower-left blade",
+          "straight stick",
+          "center fastener",
+          "four motion ticks"
+        ],
+        "observed_addition": "The same four blade tips and stick remain. A small black fastener appears inside the hub, with two curved ticks above the upper-left tip and two beside the lower-right tip.",
+        "instruction_match": "The saved fourth crop matches one fastener and two pairs of motion ticks, with no extra blade or changed attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "round hub",
+          "upper-left blade",
+          "upper-right blade",
+          "lower-right blade",
+          "lower-left blade",
+          "straight stick",
+          "center fastener",
+          "four motion ticks"
+        ],
+        "observed_addition": "The four established blades stay in the same quadrants and become coral, yellow, teal, and violet; the straight stick becomes blue while the hub fastener and four motion ticks remain.",
+        "instruction_match": "The finished crop follows the one-color-per-blade instruction and adds streaky marker fill only within existing contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

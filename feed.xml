@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon pinwheel</title>
+      <link>https://doodlea.day/tutorials/cartoon-pinwheel.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-pinwheel.html</guid>
+      <pubDate>Sat, 17 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a colorful four-blade pinwheel with a round hub, narrow stick, center fastener, motion marks, bold felt-tip outlines, and textured marker fills.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-pinwheel-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a bicycle bell</title>
       <link>https://doodlea.day/tutorials/cartoon-bicycle-bell.html</link>
