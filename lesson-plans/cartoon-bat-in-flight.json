@@ -1,0 +1,276 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-bat-in-flight",
+  "finished": "assets/cartoon-bat-in-flight-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A rounded head with two attached pointed ears gives the bat a fixed center and enough blank space on both sides for broad wings.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Two generated sheets and one derived fallback were rejected privately for head drift, premature coloring, or erasure artifacts. The approved third generated raster sheet was registered by translating whole square cells without reshaping the bat before cropping."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "round head outline",
+      "introduced_by_step": 1,
+      "description": "One broad round head centered near the upper half of the page."
+    },
+    {
+      "name": "left pointed ear",
+      "introduced_by_step": 1,
+      "description": "One pointed ear attached to the head upper left."
+    },
+    {
+      "name": "right pointed ear",
+      "introduced_by_step": 1,
+      "description": "One matching pointed ear attached to the head upper right."
+    },
+    {
+      "name": "small body",
+      "introduced_by_step": 2,
+      "description": "One small tapered body connected under the head."
+    },
+    {
+      "name": "two tiny feet",
+      "introduced_by_step": 2,
+      "description": "Exactly two short claw feet attached at the body's lower end."
+    },
+    {
+      "name": "left scalloped wing",
+      "introduced_by_step": 3,
+      "description": "One broad left wing attaches at the left shoulder and has exactly three lower scallops."
+    },
+    {
+      "name": "right scalloped wing",
+      "introduced_by_step": 4,
+      "description": "One broad right wing attaches at the right shoulder and has exactly three lower scallops."
+    },
+    {
+      "name": "left wide eye",
+      "introduced_by_step": 5,
+      "description": "One broad oval eye on the head's left half, with dark pupil."
+    },
+    {
+      "name": "right wink",
+      "introduced_by_step": 5,
+      "description": "One short angled wink on the head's right half, visibly different from the wide left eye."
+    },
+    {
+      "name": "fang grin",
+      "introduced_by_step": 5,
+      "description": "One curved grin with exactly two tiny downward fangs."
+    },
+    {
+      "name": "wing ribs",
+      "introduced_by_step": 5,
+      "description": "One short rib line inside each wing, pointing toward the upper wing tip."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-bat-in-flight-step-1.jpg",
+      "step_name": "Draw the head and ears",
+      "visible_job": "Place one round head and its two pointed ears.",
+      "instruction": "Draw a broad circle above page center. Attach one pointed ear at each upper side, leaving the lower sides of the head clear for wings.",
+      "adds": [
+        "round head outline",
+        "left pointed ear",
+        "right pointed ear"
+      ],
+      "introduces": [
+        "round head outline",
+        "left pointed ear",
+        "right pointed ear"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-bat-in-flight-step-2.jpg",
+      "step_name": "Hang the small body",
+      "visible_job": "Attach a small tapered body and two tiny feet below the head.",
+      "instruction": "From the bottom of the head, taper a short body downward. At its base, attach two tiny claw feet that point outward, one to each side.",
+      "adds": [
+        "small body",
+        "two tiny feet"
+      ],
+      "introduces": [
+        "small body",
+        "two tiny feet"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-bat-in-flight-step-3.jpg",
+      "step_name": "Spread the left wing",
+      "visible_job": "Connect one broad three-scallop wing to the left shoulder.",
+      "instruction": "From the left shoulder, sweep a long upper edge outward to a high wing tip. Curve the lower edge back in exactly three shallow scallops, meeting the same shoulder without covering the head.",
+      "adds": [
+        "left scalloped wing"
+      ],
+      "introduces": [
+        "left scalloped wing"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-bat-in-flight-step-4.jpg",
+      "step_name": "Spread the right wing",
+      "visible_job": "Connect a matching broad three-scallop wing at the right shoulder.",
+      "instruction": "Repeat the wide upper sweep from the right shoulder to a right wing tip. Bring the lower edge home in three shallow scallops, keeping the head and left wing fixed.",
+      "adds": [
+        "right scalloped wing"
+      ],
+      "introduces": [
+        "right scalloped wing"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-bat-in-flight-step-5.jpg",
+      "step_name": "Give the bat a cheeky face",
+      "visible_job": "Add a wide eye, opposite wink, two-fang grin, and one rib inside each wing.",
+      "instruction": "Set one wide oval eye on the left of the face and a short angled wink on the right. Curve a grin beneath them with two tiny fangs, then pull one short rib line inside each wing toward its tip.",
+      "adds": [
+        "left wide eye",
+        "right wink",
+        "fang grin",
+        "wing ribs"
+      ],
+      "introduces": [
+        "left wide eye",
+        "right wink",
+        "fang grin",
+        "wing ribs"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-bat-in-flight-finished-v1.jpg",
+    "step_name": "Color the flying bat",
+    "visible_job": "Fill the established head, body, and wings with visible marker texture.",
+    "instruction": "Fill the existing head and body deep violet, both wings indigo, and the ear centers coral. Keep the wide eye and two tiny fangs white; thicken only the same black outlines and rib lines.",
+    "adds": [
+      "marker fill on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.4,
+    "first_step_observation": "The first saved crop shows only the large round head and two attached pointed ears. Their fixed center leaves room for a body below and two broad wings to the sides; no face or detached guides appear early.",
+    "draw_through_observation": "I inspected the registered full sheet and all six saved JPGs in order. The head circle, left and right ears, small body, two claw feet, and wing attachments remain at consistent anchors; each wing keeps three lower scallops. The wide left eye, angled right wink, two fangs, and two inner ribs arrive before coloring. No temporary guides are used.",
+    "contract_sha256": "0e5fbb8d48307bddac574666a373734e8b5df7fb5297d51d347cbb15c0e5bc23",
+    "asset_sha256": {
+      "assets/cartoon-bat-in-flight-step-1.jpg": "9f349b607cac0d0e264dd323d1924845f3802d93cf7a525d156a8c4d628bd3a1",
+      "assets/cartoon-bat-in-flight-step-2.jpg": "6811ee6fdd0c66d9e9b18b2bd6299b06a6a1516b24dc7f1d694e135bbd43d010",
+      "assets/cartoon-bat-in-flight-step-3.jpg": "2fa8a717405dc45e909f32fbc85f6822ad33fa420c69be98d75d7f8cbe668f86",
+      "assets/cartoon-bat-in-flight-step-4.jpg": "3f2180abdfec418d1549bfe4e78dddb0a7a68037e757ef46a22135776a5c95d0",
+      "assets/cartoon-bat-in-flight-step-5.jpg": "5532e602d9b779a82256f3e375a76809a4b370c3aa9071cb9905d41b93516210",
+      "assets/cartoon-bat-in-flight-finished-v1.jpg": "f6cf8e4eeabd85a07fd82db3664cb3e91f871aaa65c91504fbf2fab2f7fda93e"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "round head outline",
+          "left pointed ear",
+          "right pointed ear",
+          "small body",
+          "two tiny feet"
+        ],
+        "observed_addition": "The round head and both ear tips remain; a short tapered oval body attaches below the head and exactly two little outward claw feet join its base.",
+        "instruction_match": "The second crop matches the body-and-feet instruction and leaves both shoulder sides open for wings.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "round head outline",
+          "left pointed ear",
+          "right pointed ear",
+          "small body",
+          "two tiny feet",
+          "left scalloped wing"
+        ],
+        "observed_addition": "The same central bat remains. A broad left wing sweeps from the left shoulder to one outer tip and returns with exactly three lower scallops.",
+        "instruction_match": "The third crop follows the instruction to form the left wing as one connected three-scallop shape, with the right side still blank.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "round head outline",
+          "left pointed ear",
+          "right pointed ear",
+          "small body",
+          "two tiny feet",
+          "left scalloped wing",
+          "right scalloped wing"
+        ],
+        "observed_addition": "The left wing, central head, body, and feet persist; a matching right wing attaches at the opposite shoulder and has three lower scallops.",
+        "instruction_match": "The fourth crop matches the right-wing instruction and keeps both wing tips separate from the head.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "round head outline",
+          "left pointed ear",
+          "right pointed ear",
+          "small body",
+          "two tiny feet",
+          "left scalloped wing",
+          "right scalloped wing",
+          "left wide eye",
+          "right wink",
+          "fang grin",
+          "wing ribs"
+        ],
+        "observed_addition": "The same six wing scallops and two feet remain. A broad left oval eye, angled right wink, curved grin with exactly two downward fangs, and one short rib line inside each wing appear.",
+        "instruction_match": "The fifth crop matches the expression and paired wing-rib instruction; its face is visibly different from a two-dot U-smile.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "round head outline",
+          "left pointed ear",
+          "right pointed ear",
+          "small body",
+          "two tiny feet",
+          "left scalloped wing",
+          "right scalloped wing",
+          "left wide eye",
+          "right wink",
+          "fang grin",
+          "wing ribs"
+        ],
+        "observed_addition": "The same contours and details remain. Violet marker fills head/body, indigo fills both wings, coral fills ear centers, and white paper stays in the eye and two fangs.",
+        "instruction_match": "The finished crop follows the color-only instruction with visible felt-tip streaks and no new structural element.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

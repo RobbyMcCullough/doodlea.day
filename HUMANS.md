@@ -1,3 +1,8 @@
+## 2026-10-18 — Current flying bat lesson (Codex)
+
+- Added Doodlea Day 147, `cartoon-bat-in-flight`, for October 18. Two generated sheets and a derived fallback were rejected privately for drift, premature coloring, or erasure artifacts. The approved six-panel raster sheet was registered by translating whole square cells without reshaping the bat. Its saved crops keep the round head, two pointed ears, small body, two feet, two three-scallop wings, wide eye, wink, two fangs and two wing ribs in place through textured marker color.
+- Reviewed all five adjacent saved-crop pairs including finish; no temporary guides or unexplained landmark moves. Teaching 8.2/10, saved finish 8.4/10. Schema-v5 hashes and readiness passed; Cove home/library/tutorial desktop and mobile QA passed with loaded new images, valid JSON-LD, no overflow, and lab noindex retained. One-current-lesson-per-site cadence remains active, without backfill. Harness: Codex; task: 2026-10-18 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-16 — Current bicycle bell lesson (Codex)
 
 - Added Doodlea Day 145, `cartoon-bicycle-bell`, for October 16. Five saved marker crops keep the dome, base band, top button, shine stroke, U clamp and screw anchored as a left lever and two sound ticks appear, followed by textured coral, teal and yellow color. The first sheet was rejected privately because its lever clipped and its crop picked up a neighboring panel.
