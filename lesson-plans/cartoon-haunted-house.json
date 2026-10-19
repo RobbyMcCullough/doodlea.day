@@ -1,0 +1,275 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-haunted-house",
+  "finished": "assets/cartoon-haunted-house-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first panel's two tall slightly crooked wall lines and connecting base fix the building's width, lean, and lower edge while leaving the top open for the roof.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "Six cumulative marker panels of one fixed crooked house. First sheet was rejected as vector-like and remains private; second sheet has visible hand-ink and marker texture. No lettering, sticker frame, or temporary guides."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "crooked wall outline",
+      "introduced_by_step": 1,
+      "description": "Two tall uneven house walls, slightly leaning, joined by one ground base and open at their upper ends for the future roof."
+    },
+    {
+      "name": "steep roof silhouette",
+      "introduced_by_step": 2,
+      "description": "One wide crooked peaked roof with left and right eaves attached to the top wall corners."
+    },
+    {
+      "name": "single chimney",
+      "introduced_by_step": 2,
+      "description": "One short leaning chimney behind the roof's right slope."
+    },
+    {
+      "name": "left window",
+      "introduced_by_step": 3,
+      "description": "One small square window on the upper left wall with a centered crossbar."
+    },
+    {
+      "name": "right window",
+      "introduced_by_step": 3,
+      "description": "A second separate square window on the upper right wall with a centered crossbar."
+    },
+    {
+      "name": "arched door",
+      "introduced_by_step": 3,
+      "description": "One tall arched door centered below and between the two windows."
+    },
+    {
+      "name": "door knob",
+      "introduced_by_step": 4,
+      "description": "One small knob on the right side of the established arched door."
+    },
+    {
+      "name": "roof shingles",
+      "introduced_by_step": 4,
+      "description": "Exactly three short broken roof shingle strokes on the established roof plane."
+    },
+    {
+      "name": "left wall crack",
+      "introduced_by_step": 5,
+      "description": "One short crooked two-stroke crack beside the lower left edge of the door."
+    },
+    {
+      "name": "right wall crack",
+      "introduced_by_step": 5,
+      "description": "One separate short crooked two-stroke crack beside the lower right window."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken dark oval immediately below the house base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-haunted-house-step-1.jpg",
+      "step_name": "Shape the crooked walls",
+      "visible_job": "Draw two tall uneven wall lines and a connecting base in their final position.",
+      "instruction": "With black felt tip, draw two tall, slightly leaning wall lines and join their bottoms with one flat base. Leave their top ends open so the roof can attach there next.",
+      "adds": [
+        "crooked wall outline"
+      ],
+      "introduces": [
+        "crooked wall outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-haunted-house-step-2.jpg",
+      "step_name": "Raise the roof and chimney",
+      "visible_job": "Attach a steep uneven roof and one chimney behind its right slope.",
+      "instruction": "From the two upper wall corners, sweep up to a steep off-center roof peak and back down, leaving an eave on each side. Tuck one short leaning chimney behind the right roof slope.",
+      "adds": [
+        "steep roof silhouette",
+        "single chimney"
+      ],
+      "introduces": [
+        "steep roof silhouette",
+        "single chimney"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-haunted-house-step-3.jpg",
+      "step_name": "Place windows and door",
+      "visible_job": "Add two separate crossbar windows and a centered arched door within the walls.",
+      "instruction": "Place one square window high on each wall side and cross each with one vertical and one horizontal bar. Below their gap, draw a tall arched door that meets the base.",
+      "adds": [
+        "left window",
+        "right window",
+        "arched door"
+      ],
+      "introduces": [
+        "left window",
+        "right window",
+        "arched door"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-haunted-house-step-4.jpg",
+      "step_name": "Give the roof its quirks",
+      "visible_job": "Add one door knob and three broken roof shingle strokes.",
+      "instruction": "Dot one small knob on the door's right side. Across the roof, place exactly three short broken shingle strokes, leaving the chimney and both windows clear.",
+      "adds": [
+        "door knob",
+        "roof shingles"
+      ],
+      "introduces": [
+        "door knob",
+        "roof shingles"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-haunted-house-step-5.jpg",
+      "step_name": "Crack and ground the walls",
+      "visible_job": "Add two separate crooked wall cracks and one broken oval ground shadow.",
+      "instruction": "Place one short crooked crack beside the door's lower left and another beside the right window. Under the existing base, drag a broken oval shadow with the side of the black marker.",
+      "adds": [
+        "left wall crack",
+        "right wall crack",
+        "ground shadow"
+      ],
+      "introduces": [
+        "left wall crack",
+        "right wall crack",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-haunted-house-finished-v1.jpg",
+    "step_name": "Light the spooky house",
+    "visible_job": "Fill established walls, roof, chimney, windows, and door with streaky marker color; reinforce existing outlines.",
+    "instruction": "Fill the existing walls violet, roof and chimney deep teal, door coral, and all four panes in each of the two windows warm yellow. Let each felt-tip area dry before retracing its established black edge; leave little white paper streaks.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved JPG has two boldly drawn, slightly bent wall lines joined by one straight ground base; their upper ends are deliberately open for the roof. The wide middle gap provides a copyable wall width without any temporary guide.",
+    "draw_through_observation": "I inspected the six saved square crops in order, including the finish. The two wall bends and base, both roof eaves, one chimney, left and right crossbar windows, central arched door, one knob, three roof ticks, two separate cracks, and broken shadow stay in the same structural arrangement. No temporary guides are used. The final panel adds streaky violet, teal, coral, and yellow to established contours.",
+    "contract_sha256": "ca164346104cd327ee91cedae6060578ad8a31c0ee986f47d1140d4bbeb3b27f",
+    "asset_sha256": {
+      "assets/cartoon-haunted-house-step-1.jpg": "1550020b3601de5092f48ccbee6d93d6332cb30e594060c2070a4a7f6abdec8b",
+      "assets/cartoon-haunted-house-step-2.jpg": "ae8c14d4a5ee5410dae529f5ed14e16853dfeb098898048b22421f0ea60df45e",
+      "assets/cartoon-haunted-house-step-3.jpg": "a1e2fb5ae163b45c805741e8723602b96b77420fb6c9e930381f5d395218a205",
+      "assets/cartoon-haunted-house-step-4.jpg": "17dce62f2b27ef7ffc94bd4fce68f9d90c848f02ed8c4e389b167ba74bfbbdca",
+      "assets/cartoon-haunted-house-step-5.jpg": "81387723261f19d48fae34780758fd28761a2278c1609107526389e38c2a2f9c",
+      "assets/cartoon-haunted-house-finished-v1.jpg": "c4167a4cd2d1b3bf395719cc5b4929f40a9b37c7973c86c35d39381e027f813f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "crooked wall outline",
+          "steep roof silhouette",
+          "single chimney"
+        ],
+        "observed_addition": "The open top ends of the two bent walls now meet a wide peaked roof with two small eaves; one short right-leaning chimney rises behind the right roof slope.",
+        "instruction_match": "The second crop follows the instructed roof attachment and chimney overlap while preserving the established wall bends and ground base.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "crooked wall outline",
+          "steep roof silhouette",
+          "single chimney",
+          "left window",
+          "right window",
+          "arched door"
+        ],
+        "observed_addition": "The same roof and chimney remain; a slightly tilted four-pane left window, a separate four-pane right window, and one tall arched central door are added inside the walls.",
+        "instruction_match": "The two square windows each receive their vertical and horizontal bar, and the door meets the original base exactly as the third instruction says.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "crooked wall outline",
+          "steep roof silhouette",
+          "single chimney",
+          "left window",
+          "right window",
+          "arched door",
+          "door knob",
+          "roof shingles"
+        ],
+        "observed_addition": "One small dark knob appears on the door's right side and exactly three short separated shingle strokes appear on the roof plane; both windows retain four panes.",
+        "instruction_match": "The fourth crop matches the knob and three roof strokes in the copy without introducing a crack or shadow early.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "crooked wall outline",
+          "steep roof silhouette",
+          "single chimney",
+          "left window",
+          "right window",
+          "arched door",
+          "door knob",
+          "roof shingles",
+          "left wall crack",
+          "right wall crack",
+          "ground shadow"
+        ],
+        "observed_addition": "A zigzag crack appears low and left of the door, a separate crack appears beside the right window, and broken black strokes form one shadow under the house base.",
+        "instruction_match": "The fifth image shows the two specific crack locations and a grounded shadow while leaving the two windows, knob, and three roof ticks alone.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "crooked wall outline",
+          "steep roof silhouette",
+          "single chimney",
+          "left window",
+          "right window",
+          "arched door",
+          "door knob",
+          "roof shingles",
+          "left wall crack",
+          "right wall crack",
+          "ground shadow"
+        ],
+        "observed_addition": "Streaky violet fills the existing walls, teal fills roof and chimney, coral fills the arched door, and yellow fills all four panes of each existing window; black strokes reinforce the same outlines and shadow.",
+        "instruction_match": "The finish performs only the taught marker coloring; the knob, three roof marks, two cracks, and broken ground shadow remain visible with no new contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

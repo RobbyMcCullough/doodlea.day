@@ -1,3 +1,8 @@
+## 2026-10-19 — Current cartoon haunted house lesson (Codex)
+
+- Added Doodlea Day 148, `cartoon-haunted-house`, for October 19. The first sheet was rejected as too icon-like and remains private. The approved six-panel felt-tip sheet uses crooked fixed walls, one steep roof and chimney, two crossbar windows, an arched door, one knob, three roof strokes, two wall cracks, a broken shadow, and textured violet, teal, coral, and yellow marker fill.
+- Reviewed all five saved adjacent pairs including finish; no temporary guides or unexplained structural moves. Teaching 8.2/10; saved finish 8.1/10. Schema-v5 hashes and readiness passed; Cove home, library, and tutorial rendered at desktop and mobile widths with new images loaded, valid JSON-LD, and no overflow. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-19 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-18 — Current flying bat lesson (Codex)
 
 - Added Doodlea Day 147, `cartoon-bat-in-flight`, for October 18. Two generated sheets and a derived fallback were rejected privately for drift, premature coloring, or erasure artifacts. The approved six-panel raster sheet was registered by translating whole square cells without reshaping the bat. Its saved crops keep the round head, two pointed ears, small body, two feet, two three-scallop wings, wide eye, wink, two fangs and two wing ribs in place through textured marker color.

@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cartoon haunted house</title>
+      <link>https://doodlea.day/tutorials/cartoon-haunted-house.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-haunted-house.html</guid>
+      <pubDate>Mon, 19 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cartoon haunted house with crooked walls, a steep roof, chimney, two glowing windows, arched door, roof marks, cracks, and textured marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-haunted-house-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon bat in flight</title>
       <link>https://doodlea.day/tutorials/cartoon-bat-in-flight.html</link>
