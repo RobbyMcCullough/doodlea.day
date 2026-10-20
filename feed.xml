@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a waving cartoon ghost</title>
+      <link>https://doodlea.day/tutorials/waving-cartoon-ghost.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/waving-cartoon-ghost.html</guid>
+      <pubDate>Tue, 20 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a waving cartoon ghost with rounded arms, a three-scallop hem, one winking eye, one right-looking eye, an oval mouth, and streaky teal marker color.</description>
+      <media:content url="https://doodlea.day/assets/waving-cartoon-ghost-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon haunted house</title>
       <link>https://doodlea.day/tutorials/cartoon-haunted-house.html</link>

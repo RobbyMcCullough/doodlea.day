@@ -1,0 +1,205 @@
+{
+  "schema_version": 5,
+  "slug": "waving-cartoon-ghost",
+  "finished": "assets/waving-cartoon-ghost-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A rounded head arch with short descending sides sets the ghost's width and height while leaving both shoulder gaps and the lower body open for later attachments.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "One five-panel handmade felt-tip raster contact sheet approved after full-sheet and saved-crop review; sixth cell blank."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head arch and body sides",
+      "introduced_by_step": 1,
+      "description": "One soft round head arch with short left and right descending sides, left open at both shoulder gaps."
+    },
+    {
+      "name": "raised left arm",
+      "introduced_by_step": 2,
+      "description": "One raised wave arm attached at the left shoulder gap, with a rounded hand tip."
+    },
+    {
+      "name": "short right arm",
+      "introduced_by_step": 2,
+      "description": "One short outward arm attached at the right shoulder gap."
+    },
+    {
+      "name": "three-scallop floating hem",
+      "introduced_by_step": 3,
+      "description": "One lower ghost hem with exactly three broad scallops joining the two body sides."
+    },
+    {
+      "name": "left wink eye",
+      "introduced_by_step": 4,
+      "description": "One curved closed eye on the left half of the fixed face."
+    },
+    {
+      "name": "right open eye",
+      "introduced_by_step": 4,
+      "description": "One larger open oval eye on the right half with its pupil looking right."
+    },
+    {
+      "name": "surprised oval mouth",
+      "introduced_by_step": 4,
+      "description": "One small vertical open mouth beneath the two unlike eyes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/waving-cartoon-ghost-step-1.jpg",
+      "step_name": "Start the ghost arch",
+      "visible_job": "Draw one rounded head arch with short descending sides and open shoulder and bottom gaps.",
+      "instruction": "With black felt tip, sweep a round arch over the head and bring both sides partway down. Pause at the shoulders and leave the bottom open for the waving arms and floating hem.",
+      "adds": [
+        "head arch and body sides"
+      ],
+      "introduces": [
+        "head arch and body sides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/waving-cartoon-ghost-step-2.jpg",
+      "step_name": "Attach the waving arms",
+      "visible_job": "Grow one raised left arm and one shorter right arm from the established shoulder gaps.",
+      "instruction": "From the left shoulder gap, curve a rounded arm upward and return to the body. On the right, attach one short outward arm, keeping the head arch fixed.",
+      "adds": [
+        "raised left arm",
+        "short right arm"
+      ],
+      "introduces": [
+        "raised left arm",
+        "short right arm"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/waving-cartoon-ghost-step-3.jpg",
+      "step_name": "Float the three-part hem",
+      "visible_job": "Close the lower body with exactly three broad scallops between its two sides.",
+      "instruction": "From the left lower side, sweep three broad rounded scallops across to the right lower side. Count three humps and leave the ghost hovering above blank paper.",
+      "adds": [
+        "three-scallop floating hem"
+      ],
+      "introduces": [
+        "three-scallop floating hem"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/waving-cartoon-ghost-step-4.jpg",
+      "step_name": "Give the ghost a surprised wink",
+      "visible_job": "Add one left wink, one right-looking open eye, and one small vertical oval mouth.",
+      "instruction": "Place a curved closed eye on the left and a larger open eye with a rightward pupil on the right. Below their gap, draw a small upright oval mouth.",
+      "adds": [
+        "left wink eye",
+        "right open eye",
+        "surprised oval mouth"
+      ],
+      "introduces": [
+        "left wink eye",
+        "right open eye",
+        "surprised oval mouth"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/waving-cartoon-ghost-finished-v1.jpg",
+    "step_name": "Color the floating ghost",
+    "visible_job": "Fill the established ghost with streaky pale teal and deepen the existing outlines without new structure.",
+    "instruction": "Stroke pale teal marker inside the ghost's fixed outline, leaving strips of white paper for glow. Keep the wink, rightward pupil, oval mouth, both arms, and three hem scallops clear; thicken only existing black edges.",
+    "adds": [
+      "teal marker on established ghost silhouette"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows one rounded black felt-tip arch with two short descending sides and blank shoulder and lower-body space. Those clear endpoints allow both arms and the hem to be added without erasing a keeper line.",
+    "draw_through_observation": "I inspected the full raw contact sheet and all five saved JPGs in order. The fixed arch, raised left arm, shorter right arm, exactly three lower scallops, curved left wink, larger right-looking oval eye, and upright mouth persist through the final teal fill. There are no temporary guides, hidden props, unexplained removals, or new final contours.",
+    "contract_sha256": "b3188b0be4875db90d5e1fc5fc225bc40e41765d849e4c5f6f17e7adae932b49",
+    "asset_sha256": {
+      "assets/waving-cartoon-ghost-step-1.jpg": "aaf81c4c31eef5d56b72b1565483e5ef3008e3821abfb342814b799744c10ae5",
+      "assets/waving-cartoon-ghost-step-2.jpg": "37097e0e96328f3775aea9de98ea7639af10bc69f9c1f901f378fa37f5dc1c82",
+      "assets/waving-cartoon-ghost-step-3.jpg": "f3cf4f2bfd2e23b0e09df29a9594e32a6647cbb18b91a796cd837422222c440d",
+      "assets/waving-cartoon-ghost-step-4.jpg": "5cbc3b7992bf20e3fa6e7c5b3a7a731882b501fd1c425f55f56a508dbdb6e8f6",
+      "assets/waving-cartoon-ghost-finished-v1.jpg": "eb5b07a80aaa14938aa71d14f971f523703dca7590aa62b69381120d79ba4399"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head arch and body sides",
+          "raised left arm",
+          "short right arm"
+        ],
+        "observed_addition": "The fixed head arch remains while a rounded left arm rises from its left endpoint and a shorter right arm grows outward from its right endpoint; both lower arm ends remain open.",
+        "instruction_match": "The two new arm routes match the written shoulder-gap attachment instruction and keep the lower body blank.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head arch and body sides",
+          "raised left arm",
+          "short right arm",
+          "three-scallop floating hem"
+        ],
+        "observed_addition": "Both arms and head keep their distinct heights while lower side curves meet an exactly three-scallop hem: one left, one central, and one right rounded lobe.",
+        "instruction_match": "Closing the open bottom with three broad humps matches step three and creates one complete floating ghost silhouette.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head arch and body sides",
+          "raised left arm",
+          "short right arm",
+          "three-scallop floating hem",
+          "left wink eye",
+          "right open eye",
+          "surprised oval mouth"
+        ],
+        "observed_addition": "The existing silhouette keeps both unequal arms and all three hem scallops. A curved closed left eye, larger right oval with dark rightward pupil, and small upright black mouth appear on the face.",
+        "instruction_match": "The facial additions match the wink, side glance, and surprised-mouth instruction; none was present in the blank-faced third crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head arch and body sides",
+          "raised left arm",
+          "short right arm",
+          "three-scallop floating hem",
+          "left wink eye",
+          "right open eye",
+          "surprised oval mouth"
+        ],
+        "observed_addition": "Streaky pale teal marker fills the established ghost interior, leaving white paper gaps. The left wink, right-facing open eye, upright mouth, raised left arm, short right arm, and three scallops remain in place.",
+        "instruction_match": "The final crop only colors the already outlined ghost and strengthens its black edge as directed; it does not introduce a new shape.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

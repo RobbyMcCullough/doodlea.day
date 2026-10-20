@@ -1,3 +1,8 @@
+## 2026-10-20 — Current waving ghost lesson (Codex)
+
+- Added Doodlea Day 149, `waving-cartoon-ghost`, for October 20. One five-panel handmade raster contact sheet teaches a fixed arch, unequal waving arms, three broad hem scallops, a left wink, rightward open eye, small oval mouth, then streaky teal marker fill.
+- Reviewed all four adjacent saved-crop pairs including finish, with individual landmarks and no temporary guides or unexplained moves. Teaching 8.3/10; saved finish 8.2/10 for expressive face, readable marker texture, and easy 15-minute construction. Schema-v5 hashes and readiness passed. Fallback localhost home, library, and tutorial QA passed at desktop and mobile widths; Cove had an invalid local certificate. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-20 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-19 — Current cartoon haunted house lesson (Codex)
 
 - Added Doodlea Day 148, `cartoon-haunted-house`, for October 19. The first sheet was rejected as too icon-like and remains private. The approved six-panel felt-tip sheet uses crooked fixed walls, one steep roof and chimney, two crossbar windows, an arched door, one knob, three roof strokes, two wall cracks, a broken shadow, and textured violet, teal, coral, and yellow marker fill.
