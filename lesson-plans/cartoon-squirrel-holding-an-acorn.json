@@ -1,0 +1,214 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-squirrel-holding-an-acorn",
+  "finished": "assets/cartoon-squirrel-holding-an-acorn-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One rounded head joined to one short pear-shaped body places the squirrel in the center and reserves clear space at the left for the tail and at the chest for the acorn.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "The first sheet was rejected because its opening head and body shifted. An image-generation edit of panel 2 removed only the ears and tail while preserving the head/body, then that repaired raster cell was registered into the reviewed contact sheet. The original sheet stays private under rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "joined round head and pear body",
+      "introduced_by_step": 1,
+      "description": "One rounded head joined to a small upright pear-shaped body, facing right."
+    },
+    {
+      "name": "two pointed ears and curled left tail",
+      "introduced_by_step": 2,
+      "description": "Exactly two small pointed ears on the head and one large tail curling up from the left hip."
+    },
+    {
+      "name": "two front paws and one acorn",
+      "introduced_by_step": 3,
+      "description": "Exactly two small front paws hold one upright acorn at the chest; the nut has one pointed base and one domed cap."
+    },
+    {
+      "name": "two eyes, nose and smile",
+      "introduced_by_step": 4,
+      "description": "Two small separated eyes, one tiny nose, and one short curved smile on the same head."
+    },
+    {
+      "name": "tail inner curve and two feet",
+      "introduced_by_step": 5,
+      "description": "One inner contour follows the curl of the left tail, and exactly two small feet join the body at its base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-squirrel-holding-an-acorn-step-1.jpg",
+      "step_name": "Join head and body",
+      "visible_job": "Draw a rounded head connected to a small upright pear body.",
+      "instruction": "With a black felt tip, draw a round head near the page center and run its lower edge into a short pear-shaped body. Leave room on the left for a large tail and a gap at the chest for one acorn.",
+      "adds": [
+        "joined round head and pear body"
+      ],
+      "introduces": [
+        "joined round head and pear body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-squirrel-holding-an-acorn-step-2.jpg",
+      "step_name": "Curl the tail",
+      "visible_job": "Attach one large left-curling tail to the hip and place exactly two pointed ears on the head.",
+      "instruction": "From the left hip, sweep a broad tail up beside the head and curl its tip inward without touching the face. Attach one small pointed ear to each top side of the head.",
+      "adds": [
+        "two pointed ears and curled left tail"
+      ],
+      "introduces": [
+        "two pointed ears and curled left tail"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-squirrel-holding-an-acorn-step-3.jpg",
+      "step_name": "Hold one acorn",
+      "visible_job": "Place one upright acorn at the chest and wrap exactly two little paws against its sides.",
+      "instruction": "In the reserved chest gap, draw one upright acorn with a pointed bottom and rounded cap. Bring one small paw from each shoulder to the nut's sides so both paws visibly hold it.",
+      "adds": [
+        "two front paws and one acorn"
+      ],
+      "introduces": [
+        "two front paws and one acorn"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-squirrel-holding-an-acorn-step-4.jpg",
+      "step_name": "Give it a curious face",
+      "visible_job": "Add exactly two eyes, one tiny nose, and a short smile on the fixed head.",
+      "instruction": "Set two small eyes across the face. Below them, dot a tiny nose and curve a short smile toward the right cheek, keeping the ears and acorn clear.",
+      "adds": [
+        "two eyes, nose and smile"
+      ],
+      "introduces": [
+        "two eyes, nose and smile"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-squirrel-holding-an-acorn-step-5.jpg",
+      "step_name": "Settle the squirrel",
+      "visible_job": "Add one inner tail curve and exactly two short feet beneath the established body.",
+      "instruction": "Follow the inside of the tail with one broad curved mark, stopping before its curled tip. Under the body, attach two short rounded feet, one on each side of the acorn's point.",
+      "adds": [
+        "tail inner curve and two feet"
+      ],
+      "introduces": [
+        "tail inner curve and two feet"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-squirrel-holding-an-acorn-finished-v1.jpg",
+    "step_name": "Color the squirrel",
+    "visible_job": "Fill the existing squirrel and acorn contours with streaky marker color and clarify the existing face.",
+    "instruction": "Fill the fixed body and head warm orange, the same curled tail rust, the acorn tan with a dark brown cap, and the belly pale cream. Leave tiny paper streaks, retrace the established edges, and link the existing nose and smile with one tiny mark.",
+    "adds": [
+      "warm orange, rust, tan, brown and cream marker fills",
+      "tiny nose-to-smile clarification"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.3,
+    "first_step_observation": "The repaired first saved crop shows the round head attached to the small pear body at their final right-of-center position, with the left side and chest blank. A beginner can place these two connected contours before the tail and acorn.",
+    "draw_through_observation": "I examined the repaired full raster sheet and all six saved crops in order. The same head and pear body carry two ears, one attached left-curled tail, two paws on one acorn, two eyes, one nose and smile, an inner tail line, and two feet. The single acorn and paired features remain countable. No temporary guides or unexplained structural removals remain after replacing the first cell with the image-generated edit.",
+    "contract_sha256": "f81aeac7af0e5d8889d4ac1466ac45908c73ec5635705e85c38abc4743dffe91",
+    "asset_sha256": {
+      "assets/cartoon-squirrel-holding-an-acorn-step-1.jpg": "95bd1aefad1f9f807ce723a82aa0367decace7183d2a4c26c731abdf4755f800",
+      "assets/cartoon-squirrel-holding-an-acorn-step-2.jpg": "bab5fd955c6629f8b4d1884291326dcea88c6f36373de39c925dc040bb60b7b7",
+      "assets/cartoon-squirrel-holding-an-acorn-step-3.jpg": "4399636ce4c2b171f13b94d8b7304fe7be897a7ba9aee82f88d3050b1bf11088",
+      "assets/cartoon-squirrel-holding-an-acorn-step-4.jpg": "448a180e04b6c737773160bfb984d3790606b5fef61739f389fa3cd98db9c816",
+      "assets/cartoon-squirrel-holding-an-acorn-step-5.jpg": "d2b88056c5c87825aaffb808f309cfbd05077997eafe2cae6634a5b31a1f05e9",
+      "assets/cartoon-squirrel-holding-an-acorn-finished-v1.jpg": "dd2566716153e090fedcf7901461fc7b484f64913056b341db52f3037ab5c440"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "joined round head and pear body",
+          "two pointed ears and curled left tail"
+        ],
+        "observed_addition": "One left tail now grows from the fixed hip and curls inward beside the head; exactly two pointed ears attach to the unchanged round head.",
+        "instruction_match": "The repaired first crop keeps the head and pear body at the same anchors, so the new tail and ears match step two.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "joined round head and pear body",
+          "two pointed ears and curled left tail",
+          "two front paws and one acorn"
+        ],
+        "observed_addition": "One upright pointed acorn with a domed cap now occupies the reserved chest gap, held by exactly two short paws.",
+        "instruction_match": "The two paws meet the nut sides as instructed; both ears, the curled tail and the body remain visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "joined round head and pear body",
+          "two pointed ears and curled left tail",
+          "two front paws and one acorn",
+          "two eyes, nose and smile"
+        ],
+        "observed_addition": "Two separate oval eyes with paper highlights, one tiny nose and one curved smile appear on the same blank face.",
+        "instruction_match": "The expression matches step four without changing either ear, paw, acorn cap or tail curl.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "joined round head and pear body",
+          "two pointed ears and curled left tail",
+          "two front paws and one acorn",
+          "two eyes, nose and smile",
+          "tail inner curve and two feet"
+        ],
+        "observed_addition": "One inner line now follows the curled tail and exactly two rounded feet join the body at its lower left and right.",
+        "instruction_match": "The inner tail contour and both feet match step five; the eyes, acorn and two holding paws remain fixed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "joined round head and pear body",
+          "two pointed ears and curled left tail",
+          "two front paws and one acorn",
+          "two eyes, nose and smile",
+          "tail inner curve and two feet"
+        ],
+        "observed_addition": "Streaky orange fills the established head and body, rust fills the same tail, cream remains at the belly, and tan and brown fill the one acorn; a tiny mark clarifies the nose-to-smile connection.",
+        "instruction_match": "The marker fills and small facial clarification match the final instruction. Two ears, paws, eyes and feet, and one acorn remain countable; no new prop or structural contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

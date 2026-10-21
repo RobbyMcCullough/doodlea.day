@@ -1,3 +1,7 @@
+## 2026-10-21 — Current cartoon squirrel lesson (Codex)
+
+- Added Doodlea Day 150, `cartoon-squirrel-holding-an-acorn`, for October 21. The first sheet shifted the opening head/body; an image-generated removal edit repaired its first cell against the fixed second panel, and the original sheet remains private. The approved six saved crops keep one curled tail, two ears, two paws on one acorn, two eyes, and two feet through streaky marker color. Every adjacent pair including the finish was reviewed; no temporary guides. Teaching 8.2/10, saved finish 8.3/10. Schema-v5 hashes and readiness passed. Cove showed a browser certificate error, so localhost homepage, library, and tutorial QA passed at desktop and 390px mobile widths with loaded hero, valid JSON-LD, and no overflow. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-21 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
 ## 2026-10-20 — Current waving ghost lesson (Codex)
 
 - Added Doodlea Day 149, `waving-cartoon-ghost`, for October 20. One five-panel handmade raster contact sheet teaches a fixed arch, unequal waving arms, three broad hem scallops, a left wink, rightward open eye, small oval mouth, then streaky teal marker fill.
