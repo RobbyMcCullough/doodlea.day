@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-witch-broom",
+  "finished": "assets/cartoon-witch-broom-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The diagonal handle and knob set an easy fixed axis while leaving open room at its lower-left end for the bristle fan.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for erased lower handle cap. Second generated sheet fixed the handle but lost the left bow loop in its colored finish; original preserved in rejected-progressions. Approved cumulative steps 1-5 from second sheet and image-generation edit of its finish restored the left loop while retaining the same shaft, bristles, collar and right loop. Square padding preserved each narrow cell without distortion."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "long handle and round knob",
+      "introduced_by_step": 1,
+      "description": "Draw two parallel diagonal handle lines from lower left to upper right, with a small round knob at the upper tip. Leave the lower-left ends OPEN for the straw fan to attach; do not cap or connect them."
+    },
+    {
+      "name": "wide bristle fan",
+      "introduced_by_step": 2,
+      "description": "At the lower-left handle end, open a broad straw fan with two angled sides and a scalloped lower edge."
+    },
+    {
+      "name": "wrapped collar",
+      "introduced_by_step": 3,
+      "description": "Wrap two curved bands around the join where the handle enters the straw fan."
+    },
+    {
+      "name": "straw divisions",
+      "introduced_by_step": 4,
+      "description": "Inside the established fan, pull three loose straw division lines from the collar toward three existing scallop points."
+    },
+    {
+      "name": "ribbon bow",
+      "introduced_by_step": 5,
+      "description": "At the upper edge of the collar, tie a small two-loop bow with one short notched tail, keeping the handle clear."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-witch-broom-step-1.jpg",
+      "step_name": "Draw the long handle and round knob",
+      "visible_job": "Draw two parallel diagonal handle lines from lower left to upper right, with a small round knob at the upper tip. Leave the lower-left ends OPEN for the straw fan to attach; do not cap or connect them.",
+      "instruction": "Draw two parallel diagonal handle lines from lower left to upper right, with a small round knob at the upper tip. Leave the lower-left ends OPEN for the straw fan to attach; do not cap or connect them.",
+      "adds": [
+        "long handle and round knob"
+      ],
+      "introduces": [
+        "long handle and round knob"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-witch-broom-step-2.jpg",
+      "step_name": "Draw the wide bristle fan",
+      "visible_job": "At the lower-left handle end, open a broad straw fan with two angled sides and a scalloped lower edge.",
+      "instruction": "At the lower-left handle end, open a broad straw fan with two angled sides and a scalloped lower edge.",
+      "adds": [
+        "wide bristle fan"
+      ],
+      "introduces": [
+        "wide bristle fan"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-witch-broom-step-3.jpg",
+      "step_name": "Draw the wrapped collar",
+      "visible_job": "Wrap two curved bands around the join where the handle enters the straw fan.",
+      "instruction": "Wrap two curved bands around the join where the handle enters the straw fan.",
+      "adds": [
+        "wrapped collar"
+      ],
+      "introduces": [
+        "wrapped collar"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-witch-broom-step-4.jpg",
+      "step_name": "Draw the straw divisions",
+      "visible_job": "Inside the established fan, pull three loose straw division lines from the collar toward three existing scallop points.",
+      "instruction": "Inside the established fan, pull three loose straw division lines from the collar toward three existing scallop points.",
+      "adds": [
+        "straw divisions"
+      ],
+      "introduces": [
+        "straw divisions"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-witch-broom-step-5.jpg",
+      "step_name": "Draw the ribbon bow",
+      "visible_job": "At the upper edge of the collar, tie a small two-loop bow with one short notched tail, keeping the handle clear.",
+      "instruction": "At the upper edge of the collar, tie a small two-loop bow with one short notched tail, keeping the handle clear.",
+      "adds": [
+        "ribbon bow"
+      ],
+      "introduces": [
+        "ribbon bow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-witch-broom-finished-v1.jpg",
+    "step_name": "Color the broom",
+    "visible_job": "Fill the established handle, straw fan, collar and bow with visible marker strokes.",
+    "instruction": "Fill the established handle warm brown, the straw fan ochre, the collar violet, and the bow plum. Keep the black contours and a few paper gaps visible.",
+    "adds": [
+      "marker color in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop has two clearly open parallel handle ends at lower left and a fixed round knob at upper right. The open end makes the next straw fan attach without deleting a dark cap.",
+    "draw_through_observation": "I reviewed all six saved square crops and each adjacent transition. The second sheet keeps one diagonal broom axis, adds the scalloped fan, then two collar bands, three inner straw divisions, two bow loops and one notched tail before color. The edited final restores the left loop missing from the rejected finish. No temporary guides or unexplained structural removals remain.",
+    "contract_sha256": "567b0d55c43bacd5e62caf6879aed0e1be8f2cd85d334438a1f625f75bcb35a6",
+    "asset_sha256": {
+      "assets/cartoon-witch-broom-step-1.jpg": "a19d15f65f93d0ccdc1eac0a385222cc6405420890c3bf4a41a57ca7b524d84a",
+      "assets/cartoon-witch-broom-step-2.jpg": "32ee57911de80c9d9ddeceb1f898fca31cd0904f49ce4f2f8739d7a34e673ef2",
+      "assets/cartoon-witch-broom-step-3.jpg": "cf42893d941336749aa56a4f6e5455b016e3cab2f72ce78cc31b41fc6c5e70ce",
+      "assets/cartoon-witch-broom-step-4.jpg": "2ec4679f5d46d3ad013546f529794532e290c5fc9b743532c7b90fac6f3f4462",
+      "assets/cartoon-witch-broom-step-5.jpg": "7a08e2f25a2b7eb28bc85ce13859d91f8b3b889a5b814360128b0ead9aa7de9a",
+      "assets/cartoon-witch-broom-finished-v1.jpg": "bd3c07569781eacee9139d885fa72a325d369c570f5c0cc594bb47994d1576ed"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "long handle and round knob",
+          "wide bristle fan"
+        ],
+        "observed_addition": "Two open diagonal handle lines and the upper round knob stay fixed. A broad straw fan grows from the open lower ends, ending in a scalloped edge.",
+        "instruction_match": "The added fan uses the open attachment specified in step two; no lower handle cap needs removal.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "long handle and round knob",
+          "wide bristle fan",
+          "wrapped collar"
+        ],
+        "observed_addition": "The knob, shaft, and scalloped fan remain. Two curved collar wraps now cross the join, intentionally covering the short lower shaft endpoints.",
+        "instruction_match": "The two wraps match step three and explain the only new overlap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "long handle and round knob",
+          "wide bristle fan",
+          "wrapped collar",
+          "straw divisions"
+        ],
+        "observed_addition": "The shaft, knob, fan silhouette and two collars remain. Three separate interior straw divisions run from the collar toward three pre-existing scallop points.",
+        "instruction_match": "The three divisions match step four; no extra outer fan or new scallops appear.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "long handle and round knob",
+          "wide bristle fan",
+          "wrapped collar",
+          "straw divisions",
+          "ribbon bow"
+        ],
+        "observed_addition": "The fixed broom and three straw divisions remain. A left bow loop and a right bow loop appear at the collar, with one short notched tail hanging on the right.",
+        "instruction_match": "The two loops and single tail match the corrected fifth instruction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "long handle and round knob",
+          "wide bristle fan",
+          "wrapped collar",
+          "straw divisions",
+          "ribbon bow"
+        ],
+        "observed_addition": "The repaired finish retains both bow loops and one notched tail, the two collar bands, knob, shaft, scalloped fan and three divisions. Streaky brown, ochre, violet and plum fill the existing regions.",
+        "instruction_match": "Only marker color was added to established contours; the restored left loop now persists from step five.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

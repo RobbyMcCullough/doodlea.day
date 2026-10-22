@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a witch&apos;s broom</title>
+      <link>https://doodlea.day/tutorials/cartoon-witch-broom.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-witch-broom.html</guid>
+      <pubDate>Thu, 22 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a witch&apos;s broom with a long wooden handle, scalloped straw fan, wrapped collar, ribbon bow, and bold marker color.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-witch-broom-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cartoon squirrel holding an acorn</title>
       <link>https://doodlea.day/tutorials/cartoon-squirrel-holding-an-acorn.html</link>
