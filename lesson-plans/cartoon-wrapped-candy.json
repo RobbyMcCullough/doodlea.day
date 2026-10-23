@@ -1,0 +1,185 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-wrapped-candy",
+  "finished": "assets/cartoon-wrapped-candy-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One wide candy center with short flat left and right ends fixes the whole drawing's scale and gives both wrapper twists exact attachment edges.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-cell handmade felt-tip sheet; the fourth cell repeated wrapper folds, so approved process uses cells 1, 2, 3, 5 and 6 only."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "candy center and end seams",
+      "introduced_by_step": 1,
+      "description": "One wide rounded candy center on a slight diagonal, with short curved end seams at both sides."
+    },
+    {
+      "name": "left wrapper twist and folds",
+      "introduced_by_step": 2,
+      "description": "One pinched neck and broad crinkled fan attached to the left end, with short radiating fold strokes."
+    },
+    {
+      "name": "right wrapper twist and folds",
+      "introduced_by_step": 3,
+      "description": "One pinched neck and broad crinkled fan attached to the right end, with short radiating fold strokes."
+    },
+    {
+      "name": "five diagonal candy bands",
+      "introduced_by_step": 4,
+      "description": "Five diagonal color regions across the center: narrow coral at each end, yellow inside those, and a broad coral middle."
+    },
+    {
+      "name": "winking face",
+      "introduced_by_step": 4,
+      "description": "One curved wink, one open oval eye, and one broad open grin among the center stripes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-wrapped-candy-step-1.jpg",
+      "step_name": "Draw the candy center",
+      "visible_job": "Set one wide rounded candy center with two curved end seams.",
+      "instruction": "Draw a wide rounded candy center on a slight upward tilt. Close each short end with a narrow curved seam so the wrapper twists have clear attachment edges.",
+      "adds": [
+        "candy center and end seams"
+      ],
+      "introduces": [
+        "candy center and end seams"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-wrapped-candy-step-2.jpg",
+      "step_name": "Twist the left wrapper",
+      "visible_job": "Attach a narrow left neck, broad crinkled fan and short fold strokes.",
+      "instruction": "Pinch the left end into a narrow neck, then spread its outer edge into a broad uneven fan. Pull short fold strokes from the neck into that fan, stopping before its edge.",
+      "adds": [
+        "left wrapper twist and folds"
+      ],
+      "introduces": [
+        "left wrapper twist and folds"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-wrapped-candy-step-3.jpg",
+      "step_name": "Twist the right wrapper",
+      "visible_job": "Attach a matching right neck and crinkled fan with radiating folds.",
+      "instruction": "Repeat the pinch at the right end and open a second uneven fan. Add short fold strokes from its neck, keeping both candy ends and the left wrapper in place.",
+      "adds": [
+        "right wrapper twist and folds"
+      ],
+      "introduces": [
+        "right wrapper twist and folds"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-wrapped-candy-step-4.jpg",
+      "step_name": "Stripe the candy and give it a wink",
+      "visible_job": "Add five diagonal center bands, a wink, one open eye, and a broad grin.",
+      "instruction": "Divide the candy center into five diagonal bands, with narrower bands at the ends. In the open spaces draw one curved wink, one open oval eye, and a broad open grin.",
+      "adds": [
+        "five diagonal candy bands",
+        "winking face"
+      ],
+      "introduces": [
+        "five diagonal candy bands",
+        "winking face"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-wrapped-candy-finished-v1.jpg",
+    "step_name": "Fill the sweet color",
+    "visible_job": "Fill the two established wrapper fans and five center bands with textured coral, teal and yellow marker.",
+    "instruction": "Fill the left wrapper coral and the right wrapper teal. Color the five center bands coral, yellow, coral, yellow, coral from left to right, and darken the same face and fold lines with black felt tip while leaving small paper highlights inside existing areas.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop has one broad candy center on a slight rising diagonal with two short curved end seams. Those connected forms fix the scale and identify exact attachment sites for both twists.",
+    "draw_through_observation": "I inspected all five saved JPG crops in order after omitting a redundant raw fourth cell. The left wrapper then right wrapper join the original end seams; five bands and a wink, open eye, and grin arrive before final marker color. Each mark remains attached to the same candy, with no temporary guides or unexplained structural disappearance.",
+    "contract_sha256": "33cb012b998d669bbe91eb7def96545537a4c26ec59e10d9b202e56fec96f5a8",
+    "asset_sha256": {
+      "assets/cartoon-wrapped-candy-step-1.jpg": "9250748ca5ab56b4923916c668a763c55413f5e0bff92007d94174c7bb1cddfc",
+      "assets/cartoon-wrapped-candy-step-2.jpg": "072f9b7358f0014e7d791bf67cab4cbf74231635078d9245bc704a6b926b12f2",
+      "assets/cartoon-wrapped-candy-step-3.jpg": "34030b7a30feb560fdac13f71f6805aae60b62aa78b0312b50d26a3042dc0b84",
+      "assets/cartoon-wrapped-candy-step-4.jpg": "318cdc0370e7c8b23ef643ce87623f3978c64824156f35c775702d48bad00f11",
+      "assets/cartoon-wrapped-candy-finished-v1.jpg": "b421025d406d60f64abf20d98c2e4ff2886b8edca6ba729cdd852e477f3648ba"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "candy center and end seams",
+          "left wrapper twist and folds"
+        ],
+        "observed_addition": "The same slightly rising rounded candy center and both curved end seams remain; a crinkled left fan joins the left seam through one narrow neck, and short fold strokes radiate inside it.",
+        "instruction_match": "The second instruction asks for exactly this attached left fan and interior fold strokes; no center stripe or face arrives early.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "candy center and end seams",
+          "left wrapper twist and folds",
+          "right wrapper twist and folds"
+        ],
+        "observed_addition": "The candy center, left seam, left fan and its interior strokes persist; a matching pinched right neck and crinkled right fan now attach at the original right seam, with three interior fold strokes.",
+        "instruction_match": "The third instruction adds the right wrapper and keeps the left side intact; both twists connect to the original ends.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "candy center and end seams",
+          "left wrapper twist and folds",
+          "right wrapper twist and folds",
+          "five diagonal candy bands",
+          "winking face"
+        ],
+        "observed_addition": "Both attached wrapper fans, their fold strokes and the center outline remain; five diagonal center regions appear, with one curved left wink, one open right oval eye and one broad open grin.",
+        "instruction_match": "The fourth instruction names the five bands and the asymmetric wink, oval eye and grin visible in this saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "candy center and end seams",
+          "left wrapper twist and folds",
+          "right wrapper twist and folds",
+          "five diagonal candy bands",
+          "winking face"
+        ],
+        "observed_addition": "The two wrapper fans, their interior folds, five diagonal bands, wink, oval eye and grin all remain; coral fills the left fan and three bands, golden yellow fills two bands, and teal fills the right fan with directional felt-tip grain.",
+        "instruction_match": "The final instruction applies marker color only to the established regions and reinforces existing black contours; no new structure appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

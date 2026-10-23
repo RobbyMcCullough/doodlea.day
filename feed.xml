@@ -6,7 +6,15 @@
     <atom:link href="https://doodlea.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily marker doodle lessons that build drawing confidence through small, playful art practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a wrapped candy</title>
+      <link>https://doodlea.day/tutorials/cartoon-wrapped-candy.html</link>
+      <guid isPermaLink="true">https://doodlea.day/tutorials/cartoon-wrapped-candy.html</guid>
+      <pubDate>Fri, 23 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a wrapped candy with two crinkled twist ends, five diagonal color bands, a winking face, and bright felt-tip marker texture.</description>
+      <media:content url="https://doodlea.day/assets/cartoon-wrapped-candy-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a witch&apos;s broom</title>
       <link>https://doodlea.day/tutorials/cartoon-witch-broom.html</link>
