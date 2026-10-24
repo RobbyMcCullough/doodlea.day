@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-watering-can",
+  "finished": "assets/cartoon-watering-can-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad low can body with short open shoulder gaps establishes the final size and gives clear attachment sites for spout and handle.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved second six-cell marker sheet after rejecting a bordered, drifting first sheet; the first remains in private rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "can body",
+      "introduced_by_step": 1,
+      "description": "One low rounded can body centered on the paper, with a narrow top rim and reserved side attachments."
+    },
+    {
+      "name": "spout and rose",
+      "introduced_by_step": 2,
+      "description": "One left-leaning tapered spout attached to the upper left body and one oval watering rose at its tip with six small holes."
+    },
+    {
+      "name": "right handle",
+      "introduced_by_step": 3,
+      "description": "One open loop handle attached to the upper and lower right side of the body."
+    },
+    {
+      "name": "two water drops",
+      "introduced_by_step": 4,
+      "description": "Two separate teardrop shapes beneath the left watering rose, clear of the can."
+    },
+    {
+      "name": "leaf mark and shadow",
+      "introduced_by_step": 5,
+      "description": "One simple leaf outline on the body and a broken shadow beneath the can."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-watering-can-step-1.jpg",
+      "step_name": "Shape the little can",
+      "visible_job": "Ink a broad rounded body and narrow top opening, reserving side attachments.",
+      "instruction": "Draw a low rounded can body and a narrow oval top opening. Leave short breaks at the upper left and right sides where the spout and handle will join.",
+      "adds": [
+        "can body"
+      ],
+      "introduces": [
+        "can body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-watering-can-step-2.jpg",
+      "step_name": "Aim the watering spout",
+      "visible_job": "Attach a tapered left-leaning spout and oval rose head.",
+      "instruction": "From the left opening, pull two tapered lines up and left. Join them to a tilted oval sprinkler rose and dot its small holes inside the oval.",
+      "adds": [
+        "spout and rose"
+      ],
+      "introduces": [
+        "spout and rose"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-watering-can-step-3.jpg",
+      "step_name": "Loop the carrying handle",
+      "visible_job": "Connect one open right-side handle to the body.",
+      "instruction": "From the right upper break, curve out and down, then return to the lower right body. Add a parallel inner curve to make one thick open loop.",
+      "adds": [
+        "right handle"
+      ],
+      "introduces": [
+        "right handle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-watering-can-step-4.jpg",
+      "step_name": "Drop two splashes",
+      "visible_job": "Place two separate drops below the watering rose.",
+      "instruction": "Under the rose head, draw exactly two separate water teardrops angled down and left. Leave paper around each so they do not touch the spout or can.",
+      "adds": [
+        "two water drops"
+      ],
+      "introduces": [
+        "two water drops"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-watering-can-step-5.jpg",
+      "step_name": "Mark the can and ground",
+      "visible_job": "Add one leaf mark on the body and a broken ground shadow.",
+      "instruction": "Inside the body, draw one simple leaf and a short center vein. Put a few broken shadow strokes under the can without crossing either water drop.",
+      "adds": [
+        "leaf mark and shadow"
+      ],
+      "introduces": [
+        "leaf mark and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-watering-can-finished-v1.jpg",
+    "step_name": "Fill the garden colors",
+    "visible_job": "Color the established can, rose, handle, drops, and leaf without new contours.",
+    "instruction": "Once the black marker dries, fill the can, spout and handle teal, the rose mustard yellow, both drops bright blue, and the leaf green. Leave narrow white streaks in the marker fills.",
+    "adds": [
+      "teal, yellow, blue, and green marker fills"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop has a low rounded can wall, narrow dark top oval and two short side breaks. Those fixed breaks provide precise spout and handle joining points without drawing hidden wall lines.",
+    "draw_through_observation": "I inspected the six saved JPG crops sequentially. The body rim, base, left spout and six-hole rose, right loop handle, exactly two separate drops, leaf emblem and broken shadow retain their anchors. Teal, mustard, blue and green marker fills only color established areas in the finish. No guides or unexplained disappearing contours occur.",
+    "contract_sha256": "1922c591fc44ae4b6e148e79a9882331e20266e8b204df0c3351f682ad3df204",
+    "asset_sha256": {
+      "assets/cartoon-watering-can-step-1.jpg": "5d8564208244e6fd65f58fb8475f3cf4446392a0ac39e166e8871e60ccd777fa",
+      "assets/cartoon-watering-can-step-2.jpg": "2c7aa1b81ada424577bd6ef9a7ad1078ee4570325f57903d7b9131388d4623c6",
+      "assets/cartoon-watering-can-step-3.jpg": "51cd2a46c8baa644d2da738952ecfe01120f6b357cf8a2a927dae78e5f988549",
+      "assets/cartoon-watering-can-step-4.jpg": "fa708574a733a80ccc475530d08285f9b02b59ad5d8b5c4eddfe4eb3daf0600a",
+      "assets/cartoon-watering-can-step-5.jpg": "b8349302f2b3d08d48a21ca9267d1269b9bdc43d02e43ecd6a45d45274e58bce",
+      "assets/cartoon-watering-can-finished-v1.jpg": "f582d788785b141cec1677bdb8544f9a7f8036c6792c1342b3ce651250e45549"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "can body",
+          "spout and rose"
+        ],
+        "observed_addition": "The same dark oval rim, low rounded base and open side breaks remain; a tapered spout grows left from its reserved break to one tilted rose containing six small holes.",
+        "instruction_match": "The second instruction adds the tapered lines, oval rose and holes seen in this crop; the original can wall does not shift.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "can body",
+          "spout and rose",
+          "right handle"
+        ],
+        "observed_addition": "The same body, spout and six-hole rose remain; one large right loop connects at upper and lower right with a parallel inner arc.",
+        "instruction_match": "The third instruction describes the visible handle attachment and thickness; no previously drawn rim or spout line is covered.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "can body",
+          "spout and rose",
+          "right handle",
+          "two water drops"
+        ],
+        "observed_addition": "The body, spout, six-hole rose and right handle persist. Exactly two outlined water drops appear to the left below the rose, one higher and one lower.",
+        "instruction_match": "The fourth instruction matches both new teardrops and their open paper gaps; the can and rose remain fixed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "can body",
+          "spout and rose",
+          "right handle",
+          "two water drops",
+          "leaf mark and shadow"
+        ],
+        "observed_addition": "The same can, spout, handle and two drops remain. One outlined leaf with a center vein appears inside the body and short broken shadow marks sit under the base.",
+        "instruction_match": "The fifth instruction adds the leaf and ground shadow visible here, leaving both water drops separate.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "can body",
+          "spout and rose",
+          "right handle",
+          "two water drops",
+          "leaf mark and shadow"
+        ],
+        "observed_addition": "The can, six-hole rose, loop handle, two drops, leaf and broken shadow persist at their earlier positions; teal, mustard, bright blue and green fill those existing shapes.",
+        "instruction_match": "The final instruction assigns marker colors to already outlined regions and leaves white paper streaks; it introduces no new object or contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
