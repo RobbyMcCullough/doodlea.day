@@ -1,0 +1,176 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-mailbox-with-raised-flag",
+  "finished": "assets/cartoon-mailbox-with-raised-flag-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first saved crop has one recognizable arched mailbox with its connected front door and round pull in final position; a beginner can copy its broad side then close the front before adding attachments.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Five substantive states selected as whole raster cells from the second generated six-cell sheet; first sheet rejected for row drift and extra preliminary cell of second sheet omitted because it made a redundant step. Original sheets remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "arched body and front door",
+      "introduced_by_step": 1,
+      "description": "One long right-facing rounded mailbox body, narrow attached arched door face, and one round pull."
+    },
+    {
+      "name": "support post",
+      "introduced_by_step": 2,
+      "description": "One short straight post centered under the body with a flat base."
+    },
+    {
+      "name": "raised flag",
+      "introduced_by_step": 3,
+      "description": "One narrow raised rectangular flag attached by a bent stem to a circular hinge at the upper-left side of the box."
+    },
+    {
+      "name": "envelope emblem and shadow",
+      "introduced_by_step": 4,
+      "description": "One rectangle with V-shaped envelope flap on the box side and broken ground marks below the post."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-mailbox-with-raised-flag-step-1.jpg",
+      "step_name": "Draw the mailbox and door",
+      "visible_job": "Draw one long arched mailbox body facing right. Close its narrow front with a curved door face and put one round pull near the door edge.",
+      "instruction": "Draw one long arched mailbox body facing right. Close its narrow front with a curved door face and put one round pull near the door edge.",
+      "adds": [
+        "arched body and front door"
+      ],
+      "introduces": [
+        "arched body and front door"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-mailbox-with-raised-flag-step-2.jpg",
+      "step_name": "Set it on a post",
+      "visible_job": "From beneath the body center, drop two straight post sides and close them with a short flat base.",
+      "instruction": "From beneath the body center, drop two straight post sides and close them with a short flat base.",
+      "adds": [
+        "support post"
+      ],
+      "introduces": [
+        "support post"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-mailbox-with-raised-flag-step-3.jpg",
+      "step_name": "Raise the signal flag",
+      "visible_job": "Attach a short bent flag stem to a circular hinge on the upper-left side of the box, then cap it with one narrow rectangle pointing up.",
+      "instruction": "Attach a short bent flag stem to a circular hinge on the upper-left side of the box, then cap it with one narrow rectangle pointing up.",
+      "adds": [
+        "raised flag"
+      ],
+      "introduces": [
+        "raised flag"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-mailbox-with-raised-flag-step-4.jpg",
+      "step_name": "Mark the mail and ground",
+      "visible_job": "On the broad side, draw one rectangular envelope emblem with a V-shaped flap. Put short broken ground marks under the post.",
+      "instruction": "On the broad side, draw one rectangular envelope emblem with a V-shaped flap. Put short broken ground marks under the post.",
+      "adds": [
+        "envelope emblem and shadow"
+      ],
+      "introduces": [
+        "envelope emblem and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-mailbox-with-raised-flag-finished-v1.jpg",
+    "step_name": "Color the mailbox",
+    "visible_job": "Fill established box, door, post, flag and emblem with bright marker color, leaving small paper streaks.",
+    "instruction": "Fill the mailbox and door cobalt blue, the raised flag coral red, the envelope emblem yellow, and the post warm gray. Keep the black outlines and broken shadow clear; leave a few paper streaks in the marker fills.",
+    "adds": [
+      "marker color"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop presents one long arched body, attached narrow right door and round pull. These fixed contours establish the whole silhouette and leave open paper below for its support post.",
+    "draw_through_observation": "Five saved crops were inspected in order. The arched right-facing box, narrow door and pull persist while one center post, one raised left flag, one envelope emblem and broken ground appear. The finish fills only established contours with streaky cobalt, coral, yellow and gray marker. No temporary guides or unexplained structural removal appears.",
+    "contract_sha256": "b77b70af8b0d2cb52c19954a2ca954fd9cccddc5f1f09128bcf2d2fe953f90dc",
+    "asset_sha256": {
+      "assets/cartoon-mailbox-with-raised-flag-step-1.jpg": "1e009478e10a6a52c82eb6f30d96addeac25fa57809aa6ae87b6653e74095578",
+      "assets/cartoon-mailbox-with-raised-flag-step-2.jpg": "4b6d568cd136bd6b77eb851ecadb2a66d979a4bf9dc07fd0703ec96dec7ea09a",
+      "assets/cartoon-mailbox-with-raised-flag-step-3.jpg": "b3469d304aa653a96430893e87c7a7de487c9c35876d572d6f38f0759a93351d",
+      "assets/cartoon-mailbox-with-raised-flag-step-4.jpg": "10ad454924268e03fd53288a2cfe3999b232ed2ae421435cbdde4915e7c51702",
+      "assets/cartoon-mailbox-with-raised-flag-finished-v1.jpg": "f68b461b9fc3b5d1bc0228ae850f74ce0426b033a1a6ddb676b37ef28e6f4d87"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "arched body and front door",
+          "support post"
+        ],
+        "observed_addition": "The mailbox body, door arch and round pull stay fixed; one short straight post and flat foot appear directly under the body center.",
+        "instruction_match": "The second instruction names the centered post and flat base visible in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "arched body and front door",
+          "support post",
+          "raised flag"
+        ],
+        "observed_addition": "The same mailbox and post remain; one circular hinge appears on the upper left side and a bent stem rises into a narrow flag.",
+        "instruction_match": "The third instruction connects the flag to the box at its visible hinge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "arched body and front door",
+          "support post",
+          "raised flag",
+          "envelope emblem and shadow"
+        ],
+        "observed_addition": "The raised flag and all earlier contours persist; a centered envelope rectangle with V flap and broken marks under the post appear.",
+        "instruction_match": "The fourth instruction describes exactly the envelope and ground marks shown.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "arched body and front door",
+          "support post",
+          "raised flag",
+          "envelope emblem and shadow"
+        ],
+        "observed_addition": "The box, door, pull, post, flag, envelope and ground remain in place; cobalt, coral, yellow and gray marker fill their existing regions.",
+        "instruction_match": "The final instruction assigns those colors to fixed regions and asks for paper streaks, without new contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
