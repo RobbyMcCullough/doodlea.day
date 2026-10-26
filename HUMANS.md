@@ -2005,3 +2005,8 @@
 
 - Added Doodlea Day 146, `cartoon-pinwheel`, for October 17 from one approved five-panel felt-tip contact sheet. The saved crops retain four countable blades at the same hub, one straight stick, one fastener, and two pairs of motion ticks before the final streaky marker color.
 - Reviewed the full sheet and every saved adjacent pair, including finish: teaching 8.3/10, saved finish 8.4/10, no guides or unexplained moves. Schema-v5 hashes and readiness passed; fallback localhost home, library, and tutorial QA passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD, and no horizontal overflow. One-current-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-17 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-10-26 — Current pineapple lesson (Codex)
+
+- Added Day 155, `cartoon-pineapple-with-sunglasses`, for October 26. Five saved raster crops retain the tapered body and rim, exactly five crown leaves, two lenses, crooked smirk, two lower rind chevrons, and three ground strokes. An earlier sheet was rejected privately for disappearing rind lines.
+- Teaching and saved finish each scored 8.1/10: readable at card size, bold felt-tip outlines, visibly streaky yellow, green and blue fill, and an attainable sequence. Schema-v5 hashes and readiness passed; fallback localhost home, library and tutorial desktop/mobile QA passed. Current-only one-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-26 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.

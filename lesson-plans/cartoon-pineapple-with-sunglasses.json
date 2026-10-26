@@ -1,0 +1,205 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-pineapple-with-sunglasses",
+  "finished": "assets/cartoon-pineapple-with-sunglasses-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad upright fruit body with an oval top rim fixes width, crown attachment and face placement before details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Second generated five-panel contact sheet approved after first privately rejected for rind-line disappearance. Raw approved and rejected sheets are retained in drafts."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "pineapple body",
+      "introduced_by_step": 1,
+      "description": "One upright tapered fruit body with a flat base and a closed narrow oval top rim for the crown."
+    },
+    {
+      "name": "five crown leaves",
+      "introduced_by_step": 2,
+      "description": "Five pointed crown leaves grow from the body's top opening, middle leaf tallest."
+    },
+    {
+      "name": "left sunglass lens",
+      "introduced_by_step": 3,
+      "description": "One broad rounded dark lens sits high on the left half of the body."
+    },
+    {
+      "name": "right sunglass lens",
+      "introduced_by_step": 3,
+      "description": "One matching rounded dark lens sits high on the right, joined by a short bridge."
+    },
+    {
+      "name": "sideways smirk",
+      "introduced_by_step": 3,
+      "description": "One crooked half-smile sits below the glasses, without dot eyes."
+    },
+    {
+      "name": "two rind chevrons",
+      "introduced_by_step": 4,
+      "description": "Exactly one small V-shaped rind mark on each lower side of the body, clear of the smile."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "A few broken horizontal shadow strokes sit below the flat base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pineapple-with-sunglasses-step-1.jpg",
+      "step_name": "Shape the pineapple",
+      "visible_job": "Draw the broad fruit body and a narrow oval top rim.",
+      "instruction": "Draw one upright rounded pineapple body, wider in its lower half, and flatten its base slightly. Close a narrow oval rim across its top where the crown will attach.",
+      "adds": [
+        "pineapple body"
+      ],
+      "introduces": [
+        "pineapple body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pineapple-with-sunglasses-step-2.jpg",
+      "step_name": "Grow five crown leaves",
+      "visible_job": "Attach exactly five pointed leaves at the open top.",
+      "instruction": "Behind the oval top rim, grow five connected pointed leaves; make the middle leaf tallest and fan two shorter leaves to either side. Keep their bases touching the rim.",
+      "adds": [
+        "five crown leaves"
+      ],
+      "introduces": [
+        "five crown leaves"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pineapple-with-sunglasses-step-3.jpg",
+      "step_name": "Put on the sunglasses",
+      "visible_job": "Add two joined lenses and one crooked smirk.",
+      "instruction": "High on the body, draw two broad rounded sunglasses lenses joined by a short bridge. Beneath them, add one off-center crooked smirk instead of dot eyes.",
+      "adds": [
+        "left sunglass lens",
+        "right sunglass lens",
+        "sideways smirk"
+      ],
+      "introduces": [
+        "left sunglass lens",
+        "right sunglass lens",
+        "sideways smirk"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pineapple-with-sunglasses-step-4.jpg",
+      "step_name": "Mark the rind and ground",
+      "visible_job": "Add two small side chevrons and a broken ground shadow without moving the face.",
+      "instruction": "Put one small V-shaped rind mark on each lower side of the body, clear of the smile. Add a few broken shadow strokes below the flat base.",
+      "adds": [
+        "two rind chevrons",
+        "ground shadow"
+      ],
+      "introduces": [
+        "two rind chevrons",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-pineapple-with-sunglasses-finished-v1.jpg",
+    "step_name": "Fill the tropical colors",
+    "visible_job": "Color only established fruit, crown, glasses and shadow shapes with streaky marker.",
+    "instruction": "Fill the established fruit golden yellow, its five crown leaves bright green, and the sunglass lenses dark teal-blue. Keep the crooked smirk, two V-shaped rind marks and three ground strokes visible through the marker color.",
+    "adds": [
+      "marker color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop is one bold upright body with a narrow top oval and flat base; it fixes scale and gives the learner a clear crown attachment.",
+    "draw_through_observation": "All five saved crops were inspected consecutively. The top rim, five leaf tips and bases, two glasses lenses, crooked smirk, two V marks and three ground strokes stay in their assigned positions. No guides or unexplained losses appear; finish adds streaky marker color only.",
+    "contract_sha256": "1cf9e97431ac43670c4459ffecce511aa1c4683b0ef80645ec4eb6e06a9f3acb",
+    "asset_sha256": {
+      "assets/cartoon-pineapple-with-sunglasses-step-1.jpg": "298e9e73c86437f86d56e3b6c89d9361776dbacd6c5bc1c34f682cf454377760",
+      "assets/cartoon-pineapple-with-sunglasses-step-2.jpg": "5654aeab178761a61664e8c3c4b00f9a6cd2f6ea9bf7c54d7d9a3662c9366541",
+      "assets/cartoon-pineapple-with-sunglasses-step-3.jpg": "517ca3fe3de3832aee08db924aa7d72c4910e2ccc5c3976347586b61538c9311",
+      "assets/cartoon-pineapple-with-sunglasses-step-4.jpg": "5920e2b3ee0dbadd6df14465e60c0f5f2dcecd0079764bcc29035144ca2dbf41",
+      "assets/cartoon-pineapple-with-sunglasses-finished-v1.jpg": "afca4a78dc5a891751cadc93929ec4cce32e13e4e10e5969e917b53828095b3f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "pineapple body",
+          "five crown leaves"
+        ],
+        "observed_addition": "The original body, flat base and top rim stay fixed; five pointed crown leaves attach behind the rim, with the middle leaf highest.",
+        "instruction_match": "The second instruction calls for exactly five leaves behind the existing top rim, matching the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "pineapple body",
+          "five crown leaves",
+          "left sunglass lens",
+          "right sunglass lens",
+          "sideways smirk"
+        ],
+        "observed_addition": "The fixed body and all five crown leaves remain; two broad joined sunglass lenses and one right-rising crooked smirk appear on the body.",
+        "instruction_match": "The third instruction names both lenses, their bridge and the off-center smirk visible in this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "pineapple body",
+          "five crown leaves",
+          "left sunglass lens",
+          "right sunglass lens",
+          "sideways smirk",
+          "two rind chevrons",
+          "ground shadow"
+        ],
+        "observed_addition": "The body, top rim, five leaves, both lenses and smirk persist; one V mark appears low on each side and three separate horizontal ground strokes appear below.",
+        "instruction_match": "The fourth instruction matches the two side V marks and the three broken ground strokes, without claiming a full rind lattice.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "pineapple body",
+          "five crown leaves",
+          "left sunglass lens",
+          "right sunglass lens",
+          "sideways smirk",
+          "two rind chevrons",
+          "ground shadow"
+        ],
+        "observed_addition": "The same five leaf shapes, body, rim, lens frames, smirk, two V marks and three ground strokes remain; green, yellow and dark blue marker fills occupy established regions.",
+        "instruction_match": "The final instruction calls for those exact fills and keeps every black structural mark visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
