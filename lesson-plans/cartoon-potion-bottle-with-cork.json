@@ -1,0 +1,196 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-potion-bottle-with-cork",
+  "finished": "assets/cartoon-potion-bottle-with-cork-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One rounded flask with a short raised foot and narrow oval mouth fixes the full silhouette while keeping the interior clear for liquid.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Fourth generated five-cell felt-tip contact sheet approved. First was rejected for cell frames and early color; second for face-like symmetric bubbles; third for a bottom-row cork crossing crop boundary. Rejected sheets retained privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "flask body",
+      "introduced_by_step": 1,
+      "description": "One rounded potion flask body with broad shoulders and a short raised foot beneath its flat base."
+    },
+    {
+      "name": "narrow neck",
+      "introduced_by_step": 1,
+      "description": "Two short parallel neck sides with a narrow oval mouth above the body."
+    },
+    {
+      "name": "wavy liquid line",
+      "introduced_by_step": 2,
+      "description": "One wavy horizontal liquid surface across the lower middle of the flask."
+    },
+    {
+      "name": "cork",
+      "introduced_by_step": 3,
+      "description": "One tapered cork set into the established neck opening."
+    },
+    {
+      "name": "three liquid bubbles",
+      "introduced_by_step": 4,
+      "description": "Exactly three bubbles below the wave: small near upper-left, medium near center-right, small near lower-left; no face pattern."
+    },
+    {
+      "name": "glass shines and shadow",
+      "introduced_by_step": 4,
+      "description": "Two open oval shines and one short diagonal shine stroke in upper glass, plus three broken ground strokes under base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-potion-bottle-with-cork-step-1.jpg",
+      "step_name": "Outline the little flask",
+      "visible_job": "Draw the rounded flask body, short foot, narrow neck and oval mouth.",
+      "instruction": "With black felt tip, draw one rounded flask with broad shoulders and a flat lower edge. Add a short raised foot beneath it, then pull two narrow neck sides up and close their top with an oval mouth.",
+      "adds": [
+        "flask body",
+        "narrow neck"
+      ],
+      "introduces": [
+        "flask body",
+        "narrow neck"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-potion-bottle-with-cork-step-2.jpg",
+      "step_name": "Set the liquid level",
+      "visible_job": "Inside the flask, draw one low wavy liquid surface from the left inner wall to the right inner wall; keep the body and neck unchanged.",
+      "instruction": "Inside the flask, draw one wavy liquid surface across its lower middle from the left inner wall to the right inner wall; keep the body and neck unchanged.",
+      "adds": [
+        "wavy liquid line"
+      ],
+      "introduces": [
+        "wavy liquid line"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-potion-bottle-with-cork-step-3.jpg",
+      "step_name": "Cork the neck",
+      "visible_job": "At the open neck, draw a short tapered cork that touches both neck sides and rises above the mouth.",
+      "instruction": "At the oval mouth, draw a short tapered cork that touches both neck sides and rises above the rim. Put two tiny grain marks on its face.",
+      "adds": [
+        "cork"
+      ],
+      "introduces": [
+        "cork"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-potion-bottle-with-cork-step-4.jpg",
+      "step_name": "Add bubbles and shine",
+      "visible_job": "Below the liquid line, draw exactly three separate round bubbles. Leave two short shine strokes in the upper empty glass and put a broken shadow below the bottle.",
+      "instruction": "Below the liquid line, stagger exactly three bubbles: one small near the upper-left, one medium at center-right, and one small near the lower-left. Add two oval shines and one diagonal stroke above the wave, then three short ground marks below the foot.",
+      "adds": [
+        "three liquid bubbles",
+        "glass shines and shadow"
+      ],
+      "introduces": [
+        "three liquid bubbles",
+        "glass shines and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-potion-bottle-with-cork-finished-v1.jpg",
+    "step_name": "Fill the magic colors",
+    "visible_job": "Fill only the established lower liquid, cork and glass contours with streaky marker color.",
+    "instruction": "Let the black outline dry. Fill the liquid vivid teal, shade the existing cork warm orange and add pale lavender marker inside the flask above the wave; preserve the three staggered white bubbles and all three upper shine marks.",
+    "adds": [
+      "marker color on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows only one round-shouldered flask, short raised foot, narrow neck and oval mouth, leaving the interior empty. These connected shapes give the learner the whole scale and stable starting silhouette.",
+    "draw_through_observation": "I inspected all five newly cropped JPGs consecutively. The raised foot, mouth and shoulders persist; the wave, cork and three bubbles arrive in separate jobs. Small upper-left, medium center-right and small lower-left bubbles avoid a face. The three glass shines and three ground strokes remain through the final color. No guides are used.",
+    "contract_sha256": "d979653d2f29d21213dc7c95fe5d96a29c24d179fde7dc94e8f29d11d0799b19",
+    "asset_sha256": {
+      "assets/cartoon-potion-bottle-with-cork-step-1.jpg": "27ab3925ce8930c9b9fb1aa6719a977768c8a5f7982d27c61ab32c82b8f16a8a",
+      "assets/cartoon-potion-bottle-with-cork-step-2.jpg": "f8e0f9cc00b10f18ad652d7cd3fb238a06692ee9c7164f3573a3c6a4ecdc31c9",
+      "assets/cartoon-potion-bottle-with-cork-step-3.jpg": "34d16b5771bb8ae55886d1908b3e1fa7beb40f14e0c512396b1aa7e10939cb69",
+      "assets/cartoon-potion-bottle-with-cork-step-4.jpg": "3f260dc9589b39b8123f46fda81d373b093b6d7b4e50d69c6daaf33f1cc8774d",
+      "assets/cartoon-potion-bottle-with-cork-finished-v1.jpg": "85a115eca86616c96cdb4a060aaee9bdb4fb26c245265bf6c7c1bbf114ccb3c5"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "flask body",
+          "narrow neck",
+          "wavy liquid line"
+        ],
+        "observed_addition": "The round shoulders, short raised foot, neck and oval mouth remain; one wavy liquid line connects the inner walls.",
+        "instruction_match": "The second instruction describes that one new wave across the established flask.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "flask body",
+          "narrow neck",
+          "wavy liquid line",
+          "cork"
+        ],
+        "observed_addition": "The raised foot, flask silhouette and liquid wave persist; one tapered cork with two grain dashes seats in the oval mouth.",
+        "instruction_match": "The third instruction places the cork at the existing mouth, intentionally covering part of its opening.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "flask body",
+          "narrow neck",
+          "wavy liquid line",
+          "cork",
+          "three liquid bubbles",
+          "glass shines and shadow"
+        ],
+        "observed_addition": "The foot, flask, wave and cork persist; a small upper-left bubble, medium center-right bubble and small lower-left bubble appear below the wave. Two oval shines, one diagonal shine and three ground strokes also appear.",
+        "instruction_match": "The fourth instruction names each bubble position and all three shine and ground marks visible in the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "flask body",
+          "narrow neck",
+          "wavy liquid line",
+          "cork",
+          "three liquid bubbles",
+          "glass shines and shadow"
+        ],
+        "observed_addition": "All three staggered bubbles, both oval shines, diagonal shine, cork, wave, foot and three ground strokes persist. Orange, lavender and streaky teal fills color established regions.",
+        "instruction_match": "The final instruction asks for exactly those color fills and retention of the established white marks; no new contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
