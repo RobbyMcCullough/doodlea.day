@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-yo-yo-with-looping-string",
+  "finished": "assets/cartoon-yo-yo-with-looping-string-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One large bold disc fixes the yo-yo scale and leaves open space above for the string; a learner can copy it without hidden construction.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First three sheets rejected for disappearing mark, early color, or repeated-element count. Fourth six-panel felt-tip sheet approved after complete saved-crop review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "round yo-yo face",
+      "introduced_by_step": 1,
+      "description": "One large circular front disc tilted slightly right, in final position."
+    },
+    {
+      "name": "side rim and center hub",
+      "introduced_by_step": 2,
+      "description": "Thick lower-right side rim and small center hub fixed within front disc."
+    },
+    {
+      "name": "looping string",
+      "introduced_by_step": 3,
+      "description": "One continuous black line anchored at the top of the yo-yo, rising into a single large loop to the upper left."
+    },
+    {
+      "name": "motion marks",
+      "introduced_by_step": 4,
+      "description": "Exactly two short curved motion strokes outside the left disc edge and one small four-point sparkle high right."
+    },
+    {
+      "name": "face bands and ground",
+      "introduced_by_step": 5,
+      "description": "Four curved divider arcs from outer circle to central hub, making four alternating color sectors, and one broken ground shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-yo-yo-with-looping-string-step-1.jpg",
+      "step_name": "Draw the yo-yo face",
+      "visible_job": "With a black felt-tip marker, draw one bold round yo-yo face tilted slightly right, leaving open paper above it for the string.",
+      "instruction": "With a black felt-tip marker, draw one bold round yo-yo face tilted slightly right, leaving open paper above it for the string.",
+      "adds": [
+        "round yo-yo face"
+      ],
+      "introduces": [
+        "round yo-yo face"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-yo-yo-with-looping-string-step-2.jpg",
+      "step_name": "Give the wheel depth",
+      "visible_job": "Echo a narrow side rim along the lower-right edge of the circle, then place one small round hub at its center.",
+      "instruction": "Echo a narrow side rim along the lower-right edge of the circle, then place one small round hub at its center.",
+      "adds": [
+        "side rim and center hub"
+      ],
+      "introduces": [
+        "side rim and center hub"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-yo-yo-with-looping-string-step-3.jpg",
+      "step_name": "Loop the string",
+      "visible_job": "From the top of the yo-yo, pull one thin string upward and curl it into one large open loop to the upper left.",
+      "instruction": "From the top of the yo-yo, pull one thin string upward and curl it into one large open loop to the upper left.",
+      "adds": [
+        "looping string"
+      ],
+      "introduces": [
+        "looping string"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-yo-yo-with-looping-string-step-4.jpg",
+      "step_name": "Show the spin",
+      "visible_job": "Outside the disc, draw exactly two short curved motion marks on the left and one small four-point sparkle high to the right.",
+      "instruction": "Outside the disc, draw exactly two short curved motion marks on the left and one small four-point sparkle high to the right.",
+      "adds": [
+        "motion marks"
+      ],
+      "introduces": [
+        "motion marks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-yo-yo-with-looping-string-step-5.jpg",
+      "step_name": "Add bands and ground",
+      "visible_job": "Inside the disc, draw four curved divider arcs from the outer edge to the central hub, making four sectors. Below the yo-yo, put one broken shadow.",
+      "instruction": "Inside the disc, draw four curved divider arcs from the outer edge to the central hub, making four sectors. Below the yo-yo, put one broken shadow.",
+      "adds": [
+        "face bands and ground"
+      ],
+      "introduces": [
+        "face bands and ground"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-yo-yo-with-looping-string-finished-v1.jpg",
+    "step_name": "Fill the spinning yo-yo",
+    "visible_job": "Add bright marker fills within existing disc bands and hub; retain all contours.",
+    "instruction": "Let the black ink dry. Fill the established disc bands coral and teal, the hub yellow, and the rim deep navy. Leave small paper streaks in the marker fill.",
+    "adds": [
+      "marker fills inside established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.3,
+    "first_step_observation": "Saved first crop shows one large black marker circle in the lower middle of its square; the clean interior leaves room for the center hub and four sectors.",
+    "draw_through_observation": "The six saved square crops retain one disc, central hub and right rim. A single textured string loop stays attached at top, two left motion strokes and one right sparkle persist, and four arcs meet the hub before final color. No temporary guides appear; final adds color on existing sectors without moving contours.",
+    "contract_sha256": "e4b1e505bd27337e16793c38389ecf2d742b2862c51ebf2d0309c20a32b99a94",
+    "asset_sha256": {
+      "assets/cartoon-yo-yo-with-looping-string-step-1.jpg": "05f7446e1c1755cf32026be625fb15cf1ec18ee58e7edf1746af6078423e407e",
+      "assets/cartoon-yo-yo-with-looping-string-step-2.jpg": "9e900d402f98f66d304fc08950f507fbf8fb2f2755b250c2792d9964856a628d",
+      "assets/cartoon-yo-yo-with-looping-string-step-3.jpg": "dde352248e4a9c7e567b07ad2d751a25635d9a9e3c1372979bcf67bdebb3044b",
+      "assets/cartoon-yo-yo-with-looping-string-step-4.jpg": "5c5c33e8a68ee18367ccb01a6bdb205b6f71d5ddd57698d6497a8fed14219a44",
+      "assets/cartoon-yo-yo-with-looping-string-step-5.jpg": "d25e5477317d6850f3ec3204bbbd135ca361895c565fbfcbe9628eac32bed8b2",
+      "assets/cartoon-yo-yo-with-looping-string-finished-v1.jpg": "6350eb0dc1d5aca879cb881ba78c4976723b3f397bceb47be61339eb6e8eee69"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "round yo-yo face",
+          "side rim and center hub"
+        ],
+        "observed_addition": "The round disc remains fixed; a narrow right-hand side rim and one centered hub circle appear.",
+        "instruction_match": "The second instruction describes the right rim and small hub.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "round yo-yo face",
+          "side rim and center hub",
+          "looping string"
+        ],
+        "observed_addition": "The disc, rim and hub remain; a single textured string begins at twelve o\u2019clock and loops upper left.",
+        "instruction_match": "The third instruction names the top anchor and loop direction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "round yo-yo face",
+          "side rim and center hub",
+          "looping string",
+          "motion marks"
+        ],
+        "observed_addition": "The same disc and string stay fixed; exactly two separated curved marks appear left of the disc and one four-point sparkle appears upper right.",
+        "instruction_match": "The fourth instruction matches both left strokes and the single right sparkle.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "round yo-yo face",
+          "side rim and center hub",
+          "looping string",
+          "motion marks",
+          "face bands and ground"
+        ],
+        "observed_addition": "All earlier landmarks remain; four curved arcs connect the disc edge to the hub and a broken shadow appears below.",
+        "instruction_match": "The fifth instruction matches four arc connections and new ground strokes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "round yo-yo face",
+          "side rim and center hub",
+          "looping string",
+          "motion marks",
+          "face bands and ground"
+        ],
+        "observed_addition": "The disc, rim, hub, string, two motion marks, sparkle, four arcs and ground shadow stay in place; coral and teal fill the four sectors, yellow fills hub and navy fills rim.",
+        "instruction_match": "The finish instruction fills established regions and adds no contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
