@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-black-cat-with-arched-back",
+  "finished": "assets/cartoon-black-cat-with-arched-back-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single arched back and belly curve fixes the cat's pose and reserves its head, paws and tail attachments.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for clipped tail, whiskers and cross-cell bleed. Second sheet supplied stable outlines; final panel was image-generation edited to restore three visible left whiskers, then reassembled and reviewed as the approved contact sheet."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "arched torso",
+      "introduced_by_step": 1,
+      "description": "One high arch from left rump to right shoulder, with a short lower belly curve and open attachment gaps."
+    },
+    {
+      "name": "head and ears",
+      "introduced_by_step": 2,
+      "description": "One small right-facing head attached to right shoulder with two pointed ears."
+    },
+    {
+      "name": "four paws",
+      "introduced_by_step": 3,
+      "description": "Two front legs below head and two back legs below rump, each ending in a small paw."
+    },
+    {
+      "name": "curled tail",
+      "introduced_by_step": 4,
+      "description": "One upright tail curling left from the rump without crossing the back."
+    },
+    {
+      "name": "face and whiskers",
+      "introduced_by_step": 5,
+      "description": "Two almond eyes, a small triangular nose, toothy side grin, and three whiskers on each cheek."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-black-cat-with-arched-back-step-1.jpg",
+      "step_name": "Arch the back",
+      "visible_job": "Draw the high back hump and a short belly curve with open ends for attachments.",
+      "instruction": "Start near the left rump, sweep a high arch toward the right shoulder, and add a shallow belly curve below it. Leave the ends open for the head, legs and tail.",
+      "adds": [
+        "arched torso"
+      ],
+      "introduces": [
+        "arched torso"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-black-cat-with-arched-back-step-2.jpg",
+      "step_name": "Attach the head",
+      "visible_job": "Add a right-facing cat head and two triangular ears at the right shoulder.",
+      "instruction": "At the right shoulder, round a small cheek and muzzle facing right. Raise two pointed ears from the head top and join the neck to the existing back.",
+      "adds": [
+        "head and ears"
+      ],
+      "introduces": [
+        "head and ears"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-black-cat-with-arched-back-step-3.jpg",
+      "step_name": "Set down four paws",
+      "visible_job": "Attach two front legs below the head and two back legs below the rump.",
+      "instruction": "Drop two short front legs under the head and two back legs under the rump; end each with a rounded paw and keep all four on one ground level.",
+      "adds": [
+        "four paws"
+      ],
+      "introduces": [
+        "four paws"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-black-cat-with-arched-back-step-4.jpg",
+      "step_name": "Curl the tail",
+      "visible_job": "Grow one upright tail from the left rump, curving back to the left.",
+      "instruction": "From the left rump, lift a thick tail upward and curve its tip left; return the inner edge to the same rump attachment without crossing the back.",
+      "adds": [
+        "curled tail"
+      ],
+      "introduces": [
+        "curled tail"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-black-cat-with-arched-back-step-5.jpg",
+      "step_name": "Give the cat a grin",
+      "visible_job": "Add two almond eyes, triangular nose, toothy grin and three whiskers per cheek.",
+      "instruction": "Place two slanted almond eyes, a tiny triangle nose and a broad grin with two small teeth. Flick three whiskers from each cheek without moving the head.",
+      "adds": [
+        "face and whiskers"
+      ],
+      "introduces": [
+        "face and whiskers"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-black-cat-with-arched-back-finished-v1.jpg",
+    "step_name": "Fill the cat with marker",
+    "visible_job": "Color existing cat contours black and add amber eyes without new structure.",
+    "instruction": "Fill the established cat silhouette with uneven black marker strokes, leave slim paper highlights on the back and tail, and tint the existing eyes amber. Keep the grin and whiskers clear.",
+    "adds": [
+      "black and amber marker fill"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "Saved crop 1 is a clean high outer arch joined to a shallower belly arch, centered with space for a head to the right, paws below and a tail at left.",
+    "draw_through_observation": "Six saved square crops have no clipped marks or adjacent-cell bleed. The arched torso, two ears, four paws and curled tail remain at stable anchors; the final image-generation repair keeps all six whiskers legible through the black fill. No temporary guides occur.",
+    "contract_sha256": "92a4a73bda98ca237a67fce7b5c5e8164142c22ba09b991959d1f106cfd3d6f3",
+    "asset_sha256": {
+      "assets/cartoon-black-cat-with-arched-back-step-1.jpg": "af94979f0a9b221a17c19c6bd8bae322a92140de80416546aee3b531be01a9d2",
+      "assets/cartoon-black-cat-with-arched-back-step-2.jpg": "121e7281dbb16c0cba8a18721f6de04a268d98a0cb4524e8f90a5221008bf5c4",
+      "assets/cartoon-black-cat-with-arched-back-step-3.jpg": "81023517bd88d4a8f45d3d97cdb30c4513d6b1f42b7a30ddfd15874964936050",
+      "assets/cartoon-black-cat-with-arched-back-step-4.jpg": "ceb1bcf06cf0d79b7826b190a12ef3f553f148d3f188383cb49a6b89a65839a2",
+      "assets/cartoon-black-cat-with-arched-back-step-5.jpg": "f5c24a5d4e99b11483795d27fa5ea0bb41f047fecb7397b6d30ccc818305caba",
+      "assets/cartoon-black-cat-with-arched-back-finished-v1.jpg": "5fe776617137d90e9e9d3f7ad98d846c0c4cf792b09c0a047b85a9d6b43003fc"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "arched torso",
+          "head and ears"
+        ],
+        "observed_addition": "The high back and shallow belly remain; a small right-facing round head and two pointed ears attach at the right shoulder.",
+        "instruction_match": "The head instruction follows the open right endpoint of the torso.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "arched torso",
+          "head and ears",
+          "four paws"
+        ],
+        "observed_addition": "The torso, head and two ears remain; two rear and two front legs descend to four rounded paws on a common level.",
+        "instruction_match": "The four-paw instruction matches the new left and right pairs.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "arched torso",
+          "head and ears",
+          "four paws",
+          "curled tail"
+        ],
+        "observed_addition": "The arched torso, head, ears and four paws persist; one thick tail rises from left rump and curves left within the crop.",
+        "instruction_match": "The tail instruction names its fixed rump attachment and curved direction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "arched torso",
+          "head and ears",
+          "four paws",
+          "curled tail",
+          "face and whiskers"
+        ],
+        "observed_addition": "The torso, two ears, four paws and one tail stay; two slanted almond eyes, triangle nose, toothy grin and three whiskers on each cheek appear.",
+        "instruction_match": "The face instruction accounts for both eyes, two teeth and all six whiskers.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "arched torso",
+          "head and ears",
+          "four paws",
+          "curled tail",
+          "face and whiskers"
+        ],
+        "observed_addition": "The back arch, head, ears, four paws, one tail, two eyes, grin and six whiskers remain; streaky black marker fills existing contours and amber fills the two eyes.",
+        "instruction_match": "The coloring instruction preserves paper openings for the grin and left whiskers, with right whiskers still dark on paper.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
