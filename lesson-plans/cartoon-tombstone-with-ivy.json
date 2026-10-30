@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-tombstone-with-ivy",
+  "finished": "assets/cartoon-tombstone-with-ivy-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One round arch with open ends fixes a recognizable stone silhouette and leaves room for its base and left ivy.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for clean sparse vector-like marks; second handmade six-cell marker sheet approved."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "arched stone",
+      "introduced_by_step": 1,
+      "description": "One upright round-topped stone arch with open lower ends, wider at base than crown."
+    },
+    {
+      "name": "stone base",
+      "introduced_by_step": 2,
+      "description": "One low rectangular plinth attached below the arched stone, plus a narrow right-side thickness."
+    },
+    {
+      "name": "crack and ivy stem",
+      "introduced_by_step": 3,
+      "description": "One angular crack in the stone crown and one curling ivy stem along the left edge."
+    },
+    {
+      "name": "three ivy leaves",
+      "introduced_by_step": 4,
+      "description": "Exactly three pointed leaves attached to the existing left ivy stem."
+    },
+    {
+      "name": "two grass tufts",
+      "introduced_by_step": 5,
+      "description": "Two grass tufts around the base, one on each side."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-tombstone-with-ivy-step-1.jpg",
+      "step_name": "Arch the stone",
+      "visible_job": "Draw one broad round-topped tombstone arch with open lower ends.",
+      "instruction": "Start at the lower left, rise into a broad arch, curve over the crown and descend to the lower right; leave the two lower ends open for the base.",
+      "adds": [
+        "arched stone"
+      ],
+      "introduces": [
+        "arched stone"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-tombstone-with-ivy-step-2.jpg",
+      "step_name": "Set the base",
+      "visible_job": "Attach a low plinth beneath the stone and show its right thickness.",
+      "instruction": "Draw a low rectangular base directly under the stone, letting it extend a little beyond each side. Add a narrow return edge on the right.",
+      "adds": [
+        "stone base"
+      ],
+      "introduces": [
+        "stone base"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-tombstone-with-ivy-step-3.jpg",
+      "step_name": "Crack and curl",
+      "visible_job": "Add one short crown crack and a green curling ivy stem along the left edge.",
+      "instruction": "Zigzag a short crack from the upper right crown inward. Curl one green vine up along the left edge, keeping it outside the stone face.",
+      "adds": [
+        "crack and ivy stem"
+      ],
+      "introduces": [
+        "crack and ivy stem"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-tombstone-with-ivy-step-4.jpg",
+      "step_name": "Grow three leaves",
+      "visible_job": "Attach exactly three pointed green leaves to the left ivy stem.",
+      "instruction": "Add exactly three pointed green leaves along the existing vine, alternating their directions and keeping the stone face clear.",
+      "adds": [
+        "three ivy leaves"
+      ],
+      "introduces": [
+        "three ivy leaves"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-tombstone-with-ivy-step-5.jpg",
+      "step_name": "Ground the stone",
+      "visible_job": "Add two grass tufts around the base.",
+      "instruction": "Put one small grass tuft to the left of the plinth and one to its right, keeping the base outline clear.",
+      "adds": [
+        "two grass tufts"
+      ],
+      "introduces": [
+        "two grass tufts"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-tombstone-with-ivy-finished-v1.jpg",
+    "step_name": "Fill the spooky colors",
+    "visible_job": "Color the established stone and base with felt-tip texture, retaining the green vine and leaves.",
+    "instruction": "Fill the stone with streaky lavender marker and the plinth with deeper violet; keep the existing green ivy and grass visible, with a paper highlight open.",
+    "adds": [
+      "marker color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "Saved first crop contains only a round-topped black felt-tip arch with open lower ends, fixing stone width and leaving clear space below for the plinth.",
+    "draw_through_observation": "Six saved square crops keep the arched stone and plinth at stable anchors. The right crown crack and green left ivy stem arrive in crop 3, exactly three green leaves in crop 4, and one grass tuft on each side in crop 5. The finish fills the existing stone and plinth with visibly streaky violet marker. No temporary guides or unexplained removal occurs.",
+    "contract_sha256": "e7b024f01ac94b053423da651319347863fbec18c2f8c10fbd2f80ebc5a6694c",
+    "asset_sha256": {
+      "assets/cartoon-tombstone-with-ivy-step-1.jpg": "c132cb4dfefbb6b358186438336c6fa6442e247a17c628275203468dc6d08d84",
+      "assets/cartoon-tombstone-with-ivy-step-2.jpg": "f82a063102b9d01e7f48cd7338933be638b109a2a4d71178015e2d6cb56d1d01",
+      "assets/cartoon-tombstone-with-ivy-step-3.jpg": "17eedaa2c6d5d1f6273182b39a9667b85ae8510fa08d120e7394292dec1495a8",
+      "assets/cartoon-tombstone-with-ivy-step-4.jpg": "8a796f2219a2ca775aef5d01ae99695cf2cf3bd4ccb2b4f4a51ec8a419c831d1",
+      "assets/cartoon-tombstone-with-ivy-step-5.jpg": "7c58eebb4a06c55c433eb7dd0b6c334cd573a7180bb99e2817f23b91f061f686",
+      "assets/cartoon-tombstone-with-ivy-finished-v1.jpg": "8d880dae816be465135a6b1a478c18c75a1a116383f88fea8d37bbf9b9a8ea51"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "arched stone",
+          "stone base"
+        ],
+        "observed_addition": "The original stone arch stays fixed; a low plinth appears beneath its open ends and a narrow right side edge adds thickness.",
+        "instruction_match": "The base instruction matches the attached plinth and right return edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "arched stone",
+          "stone base",
+          "crack and ivy stem"
+        ],
+        "observed_addition": "Stone arch and plinth remain; one short crack appears in the upper right crown and a green stem curls along the left side.",
+        "instruction_match": "The crack-and-vine instruction matches those two new marks and the reserved left margin.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "arched stone",
+          "stone base",
+          "crack and ivy stem",
+          "three ivy leaves"
+        ],
+        "observed_addition": "Stone, plinth, crack and green stem remain; exactly three pointed green leaves attach at upper, middle and lower points of that stem.",
+        "instruction_match": "The leaf instruction matches the three new attached leaves without moving the vine.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "arched stone",
+          "stone base",
+          "crack and ivy stem",
+          "three ivy leaves",
+          "two grass tufts"
+        ],
+        "observed_addition": "All three ivy leaves, crown crack, stone and plinth remain; one grass tuft appears left of the base and one right.",
+        "instruction_match": "The ground instruction matches the two new grass tufts around the plinth.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "arched stone",
+          "stone base",
+          "crack and ivy stem",
+          "three ivy leaves",
+          "two grass tufts"
+        ],
+        "observed_addition": "The arch, plinth, crack, three leaves and two grass tufts stay in place; streaky lavender fills the face and deep violet fills the base.",
+        "instruction_match": "The finish instruction matches coloring of established regions, with no new structural marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

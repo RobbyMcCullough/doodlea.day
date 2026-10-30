@@ -444,6 +444,11 @@
       "date": "2026-05-17",
       "note": "Reviewed contact sheet cropped into the honest May 17 archive tutorial assets."
     },
+    "cartoon-tombstone-with-ivy": {
+      "status": "published",
+      "date": "2026-10-30",
+      "note": "Six saved square raster states approved; current lesson integrated with schema-v5 review."
+    },
     "cartoon-toothbrush": {
       "status": "published"
     },
@@ -736,6 +741,11 @@
     },
     "whoopee-cushion-sticker": {
       "status": "published"
+    },
+    "witch-broom-with-ribbon": {
+      "status": "rejected-duplicate",
+      "date": "2026-10-30",
+      "note": "Rejected before art: archive already includes cartoon-witch-broom, same core shape and drawing problem."
     }
   }
 }
