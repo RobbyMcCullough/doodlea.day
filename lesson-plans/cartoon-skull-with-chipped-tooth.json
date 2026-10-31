@@ -1,0 +1,267 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-skull-with-chipped-tooth",
+  "finished": "assets/cartoon-skull-with-chipped-tooth-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad top arc at its final position fixes the skull width and leaves clear space for the cheeks and lower jaw.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact-sheet-first marker drawing; rejected iterations preserved privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "round cranium",
+      "introduced_by_step": 1,
+      "description": "One domed skull top with open lower ends at final position."
+    },
+    {
+      "name": "left cheek and jaw",
+      "introduced_by_step": 2,
+      "description": "A connected left cheek turning into the squared lower jaw."
+    },
+    {
+      "name": "right cheek and jaw closure",
+      "introduced_by_step": 2,
+      "description": "A connected right cheek joining the jaw without crossing it."
+    },
+    {
+      "name": "left round eye socket",
+      "introduced_by_step": 3,
+      "description": "One large oval hollow on the left half of the face."
+    },
+    {
+      "name": "right slanted eye socket",
+      "introduced_by_step": 3,
+      "description": "One smaller slanted hollow for an asymmetric expression."
+    },
+    {
+      "name": "triangular nose",
+      "introduced_by_step": 3,
+      "description": "One small inverted triangular hollow below the eyes."
+    },
+    {
+      "name": "four front teeth",
+      "introduced_by_step": 4,
+      "description": "Four separate front teeth outlined along the lower jaw."
+    },
+    {
+      "name": "chipped right tooth",
+      "introduced_by_step": 4,
+      "description": "A short diagonal chip stroke inside the rightmost tooth, without cutting or moving the outer jaw line."
+    },
+    {
+      "name": "left temple crack",
+      "introduced_by_step": 5,
+      "description": "One short two-segment crack on the upper left temple."
+    },
+    {
+      "name": "two cheek hatches",
+      "introduced_by_step": 5,
+      "description": "Three short hatch strokes on each cheek below the eye hollows."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-skull-with-chipped-tooth-step-1.jpg",
+      "step_name": "Dome the cranium",
+      "visible_job": "Start at the lower left and sweep a broad, slightly uneven arc over the top to the lower right; leave both lower ends open for cheeks.",
+      "instruction": "Start at the lower left and sweep a broad, slightly uneven arc over the top to the lower right; leave both lower ends open for cheeks.",
+      "adds": [
+        "round cranium"
+      ],
+      "introduces": [
+        "round cranium"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-skull-with-chipped-tooth-step-2.jpg",
+      "step_name": "Connect cheeks and jaw",
+      "visible_job": "Turn each open end inward into a rounded cheek, then pull both sides down to a short broad jaw and join the bottom edge.",
+      "instruction": "Turn each open end inward into a rounded cheek, then pull both sides down to a short broad jaw and join the bottom edge.",
+      "adds": [
+        "left cheek and jaw",
+        "right cheek and jaw closure"
+      ],
+      "introduces": [
+        "left cheek and jaw",
+        "right cheek and jaw closure"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-skull-with-chipped-tooth-step-3.jpg",
+      "step_name": "Set the crooked expression",
+      "visible_job": "Draw one generous oval eye hollow at left, a smaller slanted hollow at right, and a tiny inverted triangle nose between them.",
+      "instruction": "Draw one generous oval eye hollow at left, a smaller slanted hollow at right, and a tiny inverted triangle nose between them.",
+      "adds": [
+        "left round eye socket",
+        "right slanted eye socket",
+        "triangular nose"
+      ],
+      "introduces": [
+        "left round eye socket",
+        "right slanted eye socket",
+        "triangular nose"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-skull-with-chipped-tooth-step-4.jpg",
+      "step_name": "Shape four teeth and the chip",
+      "visible_job": "Add three inner tooth dividers for four teeth and a diagonal chip mark inside the rightmost tooth without changing the jaw silhouette.",
+      "instruction": "Inside the already closed jaw, divide the front row into four teeth with three short vertical separations. Put one little diagonal chip mark inside the upper corner of the rightmost tooth; leave the outer jaw line intact.",
+      "adds": [
+        "four front teeth",
+        "chipped right tooth"
+      ],
+      "introduces": [
+        "four front teeth",
+        "chipped right tooth"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-skull-with-chipped-tooth-step-5.jpg",
+      "step_name": "Crack the temple",
+      "visible_job": "Add one bent left-temple crack and exactly three short hatches on each cheek.",
+      "instruction": "Draw one short bent crack from the upper left temple inward. Under each eye hollow, make three short diagonal cheek hatches, keeping the tooth chip clear.",
+      "adds": [
+        "left temple crack",
+        "two cheek hatches"
+      ],
+      "introduces": [
+        "left temple crack",
+        "two cheek hatches"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-skull-with-chipped-tooth-finished-v1.jpg",
+    "step_name": "Color the cheeky skull",
+    "visible_job": "Fill the established skull shape with streaky warm ivory marker, adding tiny teal accents inside the six cheek hatches while keeping the eye and nose hollows black.",
+    "instruction": "Let the black marker dry, then pull warm ivory strokes across the established skull shape. Keep both eye hollows and the nose black; touch teal around the three hatch strokes on each cheek, and leave the four teeth mostly pale. Add no new contour.",
+    "adds": [
+      "warm ivory marker fill",
+      "teal accents around established cheek hatches"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows only one broad black domed arc, open at two lower ends; it establishes the head width while leaving the cheek and jaw attachments clear.",
+    "draw_through_observation": "The repaired six square crops keep one fixed skull silhouette from step two through finish. The round and slanted hollows remain black, all four tooth spaces and the right internal chip persist, and the left crack and six cheek hatches survive the ivory and teal marker fill. There are no temporary guides.",
+    "contract_sha256": "2b4866e58cb0da8c38e4b754745df5ade8986582d9bc1e6fed3684cfc472d567",
+    "asset_sha256": {
+      "assets/cartoon-skull-with-chipped-tooth-step-1.jpg": "2825cbbbdfb4863fda76d6fdb532c190f0be7d3dfc433925e464b1777512e931",
+      "assets/cartoon-skull-with-chipped-tooth-step-2.jpg": "e27d3f42bc37b2960d7d5d3641e06171460af4d1840d3e74b4e14f3fdd504baf",
+      "assets/cartoon-skull-with-chipped-tooth-step-3.jpg": "e3eaf3bddcf95ba80a9244106247a79aadf39f0c3c4cd282f3a692ec42d82ebd",
+      "assets/cartoon-skull-with-chipped-tooth-step-4.jpg": "c2794cf0cf7262016460a2229abb94e30d700dfcc1170b078ec07cd643439f4a",
+      "assets/cartoon-skull-with-chipped-tooth-step-5.jpg": "3aaae1bdff3e54528610187164a06b22c47ab4ee2f0a51070890918078011ba1",
+      "assets/cartoon-skull-with-chipped-tooth-finished-v1.jpg": "c98b49957ecdf58348f47f8751fb87cb479ce02c1255e6d291a07a36b25bd9ee"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "round cranium",
+          "left cheek and jaw",
+          "right cheek and jaw closure"
+        ],
+        "observed_addition": "The single domed cranium arch retains both open lower ends; rounded left and right cheeks now join a short, closed jaw at fixed anchors.",
+        "instruction_match": "The jaw instruction matches the two attached cheek curves and closed lower edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "round cranium",
+          "left cheek and jaw",
+          "right cheek and jaw closure",
+          "left round eye socket",
+          "right slanted eye socket",
+          "triangular nose"
+        ],
+        "observed_addition": "The dome, both cheeks and broad closed jaw persist; a large left round hollow, smaller slanted right hollow and small inverted nose hollow appear inside.",
+        "instruction_match": "The expression instruction matches each newly visible black hollow and its asymmetric placement.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "round cranium",
+          "left cheek and jaw",
+          "right cheek and jaw closure",
+          "left round eye socket",
+          "right slanted eye socket",
+          "triangular nose",
+          "four front teeth",
+          "chipped right tooth"
+        ],
+        "observed_addition": "Both eye hollows, nose, cranium, cheeks and outer jaw stay put; three inner vertical separators make four teeth, and a diagonal chip mark appears inside the rightmost tooth.",
+        "instruction_match": "The tooth instruction matches the four counted spaces and internal diagonal mark without moving the outside jaw.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "round cranium",
+          "left cheek and jaw",
+          "right cheek and jaw closure",
+          "left round eye socket",
+          "right slanted eye socket",
+          "triangular nose",
+          "four front teeth",
+          "chipped right tooth",
+          "left temple crack",
+          "two cheek hatches"
+        ],
+        "observed_addition": "The four teeth and internal chip, both eyes and nose, cheeks and cranium persist; one bent crack starts at the left temple and three short hatches appear on each cheek.",
+        "instruction_match": "The crack and two three-stroke hatch groups match the fifth instruction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "round cranium",
+          "left cheek and jaw",
+          "right cheek and jaw closure",
+          "left round eye socket",
+          "right slanted eye socket",
+          "triangular nose",
+          "four front teeth",
+          "chipped right tooth",
+          "left temple crack",
+          "two cheek hatches"
+        ],
+        "observed_addition": "The closed jaw, four teeth and chip mark, left crack, two eye hollows, nose and six cheek hatches persist; streaky ivory fills the bone area and teal touches the cheek marks while the hollows stay black.",
+        "instruction_match": "The coloring instruction matches only added marker fill and keeps every earlier structural mark visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
