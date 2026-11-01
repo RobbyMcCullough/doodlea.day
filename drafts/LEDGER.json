@@ -125,6 +125,11 @@
     "cartoon-cowboy-hat": {
       "status": "published"
     },
+    "cartoon-cupcake-with-cherry": {
+      "status": "published",
+      "date": "2026-11-01",
+      "note": "Approved five-crop process selected from the second generated sheet after rejecting its drifting first cell; teaching 8.0/10, finish 8.1/10."
+    },
     "cartoon-dragon-head": {
       "status": "published"
     },
@@ -732,6 +737,11 @@
       "status": "published",
       "date": "2026-10-01",
       "note": "Day 137 current marker lesson; repaired stem gap and early vine color before approval."
+    },
+    "tilted-cartoon-traffic-cone": {
+      "status": "rejected-duplicate",
+      "date": "2026-11-01",
+      "note": "Preflight candidate was later found to near-duplicate the existing cartoon-traffic-cone archive lesson; three distinct generated sheets were also rejected for contour replacement, lost reflective band or pose drift. Exact plan and sheets preserved privately; no public assets."
     },
     "trophy-cup-sticker": {
       "status": "published"

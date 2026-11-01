@@ -1,0 +1,27 @@
+{
+  "schema_version": 5,
+  "slug": "tilted-cartoon-traffic-cone",
+  "finished": "assets/tilted-cartoon-traffic-cone-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A slightly leaning tapered cone with a rounded tip is recognizable on its own and leaves room beneath for a broad base.",
+  "source": {"type":"generated-raster-master","notes":"Contact sheet first; preserve failed iterations privately."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"leaning cone body","introduced_by_step":1,"description":"A left-leaning tapered traffic-cone body with one rounded top and open bottom."},
+    {"name":"broad square base","introduced_by_step":2,"description":"A broad flat platform beneath the body with visible front and side edges."},
+    {"name":"upper reflective stripe","introduced_by_step":3,"description":"One broad curved stripe around the upper third of the cone."},
+    {"name":"lower reflective stripe","introduced_by_step":3,"description":"One broad curved stripe around the lower third of the cone."},
+    {"name":"two base scuffs","introduced_by_step":4,"description":"Two short angled wear marks on the front of the base."},
+    {"name":"three wobble ticks","introduced_by_step":5,"description":"Three short separate motion ticks beside the upper right side."},
+    {"name":"broken ground shadow","introduced_by_step":5,"description":"A short broken marker shadow just below the broad base."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/tilted-cartoon-traffic-cone-step-1.jpg","step_name":"Lean the cone","visible_job":"Draw a tall taper leaning a little left, round its top, and leave its bottom open.","instruction":"Draw two gently uneven black marker lines tapering to a rounded tip that leans left. Leave the wide bottom open for the base.","adds":["leaning cone body"],"introduces":["leaning cone body"]},
+    {"step":2,"asset":"assets/tilted-cartoon-traffic-cone-step-2.jpg","step_name":"Set the broad base","visible_job":"Attach a wide low platform under the cone with a visible front edge and short side edges.","instruction":"Under the open bottom, draw a wide flat platform. Give it a narrow front face and short angled side edges so the leaning cone sits firmly.","adds":["broad square base"],"introduces":["broad square base"]},
+    {"step":3,"asset":"assets/tilted-cartoon-traffic-cone-step-3.jpg","step_name":"Wrap two reflective bands","visible_job":"Add one curved reflective band high and one lower on the cone without shifting the body.","instruction":"Across the tapered body, draw two wide curved bands: one below the rounded tip and one above the base. Let their ends touch the side outlines.","adds":["upper reflective stripe","lower reflective stripe"],"introduces":["upper reflective stripe","lower reflective stripe"]},
+    {"step":4,"asset":"assets/tilted-cartoon-traffic-cone-step-4.jpg","step_name":"Scuff the base","visible_job":"Add two short angled wear marks on the base's front face.","instruction":"On the base's front edge, mark two short angled scuffs. Keep them apart so the platform remains a single solid shape.","adds":["two base scuffs"],"introduces":["two base scuffs"]},
+    {"step":5,"asset":"assets/tilted-cartoon-traffic-cone-step-5.jpg","step_name":"Add wobble and ground","visible_job":"Place three short wobble ticks beside the upper right and a broken shadow beneath the base.","instruction":"Beside the upper right side, draw three short separate wobble ticks. Under the base, add a broken ground shadow that does not touch the cone.","adds":["three wobble ticks","broken ground shadow"],"introduces":["three wobble ticks","broken ground shadow"]}
+  ],
+  "final_step": {"asset":"assets/tilted-cartoon-traffic-cone-finished-v1.jpg","step_name":"Fill with bright marker","visible_job":"Fill the established cone orange, preserve two pale reflective bands, and color the base dark teal.","instruction":"Fill the cone in streaky safety orange while leaving both reflective bands pale. Color the established base dark teal and deepen only its existing shadow and scuffs.","adds":["orange and teal marker fill on established shapes"],"introduces":[]},
+  "visual_review": {"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-cupcake-with-cherry",
+  "finished": "assets/cartoon-cupcake-with-cherry-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A low tapered paper wrapper with a gently curved top rim gives a beginner a stable base for the frosting and cherry.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First cupcake sheet rejected because its peaked frosting contour disappeared under a cherry. Second six-cell sheet had wrapper scale drift in its first cell; selected its five stable later cells, then cropped them as a new raster contact sheet without changing their art."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "paper wrapper",
+      "introduced_by_step": 1,
+      "description": "One low tapered cupcake wrapper with a curved top rim and flat bottom."
+    },
+    {
+      "name": "frosting dome",
+      "introduced_by_step": 1,
+      "description": "One frosting mound attached to the wrapper rim, with a top-center gap reserved for the cherry."
+    },
+    {
+      "name": "cherry",
+      "introduced_by_step": 2,
+      "description": "One round cherry touching the peak of the frosting mound."
+    },
+    {
+      "name": "cherry stem",
+      "introduced_by_step": 2,
+      "description": "One short bent stem emerging from the top of the cherry."
+    },
+    {
+      "name": "wrapper pleats",
+      "introduced_by_step": 3,
+      "description": "Four vertical pleat lines spaced across the wrapper front."
+    },
+    {
+      "name": "frosting sprinkles",
+      "introduced_by_step": 4,
+      "description": "Five short separate sprinkles spaced across the frosting."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 4,
+      "description": "One short broken shadow under the wrapper."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-cupcake-with-cherry-step-1.jpg",
+      "step_name": "Shape the wrapper and frosting",
+      "visible_job": "Outline a low paper wrapper and attached scalloped frosting, leaving an open gap at the top center for the cherry.",
+      "instruction": "Draw a low tapered wrapper with a shallow curved rim. From both rim ends, curl uneven frosting scallops upward, stopping short of the top center to leave a round gap for the cherry.",
+      "adds": [
+        "paper wrapper",
+        "frosting dome"
+      ],
+      "introduces": [
+        "paper wrapper",
+        "frosting dome"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-cupcake-with-cherry-step-2.jpg",
+      "step_name": "Top it with a cherry",
+      "visible_job": "Add one round cherry into the reserved frosting gap and a short bent stem.",
+      "instruction": "Fill the reserved top-center gap with a round cherry, joining its lower sides to the two frosting curves. Add one short bent stem above it; keep every earlier line.",
+      "adds": [
+        "cherry",
+        "cherry stem"
+      ],
+      "introduces": [
+        "cherry",
+        "cherry stem"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-cupcake-with-cherry-step-3.jpg",
+      "step_name": "Fold the wrapper",
+      "visible_job": "Draw four separate vertical pleat lines within the established wrapper.",
+      "instruction": "Inside the wrapper, pull four short pleat lines from the curved rim toward the flat bottom. Space them unevenly and keep them inside the outline.",
+      "adds": [
+        "wrapper pleats"
+      ],
+      "introduces": [
+        "wrapper pleats"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-cupcake-with-cherry-step-4.jpg",
+      "step_name": "Sprinkle and ground",
+      "visible_job": "Add five short sprinkles on the frosting and a broken shadow under the wrapper.",
+      "instruction": "Scatter five short separate sprinkle strokes over the frosting, avoiding the cherry. Beneath the wrapper, draw a short broken ground shadow.",
+      "adds": [
+        "frosting sprinkles",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "frosting sprinkles",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-cupcake-with-cherry-finished-v1.jpg",
+    "step_name": "Color the cupcake",
+    "visible_job": "Fill established frosting pink, cherry red, and wrapper teal with streaky felt-tip marker.",
+    "instruction": "Fill the established frosting with streaky raspberry pink, the cherry red, and the wrapper teal. Keep five black sprinkles and four black pleats visible inside the color.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop shows a low tapered wrapper and two scalloped frosting sides, with a clean circular opening at the top for the later cherry.",
+    "draw_through_observation": "Five saved square states preserve the wrapper rim, frosting scallops and reserved top gap; cherry, four pleats, five sprinkles and three broken ground marks appear before color. No temporary guides or unexplained contour loss.",
+    "contract_sha256": "d0f67c94d17df565fd4df6cf7ad46347654c58f80f1df2c2a9dbbaf74fee3637",
+    "asset_sha256": {
+      "assets/cartoon-cupcake-with-cherry-step-1.jpg": "843ab67c2bf5b673911378a1df3179ea611eab7db918106bb5a0f991e3684c28",
+      "assets/cartoon-cupcake-with-cherry-step-2.jpg": "199601bd229a0297079bbb1e3570f33d357e979d2c1ef57efc6a3fb77be73505",
+      "assets/cartoon-cupcake-with-cherry-step-3.jpg": "db24b4364911699256278a9dfe16a3ee810040222bee992c4a2b82df2638097e",
+      "assets/cartoon-cupcake-with-cherry-step-4.jpg": "114d8e1feef58f8af9ffc6cca7ed4d87fd746424cde48af5f76442847de1cbbb",
+      "assets/cartoon-cupcake-with-cherry-finished-v1.jpg": "c51b148df1ff06f3e13e4003ea0662db3b4eda4bf3bae6b804bf0f3d1c1b9f55"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "paper wrapper",
+          "frosting dome",
+          "cherry",
+          "cherry stem"
+        ],
+        "observed_addition": "The wrapper rim and scalloped frosting sides remain in place; one round cherry fills their reserved top gap and a bent stem rises above it.",
+        "instruction_match": "The cherry instruction matches the circle and attached stem; no peak line has to be erased.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "paper wrapper",
+          "frosting dome",
+          "cherry",
+          "cherry stem",
+          "wrapper pleats"
+        ],
+        "observed_addition": "The wrapper, frosting, cherry and stem remain; four uneven vertical pleat lines appear inside the lower paper cup.",
+        "instruction_match": "The wrapper instruction matches exactly four new interior pleats.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "paper wrapper",
+          "frosting dome",
+          "cherry",
+          "cherry stem",
+          "wrapper pleats",
+          "frosting sprinkles",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The four pleats and upper forms remain; five dash sprinkles appear on the frosting and three separate shadow marks below the wrapper.",
+        "instruction_match": "The sprinkle and ground instruction matches the five new dashes and three broken marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "paper wrapper",
+          "frosting dome",
+          "cherry",
+          "cherry stem",
+          "wrapper pleats",
+          "frosting sprinkles",
+          "broken ground shadow"
+        ],
+        "observed_addition": "All prior contours, four pleats, five sprinkles and three ground marks remain as pink, red and teal streaky marker fill is added.",
+        "instruction_match": "The final instruction matches color on established contours with no new structural form.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
