@@ -1,0 +1,222 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-tambourine-with-three-jingles",
+  "finished": "assets/cartoon-tambourine-with-three-jingles-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad round outer frame at the final size gives a beginner one stable contour and clear room for a drumhead and jingle slots.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel handmade felt-tip contact sheet; rejected iterations, if any, remain private in drafts."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer tambourine frame",
+      "introduced_by_step": 1,
+      "description": "One slightly uneven round black marker outline."
+    },
+    {
+      "name": "inner drumhead circle",
+      "introduced_by_step": 2,
+      "description": "One smaller concentric black contour with a wide frame band between circles."
+    },
+    {
+      "name": "three jingle slots",
+      "introduced_by_step": 3,
+      "description": "Exactly three small rounded openings on the frame at upper-left, upper-right and lower-center."
+    },
+    {
+      "name": "three jingle centers",
+      "introduced_by_step": 4,
+      "description": "One dark inner curved metal mark inside each of the three jingle slots."
+    },
+    {
+      "name": "two shake arcs",
+      "introduced_by_step": 5,
+      "description": "Exactly two short detached motion arcs outside the right edge."
+    },
+    {
+      "name": "three head hatches",
+      "introduced_by_step": 5,
+      "description": "Exactly three short diagonal texture lines on the upper-left drumhead."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-tambourine-with-three-jingles-step-1.jpg",
+      "step_name": "Draw the tambourine frame",
+      "visible_job": "Draw one broad uneven circle in black felt tip.",
+      "instruction": "In black felt tip, draw one broad round outline at the page center, keeping the ring a little handmade rather than compass-perfect.",
+      "adds": [
+        "outer tambourine frame"
+      ],
+      "introduces": [
+        "outer tambourine frame"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-tambourine-with-three-jingles-step-2.jpg",
+      "step_name": "Open the drumhead",
+      "visible_job": "Add one inner circle to create a wide frame band.",
+      "instruction": "Draw a smaller circle inside the first, leaving a wide band all around for the metal jingles.",
+      "adds": [
+        "inner drumhead circle"
+      ],
+      "introduces": [
+        "inner drumhead circle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-tambourine-with-three-jingles-step-3.jpg",
+      "step_name": "Place three jingle slots",
+      "visible_job": "Add three separate openings in the frame band.",
+      "instruction": "Draw three small rounded slots in the frame band: one upper left, one upper right, and one at the bottom center. Keep all three separate from the inner circle.",
+      "adds": [
+        "three jingle slots"
+      ],
+      "introduces": [
+        "three jingle slots"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-tambourine-with-three-jingles-step-4.jpg",
+      "step_name": "Mark the three jingles",
+      "visible_job": "Draw one small dark metal curve inside each slot.",
+      "instruction": "Inside each of the three slots, draw one small dark curved metal mark. Count three jingle centers before moving on.",
+      "adds": [
+        "three jingle centers"
+      ],
+      "introduces": [
+        "three jingle centers"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-tambourine-with-three-jingles-step-5.jpg",
+      "step_name": "Show the shake and head",
+      "visible_job": "Add two right-side motion arcs and three drumhead hatches.",
+      "instruction": "Outside the right edge, add two short separate shake arcs. On the upper-left drumhead, draw three small diagonal hatches without crossing the inner rim.",
+      "adds": [
+        "two shake arcs",
+        "three head hatches"
+      ],
+      "introduces": [
+        "two shake arcs",
+        "three head hatches"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-tambourine-with-three-jingles-finished-v1.jpg",
+    "step_name": "Color the tambourine",
+    "visible_job": "Fill the established frame, drumhead and three jingles with textured marker color.",
+    "instruction": "Fill the frame band with coral marker, the drumhead with pale yellow, and the three existing jingle slots with teal. Keep their dark centers, two shake arcs, and three head hatches crisp under the color.",
+    "adds": [
+      "coral, pale yellow and teal marker fill on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop shows only one thick slightly wobbly black oval at page center, leaving a broad empty interior for the drumhead.",
+    "draw_through_observation": "Six saved square crops build one fixed tilted tambourine: inner ring, three fixed jingle slots, one inner metal curve in each, two right-side shake arcs and three head hatches before streaky coral, yellow and teal fill. No guides or unexplained structural loss.",
+    "contract_sha256": "9acce845ff0673cd736791c9a748ff4838edad33e1629c01e34e005650707850",
+    "asset_sha256": {
+      "assets/cartoon-tambourine-with-three-jingles-step-1.jpg": "09d0ece3533603cc26ab510df12a731ea124ea8c9245edb1b460666ef1496f6f",
+      "assets/cartoon-tambourine-with-three-jingles-step-2.jpg": "238925d82a5f36bcf91cb5b1500f36aa89bee02bd22c7b31f9b39ad7fdab3c9b",
+      "assets/cartoon-tambourine-with-three-jingles-step-3.jpg": "10a14856756458c6efc09760598deb7534a6c6b14fd00d346e8b29ab08f8b8f9",
+      "assets/cartoon-tambourine-with-three-jingles-step-4.jpg": "ed09c5b56e562bebc3c04a876a75c4d0fe2fbe074c869d51a0b1cbd469230c26",
+      "assets/cartoon-tambourine-with-three-jingles-step-5.jpg": "6a80917a4fca0fa9e49e46e25f470a5a436ee581bbe059917557157f65449ee1",
+      "assets/cartoon-tambourine-with-three-jingles-finished-v1.jpg": "fc5f3cf22728ae76d5b115a9deed86ed556915054c372fd5222d362200d7c13d"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer tambourine frame",
+          "inner drumhead circle"
+        ],
+        "observed_addition": "The outer oval stays at its fixed tilt; one smaller oval appears inside it, leaving a broad blank frame band.",
+        "instruction_match": "The inner-ring instruction matches one new concentric contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer tambourine frame",
+          "inner drumhead circle",
+          "three jingle slots"
+        ],
+        "observed_addition": "Both rings persist; exactly three rounded slots appear at upper left, upper right, and bottom center in the frame band.",
+        "instruction_match": "The slot instruction matches the three separate openings and their locations.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer tambourine frame",
+          "inner drumhead circle",
+          "three jingle slots",
+          "three jingle centers"
+        ],
+        "observed_addition": "Both rings and all three slots persist; one smaller dark curve appears inside each slot, three new metal centers total.",
+        "instruction_match": "The jingle instruction matches one inner curve in each of the three slots.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer tambourine frame",
+          "inner drumhead circle",
+          "three jingle slots",
+          "three jingle centers",
+          "two shake arcs",
+          "three head hatches"
+        ],
+        "observed_addition": "All three jingle centers persist; two separate motion arcs appear to the right and three diagonal hatches appear in the upper-left drumhead.",
+        "instruction_match": "The motion-and-head instruction matches exactly two arcs and three hatches.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "outer tambourine frame",
+          "inner drumhead circle",
+          "three jingle slots",
+          "three jingle centers",
+          "two shake arcs",
+          "three head hatches"
+        ],
+        "observed_addition": "The rings, three slots and centers, two motion arcs and three hatches remain; coral, pale yellow and teal marker fills their established areas.",
+        "instruction_match": "The final instruction matches color on existing forms only, without new structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
