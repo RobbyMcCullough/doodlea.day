@@ -1,0 +1,251 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-milk-carton-with-striped-straw",
+  "finished": "assets/cartoon-milk-carton-with-striped-straw-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One tall closed front panel gives the learner stable outer edges and a clear top edge for the pitched roof; it is recognizable without facial details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet roof line crossed straw; second edit erased prior roof line; third sheet fixed straw gap but showed four tooth sections against a two-tooth plan. Fourth sheet generated against the revised four-tooth plan."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "carton body",
+      "introduced_by_step": 1,
+      "description": "One upright broad front panel with a gently uneven flat base, two stable side edges and a closed straight top."
+    },
+    {
+      "name": "gable top",
+      "introduced_by_step": 2,
+      "description": "A pitched folded roof joined to body corners, with a small gap on its right slope reserved for the straw."
+    },
+    {
+      "name": "bent straw",
+      "introduced_by_step": 3,
+      "description": "One bent striped drinking straw entering the upper-right roof opening."
+    },
+    {
+      "name": "left oval eye",
+      "introduced_by_step": 4,
+      "description": "One large open oval eye on the upper body."
+    },
+    {
+      "name": "right winking eye",
+      "introduced_by_step": 4,
+      "description": "One thick curved wink at the same face height."
+    },
+    {
+      "name": "wide toothy grin",
+      "introduced_by_step": 4,
+      "description": "One tilted open smile beneath the eyes with four visible white tooth sections divided by three short black bars."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "One short broken shadow directly below the carton."
+    },
+    {
+      "name": "left cow patch",
+      "introduced_by_step": 5,
+      "description": "One large uneven dark patch attached to the lower-left edge of the carton front."
+    },
+    {
+      "name": "right cow patch",
+      "introduced_by_step": 5,
+      "description": "One smaller uneven dark patch attached to the lower-right edge of the carton front."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-milk-carton-with-striped-straw-step-1.jpg",
+      "step_name": "Draw the carton body",
+      "visible_job": "Draw a tall broad front panel with both sides, a flat lower edge and a closed top.",
+      "instruction": "With black felt tip, draw a tall upright rectangle near the center. Make its side lines slightly handmade and close both the top and base; the roof will sit above this front panel.",
+      "adds": [
+        "carton body"
+      ],
+      "introduces": [
+        "carton body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-milk-carton-with-striped-straw-step-2.jpg",
+      "step_name": "Fold the gable top",
+      "visible_job": "Add a pitched roof above the body and reserve a short gap on its right slope for the straw.",
+      "instruction": "From the left top corner, slope up to a short flat ridge. Descend toward the right top corner but leave a small break on the upper-right slope for the straw; continue the same slope after the break. Keep the body\u2019s top edge visible below the roof.",
+      "adds": [
+        "gable top"
+      ],
+      "introduces": [
+        "gable top"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-milk-carton-with-striped-straw-step-3.jpg",
+      "step_name": "Bend the straw",
+      "visible_job": "Place one bent straw through the upper-right top fold.",
+      "instruction": "Join two parallel straw edges to the reserved break in the upper-right roof slope. Raise them, bend both toward the right, and close the tip. Divide the bent tube with short diagonal stripe marks; keep all earlier roof segments.",
+      "adds": [
+        "bent straw"
+      ],
+      "introduces": [
+        "bent straw"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-milk-carton-with-striped-straw-step-4.jpg",
+      "step_name": "Give the carton a cheeky face",
+      "visible_job": "Draw one open oval eye, one wink, and a tilted grin with four tooth sections.",
+      "instruction": "On the upper front panel, draw one open oval eye on the left and one thick curved wink on the right. Below them, draw a tilted open grin and divide its white interior into four tooth sections with three short black bars.",
+      "adds": [
+        "left oval eye",
+        "right winking eye",
+        "wide toothy grin"
+      ],
+      "introduces": [
+        "left oval eye",
+        "right winking eye",
+        "wide toothy grin"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-milk-carton-with-striped-straw-step-5.jpg",
+      "step_name": "Add patches and a shadow",
+      "visible_job": "Draw two uneven cow patches below the face and a broken shadow.",
+      "instruction": "In the lower half of the front panel, draw two separate uneven cow patches without touching the grin. Sketch one short broken ground shadow just under the base.",
+      "adds": [
+        "left cow patch",
+        "right cow patch",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "left cow patch",
+        "right cow patch",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-milk-carton-with-striped-straw-finished-v1.jpg",
+    "step_name": "Color the cheeky carton",
+    "visible_job": "Fill the established carton front pale aqua, roof coral, straw yellow, and left and right cow patches deep navy without adding any new contours.",
+    "instruction": "After the black outlines dry, fill the established front panel with streaky pale aqua, the roof with coral and the bent straw yellow. Fill both cow patches deep navy; keep the oval eye and four tooth sections white and preserve the wink and ground shadow.",
+    "adds": [
+      "marker fill in established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved square crop shows only a broad closed front rectangle with slightly uneven felt-tip edges, ample blank room above for the roof and inside for the later face.",
+    "draw_through_observation": "Six square saved crops retain one milk-carton body and reserve a right roof-slope gap before the straw fills it. A left open eye, right wink, four tooth sections, individual left and right cow patches and broken shadow arrive before color. No temporary guides or unexplained contour loss appear.",
+    "contract_sha256": "597678a88d834bfe617033da138fe8148b5c03fe83e2957e93e57a8ee170ff5e",
+    "asset_sha256": {
+      "assets/cartoon-milk-carton-with-striped-straw-step-1.jpg": "0883e18b6fa4abe0472bcb7fb794dad7a74c788e305b232665f5f3bdebc96852",
+      "assets/cartoon-milk-carton-with-striped-straw-step-2.jpg": "cd8f49797d3d1c4bd8959c83843e375f13b196c063e2e4518b47d9bc46053f36",
+      "assets/cartoon-milk-carton-with-striped-straw-step-3.jpg": "71c383a3c1ef6aaf5da91c116b3b643637e2ce708e83a36768c2f63823a65e36",
+      "assets/cartoon-milk-carton-with-striped-straw-step-4.jpg": "82bbfe52c657c5488cccc1d97c043b46b90c5f21e679bf53ddeab327f5e2239d",
+      "assets/cartoon-milk-carton-with-striped-straw-step-5.jpg": "02cfbcb7826d315eb8f4f60d105523b508f518e4ed3980c2063e5698169af286",
+      "assets/cartoon-milk-carton-with-striped-straw-finished-v1.jpg": "0c9724ed6f70277159154693ee5f5f6d71474c4c3ffd837e44368762a893cb35"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "carton body",
+          "gable top"
+        ],
+        "observed_addition": "The rectangular front panel keeps its top, sides and base; a peaked roof gains a short flat ridge and an intentional small blank break on the right slope.",
+        "instruction_match": "The second instruction matches the new roof and explicitly reserves the break for the straw.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "carton body",
+          "gable top",
+          "bent straw"
+        ],
+        "observed_addition": "The same body, roof ridge, left slope and two right-slope segments remain; a single bent tube bridges the reserved break and carries several stripe bars.",
+        "instruction_match": "The third instruction matches the straw connection to the saved gap without asking the reader to erase a dark contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "carton body",
+          "gable top",
+          "bent straw",
+          "left oval eye",
+          "right winking eye",
+          "wide toothy grin"
+        ],
+        "observed_addition": "The carton and attached straw stay fixed; one large left oval eye with pupil, one right arched wink, and one tilted grin divided by three bars into four white tooth sections appear.",
+        "instruction_match": "The fourth instruction accounts for both distinct eyes, the grin, all three dividers and four white tooth sections.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "carton body",
+          "gable top",
+          "bent straw",
+          "left oval eye",
+          "right winking eye",
+          "wide toothy grin",
+          "broken ground shadow",
+          "left cow patch",
+          "right cow patch"
+        ],
+        "observed_addition": "The same face and straw remain; one large dark left patch touches the lower-left edge, one smaller dark right patch touches the lower-right edge, and three separated shadow strokes appear under the base.",
+        "instruction_match": "The fifth instruction matches the two individually positioned patches and the broken ground shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "carton body",
+          "gable top",
+          "bent straw",
+          "left oval eye",
+          "right winking eye",
+          "wide toothy grin",
+          "broken ground shadow",
+          "left cow patch",
+          "right cow patch"
+        ],
+        "observed_addition": "The front body, roof gap filled by straw, left eye, right wink, four white tooth sections, left patch, right patch and broken shadow all persist. Aqua, coral, yellow and navy marker fill covers only established shapes.",
+        "instruction_match": "The final instruction names the exact fill regions and preserves the eye whites, four teeth and all black contours; no new structure appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
