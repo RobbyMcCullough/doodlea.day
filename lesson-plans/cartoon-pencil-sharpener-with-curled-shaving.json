@@ -1,0 +1,233 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-pencil-sharpener-with-curled-shaving",
+  "finished": "assets/cartoon-pencil-sharpener-with-curled-shaving-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One rounded sloping sharpener shell fixes the whole object and leaves clear space above its left corner for a single curled shaving.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact-sheet-first marker raster; preserve any rejected iterations privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "sharpener shell",
+      "introduced_by_step": 1,
+      "description": "One stout rounded wedge with a broad front face and sloping upper edge."
+    },
+    {
+      "name": "blade plate",
+      "introduced_by_step": 2,
+      "description": "One narrow diagonal inset blade plate on the front face."
+    },
+    {
+      "name": "blade screw",
+      "introduced_by_step": 3,
+      "description": "One round screw centered in the inset blade plate."
+    },
+    {
+      "name": "pencil opening",
+      "introduced_by_step": 3,
+      "description": "One small dark oval hole on the right end of the shell."
+    },
+    {
+      "name": "single curled shaving",
+      "introduced_by_step": 4,
+      "description": "One tan ribbon shaving rising from the left upper shell edge and curling outward once."
+    },
+    {
+      "name": "two short hatch marks",
+      "introduced_by_step": 5,
+      "description": "Exactly two short black hatches on the lower front face."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "A short broken dark shadow just under the shell."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-step-1.jpg",
+      "step_name": "Outline the sharpener",
+      "visible_job": "Draw one squat rounded shell with a sloping top and broad front face.",
+      "instruction": "With a black felt tip, draw the left rounded end, let the top rise slightly toward the right, and close a broad wedge-shaped front face with a flatter base. Leave clear paper above the left corner for the shaving.",
+      "adds": [
+        "sharpener shell"
+      ],
+      "introduces": [
+        "sharpener shell"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-step-2.jpg",
+      "step_name": "Inset the blade",
+      "visible_job": "Add one diagonal blade plate inside the shell face.",
+      "instruction": "Inside the broad front face, pull two short parallel slanted lines and join their ends into a narrow blade plate. Keep a strip of shell visible all around it.",
+      "adds": [
+        "blade plate"
+      ],
+      "introduces": [
+        "blade plate"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-step-3.jpg",
+      "step_name": "Set screw and opening",
+      "visible_job": "Add one circular screw on the plate and one oval pencil opening at the right end.",
+      "instruction": "Place one small round screw inside the blade plate. At the right end of the shell, draw one dark oval pencil opening without crossing the established outer contour.",
+      "adds": [
+        "blade screw",
+        "pencil opening"
+      ],
+      "introduces": [
+        "blade screw",
+        "pencil opening"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-step-4.jpg",
+      "step_name": "Curl one shaving",
+      "visible_job": "Attach one loose ribbon shaving at the left upper edge and curl it outward once.",
+      "instruction": "From the open left upper edge, sweep a broad ribbon upward and left into one loose curl; return a second line beside it to show its width. Keep this single shaving away from the screw and pencil opening.",
+      "adds": [
+        "single curled shaving"
+      ],
+      "introduces": [
+        "single curled shaving"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-step-5.jpg",
+      "step_name": "Mark the body and ground",
+      "visible_job": "Add exactly two lower-face hatches and a short broken shadow under the shell.",
+      "instruction": "Draw two short hatches near the lower front edge, then set three separated ground strokes just beneath the base. Let the black marker dry before filling the shell.",
+      "adds": [
+        "two short hatch marks",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "two short hatch marks",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-pencil-sharpener-with-curled-shaving-finished-v1.jpg",
+    "step_name": "Color the sharpener and curl",
+    "visible_job": "Fill established shell, blade, screw and shaving regions with streaky marker color only.",
+    "instruction": "Fill the established shell bright red, the blade plate cool gray, the screw pale yellow, and the single shaving warm tan. Pull marker strokes along the shaving curve, leave a few paper streaks, and reinforce only the existing black edges and shadow.",
+    "adds": [
+      "marker fill in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved square crop shows only one thick black rounded wedge shell with an open broad front face and blank space above its low left corner.",
+    "draw_through_observation": "Six padded square crops preserve the same sloping shell, inset blade, single slotted screw, right oval, one curled shaving, two lower hatches and three-stroke ground shadow before bright marker fill. No temporary guides are used or removed.",
+    "contract_sha256": "a6ac4186ea52d3c884c0c150221c9371649752c621cf210823d15c3ba93755cc",
+    "asset_sha256": {
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-step-1.jpg": "3b9c01a20ef0e5895ea3f517c6cc75ddb1915acd2027dfbc2287467f6e13cfb6",
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-step-2.jpg": "d29acb5ad15be67115a32ff696ab8cc1cdd1cfd8a82467ff4ce4c9c06ce36f72",
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-step-3.jpg": "864e9aff6d7da05a0f00a305e0e1652afc55a5e5b48e581cc851da9e5999dcc8",
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-step-4.jpg": "b3d5dd659386df07f73ad63e42b57efa98c6ea7a1f7cc82370e97158f6653992",
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-step-5.jpg": "7a42e889d9f9d97587ad184bff2ebae91e5968f787dc138aa280f7742691e03f",
+      "assets/cartoon-pencil-sharpener-with-curled-shaving-finished-v1.jpg": "6c6ee5734a89390810c1af9cb5683c8ffc7086460ca5885025f25704ad9aa3d2"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "sharpener shell",
+          "blade plate"
+        ],
+        "observed_addition": "The single wedge shell remains in its fixed position while one long slanted blade plate appears inside its front face.",
+        "instruction_match": "The corrected first instruction establishes the rising top slope visible in both crops; the second adds only the blade plate within that shell.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "sharpener shell",
+          "blade plate",
+          "blade screw",
+          "pencil opening"
+        ],
+        "observed_addition": "The shell and inset plate persist; one round slotted screw appears on the plate and one dark oval pencil opening appears on the right end.",
+        "instruction_match": "The third instruction covers the new centered screw and dark right-end oval.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "sharpener shell",
+          "blade plate",
+          "blade screw",
+          "pencil opening",
+          "single curled shaving"
+        ],
+        "observed_addition": "The shell, plate, round screw and right oval remain; one broad ribbon shaving rises from the left upper edge and curls outward once.",
+        "instruction_match": "The fourth instruction matches the single wide ribbon shaving and its left upper attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "sharpener shell",
+          "blade plate",
+          "blade screw",
+          "pencil opening",
+          "single curled shaving",
+          "two short hatch marks",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The same single curl, screw and right oval remain; exactly two small diagonal hatches appear on the lower face and three separate shadow strokes appear under the base.",
+        "instruction_match": "The fifth instruction names the two face hatches and three separated strokes visible beneath the shell.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "sharpener shell",
+          "blade plate",
+          "blade screw",
+          "pencil opening",
+          "single curled shaving",
+          "two short hatch marks",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The shell, blade plate, one slotted screw, right oval, single curl, two hatches and three-stroke shadow persist; red, gray, yellow and tan fill only their established regions.",
+        "instruction_match": "The final instruction fills established shapes with marker strokes and reinforces their edges without adding new contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

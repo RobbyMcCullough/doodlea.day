@@ -2042,3 +2042,8 @@
 
 - Added Day 155, `cartoon-pineapple-with-sunglasses`, for October 26. Five saved raster crops retain the tapered body and rim, exactly five crown leaves, two lenses, crooked smirk, two lower rind chevrons, and three ground strokes. An earlier sheet was rejected privately for disappearing rind lines.
 - Teaching and saved finish each scored 8.1/10: readable at card size, bold felt-tip outlines, visibly streaky yellow, green and blue fill, and an attainable sequence. Schema-v5 hashes and readiness passed; fallback localhost home, library and tutorial desktop/mobile QA passed. Current-only one-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-26 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-04 — Current pencil sharpener lesson (Codex)
+
+- Added Day 164 `cartoon-pencil-sharpener-with-curled-shaving` for November 4. Six padded square marker crops retain the sloping shell, inset blade, screw, right opening, one curled shaving, two lower hatches and three ground strokes before red, gray, yellow and tan color.
+- Every saved adjacent pair including finish was reviewed: teaching 8.1/10, saved finish 8.0/10, no guides or unexplained landmark loss. Schema-v5 hashes, readiness, diff checks and Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
