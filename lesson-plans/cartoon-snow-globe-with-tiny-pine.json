@@ -1,0 +1,232 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-snow-globe-with-tiny-pine",
+  "finished": "assets/cartoon-snow-globe-with-tiny-pine-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad handmade globe curve with a short flat bottom gives the beginner the full glass envelope and a fixed place for the base below it.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel handmade felt-tip contact sheet. First private sheet was rejected because black flakes became white cutouts in the finish; repaired sheet keeps all three flakes black."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "globe outline",
+      "introduced_by_step": 1,
+      "description": "One near-round glass envelope with a short straight bottom edge."
+    },
+    {
+      "name": "pedestal base",
+      "introduced_by_step": 2,
+      "description": "One low trapezoid base attached below the globe bottom."
+    },
+    {
+      "name": "tiny pine",
+      "introduced_by_step": 3,
+      "description": "One centered three-tier pine and short trunk inside the globe."
+    },
+    {
+      "name": "snow bank",
+      "introduced_by_step": 4,
+      "description": "One shallow curved snow line behind the pine trunk."
+    },
+    {
+      "name": "three snowflakes",
+      "introduced_by_step": 4,
+      "description": "Exactly three small asterisk snowflakes around the pine."
+    },
+    {
+      "name": "base stripe",
+      "introduced_by_step": 5,
+      "description": "One thin stripe within the established pedestal."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "Three short broken strokes below the pedestal."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-snow-globe-with-tiny-pine-step-1.jpg",
+      "step_name": "Outline the glass globe",
+      "visible_job": "Draw one broad near-round glass envelope with a short flat bottom.",
+      "instruction": "With black felt tip, draw one broad near-round curve from the lower-left glass corner up and around to the lower-right corner. Join the two ends with a short straight bottom edge.",
+      "adds": [
+        "globe outline"
+      ],
+      "introduces": [
+        "globe outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-snow-globe-with-tiny-pine-step-2.jpg",
+      "step_name": "Set the pedestal",
+      "visible_job": "Attach one low pedestal below the globe.",
+      "instruction": "From the two ends of the globe's flat bottom, angle outward and down, then join the corners with a wider flat base. Keep the round glass outline in place.",
+      "adds": [
+        "pedestal base"
+      ],
+      "introduces": [
+        "pedestal base"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-snow-globe-with-tiny-pine-step-3.jpg",
+      "step_name": "Plant a tiny pine",
+      "visible_job": "Add one three-tier pine with a short trunk inside the globe.",
+      "instruction": "Inside the globe, stack three pointed branch tiers from a small top point to a wider lower tier. Bring a short trunk down toward the glass bottom without touching the pedestal.",
+      "adds": [
+        "tiny pine"
+      ],
+      "introduces": [
+        "tiny pine"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-snow-globe-with-tiny-pine-step-4.jpg",
+      "step_name": "Float the snow",
+      "visible_job": "Add a shallow snow bank and three small flakes around the pine.",
+      "instruction": "Curve one shallow snow bank behind the pine trunk. Around the upper branches, place exactly three small asterisk snowflakes, separated so each reads clearly.",
+      "adds": [
+        "snow bank",
+        "three snowflakes"
+      ],
+      "introduces": [
+        "snow bank",
+        "three snowflakes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-snow-globe-with-tiny-pine-step-5.jpg",
+      "step_name": "Stripe the base",
+      "visible_job": "Add one pedestal stripe and three broken ground strokes.",
+      "instruction": "Run one thin horizontal stripe inside the pedestal, parallel to its bottom edge. Place three short separated ground strokes just under the base.",
+      "adds": [
+        "base stripe",
+        "ground shadow"
+      ],
+      "introduces": [
+        "base stripe",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-snow-globe-with-tiny-pine-finished-v1.jpg",
+    "step_name": "Color the winter globe",
+    "visible_job": "Fill only the established glass, pine, base and snow shapes with marker.",
+    "instruction": "Fill the existing pine deep teal, the established pedestal coral, and a pale aqua wash behind the tree. Leave the snow bank white and keep all three black snowflakes clear; reinforce only the existing contours and three ground strokes.",
+    "adds": [
+      "marker fills in established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop contains one thick imperfect round glass curve and a short flat bottom, centered with open interior and clear space for its base.",
+    "draw_through_observation": "Six saved square crops keep one globe, pedestal, centered three-tier pine, one bank, exactly three black flakes, one base stripe and three ground strokes at stable anchors. The first sheet with white finish flakes was rejected; the repaired saved finish preserves black flakes. No temporary guides appear or disappear.",
+    "contract_sha256": "2c4e3612f78c18fb553b3e51f063410b6da821310d7af27261b866751cffbaf4",
+    "asset_sha256": {
+      "assets/cartoon-snow-globe-with-tiny-pine-step-1.jpg": "b0432a06993d8b11e623bf401753537b37b7e23c655ef580b8e78c389c24ae33",
+      "assets/cartoon-snow-globe-with-tiny-pine-step-2.jpg": "898c8f14cf63dfc2eb278b382168822001c249f2ae0923b45d029692f24cc8f2",
+      "assets/cartoon-snow-globe-with-tiny-pine-step-3.jpg": "b702698b50f97bdd8ecc167e70fe01a042631ac4f429d71e455492a5b8d36f31",
+      "assets/cartoon-snow-globe-with-tiny-pine-step-4.jpg": "f00aceddfa1efb111d37ac67ccc3b9bce00a16e060f14ab5625361570d5e3788",
+      "assets/cartoon-snow-globe-with-tiny-pine-step-5.jpg": "f21190293a7bf08808a3865a7eebf873c823e135915af88b6a2ea88215101b68",
+      "assets/cartoon-snow-globe-with-tiny-pine-finished-v1.jpg": "2aac3966001cfec8ed34d7c00f755b1d931cb315413e31ad2b95864d924ee96c"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "globe outline",
+          "pedestal base"
+        ],
+        "observed_addition": "The handmade round globe and short flat bottom remain; one low trapezoid pedestal joins the two lower glass corners.",
+        "instruction_match": "The second instruction adds only the attached pedestal below the established flat glass bottom.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "globe outline",
+          "pedestal base",
+          "tiny pine"
+        ],
+        "observed_addition": "Globe and pedestal stay at the same anchors; one centered three-tier pine and short trunk appear inside the glass.",
+        "instruction_match": "The third instruction gives the three branch tiers and a short trunk within the existing globe.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "globe outline",
+          "pedestal base",
+          "tiny pine",
+          "snow bank",
+          "three snowflakes"
+        ],
+        "observed_addition": "The same pine and pedestal persist; a shallow bank rises behind the trunk and exactly three separated black asterisk flakes appear above and beside the tree.",
+        "instruction_match": "The fourth instruction places one bank behind the trunk and exactly three distinct flakes around the upper tree.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "globe outline",
+          "pedestal base",
+          "tiny pine",
+          "snow bank",
+          "three snowflakes",
+          "base stripe",
+          "ground shadow"
+        ],
+        "observed_addition": "The globe, tree, bank and three flakes remain; one stripe spans the existing base and three short broken black ground strokes appear below it.",
+        "instruction_match": "The fifth instruction draws one base stripe and exactly three separated ground strokes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "globe outline",
+          "pedestal base",
+          "tiny pine",
+          "snow bank",
+          "three snowflakes",
+          "base stripe",
+          "ground shadow"
+        ],
+        "observed_addition": "The same tree, three black flakes, white bank, base stripe and three ground strokes persist; streaky teal, aqua and coral fill only established regions.",
+        "instruction_match": "The finish instruction fills the pine, glass background and base with marker while keeping the black flakes and white bank visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
