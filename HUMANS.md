@@ -2051,3 +2051,8 @@
 
 - Added Day 164 `cartoon-pencil-sharpener-with-curled-shaving` for November 4. Six padded square marker crops retain the sloping shell, inset blade, screw, right opening, one curled shaving, two lower hatches and three ground strokes before red, gray, yellow and tan color.
 - Every saved adjacent pair including finish was reviewed: teaching 8.1/10, saved finish 8.0/10, no guides or unexplained landmark loss. Schema-v5 hashes, readiness, diff checks and Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-08 — Current cartoon traffic light lesson (Codex)
+
+- Added Day 168 `cartoon-traffic-light-with-three-signals` for November 8. Six saved felt-tip crops keep one rounded housing, exactly three signal circles and three visors, one attached pole and base, two screw dots, and three ground strokes before streaky red, amber, green, charcoal and teal marker color.
+- Reviewed the full sheet and every saved adjacent pair including finish: teaching 8.2/10, saved finish 8.3/10, no temporary guides or unexplained structural movement. Schema-v5 hashes, readiness, diff check, Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active with no routine backfill. Harness: Codex; task: 2026-11-08 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.

@@ -1,0 +1,256 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-traffic-light-with-three-signals",
+  "finished": "assets/cartoon-traffic-light-with-three-signals-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A tall rounded black housing in its final position gives the learner a clear container for all three signal circles.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel handmade felt-tip contact sheet; inspect before cropping."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "rounded housing",
+      "introduced_by_step": 1,
+      "description": "One tall rounded rectangular traffic-light shell with broad black outline."
+    },
+    {
+      "name": "top red lamp",
+      "introduced_by_step": 2,
+      "description": "Top circular signal centered inside housing."
+    },
+    {
+      "name": "middle amber lamp",
+      "introduced_by_step": 2,
+      "description": "Middle circular signal evenly spaced below top."
+    },
+    {
+      "name": "bottom green lamp",
+      "introduced_by_step": 2,
+      "description": "Bottom circular signal evenly spaced below middle."
+    },
+    {
+      "name": "three short hoods",
+      "introduced_by_step": 3,
+      "description": "One short curved visor above each of the three circles."
+    },
+    {
+      "name": "support pole",
+      "introduced_by_step": 4,
+      "description": "One narrow pole attached to the housing bottom center."
+    },
+    {
+      "name": "flat base",
+      "introduced_by_step": 4,
+      "description": "One small flat foot attached to the pole."
+    },
+    {
+      "name": "two housing screw dots",
+      "introduced_by_step": 5,
+      "description": "One tiny black screw dot at each lower housing corner."
+    },
+    {
+      "name": "three ground strokes",
+      "introduced_by_step": 5,
+      "description": "Three separate short strokes beneath the flat base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-traffic-light-with-three-signals-step-1.jpg",
+      "step_name": "Outline the signal box",
+      "visible_job": "Place the final dark housing.",
+      "instruction": "With a black felt tip, draw one tall rounded rectangle with softly uneven corners. Leave the inside open for three stacked lights.",
+      "adds": [
+        "rounded housing"
+      ],
+      "introduces": [
+        "rounded housing"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-traffic-light-with-three-signals-step-2.jpg",
+      "step_name": "Stack three lights",
+      "visible_job": "Add three countable signal circles.",
+      "instruction": "Inside the housing, draw three separate circles from top to bottom. Keep them similar in size and evenly spaced, with the lowest circle clear of the bottom edge.",
+      "adds": [
+        "top red lamp",
+        "middle amber lamp",
+        "bottom green lamp"
+      ],
+      "introduces": [
+        "top red lamp",
+        "middle amber lamp",
+        "bottom green lamp"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-traffic-light-with-three-signals-step-3.jpg",
+      "step_name": "Cap each lamp",
+      "visible_job": "Add three matching lamp hoods.",
+      "instruction": "Above each circle, add one short curved visor that follows the circle edge. Count exactly three visors, one per lamp.",
+      "adds": [
+        "three short hoods"
+      ],
+      "introduces": [
+        "three short hoods"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-traffic-light-with-three-signals-step-4.jpg",
+      "step_name": "Stand it upright",
+      "visible_job": "Attach support pole and base.",
+      "instruction": "From the center of the housing bottom, draw a short narrow pole. Attach a small flat base at the pole\u2019s lower end.",
+      "adds": [
+        "support pole",
+        "flat base"
+      ],
+      "introduces": [
+        "support pole",
+        "flat base"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-traffic-light-with-three-signals-step-5.jpg",
+      "step_name": "Dot the box and ground",
+      "visible_job": "Add two lower housing screw dots and three short ground marks.",
+      "instruction": "Put one tiny screw dot at each lower corner of the housing, then draw three separate short ground strokes beneath the base.",
+      "adds": [
+        "two housing screw dots",
+        "three ground strokes"
+      ],
+      "introduces": [
+        "two housing screw dots",
+        "three ground strokes"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-traffic-light-with-three-signals-finished-v1.jpg",
+    "step_name": "Fill the signals",
+    "visible_job": "Fill the established circles red, amber and green and the housing charcoal without adding structure.",
+    "instruction": "Let the black outline dry. Fill the top circle red, middle amber and bottom green with streaky marker strokes, leaving tiny white paper glints. Shade the existing box charcoal and the pole deep teal.",
+    "adds": [
+      "marker color in established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.3,
+    "first_step_observation": "The first saved square crop shows one thick handmade rounded vertical housing with a blank interior. Its height and empty center provide clear spaces for three future lights.",
+    "draw_through_observation": "Six saved crops preserve the same traffic-light shell; exactly three circles and three visors remain fixed while one centered pole and base, two screw dots and three ground marks arrive before color. No temporary guides were used or removed; no unexplained structural erasure or movement is visible.",
+    "contract_sha256": "ab1635b4013e76b83ed117b6898ba50c140676e5b901a34d3caefc37854d41d6",
+    "asset_sha256": {
+      "assets/cartoon-traffic-light-with-three-signals-step-1.jpg": "37016b6bc66c42e4711c163949cf2f29a67df40c8eeb00bb4d9ba7f2a93f1f5a",
+      "assets/cartoon-traffic-light-with-three-signals-step-2.jpg": "93a345fb30839709490d9a49d27ba60e3f7a2e89fcbb4cc895c140edbf542e56",
+      "assets/cartoon-traffic-light-with-three-signals-step-3.jpg": "59b37e9c2b140bd5fffccbca8e9e13bab700602e9694e75df7350343505a100f",
+      "assets/cartoon-traffic-light-with-three-signals-step-4.jpg": "953246b87e2e36cec2556c773aadf8e75fb420d8489046f13d73e01c80cd1950",
+      "assets/cartoon-traffic-light-with-three-signals-step-5.jpg": "02fb67f57b71982a3a6ffaaa19946076fae47a9a8693d523dfdc2f258c04aca7",
+      "assets/cartoon-traffic-light-with-three-signals-finished-v1.jpg": "7a7c03986968df6a7e9cf0261e8aeaf6aabca438c43d36c52dabee4c63bd53db"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "rounded housing",
+          "top red lamp",
+          "middle amber lamp",
+          "bottom green lamp"
+        ],
+        "observed_addition": "The same tall rounded housing remains; three separate circles appear at top, middle and bottom with consistent spacing.",
+        "instruction_match": "The second instruction adds exactly three countable signal circles inside the shell.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "rounded housing",
+          "top red lamp",
+          "middle amber lamp",
+          "bottom green lamp",
+          "three short hoods"
+        ],
+        "observed_addition": "Housing and all three circles persist; one shallow double-stroke curved visor appears above each circle, three total.",
+        "instruction_match": "The third instruction gives each of the three circles one visor.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "rounded housing",
+          "top red lamp",
+          "middle amber lamp",
+          "bottom green lamp",
+          "three short hoods",
+          "support pole",
+          "flat base"
+        ],
+        "observed_addition": "The same three lights and visors stay fixed; a narrow pole joins the housing bottom center and terminates in one flat base.",
+        "instruction_match": "The fourth instruction connects the pole and base to the established housing.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "rounded housing",
+          "top red lamp",
+          "middle amber lamp",
+          "bottom green lamp",
+          "three short hoods",
+          "support pole",
+          "flat base",
+          "two housing screw dots",
+          "three ground strokes"
+        ],
+        "observed_addition": "All prior contours remain; one screw dot appears at each lower housing corner, and three distinct short ground strokes sit under the base.",
+        "instruction_match": "The fifth instruction specifies two screw dots and exactly three ground marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "rounded housing",
+          "top red lamp",
+          "middle amber lamp",
+          "bottom green lamp",
+          "three short hoods",
+          "support pole",
+          "flat base",
+          "two housing screw dots",
+          "three ground strokes"
+        ],
+        "observed_addition": "The three circles, visors, housing, pole, base, two screws and three ground strokes retain their anchors; streaky red, amber, green, charcoal and teal fill only established forms.",
+        "instruction_match": "The final instruction colors existing forms and leaves paper-white marker glints without adding structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
