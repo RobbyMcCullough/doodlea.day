@@ -593,6 +593,11 @@
       "status": "rejected-duplicate",
       "note": "Rejected before image generation because the July 13 cartoon boombox made the audio-device category too recent; no megaphone art was generated."
     },
+    "comic-megaphone-with-sound-bursts": {
+      "status": "published",
+      "date": "2026-11-09",
+      "note": "Approved six saved marker crops from one reviewed contact sheet; current Day 169 tutorial built and visually reviewed."
+    },
     "comic-ocean-wave": {
       "status": "published"
     },

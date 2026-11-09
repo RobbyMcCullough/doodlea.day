@@ -1,0 +1,245 @@
+{
+  "schema_version": 5,
+  "slug": "comic-megaphone-with-sound-bursts",
+  "finished": "assets/comic-megaphone-with-sound-bursts-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The left-to-right tapered cone outline with a reserved open right mouth gives a beginner one clear recognizable shape and fixes the megaphone direction.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel felt-tip contact sheet; preserve and describe any rejected iterations."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "tapered cone body",
+      "introduced_by_step": 1,
+      "description": "One left-to-right widening body with two sloping edges, small back edge and open front."
+    },
+    {
+      "name": "front mouth rim",
+      "introduced_by_step": 2,
+      "description": "One tall hollow oval outline at the wide right end; its interior is filled dark only in the final step."
+    },
+    {
+      "name": "rear cap",
+      "introduced_by_step": 2,
+      "description": "A small rounded cap attached at the narrow left end."
+    },
+    {
+      "name": "grip handle",
+      "introduced_by_step": 3,
+      "description": "One short angular handle attached under the back half of the cone."
+    },
+    {
+      "name": "trigger tick",
+      "introduced_by_step": 3,
+      "description": "One small line under the body just ahead of the handle."
+    },
+    {
+      "name": "three sound rays",
+      "introduced_by_step": 4,
+      "description": "Exactly three separate bold tapered sound strokes to the right of the mouth."
+    },
+    {
+      "name": "cone stripe",
+      "introduced_by_step": 5,
+      "description": "One broad curved stripe across the cone body."
+    },
+    {
+      "name": "two motion dashes",
+      "introduced_by_step": 5,
+      "description": "Two short marker dashes below the megaphone."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/comic-megaphone-with-sound-bursts-step-1.jpg",
+      "step_name": "Aim the cone",
+      "visible_job": "Draw the tapered marker body pointing right, leaving the mouth end open.",
+      "instruction": "Start with a short vertical back edge on the left. Pull two black marker lines outward toward the right, one up and one down, stopping before they meet so the front stays open.",
+      "adds": [
+        "tapered cone body"
+      ],
+      "introduces": [
+        "tapered cone body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/comic-megaphone-with-sound-bursts-step-2.jpg",
+      "step_name": "Open the speaker mouth",
+      "visible_job": "Close the wide mouth with one tall hollow oval and cap the narrow left back.",
+      "instruction": "Join the wide right ends with one tall oval mouth outline. At the narrow left, add one rounded cap attached to the short back edge.",
+      "adds": [
+        "front mouth rim",
+        "rear cap"
+      ],
+      "introduces": [
+        "front mouth rim",
+        "rear cap"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/comic-megaphone-with-sound-bursts-step-3.jpg",
+      "step_name": "Attach the grip",
+      "visible_job": "Connect one angular handle under the cone and one trigger tick ahead of it.",
+      "instruction": "From the cone\u2019s lower left half, drop a short handle, turn across its base, and return to the body. Put one small trigger tick just ahead of the grip.",
+      "adds": [
+        "grip handle",
+        "trigger tick"
+      ],
+      "introduces": [
+        "grip handle",
+        "trigger tick"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/comic-megaphone-with-sound-bursts-step-4.jpg",
+      "step_name": "Send out the sound",
+      "visible_job": "Add exactly three separate radiating comic strokes to the right.",
+      "instruction": "Outside the open mouth, draw three separate tapered strokes: one up-right, one straight right, and one down-right. Leave white gaps between them.",
+      "adds": [
+        "three sound rays"
+      ],
+      "introduces": [
+        "three sound rays"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/comic-megaphone-with-sound-bursts-step-5.jpg",
+      "step_name": "Band the cone",
+      "visible_job": "Add one broad curved stripe on the body and two small lower motion dashes.",
+      "instruction": "Curve one broad stripe across the cone body, following its taper. Add two short motion dashes below the handle without crossing the grip.",
+      "adds": [
+        "cone stripe",
+        "two motion dashes"
+      ],
+      "introduces": [
+        "cone stripe",
+        "two motion dashes"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/comic-megaphone-with-sound-bursts-finished-v1.jpg",
+    "step_name": "Fill the comic colors",
+    "visible_job": "Color the established cone, rim, stripe, handle and rays with streaky marker, leaving outlines fixed.",
+    "instruction": "Fill the existing cone warm orange, the center band yellow, the grip teal and the three sound rays coral. Darken the hollow mouth interior black and let marker streaks follow the cone length.",
+    "adds": [
+      "marker fill in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop shows only a short black back edge and two spreading cone sides; the right opening stays blank, fixing the direction and proportions before the rim is added.",
+    "draw_through_observation": "All six saved crops keep one right-pointing cone in place. The oval mouth and rear cap appear next, then a connected grip and one trigger, exactly three separate rays, one curved band and two lower dashes, and finally streaky marker fills. No temporary guides are present or removed; no structural contours shift or vanish. The final remains an attainable handmade marker doodle rather than a polished icon.",
+    "contract_sha256": "b7b150922ef104a548c67a3d960c062b53e1a298c0f3afb91bfde75242d829fe",
+    "asset_sha256": {
+      "assets/comic-megaphone-with-sound-bursts-step-1.jpg": "76e45a14e67f35ae3242e2ddc6f221777a00cd2379c44a76ba711c15acc1840e",
+      "assets/comic-megaphone-with-sound-bursts-step-2.jpg": "8345ff6c4c7c6c93a70858b5fd5eeb2950c41e68bc5e9b6143b32a7186230053",
+      "assets/comic-megaphone-with-sound-bursts-step-3.jpg": "b5c2f5234815213618bc0d59a9833e40b2c746116a9c532b25a9e190d9fb0032",
+      "assets/comic-megaphone-with-sound-bursts-step-4.jpg": "0b6f5255139c2be1b2c13037153afca9bd2431dccdedf250e8ade93a22e5aa6f",
+      "assets/comic-megaphone-with-sound-bursts-step-5.jpg": "bdd4a40aba4a2fd7de5df2a435e426d526a8d350680ab4c6c5e05231514397c9",
+      "assets/comic-megaphone-with-sound-bursts-finished-v1.jpg": "894a8826cd9423c928fe51df4abd8bf6a7a39a3019fc05e89372918f87b42bf0"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "tapered cone body",
+          "front mouth rim",
+          "rear cap"
+        ],
+        "observed_addition": "The two sloping sides and short left back stay fixed; one tall hollow oval closes the right mouth and one rounded cap attaches at left.",
+        "instruction_match": "The second instruction closes the wide end with one oval and caps the back without changing the cone.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "tapered cone body",
+          "front mouth rim",
+          "rear cap",
+          "grip handle",
+          "trigger tick"
+        ],
+        "observed_addition": "The hollow mouth and rear cap persist; one angular handle attaches beneath the rear half and a single small trigger tick appears ahead of it.",
+        "instruction_match": "The third instruction starts and returns the grip at the cone underside and adds one trigger.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "tapered cone body",
+          "front mouth rim",
+          "rear cap",
+          "grip handle",
+          "trigger tick",
+          "three sound rays"
+        ],
+        "observed_addition": "The cone, oval, cap, grip and trigger retain their anchors; three distinct black tapered rays appear to the right with white gaps.",
+        "instruction_match": "The fourth instruction locates exactly three rays above, level with and below the mouth.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "tapered cone body",
+          "front mouth rim",
+          "rear cap",
+          "grip handle",
+          "trigger tick",
+          "three sound rays",
+          "cone stripe",
+          "two motion dashes"
+        ],
+        "observed_addition": "The same three rays and all hardware persist; two curved edges form one broad cone band and two short black dashes appear below the grip.",
+        "instruction_match": "The fifth instruction draws one broad stripe and two lower dashes without crossing the handle.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "tapered cone body",
+          "front mouth rim",
+          "rear cap",
+          "grip handle",
+          "trigger tick",
+          "three sound rays",
+          "cone stripe",
+          "two motion dashes"
+        ],
+        "observed_addition": "All outlines and the count of three rays and two dashes persist; streaky orange fills the cone, yellow the existing band, teal the grip, coral the rays and black the mouth interior.",
+        "instruction_match": "The final instruction fills established shapes and darkens the same oval interior; it introduces no new structural contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
