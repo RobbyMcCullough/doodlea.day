@@ -113,6 +113,11 @@
     "cartoon-chicken": {
       "status": "published"
     },
+    "cartoon-chili-pepper-with-heat-lines": {
+      "status": "published",
+      "date": "2026-11-10",
+      "note": "Approved repaired six-panel marker sheet and saved crops for the November 10 current lesson; failed first sheet and first final repair retained privately."
+    },
     "cartoon-claw-hammer": {
       "status": "published"
     },
@@ -453,6 +458,11 @@
       "status": "published",
       "date": "2026-09-26",
       "note": "Day 133 current marker lesson. Approved six-panel saved-crop review after one alignment retry; all three fillings and rice marks persist."
+    },
+    "cartoon-taco-with-folded-shell": {
+      "status": "rejected-quality",
+      "date": "2026-11-10",
+      "note": "Three distinct generated sheets and one targeted edit shifted lettuce/filling landmarks or count. All iterations retained privately; no public assets or page. Replaced for the November 10 current lesson."
     },
     "cartoon-taco-with-hot-sauce": {
       "status": "rejected-quality",

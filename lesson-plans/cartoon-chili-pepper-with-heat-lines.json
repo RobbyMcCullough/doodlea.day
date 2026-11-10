@@ -1,0 +1,254 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-chili-pepper-with-heat-lines",
+  "finished": "assets/cartoon-chili-pepper-with-heat-lines-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A long curved pepper body with a narrow upper gap fixes its direction and leaves a natural place to attach the cap.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for non-square cells; second sheet final lost two black shine marks, repaired through image editing; original failures retained privately. Edited six-panel 1536x1024 sheet and all saved crops reviewed."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "curved pepper body",
+      "introduced_by_step": 1,
+      "description": "One long tapering curved pepper body bends down to the left, with a narrow gap at its upper end."
+    },
+    {
+      "name": "lobed cap",
+      "introduced_by_step": 2,
+      "description": "A small three-lobed cap closes the upper body gap."
+    },
+    {
+      "name": "curved stem",
+      "introduced_by_step": 2,
+      "description": "One short curved stem rises from the cap."
+    },
+    {
+      "name": "inner ridge",
+      "introduced_by_step": 3,
+      "description": "One slender curved ridge runs inside the right side of the pepper body."
+    },
+    {
+      "name": "upper heat line",
+      "introduced_by_step": 4,
+      "description": "One short wavy heat line sits to the right of the upper pepper."
+    },
+    {
+      "name": "middle heat line",
+      "introduced_by_step": 4,
+      "description": "One short wavy heat line sits to the right of the middle pepper."
+    },
+    {
+      "name": "lower heat line",
+      "introduced_by_step": 4,
+      "description": "One short wavy heat line sits to the right of the lower pepper."
+    },
+    {
+      "name": "upper shine curve",
+      "introduced_by_step": 5,
+      "description": "One short shine curve sits inside the upper body."
+    },
+    {
+      "name": "lower shine curve",
+      "introduced_by_step": 5,
+      "description": "One short shine curve sits inside the lower body."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-chili-pepper-with-heat-lines-step-1.jpg",
+      "step_name": "Shape the curved pepper",
+      "visible_job": "With black felt tip, draw one long tapering chili body that curves down to the left. Leave a narrow gap at the thick upper end for the cap.",
+      "instruction": "With black felt tip, draw one long tapering chili body that curves down to the left. Leave a narrow gap at the thick upper end for the cap.",
+      "adds": [
+        "curved pepper body"
+      ],
+      "introduces": [
+        "curved pepper body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-chili-pepper-with-heat-lines-step-2.jpg",
+      "step_name": "Attach the cap and stem",
+      "visible_job": "Close the upper gap with a small three-lobed cap, then grow one short curved stem from its center.",
+      "instruction": "Close the upper gap with a small three-lobed cap, then grow one short curved stem from its center.",
+      "adds": [
+        "lobed cap",
+        "curved stem"
+      ],
+      "introduces": [
+        "lobed cap",
+        "curved stem"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-chili-pepper-with-heat-lines-step-3.jpg",
+      "step_name": "Draw the inner ridge",
+      "visible_job": "Inside the right side of the pepper, draw one slender curved ridge that follows the outer bend without touching the tip.",
+      "instruction": "Inside the right side of the pepper, draw one slender curved ridge that follows the outer bend without touching the tip.",
+      "adds": [
+        "inner ridge"
+      ],
+      "introduces": [
+        "inner ridge"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-chili-pepper-with-heat-lines-step-4.jpg",
+      "step_name": "Add three heat waves",
+      "visible_job": "To the right of the pepper, draw three separate short wavy heat lines from top to bottom. Leave white space between them and the pepper.",
+      "instruction": "To the right of the pepper, draw three separate short wavy heat lines from top to bottom. Leave white space between them and the pepper.",
+      "adds": [
+        "upper heat line",
+        "middle heat line",
+        "lower heat line"
+      ],
+      "introduces": [
+        "upper heat line",
+        "middle heat line",
+        "lower heat line"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-chili-pepper-with-heat-lines-step-5.jpg",
+      "step_name": "Leave two shine marks",
+      "visible_job": "Inside the pepper body, draw one short curved shine mark above the middle and another below it. Keep both separate from the inner ridge.",
+      "instruction": "Inside the pepper body, draw one short curved shine mark above the middle and another below it. Keep both separate from the inner ridge.",
+      "adds": [
+        "upper shine curve",
+        "lower shine curve"
+      ],
+      "introduces": [
+        "upper shine curve",
+        "lower shine curve"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-chili-pepper-with-heat-lines-finished-v1.jpg",
+    "step_name": "Color the hot pepper",
+    "visible_job": "Fill the established pepper red and cap/stem green with streaky marker; leave paper-white shine and heat waves unchanged.",
+    "instruction": "Let the ink dry. Fill the existing pepper body vivid red and its cap and stem grassy green with broad streaky marker strokes. Keep both black shine curves and the three heat waves visible.",
+    "adds": [
+      "marker color inside established pepper and cap"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved square crop has two thick, uneven contour strokes meeting at one pointed lower-left tip, with a narrow upper gap reserved for the cap. The shape is easy to place before details.",
+    "draw_through_observation": "All six saved JPG crops were compared in order after the final-panel repair. The body tip, three cap lobes, curved stem, right-side ridge, exactly three heat waves and two black shine curves remain in their assigned positions. No temporary guides appear, and no unexplained structural line disappears or moves. The final marker fill keeps visible paper streaks.",
+    "contract_sha256": "3c763cded8f63f77e698b86f7d10ab327372bf5f9a33d40e5f9f6b85db916b18",
+    "asset_sha256": {
+      "assets/cartoon-chili-pepper-with-heat-lines-step-1.jpg": "dae0c992199da9ebd0c415ab02d30900aace6bd7b90509bd49ed95f2caf5170e",
+      "assets/cartoon-chili-pepper-with-heat-lines-step-2.jpg": "3ee2d73a00da958c818176fefb8dc221a8488ce50638415bc4267049ab01387f",
+      "assets/cartoon-chili-pepper-with-heat-lines-step-3.jpg": "cb3bfa84eeba43a80aed7f593d032786bc4203bde49b59740514c474bb5d14ec",
+      "assets/cartoon-chili-pepper-with-heat-lines-step-4.jpg": "745d6f5f328e6a5373a31b8b70c680eaa3f7e04db465643cb7d77be0d453ebe4",
+      "assets/cartoon-chili-pepper-with-heat-lines-step-5.jpg": "9fbfd3add8a270d91013366d72781a54ca2859dc83f73bad328f71d0fc9a2751",
+      "assets/cartoon-chili-pepper-with-heat-lines-finished-v1.jpg": "2589ae05552ad3d4968caaa806c1cf00105518074e1d239791d4798ca3131293"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "curved pepper body",
+          "lobed cap",
+          "curved stem"
+        ],
+        "observed_addition": "The tapered body and pointed lower-left tip remain fixed; a three-lobed cap closes the reserved top gap and one curved stem grows from it.",
+        "instruction_match": "The cap instruction uses the open top endpoints and joins the stem to the cap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "curved pepper body",
+          "lobed cap",
+          "curved stem",
+          "inner ridge"
+        ],
+        "observed_addition": "The pepper body, cap and curved stem stay at their anchors; a slender ridge appears inside the right side of the pepper.",
+        "instruction_match": "The ridge instruction places one curved line inside the right contour without touching the tip.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "curved pepper body",
+          "lobed cap",
+          "curved stem",
+          "inner ridge",
+          "upper heat line",
+          "middle heat line",
+          "lower heat line"
+        ],
+        "observed_addition": "The body, cap, stem and inner ridge remain; exactly three separate wavy heat marks appear to the right at upper, middle and lower positions.",
+        "instruction_match": "The heat instruction specifies three separated waves in the open right-side paper.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "curved pepper body",
+          "lobed cap",
+          "curved stem",
+          "inner ridge",
+          "upper heat line",
+          "middle heat line",
+          "lower heat line",
+          "upper shine curve",
+          "lower shine curve"
+        ],
+        "observed_addition": "All three heat waves and pepper contours remain; two short black shine curves appear in the left interior, one high and one low.",
+        "instruction_match": "The shine instruction locates both curves away from the right-side ridge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "curved pepper body",
+          "lobed cap",
+          "curved stem",
+          "inner ridge",
+          "upper heat line",
+          "middle heat line",
+          "lower heat line",
+          "upper shine curve",
+          "lower shine curve"
+        ],
+        "observed_addition": "The cap, stem, body, ridge, both black shine curves and three heat waves persist; streaky red fills the body and green fills the cap and stem.",
+        "instruction_match": "The final coloring instruction applies marker inside existing contours and retains the black shine curves and waves.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

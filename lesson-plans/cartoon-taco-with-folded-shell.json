@@ -1,0 +1,154 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-taco-with-folded-shell",
+  "finished": "assets/cartoon-taco-with-folded-shell-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad folded half-moon shell with a deliberate top opening fixes the taco width and leaves space for its filling.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for drifting lettuce landmarks and fewer tomato pieces than planned. A revised sheet must hold three lettuce tufts and two tomato pieces fixed."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer folded shell",
+      "introduced_by_step": 1,
+      "description": "One wide uneven half-moon shell with a gently rounded bottom and open upper edge."
+    },
+    {
+      "name": "inner shell rim",
+      "introduced_by_step": 2,
+      "description": "A shallow curved rim follows the shell opening from left to right."
+    },
+    {
+      "name": "left lettuce tuft",
+      "introduced_by_step": 3,
+      "description": "One ruffled lettuce tuft rises behind the left rim."
+    },
+    {
+      "name": "center lettuce tuft",
+      "introduced_by_step": 3,
+      "description": "One ruffled lettuce tuft rises behind the center rim."
+    },
+    {
+      "name": "right lettuce tuft",
+      "introduced_by_step": 3,
+      "description": "One ruffled lettuce tuft rises behind the right rim."
+    },
+    {
+      "name": "left tomato piece",
+      "introduced_by_step": 4,
+      "description": "A small angular tomato piece sits between left and center lettuce."
+    },
+    {
+      "name": "right tomato piece",
+      "introduced_by_step": 4,
+      "description": "A small angular tomato piece sits between center and right lettuce."
+    },
+    {
+      "name": "left shell crease",
+      "introduced_by_step": 5,
+      "description": "One short curved crease marks the lower left shell."
+    },
+    {
+      "name": "right shell crease",
+      "introduced_by_step": 5,
+      "description": "One short curved crease marks the lower right shell."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-taco-with-folded-shell-step-1.jpg",
+      "step_name": "Fold the taco shell",
+      "visible_job": "With a black felt tip, draw one wide uneven half-moon for the shell, rounding its bottom and leaving the upper edge open.",
+      "instruction": "With a black felt tip, draw one wide uneven half-moon for the shell, rounding its bottom and leaving the upper edge open.",
+      "adds": [
+        "outer folded shell"
+      ],
+      "introduces": [
+        "outer folded shell"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-taco-with-folded-shell-step-2.jpg",
+      "step_name": "Curve the inner rim",
+      "visible_job": "Inside the open top, draw one shallow curved rim from the left shell tip to the right shell tip.",
+      "instruction": "Inside the open top, draw one shallow curved rim from the left shell tip to the right shell tip.",
+      "adds": [
+        "inner shell rim"
+      ],
+      "introduces": [
+        "inner shell rim"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-taco-with-folded-shell-step-3.jpg",
+      "step_name": "Ruffle three lettuce tufts",
+      "visible_job": "Behind the rim, add three separate leafy ruffles: left, center and right. Keep each tuft attached to the upper opening.",
+      "instruction": "Behind the rim, add three separate leafy ruffles: left, center and right. Keep each tuft attached to the upper opening.",
+      "adds": [
+        "left lettuce tuft",
+        "center lettuce tuft",
+        "right lettuce tuft"
+      ],
+      "introduces": [
+        "left lettuce tuft",
+        "center lettuce tuft",
+        "right lettuce tuft"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-taco-with-folded-shell-step-4.jpg",
+      "step_name": "Tuck in two tomato pieces",
+      "visible_job": "Between the three lettuce tufts, draw two small angular tomato pieces, one on each side of the center tuft. Let their lower edges hide behind the established rim.",
+      "instruction": "Between the three lettuce tufts, draw two small angular tomato pieces, one on each side of the center tuft. Let their lower edges hide behind the established rim.",
+      "adds": [
+        "left tomato piece",
+        "right tomato piece"
+      ],
+      "introduces": [
+        "left tomato piece",
+        "right tomato piece"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-taco-with-folded-shell-step-5.jpg",
+      "step_name": "Mark two shell creases",
+      "visible_job": "Inside the lower shell, draw one short curved crease on the left and one on the right, well below the filling.",
+      "instruction": "Inside the lower shell, draw one short curved crease on the left and one on the right, well below the filling.",
+      "adds": [
+        "left shell crease",
+        "right shell crease"
+      ],
+      "introduces": [
+        "left shell crease",
+        "right shell crease"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-taco-with-folded-shell-finished-v1.jpg",
+    "step_name": "Fill the taco with marker color",
+    "visible_job": "Fill the established shell golden yellow, lettuce green and two tomato pieces coral red with visible marker strokes.",
+    "instruction": "Let the black dry. Fill the existing shell golden yellow, the three lettuce tufts bright green and the two tomato pieces coral red. Leave a few white paper streaks in each area.",
+    "adds": [
+      "marker color within established shell and filling"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

@@ -1,3 +1,11 @@
+## 2026-11-10 — Current chili pepper lesson (Codex)
+
+- Added Doodlea Day 170, `cartoon-chili-pepper-with-heat-lines`, for November 10 from six saved felt-tip crops. The same curved body, three-lobed cap, stem, inner ridge, exactly three heat waves and two black shine curves remain anchored through red/green marker fill. A non-square sheet and a final panel that lost the black shine marks were rejected privately; the latter was repaired with image editing and the full sequence re-reviewed. Teaching 8.3/10; saved finish 8.2/10 for bold readable marker texture and 15-minute scope. Schema-v5 hashes, readiness, diff check, and Cove desktop/mobile home, library and tutorial QA passed. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-11-10 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-10 — Rejected taco process (Codex)
+
+- Three cartoon-taco contact sheets and a targeted edit changed lettuce/filling anchors or count between frames. The schema-v5 plan and all failed raster sheets remain private under `drafts/cartoon-taco-with-folded-shell/`; ledger is `rejected-quality`. No taco page or public assets were created. Continue the one-current-lesson-per-site cadence with a replacement slug.
+
 ## 2026-11-09 — Current comic megaphone lesson (Codex)
 
 - Added Doodlea Day 169, `comic-megaphone-with-sound-bursts`, for November 9 from six saved felt-tip crops. The cone, oval mouth, rear cap, connected grip, trigger, exactly three rays, curved band and two dashes remain anchored before streaky orange/yellow/teal/coral fill. Every adjacent saved pair was reviewed, with no guides or unexplained structural change. Teaching 8.2/10; saved finish 8.1/10 for bold handmade marker texture, clear sound rays and attainable scope. Earlier megaphone candidates were rejected in July/August for proximity to audio lessons; the November archive has no recent audio-device subject. Schema-v5 hashes, readiness, diff check, and localhost desktop/mobile home, library and tutorial QA passed; Cove browser certificate expired. One-current-lesson-per-site cadence remains active; no backfills. Harness: Codex; task: 2026-11-09 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
