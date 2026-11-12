@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-juice-box-with-bendy-straw",
+  "finished": "assets/cartoon-juice-box-with-bendy-straw-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single upright front carton outline gives the learner a useful centered object and leaves clear corners for the side and roof.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Third six-panel marker sheet approved after rejecting two sheets with roof redraw and row scale drift; both failures preserved privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "front carton silhouette",
+      "introduced_by_step": 1,
+      "description": "One centered carton front with a low trapezoid folded roof already joined to its vertical sides and rounded base."
+    },
+    {
+      "name": "right side panel",
+      "introduced_by_step": 2,
+      "description": "A narrow panel attached to the right front edge."
+    },
+    {
+      "name": "top seams and straw port",
+      "introduced_by_step": 3,
+      "description": "One slanted left fold seam and one small oval straw port on the established roof."
+    },
+    {
+      "name": "bendy straw",
+      "introduced_by_step": 4,
+      "description": "One thick black straw that rises and bends to the right."
+    },
+    {
+      "name": "front fruit emblem",
+      "introduced_by_step": 5,
+      "description": "An orange slice circle with exactly six radial wedge sections and one small leaf."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-juice-box-with-bendy-straw-step-1.jpg",
+      "step_name": "Shape the carton front",
+      "visible_job": "Draw the tall front panel and low folded roof together.",
+      "instruction": "Draw a tall rounded carton front, then lift its top corners into a low trapezoid roof with a short flat crest.",
+      "adds": [
+        "front carton silhouette"
+      ],
+      "introduces": [
+        "front carton silhouette"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-juice-box-with-bendy-straw-step-2.jpg",
+      "step_name": "Give it a side",
+      "visible_job": "One narrow right side panel attaches.",
+      "instruction": "From the upper-right and lower-right corners, draw short diagonals and join them with a vertical side edge.",
+      "adds": [
+        "right side panel"
+      ],
+      "introduces": [
+        "right side panel"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-juice-box-with-bendy-straw-step-3.jpg",
+      "step_name": "Mark the top folds",
+      "visible_job": "Add a left fold seam and a small oval straw port on the established roof.",
+      "instruction": "On the roof, draw a short slanted seam near the left corner and one small oval straw port near the center.",
+      "adds": [
+        "top seams and straw port"
+      ],
+      "introduces": [
+        "top seams and straw port"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-juice-box-with-bendy-straw-step-4.jpg",
+      "step_name": "Bend the straw",
+      "visible_job": "One striped bendy straw attaches.",
+      "instruction": "From the oval port, draw one thick straw upward, bend it right, and finish its short open tip. Add short stripe marks along the bend and a short right roof seam.",
+      "adds": [
+        "bendy straw"
+      ],
+      "introduces": [
+        "bendy straw"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-juice-box-with-bendy-straw-step-5.jpg",
+      "step_name": "Mark the fruit",
+      "visible_job": "Add a six-wedge fruit circle and attached pointed leaf.",
+      "instruction": "On the carton front, draw one orange-slice circle with six radial wedge lines from its center; attach one small pointed leaf above its right rim.",
+      "adds": [
+        "front fruit emblem"
+      ],
+      "introduces": [
+        "front fruit emblem"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-juice-box-with-bendy-straw-finished-v1.jpg",
+    "step_name": "Color the carton",
+    "visible_job": "Add orange and teal marker fills inside established contours.",
+    "instruction": "Fill the front and top warm orange, the side panel teal, the straw coral, and the six-wedge slice yellow. Color the leaf green while keeping every black contour visible.",
+    "adds": [
+      "marker color inside existing contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows one centered front panel with low trapezoid roof, vertical sides and rounded bottom at their final anchors. The simple silhouette is copyable before details.",
+    "draw_through_observation": "Viewed the approved six-cell sheet and saved finish. Front, low roof, right face, top seam, oval port, bent striped straw and six-wedge fruit mark retain their anchors. Port becomes a visible collar around the straw. No temporary guides, silent erasures or moved landmarks.",
+    "contract_sha256": "b182713421e2a2a1f586b34b40f4dba5383cb5aa848edc263ba9993c45e2b863",
+    "asset_sha256": {
+      "assets/cartoon-juice-box-with-bendy-straw-step-1.jpg": "c14b7966d61be289b47aeee83d6519bef2e96a7ff1cba3f18b871b8367b2fda4",
+      "assets/cartoon-juice-box-with-bendy-straw-step-2.jpg": "982efbd69914ad2901f593154155320030f26448e7804e99ed2270c6a0784dc1",
+      "assets/cartoon-juice-box-with-bendy-straw-step-3.jpg": "0610ed02788556edbeae65dca96caaf8b30c0d1d9e041f5790ee0962e64187b0",
+      "assets/cartoon-juice-box-with-bendy-straw-step-4.jpg": "b6c2ddf003f15ddf696a970c4968c8477068a71112154e43a6dbec8b65ec1e67",
+      "assets/cartoon-juice-box-with-bendy-straw-step-5.jpg": "0171bf707024bb298b2fe9c7558786d8ce02b1581bd375a96b5cf9998b3796ff",
+      "assets/cartoon-juice-box-with-bendy-straw-finished-v1.jpg": "7355707e2e8570ce65808ecd5014c17f0676cb42e722cc63ae01b70650f0d56f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "front carton silhouette",
+          "right side panel"
+        ],
+        "observed_addition": "The front panel and low roof remain; a narrow right face joins their upper and lower right corners.",
+        "instruction_match": "The side instruction attaches short diagonals and a vertical edge to those existing corners.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "front carton silhouette",
+          "right side panel",
+          "top seams and straw port"
+        ],
+        "observed_addition": "The front and right side remain; a left roof fold seam and small oval port appear on the top.",
+        "instruction_match": "The top-fold instruction names the existing roof as the location for both marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "front carton silhouette",
+          "right side panel",
+          "top seams and straw port",
+          "bendy straw"
+        ],
+        "observed_addition": "The box and port remain fixed; a thick striped straw rises from the port, bends right, and a short right roof seam appears.",
+        "instruction_match": "The straw instruction matches the visible collar, bend stripes, tip, and roof seam.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "front carton silhouette",
+          "right side panel",
+          "top seams and straw port",
+          "bendy straw",
+          "front fruit emblem"
+        ],
+        "observed_addition": "Carton, roof and straw remain; a centered fruit circle gains six radial wedges and one pointed leaf.",
+        "instruction_match": "The emblem instruction gives the exact six wedges and leaf attachment on the front.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "front carton silhouette",
+          "right side panel",
+          "top seams and straw port",
+          "bendy straw",
+          "front fruit emblem"
+        ],
+        "observed_addition": "All five landmarks retain their contours; orange, teal, coral, yellow and green marker fills appear within them.",
+        "instruction_match": "The finishing instruction places color only inside the existing carton, straw and fruit regions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
