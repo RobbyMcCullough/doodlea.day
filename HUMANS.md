@@ -2072,3 +2072,8 @@
 
 - Added Day 168 `cartoon-traffic-light-with-three-signals` for November 8. Six saved felt-tip crops keep one rounded housing, exactly three signal circles and three visors, one attached pole and base, two screw dots, and three ground strokes before streaky red, amber, green, charcoal and teal marker color.
 - Reviewed the full sheet and every saved adjacent pair including finish: teaching 8.2/10, saved finish 8.3/10, no temporary guides or unexplained structural movement. Schema-v5 hashes, readiness, diff check, Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active with no routine backfill. Harness: Codex; task: 2026-11-08 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-13 — Current cartoon mitten lesson (Codex)
+
+- Added Day 173 `cartoon-mitten-with-cuff` for November 13. Rejected the first sheet for a thumb that overwrote the palm edge; the approved six-panel sheet reserves that gap, then adds cuff, divider, three stitches and red/teal marker fills. Saved-crop review rated teaching 8.1/10 and finish 8.0/10.
+- Readiness passed with Cove, including schema-v5 review hashes, image derivatives, JSON-LD, internal links and diff checks. The one-current-lesson-per-site cadence remains active; no backfill was created.

@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-mitten-with-cuff",
+  "finished": "assets/cartoon-mitten-with-cuff-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad palm with rounded fingertip fixes the mitten scale and leaves an opening for the thumb and cuff.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel felt-tip contact sheet; review before crop."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "rounded palm",
+      "introduced_by_step": 1,
+      "description": "Draw the rounded fingertip arch and right palm edge; stop the short left edge at the future thumb join, leaving the wrist open."
+    },
+    {
+      "name": "left thumb",
+      "introduced_by_step": 2,
+      "description": "From the open left endpoint, loop the thumb outward and back down toward the wrist, leaving both wrist ends open."
+    },
+    {
+      "name": "ribbed cuff",
+      "introduced_by_step": 3,
+      "description": "Across the open wrist, add a wide rectangular cuff joined to both lower palm ends."
+    },
+    {
+      "name": "cuff divider",
+      "introduced_by_step": 4,
+      "description": "Draw one horizontal line through the cuff, making two parallel cuff bands."
+    },
+    {
+      "name": "three palm stitches",
+      "introduced_by_step": 5,
+      "description": "Place exactly three short dash stitches in a shallow curve across the palm."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-mitten-with-cuff-step-1.jpg",
+      "step_name": "Shape the palm",
+      "visible_job": "Draw the rounded fingertip arch and right palm edge; stop the short left edge at the future thumb join, leaving the wrist open.",
+      "instruction": "Draw the rounded fingertip arch and right palm edge; stop the short left edge at the future thumb join, leaving the wrist open.",
+      "adds": [
+        "rounded palm"
+      ],
+      "introduces": [
+        "rounded palm"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-mitten-with-cuff-step-2.jpg",
+      "step_name": "Attach the thumb",
+      "visible_job": "From the open left endpoint, loop the thumb outward and back down toward the wrist, leaving both wrist ends open.",
+      "instruction": "From the open left endpoint, loop the thumb outward and back down toward the wrist, leaving both wrist ends open.",
+      "adds": [
+        "left thumb"
+      ],
+      "introduces": [
+        "left thumb"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-mitten-with-cuff-step-3.jpg",
+      "step_name": "Add the cuff",
+      "visible_job": "Across the open wrist, add a wide rectangular cuff joined to both lower palm ends.",
+      "instruction": "Across the open wrist, add a wide rectangular cuff joined to both lower palm ends.",
+      "adds": [
+        "ribbed cuff"
+      ],
+      "introduces": [
+        "ribbed cuff"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-mitten-with-cuff-step-4.jpg",
+      "step_name": "Stripe the cuff",
+      "visible_job": "Draw one horizontal line through the cuff, making two parallel cuff bands.",
+      "instruction": "Draw one horizontal line through the cuff, making two parallel cuff bands.",
+      "adds": [
+        "cuff divider"
+      ],
+      "introduces": [
+        "cuff divider"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-mitten-with-cuff-step-5.jpg",
+      "step_name": "Mark three stitches",
+      "visible_job": "Place exactly three short dash stitches in a shallow curve across the palm.",
+      "instruction": "Place exactly three short dash stitches in a shallow curve across the palm.",
+      "adds": [
+        "three palm stitches"
+      ],
+      "introduces": [
+        "three palm stitches"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-mitten-with-cuff-finished-v1.jpg",
+    "step_name": "Color the mitten",
+    "visible_job": "Fill established palm and cuff regions with red and teal marker texture without new contours.",
+    "instruction": "Fill the established palm red and both cuff bands teal with textured marker strokes; keep the three stitches visible.",
+    "adds": [
+      "marker color"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first crop has an upper mitten arch, right edge and short left side; the lower-left thumb and wrist gaps are visibly reserved.",
+    "draw_through_observation": "The first sheet was rejected because its thumb erased a side line. In the approved six-cell sheet and saved crops, the thumb uses the reserved gap; the cuff, divider and three stitches stay fixed through the textured color finish. No guides appear.",
+    "contract_sha256": "e0e022d75135da4e79fa8fb72a819f30bd034fe433ab986f081b04b002890ea9",
+    "asset_sha256": {
+      "assets/cartoon-mitten-with-cuff-step-1.jpg": "2c9169aabfb4cba74e3e0ddeadda3e20c0f7f5c6cb7310ed39ece6a941c380b9",
+      "assets/cartoon-mitten-with-cuff-step-2.jpg": "a944c94bd9b29334fb005f9091e6e668afc7746d2719dc4513236cb8cfcfd534",
+      "assets/cartoon-mitten-with-cuff-step-3.jpg": "319871ea3ce7e0f6bb9c59209d2cf45425a780acce06340a47b96ada30cc318c",
+      "assets/cartoon-mitten-with-cuff-step-4.jpg": "814c1188b2972d15688baee63dceba4dac031d250f5001def3ed4df8a67b5d97",
+      "assets/cartoon-mitten-with-cuff-step-5.jpg": "f118d31fd54cf09db83f2ce2cdcda05441d2e6396be888bd0a6f9a6646ca890b",
+      "assets/cartoon-mitten-with-cuff-finished-v1.jpg": "08ae979e72c98ccd655ef441173a5a5b6e3023bd859ecdac0762e1bad59deff0"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "rounded palm",
+          "left thumb"
+        ],
+        "observed_addition": "The original palm arch and right edge stay fixed; a left thumb loops from the reserved left endpoint to the open wrist.",
+        "instruction_match": "From the open left endpoint, loop the thumb outward and back down toward the wrist, leaving both wrist ends open.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "rounded palm",
+          "left thumb",
+          "ribbed cuff"
+        ],
+        "observed_addition": "The palm and thumb persist; a broad cuff joins both wrist ends without covering earlier dark lines.",
+        "instruction_match": "Across the open wrist, add a wide rectangular cuff joined to both lower palm ends.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "rounded palm",
+          "left thumb",
+          "ribbed cuff",
+          "cuff divider"
+        ],
+        "observed_addition": "The silhouette and cuff persist; one horizontal line divides the cuff into two long bands.",
+        "instruction_match": "Draw one horizontal line through the cuff, making two parallel cuff bands.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "rounded palm",
+          "left thumb",
+          "ribbed cuff",
+          "cuff divider",
+          "three palm stitches"
+        ],
+        "observed_addition": "The palm, thumb and cuff persist; exactly three dark dash stitches appear across the palm.",
+        "instruction_match": "Place exactly three short dash stitches in a shallow curve across the palm.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "rounded palm",
+          "left thumb",
+          "ribbed cuff",
+          "cuff divider",
+          "three palm stitches"
+        ],
+        "observed_addition": "All five structural landmarks persist; red and teal marker fill established regions without adding contours.",
+        "instruction_match": "Fill the established palm red and both cuff bands teal with textured marker strokes; keep the three stitches visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
