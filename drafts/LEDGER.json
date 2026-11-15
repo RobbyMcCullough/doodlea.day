@@ -78,6 +78,11 @@
       "date": "2026-08-18",
       "note": "Stopped before publication: the private raster sheet is visually strong and count-stable, but crop, page integration, readiness, rendered QA, and commit were not completed in this run. Regenerate or explicitly re-approve before use."
     },
+    "cartoon-bubble-wand-with-bubbles": {
+      "status": "published",
+      "date": "2026-11-15",
+      "note": "Approved six-panel marker sheet with three stable bubbles; schema-v5 review and current lesson."
+    },
     "cartoon-bubbling-cauldron": {
       "status": "rejected-quality",
       "date": "2026-10-05",

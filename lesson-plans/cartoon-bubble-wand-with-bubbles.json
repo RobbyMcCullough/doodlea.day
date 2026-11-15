@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-bubble-wand-with-bubbles",
+  "finished": "assets/cartoon-bubble-wand-with-bubbles-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The tilted oval wand ring and attached neck establish a useful angle and open space for the handle and bubbles.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Generated marker contact sheet; review before promotion."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "oval wand ring and short neck",
+      "introduced_by_step": 1,
+      "description": "One tilted double-outline oval with a short stem from its lower right edge."
+    },
+    {
+      "name": "long wand handle",
+      "introduced_by_step": 2,
+      "description": "One narrow diagonal handle attached to the ring neck."
+    },
+    {
+      "name": "large bubble",
+      "introduced_by_step": 3,
+      "description": "One large round bubble above and left of the ring."
+    },
+    {
+      "name": "two small bubbles",
+      "introduced_by_step": 4,
+      "description": "Exactly two smaller bubbles at distinct heights above the ring."
+    },
+    {
+      "name": "bubble shines",
+      "introduced_by_step": 5,
+      "description": "One curved shine inside each of three bubbles."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-bubble-wand-with-bubbles-step-1.jpg",
+      "step_name": "Draw the wand ring",
+      "visible_job": "One tilted oval ring with short attached neck.",
+      "instruction": "Draw a tilted double-outline oval ring, then extend a short neck from its lower right edge.",
+      "adds": [
+        "oval wand ring and short neck"
+      ],
+      "introduces": [
+        "oval wand ring and short neck"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-bubble-wand-with-bubbles-step-2.jpg",
+      "step_name": "Attach the handle",
+      "visible_job": "A narrow diagonal handle extends from the neck.",
+      "instruction": "From the short neck, pull two parallel lines down-right and close their ends with a rounded cap.",
+      "adds": [
+        "long wand handle"
+      ],
+      "introduces": [
+        "long wand handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-bubble-wand-with-bubbles-step-3.jpg",
+      "step_name": "Float a big bubble",
+      "visible_job": "One large round bubble sits above-left of the ring.",
+      "instruction": "Draw a large nearly round bubble just above and left of the wand ring, leaving a clear gap.",
+      "adds": [
+        "large bubble"
+      ],
+      "introduces": [
+        "large bubble"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-bubble-wand-with-bubbles-step-4.jpg",
+      "step_name": "Add two little bubbles",
+      "visible_job": "Two smaller bubbles float at different heights.",
+      "instruction": "Add exactly two smaller round bubbles above the ring at different heights, keeping them separate from the large bubble.",
+      "adds": [
+        "two small bubbles"
+      ],
+      "introduces": [
+        "two small bubbles"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-bubble-wand-with-bubbles-step-5.jpg",
+      "step_name": "Mark the shines",
+      "visible_job": "A curved shine appears inside each of three bubbles.",
+      "instruction": "Place one short curved shine inside each bubble near its upper-left edge.",
+      "adds": [
+        "bubble shines"
+      ],
+      "introduces": [
+        "bubble shines"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-bubble-wand-with-bubbles-finished-v1.jpg",
+    "step_name": "Color the bubbles",
+    "visible_job": "Streaky cyan, magenta and yellow marker fills existing shapes.",
+    "instruction": "Thicken the keeper outlines, fill the handle magenta, and add light cyan, yellow and pink marker arcs inside the established three bubbles, leaving each shine pale.",
+    "adds": [
+      "marker color on established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first crop fixes one tilted double-outline wand ring and its short attached lower-right neck; it leaves open space for a handle and bubbles.",
+    "draw_through_observation": "I compared the full sheet and each saved adjacent crop. The double ring, neck, handle, three bubble circles and three shines keep their anchors and counts. No temporary guides or unexplained erasures appear; final marker arcs stay within existing bubbles.",
+    "contract_sha256": "b7cb6519141b62e3eb3fa6ae30ab9299367a2a7344e18db17f30978c13bc5f9c",
+    "asset_sha256": {
+      "assets/cartoon-bubble-wand-with-bubbles-step-1.jpg": "2f88eeab680cbaf48840e4905f2d50f13466dadb292575aac1180eab7ef18f27",
+      "assets/cartoon-bubble-wand-with-bubbles-step-2.jpg": "e91da702e915ef3fe862d33c33974d46b28418776c4ff8c94588545d98ce239a",
+      "assets/cartoon-bubble-wand-with-bubbles-step-3.jpg": "ccafe6754f352a26e56ebfb52d01b957ff4725a048112fa9c1b221e3722bb504",
+      "assets/cartoon-bubble-wand-with-bubbles-step-4.jpg": "3f122c9e6039dc91496200d2d8bef1198eb8da5933938c2bf79dece6f136b0a5",
+      "assets/cartoon-bubble-wand-with-bubbles-step-5.jpg": "97608744701aa14d2f99208376a04f55b5bd81a69a5eaee8a3f593cb082ffeee",
+      "assets/cartoon-bubble-wand-with-bubbles-finished-v1.jpg": "ecf69a73cd9fd018594f3e133cea51cd134728979ac93a4d8c24689d53c49a33"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "oval wand ring and short neck",
+          "long wand handle"
+        ],
+        "observed_addition": "The tilted double oval and short neck stay fixed; two parallel lines extend down-right into a rounded handle.",
+        "instruction_match": "From the short neck, pull two parallel lines down-right and close their ends with a rounded cap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "oval wand ring and short neck",
+          "long wand handle",
+          "large bubble"
+        ],
+        "observed_addition": "The ring, neck and handle stay fixed; one large bubble appears above-left with a clear gap.",
+        "instruction_match": "Draw a large nearly round bubble just above and left of the wand ring, leaving a clear gap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "oval wand ring and short neck",
+          "long wand handle",
+          "large bubble",
+          "two small bubbles"
+        ],
+        "observed_addition": "The wand and large bubble stay fixed; two smaller separate bubbles appear at staggered heights, totaling three.",
+        "instruction_match": "Add exactly two smaller round bubbles above the ring at different heights, keeping them separate from the large bubble.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "oval wand ring and short neck",
+          "long wand handle",
+          "large bubble",
+          "two small bubbles",
+          "bubble shines"
+        ],
+        "observed_addition": "All three bubble circles and the wand remain; each circle gains one curved shine at its upper-left interior.",
+        "instruction_match": "Place one short curved shine inside each bubble near its upper-left edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "oval wand ring and short neck",
+          "long wand handle",
+          "large bubble",
+          "two small bubbles",
+          "bubble shines"
+        ],
+        "observed_addition": "The wand and three bubbles retain their outlines and shines; streaky magenta fills the handle and cyan, yellow and pink arcs fill the established bubbles.",
+        "instruction_match": "Thicken the keeper outlines, fill the handle magenta, and add light cyan, yellow and pink marker arcs inside the established three bubbles, leaving each shine pale.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

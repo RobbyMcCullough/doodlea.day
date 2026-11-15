@@ -2077,3 +2077,6 @@
 
 - Added Day 173 `cartoon-mitten-with-cuff` for November 13. Rejected the first sheet for a thumb that overwrote the palm edge; the approved six-panel sheet reserves that gap, then adds cuff, divider, three stitches and red/teal marker fills. Saved-crop review rated teaching 8.1/10 and finish 8.0/10.
 - Readiness passed with Cove, including schema-v5 review hashes, image derivatives, JSON-LD, internal links and diff checks. The one-current-lesson-per-site cadence remains active; no backfill was created.
+
+## 2026-11-15 — Current bubble wand lesson (Codex)
+- Added Day 175 `cartoon-bubble-wand-with-bubbles` for November 15. The six-panel marker contact sheet and saved adjacent crops retain a tilted double oval ring, diagonal handle, three separate bubbles and three curved shines before final streaky cyan, yellow, pink and magenta color. Teaching and saved finish each score 8.2/10 for clear countable shapes, handmade marker texture and an attainable sequence. Schema-v5 hashes, Cove readiness, links, JSON-LD and diff checks passed. One-current-lesson-per-site cadence remains active, with no backfill. Harness: Codex; task: 2026-11-15 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
