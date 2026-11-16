@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-party-hat-with-pom-pom",
+  "finished": "assets/cartoon-party-hat-with-pom-pom-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first connected silhouette fixes the subject in its final position and is easy to copy before details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel contact sheet; visual review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "hat cone",
+      "introduced_by_step": 1,
+      "description": "One broad cone with curved lower opening in final position."
+    },
+    {
+      "name": "pom-pom",
+      "introduced_by_step": 2,
+      "description": "One small fluffy pom-pom attached to cone tip."
+    },
+    {
+      "name": "brim band",
+      "introduced_by_step": 3,
+      "description": "One curved band parallel to lower brim."
+    },
+    {
+      "name": "three confetti circles",
+      "introduced_by_step": 4,
+      "description": "Exactly three spaced circles across cone face."
+    },
+    {
+      "name": "elastic cord",
+      "introduced_by_step": 5,
+      "description": "One thin curved elastic loop below hat."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-party-hat-with-pom-pom-step-1.jpg",
+      "step_name": "Shape the hat cone",
+      "visible_job": "One tapered cone and curved brim",
+      "instruction": "Draw two slightly bowed sides meeting at a top point; join their lower ends with a shallow curved brim.",
+      "adds": [
+        "hat cone"
+      ],
+      "introduces": [
+        "hat cone"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-party-hat-with-pom-pom-step-2.jpg",
+      "step_name": "Attach the pom-pom",
+      "visible_job": "A round pom-pom at the cone tip",
+      "instruction": "At the top point, add one small scalloped pom-pom, joined directly to the cone.",
+      "adds": [
+        "pom-pom"
+      ],
+      "introduces": [
+        "pom-pom"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-party-hat-with-pom-pom-step-3.jpg",
+      "step_name": "Wrap the brim band",
+      "visible_job": "A curved band above the lower brim",
+      "instruction": "Echo the bottom curve with one line above it, making a narrow band across the cone.",
+      "adds": [
+        "brim band"
+      ],
+      "introduces": [
+        "brim band"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-party-hat-with-pom-pom-step-4.jpg",
+      "step_name": "Place three dots",
+      "visible_job": "Three marker circles on the cone",
+      "instruction": "Place three small open circles across the cone face, spaced apart from the band.",
+      "adds": [
+        "three confetti circles"
+      ],
+      "introduces": [
+        "three confetti circles"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-party-hat-with-pom-pom-step-5.jpg",
+      "step_name": "Loop the elastic",
+      "visible_job": "Add the U-shaped elastic below the brim",
+      "instruction": "From the left and right brim ends, draw one loose U-shaped elastic loop below the hat.",
+      "adds": [
+        "elastic cord"
+      ],
+      "introduces": [
+        "elastic cord"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-party-hat-with-pom-pom-finished-v1.jpg",
+    "step_name": "Color the party hat",
+    "visible_job": "Bright marker fill on the established hat and pom-pom",
+    "instruction": "Fill the established cone coral, the band teal, three circles yellow and pom-pom orange; strengthen outlines without adding shapes.",
+    "adds": [
+      "shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The saved first square crop shows one complete bowed cone and curved brim in the final position with room above for the pom-pom and below for the elastic.",
+    "draw_through_observation": "Reviewed third full sheet and six newly saved square crops after rejecting the clipped second finish. Cone, pom-pom, brim band, exactly three dots and attached elastic retain their anchors. All contours fit inside each crop with paper space above and below; final color only fills existing forms. No guides, moved marks or unexplained removals.",
+    "contract_sha256": "c266379c43c54e22701bc10224069c5b82efa1e9e6d27da0d5b4cebc4c8e1f2a",
+    "asset_sha256": {
+      "assets/cartoon-party-hat-with-pom-pom-step-1.jpg": "ee8e0b45adeb392ddf4904233aa6c978dddaca6599b0a2379f27a6c598a14b6d",
+      "assets/cartoon-party-hat-with-pom-pom-step-2.jpg": "b5c4f4be2d05c7169eca0d94e3d9560f540965f5ddd4607c7a08f0729d52c400",
+      "assets/cartoon-party-hat-with-pom-pom-step-3.jpg": "bf149a1420a214928c1cace5252dac981e05864db913186440befda42f9b514f",
+      "assets/cartoon-party-hat-with-pom-pom-step-4.jpg": "6e56f9427acfc09b0b1b49008ae6caca4d9163cf97a5a76b19fe34ed02870599",
+      "assets/cartoon-party-hat-with-pom-pom-step-5.jpg": "69b9961a6942a21b40a87df6a1fbfaa465b2e3b5a784f50fba6d85f93b0d61e4",
+      "assets/cartoon-party-hat-with-pom-pom-finished-v1.jpg": "65b50026cbc2a853a747c831e8734fcd40b435c4e75b34f9c729de4f0b729445"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "hat cone",
+          "pom-pom"
+        ],
+        "observed_addition": "The same cone and curved brim remain; one fluffy pom-pom attaches to the point.",
+        "instruction_match": "At the top point, add one small scalloped pom-pom, joined directly to the cone.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "hat cone",
+          "pom-pom",
+          "brim band"
+        ],
+        "observed_addition": "Cone and pom-pom persist; a curved line above the lower edge forms the band.",
+        "instruction_match": "Echo the bottom curve with one line above it, making a narrow band across the cone.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "hat cone",
+          "pom-pom",
+          "brim band",
+          "three confetti circles"
+        ],
+        "observed_addition": "All existing contours remain; exactly three open dots appear across the cone.",
+        "instruction_match": "Place three small open circles across the cone face, spaced apart from the band.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "hat cone",
+          "pom-pom",
+          "brim band",
+          "three confetti circles",
+          "elastic cord"
+        ],
+        "observed_addition": "The three dots stay fixed; one U-shaped elastic joins both brim corners.",
+        "instruction_match": "From the left and right brim ends, draw one loose U-shaped elastic loop below the hat.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "hat cone",
+          "pom-pom",
+          "brim band",
+          "three confetti circles",
+          "elastic cord"
+        ],
+        "observed_addition": "All outlines, three dots and elastic persist; coral, teal, orange and yellow fill established areas without new shapes.",
+        "instruction_match": "Fill the established cone coral, the band teal, three circles yellow and pom-pom orange; strengthen outlines without adding shapes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

@@ -2080,3 +2080,7 @@
 
 ## 2026-11-15 — Current bubble wand lesson (Codex)
 - Added Day 175 `cartoon-bubble-wand-with-bubbles` for November 15. The six-panel marker contact sheet and saved adjacent crops retain a tilted double oval ring, diagonal handle, three separate bubbles and three curved shines before final streaky cyan, yellow, pink and magenta color. Teaching and saved finish each score 8.2/10 for clear countable shapes, handmade marker texture and an attainable sequence. Schema-v5 hashes, Cove readiness, links, JSON-LD and diff checks passed. One-current-lesson-per-site cadence remains active, with no backfill. Harness: Codex; task: 2026-11-15 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-16 — Current party hat lesson (Codex)
+
+- Added Doodlea Day 176, `cartoon-party-hat-with-pom-pom`, for November 16. First sheet was plain with panel borders; second clipped the pom-pom. Third six-panel felt-tip sheet passed saved-crop continuity with one cone, pom-pom, curved band, exactly three dots and connected elastic loop before streaky color. Teaching 8.1/10; saved finish 8.0/10 for readable handmade texture and attainable scope. Readiness, JSON-LD, links, image assets, diff check and rendered desktop/mobile tutorial QA passed. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-11-16 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.

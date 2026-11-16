@@ -291,6 +291,11 @@
       "date": "2026-09-26",
       "note": "Four serious generated raster iterations retained privately. Bottom-row loop clipping and scale/position drift could not be repaired while keeping one cumulative drawing."
     },
+    "cartoon-party-hat-with-pom-pom": {
+      "status": "published",
+      "date": "2026-11-16",
+      "note": "First sheet rejected as plain with borders; second rejected for clipped pom-pom. Third six-panel marker sheet approved. Teaching 8.1/10; finish 8.0/10."
+    },
     "cartoon-party-horn-with-confetti": {
       "status": "rejected-duplicate",
       "date": "2026-10-11",
