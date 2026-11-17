@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-parachute-with-striped-canopy",
+  "finished": "assets/cartoon-parachute-with-striped-canopy-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The broad canopy arc and scalloped lower edge establish an easy, readable parachute silhouette.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet pending review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "canopy outline",
+      "introduced_by_step": 1,
+      "description": "canopy outline fixed beneath the canopy"
+    },
+    {
+      "name": "three canopy stripe seams",
+      "introduced_by_step": 2,
+      "description": "three canopy stripe seams fixed beneath the canopy"
+    },
+    {
+      "name": "four suspension cords",
+      "introduced_by_step": 3,
+      "description": "four suspension cords fixed beneath the canopy"
+    },
+    {
+      "name": "small hanging basket",
+      "introduced_by_step": 4,
+      "description": "small hanging basket fixed beneath the canopy"
+    },
+    {
+      "name": "two motion dashes",
+      "introduced_by_step": 5,
+      "description": "two motion dashes fixed beneath the canopy"
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-parachute-with-striped-canopy-step-1.jpg",
+      "step_name": "Draw the canopy",
+      "visible_job": "Draw one wide dome with a three-scallop lower edge.",
+      "instruction": "Draw one wide dome with a three-scallop lower edge.",
+      "adds": [
+        "canopy outline"
+      ],
+      "introduces": [
+        "canopy outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-parachute-with-striped-canopy-step-2.jpg",
+      "step_name": "Divide the stripes",
+      "visible_job": "From the canopy apex, draw three curved division lines down to the scallops, making four color sectors.",
+      "instruction": "From the canopy apex, draw three curved division lines down to the scallops, making four color sectors.",
+      "adds": [
+        "three canopy stripe seams"
+      ],
+      "introduces": [
+        "three canopy stripe seams"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-parachute-with-striped-canopy-step-3.jpg",
+      "step_name": "Drop the cords",
+      "visible_job": "From the four lower canopy points, pull four cords toward a single point centered above the future basket.",
+      "instruction": "From the four lower canopy points, pull four cords toward a single point centered above the future basket.",
+      "adds": [
+        "four suspension cords"
+      ],
+      "introduces": [
+        "four suspension cords"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-parachute-with-striped-canopy-step-4.jpg",
+      "step_name": "Hang the basket",
+      "visible_job": "Draw a small rectangular basket directly under the cord junction, then add two horizontal weave bars.",
+      "instruction": "Draw a small rectangular basket directly under the cord junction, then add two horizontal weave bars.",
+      "adds": [
+        "small hanging basket"
+      ],
+      "introduces": [
+        "small hanging basket"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-parachute-with-striped-canopy-step-5.jpg",
+      "step_name": "Suggest a float",
+      "visible_job": "Place two short motion dashes beside the canopy without moving any other part.",
+      "instruction": "Place two short motion dashes beside the canopy without moving any other part.",
+      "adds": [
+        "two motion dashes"
+      ],
+      "introduces": [
+        "two motion dashes"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-parachute-with-striped-canopy-finished-v1.jpg",
+    "step_name": "Color the canopy",
+    "visible_job": "Fill existing canopy stripes and basket with marker.",
+    "instruction": "Color the established canopy stripes coral, yellow, teal and blue; add brown to the basket without changing outlines.",
+    "adds": [
+      "marker color within established outlines"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "Saved first crop shows a broad centered dome and three scalloped lower arcs with room for cords and basket.",
+    "draw_through_observation": "Viewed full third sheet and six saved square crops. Canopy outline, three seams, four cords, basket weave and two motion dashes remain fixed through marker fill. Earlier two sheets were rejected for scale drift. No guides or unexplained erasures.",
+    "contract_sha256": "6b71f8d1d269aebea5a7143a30a1637d2b68554bc5ae013a388d40b215e0c9b1",
+    "asset_sha256": {
+      "assets/cartoon-parachute-with-striped-canopy-step-1.jpg": "e293ecb869039f51d24860f54397fb268d5538c455ed0cbd7fa69ca5a2c3bb52",
+      "assets/cartoon-parachute-with-striped-canopy-step-2.jpg": "c7efdb885611af0ff21e3a77e53360ed5516818cc34948643667a2d12bab7937",
+      "assets/cartoon-parachute-with-striped-canopy-step-3.jpg": "d296fb20006417e6de1bc8fe74aabb90d869e803d574cb9c4a299049aee40395",
+      "assets/cartoon-parachute-with-striped-canopy-step-4.jpg": "71d9e68e32ed812d5c3a6085d28d8a79c7b63870a4d4a5cec9fbbad9f568d229",
+      "assets/cartoon-parachute-with-striped-canopy-step-5.jpg": "1c5779c8559007b4f3eb99135704e468b31eb4aeb8538df76b1f213bc704832e",
+      "assets/cartoon-parachute-with-striped-canopy-finished-v1.jpg": "fc7e2964c14112d0ea7c376230d67556a34ee8b5d19d9b9b83e3ad80427052e7"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "canopy outline",
+          "three canopy stripe seams"
+        ],
+        "observed_addition": "Three seams divide the same canopy into four sectors; all scallops persist.",
+        "instruction_match": "From the canopy apex, draw three curved division lines down to the scallops, making four color sectors.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "canopy outline",
+          "three canopy stripe seams",
+          "four suspension cords"
+        ],
+        "observed_addition": "Four cords descend from the same four lower points and meet at one bottom junction.",
+        "instruction_match": "From the four lower canopy points, pull four cords toward a single point centered above the future basket.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "canopy outline",
+          "three canopy stripe seams",
+          "four suspension cords",
+          "small hanging basket"
+        ],
+        "observed_addition": "A small basket and two weave bars appear beneath the cord junction; canopy and cords persist.",
+        "instruction_match": "Draw a small rectangular basket directly under the cord junction, then add two horizontal weave bars.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "canopy outline",
+          "three canopy stripe seams",
+          "four suspension cords",
+          "small hanging basket",
+          "two motion dashes"
+        ],
+        "observed_addition": "Two wind dashes appear above right of canopy; basket, cords and seams remain.",
+        "instruction_match": "Place two short motion dashes beside the canopy without moving any other part.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "canopy outline",
+          "three canopy stripe seams",
+          "four suspension cords",
+          "small hanging basket",
+          "two motion dashes"
+        ],
+        "observed_addition": "Four established canopy sectors gain red, yellow, turquoise and blue marker; existing basket gains brown.",
+        "instruction_match": "Color the established canopy stripes coral, yellow, teal and blue; add brown to the basket without changing outlines.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

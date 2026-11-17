@@ -2084,3 +2084,7 @@
 ## 2026-11-16 — Current party hat lesson (Codex)
 
 - Added Doodlea Day 176, `cartoon-party-hat-with-pom-pom`, for November 16. First sheet was plain with panel borders; second clipped the pom-pom. Third six-panel felt-tip sheet passed saved-crop continuity with one cone, pom-pom, curved band, exactly three dots and connected elastic loop before streaky color. Teaching 8.1/10; saved finish 8.0/10 for readable handmade texture and attainable scope. Readiness, JSON-LD, links, image assets, diff check and rendered desktop/mobile tutorial QA passed. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-11-16 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day.
+
+## 2026-11-17 — Private pending lesson (Codex)
+
+- cartoon-parachute-with-striped-canopy has a reviewed six-panel raster sheet and saved crops; teaching and finish each scored at least 8/10. Readiness passed, but browser desktop/mobile QA was unavailable. Lesson remains private and pending; no commit or push. One-current-lesson-per-site cadence remains active; no backfill.

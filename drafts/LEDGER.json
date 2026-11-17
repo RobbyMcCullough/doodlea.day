@@ -291,6 +291,11 @@
       "date": "2026-09-26",
       "note": "Four serious generated raster iterations retained privately. Bottom-row loop clipping and scale/position drift could not be repaired while keeping one cumulative drawing."
     },
+    "cartoon-parachute-with-striped-canopy": {
+      "status": "pending",
+      "date": "2026-11-17",
+      "note": "2026-11-17: art and readiness passed; rendered browser QA unavailable. Do not publish until desktop/mobile review is complete."
+    },
     "cartoon-party-hat-with-pom-pom": {
       "status": "published",
       "date": "2026-11-16",
