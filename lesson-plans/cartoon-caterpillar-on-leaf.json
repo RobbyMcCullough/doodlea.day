@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-caterpillar-on-leaf",
+  "finished": "assets/cartoon-caterpillar-on-leaf-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A round head with two antennae fixes the subject and leaves room for connected segments to the right.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "V1 rejected head replacement; V2 rejected leaf gap; V3 edited raster sheet reviewed and square-cropped."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and antennae",
+      "introduced_by_step": 1,
+      "description": "Draw one round head at left and attach two short curved antennae at its top."
+    },
+    {
+      "name": "three front body segments",
+      "introduced_by_step": 2,
+      "description": "From the head edge, attach three round body segments in a rising curve to the right."
+    },
+    {
+      "name": "three rear body segments",
+      "introduced_by_step": 3,
+      "description": "Continue the same curve with three more round segments, each touching its neighbor."
+    },
+    {
+      "name": "face and six feet",
+      "introduced_by_step": 4,
+      "description": "Place two eyes and a smile inside the head, then add six tiny feet beneath the body."
+    },
+    {
+      "name": "leaf and center vein",
+      "introduced_by_step": 5,
+      "description": "Draw a broad pointed leaf under the feet, with one center vein and two side veins."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-caterpillar-on-leaf-step-1.jpg",
+      "step_name": "Head And Antennae",
+      "visible_job": "Draw one round head at left and attach two short curved antennae at its top.",
+      "instruction": "Draw one round head at left and attach two short curved antennae at its top.",
+      "adds": [
+        "head and antennae"
+      ],
+      "introduces": [
+        "head and antennae"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-caterpillar-on-leaf-step-2.jpg",
+      "step_name": "Three Front Body Segments",
+      "visible_job": "From the head edge, attach three round body segments in a rising curve to the right.",
+      "instruction": "From the head edge, attach three round body segments in a rising curve to the right.",
+      "adds": [
+        "three front body segments"
+      ],
+      "introduces": [
+        "three front body segments"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-caterpillar-on-leaf-step-3.jpg",
+      "step_name": "Three Rear Body Segments",
+      "visible_job": "Continue the same curve with three more round segments, each touching its neighbor.",
+      "instruction": "Continue the same curve with three more round segments, each touching its neighbor.",
+      "adds": [
+        "three rear body segments"
+      ],
+      "introduces": [
+        "three rear body segments"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-caterpillar-on-leaf-step-4.jpg",
+      "step_name": "Face And Six Feet",
+      "visible_job": "Place two eyes and a smile inside the head, then add six tiny feet beneath the body.",
+      "instruction": "Place two eyes and a smile inside the head, then add six tiny feet beneath the body.",
+      "adds": [
+        "face and six feet"
+      ],
+      "introduces": [
+        "face and six feet"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-caterpillar-on-leaf-step-5.jpg",
+      "step_name": "Leaf And Center Vein",
+      "visible_job": "Draw a broad pointed leaf under the feet, with one center vein and two side veins.",
+      "instruction": "Draw a broad pointed leaf under the feet, with one center vein and two side veins.",
+      "adds": [
+        "leaf and center vein"
+      ],
+      "introduces": [
+        "leaf and center vein"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-caterpillar-on-leaf-finished-v1.jpg",
+    "step_name": "Color the caterpillar",
+    "visible_job": "Fill established body segments and leaf with textured marker color.",
+    "instruction": "Color the established body segments alternating coral and yellow, the head coral, and the leaf bright green.",
+    "adds": [
+      "marker color"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "One open round head with two attached antennae fixes the left anchor and leaves room for body circles rightward.",
+    "draw_through_observation": "Reviewed saved square crops in order: round head, two antennae, six attached body circles, two eyes, smile, six legs, pointed leaf, center vein and two side veins persist. No guides. Final adds only marker fill.",
+    "contract_sha256": "5d542a39aeaf17c9eabb2e7069b701251011cfcdef4bdd2e22522b1bb3067282",
+    "asset_sha256": {
+      "assets/cartoon-caterpillar-on-leaf-step-1.jpg": "5b1afadeb6fd2099de85e43959e0cfc576411b49829e6e70bbdb202a2d79145a",
+      "assets/cartoon-caterpillar-on-leaf-step-2.jpg": "5e3ae841f3e6e6b4cb20db82323c6e033aa22b62bfd0f1366c4ccde7935f54a1",
+      "assets/cartoon-caterpillar-on-leaf-step-3.jpg": "f90825144351ad1422a7a9b0db8cdfe0696e3e162fb055abe5d0a420c56a7a2b",
+      "assets/cartoon-caterpillar-on-leaf-step-4.jpg": "3bbeccfa3b766f377f3fe1fad4a56dea6152a3fab6acc41370fbf7dd9fdb5110",
+      "assets/cartoon-caterpillar-on-leaf-step-5.jpg": "8d416e711ad5543d3dc44784da816133a7729aa4bf6f3916c14ab5968dbd159a",
+      "assets/cartoon-caterpillar-on-leaf-finished-v1.jpg": "7887302d54a7680c5500517c8883e6734f9fe6c54d89f182b2835278ad59d868"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head and antennae",
+          "three front body segments"
+        ],
+        "observed_addition": "Three joined body circles appear to the right of the unchanged head and two antennae.",
+        "instruction_match": "From the head edge, attach three round body segments in a rising curve to the right.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head and antennae",
+          "three front body segments",
+          "three rear body segments"
+        ],
+        "observed_addition": "Three more joined circles extend the same body; original head and front three circles stay fixed.",
+        "instruction_match": "Continue the same curve with three more round segments, each touching its neighbor.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head and antennae",
+          "three front body segments",
+          "three rear body segments",
+          "face and six feet"
+        ],
+        "observed_addition": "Two eyes and smile appear inside the head; six small legs attach beneath six body circles.",
+        "instruction_match": "Place two eyes and a smile inside the head, then add six tiny feet beneath the body.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head and antennae",
+          "three front body segments",
+          "three rear body segments",
+          "face and six feet",
+          "leaf and center vein"
+        ],
+        "observed_addition": "Pointed leaf and center plus two side veins appear beneath the unchanged six legs and body.",
+        "instruction_match": "Draw a broad pointed leaf under the feet, with one center vein and two side veins.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head and antennae",
+          "three front body segments",
+          "three rear body segments",
+          "face and six feet",
+          "leaf and center vein"
+        ],
+        "observed_addition": "Coral and yellow fill the same head and six circles; green fills the existing leaf; black contours persist.",
+        "instruction_match": "Color the established body segments alternating coral and yellow, the head coral, and the leaf bright green.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

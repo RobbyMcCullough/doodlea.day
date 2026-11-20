@@ -2092,3 +2092,6 @@
 ## 2026-11-17 — Private pending lesson (Codex)
 
 - cartoon-parachute-with-striped-canopy has a reviewed six-panel raster sheet and saved crops; teaching and finish each scored at least 8/10. Readiness passed, but browser desktop/mobile QA was unavailable. Lesson remains private and pending; no commit or push. One-current-lesson-per-site cadence remains active; no backfill.
+
+## 2026-11-20 daily lesson
+- Day 178, `cartoon-caterpillar-on-leaf`. Rejected V1 for a replaced head segment and V2 for a leaf gap; V3 saved square crops reviewed, teaching/finish 8.0/8.0. Schema-v5 readiness and desktop/mobile rendered QA passed. One-current-lesson-per-site cadence remains active.
