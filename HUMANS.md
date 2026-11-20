@@ -129,6 +129,10 @@
 
 # Human Notes
 
+## 2026-11-20 — Pending lesson publication (Codex)
+
+- Restored November 17 Day 177 `cartoon-parachute-with-striped-canopy` from its approved raster sheet and schema-v5 plan. Desktop/mobile local tutorial QA and readiness passed; one-current-lesson-per-site cadence remains active.
+
 ## 2026-10-03 — Current paint tube lesson (Codex)
 
 - Added Doodlea Day 138, `cartoon-squeezed-paint-tube`, for October 3. The four-stage marker lesson keeps a tilted tube, folded crimp, three-rib cap, label, single drop, and ground shadow at stable anchors; color and small paper shines arrive only in the finish. Four generated sheets and two targeted edits were reviewed before the corrected sequence passed. Rejected iterations remain private under `drafts/`.
