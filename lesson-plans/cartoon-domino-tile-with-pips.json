@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-domino-tile-with-pips",
+  "finished": "assets/cartoon-domino-tile-with-pips-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The tall rounded tile outline fixes the complete silhouette and leaves two clear regions for pips.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel handmade felt-tip raster sheet; review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "tile outline",
+      "introduced_by_step": 1,
+      "description": "Draw a tall rounded rectangle tipped slightly to the right, with a single black marker contour."
+    },
+    {
+      "name": "center divider",
+      "introduced_by_step": 2,
+      "description": "Draw one short horizontal divider across the middle of the established tile."
+    },
+    {
+      "name": "two upper pips",
+      "introduced_by_step": 3,
+      "description": "Add two bold round pips on a diagonal inside the upper half."
+    },
+    {
+      "name": "four lower pips",
+      "introduced_by_step": 4,
+      "description": "Add four round pips in the lower half, one near each corner."
+    },
+    {
+      "name": "two motion ticks",
+      "introduced_by_step": 5,
+      "description": "Draw two short curved motion ticks just outside the tile upper-left edge."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-domino-tile-with-pips-step-1.jpg",
+      "step_name": "Tile Outline",
+      "visible_job": "Draw a tall rounded rectangle tipped slightly to the right, with a single black marker contour.",
+      "instruction": "Draw a tall rounded rectangle tipped slightly to the right, with a single black marker contour.",
+      "adds": [
+        "tile outline"
+      ],
+      "introduces": [
+        "tile outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-domino-tile-with-pips-step-2.jpg",
+      "step_name": "Center Divider",
+      "visible_job": "Draw one short horizontal divider across the middle of the established tile.",
+      "instruction": "Draw one short horizontal divider across the middle of the established tile.",
+      "adds": [
+        "center divider"
+      ],
+      "introduces": [
+        "center divider"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-domino-tile-with-pips-step-3.jpg",
+      "step_name": "Two Upper Pips",
+      "visible_job": "Add two bold round pips on a diagonal inside the upper half.",
+      "instruction": "Add two bold round pips on a diagonal inside the upper half.",
+      "adds": [
+        "two upper pips"
+      ],
+      "introduces": [
+        "two upper pips"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-domino-tile-with-pips-step-4.jpg",
+      "step_name": "Four Lower Pips",
+      "visible_job": "Add four round pips in the lower half, one near each corner.",
+      "instruction": "Add four round pips in the lower half, one near each corner.",
+      "adds": [
+        "four lower pips"
+      ],
+      "introduces": [
+        "four lower pips"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-domino-tile-with-pips-step-5.jpg",
+      "step_name": "Two Motion Ticks",
+      "visible_job": "Two short curved motion ticks appear outside the upper-left tile edge.",
+      "instruction": "Draw two short curved motion ticks outside the upper-left tile edge, leaving a white gap.",
+      "adds": [
+        "two motion ticks"
+      ],
+      "introduces": [
+        "two motion ticks"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-domino-tile-with-pips-finished-v1.jpg",
+    "step_name": "Color the domino",
+    "visible_job": "Fill the established tile halves in teal and coral marker, keeping all six black pips clear.",
+    "instruction": "Fill the top half with teal marker and the lower half coral, preserving two upper and four lower black pips and the two motion ticks.",
+    "adds": [
+      "teal and coral marker fill"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "Saved crop 1 has one tall tilted rounded tile contour with clear upper and lower interior space; a beginner can copy its four rounded turns.",
+    "draw_through_observation": "Inspected all six saved square crops in order: stable tilted outer tile, center divider, two upper diagonal pips, four lower corner pips, two exterior upper-left motion ticks, then teal and coral marker fill. No guides or missing structural marks. Finish is bold, readable and attainable with visible marker streaks.",
+    "contract_sha256": "59370807f02598ea271587434e71fb70bc55391a9b188c5e2ecd6233f903ea39",
+    "asset_sha256": {
+      "assets/cartoon-domino-tile-with-pips-step-1.jpg": "f43122c19333cf5dd72b16e185fc0ee89c61773d05fe6ce4facc24e030b51298",
+      "assets/cartoon-domino-tile-with-pips-step-2.jpg": "d2c3666feec41bed955e88b535f2394780fc4015074aa470b747c12df9e39043",
+      "assets/cartoon-domino-tile-with-pips-step-3.jpg": "53377208a7fbfc688854fd03ec81349303ab9d9aa36c02e9af9f142395ba0523",
+      "assets/cartoon-domino-tile-with-pips-step-4.jpg": "78533f84fc41d11a3f88d6b445a48c7b8d67973e1dd935f80a743437cef11abf",
+      "assets/cartoon-domino-tile-with-pips-step-5.jpg": "eb5e7fa050e82cd9edc1e01c9978fea1fe7cd7c865d2479cebd83ade2d77b7a3",
+      "assets/cartoon-domino-tile-with-pips-finished-v1.jpg": "322a8f1db98a341a20b852027f92b4bcbfaa236e49f3297d06e0079696e48942"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "tile outline",
+          "center divider"
+        ],
+        "observed_addition": "One black divider crosses the original tilted tile at mid-height.",
+        "instruction_match": "Draw one short horizontal divider across the middle of the established tile.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "tile outline",
+          "center divider",
+          "two upper pips"
+        ],
+        "observed_addition": "Two round black pips appear diagonally in the top half.",
+        "instruction_match": "Add two bold round pips on a diagonal inside the upper half.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "tile outline",
+          "center divider",
+          "two upper pips",
+          "four lower pips"
+        ],
+        "observed_addition": "Four lower black pips appear at the four corners of the bottom half.",
+        "instruction_match": "Add four round pips in the lower half, one near each corner.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "tile outline",
+          "center divider",
+          "two upper pips",
+          "four lower pips",
+          "two motion ticks"
+        ],
+        "observed_addition": "Two separate curved ticks appear just outside the upper-left edge; six pips remain.",
+        "instruction_match": "Draw two short curved motion ticks outside the upper-left tile edge, leaving a white gap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "tile outline",
+          "center divider",
+          "two upper pips",
+          "four lower pips",
+          "two motion ticks"
+        ],
+        "observed_addition": "Teal marker fills the upper region and coral fills the lower region; all six black pips, divider and two motion ticks remain.",
+        "instruction_match": "Fill the top half with teal marker and the lower half coral, preserving two upper and four lower black pips and the two motion ticks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

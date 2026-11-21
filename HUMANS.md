@@ -2095,3 +2095,6 @@
 
 ## 2026-11-20 daily lesson
 - Day 178, `cartoon-caterpillar-on-leaf`. Rejected V1 for a replaced head segment and V2 for a leaf gap; V3 saved square crops reviewed, teaching/finish 8.0/8.0. Schema-v5 readiness and desktop/mobile rendered QA passed. One-current-lesson-per-site cadence remains active.
+
+## 2026-11-21 daily run
+- Doodlea Day 179: `cartoon-domino-tile-with-pips` is the current lesson. Six saved square crops preserve the tile, divider, two upper pips, four lower pips and two motion ticks through teal/coral marker fill; teaching and finish 8.0/10. Readiness, diff and desktop/mobile rendered QA passed. One-current-lesson-per-site cadence remains active.
