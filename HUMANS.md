@@ -2098,3 +2098,6 @@
 
 ## 2026-11-21 daily run
 - Doodlea Day 179: `cartoon-domino-tile-with-pips` is the current lesson. Six saved square crops preserve the tile, divider, two upper pips, four lower pips and two motion ticks through teal/coral marker fill; teaching and finish 8.0/10. Readiness, diff and desktop/mobile rendered QA passed. One-current-lesson-per-site cadence remains active.
+
+## 2026-11-22 daily return note
+- Codex desktop automation published the current Day 180 marker lesson, `cartoon-folding-paper-fan`, from this Doodlea.day folder. Six saved crops and the rendered home, library, and tutorial pages were reviewed at desktop and mobile widths; the first sheet was rejected and retained privately. The one-current-lesson-per-site cadence remains active.

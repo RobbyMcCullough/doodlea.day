@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "cartoon-folding-paper-fan",
+  "finished": "assets/cartoon-folding-paper-fan-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A rounded fan leaf above a pivot gives the learner a recognizable footprint and fixed center.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Second six-panel handmade marker sheet approved; first rejected for replaced pivot contour and panel borders."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "fan silhouette and handle",
+      "introduced_by_step": 1,
+      "description": "Broad fan leaf with curved rim, round pivot and short handle in final positions"
+    },
+    {
+      "name": "three inner ribs",
+      "introduced_by_step": 2,
+      "description": "Three straight inner ribs radiating to the upper rim"
+    },
+    {
+      "name": "inner scalloped trim",
+      "introduced_by_step": 3,
+      "description": "Scalloped decorative arc below the preserved outer rim"
+    },
+    {
+      "name": "two lower dots",
+      "introduced_by_step": 4,
+      "description": "Two small black dots inside the lower fan leaf"
+    },
+    {
+      "name": "two motion ticks",
+      "introduced_by_step": 5,
+      "description": "Two short separate ticks outside the upper-left edge"
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cartoon-folding-paper-fan-step-1.jpg",
+      "step_name": "Shape the fan",
+      "visible_job": "Draw a broad curved fan leaf with two sides meeting a round pivot and a short handle below.",
+      "instruction": "Draw a broad curved fan leaf with two sides meeting a round pivot and a short handle below.",
+      "adds": [
+        "fan silhouette and handle"
+      ],
+      "introduces": [
+        "fan silhouette and handle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cartoon-folding-paper-fan-step-2.jpg",
+      "step_name": "Divide the leaf",
+      "visible_job": "From the pivot, draw three straight inner ribs to the curved upper rim.",
+      "instruction": "From the pivot, draw three straight inner ribs to the curved upper rim.",
+      "adds": [
+        "three inner ribs"
+      ],
+      "introduces": [
+        "three inner ribs"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cartoon-folding-paper-fan-step-3.jpg",
+      "step_name": "Add the trim",
+      "visible_job": "Draw a scalloped decorative arc just inside the existing upper rim.",
+      "instruction": "Draw a scalloped decorative arc just inside the existing upper rim.",
+      "adds": [
+        "inner scalloped trim"
+      ],
+      "introduces": [
+        "inner scalloped trim"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cartoon-folding-paper-fan-step-4.jpg",
+      "step_name": "Place two dots",
+      "visible_job": "Add one small black dot in each lower outside wedge.",
+      "instruction": "Add one small black dot in each lower outside wedge.",
+      "adds": [
+        "two lower dots"
+      ],
+      "introduces": [
+        "two lower dots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cartoon-folding-paper-fan-step-5.jpg",
+      "step_name": "Show a flutter",
+      "visible_job": "Draw two short motion ticks outside the fan\u2019s upper-left edge.",
+      "instruction": "Draw two short motion ticks outside the fan\u2019s upper-left edge.",
+      "adds": [
+        "two motion ticks"
+      ],
+      "introduces": [
+        "two motion ticks"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cartoon-folding-paper-fan-finished-v1.jpg",
+    "step_name": "Color the fan",
+    "visible_job": "Fill established fan sections coral, yellow and teal with visible marker strokes.",
+    "instruction": "Fill the existing fan sections with alternating coral, yellow and teal marker strokes, preserving the black ribs, dots and motion ticks.",
+    "adds": [
+      "marker color in established fan sections"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The broad fan leaf, round pivot and short handle form a recognizable complete footprint with room for ribs.",
+    "draw_through_observation": "Reviewed six saved square crops in order: outer fan and handle, ribs, inner scallop, two dots, two ticks, then color. No guides, contour removals or moving anchors.",
+    "contract_sha256": "0d4833c8ffe68f8e2c9e427cb1f222adc5de81d7ea27f9fc4575e4700b67e60c",
+    "asset_sha256": {
+      "assets/cartoon-folding-paper-fan-step-1.jpg": "03919278a457dc69b5636ba8fe40107965310c2934eb9d919c717821b0925c7e",
+      "assets/cartoon-folding-paper-fan-step-2.jpg": "ec7ac83d157558ca635bf4b836f5e366dde7d198070a61e79d7d0d6f61b4750d",
+      "assets/cartoon-folding-paper-fan-step-3.jpg": "c97616e0b1eb1a02c1393edaa56eef30c20dc5b2408bebf9f52fee641bd4f009",
+      "assets/cartoon-folding-paper-fan-step-4.jpg": "7447234768f6abaf09e5f47a3122f37b39c85373490057ae1b1ae818bdf96b68",
+      "assets/cartoon-folding-paper-fan-step-5.jpg": "0be335b773cb00311310581e5971b2245aa2b9db0b18aaca28f27b868eb42568",
+      "assets/cartoon-folding-paper-fan-finished-v1.jpg": "fdfb0adcdbcacbc865bdc04595c588c79cefb36a825931ea1c2caddc322dec08"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "fan silhouette and handle",
+          "three inner ribs"
+        ],
+        "observed_addition": "Three straight interior ribs appear from the round pivot to the top rim; outer leaf and handle stay fixed.",
+        "instruction_match": "From the pivot, draw three straight inner ribs to the curved upper rim.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "fan silhouette and handle",
+          "three inner ribs",
+          "inner scalloped trim"
+        ],
+        "observed_addition": "Scalloped trim appears just inside the retained rim; three ribs, pivot and handle stay fixed.",
+        "instruction_match": "Draw a scalloped decorative arc just inside the existing upper rim.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "fan silhouette and handle",
+          "three inner ribs",
+          "inner scalloped trim",
+          "two lower dots"
+        ],
+        "observed_addition": "Two black dots appear near the lower fan sides; existing rim, trim and ribs remain.",
+        "instruction_match": "Add one small black dot in each lower outside wedge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "fan silhouette and handle",
+          "three inner ribs",
+          "inner scalloped trim",
+          "two lower dots",
+          "two motion ticks"
+        ],
+        "observed_addition": "Two motion ticks appear outside the upper-left edge; all inner and outer fan lines stay fixed.",
+        "instruction_match": "Draw two short motion ticks outside the fan\u2019s upper-left edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "fan silhouette and handle",
+          "three inner ribs",
+          "inner scalloped trim",
+          "two lower dots",
+          "two motion ticks"
+        ],
+        "observed_addition": "Coral, yellow and teal marker fill appears inside established sections; black lines, dots and ticks remain.",
+        "instruction_match": "Fill the existing fan sections with alternating coral, yellow and teal marker strokes, preserving the black ribs, dots and motion ticks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
